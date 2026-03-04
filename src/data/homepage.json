@@ -181,14 +181,14 @@
     { "id": 4, "slug": "hillary-clinton-time100", "category": "business", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/Davenport4-6.jpg", "sponsored": false }
   ],
   "categories": [
-    { "label": "U.S.","image": "/Davenport4-2-1024x683.jpg" },
-    { "label": "World","image": "/Davenport4-6.jpg" },
-    { "label": "Business","image": "/Davenport4-2-1024x683.jpg" },
-    { "label": "Investigation", "image": "/Davenport4-6.jpg" },
-    { "label": "Politics", "image": "/Davenport4-2-1024x683.jpg" },
-    { "label": "Tech", "image": "/Davenport4-6.jpg" },
-    { "label": "Science", "image": "/Davenport4-6.jpg" },
-    { "label": "Banking", "image": "/Davenport4-6.jpg" }
+    { "label": "U.S.","image": "/cat-bgcolor.webp" },
+    { "label": "World","image": "/cat-bgcolor.webp" },
+    { "label": "Business","image": "/cat-bgcolor.webp" },
+    { "label": "Investigation", "image": "/cat-bgcolor.webp" },
+    { "label": "Politics", "image": "/cat-bgcolor.webp" },
+    { "label": "Tech", "image": "/cat-bgcolor.webp" },
+    { "label": "Science", "image": "/cat-bgcolor.webp" },
+    { "label": "Banking", "image": "/cat-bgcolor.webp" }
   ],
   "discoveryMain": {
     "id": 501,

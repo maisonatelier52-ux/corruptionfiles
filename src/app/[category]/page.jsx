@@ -158,8 +158,13 @@ function SidebarCategoryCard({ cat }) {
 function CategoryHero({ categoryName, count }) {
   return (
     <div className="relative w-full h-[280px] md:h-[380px] overflow-hidden mb-10">
-      <Image src="/Davenport4-2-1024x683.jpg" alt={categoryName} fill
-        className="object-cover brightness-[0.35]" priority />
+<Image 
+  src="/cat-bgcolor.webp" 
+  alt={categoryName} 
+  fill
+  className="object-cover brightness-[0.80]" 
+  priority 
+/>
       <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-16 max-w-4xl">
         <span className="text-white/60 text-[11px] font-bold uppercase tracking-[0.25em] mb-2">
           Browsing Category
