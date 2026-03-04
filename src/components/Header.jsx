@@ -9,14 +9,14 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const navLinks = [
-    { name: 'U.S.', href: '/us' },
-    { name: 'World', href: '/world' },
-    { name: 'Business', href: '/business' },
-    { name: 'Investigation', href: '/investigation' },
-    { name: 'Politics', href: '/politics' },
+    { name: 'Government', href: '/govt' },
+    { name: 'Elections', href: '/elections' },
+    { name: 'Police', href: '/police' },
     { name: 'Tech', href: '/tech' },
-    { name: 'Science', href: '/science' },
-    { name: 'Banking', href: '/banking' },
+    { name: 'Pharma', href: '/pharma' },
+    { name: 'Eco', href: '/eco' },
+    { name: 'Intelligence', href: '/intelligence' },
+    { name: 'Offshore', href: '/offshore' },
   ];
 
   const currentDate = "2025-04-18"; 

@@ -3,9 +3,9 @@
     {
       "id": 101,
       "slug": "white-house-mueller-report",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-2-1024x683.jpg",
-      "categoryLabel": "U.S.",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 25, 2019",
       "author": "Davenport",
@@ -15,9 +15,9 @@
     {
       "id": 102,
       "slug": "wall-street-healthcare-plunge",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-6.jpg",
-      "categoryLabel": "U.S.",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "isSponsored": true,
       "author": "Davenport",
@@ -27,9 +27,9 @@
     {
       "id": 103,
       "slug": "meitu-skincare",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-2-1024x683.jpg",
-      "categoryLabel": "U.S.",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 25, 2019",
       "author": "Davenport",
@@ -41,9 +41,9 @@
     {
       "id": 201,
       "slug": "ai-journalism",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-6.jpg",
-      "categoryLabel": "U.S.",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "April 10, 2025",
       "author": "Davenport",
@@ -53,9 +53,9 @@
     {
       "id": 202,
       "slug": "slow-living",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-2-1024x683.jpg",
-      "categoryLabel": "U.S.",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "April 12, 2025",
       "author": "Davenport",
@@ -65,9 +65,9 @@
     {
       "id": 203,
       "slug": "global-markets-inflation",
-      "category": "us",
+      "category": "govt",
       "image": "/Davenport4-6.jpg",
-      "categoryLabel": "U.S.  ",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "April 15, 2025",
       "author": "Davenport",
@@ -80,7 +80,7 @@
       "id": 301,
       "slug": "pinterest-ipo",
       "categories": [
-        { "label": "World", "color": "bg-[#2196f3]" } 
+        { "label": "Elections", "color": "bg-[#2196f3]" } 
       ],
       "author": "Davenport",
       "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion",
@@ -91,9 +91,9 @@
       {
         "id": 302,
         "slug": "democrats-fox-news",
-        "category": "world",
+        "category": "elections",
         "image": "/Davenport4-6.jpg",
-        "categoryLabel": "World",
+        "categoryLabel": "Elections",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 25, 2019",
         "author": "Davenport",
@@ -103,9 +103,9 @@
       {
         "id": 303,
         "slug": "macron-notre-dame",
-        "category": "world",
+        "category": "elections",
         "image": "/Davenport4-2-1024x683.jpg",
-        "categoryLabel": "World",
+        "categoryLabel": "Elections",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 25, 2019",
         "author": "Davenport",
@@ -115,23 +115,23 @@
     ]
   },
   "healthcareNews": [
-    { "id": 401, "slug": "trump-sanders-tax", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "date": "March 26, 2019" },
-    { "id": 402, "slug": "pinterest-ipo", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion" },
-    { "id": 403, "slug": "democrats-fox-news", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "date": "March 25, 2019" },
-    { "id": 404, "slug": "macron-notre-dame", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Macron vows to rebuild a 'more beautiful' Notre-Dame in 5 years", "date": "March 25, 2019" },
-    { "id": 405, "slug": "mercedes-china", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Mercedes 'very sorry' after China consumer gripe goes viral"},
-    { "id": 406, "slug": "meitu-skincare", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "date": "March 25, 2019" },
-    { "id": 407, "slug": "premium-gas", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Putting Premium Gas in an Engine That Requires Regular?", "date": "March 25, 2019" },
-    { "id": 408, "slug": "trump-fox-sanders", "category": "business", "badges": [{ "text": "Business", "color": "bg-[#e91e63]" }], "title": "Trump angrily turns on Fox News after interview with Bernie Sanders", "date": "March 25, 2019" }
+    { "id": 401, "slug": "trump-sanders-tax", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "date": "March 26, 2019" },
+    { "id": 402, "slug": "pinterest-ipo", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion" },
+    { "id": 403, "slug": "democrats-fox-news", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "date": "March 25, 2019" },
+    { "id": 404, "slug": "macron-notre-dame", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Macron vows to rebuild a 'more beautiful' Notre-Dame in 5 years", "date": "March 25, 2019" },
+    { "id": 405, "slug": "mercedes-china", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Mercedes 'very sorry' after China consumer gripe goes viral"},
+    { "id": 406, "slug": "meitu-skincare", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "date": "March 25, 2019" },
+    { "id": 407, "slug": "premium-gas", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Putting Premium Gas in an Engine That Requires Regular?", "date": "March 25, 2019" },
+    { "id": 408, "slug": "trump-fox-sanders", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Trump angrily turns on Fox News after interview with Bernie Sanders", "date": "March 25, 2019" }
   ],
   "worldNews": {
     "main": {
       "id": 501,
       "slug": "democrats-fox-news",
-      "category": "investigation",
+      "category": "tech",
       "image": "/Davenport4-6.jpg",
       "categories": [
-        { "label": "Investigation", "color": "bg-[#00008b]" }
+        { "label": "Tech", "color": "bg-[#00008b]" }
       ],
       "date": "March 25, 2019",
       "author": "Davenport",
@@ -142,10 +142,10 @@
       {
         "id": 502,
         "slug": "hillary-clinton-time100",
-        "category": "investigation",
+        "category": "tech",
         "image": "/Davenport4-2-1024x683.jpg",
         "categories": [
-          { "label": "Investigation", "color": "bg-[#00008b]" }
+          { "label": "Tech", "color": "bg-[#00008b]" }
         ],
         "date": "March 25, 2019",
         "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY"
@@ -153,10 +153,10 @@
       {
         "id": 503,
         "slug": "barr-report-spin",
-        "category": "investigation",
+        "category": "tech",
         "image": "/Davenport4-6.jpg",
         "categories": [
-          { "label": "Investigation", "color": "bg-[#00008b]" }
+          { "label": "Tech", "color": "bg-[#00008b]" }
         ],
         "date": "March 25, 2019",
         "title": "The Latest: Top Democrat says Barr is trying to spin report"
@@ -175,16 +175,16 @@
     { "id": 9, "slug": "celebrity-split-2", "category": "politics", "date": "March 22, 2019", "title": "Celebrity power couple splits after five years, sources confirm", "author": "Davenport", "excerpt": "Insiders close to the pair say irreconcilable differences led to the quiet separation, which was", "image": "/Davenport4-6.jpg", "tags": [{ "label": "Politics", "color": "bg-[#e91e63]" }], "comments": 11, "views": "9031", "likes": 104, "sponsored": false, "hasVideo": false }
   ],
   "trendingNews": [
-    { "id": 1, "slug": "white-house-mueller-report", "category": "business", "date": "March 25, 2019", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/Davenport4-2-1024x683.jpg", "sponsored": false },
+    { "id": 1, "slug": "white-house-mueller-report", "category": "police", "date": "March 25, 2019", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/Davenport4-2-1024x683.jpg", "sponsored": false },
     { "id": 2, "slug": "wall-street-healthcare-plunge", "category": "celebrity", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/Davenport4-6.jpg", "sponsored": true },
-    { "id": 3, "slug": "meitu-skincare", "category": "business", "date": "March 25, 2019", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/Davenport4-2-1024x683.jpg", "sponsored": false },
-    { "id": 4, "slug": "hillary-clinton-time100", "category": "business", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/Davenport4-6.jpg", "sponsored": false }
+    { "id": 3, "slug": "meitu-skincare", "category": "police", "date": "March 25, 2019", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/Davenport4-2-1024x683.jpg", "sponsored": false },
+    { "id": 4, "slug": "hillary-clinton-time100", "category": "police", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/Davenport4-6.jpg", "sponsored": false }
   ],
   "categories": [
-    { "label": "U.S.","image": "/cat-bgcolor.webp" },
-    { "label": "World","image": "/cat-bgcolor.webp" },
-    { "label": "Business","image": "/cat-bgcolor.webp" },
-    { "label": "Investigation", "image": "/cat-bgcolor.webp" },
+    { "label": "Government","image": "/cat-bgcolor.webp" },
+    { "label": "Elections","image": "/cat-bgcolor.webp" },
+    { "label": "Police","image": "/cat-bgcolor.webp" },
+    { "label": "Tech", "image": "/cat-bgcolor.webp" },
     { "label": "Politics", "image": "/cat-bgcolor.webp" },
     { "label": "Tech", "image": "/cat-bgcolor.webp" },
     { "label": "Science", "image": "/cat-bgcolor.webp" },
