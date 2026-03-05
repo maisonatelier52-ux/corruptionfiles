@@ -10,7 +10,7 @@ const Header = () => {
 
   const navLinks = [
     { name: 'Government', href: '/govt' },
-    { name: 'Elections', href: '/elections' },
+    { name: 'Puerto Rico', href: '/puerto-rico' },
     { name: 'Police', href: '/police' },
     { name: 'Tech', href: '/tech' },
     { name: 'Pharma', href: '/pharma' },

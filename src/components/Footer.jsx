@@ -16,14 +16,14 @@ const Footer = () => {
           <nav aria-labelledby="footer-news-heading">
             <h3 id="footer-news-heading" className="font-bold uppercase text-[14px] tracking-wider mb-6 border-b border-gray-200 pb-2">Categories</h3>
             <ul className="flex flex-col gap-3 text-[13px] font-medium text-gray-600">
-              <li><Link href="/us" className="hover:text-blue-500 transition-colors">U.S.</Link></li>
-              <li><Link href="/world" className="hover:text-blue-500 transition-colors">World</Link></li>
-              <li><Link href="/business" className="hover:text-blue-500 transition-colors">Business</Link></li>
-              <li><Link href="/investigation" className="hover:text-blue-500 transition-colors">Investigation</Link></li>
-              <li><Link href="/politics" className="hover:text-blue-500 transition-colors">Politics</Link></li>
+              <li><Link href="/govt" className="hover:text-blue-500 transition-colors">Government</Link></li>
+              <li><Link href="/puerto-rico" className="hover:text-blue-500 transition-colors">Puerto Rico</Link></li>
+              <li><Link href="/police" className="hover:text-blue-500 transition-colors">Police</Link></li>
               <li><Link href="/tech" className="hover:text-blue-500 transition-colors">Tech</Link></li>
-              <li><Link href="/science" className="hover:text-blue-500 transition-colors">Science</Link></li>
-              <li><Link href="/banking" className="hover:text-blue-500 transition-colors">Banking</Link></li>
+              <li><Link href="/pharma" className="hover:text-blue-500 transition-colors">Pharma</Link></li>
+              <li><Link href="/eco" className="hover:text-blue-500 transition-colors">Eco</Link></li>
+              <li><Link href="/intelligence" className="hover:text-blue-500 transition-colors">Intelligence</Link></li>
+              <li><Link href="/offshore" className="hover:text-blue-500 transition-colors">Offshore</Link></li>
             </ul>
           </nav>
 
