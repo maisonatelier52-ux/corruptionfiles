@@ -552,8 +552,8 @@ export default async function ArticlePage({ params }) {
             {/* Newsletter */}
             <Newsletter />
 
-            {/* Leave a Reply — form only, no comments list */}
-            <LeaveReply />
+            {/*<LeaveReply />*/}
+           
 
           </div>
 

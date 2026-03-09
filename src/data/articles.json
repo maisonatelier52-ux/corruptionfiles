@@ -1,12 +1,12 @@
 {
-  "business": [
+  "govt": [
     {
       "id": 1,
       "metaTitle": "White House and Justice Dept. Discussed Mueller Report Before Release",
       "metaDescription": "Spring is finally here—the White House and Justice Department discussed the Mueller Report before its public release, raising questions about editorial independence.",
-      "slug": "white-house-mueller-report",
-      "category": "business",
-      "categoryLabel": "Business",
+      "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions",
+      "category": "govt",
+      "categoryLabel": "Government",
       "categoryColor": "bg-[#2196f3]",
       "heading": "White House and Justice Dept. Discussed Mueller Report Before Release",
       "excerpt": "Spring is finally here—even though it doesn't really feel like it, with temperatures hovering at just about freezing for much of the country.",

@@ -4,7 +4,7 @@
       "id": 101,
       "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions",
       "category": "govt",
-      "image": "/Davenport4-2-1024x683.jpg",
+      "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
@@ -16,7 +16,7 @@
       "id": 102,
       "slug": "u-k-chancellor-makes-2026-spring-forecast-in-westminster",
       "category": "govt",
-      "image": "/Davenport4-6.jpg",
+      "image": "/u-k-chancellor-makes-2026-spring-forecast-in-westminster.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 3, 2026",
@@ -28,7 +28,7 @@
       "id": 103,
       "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict",
       "category": "govt",
-      "image": "/Davenport4-2-1024x683.jpg",
+      "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
@@ -42,7 +42,7 @@
       "id": 201,
       "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation",
       "category": "govt",
-      "image": "/Davenport4-6.jpg",
+      "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
@@ -54,7 +54,7 @@
       "id": 202,
       "slug": "green-party-s-hannah-spencer-officially-enters-house-of-commons",
       "category": "govt",
-      "image": "/Davenport4-2-1024x683.jpg",
+      "image": "/green-party-s-hannah-spencer-officially-enters-house-of-commons.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
@@ -66,7 +66,7 @@
       "id": 203,
       "slug": "house-ethics-panel-launches-investigation-into-rep-nancy-mace",
       "category": "govt",
-      "image": "/Davenport4-6.jpg",
+      "image": "/house-ethics-panel-launches-investigation-into-rep-nancy-mace.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 4, 2026",
@@ -85,14 +85,14 @@
       "author": "Davenport",
       "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
       "quote": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
-      "image": "/Davenport4-2-1024x683.jpg"
+      "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp"
     },
     "grid": [
       {
         "id": 302,
         "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico",
         "category": "puerto-rico",
-        "image": "/Davenport4-6.jpg",
+        "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 3, 2026",
@@ -102,27 +102,27 @@
       },
       {
         "id": 303,
-        "slug": "macron-notre-dame",
+        "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open",
         "category": "puerto-rico",
-        "image": "/Davenport4-2-1024x683.jpg",
+        "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
-        "date": "March 25, 2019",
+        "date": "March 8, 2026",
         "author": "Davenport",
-        "title": "Macron vows to rebuild a 'more beautiful' Notre-Dame in 5 years",
-        "description": "First up, you need to know that Zara's sales start online at 10 p.m. now, there isn't a sale.."
+        "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open",
+        "description": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend."
       }
     ]
   },
   "healthcareNews": [
-    { "id": 401, "slug": "trump-sanders-tax", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "date": "March 26, 2019" },
-    { "id": 402, "slug": "pinterest-ipo", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "date": "March 26, 2019" },
-    { "id": 403, "slug": "democrats-fox-news", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "date": "March 25, 2019" },
-    { "id": 404, "slug": "macron-notre-dame", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Macron vows to rebuild a 'more beautiful' Notre-Dame in 5 years", "date": "March 25, 2019" },
-    { "id": 405, "slug": "mercedes-china", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Mercedes 'very sorry' after China consumer gripe goes viral", "date": "March 26, 2019"},
-    { "id": 406, "slug": "meitu-skincare", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "date": "March 25, 2019" },
-    { "id": 407, "slug": "premium-gas", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Putting Premium Gas in an Engine That Requires Regular?", "date": "March 25, 2019" },
-    { "id": 408, "slug": "trump-fox-sanders", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Trump angrily turns on Fox News after interview with Bernie Sanders", "date": "March 25, 2019" }
+        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026" },
+        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026" },
+        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026" },
+        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026" },
+        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026" },
+        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026" },
+        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026" },
+        { "id": 408, "slug": "hogan-howe-police-accountability-review", "category": "police", "badges": [{ "text": "Police", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026" }
   ],
   "worldNews": {
     "main": {
