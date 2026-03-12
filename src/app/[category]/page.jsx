@@ -223,6 +223,10 @@ export default async function CategoryPage({ params }) {
   const categoryName = category.charAt(0).toUpperCase() + category.slice(1);
 
   const articles = getArticlesByCategory(category);
+  const categoryLabel =
+  articles[0]?.categoryLabel ||
+  articles[0]?.categories?.[0]?.label ||
+  categoryName;
   const { trendingNews, categories } = homepageData;
 
   const jsonLd = {
@@ -239,7 +243,7 @@ export default async function CategoryPage({ params }) {
 
       <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">
         {/* Hero */}
-        <CategoryHero categoryName={categoryName} count={articles.length} />
+        <CategoryHero categoryName={categoryLabel} count={articles.length} />
 
         {/* News + Sidebar */}
         <div className="flex flex-col lg:flex-row gap-8">

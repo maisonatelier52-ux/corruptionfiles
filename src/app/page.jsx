@@ -308,7 +308,7 @@ export default function Home() {
         {/* ── Govt SECTION ── */}
         <div className="border-b-2 border-black mb-6">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
-            <Link href="/us" className="hover:text-blue-600 transition-colors">Government</Link>
+            <Link href="/govt" className="hover:text-blue-600 transition-colors">Government</Link>
           </h2>
           <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">Capitol & Westminster</p>
         </div>
@@ -322,7 +322,7 @@ export default function Home() {
         {/* ── PR SECTION ── */}
         <div className="border-b-2 border-black mb-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
-            <Link href="/world" className="hover:text-blue-600 transition-colors">Puerto Rico</Link>
+            <Link href="/puerto-rico" className="hover:text-blue-600 transition-colors">Puerto Rico</Link>
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
@@ -354,7 +354,7 @@ export default function Home() {
         {/* ── Police SECTION ── */}
         <div className="border-b-2 border-black mt-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
-            <Link href="/business" className="hover:text-blue-600 transition-colors">Police</Link>
+            <Link href="/pa" className="hover:text-blue-600 transition-colors">Police Accountability</Link>
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-8 mt-8 mb-8">
@@ -378,7 +378,7 @@ export default function Home() {
         {/* ── INVESTIGATION SECTION ── */}
         <div className="border-b-2 border-black mb-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
-            <Link href="/investigation" className="hover:text-blue-600 transition-colors">Tech</Link>
+            <Link href="/tech" className="hover:text-blue-600 transition-colors">Big Tech & Surveillance</Link>
           </h2>
           <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">News</p>
         </div>
@@ -472,7 +472,7 @@ export default function Home() {
         <section aria-labelledby="tech-discovery" className="mt-7 mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="tech-discovery" className="text-[28px] font-bold text-black leading-tight">
-              <Link href="/tech" className="hover:text-blue-600 transition-colors">Eco</Link>
+              <Link href="/eco" className="hover:text-blue-600 transition-colors">Environmental Exploitation</Link>
             </h2>
             <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">Never miss what people read</p>
           </div>
@@ -495,7 +495,7 @@ export default function Home() {
         <section aria-labelledby="science-heading" className="mt-16 mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="science-heading" className="text-[28px] font-bold text-black leading-tight">
-              <Link href="/science" className="hover:text-blue-600 transition-colors">Intelligence</Link>
+              <Link href="/intelligence" className="hover:text-blue-600 transition-colors">Intelligence</Link>
             </h2>
             <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">News</p>
           </div>
@@ -508,7 +508,7 @@ export default function Home() {
         <section aria-labelledby="banking-heading" className="mt-1 mb-1">
           <div className="border-b-2 border-black mb-4 pb-1">
             <h2 id="banking-heading" className="text-[28px] font-bold text-black leading-tight">
-              <Link href="/banking" className="hover:text-blue-600 transition-colors">Offshore</Link>
+              <Link href="/offshore" className="hover:text-blue-600 transition-colors">Offshore Wealth & Sanctions</Link>
             </h2>
             <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">News</p>
           </div>

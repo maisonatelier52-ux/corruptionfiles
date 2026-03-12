@@ -18,9 +18,9 @@ const Footer = () => {
             <ul className="flex flex-col gap-3 text-[13px] font-medium text-gray-600">
               <li><Link href="/govt" className="hover:text-blue-500 transition-colors">Government</Link></li>
               <li><Link href="/puerto-rico" className="hover:text-blue-500 transition-colors">Puerto Rico</Link></li>
-              <li><Link href="/police" className="hover:text-blue-500 transition-colors">Police</Link></li>
+              <li><Link href="/pa" className="hover:text-blue-500 transition-colors">P.A.</Link></li>
               <li><Link href="/tech" className="hover:text-blue-500 transition-colors">Tech</Link></li>
-              <li><Link href="/pharma" className="hover:text-blue-500 transition-colors">Pharma</Link></li>
+              <li><Link href="/medical-fraud" className="hover:text-blue-500 transition-colors">Medical Fraud</Link></li>
               <li><Link href="/eco" className="hover:text-blue-500 transition-colors">Eco</Link></li>
               <li><Link href="/intelligence" className="hover:text-blue-500 transition-colors">Intelligence</Link></li>
               <li><Link href="/offshore" className="hover:text-blue-500 transition-colors">Offshore</Link></li>

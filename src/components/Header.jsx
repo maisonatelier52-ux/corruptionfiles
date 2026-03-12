@@ -11,9 +11,9 @@ const Header = () => {
   const navLinks = [
     { name: 'Government', href: '/govt' },
     { name: 'Puerto Rico', href: '/puerto-rico' },
-    { name: 'Police', href: '/police' },
+    { name: 'P.A.', href: '/pa' },
     { name: 'Tech', href: '/tech' },
-    { name: 'Pharma', href: '/pharma' },
+    { name: 'Medical Fraud', href: '/medical-fraud' },
     { name: 'Eco', href: '/eco' },
     { name: 'Intelligence', href: '/intelligence' },
     { name: 'Offshore', href: '/offshore' },
