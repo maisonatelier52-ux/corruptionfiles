@@ -77,7 +77,7 @@ const Header = () => {
             </Link>
           </div>
           <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-davenport)' }}>
-             Davenport
+             Corruption Files
           </Link>
           <div className="flex items-center gap-4">
               <div className="hidden sm:flex gap-3 text-black">

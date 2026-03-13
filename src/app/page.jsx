@@ -5,7 +5,7 @@ import homepageData from "@/data/homepage.json";
 import Newsletter from "@/components/Newsletter";
 import AdBanner from "@/components/AdBanner";
 import StickyAd from "@/components/StickyAd";
-
+import CategoryCard from "@/components/CategoryCard";
 export const metadata = {
   title: "Daily News | Politics, Business, and World Updates",
   description: "Breaking news coverage of politics, business, technology, and world events.",
@@ -132,20 +132,6 @@ function TrendingCard({ item }) {
         ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
         : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
       <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">{item.title}</p>
-    </Link>
-  );
-}
-
-// Sidebar category bar — links to /{slug} e.g. /us /world /business
-function CategoryCard({ cat }) {
-  const slug = labelToSlug(cat.label);
-  return (
-    <Link href={`/${slug}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
-      <Image src={cat.image} alt={cat.label} fill sizes="300px"
-        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
-      <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
-        <span className="text-white font-bold text-base">{cat.label}</span>
-      </div>
     </Link>
   );
 }
@@ -293,8 +279,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
     name: "Daily News",
-    url: "https://www.yourwebsite.com",
-    logo: "https://www.yourwebsite.com/logo.png",
+    url: "https://www.www.corruptionfiles.com",
+    logo: "https://www.www.corruptionfiles.com/logo.png",
     sameAs: ["https://twitter.com/yourhandle"],
   };
 

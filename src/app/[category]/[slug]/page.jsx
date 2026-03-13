@@ -222,7 +222,7 @@ function ArticleSidebar({ sidebar }) {
         </h3>
         <div className="flex flex-col gap-1">
           {sidebar.categories.map((cat) => (
-            <Link key={cat.label} href={`/category/${cat.label.toLowerCase()}`}
+            <Link href={`/${cat.category}`}
               className="relative overflow-hidden h-[52px] group block">
               <Image src={cat.image} alt={cat.label} fill sizes="320px"
                 className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />

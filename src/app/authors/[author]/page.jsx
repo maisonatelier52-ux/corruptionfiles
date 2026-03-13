@@ -260,7 +260,7 @@ export default async function AuthorPage({ params }) {
       "@type": "Person",
       name: authorData.name,
       description: authorData.bio,
-      url: `https://yourwebsite.com/authors/${author}`,
+      url: `https://www.corruptionfiles.com/authors/${author}`,
     },
   };
 

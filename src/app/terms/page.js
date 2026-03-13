@@ -2,13 +2,13 @@ import React from 'react';
 
 // ─── 1. SEO METADATA ───
 export const metadata = {
-  title: "Terms and Conditions | Publicityportal",
-  description: "Read the Terms and Conditions of Use for Publicityportal, governing your access to our digital information network.",
+  title: "Terms and Conditions | Corruption Files",
+  description: "Read the Terms and Conditions of Use for Corruption Files, governing your access to our digital information network.",
   openGraph: {
     type: "website",
-    title: "Terms and Conditions | Publicityportal",
-    description: "Terms and conditions of use for Publicityportal.",
-    siteName: "Publicityportal",
+    title: "Terms and Conditions | Corruption Files",
+    description: "Terms and conditions of use for Corruption Files.",
+    siteName: "Corruption Files",
   },
 };
 
@@ -18,14 +18,14 @@ export default function TermsPage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Terms and Conditions",
-    "description": "Terms and conditions of use for the Publicityportal digital information network.",
-    "url": "https://yourwebsite.com/terms",
+    "description": "Terms and conditions of use for the Corruption Files digital information network.",
+    "url": "https://www.corruptionfiles.com/terms",
     "publisher": {
       "@type": "NewsMediaOrganization",
-      "name": "Publicityportal",
+      "name": "Corruption Files",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yourwebsite.com/logo.png"
+        "url": "https://www.corruptionfiles.com/logo.png"
       }
     }
   };
@@ -46,7 +46,7 @@ export default function TermsPage() {
             Terms and Conditions of Use
           </h1>
           <p className="text-gray-500 uppercase tracking-widest text-sm font-bold">
-            Last Updated: February 2, 2026
+            Last Updated: March 13, 2026
           </p>
         </div>
 
@@ -54,10 +54,10 @@ export default function TermsPage() {
         <div className="prose prose-lg max-w-none text-gray-700 font-serif leading-relaxed">
           
           <p>
-            Welcome to our digital information network. These are our terms and conditions for use of the network, which you may access in several ways, including but not limited to the World Wide Web via Publicityportal, digital television, mobile phone and RSS feeds.
+            Welcome to our digital information network. These are our terms and conditions for use of the network, which you may access in several ways, including but not limited to the World Wide Web via Corruption Files, digital television, mobile phone and RSS feeds.
           </p>
           <p>
-            In these terms and conditions, when we say the <strong>“Publicityportal Site”</strong> or <strong>“our site”</strong> we mean the digital information network operated by or on behalf of Publicityportal, including without limitation, any domains, websites or apps owned or operated by Publicityportal. However you access the Publicityportal Site, you agree to be bound by these terms and conditions.
+            In these terms and conditions, when we say the <strong>“Corruption Files Site”</strong> or <strong>“our site”</strong> we mean the digital information network operated by or on behalf of Corruption Files, including without limitation, any domains, websites or apps owned or operated by Corruption Files. However you access the Corruption Files Site, you agree to be bound by these terms and conditions.
           </p>
 
           <div className="bg-gray-50 border-l-4 border-blue-500 p-6 my-8">
@@ -68,7 +68,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">1. Registration</h2>
           <p>
-            You may access areas of the Publicityportal Site that require registration by becoming a registered member. You agree to be responsible for maintaining the confidentiality of your passwords and all activities that occur under your account.
+            You may access areas of the Corruption Files Site that require registration by becoming a registered member. You agree to be responsible for maintaining the confidentiality of your passwords and all activities that occur under your account.
           </p>
           <ul className="list-disc pl-6 mb-8 space-y-2">
             <li>Your account and password are personal to you and may not be used by anyone else.</li>
@@ -78,14 +78,14 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">2. Termination of Registration</h2>
           <p>
-            If you no longer wish to have a registered account, you may terminate it via your account settings. If you no longer accept these terms and conditions, you must cease using the Publicityportal Site. Continued use indicates your acceptance of any modifications.
+            If you no longer wish to have a registered account, you may terminate it via your account settings. If you no longer accept these terms and conditions, you must cease using the Corruption Files Site. Continued use indicates your acceptance of any modifications.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">3. Use of Material</h2>
           <p>
-            Publicityportal is the sole owner or licensee of all content on the site, including text, images, logos, and metadata (“Publicityportal Content”). This content is protected by global copyright laws.
+            Corruption Files is the sole owner or licensee of all content on the site, including text, images, logos, and metadata (“Corruption Files Content”). This content is protected by global copyright laws.
           </p>
-          <p className="mb-2">You shall not use (or permit the use of) any Publicityportal Content for:</p>
+          <p className="mb-2">You shall not use (or permit the use of) any Corruption Files Content for:</p>
           <ul className="list-disc pl-6 mb-8 space-y-2">
             <li>Machine learning, AI training, or development of language models.</li>
             <li>Text and data mining, scraping, or automated data gathering.</li>
@@ -94,22 +94,22 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">4. Disclaimer of Liability</h2>
           <p>
-            To the extent permitted by law, we do not accept responsibility for any statement in the Publicityportal Content. We give no warranties that the site is virus-free or will be provided uninterrupted. We will not be liable for any loss caused as a result of your reliance on information found on our site.
+            To the extent permitted by law, we do not accept responsibility for any statement in the Corruption Files Content. We give no warranties that the site is virus-free or will be provided uninterrupted. We will not be liable for any loss caused as a result of your reliance on information found on our site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">5. Third Party Advertising</h2>
           <p>
-            You will see advertising material submitted by third parties on the Publicityportal Site. Each individual advertiser is solely responsible for the content of its material. Publicityportal is the sole direct seller of advertising on our site.
+            You will see advertising material submitted by third parties on the Corruption Files Site. Each individual advertiser is solely responsible for the content of its material. Corruption Files is the sole direct seller of advertising on our site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">6. User Content</h2>
           <p>
-            Users may be permitted to submit content. By doing so, you represent that you own the content or have permission to share it. You grant Publicityportal an unconditional, irrevocable, perpetual worldwide licence to use, publish, and transmit your content in any format.
+            Users may be permitted to submit content. By doing so, you represent that you own the content or have permission to share it. You grant Corruption Files an unconditional, irrevocable, perpetual worldwide licence to use, publish, and transmit your content in any format.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">7. Apps</h2>
           <p>
-            All of these terms apply to your use of any Publicityportal applications downloaded from third-party app stores. We are not liable for any damage caused to your equipment through the use of these Apps.
+            All of these terms apply to your use of any Corruption Files applications downloaded from third-party app stores. We are not liable for any damage caused to your equipment through the use of these Apps.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">8. App Meter / Subscriptions</h2>
@@ -124,7 +124,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">10. Changes to Terms</h2>
           <p>
-            We may change these terms and conditions from time to time at our sole discretion. Any revised terms will be applicable at the time of posting on the Publicityportal Site.
+            We may change these terms and conditions from time to time at our sole discretion. Any revised terms will be applicable at the time of posting on the Corruption Files Site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">11. Governing Law & Jurisdiction</h2>
@@ -134,12 +134,12 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">12. Indemnification</h2>
           <p>
-            You agree to defend and indemnify Publicityportal, its affiliates, and employees from any claims, losses, or expenses (including attorney's fees) arising out of your breach of these terms or your use of the site.
+            You agree to defend and indemnify Corruption Files, its affiliates, and employees from any claims, losses, or expenses (including attorney's fees) arising out of your breach of these terms or your use of the site.
           </p>
 
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-12 mb-4">13. No Waiver</h2>
           <p>
-            Our failure to insist upon or enforce any provision of these terms shall not be construed as a waiver of any provision or right of Publicityportal.
+            Our failure to insist upon or enforce any provision of these terms shall not be construed as a waiver of any provision or right of Corruption Files.
           </p>
 
         </div>

@@ -20,13 +20,13 @@ export default function AboutPage() {
     "@type": "AboutPage",
     "name": "About Us | Daily News",
     "description": "Learn more about the Daily News team, our mission, and our editorial standards.",
-    "url": "https://yourwebsite.com/about",
+    "url": "https://www.corruptionfiles.com/about",
     "publisher": {
       "@type": "NewsMediaOrganization",
       "name": "Daily News",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yourwebsite.com/logo.png"
+        "url": "https://www.corruptionfiles.com/logo.png"
       }
     }
   };

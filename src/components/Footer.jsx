@@ -136,9 +136,9 @@ const Footer = () => {
           
           {/* Left: Powered By */}
           <div className="text-[13px] text-gray-500 flex items-center">
-            Powered by 
+            ©2026 - All rights reserved. 
             <Link href="/" className="text-2xl ml-2 text-black hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-davenport)' }}>
-                Davenport
+                Corruption Files
             </Link>
           </div>
 

@@ -5,7 +5,7 @@ import Image from "next/image";
 const CategoryCard = ({ cat }) => {
   return (
     <Link
-      href={`/category/${cat.label.toLowerCase()}`}
+      href={`/${cat.category}`}  // ✅ cat.category not cat.label.toLowerCase()
       className="relative overflow-hidden h-[56px] cursor-pointer group block"
     >
       <Image
@@ -17,9 +17,7 @@ const CategoryCard = ({ cat }) => {
       />
       <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
         <span className="text-white font-bold text-base">{cat.label}</span>
-        <span
-          className={`${cat.countColor} text-white text-sm font-bold w-7 h-7 flex items-center justify-center`}
-        >
+        <span className={`${cat.countColor} text-white text-sm font-bold w-7 h-7 flex items-center justify-center`}>
           {cat.count}
         </span>
       </div>

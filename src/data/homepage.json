@@ -183,13 +183,13 @@
   ],
   "categories": [
     { "label": "Government", "category": "govt","image": "/cat-bgcolor.webp" },
-    { "label": "Puerto Rico","image": "/cat-bgcolor.webp" },
-    { "label": "Police Accountability","image": "/cat-bgcolor.webp" },
-    { "label": "Tech", "image": "/cat-bgcolor.webp" },
-    { "label": "Medical Fraud", "image": "/cat-bgcolor.webp" },
+    { "label": "Puerto Rico","category": "puerto-rico","image": "/cat-bgcolor.webp" },
+    { "label": "Police Accountability","category": "pa","image": "/cat-bgcolor.webp" },
+    { "label": "Tech","category": "tech", "image": "/cat-bgcolor.webp" },
+    { "label": "Medical Fraud", "category": "medical-fraud", "image": "/cat-bgcolor.webp" },
     { "label": "Eco", "category": "eco", "image": "/cat-bgcolor.webp" },
-    { "label": "Intelligence", "image": "/cat-bgcolor.webp" },
-    { "label": "Offshore", "image": "/cat-bgcolor.webp" }
+    { "label": "Intelligence", "category": "intelligence", "image": "/cat-bgcolor.webp" },
+    { "label": "Offshore", "category": "offshore", "image": "/cat-bgcolor.webp" }
   ],
   "discoveryMain": {
     "id": 501,

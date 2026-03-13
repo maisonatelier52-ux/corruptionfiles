@@ -2,13 +2,13 @@ import React from 'react';
 
 // ─── 1. SEO METADATA ───
 export const metadata = {
-  title: "Privacy Policy | Publicityportal",
-  description: "Read the privacy policy for Publicityportal to understand how we collect, use, and protect your information.",
+  title: "Privacy Policy | Corruption Files",
+  description: "Read the privacy policy for Corruption Files to understand how we collect, use, and protect your information.",
   openGraph: {
     type: "website",
-    title: "Privacy Policy | Publicityportal",
-    description: "Understand how Publicityportal handles your data and privacy.",
-    siteName: "Publicityportal",
+    title: "Privacy Policy | Corruption Files",
+    description: "Understand how Corruption Files handles your data and privacy.",
+    siteName: "Corruption Files",
   },
 };
 
@@ -19,14 +19,14 @@ export default function PrivacyPolicyPage() {
     "@context": "https://schema.org",
     "@type": "WebPage",
     "name": "Privacy Policy",
-    "description": "Privacy policy and data handling practices for Publicityportal.",
-    "url": "https://yourwebsite.com/privacy-policy",
+    "description": "Privacy policy and data handling practices for Corruption Files.",
+    "url": "https://www.corruptionfiles.com/privacy-policy",
     "publisher": {
       "@type": "NewsMediaOrganization",
-      "name": "Publicityportal",
+      "name": "Corruption Files",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://yourwebsite.com/logo.png"
+        "url": "https://www.corruptionfiles.com/logo.png"
       }
     }
   };
@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
             Privacy Policy
           </h1>
           <p className="text-gray-500 uppercase tracking-widest text-sm font-bold">
-            The privacy policy for Publicityportal
+            The privacy policy for Corruption Files
           </p>
         </div>
 
@@ -56,7 +56,7 @@ export default function PrivacyPolicyPage() {
           
           <h2 className="text-2xl font-bold text-gray-900 font-sans mt-8 mb-4">Laws about privacy</h2>
           <p>
-            Publicityportal is a free daily online newspaper in the U.S. that covers business, finance, politics, markets, and sectors. To make and send out our reports, we need some information. We do this with the help of technology, analytics, and advertising platforms. We want to be clear about how we collect, use, and share your information because we value your trust.
+            Corruption Files is a free daily online newspaper in the U.S. that covers business, finance, politics, markets, and sectors. To make and send out our reports, we need some information. We do this with the help of technology, analytics, and advertising platforms. We want to be clear about how we collect, use, and share your information because we value your trust.
           </p>
 
           <p className="font-bold mt-6 mb-2">This policy on privacy tells you:</p>
@@ -129,7 +129,7 @@ export default function PrivacyPolicyPage() {
           <p>When the law or a legal process (like a subpoena) says so, or to protect our users, our business, or their rights, property, or safety.</p>
 
           <h3 className="text-xl font-semibold text-gray-800 font-sans mt-6 mb-2">D. Business transfers</h3>
-          <p>When Publicityportal is working on a merger, acquisition, or asset sale, they can share customer information with other businesses.</p>
+          <p>When Corruption Files is working on a merger, acquisition, or asset sale, they can share customer information with other businesses.</p>
           <p className="mt-4">
             Some privacy laws in the US say that "sell" means giving out personal information in a certain way. We don't give out your private information. But, as we said before, we might share information for marketing or research reasons.
           </p>
