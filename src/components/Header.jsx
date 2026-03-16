@@ -1,12 +1,39 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'; 
-import { Facebook, Instagram, Twitter, ChevronLeft, ChevronRight, Search, Mail, Youtube, Menu, X, ChevronRight as ArrowRight } from 'lucide-react';
+import { 
+  Facebook, Instagram, Twitter, ChevronLeft, ChevronRight, 
+  Search, Mail, Youtube, Menu, X, ChevronRight as ArrowRight 
+} from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // Initialize state with null or empty to avoid hydration mismatch
+  const [dateInfo, setDateInfo] = useState({ display: "", iso: "" });
+
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  // Hook to handle the live date calculation on mount
+  useEffect(() => {
+    const now = new Date();
+    
+    // Format for display: FRIDAY, 18 APRIL 2025
+    const displayFormatter = new Intl.DateTimeFormat('en-GB', {
+      weekday: 'long',
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    });
+
+    // Format for HTML attribute: 2025-04-18
+    const isoDate = now.toISOString().split('T')[0];
+    
+    setDateInfo({
+      display: displayFormatter.format(now).toUpperCase(),
+      iso: isoDate
+    });
+  }, []);
 
   const navLinks = [
     { name: 'Government', href: '/govt' },
@@ -19,8 +46,6 @@ const Header = () => {
     { name: 'Offshore', href: '/offshore' },
   ];
 
-  const currentDate = "2025-04-18"; 
-
   return (
     <header className="w-full">
       {/* 1. TOP BAR */}
@@ -28,10 +53,10 @@ const Header = () => {
          <div className="max-w-7xl mx-auto flex items-center h-10 px-4">
             <div className="bg-[#1f2937] h-full items-center px-4 mr-4 hidden lg:flex">
                 <span className="flex items-center gap-2">
-                  📅 <time dateTime={currentDate}>FRIDAY, 18 APRIL 2025</time>
+                  📅 <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
                 </span>
             </div>
-            <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4">TRENDING</div>
+            <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400">TRENDING</div>
             <div className="flex-1 px-2 truncate text-[12px] font-medium normal-case">
                <Link href="/news/wall-street-slips" className="hover:text-blue-400 transition-colors">
                   Wall Street slips, weighed down by healthcare plunge
@@ -77,7 +102,7 @@ const Header = () => {
             </Link>
           </div>
           <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-davenport)' }}>
-             Corruption Files
+              Corruption Files
           </Link>
           <div className="flex items-center gap-4">
               <div className="hidden sm:flex gap-3 text-black">
@@ -101,7 +126,6 @@ const Header = () => {
               <li key={link.name}>
                 <Link href={link.href} className="text-black hover:text-blue-500 flex items-center gap-1 transition-colors">
                   {link.name}
-                  {link.badge && <span className="bg-[#fecaca] text-[#ef4444] text-[9px] px-1 py-0.5 rounded-sm ml-1">{link.badge}</span>}
                 </Link>
               </li>
             ))}
@@ -110,12 +134,12 @@ const Header = () => {
       </div>
 
       {/* 4. MOBILE MENU */}
-      <div className={`sticky top-0 z-40 md:hidden bg-white border-t border-gray-100 transition-all duration-300 overflow-hidden ${isMenuOpen ? 'max-h-125 shadow-lg' : 'max-h-0'}`}>
+      <div className={`sticky top-0 z-40 md:hidden bg-white border-t border-gray-100 transition-all duration-300 overflow-hidden ${isMenuOpen ? 'max-h-[500px] shadow-lg' : 'max-h-0'}`}>
         <nav aria-label="Mobile Navigation" className="flex flex-col">
           <ul>
             {navLinks.map((link) => (
               <li key={link.name}>
-                <Link href={link.href} className="flex items-center justify-between px-6 py-4 border-b border-gray-50 last:border-none hover:bg-gray-50 text-black">
+                <Link href={link.href} onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between px-6 py-4 border-b border-gray-50 last:border-none hover:bg-gray-50 text-black">
                   <span className="font-bold text-[14px] uppercase tracking-wider">{link.name}</span>
                   <ArrowRight size={16} className="text-gray-400" />
                 </Link>
