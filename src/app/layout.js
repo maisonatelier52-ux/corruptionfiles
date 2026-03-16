@@ -5,10 +5,10 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const davenportFont = UnifrakturMaguntia({
+const corruptionfilesFont = UnifrakturMaguntia({
   weight: "400",
   subsets: ["latin"],
-  variable: "--font-davenport",
+  variable: "--font-corruptionfiles",
 });
 
 // 1. ROBUST METADATA: This is the engine of your SEO
@@ -22,14 +22,14 @@ export const metadata = {
     template: "%s | The Daily News", 
   },
   
-  description: "A Davenport newspaper project featuring breaking news, politics, business, and world events.",
+  description: "A corruptionfiles newspaper project featuring breaking news, politics, business, and world events.",
   
-  keywords: ["News", "Davenport", "Politics", "World News", "Business", "Tech"],
+  keywords: ["News", "corruptionfiles", "Politics", "World News", "Business", "Tech"],
 
   // Open Graph: Controls how your site looks when shared on Facebook/LinkedIn
   openGraph: {
     title: "The Daily News",
-    description: "Breaking news and in-depth analysis from Davenport.",
+    description: "Breaking news and in-depth analysis from corruptionfiles.",
     url: 'https://www.your-domain.com',
     siteName: 'The Daily News',
     locale: 'en_US',
@@ -61,7 +61,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${davenportFont.variable} bg-white flex flex-col min-h-screen`}>
+      <body className={`${inter.className} ${corruptionfilesFont.variable} bg-white flex flex-col min-h-screen`}>
         {/* Header stays at the top */}
         <Header />
         
