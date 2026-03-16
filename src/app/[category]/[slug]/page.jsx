@@ -157,7 +157,7 @@ function ArticleSidebar({ sidebar }) {
     <aside className="w-full lg:w-[300px] xl:w-[320px] flex-shrink-0 space-y-8">
       {/* Ad / Promo */}
       <div className="bg-gray-50 border border-gray-200 p-6 text-center">
-        <p className="text-xl font-serif font-bold text-gray-800 mb-1">Davenport</p>
+        <p className="text-xl font-serif font-bold text-gray-800 mb-1">corruptionfiles</p>
         <p className="text-xs text-gray-500 mb-3">Follow the News</p>
         <div className="text-xs text-gray-500 mb-3">Blog and Magazine WordPress Theme</div>
         <p className="text-xs font-semibold text-gray-600 mb-4">Readers in Europe<br />Subscribe for $1 a week</p>

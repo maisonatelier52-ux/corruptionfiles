@@ -23,7 +23,7 @@ const Newsletter = () => {
             Become a Trendsetter
           </h2>
           <p className="text-[16px] md:text-[18px] font-serif italic text-gray-500 max-w-2xl mx-auto leading-relaxed">
-            Sign up for Davenport’s Daily Digest and get the best of Davenport, tailored for you.
+            Sign up for corruptionfiles’s Daily Digest and get the best of corruptionfiles, tailored for you.
           </p>
         </div>
 

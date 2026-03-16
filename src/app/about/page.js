@@ -42,7 +42,7 @@ export default function AboutPage() {
       {/* ─── 3. HERO SECTION ─── */}
       <div className="relative w-full h-[300px] md:h-[450px] overflow-hidden mb-12">
         <Image
-          src="/Davenport4-6.jpg" // Replace with your actual hero image path
+          src="/corruptionfiles4-6.jpg" // Replace with your actual hero image path
           alt="About Us Banner"
           fill
           priority

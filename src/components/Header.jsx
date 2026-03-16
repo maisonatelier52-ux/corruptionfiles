@@ -101,7 +101,7 @@ const Header = () => {
               <Mail size={16} /> Subscribe Now
             </Link>
           </div>
-          <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-davenport)' }}>
+          <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
               Corruption Files
           </Link>
           <div className="flex items-center gap-4">

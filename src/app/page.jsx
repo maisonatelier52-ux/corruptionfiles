@@ -23,7 +23,7 @@ function labelToSlug(label) {
   return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
 }
 
-// Author name → author page URL: "Davenport" → "/authors/davenport"
+// Author name → author page URL: "corruptionfiles" → "/authors/corruptionfiles"
 function authorHref(name) {
   return `/authors/${name.toLowerCase().replace(/\s+/g, "-")}`;
 }

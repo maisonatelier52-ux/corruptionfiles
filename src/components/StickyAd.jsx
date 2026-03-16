@@ -42,7 +42,7 @@ export default function StickyAd() {
         */}
         <div className="bg-indigo-100 px-6 py-8 min-h-[600px] flex flex-col justify-center items-center text-center mb-6">
           <h3 className="font-serif text-4xl font-black text-gray-900 tracking-tight mb-2">
-            Davenport
+            corruptionfiles
           </h3>
           <p className="text-sm text-gray-600 mb-8 font-medium">Follow the News</p>
           <div className="w-full h-px bg-gray-300 mb-8" role="separator" />

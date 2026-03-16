@@ -47,7 +47,7 @@ const Footer = () => {
                   <div className="w-20 h-20 bg-gray-100 flex-shrink-0 overflow-hidden relative">
                     <Link href="/news/trump-sanders">
                         <Image 
-                          src="/Davenport4-2-1024x683.jpg" 
+                          src="/corruptionfiles4-2-1024x683.jpg" 
                           alt="Political news coverage"
                           fill
                           sizes="80px"
@@ -75,7 +75,7 @@ const Footer = () => {
                   <div className="w-20 h-20 bg-gray-100 flex-shrink-0 overflow-hidden relative">
                      <Link href="/news/pinterest-ipo">
                         <Image 
-                          src="/Davenport4-2-1024x683.jpg" 
+                          src="/corruptionfiles4-2-1024x683.jpg" 
                           alt="Man reading newspaper"
                           fill
                           sizes="80px"
@@ -110,7 +110,7 @@ const Footer = () => {
                     <div className="relative h-auto aspect-video md:h-40 w-full">
                        <Link href="/news/tobacco-age">
                           <Image 
-                            src="/Davenport4-6.jpg" 
+                            src="/corruptionfiles4-6.jpg" 
                             alt="Man reading The Daily newspaper"
                             fill
                             sizes="(max-width: 768px) 100vw, 300px"
@@ -125,7 +125,7 @@ const Footer = () => {
                       Mitch McConnell Wants to Raise Tobacco Purchasing Age From 18 to 21, Including for Vaping Devices
                     </Link>
                   </h4>
-                  <span className="text-[11px] text-gray-400">By <span className="font-semibold text-gray-600">Davenport</span></span>
+                  <span className="text-[11px] text-gray-400">By <span className="font-semibold text-gray-600">corruptionfiles</span></span>
                </article> 
             </div>
           </div>
@@ -137,7 +137,7 @@ const Footer = () => {
           {/* Left: Powered By */}
           <div className="text-[13px] text-gray-500 flex items-center">
             ©2026 - All rights reserved. 
-            <Link href="/" className="text-2xl ml-2 text-black hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-davenport)' }}>
+            <Link href="/" className="text-2xl ml-2 text-black hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
                 Corruption Files
             </Link>
           </div>
