@@ -47,7 +47,7 @@ const Footer = () => {
                   <div className="w-20 h-20 bg-gray-100 flex-shrink-0 overflow-hidden relative">
                     <Link href="/news/trump-sanders">
                         <Image 
-                          src="/corruptionfiles4-2-1024x683.jpg" 
+                          src="/davenport4-2-1024x683.jpg" 
                           alt="Political news coverage"
                           fill
                           sizes="80px"
@@ -75,7 +75,7 @@ const Footer = () => {
                   <div className="w-20 h-20 bg-gray-100 flex-shrink-0 overflow-hidden relative">
                      <Link href="/news/pinterest-ipo">
                         <Image 
-                          src="/corruptionfiles4-2-1024x683.jpg" 
+                          src="/davenport4-2-1024x683.jpg" 
                           alt="Man reading newspaper"
                           fill
                           sizes="80px"
@@ -110,7 +110,7 @@ const Footer = () => {
                     <div className="relative h-auto aspect-video md:h-40 w-full">
                        <Link href="/news/tobacco-age">
                           <Image 
-                            src="/corruptionfiles4-6.jpg" 
+                            src="/davenport4-6.jpg" 
                             alt="Man reading The Daily newspaper"
                             fill
                             sizes="(max-width: 768px) 100vw, 300px"

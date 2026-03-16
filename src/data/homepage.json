@@ -130,7 +130,7 @@
       "id": 501,
       "slug": "democrats-fox-news",
       "category": "tech",
-      "image": "/corruptionfiles4-6.jpg",
+      "image": "/davenport4-6.jpg",
       "categories": [
         { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
       ],
@@ -144,7 +144,7 @@
         "id": 502,
         "slug": "hillary-clinton-time100",
         "category": "tech",
-        "image": "/corruptionfiles4-2-1024x683.jpg",
+        "image": "/davenport4-2-1024x683.jpg",
         "categories": [
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
@@ -155,7 +155,7 @@
         "id": 503,
         "slug": "barr-report-spin",
         "category": "tech",
-        "image": "/corruptionfiles4-6.jpg",
+        "image": "/davenport4-6.jpg",
         "categories": [
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
@@ -165,21 +165,21 @@
     ]
   },
   "newsCards": [
-    { "id": 1, "slug": "trump-sanders-tax", "category": "medical-fraud","categoryLabel": "Medical Fraud", "date": "March 26, 2019", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "author": "corruptionfiles", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for a staircase...", "image": "/corruptionfiles4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 1, "views": "2549", "likes": 14, "sponsored": false, "hasVideo": false },
-    { "id": 2, "slug": "pinterest-ipo", "category": "medical-fraud", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "author": "corruptionfiles", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 1, "views": "2170", "likes": 30, "sponsored": true, "hasVideo": false },
-    { "id": 3, "slug": "democrats-fox-news", "category": "medical-fraud", "date": "March 25, 2019", "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "author": "corruptionfiles", "excerpt": "Baby blue didn't just steal the show this fashion month, it also stole a piece of my heart.", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 0, "views": "2264", "likes": 8, "sponsored": false, "hasVideo": true },
-    { "id": 4, "slug": "tech-antitrust", "category": "medical-fraud", "date": "March 24, 2019", "title": "Tech giants face new antitrust scrutiny as regulators eye Silicon Valley", "author": "corruptionfiles", "excerpt": "Regulators on both sides of the Atlantic are ramping up efforts to examine the dominance of major", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 3, "views": "3102", "likes": 21, "sponsored": false, "hasVideo": false },
-    { "id": 5, "slug": "climate-activists-europe", "category": "medical-fraud", "date": "March 24, 2019", "title": "Climate activists block rush-hour traffic in major European cities", "author": "corruptionfiles", "excerpt": "Thousands of demonstrators took to the streets today in coordinated actions designed to disrupt morning", "image": "/corruptionfiles4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 5, "views": "4891", "likes": 42, "sponsored": false, "hasVideo": false },
-    { "id": 6, "slug": "james-webb-telescope", "category": "medical-fraud", "date": "March 23, 2019", "title": "NASA reveals stunning new images from the James Webb Space Telescope", "author": "corruptionfiles", "excerpt": "The space agency released a trove of breathtaking photographs that scientists say could rewrite our", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 7, "views": "6214", "likes": 88, "sponsored": false, "hasVideo": true },
-    { "id": 7, "slug": "global-food-prices", "category": "medical-fraud", "date": "March 23, 2019", "title": "Global food prices hit decade high as supply chain tensions mount", "author": "corruptionfiles", "excerpt": "A new report from the United Nations warns that food commodity prices have reached their highest level", "image": "/corruptionfiles4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 2, "views": "2788", "likes": 15, "sponsored": false, "hasVideo": false },
-    { "id": 8, "slug": "celebrity-split", "category": "medical-fraud", "date": "March 22, 2019", "title": "Celebrity power couple splits after five years, sources confirm", "author": "corruptionfiles", "excerpt": "Insiders close to the pair say irreconcilable differences led to the quiet separation, which was", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 11, "views": "9031", "likes": 104, "sponsored": false, "hasVideo": false },
-    { "id": 9, "slug": "celebrity-split-2", "category": "medical-fraud", "date": "March 22, 2019", "title": "Celebrity power couple splits after five years, sources confirm", "author": "corruptionfiles", "excerpt": "Insiders close to the pair say irreconcilable differences led to the quiet separation, which was", "image": "/corruptionfiles4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 11, "views": "9031", "likes": 104, "sponsored": false, "hasVideo": false }
+    { "id": 1, "slug": "trump-sanders-tax", "category": "medical-fraud","categoryLabel": "Medical Fraud", "date": "March 26, 2019", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "author": "corruptionfiles", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for a staircase...", "image": "/davenport4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 1, "views": "2549", "likes": 14, "sponsored": false, "hasVideo": false },
+    { "id": 2, "slug": "pinterest-ipo", "category": "medical-fraud", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "author": "corruptionfiles", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 1, "views": "2170", "likes": 30, "sponsored": true, "hasVideo": false },
+    { "id": 3, "slug": "democrats-fox-news", "category": "medical-fraud", "date": "March 25, 2019", "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "author": "corruptionfiles", "excerpt": "Baby blue didn't just steal the show this fashion month, it also stole a piece of my heart.", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 0, "views": "2264", "likes": 8, "sponsored": false, "hasVideo": true },
+    { "id": 4, "slug": "tech-antitrust", "category": "medical-fraud", "date": "March 24, 2019", "title": "Tech giants face new antitrust scrutiny as regulators eye Silicon Valley", "author": "corruptionfiles", "excerpt": "Regulators on both sides of the Atlantic are ramping up efforts to examine the dominance of major", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 3, "views": "3102", "likes": 21, "sponsored": false, "hasVideo": false },
+    { "id": 5, "slug": "climate-activists-europe", "category": "medical-fraud", "date": "March 24, 2019", "title": "Climate activists block rush-hour traffic in major European cities", "author": "corruptionfiles", "excerpt": "Thousands of demonstrators took to the streets today in coordinated actions designed to disrupt morning", "image": "/davenport4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 5, "views": "4891", "likes": 42, "sponsored": false, "hasVideo": false },
+    { "id": 6, "slug": "james-webb-telescope", "category": "medical-fraud", "date": "March 23, 2019", "title": "NASA reveals stunning new images from the James Webb Space Telescope", "author": "corruptionfiles", "excerpt": "The space agency released a trove of breathtaking photographs that scientists say could rewrite our", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 7, "views": "6214", "likes": 88, "sponsored": false, "hasVideo": true },
+    { "id": 7, "slug": "global-food-prices", "category": "medical-fraud", "date": "March 23, 2019", "title": "Global food prices hit decade high as supply chain tensions mount", "author": "corruptionfiles", "excerpt": "A new report from the United Nations warns that food commodity prices have reached their highest level", "image": "/davenport4-2-1024x683.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 2, "views": "2788", "likes": 15, "sponsored": false, "hasVideo": false },
+    { "id": 8, "slug": "celebrity-split", "category": "medical-fraud", "date": "March 22, 2019", "title": "Celebrity power couple splits after five years, sources confirm", "author": "corruptionfiles", "excerpt": "Insiders close to the pair say irreconcilable differences led to the quiet separation, which was", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 11, "views": "9031", "likes": 104, "sponsored": false, "hasVideo": false },
+    { "id": 9, "slug": "celebrity-split-2", "category": "medical-fraud", "date": "March 22, 2019", "title": "Celebrity power couple splits after five years, sources confirm", "author": "corruptionfiles", "excerpt": "Insiders close to the pair say irreconcilable differences led to the quiet separation, which was", "image": "/davenport4-6.jpg", "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }], "comments": 11, "views": "9031", "likes": 104, "sponsored": false, "hasVideo": false }
   ],
   "trendingNews": [
-    { "id": 1, "slug": "white-house-mueller-report", "category": "police", "date": "March 25, 2019", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/corruptionfiles4-2-1024x683.jpg", "sponsored": false },
-    { "id": 2, "slug": "wall-street-healthcare-plunge", "category": "celebrity", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/corruptionfiles4-6.jpg", "sponsored": true },
-    { "id": 3, "slug": "meitu-skincare", "category": "police", "date": "March 25, 2019", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/corruptionfiles4-2-1024x683.jpg", "sponsored": false },
-    { "id": 4, "slug": "hillary-clinton-time100", "category": "police", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/corruptionfiles4-6.jpg", "sponsored": false }
+    { "id": 1, "slug": "white-house-mueller-report", "category": "police", "date": "March 25, 2019", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "sponsored": false },
+    { "id": 2, "slug": "wall-street-healthcare-plunge", "category": "celebrity", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "sponsored": true },
+    { "id": 3, "slug": "meitu-skincare", "category": "police", "date": "March 25, 2019", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/davenport4-2-1024x683.jpg", "sponsored": false },
+    { "id": 4, "slug": "hillary-clinton-time100", "category": "police", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/davenport4-6.jpg", "sponsored": false }
   ],
   "categories": [
     { "label": "Government", "category": "govt","image": "/cat-bgcolor.webp" },
@@ -199,15 +199,15 @@
     "excerpt": "Spring is finally here—even though it doesn't really feel like it, with temperatures hovering at just about freezing for much...",
     "author": "corruptionfiles",
     "date": "March 25, 2019",
-    "image": "/corruptionfiles4-2-1024x683.jpg",
+    "image": "/davenport4-2-1024x683.jpg",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
     "stats": { "comments": 2, "views": "126512", "likes": 32 }
   },
   "discoveryMiddle": [
-    { "id": 502, "slug": "wall-street-healthcare-plunge", "category": "eco", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/corruptionfiles4-6.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" },
-    { "id": 503, "slug": "meitu-skincare", "category": "eco", "title": "China selfie app firm Meitu forays into skincare to counter", "image": "/corruptionfiles4-2-1024x683.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" },
-    { "id": 504, "slug": "hillary-clinton-time100", "category": "eco", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April in New York", "image": "/corruptionfiles4-6.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" }
+    { "id": 502, "slug": "wall-street-healthcare-plunge", "category": "eco", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" },
+    { "id": 503, "slug": "meitu-skincare", "category": "eco", "title": "China selfie app firm Meitu forays into skincare to counter", "image": "/davenport4-2-1024x683.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" },
+    { "id": 504, "slug": "hillary-clinton-time100", "category": "eco", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April in New York", "image": "/davenport4-6.jpg", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" }
   ],
   "discoveryRight": [
     { "id": 505, "slug": "tobacco-age", "category": "eco", "title": "Mitch McConnell Wants to Raise Tobacco Purchasing Age From 18 to 21, Including for Vaping Devices", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" },
@@ -216,18 +216,18 @@
     { "id": 508, "slug": "stranger-things-3", "category": "eco", "title": "When is Stranger Things 3 on Netflix? Who is in the cast, and what is going to happen?", "categoryLabel": "Environmental Exploitation", "categoryColor": "bg-[#2196f3]", "date": "March 25, 2019" }
   ],
   "technologyNews": [
-    { "id": 701, "slug": "trump-sanders-tax", "category": "intelligence", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for", "author": "corruptionfiles", "date": "March 26, 2019", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "stats": { "comments": 1, "views": "2549", "likes": 14 } },
-    { "id": 702, "slug": "pinterest-ipo", "category": "intelligence", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "author": "corruptionfiles", "image": "/corruptionfiles4-6.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "isSponsored": true }
+    { "id": 701, "slug": "trump-sanders-tax", "category": "intelligence", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for", "author": "corruptionfiles", "date": "March 26, 2019", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "stats": { "comments": 1, "views": "2549", "likes": 14 } },
+    { "id": 702, "slug": "pinterest-ipo", "category": "intelligence", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "author": "corruptionfiles", "image": "/davenport4-6.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "isSponsored": true }
   ],
   "trendingSectionData": [
-    { "id": 801, "slug": "white-house-mueller-report", "category": "offshore","categoryLabel": "Offshore Wealth & Sanctions", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 802, "slug": "wall-street-healthcare-plunge", "category": "offshore", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/corruptionfiles4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 803, "slug": "meitu-skincare", "category": "offshore", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 804, "slug": "hillary-clinton-time100", "category": "offshore", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/corruptionfiles4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 805, "slug": "tobacco-age", "category": "offshore", "title": "Mitch McConnell Wants to Raise Tobacco Purchasing Age From 18 to 21, Including for Vaping Devices", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 806, "slug": "trump-netanyahu-jews", "category": "offshore", "title": "Trump and Netanyahu Are Breaking the Bond Between American Jews and Israel", "image": "/corruptionfiles4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]},
-    { "id": 807, "slug": "asteroid-earth", "category": "offshore", "title": "Asteroid 'to fly past Earth closer than the moon tomorrow,' scientists warn", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 808, "slug": "stranger-things-3", "category": "offshore", "title": "When is Stranger Things 3 on Netflix? Who is in the cast, and what is going to happen?", "image": "/corruptionfiles4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 809, "slug": "trump-sanders-tax", "category": "offshore", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "image": "/corruptionfiles4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] }
+    { "id": 801, "slug": "white-house-mueller-report", "category": "offshore","categoryLabel": "Offshore Wealth & Sanctions", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 802, "slug": "wall-street-healthcare-plunge", "category": "offshore", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 803, "slug": "meitu-skincare", "category": "offshore", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 804, "slug": "hillary-clinton-time100", "category": "offshore", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 805, "slug": "tobacco-age", "category": "offshore", "title": "Mitch McConnell Wants to Raise Tobacco Purchasing Age From 18 to 21, Including for Vaping Devices", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 806, "slug": "trump-netanyahu-jews", "category": "offshore", "title": "Trump and Netanyahu Are Breaking the Bond Between American Jews and Israel", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]},
+    { "id": 807, "slug": "asteroid-earth", "category": "offshore", "title": "Asteroid 'to fly past Earth closer than the moon tomorrow,' scientists warn", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 808, "slug": "stranger-things-3", "category": "offshore", "title": "When is Stranger Things 3 on Netflix? Who is in the cast, and what is going to happen?", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
+    { "id": 809, "slug": "trump-sanders-tax", "category": "offshore", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] }
   ]
 }
