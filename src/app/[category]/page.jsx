@@ -6,12 +6,10 @@ import StickyAd from "@/components/StickyAd";
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
-// Converts a category label like "U.S." → "us" for URL matching
 function labelToSlug(label) {
   return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
 }
 
-// Collect all linkable articles from homepage.json and group by category slug
 function getArticlesByCategory(categorySlug) {
   const all = [];
 
@@ -37,7 +35,6 @@ function getArticlesByCategory(categorySlug) {
     all.push({ ...homepageData.inOtherNews.featured, category: categorySlug });
   }
 
-  // Deduplicate by slug
   const seen = new Set();
   return all.filter((a) => {
     if (seen.has(a.slug)) return false;
@@ -46,7 +43,6 @@ function getArticlesByCategory(categorySlug) {
   });
 }
 
-// Normalize article fields so the card renders regardless of source shape
 function normalizeArticle(a) {
   return {
     id: a.id,
@@ -84,8 +80,9 @@ function NewsListCard({ card }) {
   const href = `/${a.category}/${a.slug}`;
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
-      <div className="relative w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        <Link href={href}>
+      <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
+        {/* FIXED: Added relative block w-full h-full to the Link parent */}
+        <Link href={href} className="relative block w-full h-full">
           <Image src={a.image} alt={a.title} fill sizes="(max-width:768px) 100vw, 240px"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
           {a.hasVideo && <PlayIcon />}
@@ -129,6 +126,8 @@ function TrendingCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
+      {/* FIXED: The div is the immediate parent of Image and already has 'relative' 
+          which is correct for fill. */}
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -143,9 +142,9 @@ function TrendingCard({ item }) {
 }
 
 function SidebarCategoryCard({ cat }) {
-  const slug = labelToSlug(cat.label);
   return (
     <Link href={`/${cat.category}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
+      {/* FIXED: Immediate parent Link has 'relative' */}
       <Image src={cat.image} alt={cat.label} fill sizes="300px"
         className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
       <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
@@ -158,13 +157,14 @@ function SidebarCategoryCard({ cat }) {
 function CategoryHero({ categoryName, count }) {
   return (
     <div className="relative w-full h-[280px] md:h-[380px] overflow-hidden mb-10">
-<Image 
-  src="/cat-bgcolor.webp" 
-  alt={categoryName} 
-  fill
-  className="object-cover brightness-[0.80]" 
-  priority 
-/>
+      {/* FIXED: Parent div has 'relative' */}
+      <Image 
+        src="/cat-bgcolor.webp" 
+        alt={categoryName} 
+        fill
+        className="object-cover brightness-[0.80]" 
+        priority 
+      />
       <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-16 max-w-4xl">
         <span className="text-white/60 text-[11px] font-bold uppercase tracking-[0.25em] mb-2">
           Browsing Category
@@ -242,12 +242,9 @@ export default async function CategoryPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">
-        {/* Hero */}
         <CategoryHero categoryName={categoryLabel} count={articles.length} />
 
-        {/* News + Sidebar */}
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left: articles */}
           <div className="flex-1 min-w-0">
             {articles.length === 0 ? (
               <EmptyState categoryName={categoryName} />
@@ -262,7 +259,6 @@ export default async function CategoryPage({ params }) {
             )}
           </div>
 
-          {/* Right: sidebar */}
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 

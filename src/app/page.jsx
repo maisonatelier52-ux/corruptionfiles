@@ -6,6 +6,7 @@ import Newsletter from "@/components/Newsletter";
 import AdBanner from "@/components/AdBanner";
 import StickyAd from "@/components/StickyAd";
 import CategoryCard from "@/components/CategoryCard";
+
 export const metadata = {
   title: "Daily News | Politics, Business, and World Updates",
   description: "Breaking news coverage of politics, business, technology, and world events.",
@@ -18,12 +19,10 @@ export const metadata = {
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
-// "U.S." → "us"  |  "World" → "world"  |  "U.S.  " → "us"
 function labelToSlug(label) {
   return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
 }
 
-// Author name → author page URL: "corruptionfiles" → "/authors/corruptionfiles"
 function authorHref(name) {
   return `/authors/${name.toLowerCase().replace(/\s+/g, "-")}`;
 }
@@ -42,13 +41,12 @@ function PlayIcon() {
   );
 }
 
-// Used in Politics / InOtherNews / grid sections
 function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, isSponsored, author, title, description }) {
   const href = `/${category}/${slug}`;
   return (
     <article className="flex flex-col group">
-      <div className="relative w-full aspect-video overflow-hidden mb-3">
-        <Link href={href}>
+      <div className="w-full aspect-video overflow-hidden mb-3">
+        <Link href={href} className="relative block w-full h-full">
           <Image src={image} alt={title} fill sizes="(max-width:768px) 100vw, 33vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
           <span className={`absolute bottom-3 left-3 ${categoryColor} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wider z-10`}>
@@ -73,13 +71,12 @@ function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, i
   );
 }
 
-// Used in the main news feed list
 function NewsListCard({ card }) {
   const href = `/${card.category}/${card.slug}`;
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-3 mb-6 last:border-0 last:mb-0">
-      <div className="relative w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        <Link href={href}>
+      <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
+        <Link href={href} className="relative block w-full h-full">
           <Image src={card.image} alt={card.title} fill sizes="(max-width:768px) 100vw, 240px"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
           {card.hasVideo && <PlayIcon />}
@@ -118,11 +115,11 @@ function NewsListCard({ card }) {
   );
 }
 
-// Sidebar trending card
 function TrendingCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
+      {/* FIXED: Immediate parent of Image is now relative */}
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -140,8 +137,8 @@ function DiscoveryMainCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <article className="flex flex-col h-full group border-b lg:border-b-0 lg:border-r border-gray-200 lg:pr-5 pb-5 lg:pb-0">
-      <div className="relative w-full aspect-[3/2] overflow-hidden mb-1">
-        <Link href={href}>
+      <div className="w-full aspect-[3/2] overflow-hidden mb-1">
+        <Link href={href} className="relative block w-full h-full">
           <Image src={item.image} alt={item.title} fill sizes="(max-width:768px) 100vw, 50vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
           <span className={`absolute bottom-4 left-4 ${item.categoryColor} text-white text-[10px] font-bold px-2 py-1 uppercase tracking-wider`}>
@@ -170,8 +167,9 @@ function DiscoveryMiddleItem({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <article className="flex gap-5 border-b border-gray-100 pb-8 mb-6 last:border-0 last:mb-0 last:pb-0 group">
-      <div className="relative w-[140px] h-[95px] flex-shrink-0 overflow-hidden">
-        <Link href={href}>
+      {/* FIXED: Link is immediate parent, so Link needs relative */}
+      <div className="w-[140px] h-[95px] flex-shrink-0 overflow-hidden">
+        <Link href={href} className="relative block w-full h-full">
           <Image src={item.image} alt={item.title} fill sizes="140px"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
           {item.badge && <span className="absolute top-0 right-0 bg-[#f69a4d] text-white font-bold px-2 py-0.5 text-xs z-10">{item.badge}</span>}
@@ -214,8 +212,9 @@ function DiscoveryRightItem({ item }) {
 function TechOverlayCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
-    <article className="relative w-full aspect-square md:aspect-[4/3] group overflow-hidden">
-      <Link href={href} className="block w-full h-full">
+    <article className="w-full aspect-square md:aspect-[4/3] group overflow-hidden">
+      {/* FIXED: Link is immediate parent, so Link needs relative */}
+      <Link href={href} className="relative block w-full h-full">
         <Image src={item.image} alt={item.title} fill sizes="(max-width:768px) 100vw, 50vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/10 transition-opacity duration-500 group-hover:from-black/95" />
@@ -243,8 +242,9 @@ function TrendingCircleCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <article className="flex gap-5 items-start group">
-      <div className="relative flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28">
-        <Link href={href} className="block w-full h-full relative">
+      <div className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28">
+        {/* FIXED: Link is immediate parent, so Link needs relative */}
+        <Link href={href} className="relative block w-full h-full">
           <Image src={item.image} alt={item.title} fill sizes="(max-width:768px) 96px, 112px"
             className="object-cover rounded-full transition-transform duration-500 group-hover:scale-105" />
           {item.badge && <span className="absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 bg-[#f69a4d] text-white font-bold text-[11px] px-2 py-1 shadow-sm z-10">{item.badge}</span>}
@@ -279,8 +279,8 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
     name: "Daily News",
-    url: "https://www.www.corruptionfiles.com",
-    logo: "https://www.www.corruptionfiles.com/logo.png",
+    url: "https://www.corruptionfiles.com",
+    logo: "https://www.corruptionfiles.com/logo.png",
     sameAs: ["https://twitter.com/yourhandle"],
   };
 
@@ -316,6 +316,7 @@ export default function Home() {
             href={`/${inOtherNews.featured.categories?.[0] ? labelToSlug(inOtherNews.featured.categories[0].label) : "world"}/${inOtherNews.featured.slug}`}
             className="relative group cursor-pointer overflow-hidden border border-gray-200 block min-h-[400px]"
           >
+            {/* Parent Link already has 'relative' here, which is correct */}
             <Image src={inOtherNews.featured.image} alt={inOtherNews.featured.title} fill
               sizes="(max-width:768px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -371,6 +372,7 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-20">
           <article className="lg:col-span-8 group cursor-pointer">
             <Link href={`/${worldNews.main.category}/${worldNews.main.slug}`} className="block">
+              {/* FIXED: The div is the parent, and it has relative. Corrected sizes for good measure. */}
               <div className="relative aspect-video overflow-hidden mb-6">
                 <Image src={worldNews.main.image} alt={worldNews.main.title} fill
                   sizes="(max-width:1024px) 100vw, 800px"
@@ -400,6 +402,7 @@ export default function Home() {
               <Link key={item.id}
                 href={`/${item.category}/${item.slug}`}
                 className="border border-gray-100 group cursor-pointer shadow-sm hover:shadow-md transition-shadow block">
+                {/* FIXED: Immediate parent of fill image is relative */}
                 <div className="relative aspect-video overflow-hidden">
                   <Image src={item.image} alt={item.title} fill sizes="400px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -502,7 +505,6 @@ export default function Home() {
             {trendingSectionData.map((item) => <TrendingCircleCard key={item.id} item={item} />)}
           </div>
         </section>
-
       </div>
     </main>
   );

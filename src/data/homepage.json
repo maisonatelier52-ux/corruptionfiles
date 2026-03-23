@@ -126,41 +126,41 @@
         { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "corruptionfiles" }
   ],
   "worldNews": {
-    "main": {
+"main": {
       "id": 501,
-      "slug": "democrats-fox-news",
+      "slug": "fbi-buying-americans-private-data",
       "category": "tech",
-      "image": "/davenport4-6.jpg",
+      "image": "/fbi-buying-americans-private-data.webp",
       "categories": [
         { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
       ],
-      "date": "March 25, 2019",
+      "date": "March 21, 2026",
       "author": "corruptionfiles",
-      "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News",
-      "description": "Baby blue didn't just steal the show this fashion month, it also stole a piece of my heart.."
+      "title": "FBI Confirms Buying Americans' Private Data Without Warrants",
+      "description": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers, enabling mass surveillance without a warrant."
     },
     "sidebar": [
       {
         "id": 502,
-        "slug": "hillary-clinton-time100",
+        "slug": "trump-2026-national-ai-policy-blueprint",
         "category": "tech",
-        "image": "/davenport4-2-1024x683.jpg",
+        "image": "/trump-2026-national-ai-policy-blueprint.webp",
         "categories": [
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
-        "date": "March 25, 2019",
-        "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY"
+        "date": "March 20, 2026",
+        "title": "Trump Administration Releases 2026 National AI Policy Blueprint"
       },
       {
         "id": 503,
-        "slug": "barr-report-spin",
+        "slug": "apple-emergency-ios-patch-darksword-spyware",
         "category": "tech",
-        "image": "/davenport4-6.jpg",
+        "image": "/apple-emergency-ios-patch-darksword-spyware.webp",
         "categories": [
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
-        "date": "March 25, 2019",
-        "title": "The Latest: Top Democrat says Barr is trying to spin report"
+        "date": "March 19, 2026",
+        "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware"
       }
     ]
   },

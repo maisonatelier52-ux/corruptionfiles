@@ -50,7 +50,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" data-scroll-behavior="smooth">
       {/* IMPORTANT: We apply both font variables to the body so 
           Tailwind can "see" them throughout the entire app.
       */}
