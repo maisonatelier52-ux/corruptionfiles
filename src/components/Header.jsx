@@ -9,16 +9,13 @@ import {
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  // Initialize state with null or empty to avoid hydration mismatch
   const [dateInfo, setDateInfo] = useState({ display: "", iso: "" });
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
-  // Hook to handle the live date calculation on mount
   useEffect(() => {
     const now = new Date();
     
-    // Format for display: FRIDAY, 18 APRIL 2025
     const displayFormatter = new Intl.DateTimeFormat('en-GB', {
       weekday: 'long',
       day: 'numeric',
@@ -26,7 +23,6 @@ const Header = () => {
       year: 'numeric',
     });
 
-    // Format for HTML attribute: 2025-04-18
     const isoDate = now.toISOString().split('T')[0];
     
     setDateInfo({
@@ -50,70 +46,52 @@ const Header = () => {
     <header className="w-full">
       {/* 1. TOP BAR */}
       <div className="w-full bg-[#111827] text-white text-[11px] font-bold uppercase tracking-wider">
-         <div className="max-w-7xl mx-auto flex items-center h-10 px-4">
-            <div className="bg-[#1f2937] h-full items-center px-4 mr-4 hidden lg:flex">
-                <span className="flex items-center gap-2">
-                  📅 <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
-                </span>
-            </div>
-            <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400">TRENDING</div>
-            <div className="flex-1 px-2 truncate text-[12px] font-medium normal-case">
-               <Link href="/news/wall-street-slips" className="hover:text-blue-400 transition-colors">
-                  Wall Street slips, weighed down by healthcare plunge
-               </Link>
-            </div>
-            <div className="flex border-l border-gray-700 h-full">
-               <button aria-label="Previous trending" className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors"><ChevronLeft size={14} /></button>
-               <button aria-label="Next trending" className="px-3 hover:bg-blue-600 transition-colors"><ChevronRight size={14} /></button>
-            </div>
-         </div>
+        <div className="max-w-7xl mx-auto flex items-center h-10 px-4">
+          <div className="bg-[#1f2937] h-full items-center px-4 mr-4 hidden lg:flex">
+            <span className="flex items-center gap-2">
+              📅 <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
+            </span>
+          </div>
+          <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400">TRENDING</div>
+          <div className="flex-1 px-2 truncate text-[12px] font-medium normal-case">
+            <Link href="/news/wall-street-slips" className="hover:text-blue-400 transition-colors">
+              Wall Street slips, weighed down by healthcare plunge
+            </Link>
+          </div>
+          <div className="flex border-l border-gray-700 h-full">
+            <button aria-label="Previous trending" className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors"><ChevronLeft size={14} /></button>
+            <button aria-label="Next trending" className="px-3 hover:bg-blue-600 transition-colors"><ChevronRight size={14} /></button>
+          </div>
+        </div>
       </div>
 
       {/* 2. MAIN LOGO AREA */}
       <div className="w-full bg-white">
-        <div className="border-b border-gray-100 hidden md:block">
-           <div className="max-w-7xl mx-auto flex justify-between items-center py-3 px-4 text-[10px] font-bold uppercase tracking-widest text-gray-800">
-             <nav aria-label="Secondary Navigation">
-               <ul className="flex gap-7">
-                 <li><Link href="/editorials" className="hover:text-blue-500 transition-colors">Editorials</Link></li>
-                 <li><Link href="/team" className="hover:text-blue-500 transition-colors">Team</Link></li>
-                 <li><Link href="/advert" className="hover:text-blue-500 transition-colors">Advert</Link></li>
-                 <li><Link href="/opinion" className="hover:text-blue-500 border-b-2 border-black pb-1 transition-colors">Today's Opinion</Link></li>
-               </ul>
-             </nav>
-             <nav aria-label="User Actions">
-               <ul className="flex gap-7">
-                 <li><Link href="/subscribe" className="hover:text-blue-500 transition-colors">Subscribe</Link></li>
-                 <li><Link href="/theme" className="hover:text-blue-500 transition-colors">Purchase Theme</Link></li>
-               </ul>
-             </nav>
-           </div>
-        </div>
-
         <div className="max-w-7xl mx-auto px-4 py-6 md:py-8 flex justify-between items-center">
           <div className="md:hidden">
-              <button onClick={toggleMenu} aria-label="Toggle Menu" aria-expanded={isMenuOpen} className="p-2 border border-gray-200 text-black">
-                  {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-              </button>
+            <button onClick={toggleMenu} aria-label="Toggle Menu" aria-expanded={isMenuOpen} className="p-2 border border-gray-200 text-black">
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
           </div>
-          <div className="hidden md:block">
+          {/* <div className="hidden md:block">
             <Link href="/subscribe" className="bg-[#2196f3] text-white px-6 py-3 flex items-center gap-2 font-bold text-xs uppercase hover:bg-blue-600 transition-colors">
               <Mail size={16} /> Subscribe Now
             </Link>
-          </div>
+          </div> */}
+          <div className="hidden md:block w-[160px]" />
           <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
-              Corruption Files
+            Corruption Files
           </Link>
           <div className="flex items-center gap-4">
-              <div className="hidden sm:flex gap-3 text-black">
-                <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600"><Facebook size={18} /></a>
-                <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600"><Instagram size={18} /></a>
-                <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400"><Twitter size={18} /></a>
-                <a href="https://youtube.com" aria-label="Youtube" target="_blank" rel="noopener noreferrer" className="hover:text-red-600"><Youtube size={18} /></a>
-              </div>
-              <button aria-label="Search" className="cursor-pointer hover:text-blue-600 transition-colors">
-                <Search size={20} className="stroke-3" />
-              </button>
+            <div className="hidden sm:flex gap-3 text-black">
+              <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600"><Facebook size={18} /></a>
+              <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600"><Instagram size={18} /></a>
+              <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400"><Twitter size={18} /></a>
+              <a href="https://youtube.com" aria-label="Youtube" target="_blank" rel="noopener noreferrer" className="hover:text-red-600"><Youtube size={18} /></a>
+            </div>
+            <button aria-label="Search" className="cursor-pointer hover:text-blue-600 transition-colors">
+              <Search size={20} className="stroke-3" />
+            </button>
           </div>
         </div>
       </div>

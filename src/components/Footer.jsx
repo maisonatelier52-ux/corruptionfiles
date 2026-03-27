@@ -142,7 +142,7 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* Center: Subscribe Form */}
+          {/* Center: Subscribe Form 
           <form className="flex w-full md:w-auto" action="/api/subscribe" method="POST">
             <label htmlFor="footer-email" className="sr-only">Email Address</label>
             <input 
@@ -156,7 +156,7 @@ const Footer = () => {
             <button type="submit" className="bg-[#2196f3] text-white text-[11px] font-bold uppercase tracking-wider px-6 py-3 hover:bg-blue-600 transition-colors">
               Subscribe
             </button>
-          </form>
+          </form>*/}
 
           {/* Right: Social Icons */}
           <nav aria-label="Social Media Links" className="flex gap-2">
