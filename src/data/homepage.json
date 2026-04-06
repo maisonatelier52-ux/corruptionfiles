@@ -308,7 +308,7 @@
       "slug": "uranium-drilling-new-mexico-chama-valley",
       "category": "eco",
       "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley",
-      "image": "/uranium-drilling-new-mexico-chama-valley.jpg",
+      "image": "/uranium-drilling-new-mexico-chama-valley.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
       "date": "March 31, 2026"
@@ -318,7 +318,7 @@
       "slug": "noaa-rainier-mineral-mapping-pacific-monuments",
       "category": "eco",
       "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments",
-      "image": "/noaa-rainier-mineral-mapping-pacific-monuments.jpg",
+      "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
       "date": "March 27, 2026"
@@ -328,7 +328,7 @@
       "slug": "federal-oil-royalties-cut-one-big-beautiful-bill",
       "category": "eco",
       "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers",
-      "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.jpg",
+      "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
       "date": "April 1, 2026"
@@ -341,7 +341,7 @@
       "category": "eco",
       "title": "New Political Push Aims to Overturn U.K. North Sea Drilling Ban",
       "categoryLabel": "Environmental Exploitation",
-      "image": "/uk-north-sea-drilling-ban-overturn-campaign.jpg",
+      "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp",
       "categoryColor": "bg-[#2196f3]",
       "date": "March 31, 2026"
     },
@@ -351,7 +351,7 @@
       "category": "eco",
       "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year",
       "categoryLabel": "Environmental Exploitation",
-      "image": "/uk-rivers-sewage-spills-environment-agency.jpg",
+      "image": "/uk-rivers-sewage-spills-environment-agency.webp",
       "categoryColor": "bg-[#2196f3]",
       "date": "March 26, 2026"
     },
@@ -361,7 +361,7 @@
       "category": "eco",
       "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart",
       "categoryLabel": "Environmental Exploitation",
-      "image": "/cornwall-south-crofty-tin-mine-2026-production.jpg",
+      "image": "/cornwall-south-crofty-tin-mine-2026-production.webp",
       "categoryColor": "bg-[#2196f3]",
       "date": "April 2, 2026"
     },
@@ -371,14 +371,14 @@
       "category": "eco",
       "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use",
       "categoryLabel": "Environmental Exploitation",
-      "image": "/uk-farmers-antibiotic-restrictions-livestock.jpg",
+      "image": "/uk-farmers-antibiotic-restrictions-livestock.webp",
       "categoryColor": "bg-[#2196f3]",
       "date": "April 1, 2026"
     }
   ], 
   "technologyNews": [
     { "id": 701, "slug": "trump-sanders-tax", "category": "intelligence", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for", "author": "corruptionfiles", "date": "March 26, 2019", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "stats": { "comments": 1, "views": "2549", "likes": 14 } },
-    { "id": 702, "slug": "pinterest-ipo", "category": "intelligence", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "author": "corruptionfiles", "image": "/davenport4-6.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "isSponsored": true }
+    { "id": 702, "slug": "pinterest-ipo", "category": "intelligence", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "author": "corruptionfiles", "image": "/davenport4-6.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "date": "March 26, 2019" }
   ],
   "trendingSectionData": [
     { "id": 801, "slug": "white-house-mueller-report", "category": "offshore","categoryLabel": "Offshore Wealth & Sanctions", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
