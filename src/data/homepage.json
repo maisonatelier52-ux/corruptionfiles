@@ -376,10 +376,30 @@
       "date": "April 1, 2026"
     }
   ], 
-  "technologyNews": [
-    { "id": 701, "slug": "trump-sanders-tax", "category": "intelligence", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "excerpt": "Come dinnertime, the intimate group of guests was first ushered into the foyer for", "author": "corruptionfiles", "date": "March 26, 2019", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "stats": { "comments": 1, "views": "2549", "likes": 14 } },
-    { "id": 702, "slug": "pinterest-ipo", "category": "intelligence", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "author": "corruptionfiles", "image": "/davenport4-6.jpg", "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }], "date": "March 26, 2019" }
-  ],
+"technologyNews": [
+  {
+    "id": 701,
+    "slug": "irgc-intelligence-chief-killed-iran-ceasefire-2026",
+    "category": "intelligence",
+    "title": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks",
+    "excerpt": "Washington and Tehran receive a 45-day ceasefire draft as Iran's top intelligence commander falls in a targeted strike inside the capital.",
+    "author": "corruptionfiles",
+    "date": "April 6, 2026",
+    "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.jpg",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 702,
+    "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict",
+    "category": "intelligence",
+    "title": "Chinese Tech Firms Exposing U.S. Military Secrets in the Iran Conflict",
+    "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S. operations and compromise field teams.",
+    "author": "corruptionfiles",
+    "date": "April 6, 2026",
+    "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.jpg",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  }
+],
   "trendingSectionData": [
     { "id": 801, "slug": "white-house-mueller-report", "category": "offshore","categoryLabel": "Offshore Wealth & Sanctions", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
     { "id": 802, "slug": "wall-street-healthcare-plunge", "category": "offshore", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
