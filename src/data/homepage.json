@@ -385,30 +385,102 @@
     "excerpt": "Washington and Tehran receive a 45-day ceasefire draft as Iran's top intelligence commander falls in a targeted strike inside the capital.",
     "author": "corruptionfiles",
     "date": "April 6, 2026",
-    "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.jpg",
+    "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
     "id": 702,
     "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict",
     "category": "intelligence",
-    "title": "Chinese Tech Firms Exposing U.S. Military Secrets in the Iran Conflict",
-    "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S. operations and compromise field teams.",
+    "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict",
+    "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams.",
     "author": "corruptionfiles",
     "date": "April 6, 2026",
-    "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.jpg",
+    "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ],
-  "trendingSectionData": [
-    { "id": 801, "slug": "white-house-mueller-report", "category": "offshore","categoryLabel": "Offshore Wealth & Sanctions", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 802, "slug": "wall-street-healthcare-plunge", "category": "offshore", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 803, "slug": "meitu-skincare", "category": "offshore", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 804, "slug": "hillary-clinton-time100", "category": "offshore", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 805, "slug": "tobacco-age", "category": "offshore", "title": "Mitch McConnell Wants to Raise Tobacco Purchasing Age From 18 to 21, Including for Vaping Devices", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 806, "slug": "trump-netanyahu-jews", "category": "offshore", "title": "Trump and Netanyahu Are Breaking the Bond Between American Jews and Israel", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]},
-    { "id": 807, "slug": "asteroid-earth", "category": "offshore", "title": "Asteroid 'to fly past Earth closer than the moon tomorrow,' scientists warn", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 808, "slug": "stranger-things-3", "category": "offshore", "title": "When is Stranger Things 3 on Netflix? Who is in the cast, and what is going to happen?", "image": "/davenport4-6.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] },
-    { "id": 809, "slug": "trump-sanders-tax", "category": "offshore", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "image": "/davenport4-2-1024x683.jpg", "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }] }
-  ]
+"trendingSectionData": [
+  {
+    "id": 801,
+    "slug": "us-treasury-ofac-sanctions-evasion-sham-deals",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
+    "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 802,
+    "slug": "texas-court-vacates-fincen-real-estate-aml-rule",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency",
+    "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 803,
+    "slug": "irs-voluntary-disclosure-offshore-accounts-penalties",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts",
+    "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 804,
+    "slug": "fincen-whistleblower-program-offshore-tax-evasion",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking",
+    "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 805,
+    "slug": "national-money-laundering-risk-assessment-offshore-trusts",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
+    "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 806,
+    "slug": "ofac-russia-sanctions-list-removals-general-licenses",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
+    "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 807,
+    "slug": "fincen-southwest-border-targeting-order-cash-smuggling",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "FinCEN Expands Southwest Border Targeting Order to Curb Cash Smuggling",
+    "image": "/fincen-southwest-border-targeting-order-cash-smuggling.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 808,
+    "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion",
+    "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 809,
+    "slug": "bny-named-financial-agent-trump-accounts-asset-program",
+    "category": "offshore",
+    "categoryLabel": "Offshore Wealth & Sanctions",
+    "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program",
+    "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp",
+    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
+  }
+]
 }
