@@ -139,9 +139,9 @@ function TrendingCard({ item }) {
 }
 
 function SidebarCategoryCard({ cat }) {
-  const slug = labelToSlug(cat.label);
   return (
-    <Link href={`/${slug}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
+    <Link href={`/${cat.category}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
+      {/* FIXED: Immediate parent Link has 'relative' */}
       <Image src={cat.image} alt={cat.label} fill sizes="300px"
         className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
       <div className="absolute inset-0 flex items-center justify-between px-4 z-10">

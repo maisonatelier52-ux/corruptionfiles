@@ -8,7 +8,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "US Senate Rejects Resolution to Stop Iran's Military Actions",
       "description": "The U.S. Senate voted 47-53 against a war powers resolution.It means that the current military assault in Iran can continue without needing urgent Congress approval."
     },
@@ -20,7 +20,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 3, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "UK Chancellor Makes 2026 Spring Forecast in Westminster",
       "description": "Chancellor Rachel Reeves gives the Spring Forecast, which includes promises to lower inflation, cut national borrowing, and make life easier for people in Britain."
     },
@@ -32,7 +32,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "House Prepares for War Powers Vote on Middle East Conflict",
       "description": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead."
     }
@@ -46,7 +46,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation",
       "description": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy."
     },
@@ -58,7 +58,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "Green Party's Hannah Spencer Officially Enters House of Commons",
       "description": "Newly elected Green MP Hannah Spencer officially takes her seat in the House of Commons this week following a closely watched by-election win in Gorton and Denton."
     },
@@ -70,7 +70,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 4, 2026",
-      "author": "corruptionfiles",
+      "author": "margaret-holloway",
       "title": "House Ethics Panel Launches Investigation Into Rep. Nancy Mace",
       "description": "Capitol Hill faces a new inquiry as the House Ethics Committee officially opens an investigation into Representative Nancy Mace."
     }
@@ -83,7 +83,7 @@
         { "label": "Puerto Rico", "color": "bg-[#2196f3]" } 
       ],
       "category": "puerto-rico",
-      "author": "corruptionfiles",
+      "author": "carlos-medina-reyes",
       "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
       "quote": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
       "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp"
@@ -97,7 +97,7 @@
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 3, 2026",
-        "author": "corruptionfiles",
+        "author": "carlos-medina-reyes",
         "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico",
         "description": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy."
       },
@@ -109,21 +109,21 @@
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 8, 2026",
-        "author": "corruptionfiles",
+        "author": "carlos-medina-reyes",
         "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open",
         "description": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend."
       }
     ]
   },
   "healthcareNews": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "category": "pa","categoryLabel": "Police Accountability", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026", "author": "john" },
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "corruptionfiles" },
-        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "corruptionfiles" },
-        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "corruptionfiles" },
-        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "corruptionfiles" },
-        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "corruptionfiles" },
-        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "corruptionfiles" },
-        { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "corruptionfiles" }
+        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "category": "pa","categoryLabel": "Police Accountability", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026", "author": "darnell-hutchins" },
+        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "darnell-hutchins" },
+        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "darnell-hutchins" },
+        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "darnell-hutchins" },
+        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "darnell-hutchins" },
+        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "darnell-hutchins" },
+        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "darnell-hutchins" },
+        { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "darnell-hutchins" }
   ],
   "worldNews": {
 "main": {

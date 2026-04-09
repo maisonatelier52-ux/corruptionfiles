@@ -46,7 +46,7 @@ export default function TermsPage() {
             Terms and Conditions of Use
           </h1>
           <p className="text-gray-500 uppercase tracking-widest text-sm font-bold">
-            Last Updated: March 13, 2026
+            Last Updated: April 09, 2026
           </p>
         </div>
 
