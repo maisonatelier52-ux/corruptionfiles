@@ -1,25 +1,61 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Share2, Bell, Calendar, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { Share2, Bell, Calendar, Facebook, Twitter, Instagram, Youtube, Tag } from "lucide-react";
 import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import StickyAd from "@/components/StickyAd";
 
-// ─── HELPERS ─────────────────────────────────────────────────────────────────
+// ─── CATEGORY CONFIG ──────────────────────────────────────────────────────────
+const CATEGORY_META = {
+  govt:            { label: "Government",                  color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]" },
+  "puerto-rico":   { label: "Puerto Rico",                 color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]" },
+  pa:              { label: "Police Accountability",       color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
+  tech:            { label: "Big Tech & Surveillance",     color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]" },
+  "medical-fraud": { label: "Medical Fraud",               color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
+  eco:             { label: "Environmental Exploitation",  color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]" },
+  intelligence:    { label: "Intelligence",                color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]" },
+  offshore:        { label: "Offshore Wealth & Sanctions", color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
+};
 
-function labelToSlug(label) {
-  return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
+// ─── AUTHOR LOOKUP HELPERS ────────────────────────────────────────────────────
+
+/** Flat array of every author record from authors.json */
+function getAllAuthors() {
+  if (Array.isArray(authorsData?.corruptionfiles)) return authorsData.corruptionfiles;
+  return Object.values(authorsData).filter((v) => typeof v === "object" && v?.slug);
 }
 
-// Get all articles by author name from homepage.json
-function getArticlesByAuthor(authorName) {
-  const name = authorName.toLowerCase();
-  const all = [];
+/**
+ * Look up an author by their URL slug  (e.g. "margaret-holloway").
+ * Used on the page itself to get the profile data.
+ */
+function getAuthorBySlug(slug) {
+  return getAllAuthors().find((a) => a.slug === slug) ?? null;
+}
+
+/**
+ * Look up an author by their display name (e.g. "Margaret Holloway").
+ * Used when resolving article author fields → profile link slug.
+ */
+function getAuthorByName(name) {
+  const lower = name?.toLowerCase().trim();
+  return getAllAuthors().find((a) => a.name?.toLowerCase().trim() === lower) ?? null;
+}
+
+// ─── ARTICLE COLLECTION ───────────────────────────────────────────────────────
+
+/**
+ * Return every article in homepage.json whose `author` display name
+ * matches the given name (case-insensitive).
+ */
+function getArticlesByAuthorName(displayName) {
+  const lower = displayName?.toLowerCase().trim();
+  const all   = [];
 
   const pushFiltered = (arr) => {
     if (!Array.isArray(arr)) return;
     arr.forEach((a) => {
-      if (a?.author?.toLowerCase() === name && a?.slug) all.push(a);
+      if (a?.author?.toLowerCase().trim() === lower && a?.slug) all.push(a);
     });
   };
 
@@ -31,10 +67,17 @@ function getArticlesByAuthor(authorName) {
   pushFiltered(homepageData.discoveryRight);
   pushFiltered(homepageData.technologyNews);
   pushFiltered(homepageData.trendingSectionData);
+  pushFiltered(homepageData.healthcareNews);
+  pushFiltered(homepageData.worldNews?.sidebar);
 
-  if (homepageData.discoveryMain?.author?.toLowerCase() === name) all.push(homepageData.discoveryMain);
-  if (homepageData.worldNews?.main?.author?.toLowerCase() === name) all.push(homepageData.worldNews.main);
-  if (homepageData.inOtherNews?.featured?.author?.toLowerCase() === name) all.push(homepageData.inOtherNews.featured);
+  // Single-article fields
+  [
+    homepageData.discoveryMain,
+    homepageData.worldNews?.main,
+    homepageData.inOtherNews?.featured,
+  ].forEach((a) => {
+    if (a?.author?.toLowerCase().trim() === lower && a?.slug) all.push(a);
+  });
 
   // Deduplicate by slug
   const seen = new Set();
@@ -45,23 +88,31 @@ function getArticlesByAuthor(authorName) {
   });
 }
 
+// ─── ARTICLE NORMALISER ───────────────────────────────────────────────────────
+
 function normalizeArticle(a) {
+  // Resolve the profile-link slug from the display name stored in homepage.json
+  const authorRecord = getAuthorByName(a.author);
+  const authorSlug   = authorRecord?.slug
+    ?? a.author?.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+
   return {
-    id: a.id,
-    slug: a.slug,
-    category: a.category || "politics",
-    title: a.title || "",
-    author: a.author || "corruptionfiles",
-    excerpt: a.excerpt || a.description || "",
-    image: a.image || "/corruptionfiles4-6.jpg",
-    date: a.date || null,
-    sponsored: a.isSponsored || a.sponsored || false,
-    hasVideo: a.hasVideo || false,
-    tags: a.tags || (a.badges ? a.badges.map((b) => ({ label: b.text, color: b.color })) : []),
+    id:         a.id,
+    slug:       a.slug,
+    category:   a.category || "politics",
+    title:      a.title    || "",
+    authorName: a.author   || "",   // "Margaret Holloway"
+    authorSlug,                     // "margaret-holloway"
+    excerpt:    a.excerpt  || a.description || a.quote || "",
+    image:      a.image    || "/corruptionfiles4-6.jpg",
+    date:       a.date     || null,
+    sponsored:  a.isSponsored || a.sponsored || false,
+    hasVideo:   a.hasVideo || false,
+    tags:       a.tags || (a.badges ? a.badges.map((b) => ({ label: b.text, color: b.color })) : []),
   };
 }
 
-// ─── COMPONENTS ──────────────────────────────────────────────────────────────
+// ─── UI COMPONENTS ────────────────────────────────────────────────────────────
 
 function PlayIcon() {
   return (
@@ -75,41 +126,87 @@ function PlayIcon() {
   );
 }
 
+function CategoryPill({ category }) {
+  const meta = CATEGORY_META[category];
+  if (!meta) return null;
+  return (
+    <span className={`${meta.color} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide`}>
+      {meta.label}
+    </span>
+  );
+}
+
 function NewsListCard({ card }) {
-  const a = normalizeArticle(card);
+  const a    = normalizeArticle(card);
   const href = `/${a.category}/${a.slug}`;
+  const hasTags = a.tags?.length > 0;
+
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
+      {/* Thumbnail */}
       <div className="relative w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
         <Link href={href}>
-          <Image src={a.image} alt={a.title} fill sizes="(max-width:768px) 100vw, 240px"
-            className="object-cover transition-transform duration-500 group-hover:scale-105" />
+          <Image
+            src={a.image} alt={a.title} fill
+            sizes="(max-width:768px) 100vw, 240px"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
           {a.hasVideo && <PlayIcon />}
           <div className="absolute bottom-2 left-2 flex gap-1 flex-wrap z-10">
-            {a.tags.map((t) => (
-              <span key={t.label} className={`${t.color} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide`}>{t.label}</span>
-            ))}
+            {hasTags
+              ? a.tags.map((t) => (
+                  <span key={t.label} className={`${t.color} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide`}>
+                    {t.label}
+                  </span>
+                ))
+              : <CategoryPill category={a.category} />}
           </div>
         </Link>
       </div>
+
+      {/* Text */}
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {a.sponsored
           ? <p className="text-gray-400 text-xs flex items-center gap-1 mb-1"><Bell size={11} /> Sponsored content</p>
-          : a.date ? <p className="text-gray-400 text-xs flex items-center gap-1 mb-1"><Calendar size={11} /> {a.date}</p> : null}
-        <h2 className="font-bold text-gray-900 text-base md:text-[17px] leading-snug mb-2">
+          : a.date
+            ? <p className="text-gray-400 text-xs flex items-center gap-1 mb-1"><Calendar size={11} /> {a.date}</p>
+            : null}
+
+        <h2 className="font-bold text-gray-900 text-base md:text-[17px] leading-snug mb-1">
           <Link href={href} className="hover:text-blue-600 transition-colors">{a.title}</Link>
         </h2>
+
+        {/* Category tag */}
+        {CATEGORY_META[a.category] && (
+          <Link
+            href={`/${a.category}`}
+            className={`inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wide mb-2 ${CATEGORY_META[a.category].text} hover:opacity-75 transition-opacity`}
+          >
+            <Tag size={10} />
+            {CATEGORY_META[a.category].label}
+          </Link>
+        )}
+
+        {/* Author name → profile link built from resolved slug */}
         <p className="text-xs text-gray-500 mb-2">
           By{" "}
-          <Link href={`/authors/${a.author.toLowerCase().replace(/\s+/g, "-")}`}
-            className="font-semibold text-gray-700 hover:text-blue-600 transition-colors">
-            {a.author}
+          <Link
+            href={`/authors/${a.authorSlug}`}
+            className="font-semibold text-gray-700 hover:text-blue-600 transition-colors"
+          >
+            {a.authorName}
           </Link>
         </p>
-        {a.excerpt && <p className="text-sm text-gray-600 mb-3 leading-relaxed line-clamp-2">{a.excerpt}</p>}
+
+        {a.excerpt && (
+          <p className="text-sm text-gray-600 mb-3 leading-relaxed line-clamp-2">{a.excerpt}</p>
+        )}
         <hr className="border-gray-200 mb-3" />
         <div className="flex items-center gap-3 flex-wrap">
-          <Link href={href} className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors inline-block">
+          <Link
+            href={href}
+            className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors inline-block"
+          >
             READ MORE
           </Link>
           <span className="flex items-center gap-1 text-xs text-gray-500 cursor-pointer hover:text-blue-500 transition-colors">
@@ -128,12 +225,18 @@ function TrendingCard({ item }) {
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
-        {item.badge && <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">{item.badge}</span>}
+        {item.badge && (
+          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
+            {item.badge}
+          </span>
+        )}
       </div>
       {item.sponsored
         ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
         : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
-      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">{item.title}</p>
+      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
+        {item.title}
+      </p>
     </Link>
   );
 }
@@ -141,10 +244,9 @@ function TrendingCard({ item }) {
 function SidebarCategoryCard({ cat }) {
   return (
     <Link href={`/${cat.category}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
-      {/* FIXED: Immediate parent Link has 'relative' */}
       <Image src={cat.image} alt={cat.label} fill sizes="300px"
         className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
-      <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
+      <div className="absolute inset-0 flex items-center px-4 z-10">
         <span className="text-white font-bold text-base">{cat.label}</span>
       </div>
     </Link>
@@ -152,11 +254,13 @@ function SidebarCategoryCard({ cat }) {
 }
 
 function AuthorHeader({ author, articleCount }) {
+  const catMeta = author.category ? CATEGORY_META[author.category] : null;
+
   const socialIcons = {
-    facebook: { icon: Facebook, color: "hover:text-blue-600" },
-    twitter: { icon: Twitter, color: "hover:text-sky-500" },
-    instagram: { icon: Instagram, color: "hover:text-pink-600" },
-    youtube: { icon: Youtube, color: "hover:text-red-600" },
+    facebook:  { icon: Facebook,  color: "hover:text-blue-600"  },
+    twitter:   { icon: Twitter,   color: "hover:text-sky-500"   },
+    instagram: { icon: Instagram, color: "hover:text-pink-600"  },
+    youtube:   { icon: Youtube,   color: "hover:text-red-600"   },
   };
 
   return (
@@ -166,26 +270,32 @@ function AuthorHeader({ author, articleCount }) {
         <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] mb-2 block">
           About Author
         </span>
+
         <h1 className="text-4xl md:text-6xl font-bold text-black mb-1 capitalize leading-tight">
           {author.name}
         </h1>
-        {author.role && (
-          <span className="text-[#2196f3] text-sm font-semibold mb-4 block">{author.role}</span>
-        )}
+
+        {/* Role + beat category badge */}
+        <div className="flex items-center gap-3 flex-wrap mb-4">
+          {author.role && (
+            <span className="text-[#2196f3] text-sm font-semibold">{author.role}</span>
+          )}
+          {catMeta && (
+            <Link
+              href={`/${author.category}`}
+              className={`inline-flex items-center gap-1.5 ${catMeta.color} text-white text-[11px] font-bold px-3 py-1 uppercase tracking-wide hover:opacity-80 transition-opacity`}
+            >
+              <Tag size={10} />
+              {catMeta.label}
+            </Link>
+          )}
+        </div>
 
         {/* Stats */}
         <div className="flex gap-6 mb-5">
           <div className="text-center">
             <p className="text-xl font-bold text-gray-900">{articleCount}</p>
             <p className="text-[10px] text-gray-500 uppercase tracking-wide">Posts</p>
-          </div>
-          <div className="text-center">
-            <p className="text-xl font-bold text-gray-900">{author.stats?.followers || "—"}</p>
-            <p className="text-[10px] text-gray-500 uppercase tracking-wide">Followers</p>
-          </div>
-          <div className="text-center">
-            <p className="text-xl font-bold text-gray-900">{author.stats?.following || "—"}</p>
-            <p className="text-[10px] text-gray-500 uppercase tracking-wide">Following</p>
           </div>
         </div>
 
@@ -200,7 +310,7 @@ function AuthorHeader({ author, articleCount }) {
             if (!entry) return null;
             const Icon = entry.icon;
             return (
-              <a key={key} href={href} className={`transition-colors ${entry.color}`}>
+              <a key={key} href={href} className={`transition-colors ${entry.color}`} aria-label={key}>
                 <Icon size={18} />
               </a>
             );
@@ -208,12 +318,15 @@ function AuthorHeader({ author, articleCount }) {
         </div>
       </div>
 
-      {/* Right: image */}
+      {/* Right: cover image */}
       <div className="relative w-full md:w-[340px] lg:w-[420px] h-[260px] md:h-auto flex-shrink-0">
-        <Image src={author.coverImage || author.avatar} alt={author.name} fill
-          className="object-cover" priority />
-        {/* Blue accent bar */}
-        <div className="absolute left-0 top-0 bottom-0 w-1 bg-[#2196f3]" />
+        <Image
+          src={author.coverImage || author.avatar}
+          alt={author.name} fill
+          className="object-cover" priority
+        />
+        {/* Accent bar — colour from author's beat category */}
+        <div className={`absolute left-0 top-0 bottom-0 w-1 ${catMeta?.color ?? "bg-[#2196f3]"}`} />
       </div>
     </div>
   );
@@ -222,45 +335,51 @@ function AuthorHeader({ author, articleCount }) {
 // ─── METADATA ────────────────────────────────────────────────────────────────
 
 export async function generateMetadata({ params }) {
-  const { author } = await params;
-  const slug = author.toLowerCase().replace(/-/g, "");
-  const data = authorsData[slug];
-  const displayName = data?.name || (author.charAt(0).toUpperCase() + author.slice(1).replace(/-/g, " "));
+  const { author: slug } = await params;
+  const data     = getAuthorBySlug(slug);
+  const name     = data?.name ?? slug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+  const catLabel = data?.category ? (CATEGORY_META[data.category]?.label ?? "") : "";
+
   return {
-    title: `${displayName} — Author | Daily News`,
-    description: `Read the latest articles by ${displayName} on Daily News.`,
-    openGraph: { type: "profile", title: `${displayName} — Author`, siteName: "Daily News" },
+    title:       `${name} — ${catLabel || "Author"} | Corruption Files`,
+    description: data?.bio ?? `Read the latest articles by ${name} on Corruption Files.`,
+    openGraph:   { type: "profile", title: `${name} — Author`, siteName: "Corruption Files" },
   };
 }
 
-// ─── PAGE ─────────────────────────────────────────────────────────────────────
+// ─── PAGE ────────────────────────────────────────────────────────────────────
 
 export default async function AuthorPage({ params }) {
-  const { author } = await params;
-  const slug = author.toLowerCase().replace(/-/g, "");
-  const authorData = authorsData[slug] || {
-    name: author.charAt(0).toUpperCase() + author.slice(1).replace(/-/g, " "),
-    slug: author,
-    avatar: "/corruptionfiles4-6.jpg",
+  const { author: authorSlug } = await params; // URL param, e.g. "margaret-holloway"
+
+  // 1. Resolve author profile from authors.json using the URL slug
+  const authorData = getAuthorBySlug(authorSlug) ?? {
+    name:       authorSlug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
+    slug:       authorSlug,
+    avatar:     "/corruptionfiles4-6.jpg",
     coverImage: "/corruptionfiles4-2-1024x683.jpg",
-    role: "Contributor",
-    bio: `${author} is a contributor at Daily News covering a range of topics.`,
-    social: {},
-    stats: { posts: 0, followers: "—", following: "—" },
+    role:       "Contributor",
+    bio:        `${authorSlug} is a contributor at Corruption Files.`,
+    social:     {},
+    category:   null,
+    stats:      { posts: 0, followers: "—", following: "—" },
   };
 
-  const authorNameForFilter = authorData.name;
-  const articles = getArticlesByAuthor(authorNameForFilter);
+  // 2. Collect articles by matching the display name stored in homepage.json
+  const articles = getArticlesByAuthorName(authorData.name);
+
+  // 3. Sidebar
   const { trendingNews, categories } = homepageData;
+  const catMeta = authorData.category ? CATEGORY_META[authorData.category] : null;
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     mainEntity: {
       "@type": "Person",
-      name: authorData.name,
+      name:        authorData.name,
       description: authorData.bio,
-      url: `https://www.corruptionfiles.com/authors/${author}`,
+      url:         `https://www.corruptionfiles.com/authors/${authorSlug}`,
     },
   };
 
@@ -269,22 +388,34 @@ export default async function AuthorPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
 
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-20">
-        {/* Author Header */}
+
         <AuthorHeader author={authorData} articleCount={articles.length} />
 
-        {/* Articles heading */}
-        <div className="border-b-2 border-black mb-8 pb-1">
+        {/* Section heading */}
+        <div className={`border-b-2 mb-8 pb-1 ${catMeta ? catMeta.border : "border-black"}`}>
           <h2 className="text-[24px] font-bold text-black leading-tight">
-            Articles by {authorData.name}
+            Articles by{" "}
+            <span className={catMeta ? catMeta.text : "text-black"}>{authorData.name}</span>
           </h2>
-          <p className="text-gray-400 text-[13px] font-medium uppercase tracking-tight">
-            {articles.length} published {articles.length === 1 ? "post" : "posts"}
-          </p>
+          <div className="flex items-center gap-3 mt-0.5">
+            <p className="text-gray-400 text-[13px] font-medium uppercase tracking-tight">
+              {articles.length} published {articles.length === 1 ? "post" : "posts"}
+            </p>
+            {catMeta && (
+              <Link
+                href={`/${authorData.category}`}
+                className={`inline-flex items-center gap-1 text-[11px] font-bold uppercase tracking-wide ${catMeta.text} hover:opacity-70 transition-opacity`}
+              >
+                <Tag size={9} />
+                {catMeta.label}
+              </Link>
+            )}
+          </div>
         </div>
 
-        {/* News + Sidebar */}
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left: articles */}
+
+          {/* Articles */}
           <div className="flex-1 min-w-0">
             {articles.length === 0 ? (
               <div className="py-16 text-center">
@@ -293,16 +424,20 @@ export default async function AuthorPage({ params }) {
               </div>
             ) : (
               <>
-                {articles.slice(0, 4).map((card) => <NewsListCard key={card.id ?? card.slug} card={card} />)}
+                {articles.slice(0, 4).map((card) => (
+                  <NewsListCard key={card.id ?? card.slug} card={card} />
+                ))}
                 <div className="mt-2 mb-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
                   728×90 AD
                 </div>
-                {articles.slice(4).map((card) => <NewsListCard key={card.id ?? card.slug} card={card} />)}
+                {articles.slice(4).map((card) => (
+                  <NewsListCard key={card.id ?? card.slug} card={card} />
+                ))}
               </>
             )}
           </div>
 
-          {/* Right: sidebar */}
+          {/* Sidebar */}
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 
@@ -311,7 +446,7 @@ export default async function AuthorPage({ params }) {
                 Trending Today
               </h3>
               <div className="grid grid-cols-2 gap-4">
-                {trendingNews.map((item) => <TrendingCard key={item.id} item={item} />)}
+                {trendingNews?.map((item) => <TrendingCard key={item.id} item={item} />)}
               </div>
             </div>
 
@@ -320,7 +455,7 @@ export default async function AuthorPage({ params }) {
                 Categories
               </h3>
               <div className="flex flex-col gap-1">
-                {categories.map((cat) => <SidebarCategoryCard key={cat.label} cat={cat} />)}
+                {categories?.map((cat) => <SidebarCategoryCard key={cat.label} cat={cat} />)}
               </div>
             </div>
           </aside>

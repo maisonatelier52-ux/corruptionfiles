@@ -8,7 +8,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "US Senate Rejects Resolution to Stop Iran's Military Actions",
       "description": "The U.S. Senate voted 47-53 against a war powers resolution.It means that the current military assault in Iran can continue without needing urgent Congress approval."
     },
@@ -20,7 +20,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 3, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "UK Chancellor Makes 2026 Spring Forecast in Westminster",
       "description": "Chancellor Rachel Reeves gives the Spring Forecast, which includes promises to lower inflation, cut national borrowing, and make life easier for people in Britain."
     },
@@ -32,7 +32,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "House Prepares for War Powers Vote on Middle East Conflict",
       "description": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead."
     }
@@ -46,7 +46,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation",
       "description": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy."
     },
@@ -58,7 +58,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 5, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "Green Party's Hannah Spencer Officially Enters House of Commons",
       "description": "Newly elected Green MP Hannah Spencer officially takes her seat in the House of Commons this week following a closely watched by-election win in Gorton and Denton."
     },
@@ -70,7 +70,7 @@
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
       "date": "March 4, 2026",
-      "author": "margaret-holloway",
+      "author": "Margaret Holloway",
       "title": "House Ethics Panel Launches Investigation Into Rep. Nancy Mace",
       "description": "Capitol Hill faces a new inquiry as the House Ethics Committee officially opens an investigation into Representative Nancy Mace."
     }
@@ -83,7 +83,7 @@
         { "label": "Puerto Rico", "color": "bg-[#2196f3]" } 
       ],
       "category": "puerto-rico",
-      "author": "carlos-medina-reyes",
+      "author": "Carlos Medina Reyes",
       "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
       "quote": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
       "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp"
@@ -97,7 +97,7 @@
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 3, 2026",
-        "author": "carlos-medina-reyes",
+        "author": "Carlos Medina Reyes",
         "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico",
         "description": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy."
       },
@@ -109,21 +109,21 @@
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
         "date": "March 8, 2026",
-        "author": "carlos-medina-reyes",
+        "author": "Carlos Medina Reyes",
         "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open",
         "description": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend."
       }
     ]
   },
   "healthcareNews": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "category": "pa","categoryLabel": "Police Accountability", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026", "author": "darnell-hutchins" },
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "darnell-hutchins" },
-        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "darnell-hutchins" },
-        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "darnell-hutchins" },
-        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "darnell-hutchins" },
-        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "darnell-hutchins" },
-        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "darnell-hutchins" },
-        { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "darnell-hutchins" }
+        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "category": "pa","categoryLabel": "Police Accountability", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026", "author": "Darnell Hutchins" },
+        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "Darnell Hutchins" },
+        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "Darnell Hutchins" },
+        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "Darnell Hutchins" },
+        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "Darnell Hutchins" },
+        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "Darnell Hutchins" },
+        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "Darnell Hutchins" },
+        { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "Darnell Hutchins" }
   ],
   "worldNews": {
 "main": {
@@ -135,7 +135,7 @@
         { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
       ],
       "date": "March 21, 2026",
-      "author": "corruptionfiles",
+      "author": "Simone Varlette",
       "title": "FBI Confirms Buying Americans' Private Data Without Warrants",
       "description": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers, enabling mass surveillance without a warrant."
     },
@@ -149,6 +149,7 @@
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
         "date": "March 20, 2026",
+        "author": "Simone Varlette",
         "title": "Trump Administration Releases 2026 National AI Policy Blueprint"
       },
       {
@@ -160,6 +161,7 @@
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
         "date": "March 19, 2026",
+        "author": "Simone Varlette",
         "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware"
       }
     ]
@@ -172,7 +174,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 25, 2026",
     "title": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing against federal healthcare programs.",
     "image": "/team-rehab-fraudulent-billing.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -184,7 +186,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 24, 2026",
     "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme.",
     "image": "/sophia-shaklian-hospice-fraud.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -196,7 +198,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 16, 2026",
     "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring.",
     "image": "/black-market-hiv-drug-ring.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -208,7 +210,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 11, 2026",
     "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores to boost federal payments.",
     "image": "/aetna-medicare-advantage-fraud.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -220,7 +222,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 9, 2026",
     "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme.",
     "image": "/texas-dme-owner-medicare-scam.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -232,7 +234,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 24, 2026",
     "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed.",
     "image": "/oregon-lab-owner-medicare-fraud.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -244,7 +246,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 24, 2026",
     "title": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks from patients and regulators.",
     "image": "/scotus-takeda-eli-lilly-rico.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -256,7 +258,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 23, 2026",
     "title": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network.",
     "image": "/florida-doctor-telehealth-fraud.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -268,7 +270,7 @@
     "categoryLabel": "Medical Fraud",
     "date": "March 18, 2026",
     "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging",
-    "author": "corruptionfiles",
+    "author": "Ruth Anselmi",
     "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs.",
     "image": "/abbvie-astrazeneca-drug-overcharging.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
@@ -296,7 +298,7 @@
     "category": "eco",
     "title": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline",
     "excerpt": "Washington is using federal emergency powers to restart a California offshore pipeline shuttered after a massive 2015 oil spill...",
-    "author": "corruptionfiles",
+    "author": "Thomas Aldgate",
     "date": "March 13, 2026",
     "image": "/california-sable-offshore-pipeline.webp",
     "categoryLabel": "Environmental Exploitation",
@@ -311,7 +313,8 @@
       "image": "/uranium-drilling-new-mexico-chama-valley.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 31, 2026"
+      "date": "March 31, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 503,
@@ -321,7 +324,8 @@
       "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 27, 2026"
+      "date": "March 27, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 504,
@@ -331,7 +335,8 @@
       "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "April 1, 2026"
+      "date": "April 1, 2026",
+      "author": "Thomas Aldgate"
     }
   ],
   "discoveryRight": [
@@ -343,7 +348,8 @@
       "categoryLabel": "Environmental Exploitation",
       "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 31, 2026"
+      "date": "March 31, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 506,
@@ -353,7 +359,8 @@
       "categoryLabel": "Environmental Exploitation",
       "image": "/uk-rivers-sewage-spills-environment-agency.webp",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 26, 2026"
+      "date": "March 26, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 507,
@@ -363,7 +370,8 @@
       "categoryLabel": "Environmental Exploitation",
       "image": "/cornwall-south-crofty-tin-mine-2026-production.webp",
       "categoryColor": "bg-[#2196f3]",
-      "date": "April 2, 2026"
+      "date": "April 2, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 508,
@@ -373,7 +381,8 @@
       "categoryLabel": "Environmental Exploitation",
       "image": "/uk-farmers-antibiotic-restrictions-livestock.webp",
       "categoryColor": "bg-[#2196f3]",
-      "date": "April 1, 2026"
+      "date": "April 1, 2026",
+      "author": "Thomas Aldgate"
     }
   ], 
 "technologyNews": [
@@ -383,7 +392,7 @@
     "category": "intelligence",
     "title": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks",
     "excerpt": "Washington and Tehran receive a 45-day ceasefire draft as Iran's top intelligence commander falls in a targeted strike inside the capital.",
-    "author": "corruptionfiles",
+    "author": "Naomi Vosburgh",
     "date": "April 6, 2026",
     "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
@@ -394,12 +403,12 @@
     "category": "intelligence",
     "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict",
     "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams.",
-    "author": "corruptionfiles",
+    "author": "Naomi Vosburgh",
     "date": "April 6, 2026",
     "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
-],
+], 
 "trendingSectionData": [
   {
     "id": 801,
@@ -408,6 +417,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
     "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -417,6 +427,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency",
     "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -426,6 +437,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts",
     "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -435,6 +447,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking",
     "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -444,6 +457,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
     "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -453,6 +467,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
     "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -462,6 +477,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "FinCEN Expands Southwest Border Targeting Order to Curb Cash Smuggling",
     "image": "/fincen-southwest-border-targeting-order-cash-smuggling.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -471,6 +487,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion",
     "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -480,6 +497,7 @@
     "categoryLabel": "Offshore Wealth & Sanctions",
     "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program",
     "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp",
+    "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   }
 ]
