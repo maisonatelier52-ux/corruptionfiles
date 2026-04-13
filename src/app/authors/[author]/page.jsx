@@ -7,36 +7,27 @@ import StickyAd from "@/components/StickyAd";
 
 // ─── CATEGORY CONFIG ──────────────────────────────────────────────────────────
 const CATEGORY_META = {
-  govt:            { label: "Government",                  color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]" },
-  "puerto-rico":   { label: "Puerto Rico",                 color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]" },
-  pa:              { label: "Police Accountability",       color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
-  tech:            { label: "Big Tech & Surveillance",     color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]" },
-  "medical-fraud": { label: "Medical Fraud",               color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
-  eco:             { label: "Environmental Exploitation",  color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]" },
-  intelligence:    { label: "Intelligence",                color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]" },
-  offshore:        { label: "Offshore Wealth & Sanctions", color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]" },
+  govt:            { label: "Government",                  color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]", ring: "ring-[#ff9800]" },
+  "puerto-rico":   { label: "Puerto Rico",                 color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]", ring: "ring-[#2196f3]" },
+  pa:              { label: "Police Accountability",       color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]", ring: "ring-[#e91e63]" },
+  tech:            { label: "Big Tech & Surveillance",     color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]", ring: "ring-[#00008b]" },
+  "medical-fraud": { label: "Medical Fraud",               color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]", ring: "ring-[#e91e63]" },
+  eco:             { label: "Environmental Exploitation",  color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]", ring: "ring-[#2196f3]" },
+  intelligence:    { label: "Intelligence",                color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]", ring: "ring-[#00008b]" },
+  offshore:        { label: "Offshore Wealth & Sanctions", color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]", ring: "ring-[#e91e63]" },
 };
 
 // ─── AUTHOR LOOKUP HELPERS ────────────────────────────────────────────────────
 
-/** Flat array of every author record from authors.json */
 function getAllAuthors() {
   if (Array.isArray(authorsData?.corruptionfiles)) return authorsData.corruptionfiles;
   return Object.values(authorsData).filter((v) => typeof v === "object" && v?.slug);
 }
 
-/**
- * Look up an author by their URL slug  (e.g. "margaret-holloway").
- * Used on the page itself to get the profile data.
- */
 function getAuthorBySlug(slug) {
   return getAllAuthors().find((a) => a.slug === slug) ?? null;
 }
 
-/**
- * Look up an author by their display name (e.g. "Margaret Holloway").
- * Used when resolving article author fields → profile link slug.
- */
 function getAuthorByName(name) {
   const lower = name?.toLowerCase().trim();
   return getAllAuthors().find((a) => a.name?.toLowerCase().trim() === lower) ?? null;
@@ -44,10 +35,6 @@ function getAuthorByName(name) {
 
 // ─── ARTICLE COLLECTION ───────────────────────────────────────────────────────
 
-/**
- * Return every article in homepage.json whose `author` display name
- * matches the given name (case-insensitive).
- */
 function getArticlesByAuthorName(displayName) {
   const lower = displayName?.toLowerCase().trim();
   const all   = [];
@@ -70,7 +57,6 @@ function getArticlesByAuthorName(displayName) {
   pushFiltered(homepageData.healthcareNews);
   pushFiltered(homepageData.worldNews?.sidebar);
 
-  // Single-article fields
   [
     homepageData.discoveryMain,
     homepageData.worldNews?.main,
@@ -79,7 +65,6 @@ function getArticlesByAuthorName(displayName) {
     if (a?.author?.toLowerCase().trim() === lower && a?.slug) all.push(a);
   });
 
-  // Deduplicate by slug
   const seen = new Set();
   return all.filter((a) => {
     if (!a.slug || seen.has(a.slug)) return false;
@@ -91,7 +76,6 @@ function getArticlesByAuthorName(displayName) {
 // ─── ARTICLE NORMALISER ───────────────────────────────────────────────────────
 
 function normalizeArticle(a) {
-  // Resolve the profile-link slug from the display name stored in homepage.json
   const authorRecord = getAuthorByName(a.author);
   const authorSlug   = authorRecord?.slug
     ?? a.author?.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
@@ -101,8 +85,8 @@ function normalizeArticle(a) {
     slug:       a.slug,
     category:   a.category || "politics",
     title:      a.title    || "",
-    authorName: a.author   || "",   // "Margaret Holloway"
-    authorSlug,                     // "margaret-holloway"
+    authorName: a.author   || "",
+    authorSlug,
     excerpt:    a.excerpt  || a.description || a.quote || "",
     image:      a.image    || "/corruptionfiles4-6.jpg",
     date:       a.date     || null,
@@ -143,7 +127,6 @@ function NewsListCard({ card }) {
 
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
-      {/* Thumbnail */}
       <div className="relative w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
         <Link href={href}>
           <Image
@@ -164,7 +147,6 @@ function NewsListCard({ card }) {
         </Link>
       </div>
 
-      {/* Text */}
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {a.sponsored
           ? <p className="text-gray-400 text-xs flex items-center gap-1 mb-1"><Bell size={11} /> Sponsored content</p>
@@ -176,7 +158,6 @@ function NewsListCard({ card }) {
           <Link href={href} className="hover:text-blue-600 transition-colors">{a.title}</Link>
         </h2>
 
-        {/* Category tag */}
         {CATEGORY_META[a.category] && (
           <Link
             href={`/${a.category}`}
@@ -187,7 +168,6 @@ function NewsListCard({ card }) {
           </Link>
         )}
 
-        {/* Author name → profile link built from resolved slug */}
         <p className="text-xs text-gray-500 mb-2">
           By{" "}
           <Link
@@ -253,8 +233,10 @@ function SidebarCategoryCard({ cat }) {
   );
 }
 
+// ─── UPDATED AUTHOR HEADER ────────────────────────────────────────────────────
 function AuthorHeader({ author, articleCount }) {
   const catMeta = author.category ? CATEGORY_META[author.category] : null;
+  const ringColor = catMeta?.ring ?? "ring-[#2196f3]";
 
   const socialIcons = {
     facebook:  { icon: Facebook,  color: "hover:text-blue-600"  },
@@ -264,69 +246,85 @@ function AuthorHeader({ author, articleCount }) {
   };
 
   return (
-    <div className="flex flex-col-reverse md:flex-row bg-white w-full mb-10 border-b border-gray-100 pb-0 overflow-hidden">
-      {/* Left: text */}
-      <div className="flex-1 py-8 md:pr-12 flex flex-col justify-center">
-        <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] mb-2 block">
-          About Author
-        </span>
+    <div className="bg-white w-full mb-10 border-b border-gray-100 pb-8">
+      <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-8">
 
-        <h1 className="text-4xl md:text-6xl font-bold text-black mb-1 capitalize leading-tight">
-          {author.name}
-        </h1>
+        {/* ── LEFT: auto width, shrinks to content ── */}
+        <div className="flex flex-col items-start gap-4 flex-shrink-0">
 
-        {/* Role + beat category badge */}
-        <div className="flex items-center gap-3 flex-wrap mb-4">
-          {author.role && (
-            <span className="text-[#2196f3] text-sm font-semibold">{author.role}</span>
-          )}
-          {catMeta && (
-            <Link
-              href={`/${author.category}`}
-              className={`inline-flex items-center gap-1.5 ${catMeta.color} text-white text-[11px] font-bold px-3 py-1 uppercase tracking-wide hover:opacity-80 transition-opacity`}
+          <div className="flex flex-row items-center gap-5">
+            <div
+              className={`relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0
+                          ring-4 ring-offset-2 ${ringColor} shadow-md`}
             >
-              <Tag size={10} />
-              {catMeta.label}
-            </Link>
-          )}
-        </div>
+              <Image
+                src={author.avatar || author.coverImage}
+                alt={author.name}
+                fill
+                sizes="96px"
+                className="object-cover"
+                priority
+              />
+            </div>
 
-        {/* Stats */}
-        <div className="flex gap-6 mb-5">
-          <div className="text-center">
+            <div>
+              <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1">
+                About Author
+              </span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black capitalize leading-tight">
+                {author.name}
+              </h1>
+            </div>
+          </div>
+
+          {/* Role + beat badge */}
+          <div className="flex items-center gap-3 flex-wrap">
+            {author.role && (
+              <span className="text-[#2196f3] text-sm font-semibold">{author.role}</span>
+            )}
+            {catMeta && (
+              <Link
+                href={`/${author.category}`}
+                className={`inline-flex items-center gap-1.5 ${catMeta.color} text-white
+                            text-[11px] font-bold px-3 py-1 uppercase tracking-wide
+                            hover:opacity-80 transition-opacity`}
+              >
+                <Tag size={10} />
+                {catMeta.label}
+              </Link>
+            )}
+          </div>
+
+          {/* Stats */}
+          <div>
             <p className="text-xl font-bold text-gray-900">{articleCount}</p>
             <p className="text-[10px] text-gray-500 uppercase tracking-wide">Posts</p>
           </div>
         </div>
 
-        <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-serif mb-6 max-w-lg">
-          {author.bio}
-        </p>
+        {/* ── Vertical divider ── */}
+        <div className="hidden md:block w-px bg-gray-200 self-stretch mx-2" />
 
-        {/* Social */}
-        <div className="flex items-center gap-5 text-gray-700">
-          {Object.entries(author.social || {}).map(([key, href]) => {
-            const entry = socialIcons[key];
-            if (!entry) return null;
-            const Icon = entry.icon;
-            return (
-              <a key={key} href={href} className={`transition-colors ${entry.color}`} aria-label={key}>
-                <Icon size={18} />
-              </a>
-            );
-          })}
+        {/* ── RIGHT: fills remaining space ── */}
+        <div className="flex flex-col justify-center flex-1 gap-6">
+          <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-serif">
+            {author.bio}
+          </p>
+
+          <div className="flex items-center gap-5 text-gray-700">
+            {Object.entries(author.social || {}).map(([key, href]) => {
+              const entry = socialIcons[key];
+              if (!entry) return null;
+              const Icon = entry.icon;
+              return (
+                <a key={key} href={href} className={`transition-colors ${entry.color}`} aria-label={key}>
+                  <Icon size={18} />
+                </a>
+              );
+            })}
+          </div>
         </div>
-      </div>
 
-      {/* Right: cover image */}
-      <div className="relative w-full md:w-[340px] lg:w-[420px] h-[260px] md:h-auto flex-shrink-0">
-        <Image
-          src={author.coverImage || author.avatar}
-          alt={author.name} fill
-          className="object-cover" priority
-        />
-        {/* Accent bar — colour from author's beat category */}
-        <div className={`absolute left-0 top-0 bottom-0 w-1 ${catMeta?.color ?? "bg-[#2196f3]"}`} />
       </div>
     </div>
   );
@@ -350,9 +348,8 @@ export async function generateMetadata({ params }) {
 // ─── PAGE ────────────────────────────────────────────────────────────────────
 
 export default async function AuthorPage({ params }) {
-  const { author: authorSlug } = await params; // URL param, e.g. "margaret-holloway"
+  const { author: authorSlug } = await params;
 
-  // 1. Resolve author profile from authors.json using the URL slug
   const authorData = getAuthorBySlug(authorSlug) ?? {
     name:       authorSlug.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase()),
     slug:       authorSlug,
@@ -365,10 +362,7 @@ export default async function AuthorPage({ params }) {
     stats:      { posts: 0, followers: "—", following: "—" },
   };
 
-  // 2. Collect articles by matching the display name stored in homepage.json
   const articles = getArticlesByAuthorName(authorData.name);
-
-  // 3. Sidebar
   const { trendingNews, categories } = homepageData;
   const catMeta = authorData.category ? CATEGORY_META[authorData.category] : null;
 
@@ -391,7 +385,6 @@ export default async function AuthorPage({ params }) {
 
         <AuthorHeader author={authorData} articleCount={articles.length} />
 
-        {/* Section heading */}
         <div className={`border-b-2 mb-8 pb-1 ${catMeta ? catMeta.border : "border-black"}`}>
           <h2 className="text-[24px] font-bold text-black leading-tight">
             Articles by{" "}
@@ -415,7 +408,6 @@ export default async function AuthorPage({ params }) {
 
         <div className="flex flex-col lg:flex-row gap-8">
 
-          {/* Articles */}
           <div className="flex-1 min-w-0">
             {articles.length === 0 ? (
               <div className="py-16 text-center">
@@ -437,7 +429,6 @@ export default async function AuthorPage({ params }) {
             )}
           </div>
 
-          {/* Sidebar */}
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 

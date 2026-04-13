@@ -84,6 +84,7 @@
       ],
       "category": "puerto-rico",
       "author": "Carlos Medina Reyes",
+      "date": "March 5, 2026",
       "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
       "quote": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
       "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp"
@@ -415,6 +416,7 @@
     "slug": "us-treasury-ofac-sanctions-evasion-sham-deals",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
+    "date": "March 31, 2026",
     "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
     "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
     "author": "Felix Draper",
@@ -428,6 +430,7 @@
     "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency",
     "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp",
     "author": "Felix Draper",
+    "date": "April 2, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -438,6 +441,7 @@
     "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts",
     "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp",
     "author": "Felix Draper",
+    "date": "April 2, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -448,6 +452,7 @@
     "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking",
     "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp",
     "author": "Felix Draper",
+    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -458,6 +463,7 @@
     "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
     "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
     "author": "Felix Draper",
+    "date": "April 4, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -468,6 +474,7 @@
     "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
     "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
     "author": "Felix Draper",
+    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -478,6 +485,7 @@
     "title": "FinCEN Expands Southwest Border Targeting Order to Curb Cash Smuggling",
     "image": "/fincen-southwest-border-targeting-order-cash-smuggling.webp",
     "author": "Felix Draper",
+    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -488,6 +496,7 @@
     "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion",
     "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp",
     "author": "Felix Draper",
+    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -498,6 +507,7 @@
     "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program",
     "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp",
     "author": "Felix Draper",
+    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   }
 ]

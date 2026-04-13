@@ -17,10 +17,55 @@ export const metadata = {
   },
 };
 
+// ─── LATEST ARTICLES — computed once at module level ─────────────────────────
+// Replaces the dummy trendingNews JSON entries with real latest articles.
+
+function collectLatestArticles(count = 4) {
+  const all = [];
+
+  const push = (arr) => {
+    if (!Array.isArray(arr)) return;
+    arr.forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+  };
+
+  push(homepageData.politicsNews);
+  push(homepageData.secondaryNews);
+  push(homepageData.inOtherNews?.grid);
+  push(homepageData.healthcareNews);
+  push(homepageData.worldNews?.sidebar);
+  push(homepageData.discoveryMiddle);
+  push(homepageData.discoveryRight);
+  push(homepageData.technologyNews);
+  push(homepageData.trendingSectionData);
+  push(homepageData.newsCards);
+
+  [
+    homepageData.discoveryMain,
+    homepageData.worldNews?.main,
+    homepageData.inOtherNews?.featured,
+  ].forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+
+  // Deduplicate by slug
+  const seen = new Set();
+  const unique = all.filter((a) => {
+    if (seen.has(a.slug)) return false;
+    seen.add(a.slug);
+    return true;
+  });
+
+  // Sort newest → oldest
+  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  return unique.slice(0, count);
+}
+
+const LATEST_ARTICLES = collectLatestArticles(4);
+
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
 function labelToSlug(label) {
-  return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
+  // spaces → dashes first, then strip remaining non-alphanumeric chars
+  return label.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "").trim();
 }
 
 function authorHref(name) {
@@ -119,16 +164,21 @@ function TrendingCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
-      {/* FIXED: Immediate parent of Image is now relative */}
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
-        {item.badge && <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">{item.badge}</span>}
+        {item.badge && (
+          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
+            {item.badge}
+          </span>
+        )}
       </div>
-      {item.sponsored
+      {item.sponsored || item.isSponsored
         ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
         : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
-      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">{item.title}</p>
+      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
+        {item.title}
+      </p>
     </Link>
   );
 }
@@ -167,7 +217,6 @@ function DiscoveryMiddleItem({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <article className="flex gap-5 border-b border-gray-100 pb-8 mb-6 last:border-0 last:mb-0 last:pb-0 group">
-      {/* FIXED: Link is immediate parent, so Link needs relative */}
       <div className="w-[140px] h-[95px] flex-shrink-0 overflow-hidden">
         <Link href={href} className="relative block w-full h-full">
           <Image src={item.image} alt={item.title} fill sizes="140px"
@@ -213,7 +262,6 @@ function TechOverlayCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <article className="w-full aspect-square md:aspect-[4/3] group overflow-hidden">
-      {/* FIXED: Link is immediate parent, so Link needs relative */}
       <Link href={href} className="relative block w-full h-full">
         <Image src={item.image} alt={item.title} fill sizes="(max-width:768px) 100vw, 50vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -228,9 +276,7 @@ function TechOverlayCard({ item }) {
             {item.isSponsored ? <><Bell size={12} /> Sponsored content</> : <><Calendar size={12} /><time>{item.date}</time></>}
           </div>
           <h3 className="text-xl md:text-2xl font-bold leading-tight mb-3 drop-shadow-sm group-hover:text-blue-400 transition-colors">{item.title}</h3>
-          <div className="text-[11px] font-bold uppercase tracking-widest mb-4 opacity-80">
-            By {item.author}
-          </div>
+          <div className="text-[11px] font-bold uppercase tracking-widest mb-4 opacity-80">By {item.author}</div>
           <p className="text-[14px] leading-relaxed mb-6 opacity-90 line-clamp-2 md:line-clamp-3 max-w-lg">{item.excerpt}</p>
         </div>
       </Link>
@@ -243,11 +289,14 @@ function TrendingCircleCard({ item }) {
   return (
     <article className="flex gap-5 items-start group">
       <div className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28">
-        {/* FIXED: Link is immediate parent, so Link needs relative */}
         <Link href={href} className="relative block w-full h-full">
           <Image src={item.image} alt={item.title} fill sizes="(max-width:768px) 96px, 112px"
             className="object-cover rounded-full transition-transform duration-500 group-hover:scale-105" />
-          {item.badge && <span className="absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 bg-[#f69a4d] text-white font-bold text-[11px] px-2 py-1 shadow-sm z-10">{item.badge}</span>}
+          {item.badge && (
+            <span className="absolute top-0 right-0 translate-x-1/4 -translate-y-1/4 bg-[#f69a4d] text-white font-bold text-[11px] px-2 py-1 shadow-sm z-10">
+              {item.badge}
+            </span>
+          )}
         </Link>
       </div>
       <div className="flex-1 min-w-0 pt-1">
@@ -271,9 +320,10 @@ function TrendingCircleCard({ item }) {
 export default function Home() {
   const {
     politicsNews, secondaryNews, inOtherNews, healthcareNews,
-    worldNews, newsCards, trendingNews, categories,
+    worldNews, newsCards, categories,
     discoveryMain, discoveryMiddle, discoveryRight, technologyNews, trendingSectionData,
   } = homepageData;
+  // trendingNews intentionally excluded — replaced by LATEST_ARTICLES above
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -291,7 +341,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">
         <h1 className="sr-only">Daily News Home - Politics, Business and World Headlines</h1>
 
-        {/* ── Govt SECTION ── */}
+        {/* ── GOVT SECTION ── */}
         <div className="border-b-2 border-black mb-6">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link href="/govt" className="hover:text-blue-600 transition-colors">Government</Link>
@@ -305,7 +355,7 @@ export default function Home() {
           {secondaryNews.map((news) => <NewsCard key={news.id} {...news} />)}
         </div>
 
-        {/* ── PR SECTION ── */}
+        {/* ── PUERTO RICO SECTION ── */}
         <div className="border-b-2 border-black mb-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link href="/puerto-rico" className="hover:text-blue-600 transition-colors">Puerto Rico</Link>
@@ -316,7 +366,6 @@ export default function Home() {
             href={`/${inOtherNews.featured.categories?.[0] ? labelToSlug(inOtherNews.featured.categories[0].label) : "world"}/${inOtherNews.featured.slug}`}
             className="relative group cursor-pointer overflow-hidden border border-gray-200 block min-h-[400px]"
           >
-            {/* Parent Link already has 'relative' here, which is correct */}
             <Image src={inOtherNews.featured.image} alt={inOtherNews.featured.title} fill
               sizes="(max-width:768px) 100vw, 50vw"
               className="object-cover transition-transform duration-700 group-hover:scale-105" />
@@ -338,7 +387,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* ── Police SECTION ── */}
+        {/* ── POLICE ACCOUNTABILITY SECTION ── */}
         <div className="border-b-2 border-black mt-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link href="/pa" className="hover:text-blue-600 transition-colors">Police Accountability</Link>
@@ -362,7 +411,7 @@ export default function Home() {
           ))}
         </div>
 
-        {/* ── INVESTIGATION SECTION ── */}
+        {/* ── BIG TECH & SURVEILLANCE SECTION ── */}
         <div className="border-b-2 border-black mb-8">
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link href="/tech" className="hover:text-blue-600 transition-colors">Big Tech & Surveillance</Link>
@@ -372,7 +421,6 @@ export default function Home() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-20">
           <article className="lg:col-span-8 group cursor-pointer">
             <Link href={`/${worldNews.main.category}/${worldNews.main.slug}`} className="block">
-              {/* FIXED: The div is the parent, and it has relative. Corrected sizes for good measure. */}
               <div className="relative aspect-video overflow-hidden mb-6">
                 <Image src={worldNews.main.image} alt={worldNews.main.title} fill
                   sizes="(max-width:1024px) 100vw, 800px"
@@ -399,10 +447,8 @@ export default function Home() {
           </article>
           <aside className="lg:col-span-4 flex flex-col gap-4">
             {worldNews.sidebar.map((item) => (
-              <Link key={item.id}
-                href={`/${item.category}/${item.slug}`}
+              <Link key={item.id} href={`/${item.category}/${item.slug}`}
                 className="border border-gray-100 group cursor-pointer shadow-sm hover:shadow-md transition-shadow block">
-                {/* FIXED: Immediate parent of fill image is relative */}
                 <div className="relative aspect-video overflow-hidden">
                   <Image src={item.image} alt={item.title} fill sizes="400px"
                     className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -440,16 +486,26 @@ export default function Home() {
             <div id="ad-sentinel" className="h-0 w-full" />
             {newsCards.slice(4).map((card) => <NewsListCard key={card.id} card={card} />)}
           </div>
+
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
+
+            {/* Latest Today — real articles, newest → oldest, no dummy data */}
             <div className="mb-6 mt-14">
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">Trending Today</h3>
+              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+                Latest Today
+              </h3>
               <div className="grid grid-cols-2 gap-4">
-                {trendingNews.map((item) => <TrendingCard key={item.id} item={item} />)}
+                {LATEST_ARTICLES.map((item) => (
+                  <TrendingCard key={item.id ?? item.slug} item={item} />
+                ))}
               </div>
             </div>
+
             <div>
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">Categories</h3>
+              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+                Categories
+              </h3>
               <div className="flex flex-col gap-1">
                 {categories.map((cat) => <CategoryCard key={cat.label} cat={cat} />)}
               </div>
@@ -457,7 +513,7 @@ export default function Home() {
           </aside>
         </div>
 
-        {/* ── TECH SECTION ── */}
+        {/* ── ENVIRONMENTAL EXPLOITATION SECTION ── */}
         <section aria-labelledby="tech-discovery" className="mt-7 mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="tech-discovery" className="text-[28px] font-bold text-black leading-tight">
@@ -480,7 +536,7 @@ export default function Home() {
 
         <AdBanner />
 
-        {/* ── SCIENCE SECTION ── */}
+        {/* ── INTELLIGENCE SECTION ── */}
         <section aria-labelledby="science-heading" className="mt-16 mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="science-heading" className="text-[28px] font-bold text-black leading-tight">
@@ -493,7 +549,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ── BANKING SECTION ── */}
+        {/* ── OFFSHORE WEALTH & SANCTIONS SECTION ── */}
         <section aria-labelledby="banking-heading" className="mt-1 mb-1">
           <div className="border-b-2 border-black mb-4 pb-1">
             <h2 id="banking-heading" className="text-[28px] font-bold text-black leading-tight">
@@ -505,6 +561,7 @@ export default function Home() {
             {trendingSectionData.map((item) => <TrendingCircleCard key={item.id} item={item} />)}
           </div>
         </section>
+
       </div>
     </main>
   );

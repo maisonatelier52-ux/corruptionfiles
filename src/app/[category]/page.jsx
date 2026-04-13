@@ -7,7 +7,10 @@ import StickyAd from "@/components/StickyAd";
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
 function labelToSlug(label) {
-  return label.toLowerCase().replace(/[^a-z0-9-]/g, "").trim();
+  // FIX: replace spaces with dashes BEFORE stripping non-alphanumeric chars
+  // Previously spaces were stripped entirely, turning "Puerto Rico" → "puertorico"
+  // Now: "Puerto Rico" → "puerto-rico" ✓
+  return label.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "").trim();
 }
 
 function getArticlesByCategory(categorySlug) {
@@ -31,6 +34,9 @@ function getArticlesByCategory(categorySlug) {
 
   if (homepageData.discoveryMain?.category === categorySlug) all.push(homepageData.discoveryMain);
   if (homepageData.worldNews?.main?.category === categorySlug) all.push(homepageData.worldNews.main);
+
+  // FIX: labelToSlug now produces "puerto-rico" from "Puerto Rico", so this
+  // check correctly matches the featured article for the puerto-rico category.
   if (homepageData.inOtherNews?.featured?.categories?.some((c) => labelToSlug(c.label) === categorySlug)) {
     all.push({ ...homepageData.inOtherNews.featured, category: categorySlug });
   }
@@ -81,7 +87,6 @@ function NewsListCard({ card }) {
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
       <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        {/* FIXED: Added relative block w-full h-full to the Link parent */}
         <Link href={href} className="relative block w-full h-full">
           <Image src={a.image} alt={a.title} fill sizes="(max-width:768px) 100vw, 240px"
             className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -126,8 +131,6 @@ function TrendingCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
-      {/* FIXED: The div is the immediate parent of Image and already has 'relative' 
-          which is correct for fill. */}
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
@@ -144,7 +147,6 @@ function TrendingCard({ item }) {
 function SidebarCategoryCard({ cat }) {
   return (
     <Link href={`/${cat.category}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
-      {/* FIXED: Immediate parent Link has 'relative' */}
       <Image src={cat.image} alt={cat.label} fill sizes="300px"
         className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
       <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
@@ -157,13 +159,12 @@ function SidebarCategoryCard({ cat }) {
 function CategoryHero({ categoryName, count }) {
   return (
     <div className="relative w-full h-[280px] md:h-[380px] overflow-hidden mb-10">
-      {/* FIXED: Parent div has 'relative' */}
-      <Image 
-        src="/cat-bgcolor.webp" 
-        alt={categoryName} 
+      <Image
+        src="/cat-bgcolor.webp"
+        alt={categoryName}
         fill
-        className="object-cover brightness-[0.80]" 
-        priority 
+        className="object-cover brightness-[0.80]"
+        priority
       />
       <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-16 max-w-4xl">
         <span className="text-white/60 text-[11px] font-bold uppercase tracking-[0.25em] mb-2">
@@ -224,9 +225,9 @@ export default async function CategoryPage({ params }) {
 
   const articles = getArticlesByCategory(category);
   const categoryLabel =
-  articles[0]?.categoryLabel ||
-  articles[0]?.categories?.[0]?.label ||
-  categoryName;
+    articles[0]?.categoryLabel ||
+    articles[0]?.categories?.[0]?.label ||
+    categoryName;
   const { trendingNews, categories } = homepageData;
 
   const jsonLd = {
