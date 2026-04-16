@@ -5,6 +5,49 @@ import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import StickyAd from "@/components/StickyAd";
 
+// ─── LATEST ARTICLES — computed once at module level ─────────────────────────
+// Replaces the dummy trendingNews JSON entries with real latest articles.
+
+function collectLatestArticles(count = 4) {
+  const all = [];
+
+  const push = (arr) => {
+    if (!Array.isArray(arr)) return;
+    arr.forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+  };
+
+  push(homepageData.politicsNews);
+  push(homepageData.secondaryNews);
+  push(homepageData.inOtherNews?.grid);
+  push(homepageData.healthcareNews);
+  push(homepageData.worldNews?.sidebar);
+  push(homepageData.discoveryMiddle);
+  push(homepageData.discoveryRight);
+  push(homepageData.technologyNews);
+  push(homepageData.trendingSectionData);
+  push(homepageData.newsCards);
+
+  [
+    homepageData.discoveryMain,
+    homepageData.worldNews?.main,
+    homepageData.inOtherNews?.featured,
+  ].forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+
+  const seen = new Set();
+  const unique = all.filter((a) => {
+    if (seen.has(a.slug)) return false;
+    seen.add(a.slug);
+    return true;
+  });
+
+  // Sort newest → oldest
+  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  return unique.slice(0, count);
+}
+
+const LATEST_ARTICLES = collectLatestArticles(4);
+
 // ─── CATEGORY CONFIG ──────────────────────────────────────────────────────────
 const CATEGORY_META = {
   govt:            { label: "Government",                  color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]", ring: "ring-[#ff9800]" },
@@ -198,7 +241,7 @@ function NewsListCard({ card }) {
   );
 }
 
-function TrendingCard({ item }) {
+function LatestCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
@@ -211,7 +254,7 @@ function TrendingCard({ item }) {
           </span>
         )}
       </div>
-      {item.sponsored
+      {item.isSponsored || item.sponsored
         ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
         : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
       <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
@@ -233,40 +276,32 @@ function SidebarCategoryCard({ cat }) {
   );
 }
 
-// ─── UPDATED AUTHOR HEADER ────────────────────────────────────────────────────
 function AuthorHeader({ author, articleCount }) {
-  const catMeta = author.category ? CATEGORY_META[author.category] : null;
+  const catMeta   = author.category ? CATEGORY_META[author.category] : null;
   const ringColor = catMeta?.ring ?? "ring-[#2196f3]";
 
   const socialIcons = {
-    facebook:  { icon: Facebook,  color: "hover:text-blue-600"  },
-    twitter:   { icon: Twitter,   color: "hover:text-sky-500"   },
-    instagram: { icon: Instagram, color: "hover:text-pink-600"  },
-    youtube:   { icon: Youtube,   color: "hover:text-red-600"   },
+    facebook:  { icon: Facebook,  color: "hover:text-blue-600" },
+    twitter:   { icon: Twitter,   color: "hover:text-sky-500"  },
+    instagram: { icon: Instagram, color: "hover:text-pink-600" },
+    youtube:   { icon: Youtube,   color: "hover:text-red-600"  },
   };
 
   return (
     <div className="bg-white w-full mb-10 border-b border-gray-100 pb-8">
       <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-8">
 
-        {/* ── LEFT: auto width, shrinks to content ── */}
         <div className="flex flex-col items-start gap-4 flex-shrink-0">
-
           <div className="flex flex-row items-center gap-5">
-            <div
-              className={`relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0
-                          ring-4 ring-offset-2 ${ringColor} shadow-md`}
-            >
+            <div className={`relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0 ring-4 ring-offset-2 ${ringColor} shadow-md`}>
               <Image
                 src={author.avatar || author.coverImage}
                 alt={author.name}
-                fill
-                sizes="96px"
+                fill sizes="96px"
                 className="object-cover"
                 priority
               />
             </div>
-
             <div>
               <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1">
                 About Author
@@ -277,7 +312,6 @@ function AuthorHeader({ author, articleCount }) {
             </div>
           </div>
 
-          {/* Role + beat badge */}
           <div className="flex items-center gap-3 flex-wrap">
             {author.role && (
               <span className="text-[#2196f3] text-sm font-semibold">{author.role}</span>
@@ -285,9 +319,7 @@ function AuthorHeader({ author, articleCount }) {
             {catMeta && (
               <Link
                 href={`/${author.category}`}
-                className={`inline-flex items-center gap-1.5 ${catMeta.color} text-white
-                            text-[11px] font-bold px-3 py-1 uppercase tracking-wide
-                            hover:opacity-80 transition-opacity`}
+                className={`inline-flex items-center gap-1.5 ${catMeta.color} text-white text-[11px] font-bold px-3 py-1 uppercase tracking-wide hover:opacity-80 transition-opacity`}
               >
                 <Tag size={10} />
                 {catMeta.label}
@@ -295,22 +327,18 @@ function AuthorHeader({ author, articleCount }) {
             )}
           </div>
 
-          {/* Stats */}
           <div>
             <p className="text-xl font-bold text-gray-900">{articleCount}</p>
             <p className="text-[10px] text-gray-500 uppercase tracking-wide">Posts</p>
           </div>
         </div>
 
-        {/* ── Vertical divider ── */}
         <div className="hidden md:block w-px bg-gray-200 self-stretch mx-2" />
 
-        {/* ── RIGHT: fills remaining space ── */}
         <div className="flex flex-col justify-center flex-1 gap-6">
           <p className="text-gray-600 text-sm md:text-[15px] leading-relaxed font-serif">
             {author.bio}
           </p>
-
           <div className="flex items-center gap-5 text-gray-700">
             {Object.entries(author.social || {}).map(([key, href]) => {
               const entry = socialIcons[key];
@@ -363,7 +391,9 @@ export default async function AuthorPage({ params }) {
   };
 
   const articles = getArticlesByAuthorName(authorData.name);
-  const { trendingNews, categories } = homepageData;
+
+  // trendingNews intentionally excluded — replaced by LATEST_ARTICLES above
+  const { categories } = homepageData;
   const catMeta = authorData.category ? CATEGORY_META[authorData.category] : null;
 
   const jsonLd = {
@@ -432,12 +462,15 @@ export default async function AuthorPage({ params }) {
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 
+            {/* Latest Today — real articles, newest → oldest, no dummy data */}
             <div className="mb-6 mt-14">
               <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-                Trending Today
+                Latest Today
               </h3>
               <div className="grid grid-cols-2 gap-4">
-                {trendingNews?.map((item) => <TrendingCard key={item.id} item={item} />)}
+                {LATEST_ARTICLES.map((item) => (
+                  <LatestCard key={item.id ?? item.slug} item={item} />
+                ))}
               </div>
             </div>
 

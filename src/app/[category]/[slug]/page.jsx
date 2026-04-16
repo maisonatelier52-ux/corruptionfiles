@@ -3,6 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { Share2, Bell, Calendar, MessageCircle, Eye, Heart } from "lucide-react";
 import articlesData from "@/data/articles.json";
+import homepageData from "@/data/homepage.json";
+import authorsData from "@/data/authors.json";
+
 import Newsletter from "@/components/Newsletter";
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
@@ -77,24 +80,6 @@ function ArticleBody({ body }) {
                 </blockquote>
               );
 
-            case "pullquote":
-              return (
-                <div key={idx} className="my-8 bg-gray-50 border border-gray-100 p-6 clear-both">
-                  <div className="flex gap-4 items-start">
-                    <div className="text-[#2196f3] text-5xl font-serif leading-none flex-shrink-0">→</div>
-                    <div>
-                      <p className="text-[17px] font-semibold text-gray-800 leading-snug mb-2">
-                        {section.text}
-                      </p>
-                      {section.author && (
-                        <span className="text-sm font-bold text-gray-500 uppercase tracking-wider">
-                          {section.author}
-                        </span>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              );
 
             case "paragraph":
               return (
@@ -120,26 +105,6 @@ function ArticleBody({ body }) {
                     />
                   </div>
                 </div>
-              );
-
-            case "imageGrid":
-              return (
-                <div key={idx} className="my-8 grid grid-cols-2 sm:grid-cols-4 gap-2 clear-both">
-                  {section.images.map((img, iIdx) => (
-                    <div key={iIdx} className="relative aspect-square overflow-hidden">
-                      <Image src={img.src} alt={img.alt} fill sizes="200px" className="object-cover" />
-                    </div>
-                  ))}
-                </div>
-              );
-
-            case "list":
-              return (
-                <ol key={idx} className="mb-6 space-y-3 clear-both list-decimal list-inside">
-                  {section.items.map((li, lIdx) => (
-                    <li key={lIdx} className="text-[16px] leading-relaxed text-gray-700">{li}</li>
-                  ))}
-                </ol>
               );
 
             default:
@@ -200,21 +165,6 @@ function ArticleSidebar({ sidebar }) {
         </div>
       </div>
 
-      {/* Subscribe & Follow */}
-      <div>
-        <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-          Subscribe and Follow
-        </h3>
-        <div className="flex justify-center gap-2">
-          {["facebook", "instagram", "twitter", "pinterest", "youtube"].map((s) => (
-            <a key={s} href="#"
-              className="w-9 h-9 rounded-full bg-[#2196f3] flex items-center justify-center text-white text-xs hover:opacity-80 transition-opacity capitalize font-bold">
-              {s[0].toUpperCase()}
-            </a>
-          ))}
-        </div>
-      </div>
-
       {/* Categories */}
       <div>
         <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
@@ -237,7 +187,7 @@ function ArticleSidebar({ sidebar }) {
         </div>
       </div>
 
-      {/* Latest Posts */}
+      {/* Latest Posts 
       <div>
         <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
           Latest Posts
@@ -270,7 +220,7 @@ function ArticleSidebar({ sidebar }) {
             </Link>
           ))}
         </div>
-      </div>
+      </div>*/}
     </aside>
   );
 }
@@ -342,18 +292,6 @@ export default async function ArticlePage({ params }) {
       <div className="max-w-7xl mx-auto px-4 pt-6 pb-20">
         <div className="flex flex-col lg:flex-row gap-10">
 
-          {/* ── LEFT: SOCIAL SHARE RAIL ── */}
-          <div className="hidden lg:flex flex-col items-center gap-3 pt-4 w-10 flex-shrink-0">
-            {["f", "t", "in", "p", "w", "@"].map((icon, idx) => {
-              const colors = ["bg-[#1877f2]", "bg-[#1da1f2]", "bg-[#0077b5]", "bg-[#e60023]", "bg-[#25d366]", "bg-[#888]"];
-              return (
-                <a key={idx} href="#"
-                  className={`w-8 h-8 rounded-full ${colors[idx]} flex items-center justify-center text-white text-[10px] font-bold hover:opacity-80 transition-opacity`}>
-                  {icon}
-                </a>
-              );
-            })}
-          </div>
 
           {/* ── CENTER: ARTICLE ── */}
           <div className="flex-1 min-w-0">
@@ -385,11 +323,6 @@ export default async function ArticlePage({ params }) {
 
             {/* Stats bar top */}
             <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-8">
-              <div className="flex items-center gap-4 text-xs text-gray-500">
-                <span className="flex items-center gap-1"><MessageCircle size={13} /> {stats.comments}</span>
-                <span className="flex items-center gap-1"><Eye size={13} /> {stats.views}</span>
-                <span className="flex items-center gap-1"><Heart size={13} /> {stats.likes}</span>
-              </div>
               <button className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors">
                 <Share2 size={13} /> Share
               </button>
@@ -398,48 +331,10 @@ export default async function ArticlePage({ params }) {
             {/* Article body */}
             <ArticleBody body={body} />
 
-            {/* Read More Links */}
-            {readMoreLinks && readMoreLinks.length > 0 && (
-              <div className="mt-8 mb-6">
-                <h4 className="font-bold text-sm text-gray-700 mb-3">Read more</h4>
-                <div className="flex flex-wrap gap-2">
-                  {readMoreLinks.map((link, idx) => (
-                    <Link key={idx} href={`/${link.category}/${link.slug}`}
-                      className="border border-gray-200 text-gray-700 text-xs px-4 py-2 hover:border-[#2196f3] hover:text-[#2196f3] transition-colors">
-                      {link.title}
-                    </Link>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Ad */}
             <div className="my-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
               728×90 AD
-            </div>
-
-            {/* Tags */}
-            {tags && tags.length > 0 && (
-              <div className="flex flex-wrap gap-2 mb-6">
-                {tags.map((tag) => (
-                  <Link key={tag} href={`/tag/${tag.toLowerCase()}`}
-                    className="border border-gray-300 text-gray-600 text-xs font-medium px-4 py-1.5 uppercase tracking-wide hover:bg-[#2196f3] hover:text-white hover:border-[#2196f3] transition-colors">
-                    {tag}
-                  </Link>
-                ))}
-              </div>
-            )}
-
-            {/* Stats bar bottom */}
-            <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-10">
-              <div className="flex items-center gap-4 text-xs text-gray-500">
-                <span className="flex items-center gap-1"><MessageCircle size={13} /> {stats.comments}</span>
-                <span className="flex items-center gap-1"><Eye size={13} /> {stats.views}</span>
-                <span className="flex items-center gap-1"><Heart size={13} /> {stats.likes}</span>
-              </div>
-              <button className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors">
-                <Share2 size={13} /> Share
-              </button>
             </div>
 
             {/* About Author */}
@@ -467,38 +362,6 @@ export default async function ArticlePage({ params }) {
                 </div>
               </div>
             </div>
-
-            {/* Previous / Next Navigation */}
-            {navigation && (
-              <div className="grid grid-cols-2 gap-4 mb-10 border border-gray-100">
-                {navigation.previous && (
-                  <Link href={`/${navigation.previous.category}/${navigation.previous.slug}`}
-                    className="flex flex-col sm:flex-row gap-3 p-4 hover:bg-gray-50 transition-colors group border-r border-gray-100">
-                    <div className="relative w-full sm:w-[80px] h-[60px] flex-shrink-0 overflow-hidden">
-                      <Image src={navigation.previous.image} alt={navigation.previous.title} fill sizes="80px" className="object-cover" />
-                    </div>
-                    <div>
-                      <span className="text-[#2196f3] text-xs font-bold flex items-center gap-1 mb-1">← Previous Article</span>
-                      <p className="text-[11px] text-gray-400 flex items-center gap-1 mb-1"><Calendar size={10} /> {navigation.previous.date}</p>
-                      <p className="text-sm font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors line-clamp-2">{navigation.previous.title}</p>
-                    </div>
-                  </Link>
-                )}
-                {navigation.next && (
-                  <Link href={`/${navigation.next.category}/${navigation.next.slug}`}
-                    className="flex flex-col sm:flex-row gap-3 p-4 hover:bg-gray-50 transition-colors group text-right justify-end">
-                    <div className="flex-1">
-                      <span className="text-[#2196f3] text-xs font-bold flex items-center gap-1 justify-end mb-1">Next Article →</span>
-                      <p className="text-[11px] text-gray-400 flex items-center gap-1 justify-end mb-1"><Calendar size={10} /> {navigation.next.date}</p>
-                      <p className="text-sm font-bold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors line-clamp-2">{navigation.next.title}</p>
-                    </div>
-                    <div className="relative w-full sm:w-[80px] h-[60px] flex-shrink-0 overflow-hidden">
-                      <Image src={navigation.next.image} alt={navigation.next.title} fill sizes="80px" className="object-cover" />
-                    </div>
-                  </Link>
-                )}
-              </div>
-            )}
 
             {/* Related Posts */}
             {relatedPosts && relatedPosts.length > 0 && (
@@ -535,12 +398,6 @@ export default async function ArticlePage({ params }) {
                             className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors">
                             READ MORE
                           </Link>
-                          <div className="flex items-center gap-3 text-[11px] text-gray-400">
-                            <span className="flex items-center gap-0.5"><MessageCircle size={11} /> {post.comments}</span>
-                            <span className="flex items-center gap-0.5"><Eye size={11} /> {post.views}</span>
-                            <span className="flex items-center gap-0.5"><Heart size={11} /> {post.likes}</span>
-                            <span className="flex items-center gap-0.5 cursor-pointer hover:text-blue-500 transition-colors"><Share2 size={11} /> Share</span>
-                          </div>
                         </div>
                       </div>
                     </article>

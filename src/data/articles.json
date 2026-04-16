@@ -64,49 +64,9 @@
             ]
           },
           {
-            "type": "image",
-            "src": "/corruptionfiles4-2-1024x683.jpg",
-            "alt": "March For Our Lives protest"
-          },
-          {
             "type": "paragraph",
             "content": [
               "We have collated five of the best brands that use only lab-grown diamonds, so the next time you are treating yourself or someone else to something sparkly, you can be sure that your conscious is clean."
-            ]
-          },
-          {
-            "type": "pullquote",
-            "text": "If you talk about it, it's a Dream, if you Envision it, it's a Possible, but if you are Schedule it, it's Real.",
-            "author": "Tony Robbins"
-          },
-          {
-            "type": "paragraph",
-            "content": [
-              "Spring is finally here—even though it doesn't really feel like it, with temperatures hovering at just about freezing for much of the country. But, if the power of positive thinking works for mastering the problems of everyday living, who says the power of positive decorating can't do the same?",
-              "She's also sporting a khaki puffer jacket from The Arrivals–'It's peak street style chic 101'–to stay cozy in the harsh New York City winter. Her gold-toned, cat-eyed sunglasses are from Jimmy Choo and she picked up her Jenny Bird hoop earrings from Intermix."
-            ]
-          },
-          {
-            "type": "list",
-            "items": [
-              "\"I was talking to the designer behind Seville Michelle, and I told her [that] her chokers are amazing, and she literally gave me this off her neck, I've worn it religiously ever since,\" says Lenise of her two-tone necklace. Related Story: Handbags Are Getting Smaller and Smaller",
-              "For Christmas, Lenise's husband gifted her a green suede mini bag from Jacquemus. \"When he got it in the mail, he was going to send it back because he didn't realize it was supposed to be this tiny,\" Lenise says with a smile. She appreciates that she can rock the bag as a crossbody, fanny pack style across her waist, or carry it as a handle bag."
-            ]
-          },
-          {
-            "type": "heading",
-            "title": "Characters",
-            "content": [
-              "Although there doesn't seem to be much hope of a Friends reunion episode any time soon, the creator of Friends recently opened up about what the characters would be up to these days, and revealed whether he thought Ross and Rachel's relationship would last the test of time."
-            ]
-          },
-          {
-            "type": "imageGrid",
-            "images": [
-              { "src": "/corruptionfiles4-2-1024x683.jpg", "alt": "Character 1" },
-              { "src": "/corruptionfiles4-6.jpg", "alt": "Character 2" },
-              { "src": "/corruptionfiles4-2-1024x683.jpg", "alt": "Character 3" },
-              { "src": "/corruptionfiles4-6.jpg", "alt": "Character 4" }
             ]
           },
           {
@@ -134,50 +94,13 @@
           { "label": "Politics", "count": 6, "color": "bg-[#2196f3]", "image": "/corruptionfiles4-6.jpg" },
           { "label": "Video", "count": 3, "color": "bg-[#e91e63]", "image": "/corruptionfiles4-2-1024x683.jpg" },
           { "label": "World", "count": 3, "color": "bg-[#2196f3]", "image": "/corruptionfiles4-6.jpg" }
-        ],
-        "latestPosts": [
-          { "id": 1, "slug": "trump-sanders-tax", "category": "celebrity", "categoryColor": "bg-[#e91e63]", "image": "/corruptionfiles4-2-1024x683.jpg", "date": "March 26, 2019", "title": "Donald Trump attacks Bernie Sanders' tax returns, makes 2020 election prediction", "comments": 1, "views": "2549", "likes": 14 },
-          { "id": 2, "slug": "pinterest-ipo", "category": "business", "categoryColor": "bg-[#2196f3]", "image": "/corruptionfiles4-6.jpg", "isSponsored": true, "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "comments": 1, "views": "2170", "likes": 30 }
         ]
-      },
-      "navigation": {
-        "previous": {
-          "slug": "chaplain-notre-dame",
-          "category": "business",
-          "date": "March 25, 2019",
-          "title": "The Chaplain, the Fire and the Race to Rescue Notre-Dame's Relics",
-          "image": "/corruptionfiles4-6.jpg"
-        },
-        "next": {
-          "slug": "trump-fox-sanders",
-          "category": "celebrity",
-          "date": "March 25, 2019",
-          "title": "Trump angrily turns on Fox News after interview with Bernie Sanders",
-          "image": "/corruptionfiles4-2-1024x683.jpg"
-        }
       },
       "relatedPosts": [
         { "id": 1, "slug": "pinterest-ipo", "category": "business", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/corruptionfiles4-6.jpg", "isSponsored": true, "author": "corruptionfiles", "title": "Pinterest prices IPO at $19 a share, valuation tops $10 billion", "excerpt": "Although there doesn't seem to be much hope of a Friends reunion episode any time...", "comments": 1, "views": "2170", "likes": 30 },
         { "id": 2, "slug": "democrats-fox-news", "category": "business", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Video", "secondaryColor": "bg-[#e91e63]", "image": "/corruptionfiles4-2-1024x683.jpg", "date": "March 25, 2019", "author": "corruptionfiles", "title": "2020 Democrats Seek Voters in an Unusual Spot: Fox News", "excerpt": "Baby blue didn't just steal the show this fashion month, it also stole a piece of my heart.", "comments": 0, "views": "2265", "likes": 8 },
         { "id": 3, "slug": "macron-notre-dame", "category": "business", "categoryColor": "bg-[#2196f3]", "image": "/corruptionfiles4-6.jpg", "date": "March 25, 2019", "author": "corruptionfiles", "title": "Macron vows to rebuild a 'more beautiful' Notre-Dame in 5 years", "excerpt": "What was really interesting about fashion at that time was the way rock 'n' roll heroes like...", "comments": 0, "views": "1669", "likes": 8 }
-      ],
-      "readMoreLinks": [
-        { "slug": "trump-sanders-tax", "category": "celebrity", "title": "Donald Trump attacks Bernie..." },
-        { "slug": "pinterest-ipo", "category": "business", "title": "Pinterest prices IPO at $19 a s..." },
-        { "slug": "democrats-fox-news", "category": "business", "title": "2020 Democrats Seek Voters i..." },
-        { "slug": "macron-notre-dame", "category": "business", "title": "Macron vows to rebuild a 'm..." },
-        { "slug": "mercedes-china", "category": "world", "title": "Mercedes 'very sorry' after C..." },
-        { "slug": "meitu-skincare", "category": "business", "title": "China selfie app firm Meitu f..." }
-      ],
-      "comments": [
-        { "id": 1, "author": "corruptionfiles", "avatar": "/corruptionfiles4-6.jpg", "date": "April 9, 2019 at 1:41 pm", "content": "How beautiful!" },
-        { "id": 2, "author": "corruptionfiles", "avatar": "/corruptionfiles4-6.jpg", "date": "April 8, 2019 at 1:41 pm", "content": "Thanks!" }
       ]
     }
-  ],
-  "celebrity": [],
-  "politics": [],
-  "lifestyle": [],
-  "world": [],
-  "video": []
+  ]
 }

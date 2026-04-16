@@ -4,12 +4,52 @@ import { Share2, Bell, Calendar } from "lucide-react";
 import homepageData from "@/data/homepage.json";
 import StickyAd from "@/components/StickyAd";
 
+// ─── LATEST ARTICLES — computed once at module level ─────────────────────────
+// Replaces the dummy trendingNews JSON entries with real latest articles.
+
+function collectLatestArticles(count = 4) {
+  const all = [];
+
+  const push = (arr) => {
+    if (!Array.isArray(arr)) return;
+    arr.forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+  };
+
+  push(homepageData.politicsNews);
+  push(homepageData.secondaryNews);
+  push(homepageData.inOtherNews?.grid);
+  push(homepageData.healthcareNews);
+  push(homepageData.worldNews?.sidebar);
+  push(homepageData.discoveryMiddle);
+  push(homepageData.discoveryRight);
+  push(homepageData.technologyNews);
+  push(homepageData.trendingSectionData);
+  push(homepageData.newsCards);
+
+  [
+    homepageData.discoveryMain,
+    homepageData.worldNews?.main,
+    homepageData.inOtherNews?.featured,
+  ].forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+
+  const seen = new Set();
+  const unique = all.filter((a) => {
+    if (seen.has(a.slug)) return false;
+    seen.add(a.slug);
+    return true;
+  });
+
+  // Sort newest → oldest
+  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+  return unique.slice(0, count);
+}
+
+const LATEST_ARTICLES = collectLatestArticles(4);
+
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
 function labelToSlug(label) {
-  // FIX: replace spaces with dashes BEFORE stripping non-alphanumeric chars
-  // Previously spaces were stripped entirely, turning "Puerto Rico" → "puertorico"
-  // Now: "Puerto Rico" → "puerto-rico" ✓
   return label.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "").trim();
 }
 
@@ -35,8 +75,6 @@ function getArticlesByCategory(categorySlug) {
   if (homepageData.discoveryMain?.category === categorySlug) all.push(homepageData.discoveryMain);
   if (homepageData.worldNews?.main?.category === categorySlug) all.push(homepageData.worldNews.main);
 
-  // FIX: labelToSlug now produces "puerto-rico" from "Puerto Rico", so this
-  // check correctly matches the featured article for the puerto-rico category.
   if (homepageData.inOtherNews?.featured?.categories?.some((c) => labelToSlug(c.label) === categorySlug)) {
     all.push({ ...homepageData.inOtherNews.featured, category: categorySlug });
   }
@@ -127,19 +165,25 @@ function NewsListCard({ card }) {
   );
 }
 
-function TrendingCard({ item }) {
+function LatestCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
     <Link href={href} className="flex flex-col group">
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image src={item.image} alt={item.title} fill sizes="150px"
           className="object-cover transition-transform duration-500 group-hover:scale-105" />
-        {item.badge && <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">{item.badge}</span>}
+        {item.badge && (
+          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
+            {item.badge}
+          </span>
+        )}
       </div>
-      {item.sponsored
+      {item.isSponsored || item.sponsored
         ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
         : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
-      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">{item.title}</p>
+      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
+        {item.title}
+      </p>
     </Link>
   );
 }
@@ -228,7 +272,9 @@ export default async function CategoryPage({ params }) {
     articles[0]?.categoryLabel ||
     articles[0]?.categories?.[0]?.label ||
     categoryName;
-  const { trendingNews, categories } = homepageData;
+
+  // trendingNews intentionally excluded — replaced by LATEST_ARTICLES above
+  const { categories } = homepageData;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -263,12 +309,15 @@ export default async function CategoryPage({ params }) {
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 
+            {/* Latest Today — real articles, newest → oldest, no dummy data */}
             <div className="mb-6 mt-14">
               <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-                Trending Today
+                Latest Today
               </h3>
               <div className="grid grid-cols-2 gap-4">
-                {trendingNews.map((item) => <TrendingCard key={item.id} item={item} />)}
+                {LATEST_ARTICLES.map((item) => (
+                  <LatestCard key={item.id ?? item.slug} item={item} />
+                ))}
               </div>
             </div>
 
