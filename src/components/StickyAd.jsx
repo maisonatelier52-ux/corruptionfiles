@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link"; 
+import Image from "next/image";
 
 export default function StickyAd() {
   const containerRef = useRef(null);
@@ -16,8 +17,8 @@ export default function StickyAd() {
         const sentinelTop = sentinel.getBoundingClientRect().top + window.scrollY;
         const containerTop = container.getBoundingClientRect().top + window.scrollY;
         
-        // Ensure track is at least as tall as the ad itself + some buffer
-        const calculatedHeight = Math.max(sentinelTop - containerTop, 600); 
+        // Match the track height to the content length
+        const calculatedHeight = Math.max(sentinelTop - containerTop, 700); 
         setTrackHeight(`${calculatedHeight}px`);
       }
     };
@@ -34,32 +35,29 @@ export default function StickyAd() {
 
   return (
     <div ref={containerRef} style={{ height: trackHeight }} className="relative mb-10">
-      
-      <aside className="sticky top-4 z-20 bg-white" aria-label="Subscription Offer">
-        
-        {/* 1. ADDED 'min-h-[600px]': This forces the box to be at least 600px tall.
-           2. ADDED 'justify-center': Centers the content vertically if the box is tall.
-        */}
-        <div className="bg-indigo-100 px-6 py-8 min-h-[600px] flex flex-col justify-center items-center text-center mb-6">
-          <h3 className="font-serif text-4xl font-black text-gray-900 tracking-tight mb-2">
-            corruptionfiles
-          </h3>
-          <p className="text-sm text-gray-600 mb-8 font-medium">Follow the News</p>
-          <div className="w-full h-px bg-gray-300 mb-8" role="separator" />
-          <p className="text-base text-gray-700 font-semibold mb-1">Blog and Magazine</p>
-          <p className="text-base text-gray-700 font-semibold mb-10">WordPress Theme</p>
-          <p className="text-sm text-gray-500 mb-10 leading-relaxed">
-            Readers in Europe<br />Subscribe for $1 a week
-          </p>
-          <Link 
-            href="/subscribe" 
-            className="bg-[#2196f3] hover:bg-blue-600 text-white text-sm font-bold px-8 py-3 rounded-full w-full transition-colors inline-block"
-          >
-            BUY NOW
-          </Link>
-        </div>
+      <aside className="sticky top-4 z-20" aria-label="Mirror Standard Advertisement">
+        <Link 
+          href="https://www.mirrorstandard.com/"
+          className="block group transition-all duration-300 hover:brightness-110"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {/* Optimized Container: 
+            1. Using aspect-[9/16] to match the vertical mobile-ad standard of the image.
+            2. overflow-hidden and rounded-xl to keep the red background clean.
+          */}
+          <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-xl shadow-lg border border-gray-100">
+            <Image
+              src="/mirror-standard-ad-vertical.webp" 
+              alt="Mirror Standard - Your Hive for Sharp News & Vision"
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              className="object-cover"
+              priority
+            />
+          </div>
+        </Link>
       </aside>
-      
     </div>
   );
 }

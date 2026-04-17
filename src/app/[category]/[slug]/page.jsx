@@ -5,9 +5,37 @@ import { Share2, Bell, Calendar, MessageCircle, Eye, Heart } from "lucide-react"
 import articlesData from "@/data/articles.json";
 import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
+import StickyAd from "@/components/StickyAd";
 
-import Newsletter from "@/components/Newsletter";
+import NewsletterSidebar from "@/components/NewsletterSidebar";
 
+// ─── LATEST ARTICLES (same as category page) ─────────────────────────────────
+
+function collectLatestArticles(count = 4) {
+  const all = [];
+  const push = (arr) => {
+    if (!Array.isArray(arr)) return;
+    arr.forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+  };
+  push(homepageData.politicsNews);
+  push(homepageData.secondaryNews);
+  push(homepageData.inOtherNews?.grid);
+  push(homepageData.healthcareNews);
+  push(homepageData.worldNews?.sidebar);
+  push(homepageData.discoveryMiddle);
+  push(homepageData.discoveryRight);
+  push(homepageData.technologyNews);
+  push(homepageData.trendingSectionData);
+  push(homepageData.newsCards);
+  [homepageData.discoveryMain, homepageData.worldNews?.main, homepageData.inOtherNews?.featured]
+    .forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
+  const seen = new Set();
+  const unique = all.filter((a) => { if (seen.has(a.slug)) return false; seen.add(a.slug); return true; });
+  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
+  return unique.slice(0, count);
+}
+
+const LATEST_ARTICLES = collectLatestArticles(4);
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
 function findArticle(category, slug) {
@@ -117,50 +145,58 @@ function ArticleBody({ body }) {
 
 // ─── SIDEBAR ─────────────────────────────────────────────────────────────────
 
-function ArticleSidebar({ sidebar }) {
-  return (
-    <aside className="w-full lg:w-[300px] xl:w-[320px] flex-shrink-0 space-y-8">
-      {/* Ad / Promo */}
-      <div className="bg-gray-50 border border-gray-200 p-6 text-center">
-        <p className="text-xl font-serif font-bold text-gray-800 mb-1">corruptionfiles</p>
-        <p className="text-xs text-gray-500 mb-3">Follow the News</p>
-        <div className="text-xs text-gray-500 mb-3">Blog and Magazine WordPress Theme</div>
-        <p className="text-xs font-semibold text-gray-600 mb-4">Readers in Europe<br />Subscribe for $1 a week</p>
-        <button className="bg-[#2196f3] text-white text-xs font-bold px-6 py-2 hover:bg-blue-600 transition-colors">
-          BUY NOW
-        </button>
-      </div>
+// ─── SIDEBAR (matches category page) ─────────────────────────────────────────
 
-      {/* Popular Posts */}
-      <div>
+function LatestCard({ item }) {
+  const href = `/${item.category}/${item.slug}`;
+  return (
+    <Link href={href} className="flex flex-col group">
+      <div className="relative w-full h-[110px] overflow-hidden">
+        <Image src={item.image} alt={item.title} fill sizes="150px"
+          className="object-cover transition-transform duration-500 group-hover:scale-105" />
+        {item.badge && (
+          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
+            {item.badge}
+          </span>
+        )}
+      </div>
+      {item.isSponsored || item.sponsored
+        ? <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Bell size={10} /> Sponsored content</p>
+        : <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1"><Calendar size={10} /> {item.date}</p>}
+      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
+        {item.title}
+      </p>
+    </Link>
+  );
+}
+
+function SidebarCategoryCard({ cat }) {
+  return (
+    <Link href={`/${cat.category}`} className="relative overflow-hidden h-[56px] cursor-pointer group block">
+      <Image src={cat.image} alt={cat.label} fill sizes="300px"
+        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
+      <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
+        <span className="text-white font-bold text-base">{cat.label}</span>
+      </div>
+    </Link>
+  );
+}
+
+function ArticleSidebar() {
+  const { categories } = homepageData;
+
+  return (
+    <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
+      <StickyAd />
+
+      {/* Latest Today */}
+      <div className="mb-6 mt-14">
         <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-          Popular Posts
+          Latest Today
         </h3>
-        <div className="grid grid-cols-2 gap-3">
-          {sidebar.popularPosts.map((post) => (
-            <Link key={post.id} href={`/${post.category}/${post.slug}`} className="group">
-              <div className="relative w-full h-[80px] overflow-hidden mb-2">
-                <Image src={post.image} alt={post.title} fill sizes="150px"
-                  className="object-cover transition-transform duration-500 group-hover:scale-105" />
-                {post.badge && (
-                  <span className="absolute top-1 right-1 bg-[#f69a4d] text-white text-[9px] font-bold px-1 py-0.5">
-                    {post.badge}
-                  </span>
-                )}
-              </div>
-              {post.isSponsored ? (
-                <p className="text-gray-400 text-[10px] flex items-center gap-0.5 mb-1">
-                  <Bell size={9} /> Sponsored
-                </p>
-              ) : (
-                <p className="text-gray-400 text-[10px] flex items-center gap-0.5 mb-1">
-                  <Calendar size={9} /> {post.date}
-                </p>
-              )}
-              <p className="text-xs font-semibold text-gray-900 leading-snug group-hover:text-blue-600 transition-colors line-clamp-3">
-                {post.title}
-              </p>
-            </Link>
+        <div className="grid grid-cols-2 gap-4">
+          {LATEST_ARTICLES.map((item) => (
+            <LatestCard key={item.id ?? item.slug} item={item} />
           ))}
         </div>
       </div>
@@ -171,22 +207,17 @@ function ArticleSidebar({ sidebar }) {
           Categories
         </h3>
         <div className="flex flex-col gap-1">
-          {sidebar.categories.map((cat) => (
-            <Link href={`/${cat.category}`}
-              className="relative overflow-hidden h-[52px] group block">
-              <Image src={cat.image} alt={cat.label} fill sizes="320px"
-                className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300" />
-              <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
-                <span className="text-white font-bold text-sm">{cat.label}</span>
-                <span className={`${cat.color} text-white text-xs font-bold w-6 h-6 flex items-center justify-center`}>
-                  {cat.count}
-                </span>
-              </div>
-            </Link>
+          {categories.map((cat) => (
+            <SidebarCategoryCard key={cat.label} cat={cat} />
           ))}
         </div>
       </div>
-
+        {/* Newsletter — compact sidebar version */}
+        <NewsletterSidebar />
+        
+    </aside>
+  );
+}
       {/* Latest Posts 
       <div>
         <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
@@ -221,9 +252,6 @@ function ArticleSidebar({ sidebar }) {
           ))}
         </div>
       </div>*/}
-    </aside>
-  );
-}
 
 // ─── LEAVE A REPLY FORM ───────────────────────────────────────────────────────
 
@@ -333,9 +361,20 @@ export default async function ArticlePage({ params }) {
 
 
             {/* Ad */}
-            <div className="my-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
-              728×90 AD
-            </div>
+<a 
+    href="https://www.mirrorstandard.com/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mt-2 mb-6 block w-full"
+  >
+    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+      <img
+        src="/mirror-standard-ad-horizontal.webp"
+        alt="Visit Mirror Standard"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </a>
 
             {/* About Author */}
             <div className="border border-gray-100 p-6 mb-10 flex flex-col sm:flex-row gap-6">
@@ -406,16 +445,13 @@ export default async function ArticlePage({ params }) {
               </div>
             )}
 
-            {/* Newsletter */}
-            <Newsletter />
 
-            {/*<LeaveReply />*/}
            
 
           </div>
 
-          {/* ── RIGHT: SIDEBAR ── */}
-          <ArticleSidebar sidebar={sidebar} />
+{/* ── RIGHT: SIDEBAR ── */}
+<ArticleSidebar />
         </div>
       </div>
     </main>

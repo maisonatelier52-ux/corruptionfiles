@@ -164,16 +164,20 @@ function CategoryPill({ category }) {
 }
 
 function NewsListCard({ card }) {
-  const a    = normalizeArticle(card);
+  const a = normalizeArticle(card);
   const href = `/${a.category}/${a.slug}`;
   const hasTags = a.tags?.length > 0;
 
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
-      <div className="relative w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        <Link href={href}>
+      {/* Container is relative */}
+      <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
+        {/* FIX: Link must be relative because it is the immediate parent of the fill Image */}
+        <Link href={href} className="relative block w-full h-full">
           <Image
-            src={a.image} alt={a.title} fill
+            src={a.image} 
+            alt={a.title} 
+            fill
             sizes="(max-width:768px) 100vw, 240px"
             className="object-cover transition-transform duration-500 group-hover:scale-105"
           />
@@ -277,7 +281,7 @@ function SidebarCategoryCard({ cat }) {
 }
 
 function AuthorHeader({ author, articleCount }) {
-  const catMeta   = author.category ? CATEGORY_META[author.category] : null;
+  const catMeta = author.category ? CATEGORY_META[author.category] : null;
   const ringColor = catMeta?.ring ?? "ring-[#2196f3]";
 
   const socialIcons = {
@@ -287,19 +291,20 @@ function AuthorHeader({ author, articleCount }) {
     youtube:   { icon: Youtube,   color: "hover:text-red-600"  },
   };
 
-  return (
+return (
     <div className="bg-white w-full mb-10 border-b border-gray-100 pb-8">
       <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-8">
-
         <div className="flex flex-col items-start gap-4 flex-shrink-0">
           <div className="flex flex-row items-center gap-5">
+            {/* Added relative here to ensure ring works and child image fills properly if needed */}
             <div className={`relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0 ring-4 ring-offset-2 ${ringColor} shadow-md`}>
               <Image
                 src={author.avatar || author.coverImage}
                 alt={author.name}
-                fill sizes="96px"
+                fill 
+                sizes="96px"
                 className="object-cover"
-                priority
+                priority // Fixes LCP on Author Profile
               />
             </div>
             <div>
@@ -407,12 +412,10 @@ export default async function AuthorPage({ params }) {
     },
   };
 
-  return (
+return (
     <main className="bg-white min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-
       <div className="max-w-7xl mx-auto px-4 pt-8 pb-20">
-
         <AuthorHeader author={authorData} articleCount={articles.length} />
 
         <div className={`border-b-2 mb-8 pb-1 ${catMeta ? catMeta.border : "border-black"}`}>
@@ -449,9 +452,20 @@ export default async function AuthorPage({ params }) {
                 {articles.slice(0, 4).map((card) => (
                   <NewsListCard key={card.id ?? card.slug} card={card} />
                 ))}
-                <div className="mt-2 mb-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
-                  728×90 AD
-                </div>
+<a 
+    href="https://www.mirrorstandard.com/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mt-2 mb-6 block w-full"
+  >
+    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+      <img
+        src="/mirror-standard-ad-horizontal.webp"
+        alt="Visit Mirror Standard"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </a>
                 {articles.slice(4).map((card) => (
                   <NewsListCard key={card.id ?? card.slug} card={card} />
                 ))}

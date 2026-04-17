@@ -17,12 +17,8 @@ export const metadata = {
   },
 };
 
-// ─── LATEST ARTICLES — computed once at module level ─────────────────────────
-// Replaces the dummy trendingNews JSON entries with real latest articles.
-
 function collectLatestArticles(count = 4) {
   const all = [];
-
   const push = (arr) => {
     if (!Array.isArray(arr)) return;
     arr.forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
@@ -45,7 +41,6 @@ function collectLatestArticles(count = 4) {
     homepageData.inOtherNews?.featured,
   ].forEach((a) => { if (a?.slug && a?.title && a?.date && a?.image) all.push(a); });
 
-  // Deduplicate by slug
   const seen = new Set();
   const unique = all.filter((a) => {
     if (seen.has(a.slug)) return false;
@@ -53,26 +48,19 @@ function collectLatestArticles(count = 4) {
     return true;
   });
 
-  // Sort newest → oldest
   unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-
   return unique.slice(0, count);
 }
 
 const LATEST_ARTICLES = collectLatestArticles(4);
 
-// ─── HELPERS ─────────────────────────────────────────────────────────────────
-
 function labelToSlug(label) {
-  // spaces → dashes first, then strip remaining non-alphanumeric chars
   return label.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "").trim();
 }
 
 function authorHref(name) {
   return `/authors/${name.toLowerCase().replace(/\s+/g, "-")}`;
 }
-
-// ─── SHARED SUB-COMPONENTS ───────────────────────────────────────────────────
 
 function PlayIcon() {
   return (
@@ -86,14 +74,21 @@ function PlayIcon() {
   );
 }
 
-function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, isSponsored, author, title, description }) {
+// Added priority prop here
+function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, isSponsored, author, title, description, priority = false }) {
   const href = `/${category}/${slug}`;
   return (
     <article className="flex flex-col group">
       <div className="w-full aspect-video overflow-hidden mb-3">
         <Link href={href} className="relative block w-full h-full">
-          <Image src={image} alt={title} fill sizes="(max-width:768px) 100vw, 33vw"
-            className="object-cover transition-transform duration-500 group-hover:scale-105" />
+          <Image 
+            src={image} 
+            alt={title} 
+            fill 
+            priority={priority} // Fixes LCP warning
+            sizes="(max-width:768px) 100vw, 33vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105" 
+          />
           <span className={`absolute bottom-3 left-3 ${categoryColor} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wider z-10`}>
             {categoryLabel}
           </span>
@@ -323,7 +318,6 @@ export default function Home() {
     worldNews, newsCards, categories,
     discoveryMain, discoveryMiddle, discoveryRight, technologyNews, trendingSectionData,
   } = homepageData;
-  // trendingNews intentionally excluded — replaced by LATEST_ARTICLES above
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -349,7 +343,10 @@ export default function Home() {
           <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">Capitol & Westminster</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          {politicsNews.map((news) => <NewsCard key={news.id} {...news} />)}
+          {/* Apply priority to the first row of images */}
+          {politicsNews.map((news, index) => (
+            <NewsCard key={news.id} {...news} priority={index < 3} />
+          ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-8 mb-7">
           {secondaryNews.map((news) => <NewsCard key={news.id} {...news} />)}
@@ -478,14 +475,32 @@ export default function Home() {
 
         {/* ── NEWS FEED + SIDEBAR ── */}
         <div className="mt-10 flex flex-col lg:flex-row gap-8">
-          <div className="flex-1 min-w-0">
-            {newsCards.slice(0, 4).map((card) => <NewsListCard key={card.id} card={card} />)}
-            <div className="mt-2 mb-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
-              728×90 AD
-            </div>
-            <div id="ad-sentinel" className="h-0 w-full" />
-            {newsCards.slice(4).map((card) => <NewsListCard key={card.id} card={card} />)}
-          </div>
+<div className="flex-1 min-w-0">
+  {newsCards.slice(0, 4).map((card) => (
+    <NewsListCard key={card.id} card={card} />
+  ))}
+
+  {/* Clickable Full-Width Ad Section */}
+  <a 
+    href="https://www.mirrorstandard.com/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mt-2 mb-6 block w-full"
+  >
+    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+      <img
+        src="/mirror-standard-ad-horizontal.webp"
+        alt="Visit Mirror Standard"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </a>
+
+  <div id="ad-sentinel" className="h-0 w-full" />
+  {newsCards.slice(4).map((card) => (
+    <NewsListCard key={card.id} card={card} />
+  ))}
+</div>
 
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />

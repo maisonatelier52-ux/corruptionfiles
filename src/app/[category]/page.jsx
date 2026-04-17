@@ -298,9 +298,20 @@ export default async function CategoryPage({ params }) {
             ) : (
               <>
                 {articles.slice(0, 4).map((card) => <NewsListCard key={card.id ?? card.slug} card={card} />)}
-                <div className="mt-2 mb-6 w-full h-[90px] bg-gray-100 border border-dashed border-gray-300 flex items-center justify-center text-gray-400 text-sm tracking-widest">
-                  728×90 AD
-                </div>
+<a 
+    href="https://www.mirrorstandard.com/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="mt-2 mb-6 block w-full"
+  >
+    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+      <img
+        src="/mirror-standard-ad-horizontal.webp"
+        alt="Visit Mirror Standard"
+        className="w-full h-auto object-contain"
+      />
+    </div>
+  </a>
                 {articles.slice(4).map((card) => <NewsListCard key={card.id ?? card.slug} card={card} />)}
               </>
             )}
