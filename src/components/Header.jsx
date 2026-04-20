@@ -3,11 +3,29 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import {
-  Facebook, Instagram, Twitter, ChevronLeft, ChevronRight,
-  Search, Youtube, Menu, X, ChevronRight as ArrowRight
+  Instagram, ChevronLeft, ChevronRight,
+  Search, Menu, X, ChevronRight as ArrowRight
 } from 'lucide-react';
 import homepageData from "@/data/homepage.json";
 
+// Shared Icon Helper
+const SocialIcon = ({ platform }) => {
+  const iconProps = { size: 18, strokeWidth: 2 };
+  const p = platform.toLowerCase();
+  const imgClass = "w-[18px] h-[18px] object-contain opacity-60 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
+
+  switch (p) {
+    case "instagram": return <Instagram {...iconProps} />;
+    case "x": return (
+      <svg viewBox="0 0 24 24" width={18} height={18} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+      </svg>
+    );
+    case "substack": return <img src="/substack.webp" alt="Substack" className={imgClass} />;
+    case "medium": return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+    default: return null;
+  }
+};
 // ─── COMPUTED ONCE AT MODULE LEVEL (never re-runs on re-renders) ──────────────
 
 function collectLatestArticles(count = 4) {
@@ -206,42 +224,44 @@ const Header = () => {
       </div>
 
       {/* 2. MAIN LOGO AREA */}
-      <div className="w-full bg-white">
+<div className="w-full bg-white">
         <div className="max-w-7xl mx-auto px-4 py-6 md:py-8 flex justify-between items-center">
-
           <div className="md:hidden">
-            <button
-              onClick={toggleMenu}
-              aria-label="Toggle Menu"
-              aria-expanded={isMenuOpen}
-              className="p-2 border border-gray-200 text-black"
-            >
+            <button onClick={toggleMenu} className="p-2 border border-gray-200 text-black">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
 
           <div className="hidden md:block w-[160px]" />
 
-          <Link
-            href="/"
-            className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity"
-            style={{ fontFamily: 'var(--font-corruptionfiles)' }}
-          >
+          <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
             Corruption Files
           </Link>
 
           <div className="flex items-center gap-4">
-            <div className="hidden sm:flex gap-3 text-black">
-              <a href="https://facebook.com" aria-label="Facebook" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600"><Facebook size={18} /></a>
-              <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="hover:text-pink-600"><Instagram size={18} /></a>
-              <a href="https://twitter.com" aria-label="Twitter" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400"><Twitter size={18} /></a>
-              <a href="https://youtube.com" aria-label="Youtube" target="_blank" rel="noopener noreferrer" className="hover:text-red-600"><Youtube size={18} /></a>
+            {/* UPDATED SOCIAL LINKS */}
+            <div className="hidden sm:flex gap-4 items-center">
+              {[
+                { id: 'instagram', href: 'https://instagram.com', hover: 'hover:text-pink-600' },
+                { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
+                { id: 'substack', href: '#', hover: '' },
+                { id: 'medium', href: '#', hover: '' }
+              ].map((site) => (
+                <a 
+                  key={site.id} 
+                  href={site.href} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className={`group text-gray-400 transition-colors duration-200 ${site.hover}`}
+                >
+                  <SocialIcon platform={site.id} />
+                </a>
+              ))}
             </div>
-            <button aria-label="Search" className="cursor-pointer hover:text-blue-600 transition-colors">
+            <button aria-label="Search" className="cursor-pointer hover:text-blue-600 transition-colors ml-2">
               <Search size={20} className="stroke-3" />
             </button>
           </div>
-
         </div>
       </div>
 

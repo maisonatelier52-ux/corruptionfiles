@@ -1,12 +1,58 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { Share2, Bell } from "lucide-react";
+import { Share2, Bell, Instagram } from "lucide-react";
 import articlesData from "@/data/articles.json";
 import homepageData from "@/data/homepage.json";
 import StickyAd from "@/components/StickyAd";
 import NewsletterSidebar from "@/components/NewsletterSidebar";
+import authorsData from "@/data/authors.json";
 
+const SocialIcon = ({ platform }) => {
+  const iconProps = {
+    size: 18,
+    strokeWidth: 2,
+  };
+
+  const p = platform.toLowerCase();
+
+  // Common styling for the image icons to match the gray low-contrast look
+  const imgClass = "w-[18px] h-[18px] object-contain opacity-80 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
+
+  switch (p) {
+    case "instagram":
+      return <Instagram {...iconProps} />;
+    
+    case "x":
+    case "twitter":
+      return (
+        <svg viewBox="0 0 24 24" width={18} height={18} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+        </svg>
+      );
+    
+    case "substack":
+      return (
+        <img 
+          src="/substack.webp" 
+          alt="Substack" 
+          className={imgClass} 
+        />
+      );
+    
+    case "medium":
+      return (
+        <img 
+          src="/medium.webp" 
+          alt="Medium" 
+          className={imgClass} 
+        />
+      );
+
+    default:
+      return null;
+  }
+};
 // ─── LATEST ARTICLES ─────────────────────────────────────────────────────────
 
 function collectLatestArticles(count = 4) {
@@ -200,7 +246,13 @@ export default async function ArticlePage({ params }) {
 
   if (!article) notFound();
 
-  const { author, body, relatedPosts } = article;
+  // 1. Find the detailed author data from authors.json
+  // We match based on the slug provided in the article's author object
+  const detailedAuthor = authorsData.corruptionfiles.find(
+    (a) => a.slug === article.author.slug
+  ) || article.author; // Fallback to article data if not found in authors.json
+
+  const { body, relatedPosts } = article;
 
   const articleJsonLd = {
     "@context": "https://schema.org",
@@ -208,18 +260,21 @@ export default async function ArticlePage({ params }) {
     headline: article.heading,
     image: [article.heroImage],
     datePublished: article.date,
-    author: { "@type": "Person", name: author.name },
+    author: { "@type": "Person", name: detailedAuthor.name },
   };
 
   return (
     <main className="bg-white min-h-screen">
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
+      <script 
+        type="application/ld+json" 
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} 
+      />
 
       <div className="max-w-7xl mx-auto px-4 pt-6 pb-20">
         <div className="flex flex-col lg:flex-row gap-10">
 
           <div className="flex-1 min-w-0">
-            {/* Hero */}
+            {/* Hero Section */}
             <div className="relative w-full aspect-[16/9] overflow-hidden mb-2">
               <Image src={article.heroImage} alt={article.alt} fill priority sizes="(max-width: 1024px) 100vw, 800px" className="object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent z-10" />
@@ -234,7 +289,7 @@ export default async function ArticlePage({ params }) {
             <div className="mb-6">
               <h1 className="text-2xl md:text-[32px] font-bold text-gray-900 leading-tight mb-3">{article.heading}</h1>
               <p className="text-sm text-gray-500">
-                By <Link href={`/author/${author.slug}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{author.name}</Link>
+                By <Link href={`/authors/${detailedAuthor.slug}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{detailedAuthor.name}</Link>
               </p>
             </div>
 
@@ -247,36 +302,61 @@ export default async function ArticlePage({ params }) {
 
             <ArticleBody body={body} />
 
-            {/* Ad */}
+            {/* Mirror Standard Ad */}
             <a href="https://www.mirrorstandard.com/" target="_blank" rel="noopener noreferrer" className="mt-2 mb-6 block w-full">
               <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                 <img src="/mirror-standard-ad-horizontal.webp" alt="Visit Mirror Standard" className="w-full h-auto object-contain" />
               </div>
             </a>
 
-            {/* About Author - UPDATED SECTION */}
-            <div className="border border-gray-100 p-6 mb-10 flex flex-col sm:flex-row gap-6">
-              <div className="relative w-[100px] h-[100px] flex-shrink-0">
-                <Image src={author.avatar} alt={author.name} fill sizes="100px" className="object-cover rounded" />
-              </div>
-              <div className="flex-1">
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">About Author</span>
-                  {/* Author Name is now a link and 'Articles' button is removed */}
-                  <Link href={`/author/${author.slug}`} className="text-lg font-bold text-gray-900 hover:text-[#2196f3] transition-colors">
-                    {author.name}
-                  </Link>
-                </div>
-                <p className="text-sm text-gray-600 leading-relaxed mb-3">{author.bio}</p>
-                <div className="flex gap-2">
-                  {Object.keys(author.social).map((s) => (
-                    <a key={s} href={author.social[s]} className="w-7 h-7 border border-gray-300 flex items-center justify-center text-gray-500 hover:border-[#2196f3] hover:text-[#2196f3] transition-colors text-[10px] font-bold uppercase">
-                      {s[0].toUpperCase()}
-                    </a>
-                  ))}
-                </div>
-              </div>
-            </div>
+            {/* About Author Section - Now using detailedAuthor data */}
+{/* About Author Section */}
+<div className="border border-gray-100 p-6 mb-10 flex flex-col sm:flex-row gap-6">
+  <div className="relative w-[100px] h-[100px] flex-shrink-0">
+    <Image 
+      src={detailedAuthor.avatar} 
+      alt={detailedAuthor.name} 
+      fill 
+      sizes="100px" 
+      className="object-cover rounded" 
+    />
+  </div>
+  <div className="flex-1">
+    <div className="flex items-center gap-3 mb-2">
+      <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">About Author</span>
+      <Link href={`/authors/${detailedAuthor.slug}`} className="text-lg font-bold text-gray-900 hover:text-[#2196f3] transition-colors">
+        {detailedAuthor.name}
+      </Link>
+    </div>
+    <p className="text-sm text-gray-600 leading-relaxed mb-4">
+      {detailedAuthor.bio}
+    </p>
+    
+    {/* Updated Social Section */}
+<div className="flex gap-4 items-center mt-4">
+  {Object.keys(detailedAuthor.social).map((platformKey) => {
+    const hoverColors = {
+      x: "hover:text-black",
+      instagram: "hover:text-pink-600",
+      // Substack and Medium will use their natural image colors on hover
+    };
+
+    return (
+      <a 
+        key={platformKey} 
+        href={detailedAuthor.social[platformKey]} 
+        target="_blank"
+        rel="noopener noreferrer"
+        // The 'group' class is essential for the image hover effect to work
+        className={`group text-gray-800 transition-colors duration-200 ${hoverColors[platformKey.toLowerCase()] || ''}`}
+      >
+        <SocialIcon platform={platformKey} />
+      </a>
+    );
+  })}
+</div>
+  </div>
+</div>
 
             {/* Related Posts */}
 {relatedPosts && relatedPosts.length > 0 && (
@@ -311,7 +391,7 @@ export default async function ArticlePage({ params }) {
                           <Link href={`/${post.category}/${post.slug}`} className="hover:text-blue-600 transition-colors">{post.title}</Link>
                         </h4>
                         {/* Author name in Related Posts is now also clickable */}
-                        <p className="text-xs text-gray-500 mb-2">By <Link href={`/author/${post.author.toLowerCase().replace(/\s+/g, '-')}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{post.author}</Link></p>
+                        <p className="text-xs text-gray-500 mb-2">By <Link href={`/authors/${post.author.toLowerCase().replace(/\s+/g, '-')}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{post.author}</Link></p>
                         <p className="text-sm text-gray-600 mb-3 line-clamp-2">{post.excerpt}</p>
                         <Link href={`/${post.category}/${post.slug}`} className="inline-block bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors">
                           READ MORE

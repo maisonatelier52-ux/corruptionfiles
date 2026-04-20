@@ -7,12 +7,12 @@
       "coverImage": "/margaret-holloway.webp",
       "role": "Senior Editor",
       "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record. Her work focuses on the distance between what legislators say on the floor and what they agree to in the back hallway.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "govt"
     },
     {
@@ -22,12 +22,12 @@
       "coverImage": "/carlos-medina-reyes.webp",
       "role": "Senior Editor",
       "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code. He covered the aftermath of Maria when most mainland outlets had already moved on, and he has never really left. His reporting draws on deep community ties and a refusal to let distance become an excuse for ignorance.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "puerto-rico"
     },
     {
@@ -37,12 +37,12 @@
       "coverImage": "/darnell-hutchins.webp",
       "role": "Senior Editor",
       "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty. Since then he has tracked use-of-force records, union contract language, and the legal structures that make officer discipline nearly impossible in cities that claim to want reform.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "pa"
     },
     {
@@ -52,12 +52,12 @@
       "coverImage": "/simone-varlette2.webp",
       "role": "Senior Editor",
       "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data — who they sell it to, which regulators look the other way, and how the legal language in terms-of-service agreements is specifically designed to be unreadable. She is not particularly interested in being reassured that everything is fine.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "tech"
     },
     {
@@ -67,12 +67,12 @@
       "coverImage": "/ruth-anselmi.webp",
       "role": "Senior Editor",
       "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement. Her reporting cuts through press releases and FDA approval language to ask the questions that should have been asked before the drug reached the shelf.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "medical-fraud"
     },
     {
@@ -82,12 +82,12 @@
       "coverImage": "/thomas-aldgate.webp",
       "role": "Senior Editor",
       "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects — the holding companies, the political donations, the environmental impact reports written by consultants paid by the same firms they are assessing. He has a particular interest in the deals that get signed quietly between election cycles.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "eco"
     },
     {
@@ -97,12 +97,12 @@
       "coverImage": "/naomi-vosburgh.webp",
       "role": "Senior Editor",
       "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones. She approaches official denials the way a good mechanic approaches a strange noise — as a starting point, not a conclusion.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "intelligence"
     },
     {
@@ -112,12 +112,12 @@
       "coverImage": "/felix-draper.webp",
       "role": "Senior Editor",
       "bio": "Felix came to this beat through financial journalism and a growing frustration with how much of the real story lived in the footnotes. He has spent years building sources inside the offshore compliance world and learning to read the corporate structures that exist for no purpose other than distance — distance from taxes, from sanctions, from accountability. He follows the money across jurisdictions that were specifically designed to make it hard to follow and writes for readers who understand that complexity is often the point.",
-      "social": {
-        "facebook": "#",
-        "twitter": "#",
-        "instagram": "#",
-        "youtube": "#"
-      },
+"social": {
+  "x": "#",
+  "instagram": "#",
+  "substack": "#",
+  "medium": "#"
+},
       "category": "offshore"
     }
   ]
