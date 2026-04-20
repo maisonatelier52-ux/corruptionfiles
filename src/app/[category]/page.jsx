@@ -210,21 +210,28 @@ function CategoryHero({ categoryName, count }) {
         className="object-cover brightness-[0.80]"
         priority
       />
-      <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-16 max-w-4xl">
+      {/* Added overflow-x-hidden and better padding for mobile */}
+      <div className="absolute inset-0 flex flex-col justify-center px-4 md:px-16 max-w-4xl overflow-x-hidden">
         <span className="text-white/60 text-[11px] font-bold uppercase tracking-[0.25em] mb-2">
           Browsing Category
         </span>
-        <h1 className="text-white text-5xl md:text-7xl font-bold mb-4 capitalize leading-none">
+        {/* Smaller font on mobile, break long words */}
+        <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 capitalize leading-tight break-words">
           {categoryName}
         </h1>
-        <div className="flex items-center gap-3 mb-4">
+        <div className="flex items-center gap-3 mb-4 flex-wrap">
           <span className="bg-[#2196f3] text-white text-[10px] font-bold uppercase px-3 py-1 tracking-widest">
             {count} {count === 1 ? "Post" : "Posts"}
           </span>
           <span className="text-white/40 text-xs">·</span>
-          <Link href="/" className="text-white/60 text-xs hover:text-white transition-colors">Home</Link>
+          <Link href="/" className="text-white/60 text-xs hover:text-white transition-colors">
+            Home
+          </Link>
           <span className="text-white/40 text-xs">›</span>
-          <span className="text-white/90 text-xs capitalize">{categoryName}</span>
+          {/* Allow breadcrumb text to wrap and break */}
+          <span className="text-white/90 text-xs capitalize break-words">
+            {categoryName}
+          </span>
         </div>
         <p className="text-white/75 text-sm md:text-base font-serif italic max-w-xl leading-relaxed">
           Browse the latest headlines and in-depth analysis from the world of {categoryName}.

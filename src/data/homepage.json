@@ -277,12 +277,6 @@
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   }
 ],
-  "trendingNews": [
-    { "id": 1, "slug": "white-house-mueller-report", "category": "police", "date": "March 25, 2019", "title": "White House and Justice Dept. Discussed Mueller Report Before Release", "image": "/davenport4-2-1024x683.jpg", "sponsored": false },
-    { "id": 2, "slug": "wall-street-healthcare-plunge", "category": "celebrity", "title": "Wall Street slips, weighed down by healthcare plunge", "image": "/davenport4-6.jpg", "sponsored": true },
-    { "id": 3, "slug": "meitu-skincare", "category": "police", "date": "March 25, 2019", "title": "China selfie app firm Meitu forays into skincare to counter drop in users", "image": "/davenport4-2-1024x683.jpg", "sponsored": false },
-    { "id": 4, "slug": "hillary-clinton-time100", "category": "police", "date": "March 25, 2019", "title": "Hillary Clinton to Speak at the TIME 100 Summit on April 23 in New York, NY", "image": "/davenport4-6.jpg", "sponsored": false }
-  ],
   "categories": [
     { "label": "Government", "category": "govt","image": "/cat-bgcolor.webp" },
     { "label": "Puerto Rico","category": "puerto-rico","image": "/cat-bgcolor.webp" },

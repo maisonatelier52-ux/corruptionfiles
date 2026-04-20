@@ -4,7 +4,7 @@ import { Mail } from "lucide-react";
 
 export default function NewsletterSidebar() {
   return (
-    <div className="bg-[#f4f4f4] px-5 pt-10 pb-6 relative overflow-visible">
+    <div className="sticky top-6 lg:top-24 z-10 bg-[#f4f4f4] px-5 pt-10 pb-6 relative overflow-visible">
       {/* Floating icon */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#222] text-white p-3 rounded-full shadow-lg z-10">
         <Mail size={20} strokeWidth={1.5} />

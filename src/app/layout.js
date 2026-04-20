@@ -15,24 +15,24 @@ const corruptionfilesFont = UnifrakturMaguntia({
 });
 
 export const metadata = {
-  metadataBase: new URL('https://www.your-domain.com'),
+  metadataBase: new URL('https://www.corruptionfiles.com'),
   title: {
-    default: "The Daily News | Breaking Headlines",
-    template: "%s | The Daily News", 
+    default: "Corruption Files | Breaking Headlines",
+    template: "%s | Corruption Files", 
   },
   description: "A corruptionfiles newspaper project featuring breaking news, politics, business, and world events.",
   keywords: ["News", "corruptionfiles", "Politics", "World News", "Business", "Tech"],
   openGraph: {
-    title: "The Daily News",
+    title: "Corruption Files",
     description: "Breaking news and in-depth analysis from corruptionfiles.",
-    url: 'https://www.your-domain.com',
-    siteName: 'The Daily News',
+    url: 'https://www.corruptionfiles.com',
+    siteName: 'Corruption Files',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "The Daily News",
+    title: "Corruption Files",
     description: "Breaking news and in-depth analysis.",
   },
   robots: {
