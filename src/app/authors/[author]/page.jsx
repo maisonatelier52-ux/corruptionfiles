@@ -229,17 +229,6 @@ function NewsListCard({ card }) {
           <p className="text-sm text-gray-600 mb-3 leading-relaxed line-clamp-2">{a.excerpt}</p>
         )}
         <hr className="border-gray-200 mb-3" />
-        <div className="flex items-center gap-3 flex-wrap">
-          <Link
-            href={href}
-            className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors inline-block"
-          >
-            READ MORE
-          </Link>
-          <span className="flex items-center gap-1 text-xs text-gray-500 cursor-pointer hover:text-blue-500 transition-colors">
-            <Share2 size={14} /> Share
-          </span>
-        </div>
       </div>
     </article>
   );

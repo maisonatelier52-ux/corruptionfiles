@@ -3,8 +3,28 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Instagram, Twitter, Youtube, Pointer } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import homepageData from "@/data/homepage.json";
+
+// Footer Shared Icon Helper
+const FooterSocialIcon = ({ platform }) => {
+  const iconProps = { size: 16, strokeWidth: 2 };
+  const p = platform.toLowerCase();
+  // Using slightly lower opacity for the footer to keep focus on links
+  const imgClass = "w-[16px] h-[16px] object-contain opacity-70 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
+
+  switch (p) {
+    case "instagram": return <Instagram {...iconProps} />;
+    case "x": return (
+      <svg viewBox="0 0 24 24" width={16} height={16} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+        <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+      </svg>
+    );
+    case "substack": return <img src="/substack.webp" alt="Substack" className={imgClass} />;
+    case "medium": return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+    default: return null;
+  }
+};
 
 // ─── COMPUTED ONCE AT MODULE LEVEL ───────────────────────────────────────────
 
@@ -160,28 +180,33 @@ const Footer = () => {
 
         {/* BOTTOM BAR */}
         <div className="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-8">
-
-          {/* Copyright */}
+          
           <div className="text-[13px] text-gray-500 flex items-center">
             ©2026 - All rights reserved.
-            <Link
-              href="/"
-              className="text-2xl ml-2 text-black hover:opacity-80 transition-opacity"
-              style={{ fontFamily: 'var(--font-corruptionfiles)' }}
-            >
+            <Link href="/" className="text-2xl ml-2 text-black hover:opacity-80 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
               Corruption Files
             </Link>
           </div>
 
-          {/* Social Icons */}
-          <nav aria-label="Social Media Links" className="flex gap-2">
-            <a href="https://facebook.com" aria-label="Facebook"  target="_blank" rel="noopener noreferrer" className="bg-[#3b5998] p-2 rounded-full text-white hover:opacity-90 transition-opacity"><Facebook size={16} /></a>
-            <a href="https://instagram.com" aria-label="Instagram" target="_blank" rel="noopener noreferrer" className="bg-[#c13584] p-2 rounded-full text-white hover:opacity-90 transition-opacity"><Instagram size={16} /></a>
-            <a href="https://twitter.com"   aria-label="Twitter"   target="_blank" rel="noopener noreferrer" className="bg-[#1da1f2] p-2 rounded-full text-white hover:opacity-90 transition-opacity"><Twitter size={16} /></a>
-            <a href="https://pinterest.com" aria-label="Pinterest" target="_blank" rel="noopener noreferrer" className="bg-[#bd081c] p-2 rounded-full text-white hover:opacity-90 transition-opacity"><Pointer size={16} /></a>
-            <a href="https://youtube.com"   aria-label="Youtube"   target="_blank" rel="noopener noreferrer" className="bg-[#ff0000] p-2 rounded-full text-white hover:opacity-90 transition-opacity"><Youtube size={16} /></a>
+          {/* UPDATED FOOTER SOCIAL ICONS */}
+          <nav aria-label="Social Media Links" className="flex gap-5">
+            {[
+              { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
+              { id: 'instagram', href: 'https://instagram.com', hover: 'hover:text-pink-600' },
+              { id: 'substack', href: '#', hover: '' },
+              { id: 'medium', href: '#', hover: '' }
+            ].map((site) => (
+              <a 
+                key={site.id} 
+                href={site.href} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className={`group text-gray-700 transition-colors duration-200 ${site.hover}`}
+              >
+                <FooterSocialIcon platform={site.id} />
+              </a>
+            ))}
           </nav>
-
         </div>
       </div>
     </footer>

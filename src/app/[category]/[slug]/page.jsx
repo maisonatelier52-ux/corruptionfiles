@@ -16,7 +16,6 @@ const SocialIcon = ({ platform }) => {
 
   const p = platform.toLowerCase();
 
-  // Common styling for the image icons to match the gray low-contrast look
   const imgClass = "w-[18px] h-[18px] object-contain opacity-80 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
 
   switch (p) {
@@ -53,6 +52,7 @@ const SocialIcon = ({ platform }) => {
       return null;
   }
 };
+
 // ─── LATEST ARTICLES ─────────────────────────────────────────────────────────
 
 function collectLatestArticles(count = 4) {
@@ -149,7 +149,7 @@ function ArticleBody({ body }) {
               );
             case "blockquote":
               return (
-                <blockquote key={idx} className="my-8 mx-4 pl-6 border-l-4 border-gray-300 italic text-gray-600 text-[15px] leading-relaxed clear-both">
+                <blockquote key={idx} className="my-6 mx-4 pl-6 border-l-4 border-gray-300 italic text-gray-600 text-[15px] leading-relaxed clear-both">
                   {section.text}
                 </blockquote>
               );
@@ -165,7 +165,7 @@ function ArticleBody({ body }) {
               );
             case "image":
               return (
-                <div key={idx} className="my-8 clear-both">
+                <div key={idx} className="my-6 clear-both">
                   <div className="relative w-full aspect-[16/9] overflow-hidden">
                     <Image src={section.src} alt={section.alt} fill sizes="(max-width: 768px) 100vw, 700px" className="object-cover" />
                   </div>
@@ -217,7 +217,8 @@ function ArticleSidebar() {
   return (
     <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
       <StickyAd />
-      <div className="mb-6 mt-14">
+      {/* CHANGED: mt-14 → mt-6 lg:mt-14 — removes large dead space below ad on mobile */}
+      <div className="mb-6 mt-6 lg:mt-14">
         <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">Latest Today</h3>
         <div className="grid grid-cols-2 gap-4">
           {LATEST_ARTICLES.map((item) => (
@@ -246,11 +247,9 @@ export default async function ArticlePage({ params }) {
 
   if (!article) notFound();
 
-  // 1. Find the detailed author data from authors.json
-  // We match based on the slug provided in the article's author object
   const detailedAuthor = authorsData.corruptionfiles.find(
     (a) => a.slug === article.author.slug
-  ) || article.author; // Fallback to article data if not found in authors.json
+  ) || article.author;
 
   const { body, relatedPosts } = article;
 
@@ -270,8 +269,10 @@ export default async function ArticlePage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} 
       />
 
-      <div className="max-w-7xl mx-auto px-4 pt-6 pb-20">
-        <div className="flex flex-col lg:flex-row gap-10">
+      {/* CHANGED: pb-20 → pb-10 md:pb-20, pt-6 → pt-4 md:pt-6 */}
+      <div className="max-w-7xl mx-auto px-4 pt-4 md:pt-6 pb-10 md:pb-20">
+        {/* CHANGED: gap-10 → gap-6 lg:gap-10 — on mobile stacked layout this becomes vertical space */}
+        <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
 
           <div className="flex-1 min-w-0">
             {/* Hero Section */}
@@ -286,7 +287,8 @@ export default async function ArticlePage({ params }) {
             </div>
 
             {/* Title & Meta */}
-            <div className="mb-6">
+            {/* CHANGED: mb-6 → mb-4 md:mb-6 */}
+            <div className="mb-4 md:mb-6">
               <h1 className="text-2xl md:text-[32px] font-bold text-gray-900 leading-tight mb-3">{article.heading}</h1>
               <p className="text-sm text-gray-500">
                 By <Link href={`/authors/${detailedAuthor.slug}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{detailedAuthor.name}</Link>
@@ -294,7 +296,8 @@ export default async function ArticlePage({ params }) {
             </div>
 
             {/* Actions */}
-            <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-8">
+            {/* CHANGED: mb-8 → mb-5 md:mb-8 */}
+            <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-5 md:mb-8">
               <button className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors">
                 <Share2 size={13} /> Share
               </button>
@@ -303,86 +306,83 @@ export default async function ArticlePage({ params }) {
             <ArticleBody body={body} />
 
             {/* Mirror Standard Ad */}
-            <a href="https://www.mirrorstandard.com/" target="_blank" rel="noopener noreferrer" className="mt-2 mb-6 block w-full">
+            <a href="https://www.mirrorstandard.com/" target="_blank" rel="noopener noreferrer" className="mt-2 mb-5 md:mb-6 block w-full">
               <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                 <img src="/mirror-standard-ad-horizontal.webp" alt="Visit Mirror Standard" className="w-full h-auto object-contain" />
               </div>
             </a>
 
-            {/* About Author Section - Now using detailedAuthor data */}
-{/* About Author Section */}
-<div className="border border-gray-100 p-6 mb-10 flex flex-col sm:flex-row gap-6">
-  <div className="relative w-[100px] h-[100px] flex-shrink-0">
-    <Image 
-      src={detailedAuthor.avatar} 
-      alt={detailedAuthor.name} 
-      fill 
-      sizes="100px" 
-      className="object-cover rounded" 
-    />
-  </div>
-  <div className="flex-1">
-    <div className="flex items-center gap-3 mb-2">
-      <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">About Author</span>
-      <Link href={`/authors/${detailedAuthor.slug}`} className="text-lg font-bold text-gray-900 hover:text-[#2196f3] transition-colors">
-        {detailedAuthor.name}
-      </Link>
-    </div>
-    <p className="text-sm text-gray-600 leading-relaxed mb-4">
-      {detailedAuthor.bio}
-    </p>
-    
-    {/* Updated Social Section */}
-<div className="flex gap-4 items-center mt-4">
-  {Object.keys(detailedAuthor.social).map((platformKey) => {
-    const hoverColors = {
-      x: "hover:text-black",
-      instagram: "hover:text-pink-600",
-      // Substack and Medium will use their natural image colors on hover
-    };
+            {/* About Author Section */}
+            {/* CHANGED: mb-10 → mb-6 md:mb-10 */}
+            <div className="border border-gray-100 p-6 mb-6 md:mb-10 flex flex-col sm:flex-row gap-6">
+              <div className="relative w-[100px] h-[100px] flex-shrink-0">
+                <Image 
+                  src={detailedAuthor.avatar} 
+                  alt={detailedAuthor.name} 
+                  fill 
+                  sizes="100px" 
+                  className="object-cover rounded" 
+                />
+              </div>
+              <div className="flex-1">
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">About Author</span>
+                  <Link href={`/authors/${detailedAuthor.slug}`} className="text-lg font-bold text-gray-900 hover:text-[#2196f3] transition-colors">
+                    {detailedAuthor.name}
+                  </Link>
+                </div>
+                <p className="text-sm text-gray-600 leading-relaxed mb-4">
+                  {detailedAuthor.bio}
+                </p>
+                
+                <div className="flex gap-4 items-center mt-4">
+                  {Object.keys(detailedAuthor.social).map((platformKey) => {
+                    const hoverColors = {
+                      x: "hover:text-black",
+                      instagram: "hover:text-pink-600",
+                    };
 
-    return (
-      <a 
-        key={platformKey} 
-        href={detailedAuthor.social[platformKey]} 
-        target="_blank"
-        rel="noopener noreferrer"
-        // The 'group' class is essential for the image hover effect to work
-        className={`group text-gray-800 transition-colors duration-200 ${hoverColors[platformKey.toLowerCase()] || ''}`}
-      >
-        <SocialIcon platform={platformKey} />
-      </a>
-    );
-  })}
-</div>
-  </div>
-</div>
+                    return (
+                      <a 
+                        key={platformKey} 
+                        href={detailedAuthor.social[platformKey]} 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={`group text-gray-800 transition-colors duration-200 ${hoverColors[platformKey.toLowerCase()] || ''}`}
+                      >
+                        <SocialIcon platform={platformKey} />
+                      </a>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
 
             {/* Related Posts */}
-{relatedPosts && relatedPosts.length > 0 && (
-  <div className="mb-10">
-    <h3 className="font-bold text-lg text-gray-900 mb-6 pb-2 border-b-2 border-black">Related posts</h3>
-    <div className="space-y-6">
-      {relatedPosts.map((post) => (
-        <article key={post.slug} className="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-6 last:border-0">
-          {/* The fix is here: Link must be relative block if it contains an Image with fill */}
-          <div className="w-full sm:w-[200px] h-[140px] flex-shrink-0 overflow-hidden group">
-            <Link href={`/${post.category}/${post.slug}`} className="relative block w-full h-full">
-              <Image 
-                src={post.image} 
-                alt={post.title} 
-                fill 
-                sizes="200px" 
-                className="object-cover group-hover:scale-105 transition-transform duration-500" 
-              />
-              <div className="absolute bottom-2 left-2 flex gap-1 z-10">
-                <span className={`${post.categoryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}>{post.category}</span>
-                {post.secondaryCategory && (
-                  <span className={`${post.secondaryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}>{post.secondaryCategory}</span>
-                )}
-              </div>
-            </Link>
-          </div>
+            {/* CHANGED: mb-10 → mb-6 md:mb-10 */}
+            {relatedPosts && relatedPosts.length > 0 && (
+              <div className="mb-6 md:mb-10">
+                <h3 className="font-bold text-lg text-gray-900 mb-4 md:mb-6 pb-2 border-b-2 border-black">Related posts</h3>
+                <div className="space-y-5 md:space-y-6">
+                  {relatedPosts.map((post) => (
+                    <article key={post.slug} className="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-5 md:pb-6 last:border-0">
+                      <div className="w-full sm:w-[200px] h-[140px] flex-shrink-0 overflow-hidden group">
+                        <Link href={`/${post.category}/${post.slug}`} className="relative block w-full h-full">
+                          <Image 
+                            src={post.image} 
+                            alt={post.title} 
+                            fill 
+                            sizes="200px" 
+                            className="object-cover group-hover:scale-105 transition-transform duration-500" 
+                          />
+                          <div className="absolute bottom-2 left-2 flex gap-1 z-10">
+                            <span className={`${post.categoryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}>{post.category}</span>
+                            {post.secondaryCategory && (
+                              <span className={`${post.secondaryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}>{post.secondaryCategory}</span>
+                            )}
+                          </div>
+                        </Link>
+                      </div>
                       <div className="flex-1">
                         {post.isSponsored && (
                           <p className="text-gray-400 text-xs flex items-center gap-1 mb-2"><Bell size={10} /> Sponsored content</p>
@@ -390,7 +390,6 @@ export default async function ArticlePage({ params }) {
                         <h4 className="font-bold text-[16px] text-gray-900 leading-snug mb-1">
                           <Link href={`/${post.category}/${post.slug}`} className="hover:text-blue-600 transition-colors">{post.title}</Link>
                         </h4>
-                        {/* Author name in Related Posts is now also clickable */}
                         <p className="text-xs text-gray-500 mb-2">By <Link href={`/authors/${post.author.toLowerCase().replace(/\s+/g, '-')}`} className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors">{post.author}</Link></p>
                         <p className="text-sm text-gray-600 mb-3 line-clamp-2">{post.excerpt}</p>
                         <Link href={`/${post.category}/${post.slug}`} className="inline-block bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors">

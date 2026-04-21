@@ -48,12 +48,11 @@ export const metadata = {
   },
 };
 
+// layout.js check
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-scroll-behavior="smooth">
-      {/* IMPORTANT: We apply both font variables to the body so 
-          Tailwind can "see" them throughout the entire app.
-      */}
+    <html lang="en">
+      {/* Ensure no overflow-hidden here */}
       <body className={`${inter.variable} ${corruptionfilesFont.variable} font-sans bg-white flex flex-col min-h-screen`}>
         <Header />
         <main className="flex-grow">

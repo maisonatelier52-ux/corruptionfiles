@@ -3,8 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
 import {
-  Instagram, ChevronLeft, ChevronRight,
-  Search, Menu, X, ChevronRight as ArrowRight
+  Instagram, ChevronLeft, ChevronRight, Menu, X, ChevronRight as ArrowRight
 } from 'lucide-react';
 import homepageData from "@/data/homepage.json";
 
@@ -12,7 +11,7 @@ import homepageData from "@/data/homepage.json";
 const SocialIcon = ({ platform }) => {
   const iconProps = { size: 18, strokeWidth: 2 };
   const p = platform.toLowerCase();
-  const imgClass = "w-[18px] h-[18px] object-contain opacity-60 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
+  const imgClass = "w-[18px] h-[18px] object-contain opacity-70 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
 
   switch (p) {
     case "instagram": return <Instagram {...iconProps} />;
@@ -26,16 +25,14 @@ const SocialIcon = ({ platform }) => {
     default: return null;
   }
 };
-// ─── COMPUTED ONCE AT MODULE LEVEL (never re-runs on re-renders) ──────────────
 
+// ─── Article Collection Logic ──────────────────────────────────────────────
 function collectLatestArticles(count = 4) {
   const all = [];
-
   const push = (arr) => {
     if (!Array.isArray(arr)) return;
     arr.forEach((a) => { if (a?.slug && a?.title && a?.date) all.push(a); });
   };
-
   push(homepageData.politicsNews);
   push(homepageData.secondaryNews);
   push(homepageData.inOtherNews?.grid);
@@ -47,34 +44,24 @@ function collectLatestArticles(count = 4) {
   push(homepageData.trendingSectionData);
   push(homepageData.newsCards);
 
-  [
-    homepageData.discoveryMain,
-    homepageData.worldNews?.main,
-    homepageData.inOtherNews?.featured,
-  ].forEach((a) => { if (a?.slug && a?.title && a?.date) all.push(a); });
+  [homepageData.discoveryMain, homepageData.worldNews?.main, homepageData.inOtherNews?.featured]
+    .forEach((a) => { if (a?.slug && a?.title && a?.date) all.push(a); });
 
-  // Deduplicate by slug
   const seen = new Set();
   const unique = all.filter((a) => {
     if (seen.has(a.slug)) return false;
     seen.add(a.slug);
     return true;
   });
-
-  // Sort newest → oldest (descending)
   unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-
   return unique.slice(0, count);
 }
 
-// Runs once at import time — zero cost on every re-render
 const LATEST_ARTICLES = collectLatestArticles(4);
+const TICKER_INTERVAL_MS = 3000;
 
-const TICKER_INTERVAL_MS = 3000; // adjust to 1000 for 1-second cycling
-
-// Static nav — defined outside so it's never recreated
 const NAV_LINKS = [
-  { name: 'Government',    href: '/govt'          },
+  { name: 'Government',    href: '/govt'           },
   { name: 'Puerto Rico',   href: '/puerto-rico'   },
   { name: 'P.A.',          href: '/pa'            },
   { name: 'Tech',          href: '/tech'          },
@@ -83,8 +70,6 @@ const NAV_LINKS = [
   { name: 'Intelligence',  href: '/intelligence'  },
   { name: 'Offshore',      href: '/offshore'      },
 ];
-
-// ─── HEADER ───────────────────────────────────────────────────────────────────
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen]   = useState(false);
@@ -95,7 +80,6 @@ const Header = () => {
 
   const total = LATEST_ARTICLES.length;
 
-  // ── Date: runs once on mount ──
   useEffect(() => {
     const now = new Date();
     setDateInfo({
@@ -106,40 +90,31 @@ const Header = () => {
     });
   }, []);
 
-  // ── Fade-out → swap → fade-in ──
   const goTo = useCallback((direction) => {
     if (total <= 1) return;
     setVisible(false);
     setTimeout(() => {
-      setTickerIndex((prev) =>
-        direction === "next"
-          ? (prev + 1) % total
-          : (prev - 1 + total) % total
-      );
+      setTickerIndex((prev) => direction === "next" ? (prev + 1) % total : (prev - 1 + total) % total);
       setVisible(true);
     }, 200);
   }, [total]);
 
-  // ── Start/restart auto-cycle ──
   const startInterval = useCallback(() => {
     clearInterval(intervalRef.current);
     if (total <= 1) return;
     intervalRef.current = setInterval(() => goTo("next"), TICKER_INTERVAL_MS);
   }, [goTo, total]);
 
-  // ── Boot ticker on mount, clean up on unmount ──
   useEffect(() => {
     startInterval();
     return () => clearInterval(intervalRef.current);
   }, [startInterval]);
 
-  // ── Manual arrow: navigate + reset timer ──
   const handleArrow = useCallback((dir) => {
     goTo(dir);
     startInterval();
   }, [goTo, startInterval]);
 
-  // ── Dot jump ──
   const handleDot = useCallback((i) => {
     if (i === tickerIndex) return;
     setVisible(false);
@@ -152,26 +127,17 @@ const Header = () => {
   const current = LATEST_ARTICLES[tickerIndex];
 
   return (
-    <header className="w-full">
-
+    <> {/* CRITICAL: Changed from <header> to a Fragment */}
+      
       {/* 1. TOP BAR */}
-      <div className="w-full bg-[#111827] text-white text-[11px] font-bold uppercase tracking-wider">
+      <div className="w-full bg-[#111827] text-white text-[11px] font-bold uppercase tracking-wider relative z-20">
         <div className="max-w-7xl mx-auto flex items-center h-10 px-4">
-
-          {/* Date */}
           <div className="bg-[#1f2937] h-full items-center px-4 mr-4 hidden lg:flex flex-shrink-0">
             <span className="flex items-center gap-2">
-              📅{" "}
-              <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
+              📅 <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
             </span>
           </div>
-
-          {/* Label */}
-          <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400 flex-shrink-0">
-            LATEST
-          </div>
-
-          {/* Ticker text */}
+          <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400 flex-shrink-0">LATEST</div>
           <div className="flex-1 px-2 min-w-0 overflow-hidden">
             {current && (
               <Link
@@ -183,91 +149,47 @@ const Header = () => {
               </Link>
             )}
           </div>
-
-          {/* Dot indicators */}
-          {total > 1 && (
-            <div className="hidden sm:flex items-center gap-1 px-3 flex-shrink-0">
-              {LATEST_ARTICLES.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => handleDot(i)}
-                  aria-label={`Go to article ${i + 1}`}
-                  className={`h-1.5 rounded-full transition-all duration-300 ${
-                    i === tickerIndex
-                      ? "bg-blue-400 w-3"
-                      : "bg-gray-600 hover:bg-gray-400 w-1.5"
-                  }`}
-                />
-              ))}
-            </div>
-          )}
-
-          {/* Arrows */}
           <div className="flex border-l border-gray-700 h-full flex-shrink-0">
-            <button
-              aria-label="Previous article"
-              onClick={() => handleArrow("prev")}
-              className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors"
-            >
+            <button onClick={() => handleArrow("prev")} className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors">
               <ChevronLeft size={14} />
             </button>
-            <button
-              aria-label="Next article"
-              onClick={() => handleArrow("next")}
-              className="px-3 hover:bg-blue-600 transition-colors"
-            >
+            <button onClick={() => handleArrow("next")} className="px-3 hover:bg-blue-600 transition-colors">
               <ChevronRight size={14} />
             </button>
           </div>
-
         </div>
       </div>
 
       {/* 2. MAIN LOGO AREA */}
-<div className="w-full bg-white">
+      <div className="w-full bg-white relative z-20">
         <div className="max-w-7xl mx-auto px-4 py-6 md:py-8 flex justify-between items-center">
           <div className="md:hidden">
             <button onClick={toggleMenu} className="p-2 border border-gray-200 text-black">
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
           </div>
-
           <div className="hidden md:block w-[160px]" />
-
           <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
             Corruption Files
           </Link>
-
           <div className="flex items-center gap-4">
-            {/* UPDATED SOCIAL LINKS */}
             <div className="hidden sm:flex gap-4 items-center">
-              {[
-                { id: 'instagram', href: 'https://instagram.com', hover: 'hover:text-pink-600' },
-                { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
-                { id: 'substack', href: '#', hover: '' },
-                { id: 'medium', href: '#', hover: '' }
-              ].map((site) => (
-                <a 
-                  key={site.id} 
-                  href={site.href} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className={`group text-gray-400 transition-colors duration-200 ${site.hover}`}
-                >
+              {[{ id: 'x', href: 'https://x.com' }, { id: 'instagram', href: 'https://instagram.com' }, { id: 'substack', href: '#' }, { id: 'medium', href: '#' }].map((site) => (
+                <a key={site.id} href={site.href} target="_blank" rel="noopener noreferrer" className="group text-gray-700 transition-colors duration-200 hover:text-blue-600">
                   <SocialIcon platform={site.id} />
                 </a>
               ))}
             </div>
-            <button aria-label="Search" className="cursor-pointer hover:text-blue-600 transition-colors ml-2">
-              <Search size={20} className="stroke-3" />
-            </button>
           </div>
         </div>
       </div>
 
-      {/* 3. PRIMARY NAVIGATION */}
-      <div className="sticky top-0 z-50 w-full bg-white border-t border-black border-b border-gray-200 hidden md:block shadow-md">
-        <nav aria-label="Main Navigation" className="max-w-7xl mx-auto px-4">
+      {/* 3. PRIMARY NAVIGATION (STAYS STICKY) */}
+      <nav 
+        aria-label="Main Navigation" 
+        className="sticky top-0 z-[100] w-full bg-white border-t border-black border-b border-gray-200 hidden md:block shadow-md"
+      >
+        <div className="max-w-7xl mx-auto px-4">
           <ul className="flex justify-center items-center gap-12 py-4 font-bold uppercase text-[13px] tracking-[0.15em]">
             {NAV_LINKS.map((link) => (
               <li key={link.name}>
@@ -277,24 +199,19 @@ const Header = () => {
               </li>
             ))}
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
 
       {/* 4. MOBILE MENU */}
-      <div
-        className={`sticky top-0 z-40 md:hidden bg-white border-t border-gray-100 transition-all duration-300 overflow-hidden ${
-          isMenuOpen ? "max-h-[500px] shadow-lg" : "max-h-0"
-        }`}
-      >
+      <div className={`fixed top-0 left-0 w-full z-[110] md:hidden bg-white transition-all duration-300 overflow-hidden ${isMenuOpen ? "h-screen shadow-lg" : "h-0"}`}>
+        <div className="p-4 flex justify-end">
+             <button onClick={toggleMenu} className="p-2"><X size={24} /></button>
+        </div>
         <nav aria-label="Mobile Navigation">
           <ul>
             {NAV_LINKS.map((link) => (
               <li key={link.name}>
-                <Link
-                  href={link.href}
-                  onClick={() => setIsMenuOpen(false)}
-                  className="flex items-center justify-between px-6 py-4 border-b border-gray-50 last:border-none hover:bg-gray-50 text-black"
-                >
+                <Link href={link.href} onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between px-6 py-4 border-b border-gray-50 text-black">
                   <span className="font-bold text-[14px] uppercase tracking-wider">{link.name}</span>
                   <ArrowRight size={16} className="text-gray-400" />
                 </Link>
@@ -303,8 +220,7 @@ const Header = () => {
           </ul>
         </nav>
       </div>
-
-    </header>
+    </>
   );
 };
 

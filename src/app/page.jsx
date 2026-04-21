@@ -74,7 +74,6 @@ function PlayIcon() {
   );
 }
 
-// Added priority prop here
 function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, isSponsored, author, title, description, priority = false }) {
   const href = `/${category}/${slug}`;
   return (
@@ -85,7 +84,7 @@ function NewsCard({ slug, category, image, categoryLabel, categoryColor, date, i
             src={image} 
             alt={title} 
             fill 
-            priority={priority} // Fixes LCP warning
+            priority={priority}
             sizes="(max-width:768px) 100vw, 33vw"
             className="object-cover transition-transform duration-500 group-hover:scale-105" 
           />
@@ -146,9 +145,6 @@ function NewsListCard({ card }) {
           <Link href={href} className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors inline-block">
             READ MORE
           </Link>
-          <span className="flex items-center gap-1 text-xs text-gray-500 cursor-pointer hover:text-blue-500 transition-colors">
-            <Share2 size={14} /> Share
-          </span>
         </div>
       </div>
     </article>
@@ -256,7 +252,6 @@ function DiscoveryRightItem({ item }) {
 function TechOverlayCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
   return (
-    /* Added 'relative' to the container for double insurance */
     <article className="w-full aspect-square md:aspect-[4/3] group overflow-hidden relative">
       <Link href={href} className="relative block w-full h-full">
         <Image 
@@ -267,11 +262,7 @@ function TechOverlayCard({ item }) {
           className="object-cover transition-transform duration-700 group-hover:scale-105" 
           priority={false}
         />
-        
-        {/* Overlay Gradients */}
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/10 transition-opacity duration-500 group-hover:from-black/95" />
-        
-        {/* Category Badges */}
         <div className="absolute top-6 left-0 right-0 flex justify-center gap-1 z-10">
           {item.categories
             ? item.categories.map((cat, idx) => (
@@ -286,8 +277,6 @@ function TechOverlayCard({ item }) {
               )
           }
         </div>
-
-        {/* Content Section */}
         <div className="absolute inset-0 flex flex-col justify-end items-center text-center p-6 md:p-10 text-white z-20">
           <div className="text-[11px] font-medium mb-3 opacity-90 flex items-center gap-1.5">
             {item.isSponsored ? (
@@ -296,15 +285,12 @@ function TechOverlayCard({ item }) {
               <><Calendar size={12} /><time>{item.date}</time></>
             )}
           </div>
-          
           <h3 className="text-xl md:text-2xl font-bold leading-tight mb-3 drop-shadow-sm group-hover:text-blue-400 transition-colors">
             {item.title}
           </h3>
-          
           <div className="text-[11px] font-bold uppercase tracking-widest mb-4 opacity-80">
             By {item.author}
           </div>
-          
           <p className="text-[14px] leading-relaxed mb-6 opacity-90 line-clamp-2 md:line-clamp-3 max-w-lg">
             {item.excerpt}
           </p>
@@ -319,7 +305,6 @@ function TrendingCircleCard({ item }) {
   return (
     <article className="flex gap-5 items-start group">
       <div className="flex-shrink-0 w-24 h-24 sm:w-28 sm:h-28">
-        {/* Ensure Link is relative and block-level */}
         <Link href={href} className="relative block w-full h-full overflow-hidden rounded-full">
           <Image 
             src={item.image} 
@@ -384,7 +369,6 @@ export default function Home() {
           <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">Capitol & Westminster</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          {/* Apply priority to the first row of images */}
           {politicsNews.map((news, index) => (
             <NewsCard key={news.id} {...news} priority={index < 3} />
           ))}
@@ -476,10 +460,6 @@ export default function Home() {
                   By <span className="text-gray-600">{worldNews.main.author}</span>
                 </div>
                 <p className="text-gray-500 text-[15px] leading-relaxed line-clamp-4">{worldNews.main.description}</p>
-                <div className="flex justify-between items-center pt-4">
-                  <span className="bg-[#2196f3] text-white px-8 py-3 text-[11px] font-bold uppercase tracking-widest hover:bg-blue-600 transition-colors inline-block">Read More</span>
-                  <span className="flex items-center gap-1 text-black uppercase font-bold text-[12px]"><Share2 size={14} /> Share</span>
-                </div>
               </div>
             </Link>
           </article>
@@ -502,9 +482,6 @@ export default function Home() {
                 <div className="p-6 space-y-3">
                   <span className="text-[11px] text-gray-400">📅 {item.date}</span>
                   <h3 className="text-xl font-bold text-[#222] group-hover:text-blue-600 transition-colors">{item.title}</h3>
-                  <div className="flex justify-between items-center pt-4 border-t border-gray-50">
-                    <span className="flex items-center gap-1 text-black font-bold uppercase text-[11px]"><Share2 size={13} /> Share</span>
-                  </div>
                 </div>
               </Link>
             ))}
@@ -516,37 +493,37 @@ export default function Home() {
 
         {/* ── NEWS FEED + SIDEBAR ── */}
         <div className="mt-10 flex flex-col lg:flex-row gap-8">
-<div className="flex-1 min-w-0">
-  {newsCards.slice(0, 4).map((card) => (
-    <NewsListCard key={card.id} card={card} />
-  ))}
+          <div className="flex-1 min-w-0">
+            {newsCards.slice(0, 4).map((card) => (
+              <NewsListCard key={card.id} card={card} />
+            ))}
 
-  {/* Clickable Full-Width Ad Section */}
-  <a 
-    href="https://www.mirrorstandard.com/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="mt-2 mb-6 block w-full"
-  >
-    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-      <img
-        src="/mirror-standard-ad-horizontal.webp"
-        alt="Visit Mirror Standard"
-        className="w-full h-auto object-contain"
-      />
-    </div>
-  </a>
+            {/* Clickable Full-Width Ad Section */}
+            <a 
+              href="https://www.mirrorstandard.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="mt-2 mb-6 block w-full"
+            >
+              <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+                <img
+                  src="/mirror-standard-ad-horizontal.webp"
+                  alt="Visit Mirror Standard"
+                  className="w-full h-auto object-contain"
+                />
+              </div>
+            </a>
 
-  <div id="ad-sentinel" className="h-0 w-full" />
-  {newsCards.slice(4).map((card) => (
-    <NewsListCard key={card.id} card={card} />
-  ))}
-</div>
+            <div id="ad-sentinel" className="h-0 w-full" />
+            {newsCards.slice(4).map((card) => (
+              <NewsListCard key={card.id} card={card} />
+            ))}
+          </div>
 
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
 
-            {/* Latest Today — real articles, newest → oldest, no dummy data */}
+            {/* Latest Today */}
             <div className="mb-6 mt-14">
               <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
                 Latest Today
@@ -570,7 +547,8 @@ export default function Home() {
         </div>
 
         {/* ── ENVIRONMENTAL EXPLOITATION SECTION ── */}
-        <section aria-labelledby="tech-discovery" className="mt-7 mb-20">
+        {/* CHANGED: mt-7 mb-20 → mt-4 mb-8 md:mt-7 md:mb-20 */}
+        <section aria-labelledby="tech-discovery" className="mt-4 mb-8 md:mt-7 md:mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="tech-discovery" className="text-[28px] font-bold text-black leading-tight">
               <Link href="/eco" className="hover:text-blue-600 transition-colors">Environmental Exploitation</Link>
@@ -590,10 +568,14 @@ export default function Home() {
           </div>
         </section>
 
-        <AdBanner />
+        {/* CHANGED: wrapped AdBanner to control mobile vertical spacing */}
+        <div className="my-4 md:my-0">
+          <AdBanner />
+        </div>
 
         {/* ── INTELLIGENCE SECTION ── */}
-        <section aria-labelledby="science-heading" className="mt-16 mb-20">
+        {/* CHANGED: mt-16 mb-20 → mt-6 mb-8 md:mt-16 md:mb-20 */}
+        <section aria-labelledby="science-heading" className="mt-6 mb-8 md:mt-16 md:mb-20">
           <div className="border-b-2 border-black mb-8 pb-1">
             <h2 id="science-heading" className="text-[28px] font-bold text-black leading-tight">
               <Link href="/intelligence" className="hover:text-blue-600 transition-colors">Intelligence</Link>
@@ -606,7 +588,8 @@ export default function Home() {
         </section>
 
         {/* ── OFFSHORE WEALTH & SANCTIONS SECTION ── */}
-        <section aria-labelledby="banking-heading" className="mt-1 mb-1">
+        {/* CHANGED: mt-1 mb-1 → mt-0 mb-6 md:mt-1 md:mb-1 */}
+        <section aria-labelledby="banking-heading" className="mt-0 mb-6 md:mt-1 md:mb-1">
           <div className="border-b-2 border-black mb-4 pb-1">
             <h2 id="banking-heading" className="text-[28px] font-bold text-black leading-tight">
               <Link href="/offshore" className="hover:text-blue-600 transition-colors">Offshore Wealth & Sanctions</Link>
