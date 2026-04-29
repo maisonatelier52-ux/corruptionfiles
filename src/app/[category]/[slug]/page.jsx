@@ -8,22 +8,42 @@ import StickyAd from "@/components/StickyAd";
 import NewsletterSidebar from "@/components/NewsletterSidebar";
 import authorsData from "@/data/authors.json";
 
+// ─── CONSTANTS ───────────────────────────────────────────────────────────────
+
+const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
+const SITE_NAME = "Corruption Files";
+
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
-/** Convert a JS Date or date string to ISO-8601 (required by JSON-LD / OG) */
+/** Convert a date string to ISO-8601 (required by JSON-LD and <time dateTime>) */
 function toISODate(dateStr) {
   if (!dateStr) return undefined;
   const d = new Date(dateStr);
   return isNaN(d.getTime()) ? undefined : d.toISOString();
 }
 
-/** Build a canonical URL from category + slug */
-function canonicalUrl(category, slug) {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
-  return `${base}/${category}/${slug}`;
+/**
+ * Build the absolute URL for an image path from JSON.
+ * JSON stores paths like "/fbi-buying-americans-private-data.webp"
+ * OG / Twitter require a full URL: "https://www.corruptionfiles.com/fbi-..."
+ */
+function absoluteImageUrl(imagePath) {
+  if (!imagePath) return `${SITE_URL}/og-default.jpg`;
+  // Already absolute — return as-is
+  if (imagePath.startsWith("http://") || imagePath.startsWith("https://")) {
+    return imagePath;
+  }
+  // Relative path — prepend site origin
+  return `${SITE_URL}${imagePath.startsWith("/") ? "" : "/"}${imagePath}`;
 }
 
-/** Slugify an author name for fallback URL (only used if no slug field present) */
+/** Build a canonical URL from category + slug */
+function canonicalUrl(category, slug) {
+  return `${SITE_URL}/${category}/${slug}`;
+}
+
+/** Slugify an author name for fallback URL */
 function nameToSlug(name = "") {
   return name.toLowerCase().replace(/\s+/g, "-");
 }
@@ -99,7 +119,6 @@ function collectLatestArticles(count = 4) {
     seen.add(a.slug);
     return true;
   });
-
   unique.sort((a, b) => new Date(b.date) - new Date(a.date));
   return unique.slice(0, count);
 }
@@ -117,77 +136,103 @@ function findArticle(category, slug) {
 }
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
-// FIX: Added keywords, canonical, robots, full Open Graph (type / url /
-//      publishedTime / author / image dimensions), and Twitter card.
+/**
+ * KEY FIX for this version:
+ * OG image and Twitter image are now built from article.heroImage (JSON field)
+ * using absoluteImageUrl() which prepends SITE_URL to the relative path.
+ * Previously the image was never showing because "/image.webp" is not a valid
+ * absolute URL for og:image or twitter:image crawlers.
+ */
 
 export async function generateMetadata({ params }) {
   const { category, slug } = await params;
   const article = findArticle(category, slug);
 
-  if (!article) return { title: "Article Not Found" };
+  if (!article) {
+    return {
+      title: "Article Not Found",
+      robots: { index: false, follow: false },
+    };
+  }
 
   const url = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
+
+  // ── Build the absolute OG image URL from JSON heroImage ──
+  // article.heroImage comes from JSON as e.g. "/fbi-buying-americans-private-data.webp"
+  // We convert it to "https://www.corruptionfiles.com/fbi-buying-americans-private-data.webp"
+  const ogImageUrl = absoluteImageUrl(article.heroImage);
+
+  // Alt text for the OG image — use JSON alt field, fall back to article heading
+  const ogImageAlt = article.alt || article.heading || article.metaTitle;
+
+  // Author slug for og:article:author URL
+  const authorSlug =
+    article.author?.slug || nameToSlug(article.author?.name || "");
 
   return {
     title: article.metaTitle,
     description: article.metaDescription,
 
-    // FIX: keywords now pulled from JSON
+    // Keywords from JSON metaKeywords array
     keywords: Array.isArray(article.metaKeywords)
       ? article.metaKeywords.join(", ")
       : article.metaKeywords,
 
-    // FIX: canonical URL
+    // Canonical URL
     alternates: {
       canonical: url,
     },
 
-    // FIX: robots directive (allow indexing)
+    // Robots
     robots: {
       index: true,
       follow: true,
       googleBot: { index: true, follow: true },
     },
 
-    // FIX: Complete Open Graph block
+    // ── Open Graph ──────────────────────────────────────────────────────────
+    // FIX: images[].url is now an absolute URL built from article.heroImage
     openGraph: {
       type: "article",
       url,
-      siteName: "Corruption Files",
+      siteName: SITE_NAME,
       title: article.metaTitle,
       description: article.metaDescription,
       publishedTime: isoDate,
-      authors: article.author?.name
-        ? [`${siteUrl}/authors/${article.author.slug || nameToSlug(article.author.name)}`]
+      modifiedTime: isoDate,
+      authors: authorSlug
+        ? [`${SITE_URL}/authors/${authorSlug}`]
         : undefined,
       section: article.categoryLabel,
       tags: Array.isArray(article.metaKeywords) ? article.metaKeywords : [],
       images: [
         {
-          url: `${siteUrl}${article.heroImage}`,
+          // This is what social crawlers (Facebook, LinkedIn, WhatsApp, etc.)
+          // fetch to show the preview thumbnail — must be an absolute URL.
+          url: ogImageUrl,
+          secureUrl: ogImageUrl,
           width: 1200,
           height: 630,
-          alt: article.alt || article.metaTitle,
+          alt: ogImageAlt,
+          type: "image/webp",
         },
       ],
     },
 
-    // FIX: Twitter / X card
+    // ── Twitter / X Card ────────────────────────────────────────────────────
+    // FIX: images is now an absolute URL built from article.heroImage
     twitter: {
       card: "summary_large_image",
       title: article.metaTitle,
       description: article.metaDescription,
-      images: [`${siteUrl}${article.heroImage}`],
+      // Twitter requires a plain string URL (not an object)
+      images: [ogImageUrl],
     },
   };
 }
 
 // ─── BODY RENDERER ───────────────────────────────────────────────────────────
-// FIX: h2 elements now have id anchors (good for internal linking & SEO).
-//      Blockquote cite rendered as <footer> for semantics.
 
 function ArticleBody({ body }) {
   return (
@@ -215,7 +260,6 @@ function ArticleBody({ body }) {
         body.sections.map((section, idx) => {
           switch (section.type) {
             case "heading": {
-              // FIX: add id anchor derived from title for in-page linking
               const anchorId = section.title
                 .toLowerCase()
                 .replace(/[^a-z0-9]+/g, "-")
@@ -242,7 +286,6 @@ function ArticleBody({ body }) {
 
             case "blockquote":
               return (
-                // FIX: semantic <blockquote> with <footer> + <cite>
                 <blockquote
                   key={idx}
                   className="my-6 mx-4 pl-6 border-l-4 border-gray-300 italic text-gray-600 text-[15px] leading-relaxed clear-both"
@@ -276,7 +319,6 @@ function ArticleBody({ body }) {
                   <div className="relative w-full aspect-[16/9] overflow-hidden">
                     <Image
                       src={section.src}
-                      // FIX: always provide meaningful alt
                       alt={section.alt || "Article illustration"}
                       fill
                       sizes="(max-width: 768px) 100vw, 700px"
@@ -303,7 +345,6 @@ function ArticleBody({ body }) {
 
 function LatestCard({ item }) {
   return (
-    // FIX: Link has descriptive title attribute
     <Link
       href={`/${item.category}/${item.slug}`}
       className="flex flex-col group"
@@ -312,7 +353,6 @@ function LatestCard({ item }) {
       <div className="relative w-full h-[110px] overflow-hidden">
         <Image
           src={item.image}
-          // FIX: alt falls back to title so it's never empty
           alt={item.alt || item.title}
           fill
           sizes="150px"
@@ -338,7 +378,6 @@ function LatestCard({ item }) {
 
 function SidebarCategoryCard({ cat }) {
   return (
-    // FIX: title attribute on category link
     <Link
       href={`/${cat.category}`}
       className="relative overflow-hidden h-[56px] cursor-pointer group block"
@@ -346,7 +385,6 @@ function SidebarCategoryCard({ cat }) {
     >
       <Image
         src={cat.image}
-        // FIX: descriptive alt on category background image
         alt={`${cat.label} category`}
         fill
         sizes="300px"
@@ -408,28 +446,24 @@ export default async function ArticlePage({ params }) {
 
   const { body, relatedPosts } = article;
 
-  const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
   const pageUrl = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
 
-  // ─── JSON-LD ──────────────────────────────────────────────────────────────
-  // FIX: Complete NewsArticle schema — mainEntityOfPage, publisher with logo,
-  //      description, keywords, articleSection, dateModified, url, author url,
-  //      plus a BreadcrumbList for site navigation.
+  // Absolute OG image URL — same helper used in generateMetadata
+  const ogImageUrl = absoluteImageUrl(article.heroImage);
+
+  // ─── JSON-LD ────────────────────────────────────────────────────────────────
 
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
 
-    // Core identifiers
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": pageUrl,
     },
     url: pageUrl,
 
-    // Content
     headline: article.heading,
     description: article.metaDescription,
     keywords: Array.isArray(article.metaKeywords)
@@ -437,43 +471,39 @@ export default async function ArticlePage({ params }) {
       : article.metaKeywords,
     articleSection: article.categoryLabel,
 
-    // Dates  (ISO-8601 required by Google)
     datePublished: isoDate,
-    dateModified: isoDate, // update to a real modified date if available
+    dateModified: isoDate,
 
-    // Images (at least one object with url, width, height)
+    // FIX: image uses the same absolute URL as OG image
     image: [
       {
         "@type": "ImageObject",
-        url: `${siteUrl}${article.heroImage}`,
+        url: ogImageUrl,
         width: 1200,
         height: 630,
         caption: article.alt || article.heading,
       },
     ],
 
-    // Author
     author: {
       "@type": "Person",
       name: detailedAuthor.name,
-      url: `${siteUrl}/authors/${authorSlug}`,
+      url: `${SITE_URL}/authors/${authorSlug}`,
     },
 
-    // Publisher with logo (required by Google Rich Results)
     publisher: {
       "@type": "Organization",
-      name: "Corruption Files",
-      url: siteUrl,
+      name: SITE_NAME,
+      url: SITE_URL,
       logo: {
         "@type": "ImageObject",
-        url: `${siteUrl}/logo.png`, // update to your actual logo path
+        url: `${SITE_URL}/logo.png`,
         width: 200,
         height: 60,
       },
     },
   };
 
-  // Breadcrumb JSON-LD
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -482,13 +512,13 @@ export default async function ArticlePage({ params }) {
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: siteUrl,
+        item: SITE_URL,
       },
       {
         "@type": "ListItem",
         position: 2,
         name: article.categoryLabel,
-        item: `${siteUrl}/${category}`,
+        item: `${SITE_URL}/${category}`,
       },
       {
         "@type": "ListItem",
@@ -501,7 +531,6 @@ export default async function ArticlePage({ params }) {
 
   return (
     <main className="bg-white min-h-screen">
-      {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
@@ -516,8 +545,7 @@ export default async function ArticlePage({ params }) {
 
           <div className="flex-1 min-w-0">
 
-            {/* ── Breadcrumb (visible) ─────────────────────────────────────── */}
-            {/* FIX: Visible breadcrumb matches the BreadcrumbList JSON-LD */}
+            {/* ── Breadcrumb nav ──────────────────────────────────────────── */}
             <nav aria-label="Breadcrumb" className="mb-4 text-xs text-gray-500">
               <ol className="flex items-center gap-1 flex-wrap">
                 <li>
@@ -545,12 +573,10 @@ export default async function ArticlePage({ params }) {
               </ol>
             </nav>
 
-            {/* ── Hero Image ───────────────────────────────────────────────── */}
-            {/* FIX: single H1 on the page; hero image uses article.alt from JSON */}
+            {/* ── Hero Image ──────────────────────────────────────────────── */}
             <div className="relative w-full aspect-[16/9] overflow-hidden mb-2">
               <Image
                 src={article.heroImage}
-                // FIX: descriptive alt from JSON data (falls back to heading)
                 alt={article.alt || article.heading}
                 fill
                 priority
@@ -569,17 +595,12 @@ export default async function ArticlePage({ params }) {
 
             {/* ── Title & Meta ─────────────────────────────────────────────── */}
             <div className="mb-4 md:mb-6">
-              {/* FIX: One H1 per page — this IS the H1 */}
               <h1 className="text-2xl md:text-[32px] font-bold text-gray-900 leading-tight mb-3">
                 {article.heading}
               </h1>
-
-              {/* FIX: date wrapped in <time> with dateTime for machines */}
               <div className="flex items-center gap-3 flex-wrap text-sm text-gray-500">
                 {isoDate && (
-                  <time dateTime={isoDate}>
-                    {article.date}
-                  </time>
+                  <time dateTime={isoDate}>{article.date}</time>
                 )}
                 <span>
                   By{" "}
@@ -595,8 +616,7 @@ export default async function ArticlePage({ params }) {
               </div>
             </div>
 
-            {/* ── Share / Actions ──────────────────────────────────────────── */}
-            {/* FIX: button has aria-label and title for accessibility + SEO */}
+            {/* ── Share ────────────────────────────────────────────────────── */}
             <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-5 md:mb-8">
               <button
                 className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors"
@@ -615,13 +635,12 @@ export default async function ArticlePage({ params }) {
               href="https://www.mirrorstandard.com/"
               target="_blank"
               rel="noopener noreferrer sponsored"
-              title="Visit Mirror Standard"
+              title="Visit Mirror Standard — Investigative Journalism"
               className="mt-2 mb-5 md:mb-6 block w-full"
             >
               <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                 <img
                   src="/mirror-standard-ad-horizontal.webp"
-                  // FIX: descriptive alt on ad image
                   alt="Mirror Standard — Investigative Journalism"
                   className="w-full h-auto object-contain"
                 />
@@ -636,7 +655,6 @@ export default async function ArticlePage({ params }) {
               <div className="relative w-[100px] h-[100px] flex-shrink-0">
                 <Image
                   src={detailedAuthor.avatar}
-                  // FIX: descriptive alt for author photo
                   alt={`${detailedAuthor.name} — author photo`}
                   fill
                   sizes="100px"
@@ -660,7 +678,6 @@ export default async function ArticlePage({ params }) {
                 <p className="text-sm text-gray-600 leading-relaxed mb-4">
                   {detailedAuthor.bio}
                 </p>
-
                 <div className="flex gap-4 items-center mt-4">
                   {Object.keys(detailedAuthor.social).map((platformKey) => {
                     const hoverColors = {
@@ -670,14 +687,12 @@ export default async function ArticlePage({ params }) {
                     const platformLabel =
                       platformKey.charAt(0).toUpperCase() +
                       platformKey.slice(1);
-
                     return (
                       <a
                         key={platformKey}
                         href={detailedAuthor.social[platformKey]}
                         target="_blank"
                         rel="noopener noreferrer"
-                        // FIX: aria-label + title on social links
                         aria-label={`${detailedAuthor.name} on ${platformLabel}`}
                         title={`Follow ${detailedAuthor.name} on ${platformLabel}`}
                         className={`group text-gray-800 transition-colors duration-200 ${
@@ -692,7 +707,7 @@ export default async function ArticlePage({ params }) {
               </div>
             </section>
 
-            {/* ── Related Posts ────────────────────────────────────────────── */}
+            {/* ── Related Posts ─────────────────────────────────────────────── */}
             {relatedPosts && relatedPosts.length > 0 && (
               <section
                 aria-label="Related articles"
@@ -703,7 +718,6 @@ export default async function ArticlePage({ params }) {
                 </h2>
                 <div className="space-y-5 md:space-y-6">
                   {relatedPosts.map((post) => {
-                    // FIX: use structured slug if available, else derive from name
                     const postAuthorSlug = post.authorSlug
                       ? post.authorSlug
                       : nameToSlug(post.author || "");
@@ -721,7 +735,6 @@ export default async function ArticlePage({ params }) {
                           >
                             <Image
                               src={post.image}
-                              // FIX: meaningful alt on related post thumbnail
                               alt={post.title}
                               fill
                               sizes="200px"
@@ -743,7 +756,6 @@ export default async function ArticlePage({ params }) {
                             </div>
                           </Link>
                         </div>
-
                         <div className="flex-1">
                           {post.isSponsored && (
                             <p className="text-gray-400 text-xs flex items-center gap-1 mb-2">
@@ -751,7 +763,6 @@ export default async function ArticlePage({ params }) {
                               content
                             </p>
                           )}
-                          {/* FIX: h3 (not h2/h4) inside related-post cards */}
                           <h3 className="font-bold text-[16px] text-gray-900 leading-snug mb-1">
                             <Link
                               href={`/${post.category}/${post.slug}`}
