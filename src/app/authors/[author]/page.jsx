@@ -5,9 +5,47 @@ import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import StickyAd from "@/components/StickyAd";
 
+// ─── SOCIAL ICON HELPER (From Detail Page) ────────────────────────────────────
+
+const SocialIcon = ({ platform }) => {
+  const iconProps = {
+    size: 18,
+    strokeWidth: 2,
+  };
+
+  const p = platform.toLowerCase();
+  const imgClass = "w-[18px] h-[18px] object-contain opacity-80 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
+
+  switch (p) {
+    case "instagram":
+      return <Instagram {...iconProps} />;
+    
+    case "x":
+    case "twitter":
+      return (
+        <svg viewBox="0 0 24 24" width={18} height={18} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+          <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+        </svg>
+      );
+    
+    case "substack":
+      return <img src="/substack.webp" alt="Substack" className={imgClass} />;
+    
+    case "medium":
+      return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+
+    case "facebook":
+      return <Facebook {...iconProps} />;
+
+    case "youtube":
+      return <Youtube {...iconProps} />;
+
+    default:
+      return null;
+  }
+};
 // ─── LATEST ARTICLES — computed once at module level ─────────────────────────
 // Replaces the dummy trendingNews JSON entries with real latest articles.
-
 function collectLatestArticles(count = 4) {
   const all = [];
 
@@ -40,9 +78,7 @@ function collectLatestArticles(count = 4) {
     return true;
   });
 
-  // Sort newest → oldest
   unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-
   return unique.slice(0, count);
 }
 
@@ -50,7 +86,7 @@ const LATEST_ARTICLES = collectLatestArticles(4);
 
 // ─── CATEGORY CONFIG ──────────────────────────────────────────────────────────
 const CATEGORY_META = {
-  govt:            { label: "Government",                  color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]", ring: "ring-[#ff9800]" },
+  govt:            { label: "Government",                 color: "bg-[#ff9800]", text: "text-[#ff9800]", border: "border-[#ff9800]", ring: "ring-[#ff9800]" },
   "puerto-rico":   { label: "Puerto Rico",                 color: "bg-[#2196f3]", text: "text-[#2196f3]", border: "border-[#2196f3]", ring: "ring-[#2196f3]" },
   pa:              { label: "Police Accountability",       color: "bg-[#e91e63]", text: "text-[#e91e63]", border: "border-[#e91e63]", ring: "ring-[#e91e63]" },
   tech:            { label: "Big Tech & Surveillance",     color: "bg-[#00008b]", text: "text-[#00008b]", border: "border-[#00008b]", ring: "ring-[#00008b]" },
@@ -124,7 +160,7 @@ function normalizeArticle(a) {
     ?? a.author?.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 
   return {
-    id:         a.id,
+    id:          a.id,
     slug:       a.slug,
     category:   a.category || "politics",
     title:      a.title    || "",
@@ -170,9 +206,7 @@ function NewsListCard({ card }) {
 
   return (
     <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
-      {/* Container is relative */}
       <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        {/* FIX: Link must be relative because it is the immediate parent of the fill Image */}
         <Link href={href} className="relative block w-full h-full">
           <Image
             src={a.image} 
@@ -269,23 +303,26 @@ function SidebarCategoryCard({ cat }) {
   );
 }
 
+// ─── UPDATED AUTHOR HEADER ───────────────────────────────────────────────────
+
 function AuthorHeader({ author, articleCount }) {
   const catMeta = author.category ? CATEGORY_META[author.category] : null;
   const ringColor = catMeta?.ring ?? "ring-[#2196f3]";
 
-  const socialIcons = {
-    facebook:  { icon: Facebook,  color: "hover:text-blue-600" },
-    twitter:   { icon: Twitter,   color: "hover:text-sky-500"  },
-    instagram: { icon: Instagram, color: "hover:text-pink-600" },
-    youtube:   { icon: Youtube,   color: "hover:text-red-600"  },
+  // Hover colors mapping matching the Article Detail page
+  const hoverColors = {
+    x: "hover:text-black",
+    twitter: "hover:text-black",
+    instagram: "hover:text-pink-600",
+    facebook: "hover:text-blue-600",
+    youtube: "hover:text-red-600",
   };
 
-return (
+  return (
     <div className="bg-white w-full mb-10 border-b border-gray-100 pb-8">
       <div className="flex flex-col md:flex-row md:items-start gap-8 md:gap-8">
         <div className="flex flex-col items-start gap-4 flex-shrink-0">
           <div className="flex flex-row items-center gap-5">
-            {/* Added relative here to ensure ring works and child image fills properly if needed */}
             <div className={`relative w-24 h-24 rounded-full overflow-hidden flex-shrink-0 ring-4 ring-offset-2 ${ringColor} shadow-md`}>
               <Image
                 src={author.avatar || author.coverImage}
@@ -293,7 +330,7 @@ return (
                 fill 
                 sizes="96px"
                 className="object-cover"
-                priority // Fixes LCP on Author Profile
+                priority
               />
             </div>
             <div>
@@ -334,19 +371,21 @@ return (
             {author.bio}
           </p>
           <div className="flex items-center gap-5 text-gray-700">
-            {Object.entries(author.social || {}).map(([key, href]) => {
-              const entry = socialIcons[key];
-              if (!entry) return null;
-              const Icon = entry.icon;
-              return (
-                <a key={key} href={href} className={`transition-colors ${entry.color}`} aria-label={key}>
-                  <Icon size={18} />
-                </a>
-              );
-            })}
+            {/* Logic synced with Detail Page */}
+            {Object.keys(author.social || {}).map((platformKey) => (
+              <a 
+                key={platformKey} 
+                href={author.social[platformKey]} 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`group transition-colors duration-200 ${hoverColors[platformKey.toLowerCase()] || 'hover:text-blue-600'}`}
+                aria-label={platformKey}
+              >
+                <SocialIcon platform={platformKey} />
+              </a>
+            ))}
           </div>
         </div>
-
       </div>
     </div>
   );
@@ -385,8 +424,6 @@ export default async function AuthorPage({ params }) {
   };
 
   const articles = getArticlesByAuthorName(authorData.name);
-
-  // trendingNews intentionally excluded — replaced by LATEST_ARTICLES above
   const { categories } = homepageData;
   const catMeta = authorData.category ? CATEGORY_META[authorData.category] : null;
 
@@ -429,7 +466,6 @@ return (
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
-
           <div className="flex-1 min-w-0">
             {articles.length === 0 ? (
               <div className="py-16 text-center">
@@ -441,20 +477,20 @@ return (
                 {articles.slice(0, 4).map((card) => (
                   <NewsListCard key={card.id ?? card.slug} card={card} />
                 ))}
-<a 
-    href="https://www.mirrorstandard.com/" 
-    target="_blank" 
-    rel="noopener noreferrer"
-    className="mt-2 mb-6 block w-full"
-  >
-    <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-      <img
-        src="/mirror-standard-ad-horizontal.webp"
-        alt="Visit Mirror Standard"
-        className="w-full h-auto object-contain"
-      />
-    </div>
-  </a>
+                <a 
+                  href="https://www.mirrorstandard.com/" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="mt-2 mb-6 block w-full"
+                >
+                  <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
+                    <img
+                      src="/mirror-standard-ad-horizontal.webp"
+                      alt="Visit Mirror Standard"
+                      className="w-full h-auto object-contain"
+                    />
+                  </div>
+                </a>
                 {articles.slice(4).map((card) => (
                   <NewsListCard key={card.id ?? card.slug} card={card} />
                 ))}
@@ -464,8 +500,6 @@ return (
 
           <aside className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0">
             <StickyAd />
-
-            {/* Latest Today — real articles, newest → oldest, no dummy data */}
             <div className="mb-6 mt-14">
               <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
                 Latest Today
