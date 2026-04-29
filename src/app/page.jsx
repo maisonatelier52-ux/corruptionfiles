@@ -1081,7 +1081,7 @@ export default function Home() {
           <AdBanner />
         </div>
 
-        {/* ── INTELLIGENCE SECTION ────────────────────────────────────────── */}
+        {/* ── INTELLIGENCE SECTIONs ────────────────────────────────────────── */}
         <section
           aria-labelledby="intelligence-heading"
           className="mt-6 mb-8 md:mt-16 md:mb-20"
