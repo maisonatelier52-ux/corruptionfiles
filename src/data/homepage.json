@@ -2,15 +2,15 @@
   "politicsNews": [
     {
       "id": 101,
-      "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions",
+      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
       "category": "govt",
-      "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "March 5, 2026",
+      "date": "May 7, 2026",
+      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
       "author": "Margaret Holloway",
-      "title": "US Senate Rejects Resolution to Stop Iran's Military Actions",
-      "description": "The U.S. Senate voted 47-53 against a war powers resolution.It means that the current military assault in Iran can continue without needing urgent Congress approval."
+      "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+      "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
     },
     {
       "id": 102,

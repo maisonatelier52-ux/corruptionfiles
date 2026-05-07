@@ -26,15 +26,13 @@ function toISODate(dateStr) {
 /**
  * Build the absolute URL for an image path from JSON.
  * JSON stores paths like "/fbi-buying-americans-private-data.webp"
- * OG / Twitter require a full URL: "https://www.corruptionfiles.com/fbi-..."
+ * OG / Twitter require a full URL: "https://www.corruptionfiles.com/..."
  */
 function absoluteImageUrl(imagePath) {
   if (!imagePath) return `${SITE_URL}/og-default.jpg`;
-  // Already absolute — return as-is
   if (imagePath.startsWith("http://") || imagePath.startsWith("https://")) {
     return imagePath;
   }
-  // Relative path — prepend site origin
   return `${SITE_URL}${imagePath.startsWith("/") ? "" : "/"}${imagePath}`;
 }
 
@@ -130,19 +128,10 @@ const LATEST_ARTICLES = collectLatestArticles(4);
 function findArticle(category, slug) {
   const data = articlesData.articles || articlesData;
   if (!Array.isArray(data)) return null;
-  return (
-    data.find((a) => a.slug === slug && a.category === category) || null
-  );
+  return data.find((a) => a.slug === slug && a.category === category) || null;
 }
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
-/**
- * KEY FIX for this version:
- * OG image and Twitter image are now built from article.heroImage (JSON field)
- * using absoluteImageUrl() which prepends SITE_URL to the relative path.
- * Previously the image was never showing because "/image.webp" is not a valid
- * absolute URL for og:image or twitter:image crawlers.
- */
 
 export async function generateMetadata({ params }) {
   const { category, slug } = await params;
@@ -157,42 +146,18 @@ export async function generateMetadata({ params }) {
 
   const url = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
-
-  // ── Build the absolute OG image URL from JSON heroImage ──
-  // article.heroImage comes from JSON as e.g. "/fbi-buying-americans-private-data.webp"
-  // We convert it to "https://www.corruptionfiles.com/fbi-buying-americans-private-data.webp"
   const ogImageUrl = absoluteImageUrl(article.heroImage);
-
-  // Alt text for the OG image — use JSON alt field, fall back to article heading
   const ogImageAlt = article.alt || article.heading || article.metaTitle;
-
-  // Author slug for og:article:author URL
-  const authorSlug =
-    article.author?.slug || nameToSlug(article.author?.name || "");
+  const authorSlug = article.author?.slug || nameToSlug(article.author?.name || "");
 
   return {
     title: article.metaTitle,
     description: article.metaDescription,
-
-    // Keywords from JSON metaKeywords array
     keywords: Array.isArray(article.metaKeywords)
       ? article.metaKeywords.join(", ")
       : article.metaKeywords,
-
-    // Canonical URL
-    alternates: {
-      canonical: url,
-    },
-
-    // Robots
-    robots: {
-      index: true,
-      follow: true,
-      googleBot: { index: true, follow: true },
-    },
-
-    // ── Open Graph ──────────────────────────────────────────────────────────
-    // FIX: images[].url is now an absolute URL built from article.heroImage
+    alternates: { canonical: url },
+    robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
     openGraph: {
       type: "article",
       url,
@@ -201,15 +166,11 @@ export async function generateMetadata({ params }) {
       description: article.metaDescription,
       publishedTime: isoDate,
       modifiedTime: isoDate,
-      authors: authorSlug
-        ? [`${SITE_URL}/authors/${authorSlug}`]
-        : undefined,
+      authors: authorSlug ? [`${SITE_URL}/authors/${authorSlug}`] : undefined,
       section: article.categoryLabel,
       tags: Array.isArray(article.metaKeywords) ? article.metaKeywords : [],
       images: [
         {
-          // This is what social crawlers (Facebook, LinkedIn, WhatsApp, etc.)
-          // fetch to show the preview thumbnail — must be an absolute URL.
           url: ogImageUrl,
           secureUrl: ogImageUrl,
           width: 1200,
@@ -219,22 +180,55 @@ export async function generateMetadata({ params }) {
         },
       ],
     },
-
-    // ── Twitter / X Card ────────────────────────────────────────────────────
-    // FIX: images is now an absolute URL built from article.heroImage
     twitter: {
       card: "summary_large_image",
       title: article.metaTitle,
       description: article.metaDescription,
-      // Twitter requires a plain string URL (not an object)
       images: [ogImageUrl],
     },
   };
 }
 
-// ─── BODY RENDERER ───────────────────────────────────────────────────────────
+// ─── BODY RENDERER (supports limitless heading/paragraph sequence) ──────────
 
 function ArticleBody({ body }) {
+  // NEW: simple blocks array with only "heading" and "paragraph"
+  if (body.blocks && Array.isArray(body.blocks)) {
+    return (
+      <div className="article-content">
+        {body.blocks.map((block, idx) => {
+          if (block.type === "heading") {
+            const anchorId = block.text
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")
+              .replace(/(^-|-$)/g, "");
+            return (
+              <h2
+                key={idx}
+                id={anchorId}
+                className="text-[22px] font-bold text-gray-900 mb-4 border-l-4 border-[#2196f3] pl-4 clear-both"
+              >
+                {block.text}
+              </h2>
+            );
+          }
+          if (block.type === "paragraph") {
+            return (
+              <p
+                key={idx}
+                className="text-[16px] leading-relaxed text-gray-700 mb-6 clear-both"
+              >
+                {block.text}
+              </p>
+            );
+          }
+          return null; // ignore any other types
+        })}
+      </div>
+    );
+  }
+
+  // ─── LEGACY RENDERER (unchanged, for old JSON) ───────────────────────────
   return (
     <div className="article-content">
       {body.dropcap && (
@@ -341,7 +335,7 @@ function ArticleBody({ body }) {
   );
 }
 
-// ─── SIDEBAR COMPONENTS ──────────────────────────────────────────────────────
+// ─── SIDEBAR COMPONENTS (unchanged) ─────────────────────────────────────────
 
 function LatestCard({ item }) {
   return (
@@ -429,7 +423,7 @@ function ArticleSidebar() {
   );
 }
 
-// ─── PAGE ─────────────────────────────────────────────────────────────────────
+// ─── PAGE (unchanged except using the new ArticleBody) ───────────────────────
 
 export default async function ArticlePage({ params }) {
   const { category, slug } = await params;
@@ -448,33 +442,23 @@ export default async function ArticlePage({ params }) {
 
   const pageUrl = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
-
-  // Absolute OG image URL — same helper used in generateMetadata
   const ogImageUrl = absoluteImageUrl(article.heroImage);
 
-  // ─── JSON-LD ────────────────────────────────────────────────────────────────
+  // ─── JSON-LD (unchanged) ────────────────────────────────────────────────────
 
   const articleJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
-
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": pageUrl,
-    },
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
     url: pageUrl,
-
     headline: article.heading,
     description: article.metaDescription,
     keywords: Array.isArray(article.metaKeywords)
       ? article.metaKeywords.join(", ")
       : article.metaKeywords,
     articleSection: article.categoryLabel,
-
     datePublished: isoDate,
     dateModified: isoDate,
-
-    // FIX: image uses the same absolute URL as OG image
     image: [
       {
         "@type": "ImageObject",
@@ -484,13 +468,11 @@ export default async function ArticlePage({ params }) {
         caption: article.alt || article.heading,
       },
     ],
-
     author: {
       "@type": "Person",
       name: detailedAuthor.name,
       url: `${SITE_URL}/authors/${authorSlug}`,
     },
-
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
@@ -508,12 +490,7 @@ export default async function ArticlePage({ params }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      {
-        "@type": "ListItem",
-        position: 1,
-        name: "Home",
-        item: SITE_URL,
-      },
+      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
       {
         "@type": "ListItem",
         position: 2,
@@ -542,10 +519,8 @@ export default async function ArticlePage({ params }) {
 
       <div className="max-w-7xl mx-auto px-4 pt-4 md:pt-6 pb-10 md:pb-20">
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
-
           <div className="flex-1 min-w-0">
-
-            {/* ── Breadcrumb nav ──────────────────────────────────────────── */}
+            {/* Breadcrumb nav */}
             <nav aria-label="Breadcrumb" className="mb-4 text-xs text-gray-500">
               <ol className="flex items-center gap-1 flex-wrap">
                 <li>
@@ -573,7 +548,7 @@ export default async function ArticlePage({ params }) {
               </ol>
             </nav>
 
-            {/* ── Hero Image ──────────────────────────────────────────────── */}
+            {/* Hero Image */}
             <div className="relative w-full aspect-[16/9] overflow-hidden mb-2">
               <Image
                 src={article.heroImage}
@@ -593,15 +568,13 @@ export default async function ArticlePage({ params }) {
               </div>
             </div>
 
-            {/* ── Title & Meta ─────────────────────────────────────────────── */}
+            {/* Title & Meta */}
             <div className="mb-4 md:mb-6">
               <h1 className="text-2xl md:text-[32px] font-bold text-gray-900 leading-tight mb-3">
                 {article.heading}
               </h1>
               <div className="flex items-center gap-3 flex-wrap text-sm text-gray-500">
-                {isoDate && (
-                  <time dateTime={isoDate}>{article.date}</time>
-                )}
+                {isoDate && <time dateTime={isoDate}>{article.date}</time>}
                 <span>
                   By{" "}
                   <Link
@@ -616,7 +589,7 @@ export default async function ArticlePage({ params }) {
               </div>
             </div>
 
-            {/* ── Share ────────────────────────────────────────────────────── */}
+            {/* Share */}
             <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-5 md:mb-8">
               <button
                 className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors"
@@ -627,10 +600,10 @@ export default async function ArticlePage({ params }) {
               </button>
             </div>
 
-            {/* ── Article Body ─────────────────────────────────────────────── */}
+            {/* Article Body – supports both new (blocks) and old structure */}
             <ArticleBody body={body} />
 
-            {/* ── Sponsor Banner ───────────────────────────────────────────── */}
+            {/* Sponsor Banner */}
             <a
               href="https://www.mirrorstandard.com/"
               target="_blank"
@@ -647,7 +620,7 @@ export default async function ArticlePage({ params }) {
               </div>
             </a>
 
-            {/* ── About Author ─────────────────────────────────────────────── */}
+            {/* About Author */}
             <section
               aria-label={`About the author ${detailedAuthor.name}`}
               className="border border-gray-100 p-6 mb-6 md:mb-10 flex flex-col sm:flex-row gap-6"
@@ -685,8 +658,7 @@ export default async function ArticlePage({ params }) {
                       instagram: "hover:text-pink-600",
                     };
                     const platformLabel =
-                      platformKey.charAt(0).toUpperCase() +
-                      platformKey.slice(1);
+                      platformKey.charAt(0).toUpperCase() + platformKey.slice(1);
                     return (
                       <a
                         key={platformKey}
@@ -707,12 +679,9 @@ export default async function ArticlePage({ params }) {
               </div>
             </section>
 
-            {/* ── Related Posts ─────────────────────────────────────────────── */}
+            {/* Related Posts */}
             {relatedPosts && relatedPosts.length > 0 && (
-              <section
-                aria-label="Related articles"
-                className="mb-6 md:mb-10"
-              >
+              <section aria-label="Related articles" className="mb-6 md:mb-10">
                 <h2 className="font-bold text-lg text-gray-900 mb-4 md:mb-6 pb-2 border-b-2 border-black">
                   Related posts
                 </h2>
@@ -721,7 +690,6 @@ export default async function ArticlePage({ params }) {
                     const postAuthorSlug = post.authorSlug
                       ? post.authorSlug
                       : nameToSlug(post.author || "");
-
                     return (
                       <article
                         key={post.slug}
@@ -803,7 +771,7 @@ export default async function ArticlePage({ params }) {
             )}
           </div>
 
-          {/* ── Sidebar ──────────────────────────────────────────────────── */}
+          {/* Sidebar */}
           <ArticleSidebar />
         </div>
       </div>

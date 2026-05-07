@@ -1,58 +1,81 @@
 {
   "articles": [
-    {
-      "id": 101,
-      "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions",
-      "category": "govt",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "US Senate Rejects Resolution to Stop Iran's Military Actions | Congress Vote 2026",
-      "metaDescription": "The U.S. Senate voted 47-53 against a war powers resolution to halt military operations in Iran. The administration can continue airstrikes without immediate congressional approval.",
-      "metaKeywords": ["Iran war powers", "Senate vote 2026", "US military Iran", "Congress authorization", "AUMF"],
-      "heading": "US Senate Rejects Resolution to Stop Iran's Military Actions",
-      "excerpt": "The U.S. Senate voted 47-53 against a war powers resolution. It means that the current military assault in Iran can continue without needing urgent Congress approval.",
-      "date": "March 5, 2026",
-      "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp",
-      "heroImage": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp",
-      "alt": "US Senate chamber during war powers vote",
-      "author": {
-        "name": "Margaret Holloway",
-        "slug": "margaret-holloway",
-        "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+{
+  "id": 101,
+  "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+  "category": "govt",
+  "categoryLabel": "Government",
+  "categoryColor": "bg-[#ff9800]",
+  "metaTitle": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge | May 2026",
+  "metaDescription": "As polls open across Britain today, Washington is monitoring the potential shift in Westminster's power balance and its impact on the 'Special Relationship.'",
+  "metaKeywords": [
+    "UK local elections 2026",
+    "Keir Starmer populist surge",
+    "Reform UK Nigel Farage",
+    "Special Relationship US UK",
+    "British elections May 2026"
+  ],
+  "heading": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+  "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'",
+  "date": "May 7, 2026",
+  "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+  "heroImage": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+  "alt": "Keir Starmer and wife Victoria at a London polling station on May 7, 2026",
+  "author": {
+    "name": "Margaret Holloway",
+    "slug": "margaret-holloway",
+    "avatar": "/margaret-holloway.webp",
+    "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+    "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+  },
+  "body": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Polls opened across England, Scotland and Wales at 7 a.m. Thursday in what analysts are already calling the most consequential local elections in a generation. Over 5,000 council seats are in play, along with semiautonomous parliaments in Edinburgh and Cardiff — and the pressure on Prime Minister Keir Starmer could not be more acute. His centre-left Labour Party is bracing for losses severe enough to trigger, by some accounts, an open leadership contest before the weekend is out."
       },
-      "body": {
-        "dropcap": {
-          "letter": "T",
-          "text": "he Senate on Thursday rejected a bipartisan resolution that would have directed the president to remove U.S. armed forces from hostilities against Iran, handing the White House a significant victory as military operations continue."
-        },
-        "paragraphs": [
-          "The vote was 47 to 53, with four Republicans joining Democrats in favor of the measure, but falling short of the simple majority needed. The resolution, introduced by Senator Tim Kaine (D-VA), invoked the War Powers Act of 1973, arguing that the administration had not received explicit congressional authorization for the current campaign.",
-          "Debate on the floor lasted nearly eight hours, with proponents arguing that the Constitution gives Congress alone the power to declare war. Opponents cited the administration's position that the operations fell under the 2001 Authorization for Use of Military Force, originally passed after the September 11 attacks."
-        ],
-        "sections": [
-          {
-            "type": "heading",
-            "title": "White House calls vote a vindication",
-            "content": [
-              "Following the vote, White House Press Secretary Karoline Leavitt said the administration was 'gratified that a majority of senators recognize the president's constitutional authority as commander in chief to protect American interests abroad.'",
-              "Senator Kaine vowed to reintroduce the measure, saying: 'The American people deserve a debate, not a blank check for endless military engagement.'"
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "Every senator who voted 'no' will have to explain to their constituents why they think the president can wage war without Congress. That's not how our system works.",
-            "cite": "Sen. Tim Kaine (D-VA)"
-          },
-          {
-            "type": "paragraph",
-            "content": [
-              "The resolution's defeat clears the path for continued airstrikes and potential ground operations. The administration has not disclosed the full scope of the military mission, citing operational security concerns."
-            ]
-          }
-        ]
+      {
+        "type": "paragraph",
+        "text": "In Washington, officials and foreign policy analysts are keeping an unusually close eye on the results. The Trump administration has watched Starmer's domestic slide with wariness rather than sympathy. When Starmer declined to join U.S. military operations in Iran — stating flatly 'this is not our war' while authorizing American use of two British bases for defensive purposes — it quietly widened an already straining gap between the two governments. Analysts at the National Interest noted this week that 'the stated interests and domestic politics of the United States and Britain have become increasingly irreconcilable,' a tension that Thursday's results could amplify or, in theory, begin to resolve."
       },
+      {
+        "type": "heading",
+        "text": "A Referendum on Starmer"
+      },
+      {
+        "type": "paragraph",
+        "text": "More than in most local cycles, these elections are being read as a direct verdict on the prime minister. A YouGov poll conducted in April found that 70 percent of respondents believed Starmer was performing 'badly.' Jonathan Tonge, professor of politics at the University of Liverpool, told Al Jazeera the vote amounts to 'a referendum on Starmer's government,' adding that heavy losses could 'precipitate a leadership challenge against him.' Forecasts from Britain Elects have projected that Labour could shed as many as two-thirds of the roughly 2,500 council seats it is defending — a collapse that would be historically extraordinary for a party only two years removed from a landslide general election victory."
+      },
+      {
+        "type": "paragraph",
+        "text": "Starmer has been further weakened by his decision to appoint Peter Mandelson — a figure tarnished by his association with Jeffrey Epstein — as Britain's ambassador to Washington. The appointment prompted calls for his resignation from within his own party as early as February, including from Labour's leader in Scotland. That the ambassador is posted in the very city monitoring Thursday's results has not been lost on observers on either side of the Atlantic."
+      },
+      {
+        "type": "heading",
+        "text": "Reform and the Greens: Two Insurgencies at Once"
+      },
+      {
+        "type": "paragraph",
+        "text": "The primary beneficiary of Labour's troubles is expected to be Reform UK, the hard-right populist party led by Nigel Farage. Analysts project the party could seize upwards of 1,550 seats — predominantly in white, working-class areas of northern England that Labour has held for decades. Counties such as Norfolk and Essex are expected to shift sharply, while in Sunderland, where boundary changes mean all seats are contested, both Labour and Liberal Democrat sources have privately conceded that a Reform victory is 'likely.' Reform had earlier forced the government to abandon its attempt to delay these elections after winning a high-court legal challenge in February, a tactical victory that set the stage for Thursday's reckoning."
+      },
+      {
+        "type": "paragraph",
+        "text": "A second insurgency is rising on the left. The Green Party, newly led by self-described eco-populist Zack Polanski, has surged in urban areas and among younger voters. In London, LSE professor Tony Travers warned of 'unprecedented change' in the capital's borough government, noting that gains by both Greens and Reform 'will produce many more councils with no majority control,' making governing more difficult across the city. Luke Tryl of pollster More in Common said the elections are likely to produce 'the total collapse of the traditional two-party system.'"
+      },
+      {
+        "type": "heading",
+        "text": "Wales and the Leadership Question"
+      },
+      {
+        "type": "paragraph",
+        "text": "Beyond England, Wales may deliver the sharpest symbolic blow. Labour has dominated Welsh politics since the Senedd was established 27 years ago, but a More in Common poll published this week showed Reform UK neck-and-neck with the pro-independence Plaid Cymru in what was once Labour heartland. If Labour loses the Welsh government in Cardiff, it would mark a historic rupture — and, in the view of several Westminster insiders, likely seal Starmer's fate as party leader."
+      },
+      {
+        "type": "paragraph",
+        "text": "British media is already awash in speculation about successors. Former deputy prime minister Angela Rayner, Health Secretary Wes Streeting and Greater Manchester Mayor Andy Burnham have each been floated as potential replacements. A challenger would need the backing of 20 percent of Labour MPs to launch a contest. Starmer told voters on Wednesday the choice was between 'unity or division, progress versus the politics of anger' — a framing that, if the projections hold, may go down as one of the more optimistic assessments in recent British political history. Results are expected to begin arriving on Friday afternoon."
+      }
+    ]
+  },
       "relatedPosts": [
         { "id": 103, "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp", "author": "Margaret Holloway", "title": "House Prepares for War Powers Vote on Middle East Conflict", "excerpt": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead." },
         { "id": 201, "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp", "author": "Margaret Holloway", "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation", "excerpt": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy." }
