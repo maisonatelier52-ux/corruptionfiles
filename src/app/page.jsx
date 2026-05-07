@@ -48,7 +48,7 @@ export const metadata = {
       "Corruption Files covers government accountability, police misconduct, medical fraud, offshore wealth, and environmental exploitation.",
     images: [
       {
-        url: `${SITE_URL}/og-homepage.jpg`, // update to your actual OG image
+        url: `${SITE_URL}/og-twitter.webp`, // update to your actual OG image
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — Investigative Journalism`,
@@ -62,7 +62,7 @@ export const metadata = {
     title: `${SITE_NAME} | Investigative News`,
     description:
       "Corruption Files covers government accountability, police misconduct, medical fraud, offshore wealth, and environmental exploitation.",
-    images: [`${SITE_URL}/og-homepage.jpg`],
+    images: [`${SITE_URL}/og-twitter.webp`],
   },
 };
 

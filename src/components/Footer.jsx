@@ -192,7 +192,7 @@ const Footer = () => {
           <nav aria-label="Social Media Links" className="flex gap-5">
             {[
               { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
-              { id: 'instagram', href: 'https://instagram.com', hover: 'hover:text-pink-600' },
+              { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/', hover: 'hover:text-pink-600' },
               { id: 'substack', href: '#', hover: '' },
               { id: 'medium', href: '#', hover: '' }
             ].map((site) => (

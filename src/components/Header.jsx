@@ -174,7 +174,7 @@ const Header = () => {
           </Link>
           <div className="flex items-center gap-4">
             <div className="hidden sm:flex gap-4 items-center">
-              {[{ id: 'x', href: 'https://x.com' }, { id: 'instagram', href: 'https://instagram.com' }, { id: 'substack', href: '#' }, { id: 'medium', href: '#' }].map((site) => (
+              {[{ id: 'x', href: 'https://x.com' }, { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/' }, { id: 'substack', href: '#' }, { id: 'medium', href: '#' }].map((site) => (
                 <a key={site.id} href={site.href} target="_blank" rel="noopener noreferrer" className="group text-gray-700 transition-colors duration-200 hover:text-blue-600">
                   <SocialIcon platform={site.id} />
                 </a>

@@ -24,7 +24,7 @@ function toISODate(dateStr) {
  * to a full absolute URL required by OG / Twitter crawlers.
  */
 function absoluteImageUrl(imagePath) {
-  if (!imagePath) return `${SITE_URL}/og-default.jpg`;
+  if (!imagePath) return `${SITE_URL}/og-twitter.webp`;
   if (imagePath.startsWith("http://") || imagePath.startsWith("https://"))
     return imagePath;
   return `${SITE_URL}${imagePath.startsWith("/") ? "" : "/"}${imagePath}`;
@@ -238,7 +238,7 @@ export async function generateMetadata({ params }) {
   // falling back to a generic category OG image.
   const articles = getArticlesByCategory(category);
   const firstImage =
-    articles[0]?.image || articles[0]?.heroImage || "/og-default.jpg";
+    articles[0]?.image || articles[0]?.heroImage || "/og-twitter.webp";
   const ogImageUrl = absoluteImageUrl(firstImage);
   const ogImageAlt = `${meta.label} — ${SITE_NAME}`;
 

@@ -46,8 +46,8 @@ export const metadata = {
       "Read the Terms and Conditions of Use for Corruption Files, governing your access to our digital information network.",
     images: [
       {
-        url: `${SITE_URL}/og-default.jpg`, // update to your actual OG/logo image
-        secureUrl: `${SITE_URL}/og-default.jpg`,
+        url: `${SITE_URL}/og-twitter.webp`, // update to your actual OG/logo image
+        secureUrl: `${SITE_URL}/og-twitter.webp`,
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — Terms and Conditions`,
@@ -61,7 +61,7 @@ export const metadata = {
     title: `Terms and Conditions | ${SITE_NAME}`,
     description:
       "Read the Terms and Conditions of Use for Corruption Files.",
-    images: [`${SITE_URL}/og-default.jpg`],
+    images: [`${SITE_URL}/og-twitter.webp`],
   },
 };
 

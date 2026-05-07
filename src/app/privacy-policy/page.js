@@ -46,8 +46,8 @@ export const metadata = {
       "Read the Privacy Policy for Corruption Files. Learn how we collect, use, store, and protect your personal data.",
     images: [
       {
-        url: `${SITE_URL}/og-default.jpg`, // update to your actual OG image
-        secureUrl: `${SITE_URL}/og-default.jpg`,
+        url: `${SITE_URL}/og-twitter.webp`, // update to your actual OG image
+        secureUrl: `${SITE_URL}/og-twitter.webp`,
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — Privacy Policy`,
@@ -61,7 +61,7 @@ export const metadata = {
     title: `Privacy Policy | ${SITE_NAME}`,
     description:
       "Read the Privacy Policy for Corruption Files. Learn how we collect, use, and protect your personal data.",
-    images: [`${SITE_URL}/og-default.jpg`],
+    images: [`${SITE_URL}/og-twitter.webp`],
   },
 };
 
