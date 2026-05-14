@@ -203,8 +203,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 101, "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp", "author": "Margaret Holloway", "title": "US Senate Rejects Resolution to Stop Iran's Military Actions", "excerpt": "The Senate voted 47-53 against a war powers resolution that would have required withdrawal of US forces from hostilities with Iran." },
-        { "id": 201, "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp", "author": "Margaret Holloway", "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation", "excerpt": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy." }
+        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -261,8 +261,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 101, "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp", "author": "Margaret Holloway", "title": "US Senate Rejects Resolution to Stop Iran's Military Actions", "excerpt": "The Senate voted 47-53 against a war powers resolution that would have required withdrawal of US forces from hostilities with Iran." },
-        { "id": 103, "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp", "author": "Margaret Holloway", "title": "House Prepares for War Powers Vote on Middle East Conflict", "excerpt": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead." }
+        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -319,7 +319,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 102, "slug": "u-k-chancellor-makes-2026-spring-forecast-in-westminster", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/u-k-chancellor-makes-2026-spring-forecast-in-westminster.webp", "date": "March 3, 2026", "author": "Margaret Holloway", "title": "UK Chancellor Makes 2026 Spring Forecast in Westminster", "excerpt": "Chancellor Rachel Reeves gives the Spring Forecast, which includes promises to lower inflation, cut national borrowing, and make life easier for people in Britain." }
+        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -376,7 +377,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 101, "slug": "u-s-senate-rejects-resolution-to-stop-iran-s-military-actions", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/u-s-senate-rejects-resolution-to-stop-iran-s-military-actions.webp", "author": "Margaret Holloway", "title": "US Senate Rejects Resolution to Stop Iran's Military Actions", "excerpt": "The Senate voted 47-53 against a war powers resolution that would have required withdrawal of US forces from hostilities with Iran." }
+        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
