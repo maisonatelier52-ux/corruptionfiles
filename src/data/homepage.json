@@ -117,7 +117,17 @@
     ]
   },
   "healthcareNews": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "category": "pa","categoryLabel": "Police Accountability", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "date": "March 5, 2026", "author": "Darnell Hutchins" },
+        {
+  "id": 401,
+  "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
+  "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
+  "category": "pa",
+  "categoryLabel": "Police Accountability",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
+  "date": "May 14, 2026",
+  "author": "Darnell Hutchins"
+},
         { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "Darnell Hutchins" },
         { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "Darnell Hutchins" },
         { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "Darnell Hutchins" },
@@ -127,18 +137,18 @@
         { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "Darnell Hutchins" }
   ],
   "worldNews": {
-"main": {
+    "main": {
       "id": 501,
-      "slug": "fbi-buying-americans-private-data",
+      "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
       "category": "tech",
-      "image": "/fbi-buying-americans-private-data.webp",
+      "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
       "categories": [
         { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
       ],
-      "date": "March 21, 2026",
+      "date": "May 12, 2026",
       "author": "Simone Varlette",
-      "title": "FBI Confirms Buying Americans' Private Data Without Warrants",
-      "description": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers, enabling mass surveillance without a warrant."
+      "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire",
+      "description": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform."
     },
     "sidebar": [
       {

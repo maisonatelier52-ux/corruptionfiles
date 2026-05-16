@@ -579,19 +579,25 @@
     },
     {
       "id": 401,
-      "slug": "san-diego-deputy-convicted-jail-shooting",
+      "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
       "category": "pa",
       "categoryLabel": "Police Accountability",
       "categoryColor": "bg-[#e91e63]",
-      "metaTitle": "Former San Diego Deputy Convicted for Fatal 2020 Jail Shooting | Federal Jury",
-      "metaDescription": "A federal jury convicted former San Diego County Sheriff's Deputy for the fatal shooting of an unarmed man inside a jail cell in 2020, marking a rare conviction in custodial death cases.",
-      "metaKeywords": ["San Diego deputy convicted", "jail shooting", "police accountability", "federal jury", "custodial death"],
-      "heading": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting",
-      "excerpt": "A federal jury convicted former San Diego County Sheriff's Deputy for the fatal shooting of an unarmed man inside a jail cell in 2020.",
-      "date": "March 5, 2026",
-      "image": "/san-diego-deputy-convicted-jail-shooting.webp",
-      "heroImage": "/san-diego-deputy-convicted-jail-shooting.webp",
-      "alt": "San Diego County courthouse",
+      "metaTitle": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death | Settlement 2026",
+      "metaDescription": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case.",
+      "metaKeywords": [
+        "Ronald Greene Louisiana settlement 2026",
+        "Louisiana State Police brutality settlement",
+        "Ronald Greene wrongful death lawsuit",
+        "LSP excessive force $4.8 million",
+        "Mona Hardin Ronald Greene family"
+      ],
+      "heading": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
+      "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case.",
+      "date": "May 14, 2026",
+      "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
+      "heroImage": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
+      "alt": "Body camera still of trooper Kory York standing over Ronald Greene face-down on the ground, May 10, 2019, outside Monroe, Louisiana",
       "author": {
         "name": "Darnell Hutchins",
         "slug": "darnell-hutchins",
@@ -600,39 +606,44 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "A",
-          "text": "federal jury in San Diego deliberated for just four hours before convicting former Sheriff's Deputy Daniel Yates of deprivation of civil rights under color of law for the fatal shooting of 33-year-old Mario Cardenas inside a county jail cell."
-        },
-        "paragraphs": [
-          "The shooting occurred on October 12, 2020, after Cardenas, who was awaiting trial on a misdemeanor drug charge, was placed in a holding cell. Body-worn camera footage shown at trial depicted Cardenas unarmed and standing with his hands visible when Yates fired three shots through the cell door's food slot, striking Cardenas twice. He died at the scene.",
-          "Yates, 48, testified that he believed Cardenas had retrieved a weapon from another inmate, but prosecutors noted no weapon was ever found. The defense argued that Yates perceived a threat based on prior intelligence, but the jury rejected the justification."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Rare conviction in custodial death case",
-            "content": [
-              "Legal experts noted the rarity of such convictions. According to data from the Marshall Project, only 11 law enforcement officers have been convicted of civil rights violations related to fatal shootings while on duty since 2015. Yates faces up to life in prison at sentencing scheduled for June 15.",
-              "The Cardenas family issued a statement through their attorney: 'Today, justice was served, but no verdict can bring back Mario. We hope this sends a message that no one is above the law.'"
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "Today, justice was served, but no verdict can bring back Mario. We hope this sends a message that no one is above the law.",
-            "cite": "Cardenas family statement"
+            "type": "paragraph",
+            "text": "Louisiana State Police has agreed to pay $4.8 million to the daughter of Ronald Greene — the Black motorist beaten to death by five white troopers during a 2019 traffic stop near Monroe — according to two people with direct knowledge of the lawsuit who spoke to the Associated Press. The Union Parish Sheriff's Office will pay an additional $50,000 to the family, bringing the total to $4.85 million, according to AP. The mediation agreement was reached on Tuesday, May 12. It remains subject to approval by the Louisiana Legislature. Louisiana State Police spokesperson Capt. Russell Graham told the AP his agency could not comment because the process 'has not yet been finalized.' Louisiana Attorney General Liz Murrill confirmed the agreement on Wednesday, saying: 'The State agreed that it was time to end this litigation, which arose under the prior administration, and put this matter behind us.'"
           },
           {
             "type": "paragraph",
-            "content": [
-              "The San Diego County Sheriff's Department fired Yates in 2021 following an internal investigation. The department released a statement saying it has since implemented additional use-of-force training and body camera retention policies."
-            ]
+            "text": "The settlement arrives nearly seven years to the day after Ronald Greene, 49, died just after midnight on May 10, 2019. In the immediate aftermath, Louisiana State Police told his family he had been killed when his car struck a tree during a high-speed chase. That account stood for two years. In 2021, the AP obtained body camera footage that told an entirely different story. The video showed that Greene was alive and apologizing to troopers when he exited his vehicle. What followed, on camera, was a prolonged assault: troopers placed Greene in a chokehold, punched him, used stun guns on him, and dragged him facedown across the pavement with his wrists cuffed and his legs shackled. He was left lying on the ground without medical aid for more than nine minutes while officers washed blood from their own hands and faces. Greene died before he reached the hospital."
+          },
+          {
+            "type": "heading",
+            "text": "A Cover-Up That Unraveled Over Years"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hours after Greene's death, then-State Police Superintendent Kevin Reeves notified Governor John Bel Edwards that a man had died following a 'violent and lengthy struggle' with troopers — a characterization that stopped well short of what the footage showed. Greene's family subsequently filed a federal wrongful death lawsuit, accusing troopers and state officials of using excessive force and then deliberately misleading the family and the public. The fallout from the AP's 2021 video report led to the removal of Colonel Reeves and his entire command staff. Greene's mother, Mona Hardin, said in an interview last year: 'We were told Ronnie was killed in a car wreck. The cover up, the lies... they rewarded these killer cops. Those complicit in the lies and the coverup of my son — I hope you never have a good night's sleep.' Hardin has said she will never stop fighting for her son."
+          },
+          {
+            "type": "paragraph",
+            "text": "In 2022, a grand jury indicted four Louisiana state troopers and a Union Parish sheriff's deputy on state felony charges, including negligent homicide. Most of those prosecutions ultimately collapsed. Only two of the officers pleaded no contest, and only to misdemeanor battery charges. In January 2025, in the final days of the Biden administration, federal prosecutors announced they would not bring federal charges against the troopers involved. That same month, the Justice Department concluded that Louisiana State Police had engaged in a statewide pattern of excessive force during arrests and vehicle pursuits. Within months, the DOJ under President Donald Trump rescinded those findings, formally ending the federal oversight inquiry."
+          },
+          {
+            "type": "heading",
+            "text": "Settlement Without Individual Accountability"
+          },
+          {
+            "type": "paragraph",
+            "text": "Legal analyst Franz Borghardt, speaking to Louisiana Radio Network, noted that while the settlement offers the family a measure of closure, it does not reach the individual troopers. 'It gives the family closure. It resolves the case,' Borghardt said. 'In terms of accountability, it's not going to really hold the actual individual troopers accountable because they're not the ones paying the money.' He described the outcome as the best available resolution given the circumstances, though he acknowledged the figure would read differently depending on which side of the case you occupied. None of the five troopers present that night face pending criminal charges."
+          },
+          {
+            "type": "paragraph",
+            "text": "The $4.8 million judgment against Louisiana State Police is paid to Greene's daughter; the additional $50,000 from the Union Parish Sheriff's Office goes to the broader family. Both payments are pending final legislative sign-off in Baton Rouge. Mona Hardin's position has not changed. 'Someone needs to pay, in whatever way,' she told reporters. 'Justice needs to be done and the state of Louisiana — this was wrong. The cover-up, the lies on so many levels.' The settlement closes the civil chapter of a case that exposed, in the words of KNOE News, 'individuals at the highest levels of government and what they knew' — but it leaves the question of criminal accountability for the officers themselves permanently unresolved."
           }
         ]
       },
       "relatedPosts": [
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." },
-        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/pennsylvania-police-misconduct-settlement.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "excerpt": "Pennsylvania city reaches $127K settlement with family of man who alleged excessive force during a 2020 traffic stop." }
+        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." },
+        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/pennsylvania-police-misconduct-settlement.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "excerpt": "Pennsylvania city reaches $127K settlement with family of man who alleged excessive force during a 2020 traffic stop." }
       ]
     },
     {
@@ -689,8 +700,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "date": "March 5, 2026", "author": "Darnell Hutchins", "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "excerpt": "A federal jury convicted former San Diego County Sheriff's Deputy for the fatal shooting of an unarmed man inside a jail cell in 2020." },
-        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "date": "March 4, 2026", "author": "Darnell Hutchins", "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "excerpt": "Chicago agrees to $4.5 million settlement with man jailed for 11 months based on faulty ShotSpotter gunshot detection data." }
+        { "id": 401, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
+        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "date": "March 4, 2026", "author": "Darnell Hutchins", "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "excerpt": "Chicago agrees to $4.5 million settlement with man jailed for 11 months based on faulty ShotSpotter gunshot detection data." }
       ]
     },
     {
@@ -747,8 +758,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "date": "March 5, 2026", "author": "Darnell Hutchins", "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "excerpt": "A federal jury convicted former San Diego County Sheriff's Deputy for the fatal shooting of an unarmed man inside a jail cell in 2020." },
-        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "date": "March 4, 2026", "author": "Darnell Hutchins", "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "excerpt": "Chicago agrees to $4.5 million settlement with man jailed for 11 months based on faulty ShotSpotter gunshot detection data." }
+        { "id": 401, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
+        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "date": "March 4, 2026", "author": "Darnell Hutchins", "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "excerpt": "Chicago agrees to $4.5 million settlement with man jailed for 11 months based on faulty ShotSpotter gunshot detection data." }
       ]
     },
     {
@@ -805,8 +816,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 401, "slug": "san-diego-deputy-convicted-jail-shooting", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/san-diego-deputy-convicted-jail-shooting.webp", "date": "March 5, 2026", "author": "Darnell Hutchins", "title": "Federal Jury Convicts Former San Diego Deputy for Fatal 2020 Jail Shooting", "excerpt": "A federal jury convicted former San Diego County Sheriff's Deputy for the fatal shooting of an unarmed man inside a jail cell in 2020." },
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." }
+        { "id": 401, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
+        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." }
       ]
     },
   {
@@ -863,8 +874,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
-      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
+      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
+      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
     ]
   },
   {
@@ -921,8 +932,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
-      { "id": 408, "slug": "hogan-howe-police-accountability-review", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/hogan-howe-police-accountability-review.webp", "date": "March 3, 2026", "author": "Darnell Hutchins", "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "excerpt": "Former Met Police commissioner Lord Hogan-Howe will lead a comprehensive review of police accountability and governance structures in England and Wales." }
+      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
+      { "id": 408, "slug": "hogan-howe-police-accountability-review", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/hogan-howe-police-accountability-review.webp", "date": "March 3, 2026", "author": "Darnell Hutchins", "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "excerpt": "Former Met Police commissioner Lord Hogan-Howe will lead a comprehensive review of police accountability and governance structures in England and Wales." }
     ]
   },
   {
@@ -979,8 +990,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." }
+      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
+      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." }
     ]
   },
   {
@@ -1037,25 +1048,31 @@
       ]
     },
     "relatedPosts": [
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
-      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Police Accountability", "secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
+      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
+      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
     ]
   },
   {
     "id": 501,
-    "slug": "fbi-buying-americans-private-data",
+    "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "FBI Confirms Buying Americans' Private Data Without Warrants | Fourth Amendment Concerns",
-    "metaDescription": "FBI Director Kash Patel admitted to Congress that the agency purchases personal data from commercial brokers, bypassing Fourth Amendment warrant requirements.",
-    "metaKeywords": ["FBI data purchase", "warrantless surveillance", "commercial data brokers", "Kash Patel", "Fourth Amendment"],
-    "heading": "FBI Confirms Buying Americans' Private Data Without Warrants",
-    "excerpt": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers, enabling mass surveillance without a warrant.",
-    "date": "March 21, 2026",
-    "image": "/fbi-buying-americans-private-data.webp",
-    "heroImage": "/fbi-buying-americans-private-data.webp",
-    "alt": "FBI headquarters in Washington D.C.",
+    "metaTitle": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire | Meta 2026",
+    "metaDescription": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
+    "metaKeywords": [
+      "Instagram end-to-end encryption removed 2026",
+      "Meta DM privacy Instagram",
+      "Instagram E2EE scrapped May 2026",
+      "Global Encryption Coalition Meta",
+      "Take It Down Act Instagram encryption"
+    ],
+    "heading": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire",
+    "excerpt": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
+    "date": "May 12, 2026",
+    "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+    "heroImage": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+    "alt": "Instagram app open on a smartphone showing a direct messages inbox, May 2026",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
@@ -1064,33 +1081,38 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "F",
-        "text": "BI Director Kash Patel testified before the Senate Judiciary Committee on Thursday that the bureau routinely purchases geolocation data, browser histories, and financial records from commercial data brokers without obtaining a warrant — a practice he defended as legal under current law."
-      },
-      "paragraphs": [
-        "The admission came in response to questioning from Senator Ron Wyden (D-OR), who has long warned that the data broker industry has created a loophole in Fourth Amendment protections. 'If the government can buy data without a warrant, the warrant requirement becomes meaningless,' Wyden said.",
-        "Patel acknowledged that the FBI has purchased such data in thousands of investigations since 2021, including cases involving drug trafficking, counterintelligence, and even some non-criminal matters. He argued that because the data is commercially available to any buyer, no warrant is required."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Bipartisan concern over surveillance loophole",
-          "content": [
-            "Several Republicans joined Democrats in expressing concern. Senator Mike Lee (R-UT) called the practice 'a constitutional end-run' and said he would introduce legislation to close the data-broker loophole.",
-            "The American Civil Liberties Union has filed a lawsuit against the FBI under the Freedom of Information Act seeking detailed records of all data purchases since 2018. 'This is mass surveillance without oversight, without suspicion, and without accountability,' said ACLU attorney Nathan Wessler."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "If the government can buy data without a warrant, the warrant requirement becomes meaningless. Congress must act immediately to close this loophole.",
-          "cite": "Sen. Ron Wyden (D-OR)"
+          "type": "paragraph",
+          "text": "Meta removed end-to-end encryption from Instagram direct messages on May 8, 2026, ending an opt-in feature the company had introduced in December 2023. The change was not announced with any fanfare. In March, Instagram quietly updated a help page to note that encrypted DMs would be discontinued. Meta spokesperson Dina El-Kassaby Luce told The Verge the platform was discontinuing the feature because 'very few people' were using E2EE in their DMs. A separate spokesperson told The Guardian: 'Very few people were opting in to end-to-end encrypted messaging in DMs, so we're removing this option from Instagram in the coming months. Anyone who wants to keep messaging with end-to-end encryption can easily do that on WhatsApp.' Users who had the feature enabled were directed to download their encrypted chat history before the May 8 cutoff. After that date, the option disappeared entirely."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Patel said the FBI has internal policies requiring agents to purchase data only when a warrant would be obtainable, but he conceded there is no judicial oversight of that determination. The Office of the Director of National Intelligence has been asked to prepare a report on the scale of data purchases across all intelligence agencies."
-          ]
+          "text": "What the removal means in practical terms is significant. Meta now has the technical ability to access the content of every Instagram direct message — including images, videos, and voice notes — stored on its servers. The platform can respond to law enforcement subpoenas for message logs and run automated scanning across DM content. Meta has stated that DM content is not currently used for targeted advertising, though the company's own terms of service include language permitting use of content for 'product improvement.' Meta has not committed to any timeline for how long DM data will be retained, and has not clarified what will happen to existing encrypted conversations that users did not export before the deadline — whether those chats will be deleted, silently decrypted and retained, or simply left inaccessible."
+        },
+        {
+          "type": "heading",
+          "text": "The Low-Adoption Argument and Its Critics"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meta's stated reason — low adoption — has drawn sharp pushback from digital rights organisations. On April 8, the Steering Committee of the Global Encryption Coalition published a formal statement signed by member groups including Mozilla and the Center for Democracy and Technology. 'Encryption is not just a feature,' the statement read. 'It is fundamental to safety and the exercise of human rights.' The Coalition argued that a low opt-in rate is not evidence that users do not want encryption; it is evidence that the feature was inadequately promoted, never made the default, and buried in a per-conversation settings toggle that most users never encountered. 'Low adoption of an opt-in feature,' the statement said, 'is a reason to make encryption the default — not a reason to scrap it.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "That criticism cuts to the architecture of how Meta built the feature in the first place. Encrypted DMs on Instagram were never switched on by default. They were never available in all regions. Enabling encryption required finding a per-conversation toggle buried inside individual chat settings — a step Meta never prominently advertised to users. MacRumors noted that Meta 'did not alert users that it was an option.' Privacy advocates have been clear that a product can be designed to fail adoption: keep it opt-in, keep it hidden, and never roll it out universally — then point to low usage as justification for its removal. It is a notable reversal for a company whose chief executive in 2019 declared that 'the future is private' and pledged to shift its entire platform philosophy toward encrypted communications."
+        },
+        {
+          "type": "heading",
+          "text": "Eleven Days Before the Take It Down Act"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing of the removal has not gone unnoticed. The change took effect eleven days before the U.S. Take It Down Act comes into force on May 19, 2026. The law, signed by President Donald Trump in May 2025, requires online platforms to detect and remove non-consensual intimate imagery — including AI-generated deepfakes — within 48 hours of a victim's notification. Platforms cannot scan for or remove content they cannot see. While Meta has not explicitly linked the two developments, analysts at Security Affairs noted that 'removing encryption makes it easier for platforms to detect and moderate harmful content at scale.' Without encryption, Meta can run the automated image-scanning pipelines that compliance with the Take It Down Act requires across its entire Instagram DM corpus."
+        },
+        {
+          "type": "paragraph",
+          "text": "As of publication, end-to-end encryption remains the default for all WhatsApp conversations and calls — the alternative Meta is actively directing Instagram users toward — and remains available as an opt-in for group Facebook Messenger chats. Instagram DMs now operate identically to standard Facebook Messenger messages: encrypted in transit against external interception but fully visible to the platform itself. Security researchers and privacy advocates have pointed users toward Signal as the independent alternative carrying no corporate content-access interest. Whether Meta's move will prompt broader regulatory scrutiny in the European Union, where data protection law sets a higher bar, remains an open question."
         }
       ]
     },
