@@ -26,15 +26,15 @@
     },
     {
       "id": 103,
-      "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict",
+      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
       "category": "govt",
-      "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "March 5, 2026",
+      "date": "May 15, 2026",
+      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
       "author": "Margaret Holloway",
-      "title": "House Prepares for War Powers Vote on Middle East Conflict",
-      "description": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead."
+      "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
+      "description": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages."
     }
   ],
   "secondaryNews": [
@@ -78,16 +78,16 @@
   "inOtherNews": {
     "featured": {
       "id": 301,
-      "slug": "puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate",
+      "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring",
       "categories": [
-        { "label": "Puerto Rico", "color": "bg-[#2196f3]" } 
+        { "label": "Puerto Rico", "color": "bg-[#2196f3]" }
       ],
       "category": "puerto-rico",
       "author": "Carlos Medina Reyes",
-      "date": "March 5, 2026",
-      "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
-      "quote": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
-      "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp"
+      "date": "May 15, 2026",
+      "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
+      "quote": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison.",
+      "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp"
     },
     "grid": [
       {

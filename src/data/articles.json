@@ -77,7 +77,7 @@
     ]
   },
       "relatedPosts": [
-        { "id": 103, "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp", "author": "Margaret Holloway", "title": "House Prepares for War Powers Vote on Middle East Conflict", "excerpt": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead." },
+        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
         { "id": 201, "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp", "author": "Margaret Holloway", "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation", "excerpt": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy." }
       ]
     },
@@ -151,54 +151,65 @@
     },
     {
       "id": 103,
-      "slug": "house-prepares-for-war-powers-vote-on-middle-east-conflict",
+      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "House Prepares for War Powers Vote on Middle East Conflict | Congress Iran Debate",
-      "metaDescription": "The House of Representatives gears up for a tense vote on a war powers resolution following the Senate's rejection of a similar measure. Democrats face internal divisions.",
-      "metaKeywords": ["House war powers vote", "Iran conflict Congress", "Pelosi Iran resolution", "Democratic divisions"],
-      "heading": "House Prepares for War Powers Vote on Middle East Conflict",
-      "excerpt": "The House of Representatives is getting ready for a tense vote on a war powers resolution, following the Senate's lead.",
-      "date": "March 5, 2026",
-      "image": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp",
-      "heroImage": "/house-prepares-for-war-powers-vote-on-middle-east-conflict.webp",
-      "alt": "US House of Representatives chamber",
+      "metaTitle": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age | Congress 2026",
+      "metaDescription": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
+      "metaKeywords": [
+        "Capitol Police retirement age 2026",
+        "Congress Capitol Police staffing",
+        "threats against lawmakers 2026",
+        "Senate bipartisan police bill",
+        "Capitol Police Chief Sullivan"
+      ],
+      "heading": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
+      "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
+      "date": "May 15, 2026",
+      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "heroImage": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "alt": "A U.S. Capitol Police officer stands guard during a Senate Armed Services Committee hearing, April 30, 2026",
       "author": {
         "name": "Margaret Holloway",
         "slug": "margaret-holloway",
         "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences...",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "H",
-          "text": "ouse Democratic leadership announced that a war powers resolution will come to the floor next week, setting up a high-stakes vote that could expose deep divisions within the caucus."
-        },
-        "paragraphs": [
-          "The resolution, similar to the one rejected by the Senate on Thursday, would direct the president to remove U.S. armed forces from hostilities against Iran unless Congress explicitly authorizes further action. Unlike the Senate, where the measure failed 47-53, House Democrats hold a narrow majority and are working to unite their members.",
-          "Speaker Nancy Pelosi said she supports the resolution in principle but acknowledged the political difficulty. 'We are committed to ensuring that Congress exercises its constitutional role,' Pelosi told reporters. The vote is expected to take place by March 12."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Progressive vs. moderate divide",
-            "content": [
-              "Progressive members of the House have been pushing for a vote for weeks, arguing that the administration's actions in the Middle East amount to an undeclared war. 'We cannot stand by while the president commits American lives without a debate,' said Rep. Pramila Jayapal (D-WA).",
-              "Moderate Democrats, particularly those in swing districts, are more hesitant. Several told reporters they fear being portrayed as weak on national security if they vote to restrict the president's authority during an active conflict."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "We cannot stand by while the president commits American lives without a debate. Congress must reassert its war powers authority.",
-            "cite": "Rep. Pramila Jayapal (D-WA)"
+            "type": "paragraph",
+            "text": "The U.S. Senate voted unanimously Thursday to raise the maximum retirement age for Capitol Police officers, passing legislation that would allow officers to apply for waivers to extend their service until age 62 — up from the current cap of 60. The House passed its own version of the bill, H.R. 8364, earlier this year, which sets the ceiling at 65. Under current law, officers are forced to retire at 57, or after 20 years of service, whichever comes later, unless the Capitol Police Board grants a waiver. The two chambers will need to reconcile their differing age thresholds before the measure can be sent to the president."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The White House has signaled it would veto any resolution that reaches his desk, but a two-thirds majority in both chambers would override. Given the Senate vote, an override appears unlikely. Nevertheless, the House vote will serve as a key political test ahead of the midterm elections."
-            ]
+            "text": "The bills arrive as the Capitol Police force confronts a compounding staffing crisis. Chief Thomas Sullivan told Congress at a March oversight hearing that the department has roughly 1,250 uniformed officers but needs at least 150 more to cover every post without mandatory overtime. The department's budget request this year topped $1 billion for the first time, reflecting both expanded member-protection operations and reimbursements to local law enforcement agencies across the country. Nearly 60 sworn officers are already serving under retirement waivers — a figure that exceeds the combined size of two standard USCP recruiting classes, according to the House Administration Committee."
+          },
+          {
+            "type": "heading",
+            "text": "Threats Against Lawmakers at a Record High"
+          },
+          {
+            "type": "paragraph",
+            "text": "The staffing squeeze is inseparable from a sustained rise in threats. The department investigated nearly 15,000 threats against members of Congress in 2025 — a 58 percent increase over 2024 — and Sullivan told lawmakers that the pace in 2026 is on track to climb further still. The department has overhauled its member-protection protocols since January 6, extending security coverage to lawmakers and their families in home districts and standing up a dedicated center to receive and process threat reports. 'While we focus on those individuals at the beginning of their career, we also need to focus on that experience that's at the end of their career,' Sullivan told the oversight panel. Funding for the department's protective intelligence division — the unit responsible for monitoring and investigating threats — remains, in Sullivan's own description, 'very slim.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Compounding the problem is attrition. Sullivan said a significant number of officers have left the Capitol Police for other federal law enforcement agencies offering stronger pay and retirement benefits. 'There's nothing keeping folks here,' he told Congress. The protective intelligence division is described as particularly thinly staffed, creating what Sullivan called a dangerous gap between the volume of threats and the personnel available to assess them. 'There's drafts on a consistent basis and it pushes the men and women that we have to the limit,' he said of the overtime burden on the current force."
+          },
+          {
+            "type": "heading",
+            "text": "A Rare Bicameral, Bipartisan Agreement"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Senate bill was co-authored by the top Democrat and Republican on the Senate Rules Committee, which has oversight of the Capitol Police. Sen. Alex Padilla of California and Senate Rules Committee Chairman Mitch McConnell of Kentucky introduced the measure jointly, a pairing that reflected the rare unanimity the issue commands. 'We're talking about officers who have served for a long, long time and have a tremendous amount of institutional memory, experience and expertise,' Padilla said on the floor. 'They offer immense value to the department.' He added: 'After bicameral and bipartisan discussions, I hope to see this measure signed into law.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "On the House side, Administration Committee Chairman Bryan Steil of Wisconsin and Ranking Member Joe Morelle of New York shepherded H.R. 8364 out of committee unanimously. 'No officer should be forced to retire when they can still do the job,' Steil said. Morelle, the panel's top Democrat, echoed the sentiment: 'The Department cannot afford to lose a substantial number of experienced, fully capable officers solely because they reach an arbitrary age threshold.' With both chambers having now passed their respective bills, the next step is a conference to resolve the five-year gap in maximum age — 62 in the Senate version, 65 in the House version — before final passage."
           }
         ]
       },
@@ -383,19 +394,25 @@
     },
     {
       "id": 301,
-      "slug": "puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate",
+      "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Changes Investor Tax Break to 4% Fixed Rate | House Bill 505",
-      "metaDescription": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
-      "metaKeywords": ["Puerto Rico tax incentive", "Act 60", "investor tax break", "House Bill 505", "4% fixed rate"],
-      "heading": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate",
-      "excerpt": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate for new applicants starting in 2027.",
-      "date": "March 5, 2026",
-      "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp",
-      "heroImage": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp",
-      "alt": "Puerto Rico Capitol building",
+      "metaTitle": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
+      "metaDescription": "Los Angeles Dodgers reliever Edwin Díaz faces intense scrutiny after reports tie him to illegal cockfighting events in Puerto Rico despite federal bans.",
+      "metaKeywords": [
+        "Edwin Díaz cockfighting Puerto Rico",
+        "Dodgers Edwin Diaz illegal cockfighting",
+        "Puerto Rico cockfighting federal ban",
+        "MLB Edwin Díaz investigation 2026",
+        "Club Gallistico Puerto Rico"
+      ],
+      "heading": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
+      "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison.",
+      "date": "May 15, 2026",
+      "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp",
+      "heroImage": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp",
+      "alt": "Edwin Díaz pitches for the Los Angeles Dodgers against the Cleveland Guardians, March 31, 2026",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
@@ -404,39 +421,44 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "P",
-          "text": "uerto Rico's House of Representatives passed Bill 505 on Wednesday, overhauling the island's controversial tax incentive program for individual investors who establish residency."
-        },
-        "paragraphs": [
-          "The new law replaces the previous 0% tax rate on passive income — which applied to capital gains, dividends, and interest — with a flat 4% rate for new applicants beginning January 1, 2027. Existing beneficiaries will be grandfathered under the old terms for 10 years, after which they will also transition to the 4% rate.",
-          "Governor Jesús Manuel Ortiz, who proposed the reform, called it 'a balanced approach that preserves our competitive edge while ensuring the program generates meaningful revenue for the commonwealth.' The previous zero-tax structure, part of Act 60, had drawn criticism from mainland U.S. lawmakers and some Puerto Rican civic groups."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Economic impact projections",
-            "content": [
-              "The Puerto Rico Department of Economic Development estimates the new 4% rate will still attract high-net-worth individuals, but will generate an additional $180 million annually for the commonwealth's general fund by 2030. Under the zero-tax regime, the program brought in approximately $40 million annually in indirect taxes and fees despite exempting investment income.",
-              "Opponents, including some real estate and financial services firms that have marketed the program heavily to mainland investors, warned that the change could make Puerto Rico less attractive compared to other tax havens like the U.S. Virgin Islands or Panama."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "This is a balanced approach that preserves our competitive edge while ensuring the program generates meaningful revenue for the commonwealth.",
-            "cite": "Gov. Jesús Manuel Ortiz"
+            "type": "paragraph",
+            "text": "A USA Today investigation published Wednesday by reporter Josh Peter has linked Los Angeles Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico. Two Facebook posts — dated February 2 and February 4 — show Díaz in a Dodgers uniform in promotional advertisements for cockfighting tournaments. The Club Gallistico, the cockfighting ring behind the ads, identifies the pitcher as a gallero — a cockfighting enthusiast — in the promotional copy. One translated caption reads: 'The Puerto Rico Cockfighting Club invites all enthusiasts to a special match and a grand tribute to one of our island's greatest sources of pride: A Tribute to the Puerto Rican Star and Cockfighter Edwin Sugar Díaz.' As of Thursday, those ads remained live on Facebook."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The bill now heads to the Senate, where passage is expected. Ortiz has indicated he will sign it into law promptly. The change comes as the IRS and Treasury Department have increased scrutiny of Act 60 beneficiaries, with some audits alleging improper claims of residency."
-            ]
+            "text": "Beyond the social media promotions, Puerto Rican newspaper El Nuevo Día published a separate story on March 10 with a photograph showing Díaz standing inside the pit of a cockfighting arena. The USA Today report found that Díaz's family entered four roosters in a March event, and that an earlier 2018 report showed Díaz himself had entered five. His brother Alexis Díaz, who pitches for the Cincinnati Reds, has also remained connected to the sport alongside Edwin, according to the investigation. Three Puerto Rican athletes in total were named in the report — the Díaz brothers and jockey brothers Jose Ortiz and Irad Ortiz Jr., who are both heading into the Preakness Stakes this weekend."
+          },
+          {
+            "type": "heading",
+            "text": "A Federal Ban, Unevenly Enforced"
+          },
+          {
+            "type": "paragraph",
+            "text": "The central tension of the USA Today report is not only what Díaz may have done, but how openly it was conducted. Congress extended its federal animal fighting ban to U.S. territories, including Puerto Rico, in 2018. The Supreme Court declined to hear a constitutional challenge to that extension in 2021, leaving the ban firmly in place. Under federal law, participating in cockfighting carries a maximum penalty of five years in prison and a fine; spectating carries up to one year. Puerto Rico's own statutes set fines between $500 and $5,000, with a maximum of six years in prison — but enforcement has historically been sporadic at best."
+          },
+          {
+            "type": "paragraph",
+            "text": "A 2019 economic study estimated that cockfighting supports roughly 27,000 jobs in Puerto Rico and that the ban's full enforcement would cost the island's economy over $407 million. Former governor Pedro Pierluisi said in 2021 that he was 'committed to supporting an industry that generates jobs and income for our economy, that represents our culture and our history,' adding that he would 'continue to fight for them.' That political resistance has shaped a climate in which, as Sports Illustrated noted, the promoters behind the February ads appeared entirely unconcerned about federal or local legal exposure."
+          },
+          {
+            "type": "heading",
+            "text": "Díaz on the Injured List, MLB Stays Quiet"
+          },
+          {
+            "type": "paragraph",
+            "text": "Díaz signed a three-year, $69 million contract with the Dodgers last December, his most lucrative deal to date after being a three-time All-Star for the New York Mets. He has appeared in only seven games this season before being placed on the 60-day injured list following right elbow surgery to remove loose bodies from the joint. He has not pitched since April 19, and neither the Dodgers nor his representatives have given a firm timetable for his return, though second-half projections have been cited. USA Today said its attempts to reach Díaz's representatives went unanswered; the Dodgers offered no statement. MLB declined to comment on the record."
+          },
+          {
+            "type": "paragraph",
+            "text": "The silence has fed a growing backlash on social media, where fans accused MLB of treating the Dodgers differently than other franchises under scrutiny. The precedent most frequently cited is former Dodgers pitcher Pedro Martínez, who drew significant controversy in 2008 after video surfaced of him attending a cockfight in the Dominican Republic. In that instance, too, no formal penalties followed. Legally, no criminal accusations against Díaz have been filed as of publication, and the reporting draws a distinction between documented promotional appearances and arena attendance on one hand, and provable illegal participation on the other — a line that may ultimately determine how far any investigation proceeds."
           }
         ]
       },
       "relatedPosts": [
-        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." },
-        { "id": 303, "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp", "date": "March 8, 2026", "author": "Carlos Medina Reyes", "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open", "excerpt": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend." }
+        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." },
+        { "id": 303, "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp", "date": "March 8, 2026", "author": "Carlos Medina Reyes", "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open", "excerpt": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend." }
       ]
     },
     {
@@ -493,8 +515,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 301, "slug": "puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp", "date": "March 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate", "excerpt": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate." },
-        { "id": 303, "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp", "date": "March 8, 2026", "author": "Carlos Medina Reyes", "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open", "excerpt": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend." }
+        { "id": 301, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 303, "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp", "date": "March 8, 2026", "author": "Carlos Medina Reyes", "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open", "excerpt": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend." }
       ]
     },
     {
@@ -551,8 +573,8 @@
         ]
       },
       "relatedPosts": [
-        { "id": 301, "slug": "puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-changes-investor-tax-break-to-a-4-fixed-rate.webp", "date": "March 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Changes Investor Tax Break to a 4% Fixed Rate", "excerpt": "Puerto Rico's House Bill 505 changes the tax incentive for resident investors from a zero-tax system to a more stable 4% fixed rate." },
-        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Puerto Rico", "secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." }
+        { "id": 301, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." }
       ]
     },
     {
