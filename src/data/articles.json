@@ -78,7 +78,7 @@
   },
       "relatedPosts": [
         { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
-        { "id": 201, "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp", "author": "Margaret Holloway", "title": "Vet Lawmakers Rally at US Capitol Against Iran Escalation", "excerpt": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy." }
+        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." }
       ]
     },
     {
@@ -146,6 +146,7 @@
         ]
       },
       "relatedPosts": [
+        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
         { "id": 202, "slug": "green-party-s-hannah-spencer-officially-enters-house-of-commons", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/green-party-s-hannah-spencer-officially-enters-house-of-commons.webp", "date": "March 5, 2026", "author": "Margaret Holloway", "title": "Green Party's Hannah Spencer Officially Enters House of Commons", "excerpt": "Newly elected Green MP Hannah Spencer officially takes her seat in the House of Commons this week following a closely watched by-election win." }
       ]
     },
@@ -214,65 +215,76 @@
         ]
       },
       "relatedPosts": [
-        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
         { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
       "id": 201,
-      "slug": "vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation",
+      "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "Veteran Lawmakers Rally at US Capitol Against Iran Military Escalation",
-      "metaDescription": "Democratic representatives who are military veterans gathered outside the Capitol to push back against White House military strategy in Iran, demanding congressional authorization.",
-      "metaKeywords": ["veterans Iran rally", "Capitol protest", "military veterans Congress", "Iran war powers"],
-      "heading": "Veteran Lawmakers Rally at US Capitol Against Iran Escalation",
-      "excerpt": "A vocal group of Democratic representatives and military veterans gathered outside the Capitol today to push back against the White House's current military strategy.",
-      "date": "March 5, 2026",
-      "image": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp",
-      "heroImage": "/vet-lawmakers-rally-at-u-s-capitol-against-iran-escalation.webp",
-      "alt": "Veteran lawmakers rally at Capitol",
+      "metaTitle": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC | May 2026",
+      "metaDescription": "Thousands of people gather near the U.S. Capitol on the National Mall for a daylong Christian jubilee, supported by high-profile congressional leaders and the White House.",
+      "metaKeywords": [
+        "Rededicate 250 National Mall May 2026",
+        "Mike Johnson prayer rally Washington DC",
+        "Freedom 250 White House Christian nationalism",
+        "Trump Rededicate 250 2 Chronicles",
+        "America 250 semiquincentennial prayer event"
+      ],
+      "heading": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC",
+      "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials.",
+      "date": "May 17, 2026",
+      "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp",
+      "heroImage": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp",
+      "alt": "Attendees worship during Rededicate 250: A National Jubilee of Prayer, Praise and Thanksgiving on the National Mall, Washington D.C., May 17, 2026",
       "author": {
         "name": "Margaret Holloway",
         "slug": "margaret-holloway",
         "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill...",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "M",
-          "text": "ore than a dozen House Democrats who served in the military stood on the Capitol steps Friday, demanding an end to what they called 'unconstitutional escalation' in Iran."
-        },
-        "paragraphs": [
-          "The lawmakers, including Reps. Mikie Sherrill (D-NJ), Jason Crow (D-CO), and Chrissy Houlahan (D-PA), all former service members, argued that their experience in uniform gives them a unique perspective on the costs of war. 'I served in Iraq. I know what it means to deploy without a clear mission,' Sherrill said.",
-          "The rally came one day after the Senate rejected a war powers resolution, and as the House prepares for its own vote. Organizers said they hope to pressure moderate Democrats to support the measure."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "'We took an oath to the Constitution'",
-            "content": [
-              "Rep. Crow, an Army veteran who served in Iraq and Afghanistan, said: 'The administration is relying on a 2001 AUMF that was written to target al-Qaeda, not Iran. That's a legal stretch that disrespects the rule of law.'",
-              "The White House has defended its legal rationale, pointing to recent attacks on U.S. personnel by Iranian-backed militias as justification for military response under Article II of the Constitution."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "I served in Iraq. I know what it means to deploy without a clear mission. Congress must reassert its authority before more American lives are put at risk.",
-            "cite": "Rep. Mikie Sherrill (D-NJ)"
+            "type": "paragraph",
+            "text": "Thousands of people streamed onto the National Mall on Sunday for a daylong prayer rally billed as a 'rededication of our country as One Nation under God.' Against the backdrop of the Washington Monument, worship music blared from a stage whose design made the event's Christian emphasis unmistakable: arched stained-glass windows set beneath grand columns resembling a federal building depicted the nation's founders alongside a white cross. The event, titled Rededicate 250: A National Jubilee of Prayer, Praise and Thanksgiving, was organized by Freedom 250 — a nonprofit that operates as a public-private partnership backed by the White House — and is intended to launch the broader America 250 semiquincentennial anniversary cycle. About 15,000 attendees were expected, according to NBC4 Washington, with gates opening at 9 a.m. and the main program running from 10:30 a.m. to 6 p.m."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The rally drew a crowd of about 200 protesters, including veterans' advocacy groups. Several veterans held signs reading 'No War Without Authorization' and 'Bring Them Home.' The event remained peaceful, with Capitol Police maintaining a presence nearby."
-            ]
+            "text": "President Donald Trump addressed the gathering through a video filmed in the Oval Office — the same footage aired during a marathon Bible-reading event the previous month. In the video, Trump read from 2 Chronicles 7, including the verse: 'If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways, then will I hear from heaven, and will forgive their sin, and will heal their land.' The verses are frequently cited by those who argue the United States was founded as a Christian nation, a claim disputed by many historians. House Speaker Mike Johnson, R-La., delivered a prayer of rededication from the stage, praising America's founding principles and explicitly linking the nation's independence to Christian faith. Vice President JD Vance, Secretary of State Marco Rubio, and Defense Secretary Pete Hegseth also participated, as did Director of National Intelligence Tulsi Gabbard in a prerecorded video."
+          },
+          {
+            "type": "heading",
+            "text": "Hegseth, Johnson and the Founding Narrative"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hegseth, who has increasingly woven Christian language and worship into his leadership of the Pentagon, asked the crowd in his video to pray to 'our Lord and Savior Jesus Christ.' Invoking George Washington's personal faith, he said: 'Let us pray without ceasing. Let us pray for our nation on bended knee.' Among the religious figures on the program were several of Trump's longtime evangelical allies: Franklin Graham of Samaritan's Purse, Paula White-Cain of the White House Faith Office, Cardinal Timothy Dolan, Bishop Robert Barron, Pastor Robert Jeffress, Pastor Samuel Rodriguez, and Cissie Graham Lynch — the daughter of Franklin Graham and granddaughter of the late evangelist Billy Graham. Orthodox Jewish Rabbi Meir Soloveichik, who serves on the Trump administration's Religious Liberty Commission, was the only non-Christian religious leader listed on the program. Speakers also mentioned the late conservative activist Charlie Kirk from the stage."
+          },
+          {
+            "type": "paragraph",
+            "text": "The crowd included families who had traveled from across the country specifically for the event. Alessandra Seawright, 15, who came from Santa Fe, New Mexico, with her mother and who had also attended Kirk's memorial service, told the AP: 'I think we just need more of this in our country, and we just need to share the word of the Lord. We love going to events like this.' Events like Rededicate 250, she said, make her feel less alone in her conservative Christian beliefs. Most speakers on the program argued that Christianity is inseparable from the American founding — a position shared by the event's organizers and reinforced by the rally's stage imagery, which placed the cross alongside portraits of the founders."
+          },
+          {
+            "type": "heading",
+            "text": "Critics Flag Church-State Concerns"
+          },
+          {
+            "type": "paragraph",
+            "text": "The event drew immediate pushback from religious and political voices across the spectrum. The Rev. Adam Russell Taylor, a Baptist minister who leads the progressive Christian organisation Sojourners, said: 'We are deeply concerned that what is really being rededicated is a nation to a very narrow and ideological part of the Christian faith that betrays our nation's fundamental commitment to religious freedom.' Rep. Jared Huffman, D-Calif., was more direct: 'What should be a broadly unifying celebration has been politically hijacked and wrapped up in this MAGA narrative that tries to rewrite our history and promote the president's agenda.' Congressional Democrats have also raised concerns about Freedom 250's nonprofit structure and finances, characterising the organisation as a White House-controlled end run around a separate America 250 commission that Congress chartered a decade ago to manage the semiquincentennial."
+          },
+          {
+            "type": "paragraph",
+            "text": "Progressive groups organised counterprogramming on the Mall. The Freedom From Religion Foundation and the Christian organisation Faithful America jointly displayed a large balloon depicting a Trump-like golden calf — a biblical image of idolatry — near the event site. On Thursday, the Interfaith Alliance projected protest slogans directly onto an exterior wall of the National Gallery of Art. Two of the messages read: 'Democracy not theocracy' and 'The separation of church and state is good for both.' Law enforcement agencies, including MPD, the Secret Service, and the FBI, had coordinated security preparations for more than a year ahead of the event. D.C. Deputy Mayor for Public Safety Lindsey Appiah told reporters: 'We will be ready.' No specific credible threats had been identified as of Sunday morning, according to NBC4 Washington."
           }
         ]
       },
       "relatedPosts": [
-        { "id": 101, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
         { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -1117,8 +1129,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." },
-      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
+      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." },
+      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
     ]
   },
   {
@@ -1175,8 +1187,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 501, "slug": "fbi-buying-americans-private-data", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/fbi-buying-americans-private-data.webp", "date": "March 21, 2026", "author": "Simone Varlette", "title": "FBI Confirms Buying Americans' Private Data Without Warrants", "excerpt": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers." },
-      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
+      { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
     ]
   },
   {
@@ -1233,8 +1245,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 501, "slug": "fbi-buying-americans-private-data", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/fbi-buying-americans-private-data.webp", "date": "March 21, 2026", "author": "Simone Varlette", "title": "FBI Confirms Buying Americans' Private Data Without Warrants", "excerpt": "FBI Director Kash Patel admitted to Congress that the agency bypasses Fourth Amendment protections by purchasing personal data from commercial brokers." },
-      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Big Tech & Surveillance", "secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." }
+      { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." }
     ]
   },
   {
