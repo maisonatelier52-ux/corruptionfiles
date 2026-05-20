@@ -1251,19 +1251,25 @@
   },
   {
     "id": 1,
-    "slug": "team-rehab-fraudulent-billing",
+    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan",
-    "metaDescription": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing against federal healthcare programs, including Medicare and TRICARE.",
-    "metaKeywords": ["Team Rehab fraud", "physical therapy billing fraud", "Medicare fraud", "DOJ settlement", "Michigan healthcare fraud"],
-    "heading": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan",
-    "excerpt": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing against federal healthcare programs.",
-    "date": "March 25, 2026",
-    "image": "/team-rehab-fraudulent-billing.webp",
-    "heroImage": "/team-rehab-fraudulent-billing.webp",
-    "alt": "Physical therapy clinic",
+    "metaTitle": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "metaDescription": "A U.S. jury found Takeda liable for delaying cheaper generic versions of its constipation drug Amitiza, in a major pharma antitrust and pricing fraud case.",
+    "metaKeywords": [
+      "Takeda Amitiza pay-for-delay verdict",
+      "Takeda $885 million antitrust ruling",
+      "generic drug delay lawsuit 2026",
+      "Par Pharmaceutical Amitiza settlement",
+      "pharma pay-for-delay antitrust law"
+    ],
+    "heading": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "excerpt": "A federal jury in Boston found Takeda Pharmaceutical liable for delaying cheaper generic versions of its constipation drug Amitiza, awarding plaintiffs roughly $885 million — a figure that could triple to $2.5 billion under federal antitrust law.",
+    "date": "May 18, 2026",
+    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "heroImage": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "alt": "Takeda Pharmaceutical headquarters as jury delivers $885 million pay-for-delay antitrust verdict, May 18, 2026",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
@@ -1272,39 +1278,52 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "eam Rehab Physical Therapy, a Michigan-based provider with 14 clinics across the state, has agreed to pay $5 million to resolve allegations that it submitted false claims to Medicare, Medicaid, and TRICARE for services that were medically unnecessary or never performed."
-      },
-      "paragraphs": [
-        "The settlement, announced by the U.S. Attorney's Office for the Eastern District of Michigan, resolves a whistleblower lawsuit filed in 2022 by a former Team Rehab billing manager. The government alleged that between 2018 and 2023, the company routinely billed for one-on-one therapy sessions when group therapy was provided, and for services exceeding what was medically necessary.",
-        "Team Rehab denied any wrongdoing but agreed to settle to avoid the cost and uncertainty of litigation. 'We are committed to compliance and have already implemented enhanced auditing procedures,' the company said in a statement."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Whistleblower receives $875,000",
-          "content": [
-            "The former employee who filed the qui tam lawsuit will receive approximately $875,000 as her share of the settlement. 'This case demonstrates that individuals with inside knowledge play a crucial role in protecting federal healthcare programs,' said U.S. Attorney Dawn Ison.",
-            "As part of the settlement, Team Rehab entered into a five-year Corporate Integrity Agreement with the Department of Health and Human Services, requiring independent audits and compliance training."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This case demonstrates that individuals with inside knowledge play a crucial role in protecting federal healthcare programs from fraud.",
-          "cite": "U.S. Attorney Dawn Ison"
+          "type": "paragraph",
+          "text": "A federal jury in Boston has found Takeda Pharmaceutical liable for causing approximately $885 million in damages by orchestrating an anticompetitive scheme to delay a cheaper generic version of its constipation drug Amitiza (lubiprostone). The verdict, returned Monday in the U.S. District Court for the District of Massachusetts following a five-week trial, sided with a class of plaintiffs that included pharmacies, insurers, health funds, and major retailers such as CVS and Walgreens, who argued they were forced to overpay for the drug for years as a direct result of the arrangement."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The government's investigation is ongoing regarding individual therapists involved in the scheme. No criminal charges have been filed to date."
-          ]
+          "text": "According to Reuters, the jury's award breaks down to roughly $475 million for direct purchasers and $347 million for individual retailers. Under federal antitrust law, $821.7 million of that total is subject to automatic trebling upon entry of final judgment, which would push the payout to approximately $2.47 billion. Takeda said in a statement released shortly after the verdict that the damages figure is not final and remains subject to further court proceedings, and that the company intends to \"vigorously pursue post-trial motions and an appeal.\""
+        },
+        {
+          "type": "heading",
+          "text": "How a 2014 Settlement Became the Heart of the Case"
+        },
+        {
+          "type": "paragraph",
+          "text": "The case traces its origins to 2012, when Par Pharmaceutical filed for FDA approval to market a generic version of Amitiza. Sucampo Pharmaceuticals — which developed Amitiza and partnered with Takeda to market it in the U.S. following FDA approval in 2006 — and Takeda responded with a patent infringement lawsuit. Par pushed back, arguing the patents were invalid. The litigation resolved in a 2014 settlement under which Par agreed not to launch a competing generic until January 2021. In exchange, Par was permitted to sell an authorized generic version of Amitiza supplied by Sucampo under a profit-sharing agreement. Plaintiffs' lawyers described the arrangement to jurors as a $210 million payoff that locked out cheaper alternatives for six additional years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sucampo was later acquired by Mallinckrodt in a $1.2 billion deal in 2018. By the time Par's authorized generic entered the market in January 2021, Amitiza had been generating peak annual revenues of close to $500 million. In Takeda's fiscal year 2020 — the period when the first generic competition arrived — Amitiza sales fell nearly 25 percent year-over-year to roughly $191 million. Takeda no longer markets the drug; its license was terminated in 2024."
+        },
+        {
+          "type": "heading",
+          "text": "A Landmark in Pay-for-Delay Litigation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monday's verdict is the first time a federal jury has found a pharmaceutical company liable in class-action litigation over a pay-for-delay agreement since the U.S. Supreme Court's 2013 ruling in FTC v. Actavis established that such settlements can violate antitrust law. Three earlier trials brought by private plaintiffs under similar theories all ended in defense verdicts. \"We were incredibly fortunate to have a committed jury that really showed up every day, took their job seriously,\" said Kristen Johnson, a lawyer for the direct purchaser class. \"They understood that paying off a competitor has real consequences on competition.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Seattle-based law firm Hagens Berman, which represented the direct purchaser class, said in a statement that the delay caused \"hundreds of millions of dollars in overcharges\" for its clients. The Federal Trade Commission has previously estimated that pay-for-delay arrangements cost consumers and taxpayers roughly $3.5 billion in higher drug prices annually, and has pursued several such cases in recent years, including a landmark $1.5 billion settlement with Teva in 2015."
+        },
+        {
+          "type": "heading",
+          "text": "Takeda Disputes the Verdict and Signals a Long Appeal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Takeda denied wrongdoing throughout the trial. Joshua Barlow, one of the company's defense attorneys, told jurors in his closing argument that the 2014 settlement with Par was both lawful and pro-competitive — that without it, a generic version of Amitiza would not have reached the market until the company's final patents expired, which he said is not scheduled until October 2027. Takeda also maintained that the deal actually allowed Par to introduce a generic more than six years ahead of that patent cliff. In its post-verdict statement, the company said it \"remains firm in our conviction that the plaintiffs' case lacks merit\" and cited what it called \"evidentiary and legal errors made during the trial.\" The verdict cannot be enforced until the court formally enters judgment, and Takeda's appeal is expected to proceed through the First Circuit."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme." },
-      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores to boost federal payments." }
+      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme." },
+      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores to boost federal payments." }
     ]
   },
   {
@@ -1361,8 +1380,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 1, "slug": "team-rehab-fraudulent-billing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/team-rehab-fraudulent-billing.webp", "date": "March 25, 2026", "author": "Ruth Anselmi", "title": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan", "excerpt": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing." },
-      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring." }
+      { "id": 1, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring." }
     ]
   },
   {
@@ -1419,8 +1438,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare." },
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme." }
+      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare." },
+      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme." }
     ]
   },
   {
@@ -1477,8 +1496,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 1, "slug": "team-rehab-fraudulent-billing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/team-rehab-fraudulent-billing.webp", "date": "March 25, 2026", "author": "Ruth Anselmi", "title": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan", "excerpt": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing." },
-      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs." }
+      { "id": 1, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs." }
     ]
   },
   {
@@ -1535,8 +1554,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison." },
-      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." }
+      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison." },
+      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." }
     ]
   },
   {
@@ -1593,8 +1612,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." },
-      { "id": 8, "slug": "florida-doctor-telehealth-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/florida-doctor-telehealth-fraud.webp", "date": "March 23, 2026", "author": "Ruth Anselmi", "title": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme", "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network." }
+      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." },
+      { "id": 8, "slug": "florida-doctor-telehealth-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/florida-doctor-telehealth-fraud.webp", "date": "March 23, 2026", "author": "Ruth Anselmi", "title": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme", "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network." }
     ]
   },
   {
@@ -1651,8 +1670,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores." },
-      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs." }
+      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores." },
+      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs." }
     ]
   },
   {
@@ -1709,8 +1728,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." },
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." }
+      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." },
+      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." }
     ]
   },
   {
@@ -1767,8 +1786,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 7, "slug": "scotus-takeda-eli-lilly-rico", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/scotus-takeda-eli-lilly-rico.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed", "excerpt": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks." },
-      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Medical Fraud", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations." }
+      { "id": 7, "slug": "scotus-takeda-eli-lilly-rico", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/scotus-takeda-eli-lilly-rico.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed", "excerpt": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks." },
+      { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations." }
     ]
   },
   {

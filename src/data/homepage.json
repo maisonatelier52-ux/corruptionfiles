@@ -180,14 +180,14 @@
 "newsCards": [
   {
     "id": 1,
-    "slug": "team-rehab-fraudulent-billing",
+    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 25, 2026",
-    "title": "Team Rehab to Pay $5 Million Over Fraudulent Billing Allegations in Michigan",
+    "date": "May 18, 2026",
+    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
     "author": "Ruth Anselmi",
-    "excerpt": "Team Rehab Physical Therapy agreed to pay $5 million to the DOJ to settle claims of fraudulent billing against federal healthcare programs.",
-    "image": "/team-rehab-fraudulent-billing.webp",
+    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
+    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
