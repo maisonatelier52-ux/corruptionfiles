@@ -192,14 +192,14 @@
   },
   {
     "id": 2,
-    "slug": "sophia-shaklian-hospice-fraud",
+    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 24, 2026",
-    "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud",
+    "date": "May 21, 2026",
+    "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
     "author": "Ruth Anselmi",
-    "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme.",
-    "image": "/sophia-shaklian-hospice-fraud.webp",
+    "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing.",
+    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -297,18 +297,19 @@
     { "label": "Intelligence", "category": "intelligence", "image": "/cat-bgcolor.webp" },
     { "label": "Offshore", "category": "offshore", "image": "/cat-bgcolor.webp" }
   ],
-  "discoveryMain": {
-    "id": 501,
-    "slug": "california-sable-offshore-pipeline",
-    "category": "eco",
-    "title": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline",
-    "excerpt": "Washington is using federal emergency powers to restart a California offshore pipeline shuttered after a massive 2015 oil spill...",
-    "author": "Thomas Aldgate",
-    "date": "March 13, 2026",
-    "image": "/california-sable-offshore-pipeline.webp",
-    "categoryLabel": "Environmental Exploitation",
-    "categoryColor": "bg-[#2196f3]"
-  },
+      "discoveryMain": {
+      "id": 501,
+      "slug": "global-rainforests-breaking-point-resource-exploitation",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "May 20, 2026",
+      "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+      "author": "Thomas Aldgate",
+      "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia.",
+      "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
+      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
+    },
   "discoveryMiddle": [
     {
       "id": 502,

@@ -1322,60 +1322,75 @@
       ]
     },
     "relatedPosts": [
-      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme." },
+      { "id": 2, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 4, "slug": "aetna-medicare-advantage-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/aetna-medicare-advantage-fraud.webp", "date": "March 11, 2026", "author": "Ruth Anselmi", "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations", "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores to boost federal payments." }
     ]
   },
   {
     "id": 2,
-    "slug": "sophia-shaklian-hospice-fraud",
+    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Sophia Shaklian Sentenced to Prison for $14 Million Hospice and Diagnostic Testing Fraud",
-    "metaDescription": "Los Angeles woman Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare of $14 million through a fake hospice and diagnostic testing scheme.",
-    "metaKeywords": ["hospice fraud", "diagnostic testing fraud", "Medicare fraud LA", "Sophia Shaklian", "healthcare fraud sentencing"],
-    "heading": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud",
-    "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare through a fake hospice and diagnostic testing scheme.",
-    "date": "March 24, 2026",
-    "image": "/sophia-shaklian-hospice-fraud.webp",
-    "heroImage": "/sophia-shaklian-hospice-fraud.webp",
-    "alt": "Federal courthouse",
+    "metaTitle": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "metaDescription": "Four people linked to a Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving fake allergy treatment claims and unlicensed medical procedures.",
+    "metaKeywords": [
+      "Connecticut Medicaid fraud 2026",
+      "APRM Solutions Shelton clinic charges",
+      "allergy immunotherapy billing fraud CT",
+      "Medicaid Fraud Control Unit Connecticut",
+      "health insurance fraud Connecticut arrest"
+    ],
+    "heading": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "excerpt": "Four people linked to a Shelton, Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving thousands of fake allergy treatment claims and unlicensed medical procedures spanning nearly two years.",
+    "date": "May 21, 2026",
+    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "heroImage": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "alt": "Shelton Connecticut pain clinic at center of $659K Medicaid fraud investigation, May 2026",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year.",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "S",
-        "text": "ophia Shaklian, 54, of Los Angeles, was sentenced Monday to 33 months in federal prison followed by three years of supervised release for her role in a $14 million Medicare fraud scheme involving bogus hospice claims and unnecessary diagnostic tests."
-      },
-      "paragraphs": [
-        "Shaklian, who operated two marketing companies that referred patients to purported hospice providers, pleaded guilty in November 2025 to one count of conspiracy to commit healthcare fraud. Prosecutors said she recruited homeless individuals and paid them $50 each to undergo unnecessary genetic and cardiovascular tests, then billed Medicare for the tests as if they were prescribed for legitimate patients.",
-        "She also referred patients to a fraudulent hospice company that billed Medicare for end-of-life care for patients who were not terminally ill. Many of the referred patients were still working full-time jobs."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Co-conspirators also convicted",
-          "content": [
-            "Three co-defendants — two physicians and a hospice owner — have also pleaded guilty and are awaiting sentencing. The physicians admitted to signing thousands of test orders without reviewing medical records or examining patients.",
-            "'This was not a victimless crime. Ms. Shaklian exploited vulnerable people and diverted millions from a program designed to care for the elderly and disabled,' said U.S. District Judge André Birotte Jr. before imposing sentence."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This was not a victimless crime. Ms. Shaklian exploited vulnerable people and diverted millions from a program designed to care for the elderly and disabled.",
-          "cite": "U.S. District Judge André Birotte Jr."
+          "type": "paragraph",
+          "text": "Investigators with Connecticut's Medicaid Fraud Control Unit, operating under the Office of the Chief State's Attorney, announced on Wednesday, May 20, the arrest of four people connected to a Shelton medical business accused of stealing nearly $660,000 from the state's Medicaid program. The case centers on Advanced Pain and Regenerative Medical Solution Corporation — known as APRM Solutions — which authorities allege submitted thousands of fraudulent billing claims over a period of roughly 20 months."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Shaklian was also ordered to pay $14.2 million in restitution, though prosecutors acknowledged she has few assets. Her attorney said she intends to appeal the sentence."
-          ]
+          "text": "The three defendants publicly named in charging documents are Eid J. Atallah, 61, of Middlebury; Terry L. Choszczyk, 65, of Seymour; and Kimberly Choszczyk, 38, also known as Kimberly Castillo, of Ansonia. All four defendants — including a fourth whose name has not been released in all published reports — were each released on $100,000 bond following their arrests."
+        },
+        {
+          "type": "heading",
+          "text": "4,009 Fraudulent Claims Over 20 Months"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to investigators, APRM Solutions submitted 4,009 claims to Connecticut's Medicaid program that are tied to the alleged fraud. The billing activity took place between February 2024 and October 2025. The total reported loss to the Medicaid program came to $659,627.66. Authorities said the company billed for allergy immunotherapy treatments that either never took place at all, or were carried out by individuals who were not properly qualified or were operating without adequate supervision. Investigators also alleged that the business used the identification numbers of licensed medical providers without their permission to submit the claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the charges specifically accuse the defendants of administering allergy shots, compounding and mixing medications, and performing diagnostic tests without holding the required medical licenses — a set of allegations that goes beyond billing fraud to encompass the unlicensed practice of medicine itself."
+        },
+        {
+          "type": "heading",
+          "text": "Charges and Potential Penalties"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of the four defendants faces multiple counts. The charges include first-degree larceny by defrauding a public community, health insurance fraud, violation of license requirements, and conspiracy counts tied to each of those offenses. Under Connecticut law, first-degree larceny and health insurance fraud are Class B felonies, both carrying a maximum sentence of up to 20 years in prison. Violation of license requirements is a Class D felony punishable by up to five years. The cases are expected to proceed through the Connecticut Superior Court system."
+        },
+        {
+          "type": "heading",
+          "text": "Connecticut's Medicaid Fraud Control Unit"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Office of the Chief State's Attorney's Medicaid Fraud Control Unit is responsible for investigating and prosecuting fraud committed by healthcare providers enrolled in the Connecticut Medicaid program. The unit handles both civil and criminal cases and routinely works alongside federal agencies on larger schemes. Anyone with information about suspected fraud or abuse within the state's public healthcare system is asked to contact the unit directly at (860) 258-5986."
         }
       ]
     },
@@ -1438,7 +1453,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 2, "slug": "sophia-shaklian-hospice-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/sophia-shaklian-hospice-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "LA Woman Gets Prison Time for $14 Million Hospice and Diagnostic Testing Fraud", "excerpt": "Sophia Shaklian was sentenced to nearly 3 years in federal prison for defrauding Medicare." },
+      { "id": 2, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme." }
     ]
   },
@@ -1792,19 +1807,25 @@
   },
   {
     "id": 601,
-    "slug": "california-sable-offshore-pipeline",
+    "slug": "global-rainforests-breaking-point-resource-exploitation",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline",
-    "metaDescription": "Washington is using federal emergency powers to restart a California offshore pipeline shuttered after a massive 2015 oil spill, drawing fierce opposition from state officials and environmental groups.",
-    "metaKeywords": ["Sable Offshore pipeline", "California oil spill", "federal emergency powers", "offshore drilling", "environmental protection"],
-    "heading": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline",
-    "excerpt": "Washington is using federal emergency powers to restart a California offshore pipeline shuttered after a massive 2015 oil spill.",
-    "date": "March 13, 2026",
-    "image": "/california-sable-offshore-pipeline.webp",
-    "heroImage": "/california-sable-offshore-pipeline.webp",
-    "alt": "Offshore oil platform and pipeline",
+    "metaTitle": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+    "metaDescription": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia.",
+    "metaKeywords": [
+      "rainforest destruction resource exploitation 2026",
+      "Amazon Congo Basin deforestation report",
+      "critical minerals biofuels deforestation",
+      "Rainforest Foundation Norway Profundo study",
+      "Global Forest Watch tropical forest loss 2025"
+    ],
+    "heading": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+    "excerpt": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia — layering fresh extraction pressure on top of long-established drivers that forests are already struggling to absorb.",
+    "date": "May 20, 2026",
+    "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
+    "heroImage": "/global-rainforests-breaking-point-resource-exploitation.webp",
+    "alt": "Burning Amazon rainforest clearing for cattle ranching and mining operations, 2026",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -1813,39 +1834,64 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "C",
-        "text": "alifornia Governor Gavin Newsom announced Wednesday that the state will sue the Biden administration over a federal order invoking emergency powers to restart the Sable Offshore pipeline, which has been shut down since a 2015 rupture spilled 140,000 gallons of crude oil into the Pacific Ocean near Santa Barbara."
-      },
-      "paragraphs": [
-        "The pipeline, owned by Houston-based Sable Offshore Corp., runs 10 miles from offshore platforms to an onshore processing facility. The federal Bureau of Safety and Environmental Enforcement (BSEE) issued the restart order on March 10, citing 'national energy security concerns' amid rising gasoline prices. The order overrides California's coastal protection laws, which have blocked the pipeline's reopening since 2018.",
-        "Environmental groups say the pipeline is prone to corrosion and leaks; a 2024 inspection found 37 anomalies requiring repair. 'This is a disaster waiting to happen,' said Miyoko Sakashita of the Center for Biological Diversity."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Legal and political battles escalate",
-          "content": [
-            "The state's lawsuit, filed in U.S. District Court for the Northern District of California, argues that the federal government lacks authority to override the state's Coastal Zone Management Act veto. 'Washington is forcing California to accept a known environmental risk to pad oil company profits,' Newsom said.",
-            "Sable Offshore Corp. has invested $400 million in pipeline repairs and insists the line is safe. CEO James Wilkes said the restart will create 120 jobs and reduce U.S. reliance on foreign oil."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Washington is forcing California to accept a known environmental risk to pad oil company profits. We will see them in court.",
-          "cite": "Gov. Gavin Newsom"
+          "type": "paragraph",
+          "text": "The world's tropical rainforests are approaching a breaking point, according to a new report commissioned by Rainforest Foundation Norway and produced by Dutch research organization Profundo. The study, published on May 20, identifies a compounding assault on the Amazon, the Congo Basin, and the forests of Southeast Asia — one driven not only by long-established threats such as cattle ranching, oil drilling, and monoculture agriculture, but increasingly by a new wave of extraction tied to critical minerals, biofuels, and industrial pulp. These newer pressures, the report concludes, are weakening forests' ability to regulate temperature, store carbon, recycle water, and support wildlife — functions that underpin climate stability far beyond the forest edge."
         },
         {
           "type": "paragraph",
-          "content": [
-            "A hearing on the state's request for a preliminary injunction is scheduled for April 5. Meanwhile, local indigenous groups have set up a prayer camp at the pipeline's landing site."
-          ]
+          "text": "\"It creates a pressure that the rainforests cannot withstand,\" said Ingrid Turgen of Rainforest Foundation Norway. The study calls on governments and industry to urgently replace and reduce consumption of forest-derived products, and frames the extractive threats from energy, mining, and e-commerce as elements of a single compounded crisis rather than separate problems to be managed in isolation."
+        },
+        {
+          "type": "heading",
+          "text": "Cattle, Gold, and the Expanding Agricultural Frontier"
+        },
+        {
+          "type": "paragraph",
+          "text": "The report identifies cattle ranching, large-scale agriculture, and gold mining as the three most significant current threats to tropical forests — and all three are expected to continue expanding. The Brazilian government's own forecast of a 10.2 percent increase in beef production is likely to cause at least 57,000 square kilometers of additional deforestation by 2034, the study found. That projection could climb higher still if the trend of shifting ranching operations deeper into the Amazon continues. Global meat production overall is expected to rise by 13 percent over the same period, driven by population growth and rising incomes in developing markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gold mining is also carving into the Amazon at a pace that tracks commodity prices more than policy. Open-pit goldmines already cover 1.9 million hectares of the Amazon biome. The report identifies a clear correlation between gold price increases and deforestation linked to mining activity in the Brazilian Amazon, and projects that current demand trends will cause an additional 375 square kilometers of forest loss by 2028 from this source alone. Nearly three-quarters of gold demand comes from jewelry (43 percent) and investor holdings, with technology contributing a further 7 percent — meaning the market signals encouraging more mining are embedded in everyday consumer behavior."
+        },
+        {
+          "type": "heading",
+          "text": "The Clean Energy Paradox: Critical Minerals and Fossil Fuel Frontiers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Among the report's more pointed findings is a paradox at the heart of the global energy transition. Mining for critical minerals — lithium, nickel, and cobalt, which are essential components of electric vehicle batteries and renewable energy infrastructure — is adding new stress to forest ecosystems at precisely the moment the world is attempting to move away from fossil fuels. The environmental impact of these operations is larger than commonly understood, the report argues, due to secondary effects including water pollution from mine tailings, road construction that opens previously inaccessible forest interiors to further exploitation, and the displacement of communities that previously acted as de facto forest stewards."
+        },
+        {
+          "type": "paragraph",
+          "text": "Meanwhile, fossil fuel extraction itself is expanding into the Amazon at an accelerating rate. The study notes that the Amazon has become one of the world's fastest-growing fossil fuel frontiers, with active exploration and extraction in Brazil, Suriname, Ecuador, Colombia, and Peru. Nearly one-fifth of all oil and natural gas reserves discovered globally between 2022 and 2024 were located in South American rainforest or offshore areas. In the Congo Basin, the Democratic Republic of the Congo last year approved the exploration of 52 new oil blocks covering 1.24 million square kilometers in the Cuvette Centrale peatlands — the world's largest terrestrial carbon sink."
+        },
+        {
+          "type": "heading",
+          "text": "WRI Data: Loss Down from Record, But Still Alarmingly High"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Rainforest Foundation Norway report lands against a backdrop of cautious and contested progress documented in Global Forest Watch's annual analysis, released by the World Resources Institute on April 29. The WRI found that tropical primary rainforest loss dropped 36 percent in 2025 compared to the record high set in 2024 — a decline driven largely by policy enforcement in Brazil. The world still lost 4.3 million hectares of tropical primary rainforest in 2025, an area roughly the size of Denmark. Despite the year-on-year improvement, that figure remains 46 percent higher than the rate recorded a decade ago, with primary forests disappearing at approximately 11 soccer fields per minute."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bolivia recorded the second-highest amount of tropical primary forest loss in the world in 2025, despite holding 60 percent less primary forest than the Democratic Republic of Congo. Fire — mostly set by humans to clear land for agriculture — was the main driver in Bolivia, alongside the expansion of cattle ranching and soy and maize cultivation.In the DRC, although total forest loss dipped slightly in 2025, non-fire loss hit a record high, linked to small-scale farming, charcoal production, conflict-driven displacement, and intensifying pressure from mining.There's progress in parts of the Congo Basin, but in others deforestation remains alarmingly high, said Teodyl Nkuintchua, Congo Basin Strategy and Engagement Lead at WRI Africa."
+        },
+        {
+          "type": "heading",
+          "text": "Southeast Asia: Stable for Now, But Under Pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indonesia and Malaysia posted stable and relatively low forest loss rates in 2025 compared to the peaks of the mid-2010s. Indonesia's performance was attributed in part to policies restricting new forest clearing and expanding community forest rights.However, analysts cautioned that Jakarta's ambitions for large-scale food and energy self-sufficiency involving expanded palm oil and biofuel production risk reversing those gains. The WRI noted that 2026 will put Southeast Asia's recent progress to a severe test, with El Niño conditions expected to increase fire risk and national elections in several forest-heavy countries set to determine whether conservation policies hold."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley, drawing opposition from Pueblo communities." },
-      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century, boosting industry profits." }
+      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley, drawing opposition from Pueblo communities." },
+      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century, boosting industry profits." }
     ]
   },
   {
@@ -1902,8 +1948,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 601, "slug": "california-sable-offshore-pipeline", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/california-sable-offshore-pipeline.webp", "date": "March 13, 2026", "author": "Thomas Aldgate", "title": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline", "excerpt": "Washington is using federal emergency powers to restart a California offshore pipeline shuttered after a massive 2015 oil spill." },
-      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
+      { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
     ]
   },
   {
@@ -1960,8 +2006,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley." },
-      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century." }
+      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley." },
+      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century." }
     ]
   },
   {
@@ -2018,8 +2064,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 601, "slug": "california-sable-offshore-pipeline", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/california-sable-offshore-pipeline.webp", "date": "March 13, 2026", "author": "Thomas Aldgate", "title": "California Fights Federal Order to Restart Dangerous Sable Offshore Pipeline", "excerpt": "Washington is using federal emergency powers to restart a California offshore pipeline." },
-      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
+      { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
     ]
   },
   {
@@ -2076,8 +2122,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025, the highest number ever recorded." },
-      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
+      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025, the highest number ever recorded." },
+      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
     ]
   },
   {
@@ -2134,8 +2180,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 605, "slug": "uk-north-sea-drilling-ban-overturn-campaign", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "New Political Push Aims to Overturn U.K. North Sea Drilling Ban", "excerpt": "A coalition of Conservative MPs and oil industry groups has launched a campaign to overturn the U.K.'s 2025 ban on new North Sea oil and gas drilling licenses." },
-      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
+      { "id": 605, "slug": "uk-north-sea-drilling-ban-overturn-campaign", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "New Political Push Aims to Overturn U.K. North Sea Drilling Ban", "excerpt": "A coalition of Conservative MPs and oil industry groups has launched a campaign to overturn the U.K.'s 2025 ban on new North Sea oil and gas drilling licenses." },
+      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
     ]
   },
   {
@@ -2192,8 +2238,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025." },
-      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
+      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025." },
+      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
     ]
   },
   {
@@ -2250,8 +2296,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 605, "slug": "uk-north-sea-drilling-ban-overturn-campaign", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "New Political Push Aims to Overturn U.K. North Sea Drilling Ban", "excerpt": "A coalition of Conservative MPs and oil industry groups has launched a campaign to overturn the U.K.'s 2025 ban on new North Sea oil and gas drilling licenses." },
-      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]", "secondaryCategory": "Environmental Exploitation", "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
+      { "id": 605, "slug": "uk-north-sea-drilling-ban-overturn-campaign", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-north-sea-drilling-ban-overturn-campaign.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "New Political Push Aims to Overturn U.K. North Sea Drilling Ban", "excerpt": "A coalition of Conservative MPs and oil industry groups has launched a campaign to overturn the U.K.'s 2025 ban on new North Sea oil and gas drilling licenses." },
+      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
     ]
   },
   {
