@@ -5,7 +5,6 @@ import homepageData from "@/data/homepage.json";
 import Newsletter from "@/components/Newsletter";
 import AdBanner from "@/components/AdBanner";
 import StickyAd from "@/components/StickyAd";
-import CategoryCard from "@/components/CategoryCard";
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -1034,7 +1033,14 @@ export default function Home() {
               </h3>
               <div className="flex flex-col gap-1">
                 {categories.map((cat) => (
-                  <CategoryCard key={cat.label} cat={cat} />
+                  <Link
+                    key={cat.label}
+                    href={`/${labelToSlug(cat.label)}`}
+                    title={`Browse ${cat.label} articles`}
+                    className="flex items-center gap-2 text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors py-1"
+                  >
+                    <span>{cat.label}</span>
+                  </Link>
                 ))}
               </div>
             </div>
