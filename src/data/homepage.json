@@ -313,14 +313,16 @@
   "discoveryMiddle": [
     {
       "id": 502,
-      "slug": "uranium-drilling-new-mexico-chama-valley",
+      "slug": "ai-data-centres-environmental-backlash-us-uk",
       "category": "eco",
-      "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley",
-      "image": "/uranium-drilling-new-mexico-chama-valley.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 31, 2026",
-      "author": "Thomas Aldgate"
+      "date": "May 22, 2026",
+      "title": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+      "author": "Thomas Aldgate",
+      "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years.",
+      "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
+      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
     },
     {
       "id": 503,
@@ -394,13 +396,13 @@
 "technologyNews": [
   {
     "id": 701,
-    "slug": "irgc-intelligence-chief-killed-iran-ceasefire-2026",
+    "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
     "category": "intelligence",
-    "title": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks",
-    "excerpt": "Washington and Tehran receive a 45-day ceasefire draft as Iran's top intelligence commander falls in a targeted strike inside the capital.",
+    "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
+    "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict.",
     "author": "Naomi Vosburgh",
-    "date": "April 6, 2026",
-    "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp",
+    "date": "May 20, 2026",
+    "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -418,12 +420,12 @@
 "trendingSectionData": [
   {
     "id": 801,
-    "slug": "us-treasury-ofac-sanctions-evasion-sham-deals",
+    "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
-    "date": "March 31, 2026",
-    "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
-    "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
+    "date": "May 20, 2026",
+    "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch",
+    "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp",
     "author": "Felix Draper",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },

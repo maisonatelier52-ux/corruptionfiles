@@ -1890,60 +1890,91 @@
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley, drawing opposition from Pueblo communities." },
+      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
       { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century, boosting industry profits." }
     ]
   },
   {
     "id": 602,
-    "slug": "uranium-drilling-new-mexico-chama-valley",
+    "slug": "ai-data-centres-environmental-backlash-us-uk",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley",
-    "metaDescription": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley, drawing fierce opposition from Pueblo communities and environmentalists.",
-    "metaKeywords": ["uranium mining New Mexico", "Chama Valley", "Pueblo opposition", "nuclear fuel", "mining exploration"],
-    "heading": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley",
-    "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley, drawing opposition from Pueblo communities.",
-    "date": "March 31, 2026",
-    "image": "/uranium-drilling-new-mexico-chama-valley.webp",
-    "heroImage": "/uranium-drilling-new-mexico-chama-valley.webp",
-    "alt": "New Mexico desert landscape",
+    "metaTitle": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+    "metaDescription": "Rising AI infrastructure and data-centre expansion are increasing electricity demand in the US and UK, prompting environmental concerns and public opposition.",
+    "metaKeywords": [
+      "AI data centres environmental backlash 2026",
+      "data centres electricity demand UK US",
+      "Seattle data centre moratorium AI energy",
+      "UK datacentres gas electricity climate targets",
+      "EIA power demand record high data centres"
+    ],
+    "heading": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+    "excerpt": "Rising AI infrastructure and data-centre expansion are pushing electricity grids in the US and UK toward their limits — driving up consumer power bills, threatening climate targets, and sparking a growing wave of community opposition that is already canceling projects.",
+    "date": "May 22, 2026",
+    "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
+    "heroImage": "/ai-data-centres-environmental-backlash-us-uk.webp",
+    "alt": "Rows of AI data centre server racks drawing enormous electricity loads as public backlash mounts in the US and UK, May 2026",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "A",
-        "text": "Canadian mining firm Uranium Energy Corp. (UEC) has submitted a plan of operations to the U.S. Bureau of Land Management to drill 127 exploration holes for uranium in the Chama Valley of northern New Mexico, an area sacred to several Pueblo tribes."
-      },
-      "paragraphs": [
-        "The proposal covers 3,400 acres of public land about 40 miles north of Santa Fe. UEC says the area contains high-grade uranium deposits that could supply domestic nuclear reactors. 'This is a strategic resource for American energy independence,' said UEC CEO Amir Adnani.",
-        "But the All Pueblo Council of Governors passed a resolution opposing the project, citing contamination from historic uranium mining that has left a legacy of cancer and birth defects in the region. 'We have been poisoned before. We will not allow it to happen again,' said Laguna Pueblo Governor Wilfred Herrera."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Regulatory review underway",
-          "content": [
-            "The BLM has opened a 60-day public comment period and will prepare an Environmental Assessment. However, the Trump administration's 2025 executive order expediting domestic mineral production could accelerate approval.",
-            "Environmental groups note that groundwater in the Chama Valley feeds the Rio Grande, a drinking water source for 1 million people. 'Uranium mining is never safe, especially not in a watershed,' said Tannis Fox of the Western Environmental Law Center."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "We have been poisoned before. We will not allow it to happen again. This land is not a sacrifice zone.",
-          "cite": "Laguna Pueblo Governor Wilfred Herrera"
+          "type": "paragraph",
+          "text": "The rapid expansion of artificial intelligence infrastructure is colliding with electricity grids on both sides of the Atlantic, generating a surge of environmental concern, regulatory scrutiny, and public opposition that is starting to slow the industry's build-out in concrete ways. Data centres already consume around 6 percent of electricity supply in both the United Kingdom and the United States, according to recent industry estimates — a figure that industry analysts say is climbing rapidly as AI workloads multiply. The consequences are landing on ratepayers' bills, on national climate targets, and on the communities where the facilities are being built."
         },
         {
           "type": "paragraph",
-          "content": [
-            "If approved, drilling could begin as early as 2027. The company says it would use modern in-situ recovery methods that minimize surface disturbance, but opponents remain unconvinced."
-          ]
+          "text": "In the United States, the U.S. Energy Information Administration projected that power demand would rise to 4,283 billion kilowatt hours in 2026 — up from a record 4,097 billion kWh in 2024 — with data centres identified as a primary driver, alongside electrification of heating and transport. On PJM Interconnection, the 13-state grid that is the largest in the country, wholesale power prices jumped 76 percent in the first quarter of 2026 compared to the same period in 2025, averaging $136.53 per megawatt-hour against $77.78 a year earlier, according to a report by the grid's independent market monitor cited by Bloomberg. PJM's own executive vice president of market services, Stu Bresler, confirmed that data centres were responsible for a majority of the projected 5,400-megawatt increase in grid demand projected for 2026."
+        },
+        {
+          "type": "heading",
+          "text": "Consumers Pay as Utilities Race to Keep Up"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost pressure is reaching households. Utility companies requested state commissions to approve rate increases worth $9.4 billion in just the first three months of 2026, according to a report by the nonprofit PowerLines — following a record $31 billion in rate-hike requests for all of 2025, more than double the $15 billion sought in 2024, as reported by Fortune. Critically, nearly half of those 2025 requests had not yet been approved as of early 2026, meaning a significant wave of additional bill increases is still working through the regulatory pipeline. Virginia resident John Steinbach told Consumer Reports his electricity bill spiked to $281 in January 2026, more than double his typical payment, a pattern being reported by ratepayers across Northern Virginia's dense concentration of AI data centre campuses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers in more than 30 states have introduced over 300 bills in 2026 dealing with data-centre energy policy, moratoriums, and cost allocation, according to Multistate. In January, Reps. Mike Levin and Kathy Castor introduced the SHIELD Act to require large-load consumers rather than households to bear the costs of grid upgrades their facilities require. In March, Senators Elizabeth Warren and Josh Hawley — crossing the aisle — pushed the EIA to establish mandatory energy reporting requirements for data centres, writing that without such data, \"policymakers, utility companies, and local communities are operating in the dark.\" The Federal Energy Regulatory Commission is expected to act by the end of June on rules to govern how large data centres connect to the grid."
+        },
+        {
+          "type": "heading",
+          "text": "Seattle Weighs a One-Year Ban"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nowhere has the municipal-level fight become sharper than in Seattle. City officials are weighing a one-year moratorium on new large data centres after four companies approached Seattle City Light proposing five new facilities that would collectively require up to 369 megawatts of electricity per day — roughly one-third of the city's current average daily power usage. Two of those companies have since withdrawn their proposals, but City Councilmember Eddie Lin, who is sponsoring the moratorium legislation, said the pause is still needed to allow the city to develop proper rules. \"I don't see us having a permanent ban on all data centers,\" Lin said at a council meeting last week, \"but I do think we need to have appropriate rules and regulations\" covering water use, electricity consumption, noise, greenhouse-gas emissions, and jobs."
+        },
+        {
+          "type": "paragraph",
+          "text": "City Council President Joy Hollingsworth backed the measure, saying it was \"not a knee-jerk reaction\" and citing the experience of other American cities already grappling with the footprint of large-scale server farms. The Seattle Metropolitan Chamber of Commerce pushed back, with president Joe Nguyen arguing the moratorium would be \"more symbolic than functional\" — since data centre projects would simply relocate rather than disappear — and warning it risked being read as \"another attack on the technology industry.\" Mayor Katie Wilson's administration said Seattle City Light is separately developing new policies to ensure infrastructure and energy costs from large-load data centres are not passed on to city residents."
+        },
+        {
+          "type": "heading",
+          "text": "UK Datacentres Turn to Gas as Grid Queue Stretches for Years"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United Kingdom, the tension has taken a different and more immediate form. More than 100 new data centre projects are now planning to burn gas to generate their own electricity — with some potentially doing so permanently — because of the years-long wait to secure connections to the National Grid, The Guardian reported on May 18. Silvia Simon, head of research at Future Energy Networks, which represents UK gas suppliers, told the Guardian her organisation had received more than 100 requests for gas connections from data-centre operators over the past two years. The total gas demand those requests represent amounts to more than 15 terawatt hours per year — enough to power London for roughly four and a half months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stuart Okin, Ofgem's director of cyber regulation and AI, laid out the scale of the problem at the All-Energy conference in Glasgow: \"There's 100GW of datacentre projects in the queue. Clearly that's not all going to be able to connect to the grid. If a project isn't going to get a connection, it is going to have to come up with an alternative method.\" The shift to permanent gas generation puts the UK's Clean Power 2030 target in direct jeopardy. Julian Leslie, strategic planning director at the National Energy System Operator, told the Guardian the government's goal was to have less than 5 percent of power supplied by unabated gas, but data centres running on off-grid gas supplies would sit outside that accounting, raising what Leslie called \"an interesting question\" about what the target actually means in practice."
+        },
+        {
+          "type": "heading",
+          "text": "Public Opposition Hardens — and Starts to Cancel Projects"
+        },
+        {
+          "type": "paragraph",
+          "text": "The backlash is no longer just rhetorical. A record number of data centre projects were canceled in the first quarter of 2026 amid community resistance, according to data from Heatmap Pro, cited by Axios. Morgan Stanley analysts wrote in a note on midterm election market risks that \"public pushback is emerging as a binding constraint, particularly around data center buildout,\" while investment bank Jefferies told clients the cancellations were \"sapping confidence\" among investors. An Economist/YouGov poll conducted May 9-11 found over 70 percent of Americans believe AI is advancing too quickly — with 77 percent of Democrats and 68 percent of Republicans sharing that view. A separate Gallup survey found only 18 percent of young people between the ages of 14 and 29 say they feel hopeful about AI. Other YouGov polling shows negative views of the technology rising from 34 percent three years ago to just over 50 percent today."
         }
       ]
     },
@@ -2006,7 +2037,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "uranium-drilling-new-mexico-chama-valley", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uranium-drilling-new-mexico-chama-valley.webp", "date": "March 31, 2026", "author": "Thomas Aldgate", "title": "Canadian Firm Proposes New Uranium Drilling in New Mexico's Chama Valley", "excerpt": "A Canadian mining company has submitted a proposal for uranium exploration in New Mexico's Chama Valley." },
+      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
       { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century." }
     ]
   },
@@ -2302,19 +2333,25 @@
   },
   {
     "id": 701,
-    "slug": "irgc-intelligence-chief-killed-iran-ceasefire-2026",
+    "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks",
-    "metaDescription": "Iran's top intelligence commander, Brig. Gen. Mohammad Hossein Zadeh, was killed in a targeted strike inside Tehran as U.S. and Iranian negotiators finalize a 45-day ceasefire draft.",
-    "metaKeywords": ["IRGC intelligence chief killed", "Tehran strike", "US Iran ceasefire", "covert action", "intelligence news"],
-    "heading": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks",
-    "excerpt": "Washington and Tehran receive a 45-day ceasefire draft as Iran's top intelligence commander falls in a targeted strike inside the capital.",
-    "date": "April 6, 2026",
-    "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp",
-    "heroImage": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp",
-    "alt": "Tehran skyline at night",
+    "metaTitle": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
+    "metaDescription": "Britain's investigation into a major national security leak intensified after a senior diplomat in Washington abruptly stepped down amid scrutiny over classified Iran-related discussions.",
+    "metaKeywords": [
+      "James Roscoe UK deputy ambassador Washington 2026",
+      "UK National Security Council Iran leak probe",
+      "British diplomat security breach Iran war",
+      "UK embassy Washington leak investigation",
+      "Peter Mandelson Christian Turner UK ambassador"
+    ],
+    "heading": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
+    "excerpt": "Britain's deputy ambassador to the United States, James Roscoe, has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US military base access at the onset of the Iran conflict — one of the most sensitive security breaches to hit the British government in recent years.",
+    "date": "May 20, 2026",
+    "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
+    "heroImage": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
+    "alt": "British Embassy Washington DC as James Roscoe departs amid UK National Security Council leak investigation, May 2026",
     "author": {
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
@@ -2323,38 +2360,43 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "B",
-        "text": "rig. Gen. Mohammad Hossein Zadeh, the head of the Islamic Revolutionary Guard Corps (IRGC) Intelligence Organization, was killed Sunday evening in a precision strike on his vehicle in eastern Tehran, according to Iranian state media and U.S. officials."
-      },
-      "paragraphs": [
-        "The strike, which Iranian authorities have blamed on 'Zionist elements,' occurred just hours after Swiss diplomats delivered a draft 45-day ceasefire proposal to both Tehran and Washington. Zadeh, 58, was responsible for IRGC counterintelligence and external operations against U.S. and Israeli targets. He had survived two previous assassination attempts in 2024 and 2025.",
-        "U.S. officials, speaking on condition of anonymity, said the U.S. was not involved but declined to comment further. Israeli intelligence minister Gila Gamliel posted a cryptic tweet — 'The world is safer tonight' — before deleting it. The Pentagon issued a standard statement: 'We have no information to provide at this time.'"
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Ceasefire talks thrown into uncertainty",
-          "content": [
-            "The killing threatens to derail fragile ceasefire negotiations aimed at halting six weeks of U.S.-Iran proxy conflict in Syria and Iraq. Iranian Supreme Leader Ali Khamenei issued a statement vowing 'severe revenge at a time and place of our choosing.' However, initial military responses have been restrained; no rocket or drone attacks on U.S. positions have been reported in the 48 hours since the strike.",
-            "U.S. National Security Advisor Jake Sullivan convened an emergency principals meeting at the White House. The administration has ordered all non-essential diplomatic personnel to leave Beirut and Baghdad as a precaution."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This was a decapitation strike against the man who orchestrated attacks on U.S. troops. Whoever did it, the Islamic Republic has been dealt a serious blow.",
-          "cite": "Former CIA intelligence officer Marc Polymeropoulos"
+          "type": "paragraph",
+          "text": "Britain's deputy ambassador to the United States, James Roscoe, has abruptly departed from his role as the country's second most senior diplomat in Washington. The Foreign Office confirmed only that he had \"left his post,\" providing no further explanation. According to The Times, Roscoe is understood to have been questioned in an inquiry into the leak of highly classified discussions that took place during a National Security Council meeting — deliberations that concerned a US request to utilise British military bases at the onset of the Iran conflict. Details of those discussions were leaked to a journalist in March."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The 45-day ceasefire draft reportedly includes a mutual halt to military operations, Iranian commitments to curb proxy attacks, and U.S. sanctions relief on Iranian oil exports. The State Department said it remains committed to diplomacy but declined to comment on the status of talks following the assassination."
-          ]
+          "text": "Roscoe, 49, had held the deputy ambassador role since July 2022. Between September 2025 and February 2026, he also served as Chargé d'Affaires to the United States after Lord Peter Mandelson was dismissed as ambassador because of his connections to disgraced financier Jeffrey Epstein. Roscoe had been widely considered a potential permanent successor to Mandelson before the role was ultimately given to Sir Christian Turner, who took up the position in February 2026. Roscoe retained the deputy post until his sudden departure this week."
+        },
+        {
+          "type": "heading",
+          "text": "What Was Leaked — and Why It Matters"
+        },
+        {
+          "type": "paragraph",
+          "text": "National Security Council meetings are ordinarily restricted to a small group of ministers, senior advisers, and intelligence officials precisely because they can involve classified operational planning and sensitive diplomatic coordination. The specific NSC discussion at the centre of the probe dealt with whether Britain would allow the United States to use British military bases in connection with operations involving Iran — material whose disclosure triggered significant anger inside government. Foreign Office sources confirmed to reporters that senior embassy officials in Washington were among those formally questioned as the investigation sought to identify the source of the March leak."
+        },
+        {
+          "type": "paragraph",
+          "text": "The leak lands at a particularly fraught moment for the British embassy in Washington. The mission is still navigating the diplomatic damage from Mandelson's removal and has been further destabilised by controversial remarks made by current ambassador Sir Christian Turner, who was recorded telling visiting sixth-form students that America's only genuine \"special relationship\" was \"probably Israel, not Britain.\" Turner also said in the same session that the Epstein scandal had \"brought down a senior member of the royal family, a British ambassador to Washington, potentially the Prime Minister, and yet here in the US, it really hasn't touched anybody.\" His comments were subsequently leaked to the Financial Times. Prime Minister Keir Starmer later declined to remove Turner, saying the ambassador was the \"least of my problems.\""
+        },
+        {
+          "type": "heading",
+          "text": "Roscoe's Record and the Embassy's Diplomatic Exposure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Roscoe brought an unusually rich portfolio to the Washington post. Before his appointment as deputy ambassador, he served as Britain's ambassador to the United Nations General Assembly and previously acted as communications secretary to the late Queen Elizabeth II. He also served as chief press officer in Downing Street for Prime Ministers Tony Blair and Gordon Brown. His earlier diplomatic assignments took him to Sierra Leone and Iraq. In Washington, he played a significant coordinating role in both President Trump's 2025 state visit to the United Kingdom and King Charles III's recent trip to the United States to mark the 250th anniversary of American independence. During the King's Washington visit, Roscoe praised the monarch to CNN, describing him as able to \"draw out those things that really pull us together\" in the US-UK relationship."
+        },
+        {
+          "type": "paragraph",
+          "text": "His departure comes as the British embassy faces the compound pressure of the Mandelson aftermath, Turner's leaked remarks, and now the NSC investigation — all against the backdrop of publicly aired disagreements between President Trump and Prime Minister Starmer over Britain's posture toward the Iran war. The embassy in Washington plays a central role in intelligence cooperation and defence coordination between London and Washington, making the position of its senior officials — and questions about what they may have disclosed — a matter of acute sensitivity for both governments. No timeline has been given for when the leak investigation is expected to conclude, and no charges have been publicly announced."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 702, "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict", "category": "intelligence", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Intelligence", "secondaryColor": "bg-[#00008b]", "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp", "date": "April 6, 2026", "author": "Naomi Vosburgh", "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict", "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams." }
+      { "id": 702, "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp", "date": "April 6, 2026", "author": "Naomi Vosburgh", "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict", "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams." }
     ]
   },
   {
@@ -2411,24 +2453,30 @@
       ]
     },
     "relatedPosts": [
-      { "id": 701, "slug": "irgc-intelligence-chief-killed-iran-ceasefire-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]", "secondaryCategory": "Intelligence", "secondaryColor": "bg-[#00008b]", "image": "/irgc-intelligence-chief-killed-iran-ceasefire-2026.webp", "date": "April 6, 2026", "author": "Naomi Vosburgh", "title": "IRGC Intelligence Chief Killed in Tehran Amid U.S.–Iran Ceasefire Talks", "excerpt": "Iran's top intelligence commander was killed in a targeted strike inside Tehran as U.S. and Iranian negotiators finalize a 45-day ceasefire draft." }
+      { "id": 701, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
     ]
   },
   {
     "id": 801,
-    "slug": "us-treasury-ofac-sanctions-evasion-sham-deals",
+    "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
-    "metaDescription": "OFAC issued new rules targeting sanctions evasion through complex ownership structures, shell companies, and sham transactions, closing loopholes exploited by Russian oligarchs.",
-    "metaKeywords": ["OFAC sanctions evasion", "sham deals", "Russian oligarchs", "Treasury Department", "sanctions compliance"],
-    "heading": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals",
-    "excerpt": "US Treasury issued new rules to stop sanctions evasion via sham deals, targeting complex ownership structures and shell companies.",
-    "date": "March 31, 2026",
-    "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
-    "heroImage": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp",
-    "alt": "Treasury Department building",
+    "metaTitle": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch",
+    "metaDescription": "The UK has postponed its planned ban on diesel and jet fuel refined from Russian crude in third countries, citing global supply concerns linked to Middle East tensions.",
+    "metaKeywords": [
+      "UK Russian fuel import ban delay 2026",
+      "UK sanctions Russian oil diesel jet fuel",
+      "Strait of Hormuz oil supply disruption",
+      "UK Russia sanctions Middle East energy crisis",
+      "Keir Starmer Russian oil carve-out Ukraine"
+    ],
+    "heading": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch",
+    "excerpt": "Britain has deferred a ban on diesel and jet fuel refined from Russian crude in third countries, issuing an indefinite trade licence on May 20 as supply disruptions caused by the Iran war push Brent crude to around $109 a barrel — drawing sharp criticism from Ukrainian and British lawmakers who say London is backtracking on its sanctions commitments.",
+    "date": "May 20, 2026",
+    "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp",
+    "heroImage": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp",
+    "alt": "Oil tanker navigating past Strait of Hormuz as the UK defers its Russian crude fuel import ban, May 2026",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
@@ -2437,39 +2485,52 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he U.S. Department of the Treasury's Office of Foreign Assets Control (OFAC) on Tuesday issued a sweeping final rule targeting sanctions evasion through sham transactions, layered ownership structures, and the use of third-country shell companies."
-      },
-      "paragraphs": [
-        "The rule, which takes effect June 1, 2026, codifies the '50% rule' but expands it to include indirect ownership through multiple tiers of entities. It also creates a rebuttable presumption that any transaction involving a designated entity within the previous five years is subject to sanctions, shifting the burden of proof to the financial institution.",
-        "Treasury Secretary Janet Yellen said the rule closes 'egregious loopholes' exploited by Russian oligarchs and Iranian front companies. 'If you structure a deal to hide a sanctioned party, you are now on notice that we will find it and we will act,' Yellen said."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Industry reaction and compliance costs",
-          "content": [
-            "Banking and compliance groups expressed concern about the expanded liability. 'The presumption provision is a significant departure from longstanding practice,' said Rob Nichols of the American Bankers Association. 'We worry it will lead to mass de-risking, cutting off legitimate clients.'",
-            "OFAC estimates the rule will increase compliance costs by approximately $240 million annually across the financial sector but said the national security benefits outweigh the costs. The rule also adds 25 new general licenses for humanitarian and energy transactions."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "If you structure a deal to hide a sanctioned party, you are now on notice that we will find it and we will act. The era of easy evasion is over.",
-          "cite": "Treasury Secretary Janet Yellen"
+          "type": "paragraph",
+          "text": "Britain said on Wednesday it will continue to allow imports of diesel and jet fuel refined from Russian crude in third countries, deferring a ban first announced in October 2025 to help the country cope with supply issues caused by the Iran war. The decision, announced through a trade licence published on May 20 by the Department for Business and Trade, takes effect immediately for an indefinite period and will be reviewed periodically. Under the carve-out, Britain has reopened imports of jet fuel and diesel refined in third countries such as India and Turkey that may be derived from Russian oil, as prices surge and supply chains tighten."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The rule was first proposed in August 2025 and received 1,200 public comments, the most of any OFAC rulemaking in a decade."
-          ]
+          "text": "The backdrop to the reversal is a global energy market under acute stress. Brent crude was trading at around $109 a barrel on Wednesday — roughly 50 percent higher than before the Iran war — reflecting severely disrupted flows through the Strait of Hormuz, the chokepoint that normally handles around 20 million barrels of oil and petroleum products per day. The closure has removed roughly 20 percent of global oil trade, forced Gulf producers to curtail output, and pushed buyers worldwide to compete for non-Gulf supplies, with Russian crude repositioning itself as one of the most sought-after alternatives on international markets."
+        },
+        {
+          "type": "heading",
+          "text": "Starmer Defends the Move; Critics Call It a Betrayal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prime Minister Keir Starmer told parliament the measures were part of a broader sanctions package that continued to increase pressure on Moscow, describing the licence as a way of phasing in the ban rather than abandoning it. \"This is not a question of lifting existing sanctions in any way whatsoever,\" Starmer said. Trade department minister Chris Bryant framed the decision as a response to \"the situation in the Middle East\" and pledged to suspend the licence — effectively implementing the ban — as quickly as possible. Bryant later apologised to MPs for what he called the government's \"clumsy\" handling of the announcement, saying he wanted the exemption to be \"as temporary as possible.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "The defence did not stop criticism from cutting across party lines. Conservative opposition leader Kemi Badenoch told Starmer directly in parliament that he had chosen to \"buy dirty Russian oil\" and that the money would fund the killing of Ukrainian soldiers. Senior Labour backbencher and Foreign Affairs Committee chair Dame Emily Thornberry was equally pointed, saying Ukraine had been \"very let down\" by a government that had promised to close the loophole in October and had not done so. Ukrainian opposition lawmaker Oleksiy Honcharenko told Times Radio the decision was \"deeply disappointing\" and raised a \"question mark\" over Britain's support for Kyiv. An adviser for President Volodymyr Zelenskyy said the Ukrainian president's office had \"very active communication\" with the British government, which was still clarifying details of the decision."
+        },
+        {
+          "type": "heading",
+          "text": "Britain's Structural Refining Gap"
+        },
+        {
+          "type": "paragraph",
+          "text": "The underlying vulnerability the licence exposes is structural. Britain now has only four active refineries — down from nine in 2000, following the recent closure of the Lindsey facility — with a combined capacity of around one million barrels per day. But its total product demand in March stood at 1.35 million barrels per day according to the latest IEA data, with 61 percent of that demand accounted for by diesel and jet fuel, which Britain does not produce in sufficient quantities domestically. In 2025, Britain imported 483,000 barrels per day of middle distillates, according to data from Kpler, with India, Kuwait, Saudi Arabia, and the UAE supplying 35 percent of that total. Much of what comes from India and Turkey is refined from discounted Russian crude — the exact flow the October 2025 ban was designed to curtail."
+        },
+        {
+          "type": "paragraph",
+          "text": "Airlines had warned in April about potential summer shortages of jet fuel, and while carriers recently struck a more bullish tone on near-term availability, many have already hiked fares and cut some flights in response to cost pressures. Junior Treasury minister Dan Tomlinson defended the licence as a \"sensible decision\" to ensure supply security for industry, airlines, and households, while noting that Britain continues to provide billions of pounds of military equipment to Ukraine and that thousands of sanctions against Russian individuals, businesses, and ships remain in force."
+        },
+        {
+          "type": "heading",
+          "text": "Washington and Brussels Diverge on Russian Oil Waivers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Britain's move did not take place in isolation. The United States extended a sanctions waiver on Monday allowing purchases of Russian seaborne oil to support energy-vulnerable countries hit by supply disruptions — the second such measure since one was first introduced in March. EU economy commissioner Valdis Dombrovskis criticised Washington's extension, warning it risked boosting Russia's revenues. \"From the EU point of view, we do not think that this is the time to ease pressure on Russia,\" Dombrovskis said on Tuesday. Separately, Britain on Tuesday issued a licence running until January to cover the maritime transportation of liquefied natural gas from the Sakhalin-2 and Yamal projects, along with related shipping, financing, and brokering services — two of Russia's largest gas export operations. The Home Secretary retains the right to change, revoke or suspend either licence at any time, and the government said it would endeavour to publish any revocation decision at least four months in advance."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule, dealing a major blow to efforts to track anonymous all-cash purchases." },
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals and 3 new general licenses for agricultural and pharmaceutical transactions." }
+      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule, dealing a major blow to efforts to track anonymous all-cash purchases." },
+      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals and 3 new general licenses for agricultural and pharmaceutical transactions." }
     ]
   },
   {
@@ -2526,8 +2587,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 801, "slug": "us-treasury-ofac-sanctions-evasion-sham-deals", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp", "date": "March 31, 2026", "author": "Felix Draper", "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals", "excerpt": "OFAC issued new rules targeting sanctions evasion through complex ownership structures, shell companies, and sham transactions." },
-      { "id": 804, "slug": "fincen-whistleblower-program-offshore-tax-evasion", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking", "excerpt": "FinCEN launched a whistleblower program offering up to 30% of sanctions recovered for tips on offshore tax evasion and money laundering." }
+      { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
+      { "id": 804, "slug": "fincen-whistleblower-program-offshore-tax-evasion", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking", "excerpt": "FinCEN launched a whistleblower program offering up to 30% of sanctions recovered for tips on offshore tax evasion and money laundering." }
     ]
   },
   {
@@ -2584,8 +2645,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 801, "slug": "us-treasury-ofac-sanctions-evasion-sham-deals", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp", "date": "March 31, 2026", "author": "Felix Draper", "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals", "excerpt": "OFAC issued new rules targeting sanctions evasion through complex ownership structures." },
-      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
+      { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
+      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
     ]
   },
   {
@@ -2642,8 +2703,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
-      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
+      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
+      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
     ]
   },
   {
@@ -2700,8 +2761,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 803, "slug": "irs-voluntary-disclosure-offshore-accounts-penalties", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts", "excerpt": "The IRS announced a major overhaul of its voluntary disclosure program, reducing penalties and streamlining the process for taxpayers with undisclosed offshore accounts." },
-      { "id": 804, "slug": "fincen-whistleblower-program-offshore-tax-evasion", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking", "excerpt": "FinCEN launched a whistleblower program offering up to 30% of sanctions recovered for tips on offshore tax evasion and money laundering." }
+      { "id": 803, "slug": "irs-voluntary-disclosure-offshore-accounts-penalties", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts", "excerpt": "The IRS announced a major overhaul of its voluntary disclosure program, reducing penalties and streamlining the process for taxpayers with undisclosed offshore accounts." },
+      { "id": 804, "slug": "fincen-whistleblower-program-offshore-tax-evasion", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking", "excerpt": "FinCEN launched a whistleblower program offering up to 30% of sanctions recovered for tips on offshore tax evasion and money laundering." }
     ]
   },
   {
@@ -2758,8 +2819,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 801, "slug": "us-treasury-ofac-sanctions-evasion-sham-deals", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp", "date": "March 31, 2026", "author": "Felix Draper", "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals", "excerpt": "OFAC issued new rules targeting sanctions evasion through complex ownership structures, shell companies, and sham transactions." },
-      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
+      { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
+      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
     ]
   },
   {
@@ -2816,8 +2877,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
-      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
+      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
+      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
     ]
   },
   {
@@ -2874,8 +2935,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses for agricultural and pharmaceutical transactions." },
-      { "id": 809, "slug": "bny-named-financial-agent-trump-accounts-asset-program", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program", "excerpt": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act." }
+      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses for agricultural and pharmaceutical transactions." },
+      { "id": 809, "slug": "bny-named-financial-agent-trump-accounts-asset-program", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program", "excerpt": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act." }
     ]
   },
   {
@@ -2932,8 +2993,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 801, "slug": "us-treasury-ofac-sanctions-evasion-sham-deals", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/us-treasury-ofac-sanctions-evasion-sham-deals.webp", "date": "March 31, 2026", "author": "Felix Draper", "title": "US Treasury Issues New Rules to Stop Sanctions Evasion via Sham Deals", "excerpt": "OFAC issued new rules targeting sanctions evasion through complex ownership structures, shell companies, and sham transactions." },
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]", "secondaryCategory": "Offshore Wealth & Sanctions", "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses." }
+      { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
+      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses." }
     ]
   }
   ]
