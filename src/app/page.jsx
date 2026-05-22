@@ -18,9 +18,9 @@ const SITE_NAME = "Corruption Files";
 //      image with dimensions), and Twitter card. Fixed site name.
 
 export const metadata = {
-  title: `${SITE_NAME} | Investigative News on Politics, Surveillance & Accountability`,
+  title: `${SITE_NAME} | Investigative News & Accountability`,
   description:
-    "Corruption Files covers government accountability, police misconduct, medical fraud, offshore wealth, and environmental exploitation — stories the powerful don't want told.",
+    "Investigative reporting on corruption, surveillance, misconduct, fraud, and environmental abuse.",
 
   // FIX: keywords
   keywords:
