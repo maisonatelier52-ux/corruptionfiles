@@ -782,7 +782,7 @@ export default async function AuthorPage({ params }) {
                 >
                   <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                     <img
-                      src="/corruption-files-ad.webp"
+                      src="/corruptionfiles-ad-hor.webp"
                       alt="Corruption Files — Investigative Journalism"
                       className="w-full h-auto object-contain"
                     />

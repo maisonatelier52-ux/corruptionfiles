@@ -13,31 +13,21 @@ const SITE_URL =
 const SITE_NAME = "Corruption Files";
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
-// FIX: Added keywords, canonical, robots, complete OG block (url, description,
-//      image with dimensions), and Twitter card. Fixed site name.
 
 export const metadata = {
   title: `${SITE_NAME} | Investigative News & Accountability`,
   description:
     "Investigative reporting on corruption, surveillance, misconduct, fraud, and environmental abuse.",
-
-  // FIX: keywords
   keywords:
     "investigative journalism, government accountability, police misconduct, medical fraud, offshore wealth, sanctions, environmental exploitation, surveillance, corruption news",
-
-  // FIX: canonical
   alternates: {
     canonical: SITE_URL,
   },
-
-  // FIX: explicit robots
   robots: {
     index: true,
     follow: true,
     googleBot: { index: true, follow: true },
   },
-
-  // FIX: complete Open Graph
   openGraph: {
     type: "website",
     url: SITE_URL,
@@ -47,15 +37,13 @@ export const metadata = {
       "Corruption Files covers government accountability, police misconduct, medical fraud, offshore wealth, and environmental exploitation.",
     images: [
       {
-        url: `${SITE_URL}/og-twitter.webp`, // update to your actual OG image
+        url: `${SITE_URL}/og-twitter.webp`,
         width: 1200,
         height: 630,
         alt: `${SITE_NAME} — Investigative Journalism`,
       },
     ],
   },
-
-  // FIX: Twitter card
   twitter: {
     card: "summary_large_image",
     title: `${SITE_NAME} | Investigative News`,
@@ -67,7 +55,6 @@ export const metadata = {
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
-/** Convert a date string to ISO-8601 for <time dateTime> and JSON-LD */
 function toISODate(dateStr) {
   if (!dateStr) return undefined;
   const d = new Date(dateStr);
@@ -133,7 +120,6 @@ const LATEST_ARTICLES = collectLatestArticles(4);
 
 function PlayIcon() {
   return (
-    // FIX: aria-hidden on decorative play icon
     <div
       className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none"
       aria-hidden="true"
@@ -153,7 +139,6 @@ function PlayIcon() {
 }
 
 // ─── NewsCard ────────────────────────────────────────────────────────────────
-// FIX: title attr on links, rel="author", aria-hidden on icons, <time dateTime>
 
 function NewsCard({
   slug,
@@ -194,19 +179,16 @@ function NewsCard({
       <div className="text-[11px] text-gray-400 mb-1 flex items-center gap-1">
         {isSponsored ? (
           <>
-            {/* FIX: aria-hidden on decorative icon */}
             <Bell size={11} aria-hidden="true" /> Sponsored content
           </>
         ) : (
           <>
             <Calendar size={11} aria-hidden="true" />
-            {/* FIX: <time> with dateTime */}
             <time dateTime={iso}>{date}</time>
           </>
         )}
       </div>
 
-      {/* FIX: h3 is correct here (under a section h2) */}
       <h3 className="font-bold text-[16px] text-gray-900 leading-snug mb-1 group-hover:text-blue-600 transition-colors">
         <Link href={href} title={title}>
           {title}
@@ -215,7 +197,6 @@ function NewsCard({
 
       <p className="text-xs text-gray-500 mb-2">
         By{" "}
-        {/* FIX: rel="author" + title on author link */}
         <Link
           href={authorHref(author)}
           title={`More articles by ${author}`}
@@ -233,8 +214,6 @@ function NewsCard({
 }
 
 // ─── NewsListCard ─────────────────────────────────────────────────────────────
-// FIX: was using <h2> for article titles which clashes with section <h2>s → <h3>
-//      Added title attrs, rel="author", aria-hidden on icons, <time dateTime>
 
 function NewsListCard({ card }) {
   const href = `/${card.category}/${card.slug}`;
@@ -273,12 +252,10 @@ function NewsListCard({ card }) {
         ) : card.date ? (
           <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
             <Calendar size={11} aria-hidden="true" />
-            {/* FIX: <time> with dateTime */}
             <time dateTime={iso}>{card.date}</time>
           </p>
         ) : null}
 
-        {/* FIX: was <h2> — changed to <h3> to keep correct heading hierarchy */}
         <h3 className="font-bold text-gray-900 text-base md:text-[17px] leading-snug mb-2">
           <Link
             href={href}
@@ -311,7 +288,6 @@ function NewsListCard({ card }) {
             className="bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors inline-block"
           >
             READ MORE
-            {/* FIX: sr-only text for screen readers */}
             <span className="sr-only"> — {card.title}</span>
           </Link>
         </div>
@@ -321,7 +297,6 @@ function NewsListCard({ card }) {
 }
 
 // ─── TrendingCard ─────────────────────────────────────────────────────────────
-// FIX: title attr on Link, aria-hidden on icons, <time dateTime>
 
 function TrendingCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -360,8 +335,30 @@ function TrendingCard({ item }) {
   );
 }
 
+// ─── SidebarCategoryCard (imported style from author page) ───────────────────
+
+function SidebarCategoryCard({ cat }) {
+  return (
+    <Link
+      href={`/${cat.category}`}
+      title={`Browse ${cat.label} articles`}
+      className="relative overflow-hidden h-[56px] cursor-pointer group block"
+    >
+      <Image
+        src={cat.image}
+        alt={`${cat.label} category`}
+        fill
+        sizes="300px"
+        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300"
+      />
+      <div className="absolute inset-0 flex items-center px-4 z-10">
+        <span className="text-white font-bold text-base">{cat.label}</span>
+      </div>
+    </Link>
+  );
+}
+
 // ─── DiscoveryMainCard ────────────────────────────────────────────────────────
-// FIX: <h3> (was already h3 — kept), title on links, <time dateTime>, rel="author"
 
 function DiscoveryMainCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -388,7 +385,6 @@ function DiscoveryMainCard({ item }) {
       <div className="flex-1 flex flex-col">
         <div className="text-[11px] text-gray-400 mb-2 flex items-center gap-1">
           <Calendar size={12} aria-hidden="true" />
-          {/* FIX: <time> with dateTime */}
           <time dateTime={iso}>{item.date}</time>
         </div>
         <h3 className="text-xl md:text-2xl font-bold text-gray-900 leading-tight mb-2 group-hover:text-blue-600 transition-colors">
@@ -416,7 +412,6 @@ function DiscoveryMainCard({ item }) {
 }
 
 // ─── DiscoveryMiddleItem ──────────────────────────────────────────────────────
-// FIX: was <h4> (skipped h3) → <h3>; title on link; <time dateTime>; aria-hidden icons
 
 function DiscoveryMiddleItem({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -456,7 +451,6 @@ function DiscoveryMiddleItem({ item }) {
               </span>
             )}
           </div>
-          {/* FIX: was <h4> (skipping h3 level) — corrected to <h3> */}
           <h3 className="font-bold text-[16px] text-gray-900 leading-snug group-hover:text-blue-600 transition-colors line-clamp-3">
             <Link href={href} title={item.title}>
               {item.title}
@@ -481,7 +475,6 @@ function DiscoveryMiddleItem({ item }) {
 }
 
 // ─── DiscoveryRightItem ───────────────────────────────────────────────────────
-// FIX: was <h4> → <h3>; title on link; <time dateTime>; aria-hidden on icon
 
 function DiscoveryRightItem({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -503,7 +496,6 @@ function DiscoveryRightItem({ item }) {
           </span>
         )}
       </div>
-      {/* FIX: was <h4> — corrected to <h3> */}
       <h3 className="font-bold text-[15px] text-gray-900 leading-snug mb-2 group-hover:text-blue-600 transition-colors">
         <Link href={href} title={item.title}>
           {item.title}
@@ -518,7 +510,6 @@ function DiscoveryRightItem({ item }) {
 }
 
 // ─── TechOverlayCard ──────────────────────────────────────────────────────────
-// FIX: <h3> already correct; added title on Link, <time dateTime>, aria-hidden icons
 
 function TechOverlayCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -583,7 +574,6 @@ function TechOverlayCard({ item }) {
 }
 
 // ─── TrendingCircleCard ───────────────────────────────────────────────────────
-// FIX: was <h4> → <h3>; title attrs on links; category link title
 
 function TrendingCircleCard({ item }) {
   const href = `/${item.category}/${item.slug}`;
@@ -609,7 +599,6 @@ function TrendingCircleCard({ item }) {
       <div className="flex-1 min-w-0 pt-1">
         <div className="flex flex-wrap gap-1 mb-2">
           {item.categories.map((cat, idx) => (
-            // FIX: title attribute on category link
             <Link
               key={idx}
               href={`/${labelToSlug(cat.label)}`}
@@ -623,7 +612,6 @@ function TrendingCircleCard({ item }) {
             </Link>
           ))}
         </div>
-        {/* FIX: was <h4> — corrected to <h3> */}
         <h3 className="font-bold text-[15px] md:text-[16px] text-gray-900 leading-snug group-hover:text-blue-600 transition-colors line-clamp-3">
           <Link href={href} title={item.title}>
             {item.title}
@@ -653,9 +641,6 @@ export default function Home() {
   } = homepageData;
 
   // ─── JSON-LD ────────────────────────────────────────────────────────────────
-  // FIX 1: NewsMediaOrganization — logo is now a proper ImageObject
-  // FIX 2: Added WebSite schema with SearchAction for Google Sitelinks Searchbox
-  // FIX 3: Added description to organization
 
   const orgJsonLd = {
     "@context": "https://schema.org",
@@ -666,17 +651,16 @@ export default function Home() {
       "Corruption Files is an investigative news outlet covering government accountability, police misconduct, medical fraud, offshore wealth, and environmental exploitation.",
     logo: {
       "@type": "ImageObject",
-      url: `${SITE_URL}/logo.png`, // update to your actual logo path
+      url: `${SITE_URL}/logo.png`,
       width: 200,
       height: 60,
     },
     sameAs: [
-      "https://twitter.com/corruptionfiles", // update with real handles
+      "https://twitter.com/corruptionfiles",
       "https://www.facebook.com/corruptionfiles",
     ],
   };
 
-  // FIX: WebSite with SearchAction enables Google Sitelinks search box
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
@@ -694,7 +678,6 @@ export default function Home() {
 
   return (
     <main className="bg-white min-h-screen">
-      {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
@@ -706,7 +689,6 @@ export default function Home() {
 
       <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">
 
-        {/* FIX: H1 — corrected brand name, still sr-only (homepage uses section h2s visually) */}
         <h1 className="sr-only">
           {SITE_NAME} — Investigative News on Government, Police Accountability,
           Medical Fraud, Surveillance and Offshore Wealth
@@ -714,7 +696,6 @@ export default function Home() {
 
         {/* ── GOVERNMENT SECTION ─────────────────────────────────────────── */}
         <div className="border-b-2 border-black mb-6">
-          {/* FIX: title attr on section heading link */}
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link
               href="/govt"
@@ -752,7 +733,6 @@ export default function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-          {/* Featured overlay card */}
           <Link
             href={`/${
               inOtherNews.featured.categories?.[0]
@@ -787,7 +767,6 @@ export default function Home() {
                   Sponsored content
                 </div>
               )}
-              {/* FIX: h3 inside this card (under section h2 "Puerto Rico") */}
               <h3 className="text-2xl font-bold leading-tight mb-4 max-w-md group-hover:text-blue-300 transition-colors">
                 {inOtherNews.featured.title}
               </h3>
@@ -821,7 +800,6 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-8 mt-8 mb-8">
           {healthcareNews.map((item) => (
-            // FIX: proper <article> wrapping with <h3> heading (was bare <Link>)
             <article key={item.id} className="flex flex-col gap-3 group">
               <Link
                 href={`/${item.category}/${item.slug}`}
@@ -838,7 +816,6 @@ export default function Home() {
                     </span>
                   ))}
                 </div>
-                {/* FIX: <h3> for card titles (under section <h2>) */}
                 <h3 className="text-[17px] font-bold leading-tight text-[#222] group-hover:text-blue-600 transition-colors">
                   {item.title}
                 </h3>
@@ -850,7 +827,6 @@ export default function Home() {
                   ) : (
                     <span className="flex items-center gap-1">
                       <Calendar size={11} aria-hidden="true" />
-                      {/* FIX: <time> with dateTime */}
                       <time dateTime={toISODate(item.date)}>{item.date}</time>
                     </span>
                   )}
@@ -904,12 +880,10 @@ export default function Home() {
               <div className="space-y-4">
                 <span className="text-[11px] text-gray-400 flex items-center gap-1">
                   <Calendar size={11} aria-hidden="true" />
-                  {/* FIX: <time> with dateTime */}
                   <time dateTime={toISODate(worldNews.main.date)}>
                     {worldNews.main.date}
                   </time>
                 </span>
-                {/* FIX: was <h2> inside article under a section <h2> → <h3> */}
                 <h3 className="text-3xl font-bold text-[#222] group-hover:text-blue-600 transition-colors">
                   {worldNews.main.title}
                 </h3>
@@ -923,7 +897,6 @@ export default function Home() {
             </Link>
           </article>
 
-          {/* FIX: aria-label on aside */}
           <aside
             className="lg:col-span-4 flex flex-col gap-4"
             aria-label="Related Big Tech articles"
@@ -966,7 +939,6 @@ export default function Home() {
                     <Calendar size={11} aria-hidden="true" />
                     <time dateTime={toISODate(item.date)}>{item.date}</time>
                   </span>
-                  {/* FIX: <h3> for sidebar card titles */}
                   <h3 className="text-xl font-bold text-[#222] group-hover:text-blue-600 transition-colors">
                     {item.title}
                   </h3>
@@ -986,7 +958,6 @@ export default function Home() {
               <NewsListCard key={card.id} card={card} />
             ))}
 
-            {/* FIX: rel="sponsored" added to ad link */}
             <a
               href="https://www.corruptionfiles.com/"
               target="_blank"
@@ -996,7 +967,7 @@ export default function Home() {
             >
               <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                 <img
-                  src="/corruption-files-ad.webp"
+                  src="/corruptionfiles-ad-hor.webp"
                   alt="Corruption Files — Investigative Journalism"
                   className="w-full h-auto object-contain"
                 />
@@ -1009,7 +980,6 @@ export default function Home() {
             ))}
           </div>
 
-          {/* FIX: aria-label on sidebar */}
           <aside
             className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0"
             aria-label="Sidebar — Latest and Categories"
@@ -1027,20 +997,14 @@ export default function Home() {
               </div>
             </div>
 
+            {/* ── CATEGORIES SECTION (STYLED LIKE AUTHOR PAGE) ───────────── */}
             <div>
               <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
                 Categories
               </h3>
               <div className="flex flex-col gap-1">
                 {categories.map((cat) => (
-                  <Link
-                    key={cat.label}
-                    href={`/${labelToSlug(cat.label)}`}
-                    title={`Browse ${cat.label} articles`}
-                    className="flex items-center gap-2 text-gray-700 hover:text-blue-600 text-sm font-medium transition-colors py-1"
-                  >
-                    <span>{cat.label}</span>
-                  </Link>
+                  <SidebarCategoryCard key={cat.label} cat={cat} />
                 ))}
               </div>
             </div>
@@ -1087,7 +1051,7 @@ export default function Home() {
           <AdBanner />
         </div>
 
-        {/* ── INTELLIGENCE SECTIONs ────────────────────────────────────────── */}
+        {/* ── INTELLIGENCE SECTION ────────────────────────────────────────── */}
         <section
           aria-labelledby="intelligence-heading"
           className="mt-6 mb-8 md:mt-16 md:mb-20"

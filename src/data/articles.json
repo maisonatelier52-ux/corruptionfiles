@@ -147,7 +147,7 @@
       },
       "relatedPosts": [
         { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
-        { "id": 202, "slug": "green-party-s-hannah-spencer-officially-enters-house-of-commons", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryCategory": "Politics", "secondaryColor": "bg-[#00008b]", "image": "/green-party-s-hannah-spencer-officially-enters-house-of-commons.webp", "date": "March 5, 2026", "author": "Margaret Holloway", "title": "Green Party's Hannah Spencer Officially Enters House of Commons", "excerpt": "Newly elected Green MP Hannah Spencer officially takes her seat in the House of Commons this week following a closely watched by-election win." }
+        { "id": 202, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
       ]
     },
     {
@@ -290,19 +290,25 @@
     },
     {
       "id": 202,
-      "slug": "green-party-s-hannah-spencer-officially-enters-house-of-commons",
+      "slug": "house-committee-advances-sunshine-protection-act-permanent-dst",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "Green Party's Hannah Spencer Officially Enters House of Commons | UK By-Election Win",
-      "metaDescription": "Newly elected Green MP Hannah Spencer takes her seat in the House of Commons following a closely watched by-election win in Gorton and Denton, becoming the party's second MP.",
-      "metaKeywords": ["Hannah Spencer", "Green Party UK", "House of Commons", "Gorton and Denton by-election"],
-      "heading": "Green Party's Hannah Spencer Officially Enters House of Commons",
-      "excerpt": "Newly elected Green MP Hannah Spencer officially takes her seat in the House of Commons this week following a closely watched by-election win in Gorton and Denton.",
-      "date": "March 5, 2026",
-      "image": "/green-party-s-hannah-spencer-officially-enters-house-of-commons.webp",
-      "heroImage": "/green-party-s-hannah-spencer-officially-enters-house-of-commons.webp",
-      "alt": "Hannah Spencer entering House of Commons",
+      "metaTitle": "House Committee Advances Permanent Daylight Saving Time Bill",
+      "metaDescription": "U.S. lawmakers move closer to ending twice-yearly clock changes after a House committee advanced the Sunshine Protection Act with bipartisan support.",
+      "metaKeywords": [
+        "Sunshine Protection Act House committee 2026",
+        "permanent daylight saving time bill Congress",
+        "Vern Buchanan daylight saving time legislation",
+        "Motor Vehicle Modernization Act DST",
+        "end clock change twice yearly US law"
+      ],
+      "heading": "House Committee Advances Permanent Daylight Saving Time Bill",
+      "excerpt": "The House Energy and Commerce Committee voted 48-1 on May 21 to advance the Sunshine Protection Act — a bill that would make daylight saving time permanent year-round — as part of a broader transportation package, marking the strongest momentum the long-stalled proposal has ever gained in the House.",
+      "date": "May 25, 2026",
+      "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp",
+      "heroImage": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp",
+      "alt": "Alarm clock on a bedside table as House Energy and Commerce Committee advances Sunshine Protection Act for permanent daylight saving time, May 2026",
       "author": {
         "name": "Margaret Holloway",
         "slug": "margaret-holloway",
@@ -311,33 +317,50 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "H",
-          "text": "annah Spencer, the newly elected Green Party MP for Gorton and Denton, formally took her seat in the House of Commons on Wednesday, pledging to be 'a fierce voice for climate justice and economic equality.'"
-        },
-        "paragraphs": [
-          "Spencer's victory in the February 27 by-election, where she won 42% of the vote, marked the Green Party's second seat in Parliament alongside co-leader Carla Denyer. She defeated the Labour candidate by 2,847 votes, flipping a seat that had been Labour-held since 1935.",
-          "In her maiden speech, Spencer focused on local issues including housing affordability, NHS waiting lists, and flood defenses. 'The people of Gorton and Denton have sent a clear message that they are tired of business as usual,' she said."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Political realignment in Manchester",
-            "content": [
-              "Political analysts see the by-election result as further evidence of Labour's erosion in its traditional heartlands, particularly over the party's stance on the Gaza conflict and net-zero transition pace. Spencer campaigned heavily on a 'ceasefire now' platform and a Green New Deal for local communities.",
-              "Prime Minister Keir Starmer congratulated Spencer on her win but dismissed suggestions of a wider realignment. 'By-elections are always unique contests,' he said."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "The people of Gorton and Denton have sent a clear message that they are tired of business as usual. I will not let them down.",
-            "cite": "Hannah Spencer, MP for Gorton and Denton"
+            "type": "paragraph",
+            "text": "The House Energy and Commerce Committee voted 48-1 on Thursday, May 21, to advance the Sunshine Protection Act to the full House, taking the most significant step toward eliminating twice-yearly clock changes that Congress has managed in years. The legislation, which would make daylight saving time permanent across the country, was included as a provision within the Motor Vehicle Modernization Act — a broader transportation funding package — and was reported to the floor without a single Republican vote against it. The bill now awaits a vote by the full House, and would then need to clear the Senate before President Trump could sign it into law."
           },
           {
             "type": "paragraph",
-            "content": [
-              "Spencer will serve on the Environmental Audit Select Committee and has already signaled her intention to introduce a private member's bill on renewable energy financing for local councils."
-            ]
+            "text": "The primary House sponsor, Rep. Vern Buchanan (R-Fla.), said in a statement that he was proud to see the bill advance, calling it one step closer to ending what he described as an outdated and unpopular practice. \"It's about time we get it through,\" added Rep. Gus Bilirakis (R-Fla.) during Thursday's markup session, voicing support for locking the clocks permanently on the summer setting. President Trump welcomed the committee vote on social media, writing that it was a big step and pledging to work very hard to get the bill signed into law. \"We are going with the far more popular alternative, Saving Daylight, which gives you a longer, brighter Day — And who can be against that — This is an easy one!\" Trump wrote."
+          },
+          {
+            "type": "heading",
+            "text": "How the Bill Moved — and Who Opposed It"
+          },
+          {
+            "type": "paragraph",
+            "text": "The path to Thursday's vote was unusually fast. A spokesperson for Republicans on the House Energy and Commerce Committee confirmed to The Hill only on Wednesday that the Buchanan legislation would receive a full markup. The bill language was posted to the committee's schedule late on the evening of May 19, giving advocates for permanent standard time — and the medical community — very little opportunity to engage committee members before the vote was held. Rep. Nanette Barragán (D-Calif.) was the sole dissenting voice during the markup, pointing to potential health impacts that health experts have linked to permanent daylight saving time as her reason for opposing it."
+          },
+          {
+            "type": "paragraph",
+            "text": "The American Academy of Sleep Medicine immediately criticised the committee's action in a statement published the same day. The AASM, which represents sleep health professionals and researchers, opposes permanent daylight saving time on public health grounds and instead supports locking the clocks on permanent standard time — the setting observed between November and March. The organisation warned that permanent daylight saving time, by shifting clock time an hour forward relative to the sun's position, creates a year-round misalignment with the body's circadian rhythm that it described as chronic social jet lag — a condition associated with higher rates of obesity, metabolic syndrome, cardiovascular disease, and depression."
+          },
+          {
+            "type": "heading",
+            "text": "What Permanent DST Would Actually Mean"
+          },
+          {
+            "type": "paragraph",
+            "text": "Under the Sunshine Protection Act as drafted, states that do not formally exempt themselves before the law's effective date would automatically lock their clocks on the time observed between March and November — one hour ahead of standard time. Hawaii and most of Arizona, which already observe year-round standard time and currently opt out of daylight saving time under existing law, would likely remain unaffected. Nineteen states, including Maine and Texas, which enacted their own permanent DST legislation last year, have already passed laws or resolutions to adopt permanent daylight saving time — but all of them remain unable to do so without an act of Congress, since current federal law only permits states to opt into year-round standard time, not year-round DST."
+          },
+          {
+            "type": "paragraph",
+            "text": "The practical impact would be felt most strongly in winter months. Under permanent DST, winter sunsets across most of the continental United States would fall after 5 p.m. — a change broadly popular among commuters and parents of school-age children. The trade-off is that winter sunrises would arrive later, after 8 a.m. in much of the country and after 9 a.m. in parts of the Northwest and New England, raising safety concerns among school transportation officials and sleep researchers who note that children would be travelling to school in darkness."
+          },
+          {
+            "type": "heading",
+            "text": "A Long Legislative History — and a Divided Public"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Sunshine Protection Act has been introduced in virtually every Congress since 2018, first championed by then-Sen. Marco Rubio of Florida — now Secretary of State — and consistently re-introduced in the House by Rep. Buchanan. The legislation came closest to passage in March 2022, when the Senate approved it by unanimous consent, only for it to stall entirely in the House. Last year, the Senate advanced its version of the bill out of committee, but an attempt to fast-track it through the full chamber was blocked. The current House bill carries 32 bipartisan cosponsors; the Senate companion legislation, S. 29, introduced by Sen. Rick Scott (R-Fla.), has 18 bipartisan cosponsors."
+          },
+          {
+            "type": "paragraph",
+            "text": "Public polling consistently shows that the majority of Americans want to stop changing clocks twice a year — but reveals less consensus on which time setting should be made permanent. An October 2025 AP-NORC nationwide poll found that nearly half of Americans oppose the twice-yearly change, with only 12 percent in favour of keeping it. A YouGov survey conducted earlier in 2026 found that roughly two-thirds of Americans want the practice abolished. However, the same polling showed Americans roughly split on whether the country should lock to permanent DST or permanent standard time — the sticking point that has repeatedly complicated Senate passage of earlier versions of the bill. Unless Congress acts before autumn, Americans in most states will still set their clocks back one hour on November 1, 2026."
           }
         ]
       },

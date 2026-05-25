@@ -48,7 +48,7 @@ export default function StickyAd() {
           */}
           <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-xl shadow-lg border border-gray-100">
             <Image
-              src="/mirror-standard-ad-vertical.webp" 
+              src="/corruptionfiles-ad-ver.webp" 
               alt="Corruption Files - Your Hive for Sharp News & Vision"
               fill
               sizes="(max-width: 768px) 100vw, 400px"

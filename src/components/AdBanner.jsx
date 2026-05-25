@@ -15,7 +15,7 @@ const AdBanner = () => {
         className="block w-full h-auto bg-[#4B2588] overflow-hidden border border-gray-100 rounded-sm shadow-sm transition-opacity hover:opacity-90"
       >
         <img 
-          src="/corruption-files-ad.webp" 
+          src="/corruptionfiles-ad-hor.webp" 
           alt="Corruptionfiles: Real stories, real impact. Click to visit corruptionfiles.com"
           /* FIX: Changed 'object-cover' (which crops) to 'object-contain' (which shows everything).
              'w-full h-auto' ensures it scales down perfectly on mobile like a photo.
