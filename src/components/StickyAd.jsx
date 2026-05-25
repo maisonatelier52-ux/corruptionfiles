@@ -35,9 +35,9 @@ export default function StickyAd() {
 
   return (
     <div ref={containerRef} style={{ height: trackHeight }} className="relative mb-10">
-      <aside className="sticky top-4 z-20" aria-label="Mirror Standard Advertisement">
+      <aside className="sticky top-4 z-20" aria-label="Corruption Files Advertisement">
         <Link 
-          href="https://www.mirrorstandard.com/"
+          href="https://www.corruptionfiles.com/"
           className="block group transition-all duration-300 hover:brightness-110"
           target="_blank"
           rel="noopener noreferrer"
@@ -49,7 +49,7 @@ export default function StickyAd() {
           <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-xl shadow-lg border border-gray-100">
             <Image
               src="/mirror-standard-ad-vertical.webp" 
-              alt="Mirror Standard - Your Hive for Sharp News & Vision"
+              alt="Corruption Files - Your Hive for Sharp News & Vision"
               fill
               sizes="(max-width: 768px) 100vw, 400px"
               className="object-cover"

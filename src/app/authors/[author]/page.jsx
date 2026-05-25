@@ -774,16 +774,16 @@ export default async function AuthorPage({ params }) {
 
                 {/* FIX: rel="sponsored" + descriptive title and alt on ad */}
                 <a
-                  href="https://www.mirrorstandard.com/"
+                  href="https://www.corruptionfiles.com/"
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  title="Visit Mirror Standard — Investigative Journalism"
+                  title="Visit Corruption Files — Investigative Journalism"
                   className="mt-2 mb-6 block w-full"
                 >
                   <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
                     <img
-                      src="/mirror-standard-ad-horizontal.webp"
-                      alt="Mirror Standard — Investigative Journalism"
+                      src="/corruption-files-ad.webp"
+                      alt="Corruption Files — Investigative Journalism"
                       className="w-full h-auto object-contain"
                     />
                   </div>
