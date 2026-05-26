@@ -371,19 +371,25 @@
     },
     {
       "id": 203,
-      "slug": "house-ethics-panel-launches-investigation-into-rep-nancy-mace",
+      "slug": "texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "House Ethics Panel Launches Investigation Into Rep. Nancy Mace | Capitol Hill Inquiry",
-      "metaDescription": "The House Ethics Committee officially opens an investigation into Representative Nancy Mace over allegations of campaign finance violations and misuse of official resources.",
-      "metaKeywords": ["Nancy Mace investigation", "House Ethics Committee", "campaign finance violation", "Capitol Hill"],
-      "heading": "House Ethics Panel Launches Investigation Into Rep. Nancy Mace",
-      "excerpt": "Capitol Hill faces a new inquiry as the House Ethics Committee officially opens an investigation into Representative Nancy Mace.",
-      "date": "March 4, 2026",
-      "image": "/house-ethics-panel-launches-investigation-into-rep-nancy-mace.webp",
-      "heroImage": "/house-ethics-panel-launches-investigation-into-rep-nancy-mace.webp",
-      "alt": "House Ethics Committee meeting",
+      "metaTitle": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
+      "metaDescription": "Republicans in Texas are locked in a heated Senate runoff that could reveal the strength of Donald Trump's influence within the GOP before the 2026 midterms.",
+      "metaKeywords": [
+        "Texas GOP Senate runoff 2026 Cornyn Paxton",
+        "Trump endorses Ken Paxton Texas Senate",
+        "John Cornyn Ken Paxton primary runoff",
+        "Texas Republican midterms 2026 Senate race",
+        "MAGA establishment Texas GOP battle"
+      ],
+      "heading": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
+      "excerpt": "Thirteen months, $135 million, and a last-minute Trump endorsement of Attorney General Ken Paxton have transformed the Cornyn-Paxton contest into the most consequential test of whether loyalty to Trump — or statesmanship — defines the future of the Republican Party heading into the 2026 midterms.",
+      "date": "May 26, 2026",
+      "image": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "heroImage": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "alt": "Sen. John Cornyn and Texas Attorney General Ken Paxton face off in the Texas Republican Senate runoff on May 26, 2026",
       "author": {
         "name": "Margaret Holloway",
         "slug": "margaret-holloway",
@@ -392,33 +398,58 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "T",
-          "text": "he House Ethics Committee announced Thursday it has launched a formal investigation into Representative Nancy Mace (R-SC) following a referral from the Office of Congressional Ethics."
-        },
-        "paragraphs": [
-          "The investigation will focus on allegations that Mace improperly used official staff and resources for campaign activities, as well as potential violations of campaign finance reporting requirements. The OCE found 'substantial reason to believe' that Mace's 2024 reelection campaign coordinated with an outside super PAC, which would violate federal election law.",
-          "Mace, who has represented South Carolina's 1st congressional district since 2021, denied any wrongdoing in a statement. 'This is a politically motivated attack from a partisan committee,' she said. 'I look forward to fully cooperating and clearing my name.'"
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Bipartisan committee oversight",
-            "content": [
-              "The Ethics Committee, evenly divided between five Democrats and five Republicans, voted unanimously to proceed with the investigation. Chairman Michael Guest (R-MS) declined to comment on the specifics, citing committee rules.",
-              "If the investigation finds violations, the committee could recommend sanctions ranging from a letter of reproval to a formal censure or even expulsion, though the latter is rare."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "This is a politically motivated attack from a partisan committee. I look forward to fully cooperating and clearing my name.",
-            "cite": "Rep. Nancy Mace (R-SC)"
+            "type": "paragraph",
+            "text": "Texas Republican voters head to the polls Tuesday to decide one of the most expensive, most contested, and most politically consequential primary runoffs in the state's history — a Senate race between four-term incumbent John Cornyn and Attorney General Ken Paxton that has spent thirteen months consuming roughly $135 million in advertising and reaching its climax only after President Donald Trump, in defiance of his own party's Senate leadership, threw his endorsement behind Paxton on Tuesday, May 19. The decision upended a race that Washington Republicans had spent tens of millions of dollars trying to lock up for Cornyn, and now forces the Republican establishment to reckon publicly with what it means when the sitting president targets their own incumbent senator as insufficiently loyal."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The investigation is expected to take several months. Mace remains eligible to vote and serve on committees while the probe continues. She is seeking reelection in 2026."
-            ]
+            "text": "The two men finished within two percentage points of each other in the March 3 primary — Cornyn at 42 percent, Paxton at 40.5 percent — with U.S. Rep. Wesley Hunt drawing 13.5 percent, enough to prevent either from clinching the nomination outright and force the race to a runoff. The eventual nominee will face Democratic nominee James Talarico in November's general election. While Texas has voted Republican in three consecutive presidential elections — and Trump carried it by 14 points in 2024 — Democrats have spent months arguing that a Paxton nomination would deliver them a competitive opening in a state they have long sought to put in play."
+          },
+          {
+            "type": "heading",
+            "text": "Trump Goes Against Thune — and the Establishment Machine"
+          },
+          {
+            "type": "paragraph",
+            "text": "Trump's endorsement of Paxton was, by any measure, a direct rebuke of Senate Majority Leader John Thune and the institutional Republican apparatus in Washington. In endorsing Paxton, Trump specifically cited the attorney general's support for terminating the Senate filibuster and his championing of the SAVE America Act — a voting restrictions bill central to Trump's legislative agenda — as well as Paxton's consistent personal loyalty. He described Cornyn as someone who had been disloyal to him \"when times were tough.\" Trump also posted on social media that Paxton was \"a Strong Supporter of TERMINATING THE FILIBUSTER\" and \"someone who has always been extremely loyal to me and our AMAZING MAGA MOVEMENT.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The endorsement followed a calculated gamble Paxton made in early March that analysts say was pivotal: he offered to drop out of the race if the Senate passed the SAVE America Act, casting himself as willing to sacrifice his own candidacy for Trump's legislative priorities. \"By floating the idea of dropping out, and essentially making himself a martyr for the cause of voter integrity, with leverage that he did not have, he showed that he would go further for Trump than most other Republicans,\" said Joshua Blank, research director at the Texas Politics Project. \"I think Paxton's move there was really adept.\" Cornyn separately dropped his longstanding support for the filibuster in March to signal openness to reform — but it was not enough, in Trump's eyes, to match Paxton's resolve."
+          },
+          {
+            "type": "heading",
+            "text": "Cornyn's Case: Electability Over Loyalty Tests"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cornyn has made the race squarely about electability and the risk of nominating a candidate carrying significant personal and legal baggage into a general election that Republicans cannot afford to lose. \"I won in 2020 by 10 points, and President Trump won that same year in Texas by six points,\" Cornyn told The Texas Tribune on May 18. \"So I think I've demonstrated that I can help the ticket up and down the ballot, and Paxton would be an albatross — and also divert hundreds of millions of dollars that would be spent trying to salvage this Senate seat that could be used in places like Georgia, North Carolina, Michigan and New Hampshire.\" Multiple national Republican figures, including many who have stayed publicly neutral, privately share Cornyn's assessment of Paxton's vulnerabilities."
+          },
+          {
+            "type": "paragraph",
+            "text": "Paxton's legal and personal record has given the Cornyn campaign ample material. The attorney general was impeached by the Republican-controlled Texas House of Representatives in 2023 on corruption charges — though he was ultimately acquitted by the state Senate — and has faced allegations of an extramarital affair and a contentious divorce. The Cornyn campaign ran ads on all of these fronts throughout the runoff. Paxton's team responded by leaning into anti-incumbent and anti-establishment messaging, with Paxton arguing directly on Fox News that under Cornyn, \"the MAGA agenda is dead.\" His stump speeches challenge voters to name a single Cornyn accomplishment, and he has promised to take a \"sledgehammer\" to Senate customs he describes as blocking Trump's agenda."
+          },
+          {
+            "type": "heading",
+            "text": "Ted Cruz, Turnout, and the Hunt Factor"
+          },
+          {
+            "type": "paragraph",
+            "text": "Sen. Ted Cruz, who has carefully stayed out of the race, offered what may be the most candid assessment of where things stand. \"We don't know for a fact what will happen on election day, but any observer will acknowledge that President Trump's endorsement makes it significantly more likely that Ken Paxton wins,\" Cruz said on his podcast Tuesday. \"How much more likely, I don't know.\" Wesley Hunt, whose 13.5 percent share of the March primary vote represents the largest bloc of undecided runoff voters, endorsed Paxton shortly after Trump and urged his supporters to back the attorney general. The combination of Trump's endorsement and Hunt's follow-on is widely considered to have shifted momentum decisively toward Paxton in the runoff's final days."
+          },
+          {
+            "type": "paragraph",
+            "text": "Whether momentum translates into votes will depend heavily on turnout — and the runoff electorate structurally favours Paxton. Texas runoffs typically draw a fraction of primary voters, and the electorate that does show up skews heavily toward the hard-core base. Cornyn's camp has staked its final strategy on expanding the electorate beyond that base, making a direct appeal in the runoff's last days to registered Republicans who sat out both the primary and early voting. Data from the first two days of early voting told a difficult story for that strategy: GOP operative and pollster Ross Hunt, uninvolved in the race, analysed the early vote and found that 85 percent of early voters were people who had already voted in the March primary, and only 3 percent were entirely new voters. \"Squinting, you can see a tiny advantage for Cornyn relative to his Round One early vote distribution, but you've got to squint pretty hard,\" Hunt said. \"It's basically just a wash.\""
+          },
+          {
+            "type": "heading",
+            "text": "What the Result Will Tell Washington"
+          },
+          {
+            "type": "paragraph",
+            "text": "The race's implications reach well beyond Texas. Trump has moved in rapid succession to oust Republican incumbents who have resisted his agenda — five Indiana state senators were purged in that state's primary three weeks ago, and a sitting member of Congress was toppled in a recent race — making the Texas runoff the highest-profile test yet of whether that pattern holds in a statewide general-election-scale contest. A Paxton victory would confirm that Trump's endorsement remains a decisive force even against a four-term incumbent who has spent $90 million on advertising alone in the runoff period, according to tracking firm AdImpact, and it would sharpen the loyalty test that every Republican senator up in 2028 is now watching closely. A Cornyn survival would signal that the establishment can still hold ground when it spends massively and frames the race around electability — a result that would carry its own message about the limits of Trump's influence when deployed against incumbents in safe Republican terrain."
           }
         ]
       },
