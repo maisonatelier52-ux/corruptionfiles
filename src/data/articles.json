@@ -1183,25 +1183,42 @@
       ]
     },
     "relatedPosts": [
-      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." },
+      {
+        "id": 502,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      },
       { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
     ]
   },
   {
     "id": 502,
-    "slug": "trump-2026-national-ai-policy-blueprint",
+    "slug": "london-police-expand-facial-recognition-public-streets",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "Trump Administration Releases 2026 National AI Policy Blueprint | Competitiveness and Security",
-    "metaDescription": "The Trump administration unveiled a sweeping national AI policy framework focused on maintaining American competitiveness, regulating high-risk applications, and protecting national security.",
-    "metaKeywords": ["AI policy", "Trump administration 2026", "national AI blueprint", "artificial intelligence regulation", "US competitiveness"],
-    "heading": "Trump Administration Releases 2026 National AI Policy Blueprint",
-    "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security.",
-    "date": "March 20, 2026",
-    "image": "/trump-2026-national-ai-policy-blueprint.webp",
-    "heroImage": "/trump-2026-national-ai-policy-blueprint.webp",
-    "alt": "White House AI policy document",
+    "metaTitle": "London Police Expand Facial Recognition Across Public Streets",
+    "metaDescription": "The Metropolitan Police are rapidly expanding live facial recognition surveillance across London, intensifying privacy concerns and debate over mass monitoring in the UK.",
+    "metaKeywords": [
+      "Metropolitan Police facial recognition London 2026",
+      "live facial recognition UK expansion High Court",
+      "Big Brother Watch LFR surveillance protest",
+      "Met Police biometric watchlist streets",
+      "UK facial recognition civil liberties privacy"
+    ],
+    "heading": "London Police Expand Facial Recognition Across Public Streets",
+    "excerpt": "The Metropolitan Police are deploying live facial recognition cameras across every London borough following a High Court ruling last month clearing the technology's use — triggering a fierce civil liberties debate after the system was used at a protest for the first time and the government announced plans for a nationwide rollout.",
+    "date": "May 27, 2026",
+    "image": "/london-police-expand-facial-recognition-public-streets.webp",
+    "heroImage": "/london-police-expand-facial-recognition-public-streets.webp",
+    "alt": "Metropolitan Police live facial recognition van and temporary warning signs on a London street, May 2026. REUTERS/Chris J. Ratcliffe",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
@@ -1210,33 +1227,50 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he White House released a 142-page National AI Policy Blueprint on Friday, outlining the administration's strategy for maintaining U.S. leadership in artificial intelligence while mitigating risks from the technology."
-      },
-      "paragraphs": [
-        "The blueprint includes five pillars: AI research and development investment ($32 billion over five years), workforce training and education, regulation of high-risk AI applications, export controls on advanced AI chips, and international coalition-building to counter Chinese influence.",
-        "Unlike the European Union's comprehensive AI Act, the U.S. blueprint relies heavily on existing sectoral regulators (FDA, FCC, FTC) rather than creating a new federal AI agency. 'We believe in innovation-first regulation,' said White House AI advisor Michael Kratsios."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Controversial provisions",
-          "content": [
-            "Civil liberties groups have criticized the blueprint's surveillance-related provisions, which would expand the use of AI-powered facial recognition at airports and border crossings without additional congressional oversight. 'This is a surveillance wishlist dressed up as a competitiveness plan,' said Kade Crockford of the ACLU.",
-            "The blueprint also calls for mandatory vulnerability disclosure for frontier AI models, a provision strongly opposed by major tech companies including OpenAI and Google."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "We believe in innovation-first regulation. Our goal is to lead the world in AI, not hamstring American companies with red tape.",
-          "cite": "Michael Kratsios, White House AI Advisor"
+          "type": "paragraph",
+          "text": "Tourists, shoppers, and office workers moving through a busy central London street on an ordinary weekday recently found themselves scanned against a Metropolitan Police watchlist, their faces converted into biometric data and compared against roughly 17,000 custody images in real time — all within seconds, and without any individual suspicion. The operation in Victoria, and a simultaneous deployment in Tottenham, north London, resulted in six arrests for offences including threats to kill, a breach of a court order, and a man in possession of a lock knife. Within an hour of the Victoria deployment beginning, a man in a grey hoodie, black baseball cap, and blue trainers looked startled as two officers stopped him on the pavement. He was handcuffed and taken away in a police van."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Congressional action is required for many of the blueprint's funding proposals. Bipartisan AI legislation has stalled in both chambers over disagreements on liability protections for AI developers."
-          ]
+          "text": "The Metropolitan Police have now deployed live facial recognition technology across all 32 London boroughs, following a High Court ruling last month that rejected a judicial review challenge brought by civil liberties group Big Brother Watch and a community worker who had been wrongly identified by the system. The court found the technology's use was lawful and that existing safeguards were sufficient. The government confirmed plans to extend the system nationwide, expanding the number of surveillance vans and rolling it out across all police forces in England and Wales. A new Law Enforcement Data Service, providing officers with instant biometric identity verification capabilities, is expected to launch around early 2027."
+        },
+        {
+          "type": "heading",
+          "text": "2,500 Arrests — and a Convicted Paedophile Caught on the Street"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Metropolitan Police say live facial recognition has helped officers arrest around 2,500 wanted people since the start of 2024, including suspects accused of violent and sexual offences. Met Police director Lindsey Chiswick, the national and Met lead for live facial recognition, described the technology's impact as \"groundbreaking\" for policing. Speaking at the Victoria operation, she cited a recent case in which a convicted paedophile was identified by the system as he walked along a street holding hands with an eight-year-old girl. \"He should never have been out with a young girl like that on his own,\" Chiswick said. \"As a consequence of that, he's now back in prison.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Chiswick said that of the more than three million faces scanned in the twelve months to last September, the system generated ten false alerts, all of which officers determined were incorrect, and that no arrest had ever resulted from a false alert. Commissioner Sir Mark Rowley echoed that in a statement following the High Court ruling, describing live facial recognition as \"one of the biggest breakthroughs for policing\" and saying the technology was \"actively removing thousands of dangerous and wanted offenders from London's streets, including individuals who pose a serious and ongoing threat to our communities — those wanted for the most serious offences, such as rape, domestic abuse, and child sexual offences.\" Quarterly surveys, Chiswick said, consistently show around 80 percent of the London public supporting the Met's use of the technology."
+        },
+        {
+          "type": "heading",
+          "text": "Deployed at a Protest — A First That Alarmed Civil Liberties Groups"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion took a new and more contested turn when the Metropolitan Police deployed live facial recognition at an anti-immigration march in central London last weekend — the first time it had been used at a political protest anywhere in the UK. The Met said it had received intelligence indicating a potential threat to public safety from someone attending the event, and that the cameras had been placed at approach points to the march rather than on the route itself. The explanation did not satisfy civil liberties organisations. Big Brother Watch's senior legal and policy officer, Jasleen Chaggar, said in a statement: \"The police are already experimenting with embedding live facial recognition into CCTV cameras and have now alarmingly deployed the Orwellian technology for the first time at a protest. We are at risk of becoming a nation of suspects, tracked from the moment we leave our front door, with profound consequences for our rights to privacy, free speech and freedom of association.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Big Brother Watch and Liberty have campaigned against live facial recognition since its first trials nearly a decade ago. Their position — and that of the High Court challenge they supported — is not merely about accuracy, but principle: that scanning the faces of large numbers of people against a police database without any individual suspicion undermines the presumption of innocence that underpins British law, and normalises mass surveillance in public spaces. The High Court's rejection of that argument last month, and the government's immediate announcement of a nationwide rollout, significantly raised the stakes of the debate."
+        },
+        {
+          "type": "heading",
+          "text": "Handheld Devices, Fixed Cameras, and a Racial Disparity Row"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion of live facial recognition is broader than the police vans that have become familiar sights at London shopping streets and transport hubs. In February, Mayor of London Sadiq Khan was forced by persistent questioning from Green Party London Assembly Member Zoë Garbett to confirm for the first time that the Metropolitan Police was also trialling handheld Operator-Initiated Facial Recognition (OIFR) devices — technology capable of scanning and identifying individuals on the spot — despite the Met's own website stating at the time that it did not use such technology. Pilots of cameras fixed permanently to street furniture, rather than deployed from vans, are also underway. The Metropolitan Police's own strategy document, \"New Met for London Phase 2 2025-2028,\" confirms that retrospective facial recognition capabilities will continue to grow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garbett's February report on what she called the \"unchecked expansion\" of live facial recognition in London raised a further controversy: data she compiled showed that over half of all live facial recognition deployments in 2024 took place in areas with higher-than-average Black populations, including Thornton Heath in Croydon, where 40 percent of residents are Black; Northumberland Park in Haringey at 36 percent; and Deptford High Street in Lewisham at 34 percent. The Metropolitan Police has faced sustained criticism for what critics describe as limited transparency about where and how the technology is deployed, and who ends up on the watchlist it is checked against. The government says it is working on a new legal framework for live facial recognition, but no timeline has been set for legislation."
         }
       ]
     },
@@ -1300,7 +1334,18 @@
     },
     "relatedPosts": [
       { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 502, "slug": "trump-2026-national-ai-policy-blueprint", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/trump-2026-national-ai-policy-blueprint.webp", "date": "March 20, 2026", "author": "Simone Varlette", "title": "Trump Administration Releases 2026 National AI Policy Blueprint", "excerpt": "The Trump administration unveiled a sweeping national AI policy framework focused on American competitiveness and national security." }
+      {
+        "id": 502,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      }
     ]
   },
   {
