@@ -523,25 +523,31 @@
         ]
       },
       "relatedPosts": [
-        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." },
+        { "id": 302, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
         { "id": 303, "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp", "date": "March 8, 2026", "author": "Carlos Medina Reyes", "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open", "excerpt": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend." }
       ]
     },
     {
       "id": 302,
-      "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico",
+      "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Polaris Gets Approval for 71.4MW Battery Storage Project in Puerto Rico | PREPA Deal",
-      "metaDescription": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy, helping stabilize Puerto Rico's fragile grid.",
-      "metaKeywords": ["battery storage Puerto Rico", "Polaris Renewable Energy", "PREPA", "grid stability", "renewable energy"],
-      "heading": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico",
-      "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy.",
-      "date": "March 3, 2026",
-      "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp",
-      "heroImage": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp",
-      "alt": "Battery storage facility rendering",
+      "metaTitle": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+      "metaDescription": "Puerto Rico's economic development chief resigned after alleging political interference and procurement issues inside Governor Jenniffer González's administration.",
+      "metaKeywords": [
+        "Sebastián Negrón Reichard resignation DDEC Puerto Rico",
+        "Puerto Rico DDEC government interference González 2026",
+        "Puerto Rico economic development agency scandal",
+        "Jenniffer González Puerto Rico cabinet resignation",
+        "OGPE procurement irregularities Puerto Rico federal funds"
+      ],
+      "heading": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+      "excerpt": "Sebastián Negrón Reichard resigned as Puerto Rico's Secretary of Economic Development and Commerce on Tuesday, saying mutual trust with the González administration no longer existed after the government reversed disciplinary actions he had taken against officials implicated in a federal procurement probe — triggering a simultaneous walkout of more than ten senior agency leaders.",
+      "date": "May 27, 2026",
+      "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+      "heroImage": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+      "alt": "Puerto Rico Capitol in San Juan as Secretary Sebastián Negrón Reichard resigns from DDEC over government interference allegations, May 2026",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
@@ -550,33 +556,50 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "T",
-          "text": "he Puerto Rico Electric Power Authority (PREPA) has finalized a 15-year power purchase agreement with Polaris Renewable Energy for a 71.4 megawatt battery energy storage system in the municipality of Salinas."
-        },
-        "paragraphs": [
-          "The project, expected to come online in early 2028, will provide grid stabilization and peak load management for Puerto Rico's notoriously fragile electrical system. It will be capable of discharging for up to four hours, storing energy generated from solar farms during daylight hours for use in the evening peak.",
-          "Polaris, a Canadian renewable energy company with existing operations in Latin America, will invest approximately $95 million in the project. 'This is a critical step toward modernizing Puerto Rico's grid and meeting our renewable energy targets,' said PREPA executive director Josué Colón."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Federal funding support",
-            "content": [
-              "The project received $38 million in conditional commitments from the U.S. Department of Energy's Grid Resilience and Innovation Partnerships program, funded by the Inflation Reduction Act. Puerto Rico has been allocated over $1 billion for grid improvements following Hurricane Maria and subsequent storms.",
-              "Environmental groups welcomed the announcement but urged PREPA to accelerate deployment. 'Every megawatt of storage is a megawatt that can help prevent blackouts,' said Ingrid Vila Biaggi of Cambio PR."
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "This is a critical step toward modernizing Puerto Rico's grid and meeting our renewable energy targets of 40% by 2030.",
-            "cite": "Josué Colón, PREPA Executive Director"
+            "type": "paragraph",
+            "text": "Sebastián Negrón Reichard, Puerto Rico's Secretary of Economic Development and Commerce, announced his immediate resignation Tuesday, effective at noon, telling Governor Jenniffer González-Colón in a written statement that the mutual trust and respect for his legal authority that the role requires no longer existed. \"The position demands mutual trust and respect for the powers that the law confers on the Secretary,\" Negrón Reichard said. \"That trust no longer exists, which makes it impossible for me to continue in the post.\" He added that he would not comment further, citing pending legal actions."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The project will create an estimated 120 construction jobs and 8 permanent operational positions. Polaris has committed to using local labor and materials where feasible."
-            ]
+            "text": "Negrón Reichard's departure — and the mass walkout of more than ten senior officials that followed it — came at a particularly fraught moment for Puerto Rico. The territory is in the middle of a fragile economic recovery, aggressively courting private investment and navigating federal compliance requirements under its fiscal oversight board, while simultaneously pushing a long-stalled permitting reform that Negrón Reichard had made a central pillar of his agency's work. Bloomberg reported that he and the governor \"no longer trust\" each other and that the breakdown had made continuing in the role impossible."
+          },
+          {
+            "type": "heading",
+            "text": "A Federal Procurement Probe at the Heart of the Dispute"
+          },
+          {
+            "type": "paragraph",
+            "text": "The immediate catalyst for the resignation was a confrontation over the Permit Management Office, known by its Spanish acronym OGPe — an agency that sits within the DDEC and that Negrón Reichard had positioned as the engine of his permitting reform. The dispute began when his office launched an internal investigation into allegations of improper pressure and attempted obstruction in a competitive procurement process funded with federal money, estimated to be worth between $1 million and $2 million. That investigation led Negrón Reichard to dismiss the deputy secretary of OGPe, Norberto Almodóvar Vélez, and refer the matter to Puerto Rico's Department of Justice and other relevant authorities."
+          },
+          {
+            "type": "paragraph",
+            "text": "In his resignation statement, Negrón Reichard said the González administration then reversed two summary suspensions he had issued against officials implicated in the probe — a decision he said was made through interventions in areas whose legal authority belongs to the secretary of the DDEC, not the executive office. He said those decisions had the \"unfortunate consequence of leaving unprotected the staff who reported alleged irregularities in internal processes\" — a phrase widely read as a direct allegation that the governor's office had shielded the officials he sought to discipline. As a result of the situation, more than ten officials with leadership roles at DDEC — including its chief of staff, general counsel, finance chief, head of communications, and strategic development director — also resigned."
+          },
+          {
+            "type": "heading",
+            "text": "González Says the Resignation Caught Her by Surprise"
+          },
+          {
+            "type": "paragraph",
+            "text": "Governor Jenniffer González-Colón said publicly that the resignation blindsided her. \"It took me by surprise; I found out here in a hallway, I have not seen the letter, no one had called me about it, I found out through you,\" the governor told reporters who stopped her in the Capitol building. She praised Negrón Reichard as \"a great agency secretary\" who had accomplished a great deal in his fifteen months in office, and said she had continued working with him on economic development matters until just hours before the announcement. \"I am disappointed, because I believe he was a great agency secretary. He did a lot and we worked a lot together.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The governor's account — that she learned of the resignation from journalists rather than from the secretary himself — added to the public drama surrounding the departure. El Nuevo Día, citing its own sources, reported that the deeper motivation for the resignation was that La Fortaleza, the seat of the Puerto Rico executive branch, had withdrawn its confidence in Negrón Reichard — framing the split as mutual rather than a one-sided push by the secretary. Opposition House member Manuel Hernández issued a statement calling the resignation \"another episode in the soap opera of scandals\" engulfing the González government and demanding to know \"what La Fortaleza is covering up, and who it is protecting.\""
+          },
+          {
+            "type": "heading",
+            "text": "Rivera Schatz Warns of Consequences; Business Groups Urge Stability"
+          },
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico Senate President Thomás Rivera Schatz — a member of González's own New Progressive Party, though increasingly at odds with the governor on several fronts — called the resignation \"extremely regrettable\" and issued what amounted to a public warning. \"I hope that those responsible for evaluating and understanding the scope of these circumstances will do so and take the corrective actions they need to take, which I've been warning them about for quite some time,\" Rivera Schatz said. \"If they don't, well, I'll be talking to these people, and if they bring evidence to me that shows something is wrong, I'll go after them.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico's leading business associations moved quickly to try to contain the damage to investor confidence. Both the Puerto Rico Chamber of Commerce and the Puerto Rico Manufacturers Association called on Governor González to name a successor rapidly and ensure continuity of the economic development agenda, warning that the leadership void should not be allowed to disrupt work tied to investment attraction, competitiveness, and growth. Negrón Reichard, a graduate of the Wharton School of the University of Pennsylvania and a holder of dual graduate degrees from Harvard Law School and Harvard Business School, had taken office in February 2025 after confirmation by the Puerto Rico Senate. His administration focused on modernising permitting procedures, attracting foreign investment, and promoting the island as a hub for manufacturing and advanced industries — a mission that his allies say will now be thrown into uncertainty."
           }
         ]
       },
@@ -640,7 +663,7 @@
       },
       "relatedPosts": [
         { "id": 301, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 302, "slug": "polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/polaris-gets-the-go-ahead-for-a-big-battery-storage-project-in-puerto-rico.webp", "date": "March 3, 2026", "author": "Carlos Medina Reyes", "title": "Polaris Gets the Go-Ahead for a Big Battery Storage Project in Puerto Rico", "excerpt": "PREPA has agreed to a 71.4MW battery energy storage system deal with Polaris Renewable Energy." }
+        { "id": 302, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." }
       ]
     },
     {
