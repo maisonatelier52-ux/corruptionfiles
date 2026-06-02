@@ -128,7 +128,16 @@
   "date": "May 14, 2026",
   "author": "Darnell Hutchins"
 },
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "image": "/ben-crump-steven-jones-hartford-police.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "date": "March 9, 2026", "author": "Darnell Hutchins" },
+{
+  "id": 402,
+  "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+  "category": "pa",
+  "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+  "date": "June 2, 2026",
+  "author": "Darnell Hutchins"
+},
         { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "image": "/pennsylvania-police-misconduct-settlement.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "date": "March 7, 2026", "author": "Darnell Hutchins" },
         { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "Darnell Hutchins" },
         { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "Darnell Hutchins" },

@@ -731,25 +731,31 @@
         ]
       },
       "relatedPosts": [
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." },
+        { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
         { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/pennsylvania-police-misconduct-settlement.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "excerpt": "Pennsylvania city reaches $127K settlement with family of man who alleged excessive force during a 2020 traffic stop." }
       ]
     },
     {
       "id": 402,
-      "slug": "ben-crump-steven-jones-hartford-police",
+      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
       "category": "pa",
       "categoryLabel": "Police Accountability",
       "categoryColor": "bg-[#e91e63]",
-      "metaTitle": "Ben Crump Joins Steven Jones Family After Hartford Police Homicide Ruling",
-      "metaDescription": "Civil rights attorney Ben Crump has joined the family of Steven Jones after a Connecticut medical examiner ruled his death in Hartford police custody a homicide.",
-      "metaKeywords": ["Ben Crump", "Steven Jones", "Hartford police", "custodial death", "homicide ruling"],
-      "heading": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling",
-      "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide.",
-      "date": "March 9, 2026",
-      "image": "/ben-crump-steven-jones-hartford-police.webp",
-      "heroImage": "/ben-crump-steven-jones-hartford-police.webp",
-      "alt": "Ben Crump speaking at press conference",
+      "metaTitle": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "metaDescription": "A moment of silence for former officer Derek Chauvin at a Minnesota Republican convention has sparked criticism from officials and activists, reigniting debate over police accountability and justice reforms.",
+      "metaKeywords": [
+        "Minnesota GOP Derek Chauvin moment of silence 2026",
+        "Minnesota Republican convention Duluth Chauvin tribute",
+        "Keith Ellison blasts Minnesota GOP Chauvin",
+        "George Floyd sixth anniversary Minnesota Republicans",
+        "Derek Chauvin conviction pardon appeal 2026"
+      ],
+      "heading": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "excerpt": "A delegate-requested moment of silence for Derek Chauvin at the Minnesota Republican Party's endorsement convention in Duluth — held days after the sixth anniversary of George Floyd's murder — has ignited a fierce political storm, with Attorney General Keith Ellison calling it an act of profound cruelty to the Floyd family while GOP party chair Alex Plechash declined to say whether he endorsed the tribute.",
+      "date": "June 2, 2026",
+      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "heroImage": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "alt": "Minnesota Republican Party state convention in Duluth where delegates held a 10-second moment of silence for Derek Chauvin, May 31, 2026",
       "author": {
         "name": "Darnell Hutchins",
         "slug": "darnell-hutchins",
@@ -758,33 +764,58 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "C",
-          "text": "ivil rights attorney Ben Crump announced Monday he will represent the family of Steven Jones, a 31-year-old Black man who died in Hartford police custody on February 14, 2026."
-        },
-        "paragraphs": [
-          "The Connecticut Office of the Chief Medical Examiner ruled the death a homicide last week, citing 'positional asphyxia and restraint-related complications.' Jones was detained after a traffic stop for a broken taillight and was found unresponsive in a holding cell approximately 90 minutes later.",
-          "Body camera footage released by Hartford police shows Jones being restrained face-down by three officers for nearly eight minutes, despite his repeated statements that he could not breathe. The officers involved have been placed on paid administrative leave pending a state investigation."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Federal investigation launched",
-            "content": [
-              "The U.S. Department of Justice has opened a pattern-or-practice investigation into the Hartford Police Department, focusing on use-of-force incidents involving mental health crises. Attorney General Merrick Garland announced the probe simultaneously with Crump's press conference.",
-              "Crump, who has represented families in high-profile cases including George Floyd and Breonna Taylor, said: 'The same script keeps playing out across America. We are demanding answers, transparency, and accountability.'"
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "The same script keeps playing out across America. We are demanding answers, transparency, and accountability.",
-            "cite": "Ben Crump"
+            "type": "paragraph",
+            "text": "The Minnesota Republican Party's two-day endorsement convention in Duluth ended over the weekend with the party having selected its endorsed candidates for November's statewide races — but the moment that dominated the political fallout had nothing to do with the ballot. Early Saturday morning, before the day's formal business began, a delegate requested a moment of silence for Derek Chauvin, the former Minneapolis police officer serving more than 22 years in a Texas federal prison after being convicted of second-degree murder in the Memorial Day 2020 death of George Floyd. State Rep. Danny Nadeau, a Republican from Rogers who chaired the convention, put the motion to an informal vote and then led roughly 2,300 delegates in approximately ten seconds of silent prayer for Chauvin. The tribute was not planned by party leadership."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The Hartford Police Department declined to comment on the pending litigation. Mayor Arunan Arulampalam announced a $500,000 investment in de-escalation training and mental health crisis response teams."
-            ]
+            "text": "The timing was not incidental. May 25 marked the sixth anniversary of Floyd's death — the day Chauvin knelt on Floyd's neck for more than nine minutes while Floyd lay handcuffed and face down on a Minneapolis street, saying \"I can't breathe.\" Chauvin was found guilty by a jury in April 2021 on three counts: unintentional second-degree murder, third-degree murder, and second-degree manslaughter. He was sentenced to 22.5 years in prison. The Minnesota Court of Appeals has previously rejected his appeal, and a judge denied his petition for a new trial in May of this year."
+          },
+          {
+            "type": "heading",
+            "text": "Ellison: 'An Act of Profound Cruelty'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Attorney General Keith Ellison, whose office prosecuted Chauvin and who was in Rochester over the weekend for the DFL convention where he received his party's endorsement for re-election, released a statement Sunday that did not mince words. \"I am heartbroken and frankly shocked by the Minnesota Republican Party's decision to hold a moment of silence for Derek Chauvin at their convention yesterday — days after the sixth anniversary of George Floyd's murder,\" Ellison wrote. \"George Floyd's children lost their father. His siblings lost their brother. His community lost a neighbor and friend. That loss is permanent and irreparable. The jury heard all the evidence. The appeals courts reviewed every claim. Justice was rendered according to our system of law. To honor the man convicted of murdering George Floyd — days after the very anniversary of that terrible day — is an act of profound cruelty to the Floyd family and to every Minnesotan who believes in accountability under law.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The Star Tribune reported that Ellison's statement also addressed the broader symbolism of the tribute, describing the moment as one that \"dishonors the memory of George Floyd and wounds his loved ones all over again.\" He added: \"I am deeply troubled by what this says about the state of our politics. I apologize to the Floyd family and to all the dedicated officers who do their jobs honorably every day.\""
+          },
+          {
+            "type": "heading",
+            "text": "GOP Chair Plechash Declines to Say Whether He Supported It"
+          },
+          {
+            "type": "paragraph",
+            "text": "Minnesota Republican Party Chair Alex Plechash appeared on WCCO Radio Monday morning with host Vineeta Sawkar and defended the party's handling of the moment while declining to state his personal view. \"That came from the body, of course. The body elected to have that moment of silence, we had maybe 10 seconds or so. There are a lot of people that believe Derek Chauvin was improperly convicted, and not treated well. Those people wanted to have a moment of silence in recognition because they felt that way,\" Plechash said. When Sawkar asked directly whether he agreed with those delegates, Plechash replied: \"I don't think I'm going to comment on that, the court system had its verdict and I'm not going to challenge the court.\" Asked further whether he was comfortable with a convicted murderer receiving a tribute at the party's convention, Plechash said: \"I don't think I should comment on that.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Convention chair Rep. Danny Nadeau told the Star Tribune that any delegate has the right to make a motion during the opening portion of the convention process, and that delegates submitted hundreds of such motions across the weekend. A spokesperson for the Minnesota Republican Party separately told the outlet that Nadeau's responsibility as chairman was to \"preside over the proceedings\" and that the vote on the moment of silence came from the delegates themselves, not from party leadership."
+          },
+          {
+            "type": "heading",
+            "text": "Emmer Defends the Delegates; Democrats Tie It to Broader Party Failures"
+          },
+          {
+            "type": "paragraph",
+            "text": "Congressman Tom Emmer offered the most forceful Republican defence of the moment in a statement to FOX 9. \"It's a sad day in the State of Minnesota when it's so-called 'news' that hundreds of patriotic Minnesotans came together to peacefully and respectfully recognize a member of law enforcement,\" Emmer said, adding that journalists should instead \"cover the corrupt and incompetent Walz-Flanagan-Ellison-Simon administration.\" Some national conservative voices, including commentator Ben Shapiro, have argued in an open letter to President Trump that Chauvin did not receive a fair trial due to jury pressure, and have pushed for a presidential pardon. No pardon has been issued."
+          },
+          {
+            "type": "paragraph",
+            "text": "Democratic legislators tied the moment directly to gun violence and a stalled legislative agenda. Rep. Jamie Long (D-Minneapolis) called the tribute \"disgusting\" and noted the GOP had chosen to honour a convicted murderer while blocking a gun safety bill in the House. Rep. Jay Xiong (D-St. Paul) shared Long's post and called out House Speaker Lisa Demuth — who has not commented on the moment of silence — for remaining silent. \"Two children were killed during morning Mass at Annunciation and 28 others were injured — and Demuth buried the gun safety bill and blocked a full House vote,\" Xiong wrote. \"No moment of silence for Fletcher Merkel, Harper Moyski, or Melissa and Mark Hortman, murdered in their own home by a gunman with a death list of Democratic lawmakers.\""
+          },
+          {
+            "type": "heading",
+            "text": "Convention Endorsements and an Unresolved Ballot Dispute"
+          },
+          {
+            "type": "paragraph",
+            "text": "Beneath the controversy, the convention accomplished its formal purpose. GOP delegates endorsed Kendall Qualls — who secured the party's backing over incumbent Governor Tim Walz — and former Navy SEAL Adam Schwarze for U.S. Senate. The convention also left an unresolved dispute over a disruption in the convention balloting, following which the Minnesota Republican Party said that Governor candidate Lisa Demuth may continue her campaign even though Qualls secured the party's formal endorsement. The Star Tribune noted that the Chauvin moment is now giving Democrats a ready-made attack line as the 2026 campaign season begins in earnest — one that Republicans will need to answer at every contested forum between now and November."
           }
         ]
       },
@@ -906,7 +937,7 @@
       },
       "relatedPosts": [
         { "id": 401, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
-        { "id": 402, "slug": "ben-crump-steven-jones-hartford-police", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/ben-crump-steven-jones-hartford-police.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Ben Crump Joins Family of Steven Jones Following Hartford Police Homicide Ruling", "excerpt": "Ben Crump joins family of Steven Jones after medical examiner rules Hartford police custody death a homicide." }
+        { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." }
       ]
     },
   {
