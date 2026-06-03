@@ -732,7 +732,7 @@
       },
       "relatedPosts": [
         { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
-        { "id": 403, "slug": "pennsylvania-police-misconduct-settlement", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/pennsylvania-police-misconduct-settlement.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims", "excerpt": "Pennsylvania city reaches $127K settlement with family of man who alleged excessive force during a 2020 traffic stop." }
+        { "id": 403, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
       ]
     },
     {
@@ -826,19 +826,25 @@
     },
     {
       "id": 403,
-      "slug": "pennsylvania-police-misconduct-settlement",
+      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
       "category": "pa",
       "categoryLabel": "Police Accountability",
       "categoryColor": "bg-[#e91e63]",
-      "metaTitle": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims",
-      "metaDescription": "A Pennsylvania city agreed to pay $127,000 to settle a federal lawsuit alleging police officers used excessive force during a 2020 traffic stop.",
-      "metaKeywords": ["Pennsylvania police settlement", "excessive force", "police misconduct lawsuit", "2020 traffic stop"],
-      "heading": "Pennsylvania City Reaches $127K Settlement Over 2020 Police Misconduct Claims",
-      "excerpt": "A Pennsylvania city agreed to pay $127,000 to settle a federal lawsuit alleging police officers used excessive force during a 2020 traffic stop.",
-      "date": "March 7, 2026",
-      "image": "/pennsylvania-police-misconduct-settlement.webp",
-      "heroImage": "/pennsylvania-police-misconduct-settlement.webp",
-      "alt": "Pennsylvania courthouse",
+      "metaTitle": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "metaDescription": "UK police are under investigation after officers handcuffed 18-year-old Henry Nowak as he lay fatally wounded in Southampton, sparking national debate over police accountability and conduct.",
+      "metaKeywords": [
+        "Henry Nowak handcuffed stabbing Southampton police 2026",
+        "Hampshire Police IOPC investigation Nowak",
+        "Vickrum Digwa murder Southampton conviction",
+        "UK police accountability two-tier policing debate",
+        "Donna Jones Hampshire police impartiality criticism"
+      ],
+      "heading": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "excerpt": "The December 2025 stabbing death of 18-year-old Henry Nowak in Southampton erupted into a national crisis over policing and race this week after the release of police body-camera footage showing officers dismissing Nowak's repeated claims that he had been stabbed — handcuffing him as he lay dying while his killer stood nearby having falsely claimed to be the victim of a racist attack.",
+      "date": "June 3, 2026",
+      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "heroImage": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "alt": "Protesters gather outside Southampton police station on June 2, 2026 following the murder conviction of Vickrum Digwa and release of police body-camera footage showing Henry Nowak handcuffed while dying. (Gareth Fuller/PA via AP)",
       "author": {
         "name": "Darnell Hutchins",
         "slug": "darnell-hutchins",
@@ -847,33 +853,46 @@
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
-        "dropcap": {
-          "letter": "T",
-          "text": "he city of Lancaster, Pennsylvania, agreed to a $127,000 settlement with Terrence Williams, who alleged that two police officers broke his jaw and fractured his orbital bone during a traffic stop in August 2020."
-        },
-        "paragraphs": [
-          "The lawsuit, filed in U.S. District Court, claimed that officers stopped Williams for a seatbelt violation and escalated the encounter after Williams asked why he was being detained. Body camera footage, which the city initially declined to release, showed an officer striking Williams multiple times with a closed fist after he was already handcuffed.",
-          "The city admitted no wrongdoing in the settlement agreement, which was approved by the Lancaster City Council in a 5-2 vote. 'We believe settling is the most responsible use of taxpayer dollars,' said Mayor Danene Sorace."
-        ],
-        "sections": [
+        "blocks": [
           {
-            "type": "heading",
-            "title": "Officers no longer employed",
-            "content": [
-              "Both officers involved in the incident resigned from the Lancaster Police Department in 2022 during an internal investigation. Neither has faced criminal charges, though the Department of Justice declined to pursue federal civil rights prosecution due to insufficient evidence of willful violation.",
-              "Williams's attorney, Mary Catherine Roper of the ACLU of Pennsylvania, called the settlement 'a small measure of justice' but said 'the officers should have been prosecuted.'"
-            ]
-          },
-          {
-            "type": "blockquote",
-            "text": "We believe settling is the most responsible use of taxpayer dollars, given the uncertainties and costs of continued litigation.",
-            "cite": "Mayor Danene Sorace"
+            "type": "paragraph",
+            "text": "The killing of 18-year-old Henry Nowak on a residential street in Southampton last December drew renewed and explosive attention this week after his murderer was sentenced to life in prison on Monday and police released body-camera footage showing the moments after the stabbing. In the video, Nowak is seen lying on his back on a driveway, telling arriving Hampshire officers he had been stabbed as they grabbed his wrists and attempted to sit him up. He repeatedly said he couldn't breathe. \"You've been stabbed? Whereabouts?\" one officer said on the footage. \"Don't think you have, mate.\" Nowak was handcuffed. He appeared to lose consciousness as an officer informed him he was being arrested for assault and read him his rights. Officers then uncuffed him, discovered his injuries, and began CPR. He died from his wounds."
           },
           {
             "type": "paragraph",
-            "content": [
-              "The settlement includes $100,000 for Williams and $27,000 for attorney's fees. Lancaster has also agreed to implement additional use-of-force training and to release body camera footage within 30 days of any serious use-of-force incident going forward."
-            ]
+            "text": "The reason the officers initially treated Nowak as a suspect rather than a victim was that his killer, Vickrum Digwa, 23 — who is Sikh — had told the 999 call handler and the officers who arrived that he was the victim of a racist attack by Nowak, claiming Nowak had knocked off his turban and pulled his hair. Digwa was standing nearby at the scene, pointing to a swollen eyelid as apparent evidence of injury. The court found that every element of that account was a lie. Judge William Mousley, sentencing Digwa at Southampton Crown Court on Monday to life with a minimum 21 years, said he did not believe Nowak had said anything racist. \"You are the only person to make that claim and it is completely at odds with his previous character,\" Mousley told Digwa. Digwa had used an 8-inch sheathed Sikh dagger to stab Nowak, alongside a smaller ceremonial kirpan he was entitled to carry for religious reasons."
+          },
+          {
+            "type": "heading",
+            "text": "Police Apologise; Watchdog Opens Investigation"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hampshire and Isle of Wight Constabulary apologised to the Nowak family following the verdict, acknowledging the officers had been misled. Deputy Chief Constable Robert France said in a video statement that officers arriving at the scene had received misleading information during the 999 call and from those present when they arrived, and that he was sorry Nowak had been handcuffed and arrested shortly before losing consciousness. The force later posted on social media that officers had been \"misled at the scene, including denial of weapon use,\" and that they had \"quickly switched to life-saving aid within minutes\" but that \"the medical evidence shows that the injuries were not survivable.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Hampshire's Police and Crime Commissioner Donna Jones went further, issuing a statement that stopped short of accepting the force's own framing. \"It is devastating the officers did not believe Henry when he said he'd been stabbed and couldn't breathe,\" Jones said. \"The details of the police response raises serious concerns about police impartiality, fairness and judgment.\" The Independent Office for Police Conduct, the UK's police watchdog, confirmed it had opened an investigation into the officers' conduct at the scene. Home Secretary Shabana Mahmood said she understood people's horror at the footage and confirmed the IOPC investigation was underway, but she warned that online misinformation had already led to death threats against an officer who was not involved in the arrest. \"Misinformation and inflammatory commentary is making a dreadful situation even worse,\" Mahmood said."
+          },
+          {
+            "type": "heading",
+            "text": "Starmer 'Sickened' as Protests Turn Violent"
+          },
+          {
+            "type": "paragraph",
+            "text": "Prime Minister Keir Starmer said he was sickened by the footage, adding there were questions to be answered about how \"accusations of racism informed the decision-making in this case.\" On Tuesday night, hundreds gathered in protest outside Southampton's police station, with some in the crowd shouting \"I can't breathe\" — the final words of George Floyd, and also the words Nowak was heard repeating in the body-camera footage as officers held him. A large group then walked toward the street where Nowak was killed, where they clashed with riot police who were pelted with chairs, rocks, and flares before retreating. Henry Nowak's father, Mark Nowak, had asked in a statement outside the court on Monday that the case not be used to stoke further division. \"This case is not about racism or religion,\" he said, urging that his son's death instead lead to safer streets."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reform UK leader Nigel Farage used the case to amplify what he called evidence of two-tier policing — a claim promoted by parts of the British right that ethnic minorities receive preferential treatment from police. Farage urged people to respond with \"pure cold rage\" and called for an end to \"anti-white prejudice.\" Home Secretary Mahmood rejected the two-tier framing directly, telling MPs that different policing standards for different communities did not exist, and urging Parliament not to \"allow this murder to turn communities against one another.\" The judge had noted in sentencing that Digwa's lies had caused serious harm well beyond the killing itself. \"Your actions have stirred up racial tension in Southampton and across the country which have made many Sikhs worried about their own safety even though they have done absolutely nothing wrong,\" Mousley told Digwa."
+          },
+          {
+            "type": "heading",
+            "text": "Digwa's Mother Convicted; Henry Nowak's Story"
+          },
+          {
+            "type": "paragraph",
+            "text": "Digwa's mother, Kiran Kaur, 53, was separately convicted of assisting an offender after attempting to conceal the murder weapon. She will be sentenced on July 17. Henry Nowak was a first-year student at the University of Southampton from Chafford Hundred in Essex, who had been out with university football teammates on the night of December 3, 2025, when the attack occurred in Belmont Road. He had been just a few months into his first year. Teammates described him to the BBC as someone whose \"character was contagious\" and who made everyone around him feel like they had just scored a goal. A charity football match held in his memory earlier this year raised funds for bereavement support charity 2Wish."
           }
         ]
       },
