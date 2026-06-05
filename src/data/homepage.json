@@ -104,15 +104,15 @@
       },
       {
         "id": 303,
-        "slug": "ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open",
+        "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado",
         "category": "puerto-rico",
-        "image": "/ricky-castillo-claims-first-pga-tour-victory-at-puerto-rico-open.webp",
+        "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
-        "date": "March 8, 2026",
+        "date": "June 5, 2026",
         "author": "Carlos Medina Reyes",
-        "title": "Ricky Castillo Claims First PGA Tour Victory at Puerto Rico Open",
-        "description": "Pro golfer Ricky Castillo secured his first career PGA Tour win in Rio Grande this weekend."
+        "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released",
+        "description": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort."
       }
     ]
   },
@@ -148,7 +148,16 @@
   "date": "June 3, 2026",
   "author": "Darnell Hutchins"
 },
-        { "id": 404, "slug": "chicago-shotspotter-wrongful-jail-lawsuit", "image": "/chicago-shotspotter-wrongful-jail-lawsuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Chicago Settles Lawsuit with Man Wrongfully Jailed by ShotSpotter Tech Error", "date": "March 4, 2026", "author": "Darnell Hutchins" },
+{
+  "id": 404,
+  "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
+  "category": "pa",
+  "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
+  "date": "June 5, 2026",
+  "author": "Darnell Hutchins"
+},
         { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "Darnell Hutchins" },
         { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "Darnell Hutchins" },
         { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "Darnell Hutchins" },
