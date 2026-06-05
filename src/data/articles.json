@@ -1400,19 +1400,25 @@
   },
   {
     "id": 503,
-    "slug": "apple-emergency-ios-patch-darksword-spyware",
+    "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware | Zero-Day Vulnerability",
-    "metaDescription": "Apple released an emergency security update (iOS 18.4.1) after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iMessage.",
-    "metaKeywords": ["Apple emergency patch", "DarkSword spyware", "iOS zero-day", "iMessage vulnerability", "security update"],
-    "heading": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware",
-    "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS.",
-    "date": "March 19, 2026",
-    "image": "/apple-emergency-ios-patch-darksword-spyware.webp",
-    "heroImage": "/apple-emergency-ios-patch-darksword-spyware.webp",
-    "alt": "iPhone with security update screen",
+    "metaTitle": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns",
+    "metaDescription": "The U.S. Senate rejected advancing an extension of a major surveillance program tied to FISA, after backlash over leadership picks, raising questions about oversight and civil liberties.",
+    "metaKeywords": [
+      "Senate blocks FISA Section 702 extension June 2026",
+      "Bill Pulte acting DNI FISA vote failure",
+      "Section 702 warrantless surveillance civil liberties",
+      "Mark Warner Thune Pulte ODNI intelligence",
+      "FISA expiry June 12 2026 Senate Democrats"
+    ],
+    "heading": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns",
+    "excerpt": "The U.S. Senate voted 47-52 early Friday to block a motion to advance a long-stalled extension of FISA Section 702, after nearly every Senate Democrat — joined by six Republicans — refused to move the bill in protest of President Trump's appointment of Bill Pulte as acting Director of National Intelligence, with the surveillance authority set to expire in one week.",
+    "date": "June 5, 2026",
+    "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp",
+    "heroImage": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp",
+    "alt": "The U.S. Capitol building as the Senate votes 47-52 to block advancing a FISA Section 702 surveillance extension, June 5, 2026",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
@@ -1421,33 +1427,50 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "A",
-        "text": "pple on Thursday pushed an emergency iOS security update — version 18.4.1 — to patch a zero-day vulnerability that security researchers say was being actively exploited to install DarkSword spyware on iPhones via malicious iMessage attachments."
-      },
-      "paragraphs": [
-        "The vulnerability, tracked as CVE-2026-0932, resides in the Image I/O framework and allowed attackers to execute arbitrary code without any user interaction. Citizen Lab and Amnesty International's Security Lab jointly identified the spyware, which they said was being used to target journalists, lawyers, and political opposition figures in at least seven countries.",
-        "Apple declined to comment on the identity of the spyware vendor but confirmed that 'a small number of users' had been affected. The company credited Citizen Lab with the discovery."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Commercial spyware industry under fire",
-          "content": [
-            "DarkSword bears similarities to Pegasus, the spyware developed by NSO Group, but researchers said it appears to be from a different, possibly Eastern European, vendor. 'This is further evidence that the commercial spyware market is expanding, not contracting,' said John Scott-Railton of Citizen Lab.",
-            "The Biden administration added two spyware companies to the Commerce Department's entity list in February, restricting their access to U.S. technology. However, researchers say new vendors emerge regularly."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is further evidence that the commercial spyware market is expanding, not contracting. Apple cannot patch its way out of this problem — governments must regulate the industry.",
-          "cite": "John Scott-Railton, Citizen Lab"
+          "type": "paragraph",
+          "text": "The U.S. Senate voted early Friday to block a motion to proceed to a bill extending the government's warrantless surveillance authority under Section 702 of the Foreign Intelligence Surveillance Act, with the motion failing 47 to 52. Every Senate Democrat except Sen. John Fetterman of Pennsylvania voted against advancing the legislation. Six Republicans joined them: Sens. Josh Hawley of Missouri, Mike Lee of Utah, Rand Paul of Kentucky, Eric Schmitt of Missouri, Rick Scott of Florida, and Tommy Tuberville of Alabama. The failure leaves Section 702 — a surveillance authority that allows the U.S. government to collect the communications of foreign nationals abroad, including communications with Americans, without an individual warrant — on track to expire on June 12, one week away."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Apple has urged all users to install the update immediately. The company also announced that it will add a new 'Lockdown Mode' enhancement in iOS 19, scheduled for September, that will block all iMessage attachment types except images."
-          ]
+          "text": "The collapse of what had been expected to be a bipartisan vote was almost entirely caused by a single decision made by President Trump earlier in the week: the appointment of Bill Pulte, the director of the Federal Housing Finance Agency, as acting Director of National Intelligence. The appointment was announced without prior consultation with congressional leaders and blindsided the intelligence community and Capitol Hill alike. Pulte has no military or intelligence background. Secretary of State Marco Rubio, who previously served as the top Republican on the Senate Intelligence Committee, told House lawmakers Wednesday that he had never heard Pulte's name during his time on the panel."
+        },
+        {
+          "type": "heading",
+          "text": "Who Is Bill Pulte — and Why Did His Appointment Sink the Vote"
+        },
+        {
+          "type": "paragraph",
+          "text": "William Pulte is the grandson of the founder of PulteGroup, one of the country's largest homebuilders, and serves as the director of the Federal Housing Finance Agency, which regulates Fannie Mae and Freddie Mac. In that role, he has used his access to confidential mortgage data to investigate political opponents of the Trump administration. According to The Hill, targets of that effort have included Federal Reserve governor Lisa Cook, New York Attorney General Letitia James, who filed a $250 million fraud lawsuit against Trump and his organization, and Sen. Adam Schiff of California. Schiff, a member of the Senate Intelligence Committee, said Pulte had demonstrated \"a willingness to weaponize whatever information he can get access to\" and could not be trusted to serve as the nation's top intelligence official. Pulte's appointment came through an acting designation rather than a formal Senate confirmation — a path that the New York Times noted would give him a freer hand to pursue administration priorities without facing questions under oath from Republican senators."
+        },
+        {
+          "type": "paragraph",
+          "text": "Senate Intelligence Committee Vice Chairman Mark Warner of Virginia, who had been the chief Democratic architect of the bipartisan FISA deal, told Senate Majority Leader John Thune directly that he needed to press the White House to reverse Pulte's appointment or risk losing Democratic support for the bill. Warner said there would be \"more than enough\" Democratic votes to reauthorize FISA if Pulte were not in the position. Senate Minority Leader Chuck Schumer said the appointment \"appears to have been a hastily considered backroom deal based on loyalty to Trump, not the security of our nation\" and called the timing — less than two weeks before FISA's expiration — catastrophic. \"The timing of this announcement could not be worse,\" Schumer said. \"This announcement and its timing clearly make passing an extension of FISA much harder.\""
+        },
+        {
+          "type": "heading",
+          "text": "What the Bill Would Have Done — and What It Left Out"
+        },
+        {
+          "type": "paragraph",
+          "text": "The legislation that failed to advance on Friday had been crafted through months of painstaking negotiation between the Intelligence Committee leadership and reflected a series of concessions to skeptical lawmakers. It included a three-year ban on a central bank digital currency — a provision House Republicans had attached to an earlier version of the bill, which the Senate also kept — and language explicitly barring the FBI from using Section 702-collected information to prosecute U.S. citizens. It did not, however, include a full warrant requirement before intelligence agencies can query databases of Americans' communications collected incidentally under the program. That omission has remained the central sticking point for civil liberties advocates and a bloc of lawmakers on both left and right for years. Cato Institute attorneys and the Electronic Frontier Foundation both argued publicly this week that the Senate bill was still fundamentally incompatible with the Fourth Amendment's protections against unreasonable search."
+        },
+        {
+          "type": "paragraph",
+          "text": "Senate Democratic Whip Dick Durbin used a floor speech Thursday to lay out the civil liberties case against reauthorization without reforms. \"Under Section 702 of the Foreign Intelligence Surveillance Act, the government collects communications of foreigners overseas without a warrant from any court,\" Durbin said. \"The time to finally protect Americans from warrantless surveilling under Section 702 is now. Not later. Not next time. Now — with this Congress. We've heard these false promises too many times before, and with power in the hands of this President, we just can't afford to wait any longer.\" Durbin concluded: \"I oppose the reauthorization of warrantless surveillance powers under FISA Section 702 without guardrails to better protect the privacy of Americans. I urge all of my colleagues to do the same.\""
+        },
+        {
+          "type": "heading",
+          "text": "A Collapsing Timeline and a Divided GOP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Section 702's current extension, passed by unanimous consent on April 30 after the House attached a CBDC ban to a three-year renewal that complicated Senate passage, runs only until June 12. Senate Majority Leader Thune has repeatedly called the programme so essential to national security that \"we can't afford to go dark,\" and Republican leaders publicly insisted the Pulte fight should be kept separate from the surveillance vote. \"The FISA vote ought to stick to the policy of FISA,\" said Rep. Brian Fitzpatrick of Pennsylvania. Speaker Mike Johnson called it \"absolutely outrageous\" for Democrats to hold FISA hostage over an executive appointment. But the votes were not there. Republicans cannot pass a Section 702 extension on their own — the bill requires Democratic support to clear the 60-vote cloture threshold, and Friday's vote demonstrated that the arithmetic had collapsed entirely."
+        },
+        {
+          "type": "paragraph",
+          "text": "Three Republican senators — Bill Cassidy of Louisiana, Susan Collins of Maine, and Lisa Murkowski of Alaska — went further than opposing Pulte rhetorically on Thursday: they voted for a Warner-sponsored amendment to the budget reconciliation package that would have formally barred Pulte from simultaneously serving as acting DNI while holding his FHFA position. The amendment was defeated but registered bipartisan opposition to Pulte's dual role in stark public terms. Thune, asked directly by reporters whether Pulte has the experience to be acting DNI, deferred the question to Intelligence Committee Chairman Tom Cotton, who also declined to answer directly, noting instead that Tulsi Gabbard's official departure from the administration is not until June 30. As of Friday morning, the White House had made no public statement about whether it would reconsider Pulte's appointment. Section 702 has now been extended twice without resolution of the underlying reform disagreements, and lawmakers face a hard deadline in seven days."
         }
       ]
     },
