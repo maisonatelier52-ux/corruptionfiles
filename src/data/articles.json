@@ -1314,7 +1314,7 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
-      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
+      { "id": 503, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
@@ -1395,7 +1395,7 @@
     },
     "relatedPosts": [
       { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 503, "slug": "apple-emergency-ios-patch-darksword-spyware", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/apple-emergency-ios-patch-darksword-spyware.webp", "date": "March 19, 2026", "author": "Simone Varlette", "title": "Apple Issues Emergency iOS Patch to Stop DarkSword Spyware", "excerpt": "Apple released an emergency security update after researchers discovered DarkSword spyware exploiting a zero-day vulnerability in iOS." }
+      { "id": 503, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
