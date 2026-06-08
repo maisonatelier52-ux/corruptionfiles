@@ -1637,24 +1637,30 @@
     },
     "relatedPosts": [
       { "id": 1, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
-      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring." }
+      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
     ]
   },
   {
     "id": 3,
-    "slug": "black-market-hiv-drug-ring",
+    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "CEO and Owners Sentenced in $92 Million Black-Market HIV Drug Ring",
-    "metaDescription": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring that diverted life-saving medications.",
-    "metaKeywords": ["HIV drug fraud", "black market pharmaceuticals", "wholesaler fraud", "Medicare fraud", "drug diversion"],
-    "heading": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring",
-    "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison for running a $92 million black-market HIV drug ring.",
-    "date": "March 16, 2026",
-    "image": "/black-market-hiv-drug-ring.webp",
-    "heroImage": "/black-market-hiv-drug-ring.webp",
-    "alt": "Pharmaceutical warehouse",
+    "metaTitle": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "metaDescription": "The U.S. government has cut federal funding for Hawaii's Medicaid Fraud Control Unit after officials found no Medicaid fraud convictions or indictments between 2022 and 2025.",
+    "metaKeywords": [
+      "Hawaii Medicaid Fraud Control Unit federal funding cut 2026",
+      "HHS Inspector General March Bell Hawaii MFCU decertified",
+      "Hawaii Medicaid fraud zero convictions indictments 2022 2025",
+      "Governor Josh Green Medicaid fraud strike force Hawaii",
+      "Trump administration Medicaid fraud enforcement states"
+    ],
+    "heading": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "excerpt": "The U.S. Department of Health and Human Services cut approximately $3 million in annual federal funding to Hawaii's Medicaid Fraud Control Unit on June 4 after the agency's Inspector General found the unit had failed to obtain a single indictment or conviction for Medicaid fraud in the four years between 2022 and 2025 — despite receiving roughly $12 million in federal tax dollars over that period.",
+    "date": "June 4, 2026",
+    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+    "heroImage": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+    "alt": "Hawaii Attorney General's office in Honolulu as federal officials announce decertification of the state's Medicaid Fraud Control Unit and cut of $3 million in annual federal funding, June 4, 2026",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
@@ -1663,33 +1669,50 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "hree Florida men were sentenced to a combined 47 years in federal prison on Monday for orchestrating a $92 million scheme that diverted HIV medications from legitimate supply chains and resold them on the black market."
-      },
-      "paragraphs": [
-        "CEO Michael Weiss, 58, received 20 years; his brother David Weiss, 55, received 15 years; and operations director Robert Kessler, 49, received 12 years. The men operated Miami-based PharmaDirect, a licensed wholesale distributor that prosecutors said bought stolen and expired HIV drugs at deep discounts, repackaged them with falsified labels, and sold them to pharmacies across 14 states.",
-        "Patients who received the diverted medications were at risk because the drugs' cold storage chain had been broken, potentially rendering them ineffective. HIV treatment requires consistent drug levels to prevent viral resistance."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Patient harm alleged",
-          "content": [
-            "Court documents included testimony from three patients whose viral loads spiked after receiving suspect medication from PharmaDirect. 'These defendants prioritized profit over human life,' said Assistant U.S. Attorney Catherine Votaw.",
-            "The scheme operated from 2019 to 2024 and was uncovered after a routine FDA inspection flagged discrepancies in PharmaDirect's temperature logs. The company has since been shut down."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "These defendants prioritized profit over human life. They sold medications that could have killed vulnerable patients.",
-          "cite": "Assistant U.S. Attorney Catherine Votaw"
+          "type": "paragraph",
+          "text": "The U.S. Department of Health and Human Services decertified Hawaii's Medicaid Fraud Control Unit and cut approximately $3 million in annual federal funding on Thursday, June 4, after Inspector General T. March Bell concluded in a seven-page letter to state Attorney General Anne Lopez that the unit had not obtained a single criminal indictment or conviction for Medicaid fraud or patient abuse and neglect in the four years between 2022 and 2025. \"Bafflingly, between 2022 and 2025, your unit did not obtain a single conviction for Medicaid fraud,\" Bell wrote. \"Even worse, it did not even obtain an indictment. Not a single Medicaid fraud indictment or conviction, despite receiving approximately $12 million federal tax dollars to fight Medicaid fraud during that period. Enough is enough.\""
         },
         {
           "type": "paragraph",
-          "content": [
-            "All three defendants were also ordered to pay $92 million in restitution jointly and severally. The government has seized approximately $14 million in assets, including luxury cars and real estate."
-          ]
+          "text": "Bell's letter called out Hawaii's unit as the lowest-performing Medicaid fraud control program in the country — a distinction it has apparently held since at least 2014, when federal reviewers first flagged persistent underperformance. Three on-site reviews since that year have resulted in recommendations that Bell said have been \"helpful\" but have not produced the necessary results. \"Indeed,\" he wrote, \"the Hawaii MFCU's performance has gotten significantly worse in recent years.\" Without a federally certified fraud control unit, Hawaii's broader access to Medicaid funding could now be at risk. More than 360,000 Hawaii residents are enrolled in Medicaid, and the state received $2.2 billion in federal Medicaid funds in 2024, according to the agency that advises Congress on healthcare spending."
+        },
+        {
+          "type": "heading",
+          "text": "Civil Recoveries Dismissed as 'Pennies on the Dollar'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hawaii Attorney General Anne Lopez has pushed back against the federal characterisation, arguing her office has not ignored Medicaid fraud. She pointed to $14 million in civil recoveries since 2021 and noted the state had criminally charged two people with healthcare fraud earlier this year. But Bell's letter dismissed those figures in detail. The $14 million in recovered civil judgments, he found, amounts to less than 0.01 percent of Hawaii's total Medicaid expenditures over the same period. Of the 30 civil cases Hawaii claimed credit for between 2021 and 2025, 23 were \"global settlements\" led by other entities in which Hawaii's unit had simply joined — not cases the unit had independently investigated or prosecuted. The remaining seven cases that Hawaii's own unit drove produced $11.3 million in total recoveries, but that figure is almost entirely attributable to a single case that alone brought in $11 million. In 2021, 2022, 2024, and 2025, the return on investment based on what the unit spent produced, in Bell's characterisation, \"pennies on the dollar, or less.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Andrew Ferguson, co-chair of the White House Fraud Task Force, spoke at a press conference Thursday alongside HHS officials and framed the decision in stark terms. \"One of the requirements for getting Medicaid money for your state is to have an effective Medicaid fraud control unit, and if you don't have one, it can jeopardize the state's access to Medicaid money generally,\" Ferguson said. He noted that Medicaid enrollment in Hawaii increased by 40 percent between 2021 and 2025, while funding rose 27 percent over the same period — a trajectory that he said should have generated far more fraud enforcement activity, not less. Nationally, fraud control units across all 50 states were responsible for more than 4,800 criminal convictions of people and businesses during the same 2022 to 2025 window in which Hawaii recorded zero."
+        },
+        {
+          "type": "heading",
+          "text": "Vance Had Flagged Hawaii's Performance in May"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thursday's funding cut did not arrive without warning. In May, Vice President JD Vance publicly accused Hawaii of giving Medicaid fraudsters \"free rein\" and warned that states failing to police the program effectively would face consequences. \"If we continue to find problems, we can turn off other resources within their state Medicaid programs as well. Our goal here is not to do that,\" Vance said at the time, in remarks that read at the time as a threat directed at Honolulu. Also in May, the Trump administration issued notice letters to attorneys general in all 50 states demanding greater cooperation in Medicaid fraud prosecutions — a broad escalation that the Hawaii action now represents the first concrete enforcement step of. Ferguson singled out Ohio Attorney General David Yost as a model of cooperation with federal fraud enforcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "State Rep. Lisa Marten, who chairs Hawaii's House Human Services Committee, offered a pointed analogy in response to the funding cut. \"It's kind of like paying a police officer and sending him out to catch speeders, and saying 'you didn't give out as many speeding tickets as what we paid you in salary,'\" Marten said to Hawaii News Now. The comparison was intended as a defence of the unit, but it also illustrated exactly the accountability argument federal officials have been making: that the unit's purpose is to produce criminal fraud prosecutions, and that it had produced none for four years while drawing federal reimbursements. Hawaii's Department of the Attorney General said in a statement after the announcement that it would ask HHS to reconsider the decertification decision, and that it \"remains committed to protecting Medicaid beneficiaries, safeguarding public funds, and holding accountable those who commit fraud, abuse, or neglect.\""
+        },
+        {
+          "type": "heading",
+          "text": "Governor Creates Independent Strike Force; Broader Medicaid Funding Now at Stake"
+        },
+        {
+          "type": "paragraph",
+          "text": "Governor Josh Green responded to the funding cut by announcing the creation of an independent Medicaid Fraud Strike Force within the state health department — a body separate from the Attorney General's office that will be tasked with investigating and referring fraud cases for prosecution. \"The findings outlined by the Office of Inspector General are serious and deserve a serious response,\" Green said. The governor's move implicitly acknowledged that the existing unit's performance had been inadequate. The strike force will operate alongside, rather than replacing, the Attorney General's office, whose fraud unit will remain in place even without federal certification. Green's response sets up a potentially awkward dual-track structure in which the state health department and the attorney general's office both pursue Medicaid fraud enforcement going forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stakes of the recertification fight are considerably higher than the $3 million annual federal match that has now been cut. Federal law requires every state administering Medicaid to maintain an effective, federally certified fraud control unit as a condition of receiving federal Medicaid funding. If Hawaii cannot demonstrate to HHS that it has restored an effective programme — either through the existing unit or through some new arrangement — it risks losing access to the $2.2 billion in federal Medicaid funds it received in 2024, money that underpins healthcare coverage for more than a third of a million Hawaii residents. The letter gives Hawaii the right to ask for reconsideration, and the attorney general's office said Thursday it would do exactly that."
         }
       ]
     },
@@ -1810,7 +1833,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 3, "slug": "black-market-hiv-drug-ring", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/black-market-hiv-drug-ring.webp", "date": "March 16, 2026", "author": "Ruth Anselmi", "title": "CEO and Owners Sentenced in Huge $92 Million Black-Market HIV Drug Ring", "excerpt": "The CEO and owners of a pharmaceutical wholesaler were sentenced to decades in prison." },
+      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
       { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." }
     ]
   },
