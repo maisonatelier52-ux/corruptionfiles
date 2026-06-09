@@ -165,7 +165,7 @@
   ],
   "worldNews": {
     "main": {
-      "id": 501,
+      "id": 90,
       "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
       "category": "tech",
       "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
@@ -179,7 +179,7 @@
     },
     "sidebar": [
       {
-        "id": 502,
+        "id": 91,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "image": "/london-police-expand-facial-recognition-public-streets.webp",
@@ -191,7 +191,7 @@
         "title": "London Police Expand Facial Recognition Across Public Streets"
       },
       {
-        "id": 503,
+        "id": 92,
         "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance",
         "category": "tech",
         "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp",
@@ -353,13 +353,13 @@
     },
     {
       "id": 503,
-      "slug": "noaa-rainier-mineral-mapping-pacific-monuments",
+      "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
       "category": "eco",
-      "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments",
-      "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp",
+      "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+      "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 27, 2026",
+      "date": "June 9, 2026",
       "author": "Thomas Aldgate"
     },
     {
@@ -434,13 +434,13 @@
   },
   {
     "id": 702,
-    "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict",
+    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
     "category": "intelligence",
-    "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict",
-    "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams.",
+    "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence.",
     "author": "Naomi Vosburgh",
-    "date": "April 6, 2026",
-    "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp",
+    "date": "June 9, 2026",
+    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 

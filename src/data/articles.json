@@ -1238,7 +1238,7 @@
     ]
   },
   {
-    "id": 501,
+    "id": 90,
     "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
@@ -1303,7 +1303,7 @@
     },
     "relatedPosts": [
       {
-        "id": 502,
+        "id": 92,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -1314,11 +1314,11 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
-      { "id": 503, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 93, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
-    "id": 502,
+    "id": 92,
     "slug": "london-police-expand-facial-recognition-public-streets",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
@@ -1394,12 +1394,12 @@
       ]
     },
     "relatedPosts": [
-      { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 503, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 91, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 93, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
-    "id": 503,
+    "id": 93,
     "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
@@ -1475,9 +1475,9 @@
       ]
     },
     "relatedPosts": [
-      { "id": 501, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 91, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
-        "id": 502,
+        "id": 92,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -2244,24 +2244,30 @@
     },
     "relatedPosts": [
       { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
+      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
   {
     "id": 603,
-    "slug": "noaa-rainier-mineral-mapping-pacific-monuments",
+    "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments",
-    "metaDescription": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments, raising concerns about future mining.",
-    "metaKeywords": ["NOAA Rainier", "deep-sea mining", "marine monuments", "rare earth minerals", "Pacific Ocean"],
-    "heading": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments",
-    "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments.",
-    "date": "March 27, 2026",
-    "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp",
-    "heroImage": "/noaa-rainier-mineral-mapping-pacific-monuments.webp",
-    "alt": "NOAA research ship at sea",
+    "metaTitle": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+    "metaDescription": "Major automakers have urged the EPA to postpone strict vehicle pollution standards by two years. Environmental advocates warn the move could increase harmful emissions, worsen air quality, and lead to significant public health impacts.",
+    "metaKeywords": [
+      "EPA vehicle pollution rules delay two years 2026",
+      "Alliance Automotive Innovation EPA hearing Biden emissions",
+      "vehicle criteria pollutants delay 2027 2029",
+      "EV tax credit expiry emissions compliance automakers",
+      "Environmental Defense Fund vehicle standards health harms"
+    ],
+    "heading": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+    "excerpt": "The Alliance for Automotive Innovation — the trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA regulators at a public hearing this week that a proposed two-year delay in enforcing Biden-era vehicle pollution standards is necessary, but pushed the agency to move quickly to rewrite the rules permanently rather than simply deferring the problem.",
+    "date": "June 9, 2026",
+    "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+    "heroImage": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+    "alt": "Vehicle exhaust pipes emitting criteria pollutants as US automakers back EPA's proposed two-year delay to Biden-era emissions standards at a public hearing, June 2026",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -2270,33 +2276,50 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "N",
-        "text": "OAA Ship Rainier, a 231-foot hydrographic survey vessel, departed from Honolulu on March 25 on a 60-day mission to map mineral-rich seabed deposits within the Papahānaumokuākea Marine National Monument and the Pacific Remote Islands Marine National Monument."
-      },
-      "paragraphs": [
-        "The expedition, funded by a $12 million grant from the Department of the Interior, aims to identify concentrations of cobalt, nickel, and rare earth elements critical for electric vehicle batteries and defense systems. While NOAA says the mission is purely scientific, conservation groups fear it is a precursor to deep-sea mining.",
-        "Both monuments are currently protected from mineral extraction under the Antiquities Act. However, the Trump administration has signaled interest in revising monument boundaries to allow resource development. A 2025 executive order directed the Interior Department to review all marine monuments designated since 1996."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Scientific or commercial?",
-          "content": [
-            "NOAA Administrator Richard Spinrad defended the mission: 'Understanding our mineral resources is essential for national security. This is basic research, not a mining permit.' But critics note that the mapping resolution being used is consistent with commercial exploration standards.",
-            "Native Hawaiian cultural practitioners have protested the mission, saying the monuments are sacred ancestral waters. 'You cannot commodify what is sacred,' said Kumu Hinaleimoana Wong-Kalu."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Understanding our mineral resources is essential for national security. This is basic research, not a mining permit.",
-          "cite": "NOAA Administrator Richard Spinrad"
+          "type": "paragraph",
+          "text": "Major US automakers publicly backed the Environmental Protection Agency's proposal to delay enforcement of Biden-era vehicle pollution rules by two years at a public hearing on Wednesday, while calling on the agency to move quickly to rewrite the underlying standards rather than simply pushing deadlines back. The Alliance for Automotive Innovation — a trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA officials that the delay was necessary and called for what its representative described as \"a reasonable, workable path forward\" and \"realistic and durable long-term standards.\" The EPA estimates that postponing enforcement of the Biden rules by two years would save automakers approximately $1.7 billion."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The expedition's data will be made public after one year, per NOAA policy. Meanwhile, the International Seabed Authority continues to develop mining codes for international waters, but U.S. marine monuments are under sole U.S. jurisdiction."
-          ]
+          "text": "In prepared testimony delivered to the EPA, Alliance Senior Director and Executive Adviser Michael Hartrick argued that the market conditions assumed when the Biden administration finalised the rules in April 2024 had failed to materialise. He pointed to three specific factors driving the gap between the rules' assumptions and current reality: slower-than-projected consumer adoption of electric vehicles, the expiry of federal tax credits for EV purchases, and China's continued dominance in battery production — all of which he said had made meeting the original compliance deadlines impractical. \"This fundamental disconnect between outdated policy assumptions and market reality has already stranded billions of dollars in investments,\" Hartrick said. \"The decline in EV sales has already stranded billions of dollars in investments.\""
+        },
+        {
+          "type": "heading",
+          "text": "What the Biden Rules Required — and What a Delay Would Change"
+        },
+        {
+          "type": "paragraph",
+          "text": "The regulations at the centre of the dispute were finalised by Biden's EPA in April 2024. They cover what regulators call criteria pollutants — six specific air pollutants: ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, and lead — and set compliance targets running from the 2027 through the 2032 model years. The rules require a 50 percent reduction in criteria pollutants from light-duty passenger vehicles and a 58 percent reduction from medium-duty commercial vehicles by 2032. The EPA's own modelling found that reaching those targets would require a significant shift toward electric vehicles in the new-car fleet, with projections under the Biden-era rules suggesting between 35 and 56 percent of new vehicles sold between 2030 and 2032 would need to be electric."
+        },
+        {
+          "type": "paragraph",
+          "text": "The proposed delay would push enforcement of those standards back two years — from the 2027 model year to the 2029 model year — while the EPA works to rewrite the rules to better reflect what the agency described in its May proposal as \"evolving market conditions, regulatory requirements, and feasibility challenges, while maintaining strong environmental protections.\" The automaker alliance's message at the hearing was clear: a temporary reprieve is welcome, but what the industry needs is a permanent reset of the standards, not a series of rolling deferrals. What no automaker wants, several industry observers noted, is to spend the next several years operating under the uncertainty of a two-year delay only to face equally stringent targets on the other side."
+        },
+        {
+          "type": "heading",
+          "text": "Environmental Groups: The Delay Will Cost Lives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Environmental organisations sharply criticised the proposed postponement. Rishab Jagetia, a fellow with the Environmental Defense Fund, told the hearing directly that postponing the standards would increase public health risks and generate billions of dollars in additional health-related costs for American families and public health systems. \"Vehicle standards save lives,\" Jagetia said. \"Delaying them means more people will suffer from serious heart and lung diseases and die prematurely from air pollution that we have the technology and the regulatory framework to prevent.\" The EDF and allied groups argue that the six criteria pollutants targeted by the Biden rules are among the most well-documented causes of preventable illness in American communities, disproportionately concentrated in lower-income areas near highways and freight corridors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Sierra Club issued a separate statement calling the delay a gift to the auto industry at the public's expense, noting that EPA Administrator Lee Zeldin had in March already moved to reconsider the agency's broader greenhouse gas rules for vehicles — rules that would have required fleet-average tailpipe emissions to drop by nearly 50 percent by 2032 compared with 2027 projected levels. Together, the criteria pollutant delay and the greenhouse gas rule rollback represent the most significant rollback of US vehicle emissions policy in a generation. Under the Biden-era standards, EPA had previously projected the rules would prevent tens of thousands of premature deaths annually by 2032."
+        },
+        {
+          "type": "heading",
+          "text": "A Wider Pattern of Regulatory Rollback"
+        },
+        {
+          "type": "paragraph",
+          "text": "The hearing came against a backdrop of sustained deregulatory activity at the federal level affecting the auto sector. The Transportation Department under the Trump administration has dialled back fuel economy standards — moving from a Biden-era target of 50.4 miles per gallon average by 2031 to 34.5 mpg, a reduction of roughly 16 mpg that reversed years of tightening standards. Zeldin told reporters in March that automakers had told the EPA the existing emissions requirements were \"causing adverse impacts\" and that heeding their concerns would have a \"positive impact on the auto industry, on auto jobs and bringing down the cost of vehicles and increasing consumer choice.\" The criteria pollutant delay sits within this broader policy shift and reflects an industry that spent part of the Biden years investing in EV capability, then watched demand fall short of projections, and is now pressing for regulatory relief on multiple fronts simultaneously."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Alliance for Automotive Innovation's consistent position — both in September 2025 comments to the EPA and in Wednesday's hearing testimony — is that the criteria pollutant rules as currently written are \"unachievable without significant increases in EV market share\" and that without relief, manufacturers face hundreds of dollars of additional cost per internal combustion engine vehicle. What the industry is seeking is not freedom from environmental standards, its representatives have been careful to say, but a regulatory framework that is achievable with the technology and market conditions that actually exist rather than those that policy architects projected would exist. Whether the EPA's permanent rewrite, whenever it arrives, will satisfy both the industry and public health advocates remains very much an open question."
         }
       ]
     },
@@ -2360,7 +2383,7 @@
     },
     "relatedPosts": [
       { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "noaa-rainier-mineral-mapping-pacific-monuments", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/noaa-rainier-mineral-mapping-pacific-monuments.webp", "date": "March 27, 2026", "author": "Thomas Aldgate", "title": "NOAA Ship Rainier Begins Mapping Rare Minerals in Pacific Marine Monuments", "excerpt": "A NOAA research vessel has begun sonar mapping of deep-sea mineral deposits within protected Pacific marine national monuments." }
+      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
   {
@@ -2660,24 +2683,30 @@
       ]
     },
     "relatedPosts": [
-      { "id": 702, "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp", "date": "April 6, 2026", "author": "Naomi Vosburgh", "title": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict", "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams." }
+      { "id": 702, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
     ]
   },
   {
     "id": 702,
-    "slug": "chinese-tech-firms-exposing-us-military-secrets-iran-conflict",
+    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "Chinese Tech Firms Exposing US Military Secrets in Iran Conflict | Intelligence Alert",
-    "metaDescription": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams in the Iran conflict.",
-    "metaKeywords": ["Chinese tech firms", "US military secrets", "open-source intelligence", "Iran conflict", "OSINT threat"],
-    "heading": "Chinese Tech Firms Exposing U.S Military Secrets in the Iran Conflict",
-    "excerpt": "A 2026 intelligence alert warns Chinese tech firms are mining open-source data to unmask covert U.S operations and compromise field teams.",
-    "date": "April 6, 2026",
-    "image": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp",
-    "heroImage": "/chinese-tech-firms-exposing-us-military-secrets-iran-conflict.webp",
-    "alt": "Digital surveillance concept",
+    "metaTitle": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "metaDescription": "Lawmakers from both parties warn that President Donald Trump's appointment of Bill Pulte as acting Director of National Intelligence could complicate efforts to renew the Section 702 surveillance program, a key tool used by U.S. intelligence agencies.",
+    "metaKeywords": [
+      "FISA Section 702 expiry June 12 2026 Pulte DNI",
+      "Bill Pulte acting Director National Intelligence FISA",
+      "Warner live hand grenade FISA renewal Senate",
+      "Jim Himes 702 reauthorization off the table CBS",
+      "Section 702 lapse intelligence community FIFA World Cup"
+    ],
+    "heading": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "excerpt": "With Section 702 of the Foreign Intelligence Surveillance Act set to expire Friday, bipartisan alarm is growing on Capitol Hill that President Trump's appointment of Bill Pulte as acting Director of National Intelligence has made renewal all but impossible — a situation one senior senator described as a self-inflicted wound that hands adversaries a potential opening at the worst possible moment.",
+    "date": "June 9, 2026",
+    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "heroImage": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "alt": "NSA signals intelligence facility as Section 702 of FISA faces lapse on June 12, 2026 amid congressional standoff over Bill Pulte's appointment as acting Director of National Intelligence",
     "author": {
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
@@ -2686,33 +2715,58 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "A",
-        "text": "classified U.S. intelligence alert, shared with allies on April 3 and seen by this outlet, warns that Chinese technology companies are systematically harvesting open-source data — including fitness tracker logs, social media geotags, and commercial satellite imagery — to expose covert U.S. military operations in the Iran conflict zone."
-      },
-      "paragraphs": [
-        "The alert, produced by the National Counterintelligence and Security Center (NCSC), names three Chinese firms — Shanghai-based Hesai Technology, Beijing-based MegaFon Analytics, and Shenzhen-based DeepMap — as 'high-confidence conduits' for information that has compromised at least two CIA field assets and revealed the locations of three U.S. special operations teams in Iraq since January.",
-        "The data collection method, known as 'OSINT fusion,' combines publicly available data with advanced pattern recognition. For example, fitness tracker data from U.S. personnel inadvertently left running during deployments can reveal patrol routes and base perimeters. Chinese firms then sell the analyzed data to Iranian intelligence, according to the alert."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Pentagon restricts personal devices",
-          "content": [
-            "In response, the Department of Defense has expanded its ban on geolocation-enabled personal devices to all forward operating bases in CENTCOM's area of responsibility. Personnel found violating the ban face disciplinary action, including potential courts-martial.",
-            "The Chinese Ministry of Foreign Affairs denied the allegations, calling them 'baseless smears against innocent Chinese companies.' The companies named did not respond to requests for comment."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is a new form of warfare. They're not hacking our systems — they're exploiting the data we leave lying around in plain sight. Every soldier needs to understand the threat.",
-          "cite": "Gen. Michael Kurilla, CENTCOM Commander"
+          "type": "paragraph",
+          "text": "Section 702 of the Foreign Intelligence Surveillance Act — a legal authority the U.S. intelligence community uses to collect communications of foreign targets overseas, and which officials say accounts for more than half of the most sensitive intelligence products that reach the President's Daily Brief — is set to expire at midnight Friday, June 12. As of Monday, there is no clear path to renewal. Senate Majority Leader John Thune told reporters after last week's failed cloture vote that the chamber would \"take another run at\" passing an extension this week, but the votes are not there. Democrats have made their position explicit: they will not support reauthorization under any circumstances as long as Bill Pulte remains the acting Director of National Intelligence."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The NCSC alert recommends that all U.S. personnel disable geolocation on personal devices, use VPNs when accessing any online account overseas, and avoid posting operational details — including vague references to 'work' — on social media."
-          ]
+          "text": "The standoff puts some of America's most sensitive foreign intelligence collection activities — covering terrorism, weapons proliferation, cyberattacks, and foreign government communications — at immediate risk of disruption. Under Section 702, the National Security Agency and other agencies collect vast amounts of internet and telephone data on foreign targets abroad, including communications with Americans. The authority does not require an individual warrant. Without renewal, agencies must rely on existing court orders until they expire and would face a protracted legal battle to compel companies to maintain cooperation with data collection requests. Intelligence officials have privately warned lawmakers that tech companies, which have their own legal and public-relations incentives to stop cooperating the moment the law lapses, are not likely to wait for a court order to tell them to."
+        },
+        {
+          "type": "heading",
+          "text": "Warner: Trump May Not Actually Want Renewal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sen. Mark Warner of Virginia, the senior Democrat on the Senate Intelligence Committee and the principal Democratic architect of the bipartisan renewal deal that collapsed last week, used his Sunday television appearances to raise a question that had been circulating privately in Washington for days: whether the Trump administration actually wants FISA to survive. \"I'm not sure Trump really wants renewal of 702 because why would he throw a live hand grenade with this kind of controversial pick 10 days before its renewal date?\" Warner told CNN's State of the Union. On ABC's This Week, Warner was equally blunt, calling the Pulte appointment \"a self-inflicted harm\" and describing it as throwing a \"live hand grenade\" into the congressional debate at the worst possible moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Warner acknowledged the broader surveillance policy dilemma openly. \"It is a controversial program,\" he said on CNN. \"I think it's a necessary program, and we've worked on even further reforms. But the idea that we're going to allow Mr. Pulte to be potentially in charge of how this tool is used or manipulated, that's going to be a very uphill path to convince Democrats, and this was a self-inflicted harm.\" Warner's concern is not hypothetical. Pulte, while serving as director of the Federal Housing Finance Agency, has used his access to mortgage data to investigate Trump political adversaries. Placed atop the nation's entire intelligence apparatus — even in an acting capacity — those instincts, Democrats argue, could be turned toward far more powerful tools."
+        },
+        {
+          "type": "heading",
+          "text": "Trump: Pulte Will Not Be Permanent — But He Can Stay 210 Days"
+        },
+        {
+          "type": "paragraph",
+          "text": "President Trump appeared to offer a partial concession on Thursday when he told reporters he did not think he would nominate Pulte to be a permanent Director of National Intelligence. The statement was widely noted on Capitol Hill, but it did not move Democratic positions — because it does not resolve the underlying problem. Under federal law governing acting appointments, Pulte can serve as acting DNI for 210 days without Senate confirmation. A statement from Trump that he does not plan a permanent nomination leaves Pulte in place through at least late 2026, covering the entirety of the period during which any renewed FISA authority would be in operation. Democrats say the question is not whether Pulte will be confirmed permanently — it is whether he will be overseeing Section 702 collection at all. The answer, unless Trump reverses the appointment entirely, remains yes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rep. Don Bacon, a Republican from Nebraska, expressed the frustration of the GOP members caught between their institutional support for FISA and their reluctance to break with the White House. \"FISA gives us over 50% of our most sensitive intelligence and has enabled the U.S. to stop multiple terrorist attacks,\" Bacon wrote on X on Monday. \"Letting FISA lapse would reflect a nation paralyzed by hyper-partisanship and dysfunction.\" He added directly that Trump could \"help\" prevent a lapse by canceling plans for Pulte to succeed outgoing director Tulsi Gabbard, who is formally departing on June 30. It was the most public Republican call yet for the president to reverse course."
+        },
+        {
+          "type": "heading",
+          "text": "World Cup, 250th Anniversary — and a Warning About Timing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rep. Jim Himes, the ranking Democrat on the House Intelligence Committee, used an appearance on CBS's Face the Nation to offer the most pessimistic assessment yet of where things stand. \"I think at one level they're acknowledging reality, which is that the Pulte appointment has taken 702 reauthorization off the table,\" Himes told CBS. For Himes, the failure to renew would not be merely a bureaucratic disruption — it would be a genuine intelligence gap opening at a moment when the United States faces heightened threat environments on multiple fronts. Rep. Michael McCaul, a former House Homeland Security Committee chairman, sharpened that point dramatically, warning that failing to renew FISA would be \"the most grossly irresponsible thing I've seen Congress do in my 22 years in office\" — in large part because of the specific timing. The FIFA World Cup begins in North America this month, bringing tens of millions of visitors and unprecedented security and intelligence requirements. Celebrations of the 250th anniversary of American independence, including a major July 4 observance, add further elevated-threat events to an already compressed calendar."
+        },
+        {
+          "type": "heading",
+          "text": "What Happens If 702 Lapses — and What Comes Next"
+        },
+        {
+          "type": "paragraph",
+          "text": "A lapse would not immediately and completely switch off surveillance collection. Existing court orders authorising specific collection activities under Section 702 remain valid through their own expiry dates, which in some cases extend into 2025. But the legal infrastructure allowing new certifications, new targeting decisions, and new data requests from technology companies would no longer exist. The Department of Justice has previously warned Congress in writing that companies are likely to stop or reduce cooperation with legal process the moment the authority lapses, because their own legal exposure changes and because their customers expect them to. A prior lapse experience — during the 2024 FISA reauthorization debate — demonstrated that even brief gaps produce immediate friction with corporate partners and require lengthy judicial proceedings to restore full cooperation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thune has signalled the Senate will attempt another cloture vote this week before the Friday deadline. Whether anything has changed in the underlying arithmetic is unclear. Trump has not publicly indicated he will reverse the Pulte appointment, and Democrats have not indicated they will move without that reversal. Some intelligence officials have privately suggested the administration may be hoping to allow the authority to lapse briefly, then use the resulting alarm — among agencies, allies, and the public — to force a clean reauthorization on terms more favourable to the executive branch. That calculation, if it exists, carries significant risk. FISA Section 702 is not the kind of authority that can be lapsed and restored without cost. The question of how much cost the administration is prepared to accept for a political point on intelligence oversight is one Washington is rapidly running out of time to answer."
         }
       ]
     },
