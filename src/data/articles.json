@@ -2847,25 +2847,31 @@
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule, dealing a major blow to efforts to track anonymous all-cash purchases." },
+      { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
       { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals and 3 new general licenses for agricultural and pharmaceutical transactions." }
     ]
   },
   {
     "id": 802,
-    "slug": "texas-court-vacates-fincen-real-estate-aml-rule",
+    "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency",
-    "metaDescription": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases, dealing a major blow to anti-money laundering efforts.",
-    "metaKeywords": ["FinCEN real estate rule", "AML transparency", "all-cash purchases", "beneficial ownership", "Texas court ruling"],
-    "heading": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency",
-    "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule, dealing a major blow to efforts to track anonymous all-cash purchases.",
-    "date": "April 2, 2026",
-    "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp",
-    "heroImage": "/texas-court-vacates-fincen-real-estate-aml-rule.webp",
-    "alt": "Federal courthouse in Texas",
+    "metaTitle": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push",
+    "metaDescription": "The European Union has unveiled a sweeping new sanctions package targeting nearly 90 Russian banks, crypto platforms, and financial networks in an effort to curb sanctions evasion and restrict offshore wealth movements linked to Moscow.",
+    "metaKeywords": [
+      "EU 21st sanctions package Russia banks crypto June 2026",
+      "Kaja Kallas von der Leyen Russia sanctions Brussels",
+      "EU transaction bans 90 Russian banks EEAS",
+      "Russia crypto platform sanctions evasion third countries",
+      "EU oil price cap freeze Russia war economy 2026"
+    ],
+    "heading": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push",
+    "excerpt": "The European Commission presented its 21st package of sanctions against Russia on June 9, proposing to list nearly 90 banks in a single batch — the largest in EU history — alongside transaction bans on 11 cryptocurrency platforms and new export restrictions targeting drones, aerospace metals, and for the first time, fisheries.",
+    "date": "June 10, 2026",
+    "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp",
+    "heroImage": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp",
+    "alt": "European Commission President Ursula von der Leyen and EU foreign policy chief Kaja Kallas present the 21st Russia sanctions package at the Berlaymont Building in Brussels, June 9, 2026. Getty Images / John Thys / AFP",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
@@ -2874,33 +2880,62 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "A",
-        "text": "federal judge in the Northern District of Texas on Wednesday vacated the Financial Crimes Enforcement Network's (FinCEN) 2025 rule requiring title insurance companies to identify and report beneficial owners of all-cash residential real estate purchases over $300,000."
-      },
-      "paragraphs": [
-        "The rule, which was set to take effect August 1, 2026, was challenged by the Texas Real Estate Title Association and several industry groups. Judge Matthew Kacsmaryk ruled that FinCEN exceeded its statutory authority under the Bank Secrecy Act, finding that the law does not explicitly authorize the agency to regulate real estate transactions.",
-        "FinCEN had estimated the rule would cover 1.2 million transactions annually and would help expose money laundering by drug cartels, Russian oligarchs, and other criminals. The agency reported that 35% of all-cash purchases in six major U.S. cities involved shell companies with opaque ownership."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Appeal and legislative response",
-          "content": [
-            "The Treasury Department announced it will appeal the ruling to the Fifth Circuit. 'This decision leaves a critical gap in our anti-money laundering defenses,' said FinCEN Director Andrea Gacki. 'We are exploring all options, including asking Congress to clarify our authority.'",
-            "Senator Sheldon Whitehouse (D-RI) said he would introduce legislation explicitly authorizing FinCEN's real estate rule. Similar bills have failed in previous sessions due to real estate industry opposition."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This decision leaves a critical gap in our anti-money laundering defenses. Criminals have already started moving money back into anonymous luxury real estate.",
-          "cite": "FinCEN Director Andrea Gacki"
+          "type": "paragraph",
+          "text": "The European Commission formally presented its 21st package of sanctions against Russia on Tuesday, June 9, at a press conference at the Berlaymont Building in Brussels, with European Commission President Ursula von der Leyen and EU High Representative for Foreign Affairs and Security Policy Kaja Kallas standing side by side to announce the most ambitious financial crackdown on Moscow the bloc has attempted. The package proposes listing 170 individuals and entities, including close to 90 banks — the largest single-batch bank listing in the history of EU sanctions against Russia — which would bring the total number of listed Russian banks to more than 100, accounting for more than half of the country's 213 internationally connected lenders. \"Brick by brick, we are collapsing the foundations of Russia's war economy,\" Kallas said in a post on social media announcing the package."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The ruling does not affect state-level disclosure requirements. California, New York, and Florida have their own beneficial ownership rules, but most states do not."
-          ]
+          "text": "All banks listed under the package will come under the full weight of EU restrictive measures, including asset freezes, travel bans, and transaction prohibitions. The proposal must still be reviewed and approved unanimously by the Council of the European Union before it takes effect — a process that typically takes several weeks and requires all 27 member states to agree. The package focuses on what von der Leyen described as the sectors with the highest impact on Russia's ability to sustain its war in Ukraine: energy, financial services and cryptocurrencies, trade, and — in a first — fisheries. \"Today we are putting forward the 21st sanctions package. We focus on the sectors with the highest impact. And this time it includes for the very first time fisheries,\" von der Leyen said."
+        },
+        {
+          "type": "heading",
+          "text": "Transaction Bans, Crypto Platforms, and a New Third-Country Weapon"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond the headline bank listing, the package introduces transaction bans on 35 banks — four of which are located outside Russia — and proposes freezing the assets of institutions within third countries that have been used to route money around existing EU restrictions. Alongside the bank measures, the Commission proposes transaction bans on 11 cryptocurrency platforms that EU officials say have been instrumental in helping Russia evade Western financial restrictions, including platforms operating in third countries."
+        },
+        {
+          "type": "paragraph",
+          "text": "The crypto measures go further than any previous EU sanctions package. For the first time, the Commission is proposing the creation of a new legal instrument that would allow the EU to impose a complete ban on crypto-asset services operating from an entire third country — rather than only blacklisting individual platforms — as a deterrent to governments that host exchanges facilitating Russian evasion. Von der Leyen explained the intent directly: \"We will introduce the possibility of a full third country ban for crypto asset services. It will act as a strong deterrent for the countries hosting platforms that help Russia evade our sanctions.\" She confirmed that Kyrgyzstan had already become the first country targeted by the EU's existing anti-circumvention tool, in part because of its role in Russian cryptocurrency transactions. The 21st package also targets 20 additional banks, crypto firms, platforms, and oil traders in third countries that the Commission says have serviced sanctioned Russian individuals or entities or have actively helped circumvent EU measures already in force."
+        },
+        {
+          "type": "heading",
+          "text": "Energy: Oil Price Cap Frozen, LNG Tanker Sales Banned"
+        },
+        {
+          "type": "paragraph",
+          "text": "On the energy front, the package includes a temporary freeze on the Russian oil price cap — a mechanism under which Western countries agree not to provide shipping and insurance services for Russian crude sold above a set price ceiling — while the Commission assesses adjustments. The freeze is intended to prevent Russia from exploiting any gap in the cap's pricing while negotiations on its future level continue among G7 members. The Commission is also proposing to ban the sale of liquefied natural gas tankers to Russia, extending to the LNG sector the restrictions already applied to oil tankers under previous packages. Russia's ability to export LNG to global markets has been a persistent point of contention within the EU, given that several member states — particularly in central and eastern Europe — remain partially dependent on Russian gas flows despite significant diversification efforts since 2022."
+        },
+        {
+          "type": "paragraph",
+          "text": "The LNG tanker ban reflects a strategic judgement by the Commission that Russia's Yamal and Arctic LNG projects, which supply markets in Asia and have increasingly been used to circumvent European energy restrictions, are a revenue stream that EU-flagged or EU-insured ships should not be supporting. The 20th sanctions package, adopted in April 2026, had already significantly tightened energy-sector restrictions; the 21st package builds on that foundation by extending tanker restrictions and including new anti-evasion tools aimed at the shadow fleet of vessels used to move Russian crude outside the G7 price cap framework."
+        },
+        {
+          "type": "heading",
+          "text": "Drones, Aerospace Metals, and a First for Fisheries"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the trade and military-industrial sphere, the Commission is proposing additional export restrictions on metals and alloys used in Russia's aerospace and defence industries, and new export bans on drone ground support equipment along with jamming and launch systems — components that EU intelligence assessments have flagged as still reaching Russian manufacturers through third-country intermediaries. \"We are targeting more metals and alloys used in the aerospace and defense sectors. For drones, we propose new export bans on ground support equipment and jamming and launch systems, among other items,\" von der Leyen said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The inclusion of fisheries in an EU Russia sanctions package for the first time signals a significant expansion of the economic sectors Brussels is prepared to target. Russia is the world's largest exporter of several fish species including pollock and crab, and EU officials have argued that continued European imports of Russian seafood — which surged after the invasion of Ukraine as energy restrictions displaced fishing-sector revenues from the Commission's earlier measures — represent a revenue stream that indirectly funds the war effort. Specific details of the fisheries measures were not immediately published alongside the broader package announcement, but von der Leyen confirmed they were included in the Commission's formal proposal to the Council."
+        },
+        {
+          "type": "heading",
+          "text": "The Evasion Network the Package Is Built to Dismantle"
+        },
+        {
+          "type": "paragraph",
+          "text": "EU officials have been increasingly explicit in recent months that the challenge facing the sanctions regime is not the comprehensiveness of its prohibitions but its enforcement against a Russian economy that has spent four years developing a dense network of smaller banks, trading companies, and crypto infrastructure specifically designed to route transactions around sanctioned entities. The 21st package's focus on smaller and third-country lenders reflects that evolving picture: with Russia's largest internationally connected banks already on EU lists, Moscow has shifted its trade and finance flows through hundreds of smaller institutions that until now operated below the EU's targeting threshold. The proposal to bring the total of listed banks above 100 — more than half of all internationally connected Russian lenders — is an explicit attempt to collapse that evasion architecture at its roots rather than chase individual conduits."
+        },
+        {
+          "type": "paragraph",
+          "text": "The package now passes to the Council of the EU for review and unanimous approval. Historically, EU sanctions packages against Russia have cleared the Council within two to four weeks of the Commission's proposal, though the unanimity requirement means that objections from any single member state can complicate or delay adoption. Kallas described the package as part of an ongoing strategy designed to increase Russia's incentive to negotiate an end to its war in Ukraine: \"It will target banks, weapons manufacturers, oil traders, refineries, and crypto operators in third countries.\" The peace negotiation context — and the explicit framing of sanctions not merely as punishment but as leverage — reflects the EU's evolving position as diplomatic efforts between Washington, Moscow, and Kyiv remain fragile and unresolved."
         }
       ]
     },
@@ -2911,19 +2946,25 @@
   },
   {
     "id": 803,
-    "slug": "irs-voluntary-disclosure-offshore-accounts-penalties",
+    "slug": "china-offshore-investment-crackdown-csrc-forced-liquidation-reassurance",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts",
-    "metaDescription": "The IRS announced a major overhaul of its voluntary disclosure program, reducing penalties and streamlining the process for taxpayers with undisclosed offshore accounts.",
-    "metaKeywords": ["IRS voluntary disclosure", "offshore accounts", "FBAR penalties", "tax evasion", "offshore compliance"],
-    "heading": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts",
-    "excerpt": "The IRS announced a major overhaul of its voluntary disclosure program, reducing penalties and streamlining the process for taxpayers with undisclosed offshore accounts.",
-    "date": "April 2, 2026",
-    "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp",
-    "heroImage": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp",
-    "alt": "IRS building exterior",
+    "metaTitle": "China Reassures Investors After Offshore Investment Crackdown Sparks Concerns",
+    "metaDescription": "Chinese regulators say a crackdown on illegal cross-border investing will not force the liquidation of offshore assets, after concerns emerged over billions of dollars held through overseas investment channels.",
+    "metaKeywords": [
+      "China CSRC offshore investment crackdown forced liquidation 2026",
+      "China cross-border securities Futu Tiger Longbridge banned June 2026",
+      "China outbound investment ODI State Council regulations July 2026",
+      "Chinese investors Hong Kong offshore accounts $54 billion",
+      "NDRC MOFCOM outbound investment national security review China"
+    ],
+    "heading": "China Reassures Investors After Offshore Investment Crackdown Sparks Concerns",
+    "excerpt": "China's securities regulator moved to calm markets after its unexpected May crackdown on overseas brokers that help mainland investors buy foreign stocks sparked a run on Hong Kong investment offices and a sell-off in US-listed Chinese equities — with $54 billion in offshore accounts hanging in the balance.",
+    "date": "June 10, 2026",
+    "image": "/china-offshore-investment-crackdown-csrc-forced-liquidation-reassurance.webp",
+    "heroImage": "/china-offshore-investment-crackdown-csrc-forced-liquidation-reassurance.webp",
+    "alt": "Police officers patrol outside the China Securities Regulatory Commission building on Financial Street in Beijing. REUTERS/Florence Lo",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
@@ -2932,33 +2973,50 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he Internal Revenue Service on Thursday unveiled a significantly revised voluntary disclosure program for taxpayers with undisclosed foreign financial accounts, replacing the complex and penalty-heavy 2018 program."
-      },
-      "paragraphs": [
-        "Under the new program, taxpayers who come forward before any IRS contact face a reduced penalty structure: a one-time 10% penalty on the highest aggregate account balance (down from 27.5% or 50% under prior programs), no FBAR penalties for non-willful violations, and a streamlined six-month processing window. Criminal prosecution will be waived for qualifying disclosures.",
-        "IRS Commissioner Daniel Werfel said the changes are designed to encourage compliance. 'The old program was too punitive. People stayed out, and we collected nothing. This new approach brings money back into the system,' Werfel said."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Deadline and eligibility",
-          "content": [
-            "The program is open for one year — until April 1, 2027. To be eligible, taxpayers must have undisclosed foreign accounts, assets, or entities and must not have been previously contacted by the IRS about offshore compliance. Willful tax evasion involving more than $5 million per year may still face criminal referral.",
-            "Tax attorneys welcomed the changes. 'This is the most sensible offshore program since the 2009 OVDP,' said former IRS attorney Scott Michel. 'It will actually bring people in.'"
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "The old program was too punitive. People stayed out, and we collected nothing. This new approach brings money back into the system.",
-          "cite": "IRS Commissioner Daniel Werfel"
+          "type": "paragraph",
+          "text": "China's securities regulator issued a rare public reassurance to investors on Saturday, responding directly to Reuters' queries to confirm that a sweeping crackdown on what it calls illegal cross-border securities trading will not result in the forced closure of offshore brokerage accounts or the mandatory liquidation of assets held within them. \"Safety of investors' assets will not be affected by the rectification campaign,\" the China Securities Regulatory Commission said. \"Existing accounts will not be forcibly closed, and assets held in those accounts will not be subject to mandatory cleanup.\" The statement is the clearest signal yet that overseas brokerages will be permitted to continue offering legitimate offshore services to mainland clients — even as Beijing moves aggressively to cut off the domestic channels through which those brokers have been operating."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The IRS estimates that 800,000 U.S. taxpayers have undisclosed foreign accounts. The new program is projected to bring in $15 billion over five years, compared to $2 billion annually under the old program."
-          ]
+          "text": "The CSRC's reassurance addresses a crisis of confidence that has been building since May 22, when Beijing unexpectedly announced a crackdown on overseas brokers for what it characterised as illegally helping mainland Chinese investors purchase shares in foreign markets. The announcement triggered an immediate sell-off in U.S.-listed Chinese stocks as investors worried that the enforcement action could eventually extend to forcing the unwinding of existing positions. According to data published by the Chinese broker Kaiyuan Securities, the accounts at the centre of the dispute hold approximately $54 billion in assets — a figure significant enough that any forced liquidation would have sent visible shockwaves through global markets."
+        },
+        {
+          "type": "heading",
+          "text": "Futu, Tiger, Longbridge: The Brokers at the Centre of the Crackdown"
+        },
+        {
+          "type": "paragraph",
+          "text": "The three brokers whose onshore operations have been most directly targeted are Futu Securities — the operator of the Moomoo trading platform, which is also active in the United States and Australia — Tiger Brokers, and Longbridge. All three have informed their onshore mainland Chinese clients that starting in mid-June they will no longer be able to open new accounts, add positions to existing ones, or move fresh money into their holdings. The restrictions apply to onshore activity; the brokers' offshore operations in Hong Kong and other international markets will remain fully functional. The CSRC confirmed this distinction: the crackdown on sanctioned overseas brokers does not affect their business activities conducted offshore. What will be cut off is their provision of services to mainland residents through Chinese territory — via mainland-facing websites, mobile applications, and other onshore channels."
+        },
+        {
+          "type": "paragraph",
+          "text": "The practical effect for mainland investors is therefore significant but not catastrophic, provided the CSRC's assurances hold. Existing account holders can sell assets and move money out of affected accounts. What they cannot do, once the mid-June restrictions take effect, is add to those positions, open new onshore-linked accounts, or bring in additional capital through the brokers' mainland channels. For investors who want to continue building exposure to foreign markets, the CSRC statement implicitly points toward the legally sanctioned channels that already exist — including the Stock Connect programmes linking Shanghai and Shenzhen with Hong Kong, and the Qualified Domestic Institutional Investor scheme — rather than the informal cross-border routes the crackdown targets."
+        },
+        {
+          "type": "heading",
+          "text": "Why Beijing Moved — and What It Is Trying to Protect"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CSRC was explicit about its stated rationale, in language that carried the characteristic bluntness of Chinese regulatory communications. The crackdown was aimed at \"purifying\" China's capital markets, protecting investors, and \"hitting\" illegal capital outflows from the country. \"No country, or region would tolerate overseas institutions conducting illegal activities within its border,\" the regulator said, adding that such activities \"seriously disrupt market order, increase financial risks, and harm investors\" and must be dealt with ruthlessly. The statement reflects Beijing's persistent anxiety about unregulated capital outflows at a time when the yuan has faced pressure, domestic equity markets have underperformed global peers, and the government has made attracting capital back into the domestic market a stated policy priority."
+        },
+        {
+          "type": "paragraph",
+          "text": "Reuters pressed the CSRC directly on whether the tightening of capital controls was also intended to nudge money into domestic capital markets — the full response to that question was not immediately published in English-language syndications, but the framing of the crackdown as aimed at \"purifying\" domestic markets and stopping illegal outflows makes the direction of policy intent clear. Chinese mainland investors who have been parking money in offshore brokers to access U.S. and Hong Kong stocks, often for diversification or to hold assets in stable currencies, now face a closing window. The savers who began travelling to Hong Kong immediately after the May 22 announcement — attempting to open accounts in person in the territory, where mainland restrictions do not apply — were responding to a well-founded reading of where the policy is heading."
+        },
+        {
+          "type": "heading",
+          "text": "The Broader Architecture: State Council ODI Regulations Take Effect July 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "The CSRC retail investor crackdown is not an isolated enforcement action but part of a significantly broader structural reform of how China governs all outbound investment. On June 1, 2026, China's State Council published the Regulations on Outbound Investment — known in compliance circles as the ODI Regulations — which take effect on July 1. These regulations materially expand China's existing outbound direct investment regime and bring within their scope new categories of cross-border collaboration and overseas investment by individuals resident in China, not only by companies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the ODI Regulations, review by the National Development and Reform Commission and the Ministry of Commerce — in coordination with other agencies — is now required for investments that affect or may affect national security, including those involving sensitive technologies, critical resources, or data-intensive platforms. Crucially, the regulations grant authorities the power to compel forced disposal of overseas assets, including shares and other holdings, where investments are found to be non-compliant. Article 22 of the regulations also addresses situations in which Chinese entities are involved in overseas litigation, arbitration, or regulatory investigations: compliance with those proceedings must be balanced against China's laws on state secrets, data security, personal information protection, and export controls — a provision that directly intersects with the concerns of foreign regulators and courts attempting to enforce judgments against Chinese-linked defendants. Taken together, the ODI Regulations and the CSRC retail crackdown represent what analysts at law firm Morrison Foerster described as a \"structural inflection point\" in how China governs its international financial footprint."
         }
       ]
     },
@@ -3021,7 +3079,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
+      { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
       { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
     ]
   },
@@ -3079,7 +3137,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 803, "slug": "irs-voluntary-disclosure-offshore-accounts-penalties", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/irs-voluntary-disclosure-offshore-accounts-penalties.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "IRS Overhauls Voluntary Disclosure Practice with Lower Penalties for Offshore Accounts", "excerpt": "The IRS announced a major overhaul of its voluntary disclosure program, reducing penalties and streamlining the process for taxpayers with undisclosed offshore accounts." },
+      { "id": 803, "slug": "china-offshore-investment-crackdown-csrc-forced-liquidation-reassurance", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/china-offshore-investment-crackdown-csrc-forced-liquidation-reassurance.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "China Reassures Investors After Offshore Investment Crackdown Sparks Concerns", "excerpt": "Chinese regulators moved to calm markets after a crackdown on offshore investment structures raised concerns among global investors, emphasizing financial stability and orderly capital flows." },
       { "id": 804, "slug": "fincen-whistleblower-program-offshore-tax-evasion", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking", "excerpt": "FinCEN launched a whistleblower program offering up to 30% of sanctions recovered for tips on offshore tax evasion and money laundering." }
     ]
   },
@@ -3195,7 +3253,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 802, "slug": "texas-court-vacates-fincen-real-estate-aml-rule", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/texas-court-vacates-fincen-real-estate-aml-rule.webp", "date": "April 2, 2026", "author": "Felix Draper", "title": "Texas Court Vacates FinCEN Real Estate AML Rule in Major Blow to Transparency", "excerpt": "A Texas federal court vacated FinCEN's real estate AML rule requiring disclosure of beneficial owners in all-cash residential purchases." },
+      { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
       { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
     ]
   },
