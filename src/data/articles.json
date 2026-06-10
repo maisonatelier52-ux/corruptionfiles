@@ -1005,59 +1005,75 @@
         { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." }
       ]
     },
-  {
-    "id": 405,
-    "slug": "west-midlands-officer-misconduct-charges",
-    "category": "pa",
-    "categoryLabel": "Police Accountability",
-    "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships",
-    "metaDescription": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women while on duty.",
-    "metaKeywords": ["West Midlands Police", "police misconduct", "UK police", "gross misconduct", "officer charged"],
-    "heading": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships",
-    "excerpt": "A former West Midlands Police officer has denied gross misconduct allegations after an investigation revealed he maintained inappropriate relationships with vulnerable women he met while on duty.",
-    "date": "March 9, 2026",
-    "image": "/west-midlands-officer-misconduct-charges.webp",
-    "heroImage": "/west-midlands-officer-misconduct-charges.webp",
-    "alt": "West Midlands Police headquarters",
-    "author": {
-      "name": "Darnell Hutchins",
-      "slug": "darnell-hutchins",
-      "avatar": "/darnell-hutchins.webp",
-      "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "dropcap": {
-        "letter": "F",
-        "text": "ormer West Midlands Police constable Darren Shipley, 42, appeared before a misconduct hearing on Monday, facing 12 allegations including abuse of position for a sexual purpose and failing to declare conflicts of interest."
-      },
-      "paragraphs": [
-        "The Independent Office for Police Conduct (IOPC) investigation found that Shipley allegedly exchanged hundreds of messages with three women between 2021 and 2024, all of whom he had encountered during domestic abuse callouts. Two of the women were classified as vulnerable adults with mental health conditions.",
-        "Shipley resigned from the force in September 2025 before disciplinary proceedings could conclude. He denies all allegations. 'These relationships were consensual and occurred after his shifts had ended,' his solicitor told the panel."
+    {
+      "id": 405,
+      "slug": "westchester-county-license-plate-readers-lawsuit",
+      "category": "pa",
+      "categoryLabel": "Police Accountability",
+      "categoryColor": "bg-[#e91e63]",
+      "metaTitle": "Westchester County Lawsuit Over 1.6B License Plate Scans: Police Accountability Challenge | AP News",
+      "metaDescription": "Civil rights groups sue Westchester County over 'indiscriminate' license plate surveillance, citing 1.6 billion scans, data sharing with ICE, and violation of state constitution.",
+      "metaKeywords": [
+        "Westchester County lawsuit",
+        "license plate readers surveillance",
+        "police accountability New York",
+        "1.6 billion license plate scans",
+        "Flock Safety lawsuit"
       ],
-      "sections": [
-        {
-          "type": "heading",
-          "title": "IOPC calls for systemic reforms",
-          "content": [
-            "The IOPC has recommended that West Midlands Police implement mandatory annual training on professional boundaries and vulnerability recognition. 'Officers hold enormous power over the people they encounter. Abusing that trust for personal gain is a profound betrayal,' said IOPC regional director Derrick Campbell.",
-            "If the panel finds the allegations proven, Shipley would be barred from serving in any UK police force. A criminal investigation into potential charges of misconduct in public office remains ongoing."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Officers hold enormous power over the people they encounter. Abusing that trust for personal gain is a profound betrayal of the public's confidence.",
-          "cite": "Derrick Campbell, IOPC Regional Director"
-        },
-        {
-          "type": "paragraph",
-          "content": [
-            "West Midlands Police issued a statement expressing 'deep concern' and noting that it has since strengthened its supervision protocols for officers working with vulnerable populations."
-          ]
-        }
-      ]
-    },
+      "heading": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge",
+      "excerpt": "A coalition of civil rights groups has filed a class-action lawsuit against Westchester County, alleging its network of nearly 600 license plate readers operates as an 'indiscriminate surveillance system' that violates the New York State Constitution.",
+      "date": "June 10, 2026",
+      "image": "/westchester-county-license-plate-readers-lawsuit.webp",
+      "heroImage": "/westchester-county-license-plate-readers-lawsuit.webp",
+      "alt": "An automatic license plate reader camera mounted on a police vehicle patrols a Westchester County roadway. (AP Photo/Mary Altaffer, File)",
+      "author": {
+        "name": "Darnell Hutchins",
+        "slug": "darnell-hutchins",
+        "avatar": "/darnell-hutchins.webp",
+        "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A coalition of civil rights groups has filed a class-action lawsuit against Westchester County, demanding a state judge halt the operation of nearly 600 automated license plate readers (ALPRs). The legal challenge, filed Tuesday, alleges the county's surveillance network has amassed a staggering database of 1.6 billion license plate scans, branding it a warrantless and 'indiscriminate surveillance system' that violates the New York State Constitution. The complaint further claims that Westchester County never secured proper legislative authorization to launch the program, which has been operating with what critics describe as a troubling lack of oversight."
+          },
+          {
+            "type": "paragraph",
+            "text": "According to the lawsuit, the collected data has been shared with more than 50 outside law enforcement agencies, including U.S. Immigration and Customs Enforcement (ICE), raising significant privacy concerns among residents and watchdogs. 'In a democracy, a police department cannot unilaterally decide — without legislative authorization — to surveil the daily movements of its own citizens without any real accountability, transparency, or oversight,' said Barry Friedman, founder and faculty director of the Policing Project at NYU School of Law, which is representing the plaintiffs. 'This indiscriminate data surveillance must not be allowed to continue in the dark.'"
+          },
+          {
+            "type": "heading",
+            "text": "Plaintiffs Detail Extensive Tracking"
+          },
+          {
+            "type": "paragraph",
+            "text": "The class action was filed on behalf of four women who live in Westchester County or nearby jurisdictions. The suit alleges that their license plate data was captured thousands of times collectively. One plaintiff, Lora Nelson, had her vehicle photographed by the county's cameras more than 2,400 times. Another plaintiff's vehicle was logged 1,134 times between 2023 and 2026, illustrating the intensive monitoring capabilities of the ALPR network, which critics say records 'the long-term travel patterns, daily habits, and intimate information of millions of law-abiding New Yorkers.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Spanning 430 square miles just north of New York City, Westchester County is a major transportation hub crisscrossed by Interstates 87 and 95, as well as the Hutchinson River Parkway, serving daily commuter traffic to and from Manhattan. The county's extensive camera grid effectively blankets these major thoroughfares, creating a detailed digital map of vehicle movements. 'The network records the long-term travel patterns, daily habits, and intimate information of millions of law-abiding New Yorkers and other motorists who travel through Westchester,' the complaint reads."
+          },
+          {
+            "type": "heading",
+            "text": "Wider Context of ALPR Controversy"
+          },
+          {
+            "type": "paragraph",
+            "text": "The legal battle in Westchester is part of a broader national debate over the use of license plate readers by law enforcement. The Associated Press previously reported that the U.S. Border Patrol was running a secretive ALPR program that singled out drivers based on their travel patterns, prompting complaints from congressional Democrats that the program may be unlawful. Separately, the ALPR company Flock Safety announced last year it was pausing work with the Department of Homeland Security after it was revealed that police departments nationwide were sharing license plate reader data with immigration authorities.",
+            "metadata": { "href": "https://apnews.com/article/immigration-border-patrol-surveillance-drivers-ice-trump-9f5d05469ce8c629d6fecf32d32098cd", "text": "AP Report: Secretive Border Patrol ALPR Program" }
+          },
+          {
+            "type": "paragraph",
+            "text": "The Westchester litigation specifically aims to have courts reconsider existing legal doctrines regarding public surveillance. While the use of license plate readers has broadly been upheld by most courts because they document the movement of cars on public roadways, Friedman argues the sheer scale of data collection in Westchester marks a constitutional tipping point. 'This indiscriminate data surveillance must not be allowed to continue in the dark,' he said."
+          },
+          {
+            "type": "paragraph",
+            "text": "In response to the lawsuit, a spokesperson for Westchester County stated, 'Westchester County has not yet received or reviewed the lawsuit referenced.' The legal action is being supported by a formidable coalition of advocacy groups, including the Knight First Amendment Institute at Columbia University, the New York Civil Liberties Union (NYCLU), and the law firm Freshfields, signaling a high-stakes battle over digital privacy and government surveillance in New York."
+          }
+        ]
+      },
     "relatedPosts": [
       { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
       { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
@@ -1117,7 +1133,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
+      { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
       { "id": 408, "slug": "hogan-howe-police-accountability-review", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/hogan-howe-police-accountability-review.webp", "date": "March 3, 2026", "author": "Darnell Hutchins", "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "excerpt": "Former Met Police commissioner Lord Hogan-Howe will lead a comprehensive review of police accountability and governance structures in England and Wales." }
     ]
   },
@@ -1175,7 +1191,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/west-midlands-officer-misconduct-charges.webp", "date": "March 9, 2026", "author": "Darnell Hutchins", "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "excerpt": "A former West Midlands Police officer faces gross misconduct charges for allegedly having inappropriate relationships with vulnerable women." },
+      { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
       { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." }
     ]
   },

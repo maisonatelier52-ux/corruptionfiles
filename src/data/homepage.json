@@ -158,7 +158,16 @@
   "date": "June 5, 2026",
   "author": "Darnell Hutchins"
 },
-        { "id": 405, "slug": "west-midlands-officer-misconduct-charges", "image": "/west-midlands-officer-misconduct-charges.webp",  "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Former West Midlands Officer Denies Misconduct Charges Over Criminal Relationships", "date": "March 9, 2026", "author": "Darnell Hutchins" },
+{ 
+  "id": 405, 
+  "slug": "westchester-county-license-plate-readers-lawsuit", 
+  "image": "/westchester-county-license-plate-readers-lawsuit.webp", 
+  "category": "pa", 
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], 
+  "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", 
+  "date": "June 10, 2026", 
+  "author": "Darnell Hutchins" 
+},
         { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "Darnell Hutchins" },
         { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "Darnell Hutchins" },
         { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "Darnell Hutchins" }
