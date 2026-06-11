@@ -1075,60 +1075,116 @@
         ]
       },
     "relatedPosts": [
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
+      { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." },
       { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
     ]
   },
   {
     "id": 406,
-    "slug": "gwent-police-whatsapp-group-dismissal",
+    "slug": "australia-police-less-lethal-weapons-transparency",
     "category": "pa",
     "categoryLabel": "Police Accountability",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Gwent Police Dismiss Former Officers Over Vile WhatsApp Group Messages",
-    "metaDescription": "Three former Gwent Police officers were dismissed for sharing racist, misogynistic and homophobic content in a private WhatsApp group, following an IOPC investigation.",
-    "metaKeywords": ["Gwent Police", "WhatsApp group scandal", "police misconduct UK", "racist messages", "IOPC"],
-    "heading": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group",
-    "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group.",
-    "date": "March 2, 2026",
-    "image": "/gwent-police-whatsapp-group-dismissal.webp",
-    "heroImage": "/gwent-police-whatsapp-group-dismissal.webp",
-    "alt": "Gwent Police logo and headquarters",
+    "metaTitle": "Australian Police Less-Lethal Weapons: Transparency Crisis Exposed by Guardian Investigation | Police Accountability",
+    "metaDescription": "Guardian investigation reveals Australian police forces are using 'less-lethal' weapons including Tasers, rubber bullets and stinger grenades with minimal transparency. Experts warn of serious injuries as oversight bodies call for independent monitoring.",
+    "metaKeywords": [
+      "Australian police less-lethal weapons",
+      "Taser deaths Australia 2026",
+      "police accountability transparency",
+      "rubber bullets Australia",
+      "stinger grenades Melbourne protest",
+      "OC spray police use"
+    ],
+    "heading": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
+    "excerpt": "A Guardian investigation has revealed Australian police forces are deploying an expanding arsenal of 'less-lethal' weapons — including Tasers, rubber bullets, chemical irritants and stinger grenades — with little public scrutiny, as experts warn of serious injuries and advocates call for urgent independent oversight.",
+    "date": "June 11, 2026",
+    "image": "/australia-police-less-lethal-weapons-transparency.webp",
+    "heroImage": "/australia-police-less-lethal-weapons-transparency.webp",
+    "alt": "A police officer equipped with a Taser and pepper spray canisters stands near protesters in Sydney, February 2026. (Photograph: Blake Sharp-Wiggins/The Guardian)",
     "author": {
       "name": "Darnell Hutchins",
       "slug": "darnell-hutchins",
       "avatar": "/darnell-hutchins.webp",
-      "bio": "Darnell started his career as a public defender...",
+      "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty. He has since covered police accountability across three continents.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "hree former Gwent Police officers have been dismissed without notice after a misconduct hearing found they shared 'abhorrent' messages in a private WhatsApp group, including racist jokes, homophobic slurs, and images mocking a domestic abuse victim."
-      },
-      "paragraphs": [
-        "The officers — identified only as PC A, PC B, and PC C — were part of a group of eight that exchanged the messages between 2022 and 2024. An IOPC investigation began after a whistleblower came forward. The three admitted sending or forwarding the content but argued it was 'banter' and not intended for public view.",
-        "The panel rejected that defense, stating that 'police officers must uphold the highest standards of conduct both on and off duty. This behavior corrodes public trust.'"
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Wider cultural concerns",
-          "content": [
-            "Gwent Police Chief Constable Pam Kelly said the force has since implemented mandatory annual ethics training and established a confidential reporting hotline for misconduct. 'There is no place for discrimination or misogyny in policing,' she said.",
-            "The five remaining officers involved in the group remain under investigation. The IOPC has referred the case to the Crown Prosecution Service to consider potential criminal charges for sending malicious communications."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Police officers must uphold the highest standards of conduct both on and off duty. This behavior corrodes public trust and is completely unacceptable.",
-          "cite": "Misconduct panel chair"
+          "type": "paragraph",
+          "text": "Police forces across Australia are using an expanding arsenal of so-called 'less-lethal' weapons — including projectile launchers, Tasers, chemical irritants and stinger grenades — with minimal public transparency and virtually no nationally enforced standards, a Guardian investigation has revealed. The nine-month investigation found that police in every state and territory declined to provide basic information about the manufacturers and models of their less-lethal weapons, with most citing 'operational safety' concerns. In Victoria, police have refused to publicly provide the make and model of their rubber bullets and other weapons even to the state's parliamentarians due to 'operational and community safety considerations.'"
         },
         {
           "type": "paragraph",
-          "content": [
-            "All three dismissed officers have been added to the College of Policing's barred list, preventing them from future employment in any UK police force."
-          ]
+          "text": "'All of these weapons can kill people,' said Dr Rohini Haar, a medical adviser at Physicians for Human Rights who has researched the health impacts of less-lethal munitions on protesters around the world. Haar said there is 'almost zero' regulation globally of the industry that produces these weapons. 'They can be very nasty things,' added Scott Reynhout, a weapons researcher at Physicians for Human Rights."
+        },
+        {
+          "type": "heading",
+          "text": "Projectiles: Rubber Bullets and 'Foam Baton Rounds'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Police in Australia have access to weapons that fire a variety of 'bullet-like missiles', including what are known as foam baton or bean bag rounds, designed 'to deter conduct through the pain of impact.' While foam and sponge baton rounds might sound benign, one expert told Guardian Australia they are 'functionally rubber bullets' due to their weight and speed when fired, delivering what manufacturer Combined Systems calls 'blunt trauma effect.' In Victoria, police have been using these rounds against protesters since at least 2021 — leading to injuries and multiple civil cases, two of which have been settled. One case settled in April was brought by Chris Dahl, who alleged he was shot with a foam baton round at a September 2021 protest, leaving a gaping wound that required stitches in his lower back. The settlement terms are confidential."
+        },
+        {
+          "type": "paragraph",
+          "text": "At least three people died in NSW and Victoria within four months of one another in 2023 after being shot with less-lethal projectiles and stun guns at their homes. Inquest findings into the deaths are yet to be delivered. A review of injuries caused by less-lethal weapons in Minneapolis following the death of George Floyd found that much of the damage was to the head, neck or face — 16 patients had traumatic brain injuries. After tracking injuries globally to the head and eyes caused by these projectiles, Haar has concluded there is no role for projectiles in crowd control: they are dangerous when used at close range and 'almost impossible to aim from far away.'"
+        },
+        {
+          "type": "heading",
+          "text": "Chemical Irritants: OC Spray on the Rise"
+        },
+        {
+          "type": "paragraph",
+          "text": "Oleoresin capsicum (OC) spray — a highly concentrated form of a compound in chilli peppers — has become a routine tool for Australian police at protests. At a protest outside Sydney Town Hall in February, some NSW police officers were seen clutching red canisters of Defense Technology OC spray, a brand linked to US military and police equipment manufacturer Safariland. In Melbourne, Victoria police use Sabre products, including the large MK9 canister. According to Victorian data obtained by the Police Accountability Project, OC spray was discharged in various forms 9,188 times between mid-2018 and 2023. From November 2025, Victoria police signed a $1.5 million contract for OC products with Australian Defence Apparel, which is also an OC spray supplier for Queensland police, where tender records show it has made more than $400,000 in contracts since 2021."
+        },
+        {
+          "type": "paragraph",
+          "text": "Human rights advocates say OC spray is increasingly 'slipping down the use of force continuum.' 'When OC spray was introduced in Australia, it was framed as an alternative to lethal force such as firearms,' said Emma Ryan, a criminologist at Deakin University. 'Now we see it slipping down the use of force continuum to now being used for crowd dispersal at protests.' A report from the Australian Democracy Network has tracked the increasing use of OC spray at protests. In December 2025, a judge found that a protester, Jordan Brown, had been subject to unlawful battery through police use of OC spray and awarded him $54,000 in damages. 'It just felt like razor blades in my eyes,' Brown told the court."
+        },
+        {
+          "type": "heading",
+          "text": "Stinger Grenades and Distraction Devices"
+        },
+        {
+          "type": "paragraph",
+          "text": "Since 2018, Victoria police have spent at least $1.2 million on contracts for 'distraction devices', including stinger grenades designed to emit extreme sound, light and pressure. Scout (a pseudonym) had never heard of stinger grenades before one exploded in front of them during a protest in Melbourne in October 2025. Seven months later, Scout says it appears they will have lifelong scars on their legs, and they continue to experience phantom pain. 'In the direct aftermath, the two months afterwards, I was feeling quite shaken,' Scout said. 'Lots of little things would set me off. Loud noises would make me cry.' Scout complained to Victoria police about the use of the stinger grenade, but an internal investigation found the 'deployment' was 'appropriate and was in accordance with law, policy and accepted Victoria Police practice.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dr Haar says devices like flashbangs and stingers can cause blast injuries and burns. 'They were made by the military for military use,' she said. 'There is no data out there that they can be safely used in protest settings against unarmed civilians.' Helen Close, a senior researcher at the Omega Research Foundation, says stinger grenades shouldn't be used in the policing of protests 'due to the fact they are inaccurate and can cause severe injuries — especially to the eyes.' Michelle Reynolds, a director of the Police Accountability Project at Inner Melbourne Community Legal, questions whether such devices are actually effective for crowd control. 'They're not a good tool for disbursement of a crowd because they create chaos. It actually creates a really unsafe environment,' she said. 'So who's making the decision that this is appropriate for protest situations?'"
+        },
+        {
+          "type": "heading",
+          "text": "Tasers: Soaring Use and Calls for Oversight"
+        },
+        {
+          "type": "paragraph",
+          "text": "Taser use by Australian police has surged dramatically. In NSW, the number of times Tasers are drawn or deployed has more than doubled in five years — from 569 times in 2020-21 to 1,403 by 2024-25. In Victoria, the government announced a $214 million rollout of conducted energy devices in 2023. According to data obtained by the Police Accountability Project, tasers caused injuries to 161 people between 2018 and 2023 and were used on 149 people aged under 18, including six aged under 12. In 2024-25 in NSW, tasers were drawn or deployed 57% of the time against people who identified as Indigenous in at least one interaction with police."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tasers have come under intense scrutiny following a series of deaths. The death of 95-year-old Clare Nowland in 2023, who was tasered by NSW police at a nursing home, led to the manslaughter conviction of Senior Constable Kristian White in 2024. More recently, on June 8, 2026, a 44-year-old man died in Clare, South Australia, after police deployed a Taser that officers described as 'ineffective.' Assistant Commissioner David O'Donovan said the Taser was 'activated, but it was ineffective,' declining to specify how many times it was fired. The man became unresponsive during the arrest and died at the scene despite first aid from officers and paramedics. South Australia Police Commissioner Grant Stevens, after reviewing body-worn video footage, defended the officers' actions, stating they 'acted appropriately and within general orders.' He said the responding officers 'were confronted by an agitated man behaving in a threatening and aggressive manner' who was also threatening an elderly couple. The incident is subject to a police standards investigation and will be prepared for the state coroner."
+        },
+        {
+          "type": "paragraph",
+          "text": "Michelle Reynolds of Inner Melbourne Community Legal called for the introduction of an independent Police Ombudsman in Victoria to investigate police misconduct. 'Police are being granted greater powers and weaponry but are avoiding full accountability and scrutiny because Victoria has no effective independent police monitoring and oversight body,' she said. In the ACT, minimal detail is provided on Taser use, while other states provide no public reporting at all."
+        },
+        {
+          "type": "heading",
+          "text": "How Police Obscure Their Use of Force"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Guardian investigation found that Australian police forces go to great lengths to avoid transparency around less-lethal weapons. In Victoria, police sought suppression orders during coronial inquests that bar media from describing any details of weaponry. In some states, details about Tasers have been suppressed during inquests, including training materials given to officers. Contracts worth millions of dollars for these weapons are often made with third-party distributors rather than directly with manufacturers, obscuring what police have access to. Guardian Australia approached every police force in the country for a list of the manufacturer and model of their less-lethal weapons — all declined to provide one, with most citing operational safety."
+        },
+        {
+          "type": "paragraph",
+          "text": "Legal claims against police for excessive use of force at protests are on the rise, lawyers say, but there is no public collection of this data. In 2024-25, NSW police received 478 civil claims for torts including assault, battery and false imprisonment, and paid out $40.26 million including damages and costs. Oversight bodies across the country have criticised 'widespread inconsistencies' in how police record use of force. Jeremy King, a lawyer who frequently represents clients in police misconduct cases, estimates that of the 10 to 15 police-related inquiries his firm receives every week, at least half relate to less-lethal weapons — most often OC spray and Tasers. 'It takes a long time for this information to get out to the public, and police deliberately hide the detail of these weapons behind closed doors,' King said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Activist Logan, from Melbourne Activist Legal Support, says there has been a normalization of OC spray, explosives and projectiles at protests in Victoria — his group wants these weapons banned for crowd control. 'They're bringing their kids along and seeing these police fully kitted up with guns and grenades and having to explain what's going on,' Logan said. 'This is the new normal.'"
         }
       ]
     },
@@ -1192,7 +1248,7 @@
     },
     "relatedPosts": [
       { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." }
+      { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." }
     ]
   },
   {
@@ -1249,7 +1305,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/gwent-police-whatsapp-group-dismissal.webp", "date": "March 2, 2026", "author": "Darnell Hutchins", "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "excerpt": "Gwent Police dismissed three former officers for sharing racist, misogynistic and homophobic content in a private WhatsApp group." },
+      { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." },
       { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
     ]
   },
@@ -2171,7 +2227,7 @@
     },
     "relatedPosts": [
       { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
-      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century, boosting industry profits." }
+      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
     ]
   },
   {
@@ -2341,59 +2397,98 @@
     },
     "relatedPosts": [
       { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
-      { "id": 604, "slug": "federal-oil-royalties-cut-one-big-beautiful-bill", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers", "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century." }
+      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
     ]
   },
   {
     "id": 604,
-    "slug": "federal-oil-royalties-cut-one-big-beautiful-bill",
+    "slug": "world-cup-2026-carbon-footprint-environmental-concerns",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers | 'One Big Beautiful Bill'",
-    "metaDescription": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates from 12.5% to 8% — the lowest in a century — as part of a broader energy package.",
-    "metaKeywords": ["oil royalties cut", "federal drilling", "One Big Beautiful Bill", "energy policy 2026", "Bureau of Land Management"],
-    "heading": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers",
-    "excerpt": "The 'One Big Beautiful Bill' cuts federal oil and gas royalty rates to their lowest level in a century, boosting industry profits.",
-    "date": "April 1, 2026",
-    "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp",
-    "heroImage": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp",
-    "alt": "Oil drilling rig on federal land",
+    "metaTitle": "2026 World Cup Carbon Footprint: Most Polluting Tournament in History | Reuters",
+    "metaDescription": "As the 2026 FIFA World Cup kicks off across North America, sustainability experts warn the expanded 48-team tournament could generate up to 15 million tons of CO₂, making it the most polluting sporting event in history. Travel accounts for 87% of emissions.",
+    "metaKeywords": [
+      "2026 World Cup carbon footprint",
+      "FIFA emissions 2026",
+      "most polluting World Cup",
+      "World Cup climate impact",
+      "FIFA sustainability controversy"
+    ],
+    "heading": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint",
+    "excerpt": "The 2026 FIFA World Cup kicks off Thursday with unprecedented fanfare across North America, but behind the celebrations, sustainability experts warn the expanded tournament may become the most polluting sporting event in history, with emissions projections reaching up to 15 million metric tons of CO₂ — nearly double the average of previous World Cups.",
+    "date": "June 11, 2026",
+    "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp",
+    "heroImage": "/world-cup-2026-carbon-footprint-environmental-concerns.webp",
+    "alt": "Airplane flying over a soccer pitch near Tijuana, Mexico, as the Iranian national team establishes its base camp for the 2026 World Cup. (REUTERS/Victor Medina/File Photo)",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns across three continents, investigating the human and environmental toll of resource extraction. His reporting on oil spills in the Niger Delta and timber trafficking in the Amazon has shaped policy debates on corporate accountability.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "P",
-        "text": "resident Trump signed the 'One Big Beautiful Bill' into law on March 31, a sprawling energy and infrastructure package that cuts federal oil and gas royalty rates from 12.5% to 8% — the lowest level since the Mineral Leasing Act of 1920."
-      },
-      "paragraphs": [
-        "The bill also reduces rental rates for non-producing leases, extends lease terms from 10 to 15 years, and limits environmental review periods to 12 months. The Congressional Budget Office estimates the royalty cut alone will reduce federal revenue by $18 billion over the next decade.",
-        "Interior Secretary Doug Burgum hailed the law as 'unleashing American energy dominance.' But environmental groups called it 'a giveaway to polluters.' The law applies to all new leases on federal lands and waters, which cover approximately 700 million acres."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "State and tribal opposition",
-          "content": [
-            "New Mexico, which derives 38% of its state budget from federal oil and gas royalties, estimates it will lose $1.2 billion annually under the new rates. Governor Michelle Lujan Grisham said the state may challenge the law's preemption of state royalty authority.",
-            "Several Native American tribes, including the Navajo Nation, have also protested, noting that royalties fund schools, healthcare, and infrastructure on tribal lands. 'This is theft from our children's future,' said Navajo Nation President Buu Nygren."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is a giveaway to polluters at the expense of taxpayers, states, and tribes. We will explore every legal option to stop it.",
-          "cite": "Gov. Michelle Lujan Grisham (D-NM)"
+          "type": "paragraph",
+          "text": "The 2026 FIFA World Cup kicks off Thursday with unprecedented fanfare across the United States, Canada and Mexico, but behind the celebrations, sustainability experts warn the expanded tournament could become the most polluting sporting event in history. With 48 teams competing across 16 host cities stretching from Vancouver to Miami — a distance of over 2,800 miles — and the number of matches increased from 64 to 104, the tournament's carbon footprint is projected to reach as high as 15 million metric tons of CO₂ equivalent, nearly double the average of World Cups held between 2010 and 2022. An assessment published last week by global carbon accounting platform Greenly estimates the tournament could generate 7.8 million metric tons of carbon dioxide — roughly equivalent to the annual emissions of 1.7 million cars, or the yearly emissions of the entire country of Sierra Leone."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Industry groups praised the law, predicting a surge in drilling permits. The American Petroleum Institute said it expects 15,000 new jobs in the oil patch by 2028."
-          ]
+          "text": "The primary driver of this environmental toll is air travel. Researchers estimate that approximately 87% of the tournament's emissions come from travel — chiefly flights — as millions of fans, 48 teams, and international media criss-cross the North American continent. The sheer geographical spread of the tournament makes it inherently more carbon-intensive than the compact Qatar 2022 event, which kept all eight stadiums within 34 miles of each other. 'Increase the number of the teams and then put them in a country where there needs to be significant travel first to get there by air, and then significant travel between the host locations, okay, we're getting rid of one source of negative environmental influence, but then we are increasing it in another,' David Gogishvili, a geographer at the University of Lausanne, told Reuters."
+        },
+        {
+          "type": "paragraph",
+          "text": "World Cup-related team air travel alone will account for roughly 7.7 million tons of CO₂-equivalent — about 85% of the total, according to an analysis by Scientists for Global Responsibility (SGR), the Environmental Defense Fund, and the New Weather Institute. Their peer-reviewed report, titled 'FIFA's Climate Blind Spot,' concluded that FIFA's decision to expand the tournament and spread it across a continent has locked in a climate footprint that no amount of host-city recycling or LED lighting can meaningfully offset. A high-emission scenario could see greenhouse gases reach 15 million tons of CO₂ equivalent, making the tournament one of the most polluting sporting events ever held."
+        },
+        {
+          "type": "heading",
+          "text": "The Heavy Toll on Fans Following Their Teams"
+        },
+        {
+          "type": "paragraph",
+          "text": "For fans, following their national team comes at an extraordinary carbon cost. According to BBC Sport analysis, an England supporter traveling from London to watch their team at every match — should they reach the final on July 19 — could generate a carbon footprint of approximately 3.5 tonnes of CO₂. That is equivalent to heating an average home in the United Kingdom for 19 months, or the production of 34,000 plastic bags. Dr. Stuart Parkinson from Scientists for Global Responsibility described the BBC's estimates as 'deeply disturbing,' noting that 3.4 tonnes of CO₂ 'is equivalent to two to three times the whole year's emissions of an average person in a poorer country such as Haiti. FIFA projects that more than five million fans from around the world will attend the tournament. Environmental advocates say the cumulative effect of so many long-haul flights is unsustainable, especially as the world accelerates toward exceeding the Paris Agreement's goal of limiting global temperature rises to 1.5 degrees Celsius."
+        },
+        {
+          "type": "paragraph",
+          "text": "An England fan flying to and from London and attending every match would travel nearly two-thirds the circumference of the Earth. Through the group stage alone, supporters could travel more than 1,760 miles between host cities. Should England win their group and reach the final, fans face at least 14,698 miles of travel — generating about 3.4 tonnes of CO₂e per person. Scotland supporters would travel 1,258 miles between host cities during the group stage, with distances multiplying if the team progresses."
+        },
+        {
+          "type": "heading",
+          "text": "Extreme Heat and the Irony of Climate Change"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compounding the irony of a massive carbon-emitting tournament, the United Nations Climate Secretariat issued a warning on June 8 that approximately 25% of matches could be played in dangerously hot temperatures, with players, staff, and fans facing significant health risks. At the Climate Conference in Bonn, the agency emphasized that the tournament will take place against a backdrop of increasing extreme heat waves driven by climate change — the very phenomenon that the tournament's emissions are accelerating. Fan zones, queues, transport routes, parking lots, and outdoor celebrations can expose people to dangerous heat for hours. 'The heat is becoming increasingly intense. This is not a coincidence but a consequence of climate change,' the UN statement said. A separate report from SGR and EDF assessed heat, flooding, and extreme weather risk at all 16 stadiums, finding that six face extreme heat stress due to Wet Bulb Globe Temperatures above 80°F — the threshold where exertion becomes dangerous. Eight of the 16 cities require what the researchers called immediate environmental intervention, with four needing critical intervention. AT&T Stadium in Arlington, Texas, which will host nine World Cup matches — more than any other venue — experiences 37 days per year above 95°F, with July wet bulb readings that exceed FIFA safety thresholds."
+        },
+        {
+          "type": "heading",
+          "text": "FIFA's Sustainability Promises Under Fire"
+        },
+        {
+          "type": "paragraph",
+          "text": "FIFA has responded to criticism by pointing to its environmental initiatives. At the United Nations COP26 climate summit in 2021, FIFA pledged to halve its carbon emissions by 2030 and reach net zero by 2040 as part of the U.N. Sports for Climate Action Framework. The body told Reuters that 'numerous environmental initiatives related to the tournament are being implemented by FIFA and the Host Cities,' including the use of existing stadiums, encouraging fans to use public transport, reducing reliance on diesel generators, and implementing recycling and food waste programs. Additionally, 13 of the 16 stadiums have achieved LEED green building certification, installing more than 11,500 solar panels to generate clean electricity and eliminating over 5 million single-use plastic products annually. The tournament's use of existing venues avoids the carbon pollution that comes with constructing new stadiums for large-scale events."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, critics argue that these measures are insufficient to offset the structural emissions arising from the tournament's expansion and its heavy reliance on air transport. 'FIFA is taking a direction that inevitably increases the carbon footprint of events. We are moving toward gigantism and a number of spectator and team movements that is the opposite of what should be done to maintain a livable climate on the planet,' Maël Besson, a specialist in the ecological transition of sport and founder of the agency Sport 1.5, told RFI."
+        },
+        {
+          "type": "heading",
+          "text": "The Carbon Offset Controversy"
+        },
+        {
+          "type": "paragraph",
+          "text": "FIFA's reliance on carbon offsetting has drawn particular scrutiny. The organization's previous claims of carbon neutrality for the 2022 World Cup in Qatar were deemed misleading by a Swiss regulator, which found that FIFA was 'not able to provide proof that the claims were accurate' and 'did not set out a plan to define how it will further offset emissions.' Critics argue that FIFA's offsetting strategy lacks transparency and that many proposed mitigation measures rely heavily on future technologies, offsets, or behavioral change rather than hard reductions baked into the tournament's structure. In a report titled 'Poor Tackling,' Carbon Market Watch exposed how tournament organizers used dubious calculations to make the Qatar event appear carbon neutral, ignoring major sources of emissions, especially from construction, and using poor-quality credits unlikely to benefit the climate."
+        },
+        {
+          "type": "paragraph",
+          "text": "Adding to the criticism, SGR's researchers have urged FIFA to reverse the team expansion, set mandatory environmental standards, and end sponsorship deals with high-emitting companies — including the Saudi oil company Aramco, whose sponsorship is estimated to result in an additional 30 million tons of CO₂e due to energy sales linked to the tournament's promotion. As the World Cup becomes a larger-scale global event, researchers argue that the question is no longer how to organize it successfully, but how to ensure that success does not come at the expense of increasingly costly environmental consequences."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 2026 World Cup runs from June 11 to July 19, with matches across 16 venues in the United States, Canada, and Mexico. As billions of viewers tune in worldwide, the tournament's digital carbon footprint — from live streaming, data transmission, and social media — adds another layer to the environmental impact, though it remains largely unaccounted for in official emissions calculations. Former World Bank governor Yerbol Orynbayev previously told Al Jazeera that 'the noise surrounding the independence of the central bank has somewhat quietened,' while climate advocates continue to press FIFA for binding emissions targets and transparent accounting."
         }
       ]
     },

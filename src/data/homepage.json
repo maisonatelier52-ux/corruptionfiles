@@ -168,7 +168,21 @@
   "date": "June 10, 2026", 
   "author": "Darnell Hutchins" 
 },
-        { "id": 406, "slug": "gwent-police-whatsapp-group-dismissal", "image": "/gwent-police-whatsapp-group-dismissal.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Gwent Police Dismiss Former Officers Following Investigation into Vile WhatsApp Group", "date": "March 2, 2026", "author": "Darnell Hutchins" },
+{
+  "id": 406,
+  "slug": "australia-police-less-lethal-weapons-transparency",
+  "image": "/australia-police-less-lethal-weapons-transparency.webp",
+  "category": "pa",
+  "badges": [
+    {
+      "text": "Police Accountability",
+      "color": "bg-[#e91e63]"
+    }
+  ],
+  "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
+  "date": "June 11, 2026",
+  "author": "Darnell Hutchins"
+},
         { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "Darnell Hutchins" },
         { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "Darnell Hutchins" }
   ],
@@ -373,13 +387,13 @@
     },
     {
       "id": 504,
-      "slug": "federal-oil-royalties-cut-one-big-beautiful-bill",
+      "slug": "world-cup-2026-carbon-footprint-environmental-concerns",
       "category": "eco",
-      "title": "New Law Slashes Federal Oil Royalties to Record Lows for Drillers",
-      "image": "/federal-oil-royalties-cut-one-big-beautiful-bill.webp",
+      "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint",
+      "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "April 1, 2026",
+      "date": "June 11, 2026",
       "author": "Thomas Aldgate"
     }
   ],
