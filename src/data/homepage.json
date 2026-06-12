@@ -183,7 +183,16 @@
   "date": "June 11, 2026",
   "author": "Darnell Hutchins"
 },
-        { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "date": "March 7, 2026", "author": "Darnell Hutchins" },
+{ 
+  "id": 407, 
+  "slug": "belfast-psni-inaction-far-right-attacks", 
+  "image": "/belfast-psni-inaction-far-right-attacks.webp", 
+  "category": "pa", 
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], 
+  "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks", 
+  "date": "June 12, 2026", 
+  "author": "Darnell Hutchins" 
+},
         { "id": 408, "slug": "hogan-howe-police-accountability-review", "image": "/hogan-howe-police-accountability-review.webp", "category": "pa", "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], "title": "Lord Hogan-Howe to Lead Landmark Review of Police Accountability and Structures", "date": "March 3, 2026", "author": "Darnell Hutchins" }
   ],
   "worldNews": {

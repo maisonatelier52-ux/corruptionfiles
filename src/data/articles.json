@@ -1076,7 +1076,7 @@
       },
     "relatedPosts": [
       { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." },
-      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
+      { "id": 407, "slug": "belfast-psni-inaction-far-right-attacks", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/belfast-psni-inaction-far-right-attacks.webp", "date": "June 12, 2026", "author": "Darnell Hutchins", "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks", "excerpt": "Residents express outrage as targeted far‑right attacks escalate in Belfast, with calls for urgent PSNI intervention." }
     ]
   },
   {
@@ -1195,54 +1195,94 @@
   },
   {
     "id": 407,
-    "slug": "independent-office-police-conduct-probe-motorcycle-pursuit",
+    "slug": "belfast-psni-inaction-far-right-attacks",
     "category": "pa",
     "categoryLabel": "Police Accountability",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "IOPC Launches Probe After Serious Motorcycle Collision During Police Pursuit in Bristol",
-    "metaDescription": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol.",
-    "metaKeywords": ["IOPC investigation", "police pursuit", "motorcycle collision", "Bristol police", "serious injury"],
-    "heading": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit",
-    "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol.",
-    "date": "March 7, 2026",
-    "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp",
-    "heroImage": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp",
-    "alt": "IOPC logo and police tape",
+    "metaTitle": "Belfast community fury over PSNI inaction amid targeted far‑right attacks | Police Accountability",
+    "metaDescription": "Exclusive: Volunteer monitoring group repeatedly warned PSNI for eight months about far-right hitlists before Belfast riots. Families burned out of homes as police face urgent transparency questions.",
+    "metaKeywords": [
+      "Belfast riots 2026",
+      "PSNI inaction",
+      "far-right attacks Northern Ireland",
+      "police accountability",
+      "anti-immigration violence Belfast",
+      "Tommy Robinson Belfast"
+    ],
+    "heading": "Belfast community fury over PSNI inaction amid targeted far‑right attacks",
+    "excerpt": "A volunteer monitoring group repeatedly warned the Police Service of Northern Ireland over eight months that far-right networks were circulating addresses that were later targeted in this week's violent Belfast riots, sparking urgent questions about police accountability and community protection.",
+    "date": "June 12, 2026",
+    "image": "/belfast-psni-inaction-far-right-attacks.webp",
+    "heroImage": "/belfast-psni-inaction-far-right-attacks.webp",
+    "alt": "Masked rioters clash with police during anti-immigration violence in Belfast, June 2026. (Photograph: Liam McBurney/PA)",
     "author": {
       "name": "Darnell Hutchins",
       "slug": "darnell-hutchins",
       "avatar": "/darnell-hutchins.webp",
-      "bio": "Darnell started his career as a public defender...",
+      "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty. He has since covered police accountability across three continents.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he Independent Office for Police Conduct (IOPC) has launched a mandatory investigation into a police pursuit that left a 19-year-old motorcyclist with catastrophic spinal injuries in Bristol on February 28."
-      },
-      "paragraphs": [
-        "The incident began when an Avon and Somerset Police patrol car attempted to stop a motorcycle for a suspected traffic violation. The rider, identified as Jayden Okonkwo, failed to stop and a pursuit ensued for approximately 2.4 miles through residential streets. Okonkwo lost control at a junction and struck a lamppost.",
-        "Paramedics airlifted Okonkwo to Southmead Hospital, where doctors determined he is likely permanently paralyzed from the waist down. No police vehicle made contact with the motorcycle before the crash."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Pursuit policies under review",
-          "content": [
-            "The IOPC is examining whether officers complied with force policy, which generally prohibits pursuits of motorcycles due to the elevated risk of serious injury. 'We are reviewing body-worn camera footage, vehicle telemetry, and dispatch recordings,' said IOPC Director Amanda Rowe.",
-            "Avon and Somerset Police have voluntarily suspended the two officers involved from frontline duties pending the investigation. The force has also initiated a wider review of its pursuit training."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is a devastating outcome for a young man and his family. Our investigation will establish whether the pursuit was justified and whether all protocols were followed.",
-          "cite": "Amanda Rowe, IOPC Director"
+          "type": "paragraph",
+          "text": "A volunteer monitoring group repeatedly warned the Police Service of Northern Ireland over eight months that far-right networks were circulating a hitlist of addresses that were later targeted in this week's violent Belfast riots, a Guardian investigation has revealed. The Accountability Project Northern Ireland, formed last summer to monitor anti-immigration activity online, sent dozens of reports to the PSNI between November 2025 and June 2026, warning of a growing focus on houses in multiple occupation targeted by far-right figures. The so-called hitlist of addresses has been circulating among far-right groups since August 2025 and was sent to the PSNI in January 2026. Those addresses were among the locations attacked during this week's anti-immigration disorder. Campaigners say a similar list has been circulated on social media and messaging apps in recent days, as masked mobs set homes on fire and forced families to flee. 'I have seen the so-called hitlist currently circulating in Belfast, and I recognised it immediately as the same list sent to the PSNI in January,' a spokesperson for Accountability Project Northern Ireland told the Guardian. 'The fact that concerns about escalation were raised months ago, yet some of the streets named have now been attacked, raises serious questions about whether those warnings were acted upon.'"
         },
         {
           "type": "paragraph",
-          "content": [
-            "The Okonkwo family has retained legal counsel and is considering a civil claim against the police. A GoFundMe campaign to support his medical care has raised over £85,000 as of this writing."
-          ]
+          "text": "The PSNI warned earlier this week against the sharing of home addresses, adding that doing so had left families and residents 'extremely distressed'. The reports sent to police focused heavily on activity in the Newtownabbey area north of Belfast, which has been at the centre of some of the most serious disorder. Alliance assembly member John Blair told BBC Radio 4's Today programme that the area had seen 'a mob on a rampage of violence and destruction'. The reports to police cited a Facebook post stating that HMOs in the Glengormley area 'will now be treated as fair game and dealt with accordingly', adding: 'Anyone caught funding or helping these animals in being housed will be condemned as equally guilty.' Glengormley was among the areas affected, with masked men setting homes on fire. Anti-racist campaigners have spoken of their anger and frustration that months of warnings were not acted upon before rioting saw houses and cars burned and racist checkpoints set up on main roads. Community groups described helping vulnerable families leave areas, while volunteers organised support for minority ethnic students travelling to GCSE exams. Some workers from minority ethnic backgrounds were leaving work early because of concerns about travelling home safely. The dozens of reports concerning the targeting of HMOs were part of approximately 50 submissions to the PSNI from August 2025."
+        },
+        {
+          "type": "heading",
+          "text": "'Police Vanished from the Streets'"
+        },
+        {
+          "type": "paragraph",
+          "text": "LBC Crime Correspondent Andy Hughes, who witnessed the disorder firsthand, described how police appeared to vanish from the streets as the violence escalated. 'One thing that struck me last night was the police response. I expected them to be out in force to equal the rioters. But there were hardly any officers in sight,' Hughes wrote. 'The mob moved from street to street, smashing up cars and setting them alight. But like any riot devoid of police, the violence escalated. The long snake of protestors, shrouded in black, began to light petrol bombs and started throwing them at the windows of homes.' Hughes said riot vans that did arrive were quickly overwhelmed, with wing mirrors ripped off and windows smashed. Officers knew better than to leave the safety of their vans. Minutes later, they reversed up the street. 'It was the only arrest I saw. And it was some of the worst violence I have ever witnessed in two decades as a crime journalist,' Hughes said. During the Troubles, Belfast was a place where riots, shootings and bombings were commonplace. Locals told Hughes this was the worst disorder they had seen for many years."
+        },
+        {
+          "type": "paragraph",
+          "text": "PSNI Chief Constable Jon Boutcher defended his officers' response, stating that police 'got in harm's way' to stop people from being intimidated or assaulted. He said officers rescued numerous families, including a parent carrying their two-month-old baby, from their homes during the disturbances. However, the Police Federation for Northern Ireland said chronic under-resourcing had left the PSNI 1,200 short of its promised 7,500 officers. Two hundred additional officers from Great Britain have been deployed to reinforce the PSNI, which is bracing for further unrest."
+        },
+        {
+          "type": "heading",
+          "text": "Plastic Bullets Fired as Violence Spreads"
+        },
+        {
+          "type": "paragraph",
+          "text": "Police have fired 17 plastic bullets since disturbances erupted on Tuesday, pitting officers against crowds throwing rocks, petrol bombs and other missiles. The Police Ombudsman has confirmed that 'attenuating energy projectiles' have been used, with each incident now being assessed by investigators. Amnesty International expressed concern at the use of plastic bullets. Patrick Corrigan, Northern Ireland programme director of Amnesty International, said: 'With so many children on the streets, and the risk of serious injury via direct hit or ricochet, there is a significant risk in their use in current circumstances.' The United Campaign Against Plastic Bullets also raised concerns, with Mark Kelly, whose 12-year-old sister was shot dead by a plastic bullet in 1981, warning: 'What are they going to do if some kid is killed by a plastic bullet? It will not make the situation better.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Water cannon was also deployed in the Cloughfern area of Newtownabbey. Twelve officers have been injured and 16 people arrested so far. Police have released images of two males wanted for questioning. Northern Ireland Secretary Hilary Benn condemned the violence as 'racist thuggery'. 'If you are targeting people on the basis of the colour of their skin, how else can you describe them?' Benn told Sky News. First Minister Michelle O'Neill said the rioters showed 'disgusting cowardice' by burning families out of their homes. DUP leader Gavin Robinson said the family of stabbing victim Stephen Ogilvie had 'spoken very powerfully that their desire is that what happened to their son is not used as an excuse for intimidation or division within our society'."
+        },
+        {
+          "type": "heading",
+          "text": "Nurse Chased, Families Evacuated"
+        },
+        {
+          "type": "paragraph",
+          "text": "Further reports emerged of intimidation against immigrants and minority ethnic families. The South Eastern Trust said four masked men chased a nurse on her way to work at the Ulster Hospital in Dundonald. 'We utterly condemn this racist attack. This nurse bravely insisted on remaining in the hospital to care for the most vulnerable in our community,' the trust said. The Belfast Trust said it was 'appalled that some of our staff have been subjected to racist abuse', with staff living near Belfast City Hospital receiving letters telling them to leave their homes or risk being burnt out. Twasul Mohammed, a Sudanese resident of Belfast who works with community groups, said local residents fearful of reprisals had sought refuge in a church after racial attacks on their homes. Most of them were Sudanese, Somali, Syrian and Eritrean families whose addresses had been posted publicly on social media. 'We went into the houses and evacuated the families because we were on the phone to them,' Mohammed told the BBC. Health Minister Mike Nesbitt said international workers were 'vital and provide an invaluable contribution to their patients and the wider community'."
+        },
+        {
+          "type": "paragraph",
+          "text": "The disorder was triggered by a knife attack on Monday night in north Belfast, in which a man in his 40s suffered serious injuries to his face, neck and back. A 30-year-old Sudanese national, Hadi Alodid, has been charged with attempted murder and possession of a bladed article. He was remanded in custody and the case was adjourned to July 8. Alodid had been given leave to remain in the UK until 2028, having travelled from Sudan to Paris and then Dublin before taking a bus to Belfast. The family of the victim, Stephen Ogilvie, who lost his left eye in the attack, has condemned the violent protests, saying the unrest is 'not welcome'. Ogilvie's condition is reportedly improving, and he could be woken from a coma in coming days."
+        },
+        {
+          "type": "heading",
+          "text": "Far-Right Figures Stoke Tensions Online"
+        },
+        {
+          "type": "paragraph",
+          "text": "UK authorities have blamed far-right activists for stoking anger on social media following the knife attack. Tommy Robinson, whose real name is Stephen Yaxley-Lennon, posted lists of locations across Great Britain and Northern Ireland where protests were planned, saying 'the whole of the United Kingdom is hitting the streets tonight' following 'another invader attack on our people'. The post was shared by tech billionaire Elon Musk, who called for citizens to protest 'repeatedly and loudly' to change government policies around immigration. Britain's media regulator Ofcom has urged platforms to limit the spread of posts inciting violence. The violence has also spread to Glasgow, where anti-immigration protests erupted on Wednesday. The UN has described the violence against immigrants in the UK as 'shocking'."
+        },
+        {
+          "type": "heading",
+          "text": "Call for Independent Oversight"
+        },
+        {
+          "type": "paragraph",
+          "text": "Community leaders and activists are calling for an independent inquiry into police handling of the warnings and the response to the violence. Michelle Reynolds, a director of the Police Accountability Project at Inner Melbourne Community Legal, said earlier this week that police across the UK are being granted greater powers and weaponry but are avoiding full accountability and scrutiny. In Northern Ireland, the Police Ombudsman is already investigating the use of plastic bullets during the riots. However, campaigners say a broader investigation is needed into why eight months of warnings about far-right hitlists went unheeded, leaving vulnerable families to face violent attacks that many believe could have been prevented. 'The criminal justice system needs to take its course,' Chief Constable Boutcher said. But for the families who fled their homes in the middle of the night, pursued by masked mobs, that course has come far too late."
         }
       ]
     },
@@ -1306,7 +1346,7 @@
     },
     "relatedPosts": [
       { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." },
-      { "id": 407, "slug": "independent-office-police-conduct-probe-motorcycle-pursuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/independent-office-police-conduct-probe-motorcycle-pursuit.webp", "date": "March 7, 2026", "author": "Darnell Hutchins", "title": "IOPC Launches Mandatory Probe After Serious Motorcycle Collision During Police Pursuit", "excerpt": "The IOPC has launched a mandatory investigation after a 19-year-old motorcyclist suffered life-changing injuries during a police pursuit in Bristol." }
+      { "id": 407, "slug": "belfast-psni-inaction-far-right-attacks", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/belfast-psni-inaction-far-right-attacks.webp", "date": "June 12, 2026", "author": "Darnell Hutchins", "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks", "excerpt": "Residents express outrage as targeted far‑right attacks escalate in Belfast, with calls for urgent PSNI intervention." }
     ]
   },
   {
