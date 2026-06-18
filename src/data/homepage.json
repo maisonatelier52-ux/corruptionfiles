@@ -284,14 +284,14 @@
   },
   {
     "id": 4,
-    "slug": "aetna-medicare-advantage-fraud",
+    "slug": "doj-sues-new-york-medicaid-home-care-fraud",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 11, 2026",
-    "title": "Aetna to Pay $117.7 Million to Settle Medicare Advantage Fraud Allegations",
+    "date": "June 17, 2026",
+    "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program",
     "author": "Ruth Anselmi",
-    "excerpt": "Aetna agreed to pay $117.7 million to settle False Claims Act violations after allegedly inflating patient risk scores to boost federal payments.",
-    "image": "/aetna-medicare-advantage-fraud.webp",
+    "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program.",
+    "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -521,13 +521,13 @@
   },
   {
     "id": 804,
-    "slug": "fincen-whistleblower-program-offshore-tax-evasion",
+    "slug": "uk-seizure-russian-shadow-fleet-tanker-smyrtos",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "New FinCEN Whistleblower Program Targets Offshore Tax Evasion and Sanctions Breaking",
-    "image": "/fincen-whistleblower-program-offshore-tax-evasion.webp",
+    "title": "UK Seizure of Russian Shadow Fleet Tanker Escalates Sanctions Enforcement",
+    "image": "/uk-seizure-russian-shadow-fleet-tanker-smyrtos.webp",
     "author": "Felix Draper",
-    "date": "April 3, 2026",
+    "date": "June 17, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
