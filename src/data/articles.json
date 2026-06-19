@@ -1858,7 +1858,7 @@
     },
     "relatedPosts": [
       { "id": 2, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme." }
+      { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
     ]
   },
   {
@@ -1960,54 +1960,86 @@
   },
   {
     "id": 5,
-    "slug": "texas-dme-owner-medicare-scam",
+    "slug": "fda-warning-letters-telehealth-weight-loss-drugs",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam",
-    "metaDescription": "A Texas DME company owner was sentenced to 12 years in prison and ordered to pay restitution for running a $59 million Medicare kickback and fraud scheme.",
-    "metaKeywords": ["DME fraud", "Medicare kickback scheme", "Texas medical equipment fraud", "healthcare fraud sentencing"],
-    "heading": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam",
-    "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme.",
-    "date": "March 9, 2026",
-    "image": "/texas-dme-owner-medicare-scam.webp",
-    "heroImage": "/texas-dme-owner-medicare-scam.webp",
-    "alt": "Medical equipment warehouse",
+    "metaTitle": "FDA Warns 25 Telehealth Firms Over Misleading Weight-Loss Drug Claims | Medical Fraud",
+    "metaDescription": "The FDA has issued warning letters to 25 telehealth companies for making false and misleading claims about compounded versions of popular weight-loss and diabetes drugs, including semaglutide and tirzepatide.",
+    "metaKeywords": [
+      "FDA warning letters telehealth",
+      "compounded weight-loss drugs",
+      "GLP-1 misleading claims",
+      "semaglutide telehealth marketing",
+      "tirzepatide compounding FDA",
+      "Michael Davis FDA"
+    ],
+    "heading": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims",
+    "excerpt": "The U.S. Food and Drug Administration has issued warning letters to 25 telehealth companies for marketing false and misleading claims about compounded versions of Eli Lilly and Novo Nordisk's popular weight-loss and diabetes drugs, as part of an escalating crackdown on GLP-1 copycats.",
+    "date": "June 17, 2026",
+    "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp",
+    "heroImage": "/fda-warning-letters-telehealth-weight-loss-drugs.webp",
+    "alt": "The U.S. Food and Drug Administration headquarters in Silver Spring, Maryland, where officials announced warning letters to 25 telehealth companies over misleading weight-loss drug claims.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist...",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "R",
-        "text": "aymond Lee, 51, owner of Houston-based DME Express, was sentenced Friday to 12 years in federal prison for orchestrating a $59 million Medicare fraud scheme involving unnecessary durable medical equipment (DME) and illegal kickbacks."
-      },
-      "paragraphs": [
-        "Lee paid $1,500 to $3,000 per month to telemedicine companies in exchange for pre-signed orders for power wheelchairs, hospital beds, and other DME — regardless of medical necessity. He then billed Medicare for the equipment, often at inflated rates. Prosecutors said Lee personally profited by at least $18 million between 2019 and 2024.",
-        "The scheme was uncovered after a Medicare audit revealed that Lee's company had the highest per-patient DME billing rate in Texas, despite having no physical therapy staff to assess patient needs."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Wider investigation ongoing",
-          "content": [
-            "Lee was also ordered to pay $59 million in restitution and forfeit $18 million in assets, including a ranch, multiple luxury vehicles, and cryptocurrency accounts. Two telemedicine doctors who signed fraudulent orders have pleaded guilty and are cooperating with prosecutors.",
-            "'Raymond Lee treated Medicare like his personal ATM,' said U.S. Attorney Alamdar Hamdani. 'He will now have more than a decade to think about the patients who were denied care because of his greed.'"
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Raymond Lee treated Medicare like his personal ATM. He will now have more than a decade to think about the patients who were denied care because of his greed.",
-          "cite": "U.S. Attorney Alamdar Hamdani"
+          "type": "paragraph",
+          "text": "The U.S. Food and Drug Administration has issued warning letters to 25 telehealth companies for marketing false and misleading claims about compounded versions of Eli Lilly and Novo Nordisk's hugely popular weight-loss and diabetes drugs. The letters, posted on the health regulator's website on Tuesday, were sent to companies including Medica Weight Loss, Ready Med, Roen Health Inc., Maximus Health Inc., Clover Meds, and Altru Telehealth among others earlier this month."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Lee's wife, who managed the company's finances, pleaded guilty to conspiracy and is scheduled for sentencing in May."
-          ]
+          "text": "The health regulator previously sent a series of warning letters to telehealth firms as part of its broader crackdown on compounded drugs. This latest wave marks the third major set of warning letters in less than a year, following approximately 80 warning letters and 40 untitled letters in September 2025, and 30 warning letters in March 2026."
+        },
+        {
+          "type": "heading",
+          "text": "False and Misleading Claims"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some telehealth companies claimed on their websites that their compounded versions of Lilly's tirzepatide and Novo's semaglutide were sourced from FDA-approved pharmacies or that the ingredients were clinically studied, the regulator said in the letters. For others, the agency noted that representations made by the telehealth firms regarding compounded semaglutide and tirzepatide products are false or misleading."
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the FDA's warning letters, common violations include claims that compounded products are 'generic' versions of FDA-approved GLP-1 drugs, implied claims that FDA approved or reviewed the compounded products for safety and effectiveness, messaging implying the compounded product is 'clinically proven' to achieve the same results as an FDA-approved product, and claims that the product was obtained from an 'FDA-approved' or 'FDA-licensed' pharmacy."
+        },
+        {
+          "type": "paragraph",
+          "text": "In one warning letter to Altru Telehealth, the FDA cited claims including: 'Compounded semaglutide combines the FDA approved active ingredient semaglutide with a body safe vitamin such as B12,' and 'Compounded semaglutide & tirzepatide offers the same results but at a fraction of the cost of brand names such as Ozempic, Mounjaro & Wegovy.' The agency noted that compounded drug products are not FDA-approved and that such claims represent that the compounded drug products have been FDA-approved or otherwise evaluated for safety and effectiveness when they have not."
+        },
+        {
+          "type": "heading",
+          "text": "FDA's Escalating Crackdown"
+        },
+        {
+          "type": "paragraph",
+          "text": "The FDA's action represents a significant escalation in enforcement against telehealth companies marketing compounded GLP-1 drugs. The agency has launched a dedicated webpage for telehealth companies that highlights common compliance pitfalls in promoting compounded drugs, alongside a separate webpage outlining the agency's specific concerns with compounded GLP-1 products."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lilly's tirzepatide is the active ingredient in the obesity injection Zepbound and its diabetes drug Mounjaro, while semaglutide is used in the Danish drugmaker's diabetes drug Ozempic and weight-loss drug Wegovy. Pharmaceutical giants Novo Nordisk is the only drugmaker that holds FDA approval for semaglutide, while Lilly is the only manufacturer with FDA-approved tirzepatide."
+        },
+        {
+          "type": "heading",
+          "text": "Patient Safety Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Compounded drugs are customized medicines made when a licensed pharmacist or physician combines, mixes or alters drug ingredients to meet the needs of an individual patient. They are not approved by the FDA and have not undergone the rigorous review for safety, efficacy, and manufacturing quality that is required for drugs approved through the new drug application pathway."
+        },
+        {
+          "type": "paragraph",
+          "text": "'Patients deserve to know what they're getting — compounded GLP-1 products have not been proven safe, effective, or of consistent quality like FDA-approved drugs,' said Michael Davis, acting director of the FDA's Center for Drug Evaluation and Research, in a social media post. 'We will continue holding companies accountable.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The FDA's crackdown comes as the agency continues to grapple with the proliferation of compounded versions of popular weight-loss drugs. In April, the agency proposed excluding Novo Nordisk and Eli Lilly's weight-loss drugs from a key compounding list, potentially limiting large-scale production by outsourcing facilities. The 60-day negotiating period officially began on June 18 and is set to expire on August 17, when both sides hope to reach a permanent agreement."
         }
       ]
     },
@@ -2070,7 +2102,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." },
+      { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." },
       { "id": 8, "slug": "florida-doctor-telehealth-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/florida-doctor-telehealth-fraud.webp", "date": "March 23, 2026", "author": "Ruth Anselmi", "title": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme", "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network." }
     ]
   },
@@ -2187,7 +2219,7 @@
     },
     "relatedPosts": [
       { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." },
-      { "id": 5, "slug": "texas-dme-owner-medicare-scam", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/texas-dme-owner-medicare-scam.webp", "date": "March 9, 2026", "author": "Ruth Anselmi", "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam", "excerpt": "A Texas DME company owner was sentenced to 12 years in prison for running a $59 million Medicare kickback scheme." }
+      { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
     ]
   },
   {
@@ -3288,7 +3320,7 @@
     },
     "relatedPosts": [
       { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
-      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
+      { "id": 805, "slug": "iran-frozen-assets-us-ceasefire-deal", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/iran-frozen-assets-us-ceasefire-deal.webp", "date": "June 16, 2026", "author": "Felix Draper", "title": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal", "excerpt": "Iran is reportedly seeking access to billions in frozen overseas assets as part of a proposed ceasefire agreement with the United States, adding a major financial dimension to ongoing diplomatic negotiations." }
     ]
   },
   {
@@ -3370,59 +3402,99 @@
     },
     "relatedPosts": [
       { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
-      { "id": 805, "slug": "national-money-laundering-risk-assessment-offshore-trusts", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp", "date": "April 4, 2026", "author": "Felix Draper", "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts", "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud." }
+      { "id": 805, "slug": "iran-frozen-assets-us-ceasefire-deal", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/iran-frozen-assets-us-ceasefire-deal.webp", "date": "June 16, 2026", "author": "Felix Draper", "title": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal", "excerpt": "Iran is reportedly seeking access to billions in frozen overseas assets as part of a proposed ceasefire agreement with the United States, adding a major financial dimension to ongoing diplomatic negotiations." }
     ]
   },
   {
     "id": 805,
-    "slug": "national-money-laundering-risk-assessment-offshore-trusts",
+    "slug": "iran-frozen-assets-us-ceasefire-deal",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
-    "metaDescription": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud, ahead of shell companies.",
-    "metaKeywords": ["money laundering risk assessment", "offshore trusts", "sanctions evasion", "treasury report", "beneficial ownership"],
-    "heading": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
-    "excerpt": "The 2026 National Money Laundering Risk Assessment identified offshore trusts as the highest-risk vehicle for sanctions evasion and tax fraud.",
-    "date": "April 4, 2026",
-    "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
-    "heroImage": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
-    "alt": "Document with trust agreement and pen",
+    "metaTitle": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal | Offshore Wealth & Sanctions",
+    "metaDescription": "Iran is demanding the release of billions in frozen overseas assets as part of a proposed ceasefire framework with the U.S., raising questions about global financial restrictions and sanctions enforcement.",
+    "metaKeywords": [
+      "Iran frozen assets 2026",
+      "US Iran ceasefire deal",
+      "Iran sanctions relief",
+      "frozen Iranian oil revenues",
+      "US Iran negotiations 2026",
+      "Strait of Hormuz blockade"
+    ],
+    "heading": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal",
+    "excerpt": "Iran is demanding the release of billions of dollars in frozen overseas assets as part of a proposed ceasefire framework with the United States, with Tehran insisting on access to $12 billion immediately upon signing and a further $12 billion within 60 days — a demand that has emerged as a major sticking point in negotiations.",
+    "date": "June 16, 2026",
+    "image": "/iran-frozen-assets-us-ceasefire-deal.webp",
+    "heroImage": "/iran-frozen-assets-us-ceasefire-deal.webp",
+    "alt": "Iranian and U.S. flags displayed against a backdrop of diplomatic negotiations, symbolizing the ongoing talks over frozen assets and ceasefire terms.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
       "avatar": "/felix-draper.webp",
-      "bio": "Felix came to this beat through financial journalism...",
+      "bio": "Felix came to this beat through financial journalism, tracking the movement of dirty money through offshore havens and sanctions loopholes. His investigations have traced Russian oil shipments from the Baltic to the Gulf and exposed how shell companies obscure the true owners of superyachts and luxury real estate.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he Treasury Department released the 2026 National Money Laundering Risk Assessment on Saturday, identifying offshore trusts as the single highest-risk vehicle for sanctions evasion, tax fraud, and kleptocracy — surpassing shell companies for the first time."
-      },
-      "paragraphs": [
-        "The assessment, which is required by Congress every four years, found that the use of offshore trusts in jurisdictions like the Cook Islands, Nevis, and Belize has increased 140% since 2022. Unlike shell companies, trusts typically have no public filing requirements and often have no named trustees or beneficiaries in any accessible registry.",
-        "'Trusts are the black boxes of the financial system,' the report states. 'Law enforcement often cannot determine who controls trust assets without months of expensive litigation, by which time assets have been moved.'"
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Policy recommendations",
-          "content": [
-            "The assessment recommends that Congress pass legislation requiring trusts that own U.S. real estate or accounts to file beneficial ownership information with FinCEN, similar to the Corporate Transparency Act. It also recommends expanding anti-money laundering rules to cover trust and company service providers.",
-            "The American Bankers Association expressed support for the trust recommendations. However, the U.S. Chamber of Commerce opposed them, arguing that 'legitimate estate planning would be burdened.'"
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Trusts are the black boxes of the financial system. Law enforcement often cannot determine who controls trust assets without months of expensive litigation.",
-          "cite": "2026 National Money Laundering Risk Assessment"
+          "type": "paragraph",
+          "text": "Iran is demanding the release of billions of dollars in frozen overseas assets as part of a proposed ceasefire framework with the United States, with Tehran insisting on access to $12 billion immediately upon signing and a further $12 billion within 60 days. The demand has emerged as a major sticking point in negotiations, with Iranian officials framing the release of frozen funds as a prerequisite for demonstrating U.S. goodwill and a test of trust between the two nations. 'This is our own money, not America's money,' said Mohsen Rezaei, military adviser to Iran's Supreme Leader."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The assessment also noted that cryptocurrency mixing services remain a 'critical vulnerability,' but that their overall volume ($2.4 billion in 2025) is dwarfed by offshore trust flows (estimated at $80 billion)."
-          ]
+          "text": "The negotiations come against the backdrop of a devastating war that began on February 28, 2026, when the United States and Iran first exchanged military strikes.The conflict has disrupted global oil supplies, with hundreds of tankers stuck inside the Gulf and a U.S. naval blockade restricting Iranian ports. A 14-point draft memorandum of understanding, published by Iran's semi-official Mehr News Agency, outlines the proposed terms, including an 'immediate and permanent' cessation of hostilities on all fronts, followed by 60 days of negotiations toward a final agreement."
+        },
+        {
+          "type": "heading",
+          "text": "Frozen Assets at the Heart of the Deal"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to Iranian and western sources familiar with the negotiations, Iran currently has approximately $100 billion in assets frozen in banks worldwide due to U.S. sanctions. The draft memorandum published by Mehr calls for the release of $24 billion in frozen Iranian assets during the 60-day negotiating period, with half of the funds to be made available before final negotiations begin. 'Iran wants $6 billion to $12 billion of its frozen funds to be released to Tehran, while Washington wants to release funds in stages for humanitarian goods and rejects returning funds to Iran outright,' one Iranian source said."
+        },
+        {
+          "type": "paragraph",
+          "text": "A senior European official confirmed that negotiations are focusing on the technical details and the financial amount — 'the level of liquidity available to Iran.' A U.S. source also confirmed that messages are still being exchanged and that a political understanding has been reached, but the mechanism around frozen funds is still being ironed out."
+        },
+        {
+          "type": "heading",
+          "text": "U.S. Rejection and Political Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "U.S. officials have pushed back against claims that Iran will receive billions in frozen funds before negotiations begin. On June 14, a U.S. official told CNN that reports of an upfront release were 'completely untrue.' President Trump faces a difficult political calculation: for years, he has criticized former President Barack Obama for transferring $1.7 billion to Iran as part of the 2015 nuclear deal and attacked the Biden administration for allowing Iran access to approximately $6 billion in frozen assets under a 2023 prisoner exchange agreement. Analysts believe that if Trump approves advance payments to Iran, he could face criticism for repeating policies he previously condemned vehemently."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vice President JD Vance acknowledged on June 18 that the release of frozen Iranian assets remains one of the key unresolved issues in the negotiations. As part of the 14-point memorandum, the Trump administration promises to 'make fully available for use the frozen or restricted funds and assets of the Islamic Republic of Iran.' However, Vance said negotiators have yet to determine how much will be unfrozen, or when and how the funds would be released. 'The amount of money, I honestly don't know. I've heard numbers north of 100 billion dollars. I've actually heard numbers north of 200 billion dollars,' Vance told reporters."
+        },
+        {
+          "type": "heading",
+          "text": "Wider Sanctions Relief and Reconstruction"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beyond the release of frozen assets, the draft memorandum includes significant sanctions relief provisions. According to Mehr, the U.S. would suspend sanctions on Iranian oil, petrochemical products, and derivatives, grant Iran full access to its financial resources, and eventually lift all primary and secondary U.S. sanctions. The draft also calls for the U.S. and its allies to present plans for rebuilding Iran worth at least $300 billion."
+        },
+        {
+          "type": "paragraph",
+          "text": "The agreement also addresses the strategic Strait of Hormuz, through which one-fifth of the world's oil passes. Under the proposed terms, the strait would be reopened within 30 days in coordination with Iran. The U.S. military has already begun lifting its naval blockade of Iranian ports, with more than 12.5 million barrels of oil flowing through the strait on June 17 alone."
+        },
+        {
+          "type": "heading",
+          "text": "Iran's Economic Imperative"
+        },
+        {
+          "type": "paragraph",
+          "text": "For Iran, the release of frozen assets is not merely a negotiating point but an economic necessity. The country's economy is under severe pressure from sanctions, and Iranian officials have emphasized that access to its own financial resources is critical. According to Iranian sources, the clerical establishment's priority is not a comprehensive settlement but a framework that can restore 'minimum breathing space' by unlocking frozen assets and ending the war."
+        },
+        {
+          "type": "paragraph",
+          "text": "Iranian officials have warned that without progress on frozen assets, negotiations could collapse. On June 6, Mohsen Rezaei told CNN that talks were deadlocked over the $24 billion demand and warned that the U.S. would 'enter into a dark corridor' should it resume fighting. 'If he (Trump) wants to reach an agreement with Iran, this $24 billion is a test of trust that Iran wants to have with Trump — this is a test that America must pass, and the path will be opened,' Rezaei said."
+        },
+        {
+          "type": "paragraph",
+          "text": "The 60-day negotiating period officially began on June 18 and is set to expire on August 17, when both sides hope to reach a permanent agreement. Whether that deadline will be met — and whether Iran will gain access to its frozen assets — remains uncertain, but the outcome will have profound implications for global financial restrictions, sanctions enforcement, and the stability of the Middle East."
         }
       ]
     },

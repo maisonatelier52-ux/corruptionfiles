@@ -296,14 +296,14 @@
   },
   {
     "id": 5,
-    "slug": "texas-dme-owner-medicare-scam",
+    "slug": "fda-warning-letters-telehealth-weight-loss-drugs",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 9, 2026",
-    "title": "Texas Medical Equipment Owner Sentenced for $59 Million Medicare Scam",
+    "date": "June 17, 2026",
+    "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims",
     "author": "Ruth Anselmi",
-    "excerpt": "A Texas DME company owner was sentenced to prison and ordered to pay restitution for running a $59 million Medicare kickback scheme.",
-    "image": "/texas-dme-owner-medicare-scam.webp",
+    "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications.",
+    "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -532,13 +532,13 @@
   },
   {
     "id": 805,
-    "slug": "national-money-laundering-risk-assessment-offshore-trusts",
+    "slug": "iran-frozen-assets-us-ceasefire-deal",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "2026 National Money Laundering Assessment Highlights Risks of Offshore Trusts",
-    "image": "/national-money-laundering-risk-assessment-offshore-trusts.webp",
+    "title": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal",
+    "image": "/iran-frozen-assets-us-ceasefire-deal.webp",
     "author": "Felix Draper",
-    "date": "April 4, 2026",
+    "date": "June 16, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
