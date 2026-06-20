@@ -2045,59 +2045,87 @@
     },
     "relatedPosts": [
       { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
-      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." }
+      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
     ]
   },
   {
     "id": 6,
-    "slug": "oregon-lab-owner-medicare-fraud",
+    "slug": "us-section-301-trade-investigation-germany-drug-pricing",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Oregon Clinical Lab Owner Charged in $46 Million Medicare Fraud | Arrested at LAX",
-    "metaDescription": "A Pakistani national and owner of an Oregon clinical laboratory was arrested at LAX while attempting to flee the country, charged with billing Medicare $46 million for tests never performed.",
-    "metaKeywords": ["clinical lab fraud", "Medicare fraud Oregon", "LAX arrest", "diagnostic testing fraud", "healthcare fraud charges"],
-    "heading": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud",
-    "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed.",
-    "date": "March 24, 2026",
-    "image": "/oregon-lab-owner-medicare-fraud.webp",
-    "heroImage": "/oregon-lab-owner-medicare-fraud.webp",
-    "alt": "Airport arrest scene",
+    "metaTitle": "US Launches Section 301 Trade Investigation Into Germany Over Drug Pricing | Medical Fraud",
+    "metaDescription": "The U.S. has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, alleging that 'persistent underpayment' for innovative drugs forces American patients to bear a disproportionate share of global R&D costs.",
+    "metaKeywords": [
+      "Section 301 investigation Germany",
+      "US Germany drug pricing dispute",
+      "pharmaceutical trade war",
+      "Jamieson Greer USTR",
+      "German healthcare reform 2026",
+      "Trump pharma tariffs"
+    ],
+    "heading": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute",
+    "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, alleging that 'persistent underpayment' for innovative drugs forces American patients to bear a disproportionate share of global research and development costs — a move that threatens to unravel a hard-won transatlantic trade truce.",
+    "date": "June 19, 2026",
+    "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp",
+    "heroImage": "/us-section-301-trade-investigation-germany-drug-pricing.webp",
+    "alt": "U.S. Trade Representative Jamieson Greer announces a Section 301 investigation into Germany's pharmaceutical pricing policies at the USTR office in Washington, D.C.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist...",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "A",
-        "text": "hsan Qureshi, 47, a Pakistani national who owned and operated Portland-based Northwest Diagnostic Labs, was arrested Sunday at Los Angeles International Airport while attempting to board a one-way flight to Dubai."
-      },
-      "paragraphs": [
-        "A federal indictment unsealed Monday charges Qureshi with 14 counts of healthcare fraud, money laundering, and identity theft. Prosecutors allege that between 2021 and 2025, Qureshi billed Medicare approximately $46 million for diagnostic tests — including genetic cancer screening and cardiovascular panels — that were never performed.",
-        "The scheme allegedly involved paying telemedicine doctors $200 per signed order, often using stolen patient identities. Many of the 'patients' were unaware their names were being used. Qureshi used the proceeds to purchase real estate in Oregon, Arizona, and Pakistan, as well as a 2023 Ferrari."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Fugitive apprehension efforts",
-          "content": [
-            "The FBI had been monitoring Qureshi for three weeks before his arrest. He had liquidated several assets and obtained a Pakistani passport under a different name. 'This was a sophisticated effort to flee justice,' said FBI Special Agent in Charge Kieran Ramsey.",
-            "If convicted, Qureshi faces up to 20 years per fraud count and 10 years per money laundering count. A detention hearing is scheduled for Thursday."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This was a sophisticated effort to flee justice. But we were watching, and he will now face the consequences of defrauding American taxpayers.",
-          "cite": "FBI Special Agent in Charge Kieran Ramsey"
+          "type": "paragraph",
+          "text": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, alleging that 'persistent underpayment' for innovative drugs forces American patients to bear a disproportionate share of global research and development costs — a move that threatens to unravel a hard-won transatlantic trade truce."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The government has frozen approximately $12 million in Qureshi's U.S. bank accounts and seized the Ferrari. His Oregon medical license has been summarily suspended."
-          ]
+          "text": "U.S. Trade Representative Jamieson Greer announced the probe on Thursday evening, saying it would determine whether Germany's pricing practices for innovative pharmaceutical products are 'unreasonable or discriminatory' and whether they 'burden or restrict U.S. commerce.' 'President Trump has made clear that American patients should not be shouldering a disproportionate share of global pharmaceutical research and development,' Greer said in a statement. 'I am particularly concerned with news that Germany is fast-tracking legislation that would further reduce its spending on innovative pharmaceuticals,' he added, calling it 'a serious step backwards.'"
+        },
+        {
+          "type": "heading",
+          "text": "Germany's Healthcare Reform and the U.S. Response"
+        },
+        {
+          "type": "paragraph",
+          "text": "In April, the German Cabinet greenlit a comprehensive healthcare reform package aimed at lowering insurance premiums by saving more than €16 billion. Chancellor Friedrich Merz called the reforms 'historic,' but the measures have already drawn sharp criticism from the pharmaceutical industry. Earlier this month, U.S. pharmaceutical giant Eli Lilly announced it would halve its original planned investment of €2.3 billion ($2.7 billion) in Alzey, Rhineland-Palatinate, citing the German government's healthcare reforms in its decision."
+        },
+        {
+          "type": "paragraph",
+          "text": "The USTR's investigation comes after 'months of meaningful discussions with our German partners in an effort to resolve this issue,' Greer said. The probe will examine whether Germany's pricing mechanisms reduce pharmaceutical company revenues and discourage continued investment in innovation. The USTR has also pointed to evidence that Germany applies 'unfair pricing' policies and practices to advanced pharmaceutical products."
+        },
+        {
+          "type": "heading",
+          "text": "Threat to Transatlantic Trade Truce"
+        },
+        {
+          "type": "paragraph",
+          "text": "Germany has warned that the U.S. investigation could jeopardize the hard-won transatlantic trade deal struck last year at Trump's golf resort in Turnberry, Scotland. The Turnberry accord, which EU lawmakers finally voted to enact this week after months of wrangling, set a 15 percent tariff ceiling on most European exports to the U.S. — including branded medicines. The rate is due to take effect at the end of July."
+        },
+        {
+          "type": "paragraph",
+          "text": "If the U.S. finds Germany to be at fault, President Donald Trump could hit Germany with higher tariffs, calling into question the entire agreement. 'I assume that the United States of America will honor the agreement,' Chancellor Friedrich Merz told journalists Friday after meeting with EU leaders in Brussels. A German government spokesperson warned the U.S. should not 'jeopardize their proper implementation on either side.'"
+        },
+        {
+          "type": "heading",
+          "text": "German and Industry Reactions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Germany's Health Minister Nina Warken said in Luxembourg this week that the country's statutory health insurance system faces a 'strained financial situation,' which would make it difficult to pay higher prices, but that she was dedicated to having 'constructive' talks with the U.S. The German innovative pharma trade group, vfa, said it is currently waiting for further clarification from U.S. authorities."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pharma lobbies are already pressing German officials to scrap some of their planned cost-cutting measures, such as 'dynamic' manufacturer discounts. Currently, companies must repay 7 percent of the price of every package of patented medicine sold. The reform would retain that 7 percent rebate while introducing an additional charge that would rise or fall depending on the finances of Germany's statutory health insurers. Pfizer's CEO Albert Bourla recently penned a letter to Chancellor Merz stating that the pricing reforms are threatening 'predictability' for long-term investments in the country."
+        },
+        {
+          "type": "paragraph",
+          "text": "The investigation — a measure Washington has previously applied to dozens of other countries — comes after the German Health Ministry announced in April a comprehensive reform plan for the mandatory healthcare system, aimed at narrowing an estimated budget shortfall of up to 20 billion euros ($23 billion). The USTR will open a docket for submission of written comments on June 25, and its Section 301 Committee will hold a public hearing on the probe in September."
         }
       ]
     },
@@ -2218,7 +2246,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 6, "slug": "oregon-lab-owner-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/oregon-lab-owner-medicare-fraud.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud", "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed." },
+      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." },
       { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
     ]
   },
@@ -2483,7 +2511,7 @@
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
@@ -2564,7 +2592,7 @@
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns across three continents, investigating the human and environmental toll of resource extraction. His reporting on oil spills in the Niger Delta and timber trafficking in the Amazon has shaped policy debates on corporate accountability.",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
@@ -2662,7 +2690,7 @@
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns across three continents, investigating the human and environmental toll of resource extraction. His reporting on oil spills in the Niger Delta and timber trafficking in the Amazon has shaped policy debates on corporate accountability.",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
@@ -2738,60 +2766,85 @@
       ]
     },
     "relatedPosts": [
-      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025, the highest number ever recorded." },
+      { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
       { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
     ]
   },
   {
     "id": 606,
-    "slug": "uk-rivers-sewage-spills-environment-agency",
+    "slug": "eu-critical-minerals-mining-water-stressed-regions",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year",
-    "metaDescription": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025, the highest number ever recorded, despite below-average rainfall.",
-    "metaKeywords": ["UK sewage spills", "river pollution", "Environment Agency", "water companies", "Thames Water"],
-    "heading": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year",
-    "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025, the highest number ever recorded.",
-    "date": "March 26, 2026",
-    "image": "/uk-rivers-sewage-spills-environment-agency.webp",
-    "heroImage": "/uk-rivers-sewage-spills-environment-agency.webp",
-    "alt": "Polluted river in UK",
+    "metaTitle": "EU backs critical minerals mines in water-stressed regions, alarming environmentalists | Environmental Exploitation",
+    "metaDescription": "The European Commission plans to rewrite water protection law to fast-track 33 strategic mines, with six in highly water-stressed areas of Spain and others in Portugal and Greece, raising fears over drought impacts.",
+    "metaKeywords": [
+      "EU critical minerals mining",
+      "water-stressed regions Europe",
+      "European Commission water framework directive",
+      "Critical Raw Materials Act",
+      "Spain lithium mining drought",
+      "Portugal graphite mining water scarcity",
+      "Greece mining water resources"
+    ],
+    "heading": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns",
+    "excerpt": "The European Commission plans to rewrite the EU's flagship water protection law to fast-track critical minerals mines, despite more than half of the 33 strategic projects being located in areas that have been drying over the past two decades, analysis has found.",
+    "date": "June 20, 2026",
+    "image": "/eu-critical-minerals-mining-water-stressed-regions.webp",
+    "heroImage": "/eu-critical-minerals-mining-water-stressed-regions.webp",
+    "alt": "A dry riverbed in southern Europe, illustrating the water-stressed regions where the EU plans to expand critical minerals mining.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "N",
-        "text": "ew data released by the Environment Agency on Thursday reveals that water companies in England discharged raw sewage into rivers and coastal waters 301,492 times in 2025 — an average of 826 spills per day — despite 2025 being one of the driest years on record."
-      },
-      "paragraphs": [
-        "The total spill duration exceeded 2.1 million hours, up 18% from 2024. The worst offenders were Thames Water (58,000 spills), Southern Water (42,000), and Severn Trent (38,000). All three are currently under investigation by Ofwat for potential enforcement action.",
-        "Environment Agency Chair Alan Lovell called the data 'appalling' and said: 'There is simply no excuse for this level of pollution in a dry year, when storm overflows should be operating less frequently.'"
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Government response and fines",
-          "content": [
-            "Environment Secretary Steve Reed announced that the government will triple the maximum fine for water company violations to £500 million and will appoint a special commissioner to oversee Thames Water. 'This is environmental vandalism, and it ends now,' Reed said.",
-            "Water companies have blamed underinvestment in infrastructure. Thames Water, which is effectively insolvent, said it has submitted a £5 billion upgrade plan to Ofwat but needs regulatory approval to raise customer bills by 40% over five years."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is environmental vandalism, and it ends now. Water company executives who break the law will face criminal liability.",
-          "cite": "Environment Secretary Steve Reed"
+          "type": "paragraph",
+          "text": "The European Commission plans to rewrite the EU's flagship water protection law to speed up the development of critical minerals mines, despite many being located in drying and water-stressed regions, analysis has found. Mining is a water-intensive industry, requiring large volumes of water for ore processing, dust suppression, waste management and mine dewatering. While modern projects recycle water, they still require significant amounts, and in water-stressed regions those demands can add to pressure on already stretched rivers, aquifers and water supplies."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Environmental groups are calling for public ownership of water assets. A petition with 350,000 signatures was delivered to 10 Downing Street on Thursday."
-          ]
+          "text": "Analysis and mapping found that more than half of the 33 planned new or expanded mines designated as 'strategic projects' under the EU's Critical Raw Materials Act are located in areas that have been drying over the past two decades, according to satellite data. Nearly half are in zones that experienced drought conditions in the past three months, and a quarter are in regions deemed water-stressed."
+        },
+        {
+          "type": "heading",
+          "text": "Southern Europe at the Epicentre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Six of the strategic mines are planned for highly water-stressed areas in Spain, with others in Portugal and Greece. All three countries rank among the top 10 EU nations with the worst water scarcity. In 2024, the Spanish region of Catalonia declared a state of emergency over its worst ever drought, and water-use restrictions were imposed in Andalucía. In 2022, 96% of Portugal was experiencing 'extreme' or 'severe' drought conditions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some projects have already sparked fierce opposition. The environmental organisation Ecologistas en Acción is challenging the European Commission's decision to grant strategic project status to all six Spanish mines, arguing that it failed to properly consider risks to water resources, biodiversity and protected areas."
+        },
+        {
+          "type": "heading",
+          "text": "The Race for Critical Minerals"
+        },
+        {
+          "type": "paragraph",
+          "text": "Global demand for critical minerals has tripled since 2010 as countries race to build artificial intelligence infrastructure, electric vehicles, renewable energy technologies and defence systems. It is expected to more than double again by 2030, with graphite, lithium and cobalt need projected to rise nearly 500% by 2050 from 2020 levels. Concerned about its dependence on imports, the EU designated 47 mining, processing and recycling projects as 'strategic projects', including 33 mines. The designation puts projects within the EU on a fast track through permitting processes and is designed to accelerate development."
+        },
+        {
+          "type": "heading",
+          "text": "Rewriting Water Protection Rules"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a move that has alarmed environmental groups, Brussels is also preparing to revise the water framework directive, the EU's key law protecting rivers, groundwater and wetlands, with the stated aim of removing permitting bottlenecks and improving access to strategic minerals. Euromines, the trade association for Europe's mining and metals industry, has been pushing for these changes. It wants longer deadlines for countries to meet water quality targets, amendments to how the 'no deterioration' rule is applied to water bodies, and greater legal certainty for mining and other industrial projects."
+        },
+        {
+          "type": "paragraph",
+          "text": "Environmental groups fear the proposed changes could weaken protections but the industry body rejects this suggestion and insists it is 'not a licence to pollute'. A Euromines spokesperson said: 'Our overarching priority remains constructive engagement with policymakers to ensure strong environmental safeguards alongside legal clarity and predictability for permitting authorities.' The European Commission defended its choice of mines, saying the strategic projects were assessed by independent experts and met stringent environmental criteria."
+        },
+        {
+          "type": "paragraph",
+          "text": "Critics, however, warn that pushing ahead with water-intensive mining projects in regions already suffering from severe drought amounts to a dangerous gamble. 'It's Russian roulette,' one environmental campaigner said, summing up the fears of communities who see their already scarce water resources threatened by Europe's rush for minerals."
         }
       ]
     },
@@ -2819,7 +2872,7 @@
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
@@ -2854,7 +2907,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 606, "slug": "uk-rivers-sewage-spills-environment-agency", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-rivers-sewage-spills-environment-agency.webp", "date": "March 26, 2026", "author": "Thomas Aldgate", "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year", "excerpt": "New Environment Agency data shows U.K. rivers suffered over 300,000 sewage spills in 2025." },
+      { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
       { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
     ]
   },
@@ -2877,7 +2930,7 @@
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
       "avatar": "/thomas-aldgate.webp",
-      "bio": "Thomas has filed dispatches from mining towns...",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {

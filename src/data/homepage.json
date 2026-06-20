@@ -308,14 +308,14 @@
   },
   {
     "id": 6,
-    "slug": "oregon-lab-owner-medicare-fraud",
+    "slug": "us-section-301-trade-investigation-germany-drug-pricing",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 24, 2026",
-    "title": "Owner of Oregon Clinical Laboratory Charged in $46 Million Medicare Fraud",
+    "date": "June 19, 2026",
+    "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute",
     "author": "Ruth Anselmi",
-    "excerpt": "A Pakistani national was arrested at LAX while fleeing the country after allegedly billing Medicare $46 million for lab tests never performed.",
-    "image": "/oregon-lab-owner-medicare-fraud.webp",
+    "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs.",
+    "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -429,13 +429,13 @@
     },
     {
       "id": 506,
-      "slug": "uk-rivers-sewage-spills-environment-agency",
+      "slug": "eu-critical-minerals-mining-water-stressed-regions",
       "category": "eco",
-      "title": "New Data Reveals U.K. Rivers Hit by 300,000 Sewage Spills Despite Dry Year",
+      "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns",
       "categoryLabel": "Environmental Exploitation",
-      "image": "/uk-rivers-sewage-spills-environment-agency.webp",
+      "image": "/eu-critical-minerals-mining-water-stressed-regions.webp",
       "categoryColor": "bg-[#2196f3]",
-      "date": "March 26, 2026",
+      "date": "June 20, 2026",
       "author": "Thomas Aldgate"
     },
     {
