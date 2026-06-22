@@ -2852,7 +2852,7 @@
     },
     "relatedPosts": [
       { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
-      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
+      { "id": 608, "slug": "texas-fracking-expansion-near-schools-arlington", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/texas-fracking-expansion-near-schools-arlington.webp", "date": "June 17, 2026", "author": "Thomas Aldgate", "title": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns", "excerpt": "Residents and environmental groups are raising concerns over expanded fracking operations near schools and neighborhoods in Arlington, citing potential pollution and public health risks." }
     ]
   },
   {
@@ -2935,24 +2935,32 @@
     },
     "relatedPosts": [
       { "id": 605, "slug": "unicef-report-children-climate-hazards-2026", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/unicef-report-children-climate-hazards-2026.webp", "date": "June 18, 2026", "author": "Thomas Aldgate", "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", "excerpt": "A new UNICEF report warns that nearly all children worldwide are exposed to climate-related hazards, raising concerns over health, safety, and future well-being." },
-      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
+      { "id": 607, "slug": "thames-water-rescue-plan-backlash-pollution-environment", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp", "date": "June 16, 2026", "author": "Thomas Aldgate", "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK", "excerpt": "Critics say Thames Water’s rescue plan fails to address ongoing pollution issues, raising concerns about environmental protection and accountability across the UK." }
     ]
   },
   {
     "id": 607,
-    "slug": "cornwall-south-crofty-tin-mine-2026-production",
+    "slug": "thames-water-rescue-plan-backlash-pollution-environment",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart",
-    "metaDescription": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart, the first tin mining in the UK in nearly 30 years.",
-    "metaKeywords": ["South Crofty mine", "Cornwall tin mining", "UK tin production", "critical minerals", "mining restart"],
-    "heading": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart",
-    "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart.",
-    "date": "April 2, 2026",
-    "image": "/cornwall-south-crofty-tin-mine-2026-production.webp",
-    "heroImage": "/cornwall-south-crofty-tin-mine-2026-production.webp",
-    "alt": "South Crofty mine headframe",
+    "metaTitle": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK | Environmental Exploitation",
+    "metaDescription": "Environment Secretary Emma Reynolds has raised concerns over Thames Water's £10 billion rescue plan, warning of unfair costs to consumers and delays to environmental improvements as scrutiny grows over sewage pollution.",
+    "metaKeywords": [
+      "Thames Water rescue plan",
+      "Thames Water pollution",
+      "Emma Reynolds Thames Water",
+      "Thames Water nationalisation",
+      "UK water industry",
+      "sewage pollution UK",
+      "Ofwat Thames Water"
+    ],
+    "heading": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK",
+    "excerpt": "The UK government has raised concerns over Thames Water's proposed £10 billion rescue plan, citing risks to consumers and delays to environmental improvements as scrutiny grows over sewage pollution and ageing infrastructure.",
+    "date": "June 16, 2026",
+    "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp",
+    "heroImage": "/thames-water-rescue-plan-backlash-pollution-environment.webp",
+    "alt": "Thames Water treatment works and sewage outfall pipe, highlighting pollution concerns surrounding the company's rescue plan.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -2961,56 +2969,85 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "S",
-        "text": "outh Crofty, the historic tin mine near Redruth in Cornwall, announced Thursday that it has completed dewatering operations, reaching the 400-meter level and clearing the way for the first tin production in the U.K. since 1998."
-      },
-      "paragraphs": [
-        "The mine, which first opened in the 16th century and closed in 1998 due to falling tin prices, was acquired by Cornish Metals Inc. in 2016. The company has invested £180 million in refurbishment, including new pumps, ventilation systems, and a processing plant.",
-        "First ore is expected in November 2026, with full production of 5,000 tonnes per year by 2028. Tin is a critical mineral for electronics soldering, EV batteries, and solar panels. 'This is a historic day for Cornwall,' said CEO Ken Armstrong."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Environmental and community concerns",
-          "content": [
-            "While the project has created 230 construction jobs and promises 300 permanent positions, local environmental groups have raised concerns about water discharge and heavy metal contamination. The mine has secured a permit to discharge treated water into the Red River, a tributary that flows into St Ives Bay.",
-            "Surfers Against Sewage has called for independent water quality monitoring. 'Cornwall's economy depends on tourism and clean water. We cannot trade one for the other,' said campaign director Giles Bristow."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This is a historic day for Cornwall. We are bringing back an industry that defined this region for centuries, with modern environmental standards.",
-          "cite": "Cornish Metals CEO Ken Armstrong"
+          "type": "paragraph",
+          "text": "The UK government has formally raised concerns over Thames Water's proposed £10 billion rescue plan, warning that it would place an 'unfair cost' on consumers and delay vital environmental improvements. Environment Secretary Emma Reynolds told the House of Commons she had written to regulator Ofwat to say she did not believe the plan to relieve the stricken utility goes far enough to protect customers or the environment."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The U.K. government has designated tin as a critical mineral and provided a £25 million grant through the Automotive Transformation Fund. The mine's output is already under contract to several electronics manufacturers."
-          ]
+          "text": "Reynolds outlined three specific concerns with the creditors' proposed rescue deal: the unfair cost to customers, delays to vital infrastructure investments, and delays to environmental improvements. 'The 16 million Thames Water customers are front and centre of my consideration, and I am primarily worried about the impact on them,' she said. 'There is an expectation in the proposal for customers to fund and therefore bear an undue cost for investment in the company.'"
+        },
+        {
+          "type": "heading",
+          "text": "Environmental Improvements at Risk"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Environment Secretary warned that the proposals would mean delays to required environmental improvements of wastewater treatment facilities and projects that were important for drinking water safety and supply. Thames Water, along with other water companies, faces an ongoing backlash from campaigners and the public over rising bills, executive bonuses, poor customer service, supply outages and pollution of rivers, lakes and seas."
+        },
+        {
+          "type": "paragraph",
+          "text": "The company has repeatedly breached environmental standards yet has sought leniency from Ofwat as part of the rescue deal, requesting that fines for pollution be waived until 2030. The Environment Agency has been clear that delays to any water company schemes required under the Water Industry National Environment Programme are unacceptable, as they will delay environmental improvement and risk failure of statutory requirements."
+        },
+        {
+          "type": "heading",
+          "text": "The Rescue Deal and Its Critics"
+        },
+        {
+          "type": "paragraph",
+          "text": "The rescue bid comes from bidding consortium London & Valley Water, which has proposed injecting £10 billion into debt-laden Thames Water in return for any new fines over sewage leaks being waived for four years. The consortium said it was confident in its plan and insisted that 'all other routes offer significantly worse outcomes for customers and the environment'. However, the government's misgivings over the deal create more uncertainty for Thames Water, which is Britain's biggest water supplier with 16 million customers and has faced a series of hefty fines for its poor environmental performance in recent years."
+        },
+        {
+          "type": "paragraph",
+          "text": "A Thames Water spokesperson said: 'It is positive that the Secretary of State has provided feedback to Ofwat in relation to the London & Valley Water plan. We will continue working with all parties to reach an...' The company has said it has enough funding until September."
+        },
+        {
+          "type": "heading",
+          "text": "Nationalisation Looms"
+        },
+        {
+          "type": "paragraph",
+          "text": "The government's intervention has pushed Thames Water closer to nationalisation. Ministers have said they are not convinced the £10 billion rescue deal is 'good enough' for consumers or the environment. The move is seen as casting doubts over the future of the deal, with the utility fast running out of cash and said to be facing collapse within months if a deal is not forthcoming. A rescue bid by creditors is seen as the final realistic option on the table to avoid being placed into the government's special administration regime after a previous rescue deal with US private equity giant KKR collapsed in May last year."
+        },
+        {
+          "type": "paragraph",
+          "text": "The political landscape has shifted, with Greater Manchester Mayor Andy Burnham signalling he wants to bring in a 10-year plan to renationalise the water industry. Burnham has said that public ownership was 'what should be done' at Thames, and it is hard to imagine a Burnham-led administration sanctioning the proposal currently on the table. Thames Water is set to run out of money in October, and something has to happen reasonably soon."
+        },
+        {
+          "type": "paragraph",
+          "text": "Campaigners have seized on the government's concerns. Water safety campaigner Feargal Sharkey has called on the government to 'seize' Thames Water as nationalisation moves a step closer. The water industry continues to face intense scrutiny over its environmental record, with Thames Water responsible for almost a third of all the industry's most harmful pollution incidents last year."
         }
       ]
     },
     "relatedPosts": [
       { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
-      { "id": 608, "slug": "uk-farmers-antibiotic-restrictions-livestock", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-farmers-antibiotic-restrictions-livestock.webp", "date": "April 1, 2026", "author": "Thomas Aldgate", "title": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use", "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort antibiotic used in livestock." }
+      { "id": 608, "slug": "texas-fracking-expansion-near-schools-arlington", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/texas-fracking-expansion-near-schools-arlington.webp", "date": "June 17, 2026", "author": "Thomas Aldgate", "title": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns", "excerpt": "Residents and environmental groups are raising concerns over expanded fracking operations near schools and neighborhoods in Arlington, citing potential pollution and public health risks." }
     ]
   },
   {
     "id": 608,
-    "slug": "uk-farmers-antibiotic-restrictions-livestock",
+    "slug": "texas-fracking-expansion-near-schools-arlington",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "U.K. Farmers Lobby Against New Restrictions on Antibiotic Use in Livestock",
-    "metaDescription": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort human antibiotic widely used in livestock, citing cost concerns.",
-    "metaKeywords": ["antibiotic resistance", "livestock antibiotics", "colistin ban", "UK farming", "VMD"],
-    "heading": "U.K. Farmers Lobby Against New Restrictions on Controversial Antibiotic Use",
-    "excerpt": "U.K. farming unions are lobbying against proposed restrictions on colistin, a last-resort human antibiotic used in livestock.",
-    "date": "April 1, 2026",
-    "image": "/uk-farmers-antibiotic-restrictions-livestock.webp",
-    "heroImage": "/uk-farmers-antibiotic-restrictions-livestock.webp",
-    "alt": "Livestock farm",
+    "metaTitle": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns | Environmental Exploitation",
+    "metaDescription": "Residents and environmental advocates in Arlington, Texas, are raising alarms over new fracking projects near schools and neighborhoods, citing potential air pollution and public health risks as TotalEnergies expands drilling operations.",
+    "metaKeywords": [
+      "Texas fracking expansion",
+      "Arlington fracking schools",
+      "TotalEnergies drilling Texas",
+      "fracking health risks children",
+      "Barnett Shale drilling",
+      "urban fracking Texas",
+      "Maverick drill site"
+    ],
+    "heading": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns",
+    "excerpt": "Residents and environmental advocates in Arlington, Texas, are raising concerns over new fracking projects near schools and neighborhoods, citing potential air pollution and public health risks as French energy giant TotalEnergies expands its drilling operations in the Barnett Shale.",
+    "date": "June 17, 2026",
+    "image": "/texas-fracking-expansion-near-schools-arlington.webp",
+    "heroImage": "/texas-fracking-expansion-near-schools-arlington.webp",
+    "alt": "A gas well drilling site near a residential neighborhood in Arlington, Texas, highlighting the proximity of fracking operations to homes and schools.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -3019,39 +3056,60 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "U",
-        "text": ".K. farming unions have launched an intense lobbying campaign against proposed Veterinary Medicines Directorate (VMD) restrictions on colistin, a last-resort antibiotic for human infections that is still widely used prophylactically in poultry and pig farming."
-      },
-      "paragraphs": [
-        "The VMD's draft guidance, released in February, would ban routine preventive use of colistin and require veterinary prescriptions with diagnostic justification for any use. The proposal aligns with World Health Organization recommendations to preserve colistin's effectiveness against drug-resistant bacteria.",
-        "But the National Farmers' Union (NFU) argues the ban would increase livestock mortality and raise production costs by an estimated £180 million annually. 'We support responsible use, but a near-total ban is disproportionate,' said NFU President Tom Bradshaw."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Public health versus agricultural economics",
-          "content": [
-            "The UK Health Security Agency has documented a 40% increase in colistin-resistant infections since 2020, including in patients with no livestock exposure. 'Resistance genes travel. What happens on farms does not stay on farms,' said UKHSA antimicrobial lead Dr. Susan Hopkins.",
-            "The VMD has received over 12,000 public comments, with 92% supporting the restrictions. A final decision is expected by June 1, with implementation by January 2027 if approved."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Resistance genes travel. What happens on farms does not stay on farms. We must preserve colistin for human medicine before it's too late.",
-          "cite": "Dr. Susan Hopkins, UKHSA"
+          "type": "paragraph",
+          "text": "Residents and environmental advocates in Arlington, Texas, are raising alarms over new fracking projects near schools and neighborhoods, citing potential air pollution and public health risks as French energy giant TotalEnergies expands its drilling operations in the Barnett Shale. The company has received permits to add new gas wells at sites as close as a third of a mile away from several primary and secondary schools, reigniting a fierce debate over urban drilling and environmental justice."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Several major retailers, including Tesco and Waitrose, have announced they will only source meat from producers who have voluntarily eliminated colistin use, regardless of the VMD decision."
-          ]
+          "text": "The new drilling comes as part of TotalEnergies' broader expansion in the region. In January 2025, the Arlington City Council unanimously approved a permit allowing the company to install 10 new gas wells in East Arlington, which has a heavy concentration of Black and Latinx residents. Named Maverick, the new site lies near three schools — Johns Elementary, Adams Elementary and Thornton Elementary — and is about 1,000 feet from Mother's Heart daycare, while another four-well pad already operates roughly 600 feet from the school."
+        },
+        {
+          "type": "heading",
+          "text": "Health Concerns and Scientific Evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arlington has the highest rate of childhood asthma in the state of Texas, with one in four children suffering from the condition. More than 30,000 Arlington children attend public school within half a mile of gas wells, and the city permits fracking operations as close as 300 feet to homes, daycares, medical offices and schools."
+        },
+        {
+          "type": "paragraph",
+          "text": "Health experts have long warned about the potential dangers of living near fracking sites. A 2022 Yale University study found that children born within 1.2 miles of fracking operations in Pennsylvania were two to three times more likely to develop acute lymphoblastic leukemia. While no causal link has been officially established between fracking and specific health harms, campaigners point to mounting research suggesting connections to preterm births, congenital anomalies, lung diseases and childhood cancers."
+        },
+        {
+          "type": "heading",
+          "text": "Environmental Justice and Community Opposition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Community groups argue that these projects disproportionately affect communities of color and low-income neighborhoods. 'The city of Arlington permits fracking operations as close as 300 feet to homes, daycares, medical offices, and schools,' said Ranjana Bhandari, who leads community group Liveable Arlington, which lobbied the City Council to turn down the latest permit near the schools. 'Pollution from fracking operations creates multiple health crises for residents while accelerating climate breakdown.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Arlington is home to 52 gas well sites and hundreds of wellheads, many of which are owned by TotalEnergies. The company extracts methane gas in Arlington for export to France and other European countries where fracking is banned. Critics say this export-driven model prioritizes profits over the health and safety of local communities."
+        },
+        {
+          "type": "heading",
+          "text": "TotalEnergies' Response and Regulatory Backdrop"
+        },
+        {
+          "type": "paragraph",
+          "text": "TotalEnergies has rejected claims that its operations harm nearby communities and says it remains committed to reducing methane emissions. The company has also emphasized that it is meeting regulatory requirements and following all applicable laws. However, environmental groups have documented 85 methane pollution events at TotalEnergies E&P Barnett USA sites over a six-month period."
+        },
+        {
+          "type": "paragraph",
+          "text": "Texas policymakers have lauded the activity as a boon to local communities, with the industry generating $2.48 billion in state tax revenue in 2025. But for Arlington residents living in the shadow of the gas wells, the economic benefits come at a steep cost. 'I can't project and trace what all is going to affect him and all those that live around there and all those that are around these sites,' said Ingrid Kelley, 69, whose 4-year-old grandson attends Mother's Heart Learning Center."
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion in Arlington reflects a broader push to increase domestic fossil fuel production under the 'drill, baby, drill' agenda, even as communities on the front lines of extraction raise urgent concerns about the health and safety of their children. With the new wells now moving forward, activists say the fight is far from over."
         }
       ]
     },
     "relatedPosts": [
       { "id": 605, "slug": "unicef-report-children-climate-hazards-2026", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/unicef-report-children-climate-hazards-2026.webp", "date": "June 18, 2026", "author": "Thomas Aldgate", "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", "excerpt": "A new UNICEF report warns that nearly all children worldwide are exposed to climate-related hazards, raising concerns over health, safety, and future well-being." },
-      { "id": 607, "slug": "cornwall-south-crofty-tin-mine-2026-production", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/cornwall-south-crofty-tin-mine-2026-production.webp", "date": "April 2, 2026", "author": "Thomas Aldgate", "title": "Iconic Cornwall Tin Mine Hits Critical Milestone for 2026 Production Restart", "excerpt": "South Crofty tin mine in Cornwall has completed dewatering, clearing the way for a planned 2026 production restart." }
+      { "id": 607, "slug": "thames-water-rescue-plan-backlash-pollution-environment", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp", "date": "June 16, 2026", "author": "Thomas Aldgate", "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK", "excerpt": "Critics say Thames Water’s rescue plan fails to address ongoing pollution issues, raising concerns about environmental protection and accountability across the UK." }
     ]
   },
   {
