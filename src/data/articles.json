@@ -2131,59 +2131,92 @@
     },
     "relatedPosts": [
       { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." },
-      { "id": 8, "slug": "florida-doctor-telehealth-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/florida-doctor-telehealth-fraud.webp", "date": "March 23, 2026", "author": "Ruth Anselmi", "title": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme", "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network." }
+      { "id": 8, "slug": "fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp", "date": "June 21, 2026", "author": "Ruth Anselmi", "title": "FBI Captures Fugitive Linked to $1.2 Billion Medicare Fraud Scheme", "excerpt": "Federal authorities arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces." }
     ]
   },
   {
     "id": 7,
-    "slug": "scotus-takeda-eli-lilly-rico",
+    "slug": "ahold-delhaize-40-million-pharmacy-pricing-settlement",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed",
-    "metaDescription": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks from patients and regulators.",
-    "metaKeywords": ["Takeda lawsuit", "Eli Lilly RICO", "Actos cancer", "pharmaceutical fraud", "Supreme Court ruling"],
-    "heading": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed",
-    "excerpt": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks from patients and regulators.",
-    "date": "March 24, 2026",
-    "image": "/scotus-takeda-eli-lilly-rico.webp",
-    "heroImage": "/scotus-takeda-eli-lilly-rico.webp",
-    "alt": "Supreme Court building",
+    "metaTitle": "Ahold Delhaize to Pay $40 Million Over Pharmacy Pricing Fraud Allegations | Medical Fraud",
+    "metaDescription": "Ahold Delhaize USA agreed to a $40 million settlement over allegations it inflated prescription drug prices billed to Medicare, Medicaid and TRICARE, in a case brought by a whistleblower pharmacist.",
+    "metaKeywords": [
+      "Ahold Delhaize settlement",
+      "Stop & Shop pharmacy fraud",
+      "Giant pharmacy overcharging",
+      "Medicaid fraud settlement",
+      "False Claims Act pharmacy",
+      "whistleblower pharmacist",
+      "usual and customary pricing"
+    ],
+    "heading": "Ahold Delhaize to Pay $40 Million Over Alleged Pharmacy Pricing Fraud in U.S. Health Programs",
+    "excerpt": "Ahold Delhaize USA Inc., the parent company of Stop & Shop, Giant, Hannaford and Food Lion, has agreed to pay $40 million to resolve allegations that it reported inflated prescription drug prices to Medicare, Medicaid and TRICARE, causing federal healthcare programs to overpay on claims.",
+    "date": "June 18, 2026",
+    "image": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp",
+    "heroImage": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp",
+    "alt": "A Stop & Shop pharmacy counter, illustrating the retail pharmacy chain at the center of the $40 million False Claims Act settlement.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year.",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he U.S. Supreme Court on Monday declined to hear an appeal from Takeda Pharmaceutical and Eli Lilly, allowing a $7 billion Racketeer Influenced and Corrupt Organizations (RICO) lawsuit to proceed in federal district court."
-      },
-      "paragraphs": [
-        "The lawsuit, filed on behalf of a class of health insurers and benefit plans, alleges that the companies conspired to hide the bladder cancer risks associated with the diabetes drug Actos (pioglitazone). Takeda manufactured the drug; Eli Lilly co-marketed it in the U.S. until 2013.",
-        "Plaintiffs claim that internal company documents from 2005 onward showed a statistically significant link between Actos and bladder cancer, but that the companies delayed releasing the data to the FDA and continued aggressive marketing. Actos generated more than $16 billion in U.S. sales before generic competition began in 2015."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "RICO claims rare in pharmaceutical litigation",
-          "content": [
-            "RICO claims — typically associated with organized crime — are unusual in drug injury cases. Plaintiffs allege that the companies' conduct constituted a criminal enterprise because they allegedly committed mail and wire fraud through deceptive marketing and regulatory filings.",
-            "Takeda and Eli Lilly argued that the claims were preempted by federal drug regulation and that RICO did not apply. The Court's denial of certiorari means the case will proceed to trial, likely in 2027. If plaintiffs prevail, damages could be trebled under RICO to $21 billion."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "For more than a decade, Takeda and Eli Lilly put profits ahead of patient safety. We look forward to proving that in court.",
-          "cite": "Plaintiffs' lead counsel Elizabeth Cabraser"
+          "type": "paragraph",
+          "text": "Ahold Delhaize USA Inc., the Quincy, Massachusetts-based parent company of grocery chains including Stop & Shop, Giant, Hannaford and Food Lion, has agreed to pay $40 million to resolve allegations that it violated the False Claims Act by reporting inflated 'usual and customary' prescription drug prices on claims submitted to federal healthcare programs."
         },
         {
           "type": "paragraph",
-          "content": [
-            "Takeda said in a statement: 'We respectfully disagree with the plaintiffs' allegations and believe the evidence will show that Actos' label was appropriate and updated as scientific understanding evolved.' Eli Lilly declined to comment."
-          ]
+          "text": "The Department of Justice announced the settlement on June 10, 2026, resolving allegations that Ahold Delhaize pharmacies operating prescription savings programs failed to report discounted member prices as their 'usual and customary' prices when billing Medicare Part D, Medicaid and TRICARE. Reported 'usual and customary' prices serve as ceiling prices on payments to pharmacies under federal program payment formulas. By reporting inflated figures, the pharmacies caused the programs to pay more than they should have on prescription claims."
+        },
+        {
+          "type": "heading",
+          "text": "The Allegations"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the Justice Department, Ahold Delhaize supermarkets with in-store retail pharmacies operated prescription savings programs under which enrolled members received discounted prices on prescription drugs. The United States contended that, in light of the features and operations of those savings programs and the applicable Medicare Part D, Medicaid and TRICARE program requirements, the discounted prices should have been reported as 'usual and customary' prices on claims submitted to those programs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Instead, prosecutors alleged, Ahold Delhaize pharmacies reported the higher, pre-discount prices, prompting the government to pay inflated reimbursements. The practice allegedly occurred across the company's supermarket chains, including Stop & Shop, Giant, Hannaford, Food Lion and others."
+        },
+        {
+          "type": "heading",
+          "text": "Whistleblower and Settlement Breakdown"
+        },
+        {
+          "type": "paragraph",
+          "text": "The civil settlement includes the resolution of claims brought under the qui tam or whistleblower provisions of the False Claims Act by Lawrence LaBenne, a pharmacist at an Ahold Delhaize supermarket in Pennsylvania. Under those provisions, a private party can file an action on behalf of the United States and receive a portion of any recovery. LaBenne will receive $6,083,587 from the federal share of the settlement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Of the $40 million settlement, the federal share is $32.9 million and the remainder will be paid to states participating in the settlement. The qui tam case is captioned U.S. ex rel. LaBenne v. Koninklijke Ahold Delhaize N.V., et al., Civil Action No. 18-CV-925 (W.D. Pa.)."
+        },
+        {
+          "type": "heading",
+          "text": "Government Response"
+        },
+        {
+          "type": "paragraph",
+          "text": "'Federal healthcare programs rely on pharmacies reporting accurate pricing information used in the applicable payment formulas,' said Assistant Attorney General Brett A. Shumate of the Justice Department's Civil Division. 'If pharmacies report inflated usual and customary prices on claims to federal healthcare programs, the programs pay more than they should on those claims.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "'Pharmacies are trusted with charging the contracted prescription prices to Medicare and Medicaid and not unfairly and unlawfully taking advantage of the government and the public,' said U.S. Attorney Troy Rivetti for the Western District of Pennsylvania. 'This settlement confirms that the United States will take all necessary steps to bring to justice dishonest pharmacies.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Acting Deputy Inspector General for Investigations Scott J. Lampert of the HHS Office of Inspector General added: 'Pharmacies in federal health care programs must report truthful prices. Inflating those prices, as alleged here, puts the integrity of taxpayer-funded programs at risk.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The settlement was the result of a coordinated effort between the Justice Department's Civil Division, Commercial Litigation Branch, Fraud Section, the U.S. Attorney's Office for the Western District of Pennsylvania, the Department of Health and Human Services Office of Inspector General, the Defense Health Agency and state Medicaid programs. The settlement resolves only the allegations, and no determination of liability has been made."
         }
       ]
     },
@@ -2194,54 +2227,106 @@
   },
   {
     "id": 8,
-    "slug": "florida-doctor-telehealth-fraud",
+    "slug": "fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme",
-    "metaDescription": "Dr. Mark Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network.",
-    "metaKeywords": ["telehealth fraud", "Florida doctor guilty", "genetic testing fraud", "Medicare kickbacks", "DME fraud"],
-    "heading": "Florida Doctor Pleads Guilty in Multi-Million Dollar Telehealth Fraud Scheme",
-    "excerpt": "Dr. Grinshteyn pleaded guilty to approving thousands of unnecessary genetic tests and equipment orders through a fraudulent telemedicine network.",
-    "date": "March 23, 2026",
-    "image": "/florida-doctor-telehealth-fraud.webp",
-    "heroImage": "/florida-doctor-telehealth-fraud.webp",
-    "alt": "Medical stethoscope and legal documents",
+    "metaTitle": "FBI Captures Herbert Leon Kimble in $1.2 Billion Medicare Fraud Case | Medical Fraud",
+    "metaDescription": "FBI agents arrested Herbert Leon Kimble in the Philippines for allegedly orchestrating a $1.2 billion Medicare fraud scheme involving unnecessary orthopedic braces, marking the second capture from the FBI's 'Most Wanted Fraudsters' list.",
+    "metaKeywords": [
+      "Herbert Leon Kimble arrest",
+      "FBI most wanted fraudsters",
+      "Medicare fraud $1.2 billion",
+      "orthopedic braces fraud",
+      "healthcare fraud Philippines",
+      "Kash Patel FBI"
+    ],
+    "heading": "FBI Captures Fugitive Linked to $1.2 Billion Medicare Fraud Scheme",
+    "excerpt": "Federal authorities arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces, marking the second capture from the FBI's new 'Most Wanted Fraudsters' list.",
+    "date": "June 21, 2026",
+    "image": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp",
+    "heroImage": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp",
+    "alt": "FBI Director Kash Patel announces the capture of Herbert Leon Kimble, a fugitive accused of orchestrating a $1.2 billion Medicare fraud scheme.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist...",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "D",
-        "text": "r. Mark Grinshteyn, 58, a Florida-licensed osteopathic physician, pleaded guilty Monday in federal court to one count of conspiracy to commit healthcare fraud for his role in a $72 million telehealth fraud scheme."
-      },
-      "paragraphs": [
-        "Grinshteyn admitted that between 2020 and 2024, he approved more than 35,000 orders for expensive genetic tests and durable medical equipment — including power wheelchairs and hospital beds — without ever examining patients or reviewing medical records. He was paid $150 per order by telemedicine marketing companies that recruited patients through online ads.",
-        "Prosecutors said Grinshteyn approved orders for patients in all 50 states, many of whom had no medical need for the equipment. Medicare and private insurers paid approximately $72 million based on his orders. Grinshteyn personally earned over $5 million."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Sentencing scheduled for July",
-          "content": [
-            "Under the plea agreement, Grinshteyn faces up to 10 years in prison and has agreed to forfeit $5.2 million, including his Miami Beach condominium. He also surrendered his medical license permanently. Sentencing is scheduled for July 15.",
-            "Seven other defendants — including telemarketing company owners and two other physicians — have also pleaded guilty in the same scheme. 'Dr. Grinshteyn abandoned the most basic duties of his profession for profit,' said U.S. Attorney Markenzy Lapointe."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Dr. Grinshteyn abandoned the most basic duties of his profession for profit. He signed orders for patients he never met, for tests they never needed.",
-          "cite": "U.S. Attorney Markenzy Lapointe"
+          "type": "paragraph",
+          "text": "Federal authorities have arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces, marking the second capture from the FBI's new 'Most Wanted Fraudsters' list. Kimble, 60, was apprehended by Philippine Bureau of Immigration agents in Pasig City on June 11 and deported to the United States on June 18, ending a nearly two-year international manhunt."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The case is part of a broader federal crackdown on telehealth fraud, which has surged since the COVID-19 pandemic expanded remote care flexibilities. The DOJ has charged over 150 individuals in such cases since 2023."
-          ]
+          "text": "Prosecutors said Kimble operated a healthcare fraud scheme that generated more than $1.2 billion in fraudulent Medicare charges and affected thousands of beneficiaries, many of them elderly. The operation used offshore call centers in the Philippines to steer patients toward medically unnecessary orthopedic braces, according to authorities."
+        },
+        {
+          "type": "heading",
+          "text": "A Sophisticated Call-Center Operation"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the FBI, Kimble ran a sophisticated call-center-based operation from approximately 2014 to March 2019 that served as the marketing engine for a nationwide fraud scheme. The operation involved telemedicine providers, medical equipment suppliers and orthopedic brace distributors. Call center agents targeted Medicare beneficiaries through television and online advertisements, persuading them to request orthopedic braces for pain relief. The braces were frequently unnecessary and prescribed through telemedicine consultations that often lacked legitimate medical evaluations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prescriptions were then sold to durable medical equipment companies, which shipped the braces and billed Medicare for reimbursement. The invoices received from the call center disguised the fact that what was being purchased were prescriptions for orthotic braces."
+        },
+        {
+          "type": "heading",
+          "text": "Guilty Plea and Flight from Justice"
+        },
+        {
+          "type": "paragraph",
+          "text": "On April 4, 2019, Kimble pleaded guilty in the U.S. District Court for the District of South Carolina to conspiracy to defraud the United States, healthcare fraud, mail fraud, wire fraud, false claims, and kickback-related offenses. However, he failed to appear for his scheduled sentencing hearing on August 27, 2024, prompting a federal arrest warrant and an international manhunt."
+        },
+        {
+          "type": "paragraph",
+          "text": "The FBI had offered a reward of up to $150,000 for information leading to his arrest and conviction. Kimble's last known place of residence was listed as Manila, Philippines."
+        },
+        {
+          "type": "heading",
+          "text": "Capture and Deportation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Philippine Bureau of Immigration agents, working alongside government intelligence operatives, arrested Kimble in a commercial area in Pasig City on June 11. He was deported on June 18 and has been placed on the BI blacklist, permanently barring him from re-entering the Philippines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Immigration Commissioner Joel Anthony Viado said: 'The Philippines will not serve as a sanctuary for fugitives seeking to evade justice in their home countries. This arrest demonstrates our commitment to working closely with international law enforcement partners to ensure that foreign nationals who pose a threat to public safety are located, arrested and removed from our communities.'"
+        },
+        {
+          "type": "heading",
+          "text": "Reaction from U.S. Officials"
+        },
+        {
+          "type": "paragraph",
+          "text": "FBI Director Kash Patel announced the arrest on social media, writing: 'Herbert Leon Kimble was apprehended in the Philippines and is now back in the United States, on the run since 2024 after he allegedly orchestrated a $1.2 billion healthcare fraud conspiracy that targeted the Medicare system — particularly elderly victims — from 2014-2019.' Patel said the FBI remains committed to carrying out President Donald Trump's directive to crack down on fraud and protect taxpayer dollars."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acting Attorney General Todd Blanche also reacted to the arrest, stating: 'Fleeing the United States does not mean you can flee justice. Instead of facing accountability for his $1.2 billion Medicare fraud crimes in the United States, Kimble fled to the Philippines hoping to escape justice. That plan failed.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vice President JD Vance, who leads the White House Task Force to Eliminate Fraud, credited the creation of the Most Wanted Fraudsters list with helping investigators track down Kimble. 'Our message is simple,' Vance wrote. 'If you defraud the American people, we will find you and we will bring you to justice.'"
+        },
+        {
+          "type": "heading",
+          "text": "Largest Healthcare Fraud Cases in U.S. History"
+        },
+        {
+          "type": "paragraph",
+          "text": "The case against Kimble is among the largest healthcare fraud prosecutions in U.S. history. The scheme targeted Medicare beneficiaries across the United States, many of them elderly, and resulted in more than $1.2 billion in fraudulent charges."
+        },
+        {
+          "type": "paragraph",
+          "text": "The arrest comes just weeks after the Justice Department unveiled its new 'Most Wanted Fraudsters' list, which is intended to publicly identify individuals charged in major fraud cases. Kimble was the second person on the list to be taken into custody. The FBI has arrested two of the eight individuals on its Most Wanted Fraudsters list since launching its nationwide manhunt."
         }
       ]
     },
@@ -2304,7 +2389,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 7, "slug": "scotus-takeda-eli-lilly-rico", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/scotus-takeda-eli-lilly-rico.webp", "date": "March 24, 2026", "author": "Ruth Anselmi", "title": "SCOTUS Allows $7 Billion RICO Fraud Case Against Takeda and Eli Lilly to Proceed", "excerpt": "The Supreme Court cleared the way for a $7 billion RICO suit alleging Takeda and Eli Lilly hid cancer risks." },
+      { "id": 7, "slug": "ahold-delhaize-40-million-pharmacy-pricing-settlement", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp", "date": "June 18, 2026", "author": "Ruth Anselmi", "title": "Ahold Delhaize to Pay $40 Million Over Alleged Pharmacy Pricing Fraud in U.S. Health Programs", "excerpt": "Ahold Delhaize, owner of Stop & Shop and Giant pharmacies, agreed to a $40 million settlement after allegations that it inflated prescription prices charged to Medicare, Medicaid and TRICARE." },
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." }
     ]
   },
