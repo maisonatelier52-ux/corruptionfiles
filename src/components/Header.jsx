@@ -16,15 +16,23 @@ const SocialIcon = ({ platform }) => {
   switch (p) {
     case "instagram": return <Instagram {...iconProps} />;
     case "x": return (
-      <svg viewBox="0 0 24 24" width={18} height={18} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round">
+      <svg viewBox="0 0 24 24" width={18} height={18} stroke="currentColor" fill="none" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
       </svg>
     );
-    case "substack": return <img src="/substack.webp" alt="Substack" className={imgClass} />;
-    case "medium": return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+    case "substack": return <img src="/substack.webp" alt="" className={imgClass} aria-hidden="true" />;
+    case "medium":   return <img src="/medium.webp"   alt="" className={imgClass} aria-hidden="true" />;
     default: return null;
   }
 };
+
+// Social link metadata — labels live here, not scattered in JSX
+const SOCIAL_LINKS = [
+  { id: 'x',         href: 'https://x.com',                                    label: 'Follow us on X (Twitter)' },
+  { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/',       label: 'Follow us on Instagram'   },
+  { id: 'substack',  href: '#',                                                 label: 'Read us on Substack'      },
+  { id: 'medium',    href: '#',                                                 label: 'Read us on Medium'        },
+];
 
 // ─── Article Collection Logic ──────────────────────────────────────────────
 function collectLatestArticles(count = 4) {
@@ -57,7 +65,7 @@ function collectLatestArticles(count = 4) {
   return unique.slice(0, count);
 }
 
-const LATEST_ARTICLES = collectLatestArticles(4);
+const LATEST_ARTICLES   = collectLatestArticles(4);
 const TICKER_INTERVAL_MS = 3000;
 
 const NAV_LINKS = [
@@ -72,11 +80,11 @@ const NAV_LINKS = [
 ];
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen]   = useState(false);
-  const [dateInfo, setDateInfo]       = useState({ display: "", iso: "" });
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [dateInfo, setDateInfo]     = useState({ display: "", iso: "" });
   const [tickerIndex, setTickerIndex] = useState(0);
-  const [visible, setVisible]         = useState(true);
-  const intervalRef                   = useRef(null);
+  const [visible, setVisible]       = useState(true);
+  const intervalRef                 = useRef(null);
 
   const total = LATEST_ARTICLES.length;
 
@@ -94,7 +102,9 @@ const Header = () => {
     if (total <= 1) return;
     setVisible(false);
     setTimeout(() => {
-      setTickerIndex((prev) => direction === "next" ? (prev + 1) % total : (prev - 1 + total) % total);
+      setTickerIndex((prev) =>
+        direction === "next" ? (prev + 1) % total : (prev - 1 + total) % total
+      );
       setVisible(true);
     }, 200);
   }, [total]);
@@ -127,18 +137,30 @@ const Header = () => {
   const current = LATEST_ARTICLES[tickerIndex];
 
   return (
-    <> {/* CRITICAL: Changed from <header> to a Fragment */}
-      
-      {/* 1. TOP BAR */}
+    <>
+      {/* ── 1. TOP BAR ──────────────────────────────────────────── */}
       <div className="w-full bg-[#111827] text-white text-[11px] font-bold uppercase tracking-wider relative z-20">
         <div className="max-w-7xl mx-auto flex items-center h-10 px-4">
+
+          {/* Date */}
           <div className="bg-[#1f2937] h-full items-center px-4 mr-4 hidden lg:flex flex-shrink-0">
             <span className="flex items-center gap-2">
-              📅 <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
+              {/* calendar emoji is decorative; screen readers can ignore it */}
+              <span aria-hidden="true">📅</span>
+              <time dateTime={dateInfo.iso}>{dateInfo.display || "LOADING..."}</time>
             </span>
           </div>
-          <div className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400 flex-shrink-0">LATEST</div>
-          <div className="flex-1 px-2 min-w-0 overflow-hidden">
+
+          {/* "LATEST" badge */}
+          <div
+            className="bg-[#0f172a] h-full flex items-center px-6 mr-4 text-blue-400 flex-shrink-0"
+            aria-hidden="true"          /* decorative label; the link itself is the real content */
+          >
+            LATEST
+          </div>
+
+          {/* Ticker headline */}
+          <div className="flex-1 px-2 min-w-0 overflow-hidden" aria-live="polite" aria-atomic="true">
             {current && (
               <Link
                 href={`/${current.category}/${current.slug}`}
@@ -149,51 +171,93 @@ const Header = () => {
               </Link>
             )}
           </div>
-          <div className="flex border-l border-gray-700 h-full flex-shrink-0">
-            <button onClick={() => handleArrow("prev")} className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors">
-              <ChevronLeft size={14} />
+
+          {/* Ticker controls */}
+          <div className="flex border-l border-gray-700 h-full flex-shrink-0" role="group" aria-label="Latest news navigation">
+            <button
+              onClick={() => handleArrow("prev")}
+              aria-label="Previous headline"
+              className="px-3 hover:bg-blue-600 border-r border-gray-700 transition-colors"
+            >
+              <ChevronLeft size={14} aria-hidden="true" />
             </button>
-            <button onClick={() => handleArrow("next")} className="px-3 hover:bg-blue-600 transition-colors">
-              <ChevronRight size={14} />
+            <button
+              onClick={() => handleArrow("next")}
+              aria-label="Next headline"
+              className="px-3 hover:bg-blue-600 transition-colors"
+            >
+              <ChevronRight size={14} aria-hidden="true" />
             </button>
           </div>
+
         </div>
       </div>
 
-      {/* 2. MAIN LOGO AREA */}
+      {/* ── 2. MAIN LOGO AREA ────────────────────────────────────── */}
       <div className="w-full bg-white relative z-20">
         <div className="max-w-7xl mx-auto px-4 py-6 md:py-8 flex justify-between items-center">
+
+          {/* Mobile hamburger */}
           <div className="md:hidden">
-            <button onClick={toggleMenu} className="p-2 border border-gray-200 text-black">
-              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            <button
+              onClick={toggleMenu}
+              aria-label={isMenuOpen ? "Close navigation menu" : "Open navigation menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-nav"
+              className="p-2 border border-gray-300 text-black"
+            >
+              {isMenuOpen
+                ? <X size={24} aria-hidden="true" />
+                : <Menu size={24} aria-hidden="true" />
+              }
             </button>
           </div>
-          <div className="hidden md:block w-[160px]" />
-          <Link href="/" className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
+
+          {/* Spacer (desktop only) */}
+          <div className="hidden md:block w-[160px]" aria-hidden="true" />
+
+          {/* Logo */}
+          <Link
+            href="/"
+            aria-label="Corruption Files — home"
+            className="text-4xl md:text-7xl font-normal text-black hover:opacity-90 transition-opacity"
+            style={{ fontFamily: 'var(--font-corruptionfiles)' }}
+          >
             Corruption Files
           </Link>
-          <div className="flex items-center gap-4">
-            <div className="hidden sm:flex gap-4 items-center">
-              {[{ id: 'x', href: 'https://x.com' }, { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/' }, { id: 'substack', href: '#' }, { id: 'medium', href: '#' }].map((site) => (
-                <a key={site.id} href={site.href} target="_blank" rel="noopener noreferrer" className="group text-gray-700 transition-colors duration-200 hover:text-blue-600">
-                  <SocialIcon platform={site.id} />
-                </a>
+
+          {/* Social links */}
+          <nav aria-label="Social media links">
+            <ul className="hidden sm:flex gap-4 items-center list-none m-0 p-0">
+              {SOCIAL_LINKS.map((site) => (
+                <li key={site.id}>
+                  <a
+                    href={site.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={site.label}
+                    className="group text-gray-700 transition-colors duration-200 hover:text-blue-600"
+                  >
+                    <SocialIcon platform={site.id} />
+                  </a>
+                </li>
               ))}
-            </div>
-          </div>
+            </ul>
+          </nav>
+
         </div>
       </div>
 
-      {/* 3. PRIMARY NAVIGATION (STAYS STICKY) */}
-      <nav 
-        aria-label="Main Navigation" 
+      {/* ── 3. PRIMARY NAVIGATION (STICKY) ──────────────────────── */}
+      <nav
+        aria-label="Main navigation"
         className="sticky top-0 z-[100] w-full bg-white border-t border-black border-b border-gray-200 hidden md:block shadow-md"
       >
         <div className="max-w-7xl mx-auto px-4">
-          <ul className="flex justify-center items-center gap-12 py-4 font-bold uppercase text-[13px] tracking-[0.15em]">
+          <ul className="flex justify-center items-center gap-12 py-4 font-bold uppercase text-[13px] tracking-[0.15em] list-none m-0 p-0">
             {NAV_LINKS.map((link) => (
               <li key={link.name}>
-                <Link href={link.href} className="text-black hover:text-blue-500 transition-colors">
+                <Link href={link.href} className="text-black hover:text-blue-600 transition-colors">
                   {link.name}
                 </Link>
               </li>
@@ -202,18 +266,35 @@ const Header = () => {
         </div>
       </nav>
 
-      {/* 4. MOBILE MENU */}
-      <div className={`fixed top-0 left-0 w-full z-[110] md:hidden bg-white transition-all duration-300 overflow-hidden ${isMenuOpen ? "h-screen shadow-lg" : "h-0"}`}>
+      {/* ── 4. MOBILE MENU ───────────────────────────────────────── */}
+      <div
+        id="mobile-nav"
+        className={`fixed top-0 left-0 w-full z-[110] md:hidden bg-white transition-all duration-300 overflow-hidden ${
+          isMenuOpen ? "h-screen shadow-lg" : "h-0"
+        }`}
+        aria-hidden={!isMenuOpen}
+      >
         <div className="p-4 flex justify-end">
-             <button onClick={toggleMenu} className="p-2"><X size={24} /></button>
+          <button
+            onClick={toggleMenu}
+            aria-label="Close navigation menu"
+            className="p-2"
+          >
+            <X size={24} aria-hidden="true" />
+          </button>
         </div>
-        <nav aria-label="Mobile Navigation">
-          <ul>
+
+        <nav aria-label="Mobile navigation">
+          <ul className="list-none m-0 p-0">
             {NAV_LINKS.map((link) => (
               <li key={link.name}>
-                <Link href={link.href} onClick={() => setIsMenuOpen(false)} className="flex items-center justify-between px-6 py-4 border-b border-gray-50 text-black">
+                <Link
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="flex items-center justify-between px-6 py-4 border-b border-gray-100 text-black"
+                >
                   <span className="font-bold text-[14px] uppercase tracking-wider">{link.name}</span>
-                  <ArrowRight size={16} className="text-gray-400" />
+                  <ArrowRight size={16} className="text-gray-500" aria-hidden="true" />
                 </Link>
               </li>
             ))}

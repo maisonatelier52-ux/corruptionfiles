@@ -10,7 +10,6 @@ import homepageData from "@/data/homepage.json";
 const FooterSocialIcon = ({ platform }) => {
   const iconProps = { size: 16, strokeWidth: 2 };
   const p = platform.toLowerCase();
-  // Using slightly lower opacity for the footer to keep focus on links
   const imgClass = "w-[16px] h-[16px] object-contain opacity-70 grayscale group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-200";
 
   switch (p) {
@@ -76,7 +75,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
 
         {/* MAIN FOOTER CONTENT (4 Columns) */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 mb-5">
 
           {/* COLUMN 1: Categories */}
           <nav aria-labelledby="footer-news-heading">
@@ -95,19 +94,28 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* COLUMN 2: Useful Links */}
+          {/* COLUMN 2: Useful Links (UPDATED with all new pages) */}
           <nav aria-labelledby="footer-links-heading">
             <h3 id="footer-links-heading" className="font-bold uppercase text-[14px] tracking-wider mb-6 border-b border-gray-200 pb-2">
               Links
             </h3>
             <ul className="flex flex-col gap-3 text-[13px] font-medium text-gray-600">
-              <li><Link href="/about"          className="hover:text-blue-500 transition-colors">About us</Link></li>
-              <li><Link href="/terms"          className="hover:text-blue-500 transition-colors">Terms and Conditions</Link></li>
+              <li><Link href="/about" className="hover:text-blue-500 transition-colors">About Us</Link></li>
+              <li><Link href="/our-team" className="hover:text-blue-500 transition-colors">Our Team</Link></li>
+              <li><Link href="/contact" className="hover:text-blue-500 transition-colors">Contact Us</Link></li>
+              <li><Link href="/editorial-policy" className="hover:text-blue-500 transition-colors">Editorial Policy</Link></li>
+              <li><Link href="/corrections-policy" className="hover:text-blue-500 transition-colors">Corrections Policy</Link></li>
+              <li><Link href="/source-methodology" className="hover:text-blue-500 transition-colors">Source Methodology</Link></li>
+              <li><Link href="/ownership-and-funding" className="hover:text-blue-500 transition-colors">Ownership & Funding</Link></li>
+              <li><Link href="/advertising-and-sponsored-content-policy" className="hover:text-blue-500 transition-colors">Advertising Policy</Link></li>
+              <li><Link href="/right-of-reply-policy" className="hover:text-blue-500 transition-colors">Right of Reply</Link></li>
+              <li><Link href="/legal" className="hover:text-blue-500 transition-colors">Legal</Link></li>
+              <li><Link href="/terms-and-conditions" className="hover:text-blue-500 transition-colors">Terms and Conditions</Link></li>
               <li><Link href="/privacy-policy" className="hover:text-blue-500 transition-colors">Privacy Policy</Link></li>
             </ul>
           </nav>
 
-          {/* COLUMN 3: Authors */}
+          {/* COLUMN 3: Authors (unchanged) */}
           <nav aria-labelledby="footer-authors-heading">
             <h3 id="footer-authors-heading" className="font-bold uppercase text-[14px] tracking-wider mb-6 border-b border-gray-200 pb-2">
               Authors
@@ -124,7 +132,7 @@ const Footer = () => {
             </ul>
           </nav>
 
-          {/* COLUMN 4: Latest */}
+          {/* COLUMN 4: Latest (unchanged) */}
           <div>
             <h3 className="font-bold uppercase text-[14px] tracking-wider mb-6 border-b border-gray-200 pb-2">
               Latest
@@ -132,7 +140,6 @@ const Footer = () => {
 
             {LATEST_ARTICLE ? (
               <article className="group">
-                {/* Image */}
                 <div className="relative w-full mb-4 overflow-hidden bg-gray-100 h-40">
                   <Link href={`/${LATEST_ARTICLE.category}/${LATEST_ARTICLE.slug}`}>
                     <Image
@@ -144,15 +151,11 @@ const Footer = () => {
                     />
                   </Link>
                 </div>
-
-                {/* Date */}
                 <span className="text-[11px] text-gray-400 block mb-2">
                   <time dateTime={new Date(LATEST_ARTICLE.date).toISOString().split('T')[0]}>
                     📅 {LATEST_ARTICLE.date}
                   </time>
                 </span>
-
-                {/* Title */}
                 <h4 className="font-bold text-[15px] leading-snug mb-2">
                   <Link
                     href={`/${LATEST_ARTICLE.category}/${LATEST_ARTICLE.slug}`}
@@ -161,8 +164,6 @@ const Footer = () => {
                     {LATEST_ARTICLE.title}
                   </Link>
                 </h4>
-
-                {/* Author */}
                 <span className="text-[11px] text-gray-400">
                   By{" "}
                   <Link
@@ -188,7 +189,6 @@ const Footer = () => {
             </Link>
           </div>
 
-          {/* UPDATED FOOTER SOCIAL ICONS */}
           <nav aria-label="Social Media Links" className="flex gap-5">
             {[
               { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
