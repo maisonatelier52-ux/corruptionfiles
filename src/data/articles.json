@@ -3114,6 +3114,193 @@
   },
   {
     "id": 701,
+    "slug": "five-eyes-ai-cyber-espionage-warning",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "metaDescription": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations.",
+    "metaKeywords": [
+      "Five Eyes AI warning",
+      "AI cyber espionage",
+      "artificial intelligence cyber threat",
+      "Five Eyes intelligence alliance",
+      "AI national security",
+      "Anthropic Mythos Fable",
+      "cyber espionage AI"
+    ],
+    "heading": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "excerpt": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations within months, not years.",
+    "date": "June 23, 2026",
+    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "heroImage": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "alt": "Representative image of AI cyber threat concept with digital lock and binary code overlay",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes intelligence alliance — comprising the United States, United Kingdom, Canada, Australia and New Zealand — has issued a rare joint warning that cutting-edge artificial intelligence technology is poised to dramatically enhance offensive hacking capabilities within months, not years. In a three-page statement dated Monday, the alliance said that 'frontier AI models are anticipated to exceed current industry expectations, fundamentally transforming both offensive and defensive cyber capabilities. The timeline is not years, it is months.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The warning comes as the Trump administration has already taken unprecedented steps to restrict access to advanced AI models over national security concerns. Earlier this month, the U.S. government ordered AI company Anthropic to suspend access to its two most powerful models — Mythos 5 and Fable 5 — by foreign nationals. The company had previously touted Mythos's unprecedented ability to find software vulnerabilities, raising widespread cybersecurity concerns."
+        },
+        {
+          "type": "heading",
+          "text": "Urgent Call to Action for Governments and Businesses"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes agencies urged governments and corporate leaders to 'act now' to improve their defenses against sophisticated AI-driven cyber threats. The statement emphasized that AI 'lowers barriers for malicious actors and increases the speed and complexity of attacks.' The alliance warned that 'breaches will occur' and that preparedness is essential to contain them quickly and prevent escalation into major operational and financial crises."
+        },
+        {
+          "type": "paragraph",
+          "text": "To counter the threat, the alliance recommended that organizations integrate AI tools into their security operations to detect vulnerabilities earlier, improve software quality, monitor unusual behavior, and respond faster to incidents. They also urged swift patching of faulty software, updating old systems, limiting access to critical systems, and avoiding putting systems online unless necessary."
+        },
+        {
+          "type": "heading",
+          "text": "The Anthropic Precedent and Growing Unease"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes statement follows the Trump administration's broad directive against Anthropic's Mythos 5 and Fable 5 models — one of the furthest-reaching actions a government has taken in response to the advanced capabilities of an AI model. Anthropic had said it believed the U.S. government had 'become aware' of a method of 'jailbreaking' its public Fable model, or getting around its internal safety guardrails."
+        },
+        {
+          "type": "paragraph",
+          "text": "While the Five Eyes statement does not mention specific AI models or companies by name, many observers have focused on Anthropic's advanced tools. The company's Fable 5 was described as a supposedly more community-friendly version of Mythos — a powerful AI model capable of detecting vulnerabilities in cyber systems that was only available to vetted organizations because of concerns it could be exploited for malicious purposes."
+        },
+        {
+          "type": "heading",
+          "text": "Broader Implications and Expert Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI experts have described the message as 'really stark,' warning that it has worrying implications not just for governments and large corporations, but for small and medium businesses around the world. Olivia Shen, director of the Strategic Technologies Program with the United States Studies Centre at the University of Sydney, told CNN: 'What it was saying is that in an age of AI, breaches will occur. It's not a matter of if, but when, so it's important to get prepared now.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Shen also cautioned that while much of the world's attention is currently on Anthropic, other highly capable AI models could emerge from other actors. 'I think we have to anticipate that the next Mythos or the next Fable is just around the corner,' Shen said. 'We can only see what's been released, but there could be other models being developed by the likes of China, or other states and other actors and companies, that are just as advanced.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The warning is another indication of officials' increasing concerns over models such as Anthropic's Mythos or OpenAI's GPT-5.5-Cyber, which are said to allow users to quickly execute complex — and potentially devastating — hacks. Around the same time as the Five Eyes statement, the U.S. cyber defense agency CISA — which was among those cosigning the statement — reduced the deadlines imposed on government officials to deal with serious digital vulnerabilities in their networks to three days, citing AI threats."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes alliance called for a 'whole-of-organisation and whole-of-society response,' stating that 'cyber risk can no longer be treated as a purely technical issue. This is a core business risk and leadership responsibility.' As the technology continues to evolve at a rapid pace, the window for preparation is closing fast."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 703, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
+    ]
+  },
+  {
+    "id": 702,
+    "slug": "uk-jails-two-men-china-espionage-case",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
+    "metaDescription": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions.",
+    "metaKeywords": [
+      "UK China espionage case",
+      "Bill Yuen Peter Wai sentencing",
+      "Hong Kong dissidents spying",
+      "UK National Security Act",
+      "Chinese espionage Britain",
+      "Old Bailey spy trial"
+    ],
+    "heading": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
+    "excerpt": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions.",
+    "date": "June 18, 2026",
+    "image": "/uk-jails-two-men-china-espionage-case.webp",
+    "heroImage": "/uk-jails-two-men-china-espionage-case.webp",
+    "alt": "The Old Bailey courthouse in London, where two men were sentenced for spying on behalf of China.",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two men, including one who worked as a British immigration officer, were jailed on June 18 after being convicted of spying on prominent pro-democracy dissidents now based in Britain on behalf of Hong Kong, and ultimately China. Chung Biu 'Bill' Yuen, 66, and Chi Leung 'Peter' Wai, 41, who worked for the UK Border Force, were convicted in May of assisting a foreign intelligence service by carrying out surveillance on targets between December 2023 and May 2024. They are believed to be the first people to have been convicted of spying for China in Britain."
+        },
+        {
+          "type": "paragraph",
+          "text": "Wai was also convicted of misusing his Border Force job to search the Interior Ministry's computer database for details about targets. The men, both dual Chinese and British nationals, denied the accusations. Wai was sentenced to 10 years in prison, while Yuen was jailed for eight years."
+        },
+        {
+          "type": "heading",
+          "text": "A 'Deliberate, Concerted and Serious' Operation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Judge Bobbie Cheema-Grubb, sentencing the pair at London's Old Bailey court, described their conduct as 'deliberate, concerted and serious,' involving 'shadow policing operations.' She said their actions 'threaten the sovereignty of the state' and caused 'real and substantial' harm, leaving targeted individuals in fear and distress."
+        },
+        {
+          "type": "paragraph",
+          "text": "'Modern foreign intelligence activity is not confined to orthodox espionage against military or governmental secrets,' Judge Cheema-Grubb said. 'It may take the form of surveillance, information gathering, intimidation, and targeting of dissidents and those who have sought the protection of this country's laws.'"
+        },
+        {
+          "type": "heading",
+          "text": "The Targets: Hong Kong Dissidents in Britain"
+        },
+        {
+          "type": "paragraph",
+          "text": "The court heard that the pair targeted Hong Kong dissidents and pro-democracy protesters living in Britain, with 'special attention' also paid to politicians, including Iain Duncan Smith, a former leader of the opposition Conservative Party who has been critical of Beijing. Among the targets was Nathan Law Kwun-chung, a prominent Hong Kong democracy activist and one of 19 wanted fugitives with bounties placed on them by Hong Kong police."
+        },
+        {
+          "type": "paragraph",
+          "text": "Commander Helen Flanagan, head of counter-terrorism policing in London, said: 'The activity of Wai and Yuen was truly chilling. They were spying and targeting individuals in the UK who were pro-democracy campaigners and were simply protesting against the Hong Kong and Chinese government and authorities.'"
+        },
+        {
+          "type": "heading",
+          "text": "How the Operation Worked"
+        },
+        {
+          "type": "paragraph",
+          "text": "Prosecutors said Yuen, a retired Hong Kong police superintendent who worked as a manager at the Hong Kong Economic and Trade Office in London, received surveillance requests from Hong Kong authorities and passed them to Wai. Yuen paid Wai and a third suspect for carrying out these tasks. Wai, a security firm operator and former part-time UK Border Force officer, used his position to obtain personal information on Hong Kong activists from official computer systems."
+        },
+        {
+          "type": "paragraph",
+          "text": "The men were arrested two years ago along with a third suspect, former Royal Marine and Border Force officer Matthew Trickett, who was found dead 18 days after being released on bail."
+        },
+        {
+          "type": "heading",
+          "text": "Reactions from Beijing and Hong Kong"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Chinese embassy in London condemned the sentencing, calling the case 'nothing but a political move of abusing the law' and 'the result of the British side's abuse of the law and manipulation of judicial proceedings.' Beijing's foreign ministry urged the UK to 'cease political manipulation against China' and 'rectify its erroneous actions.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Hong Kong government also condemned the convictions, describing them as involving 'unfounded allegations and smearing,' and implied it would assist Yuen in any possible appeal."
+        },
+        {
+          "type": "paragraph",
+          "text": "UK Security Minister Angela Eagle said the government 'will continue to hold China accountable and take action against any conduct that endangers the safety of our people.' The case has further strained UK-China relations, which have been repeatedly tested by espionage allegations in recent years."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 704, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+    ]
+  },
+  {
+    "id": 703,
     "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
@@ -3177,11 +3364,11 @@
       ]
     },
     "relatedPosts": [
-      { "id": 702, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+      { "id": 704, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
     ]
   },
   {
-    "id": 702,
+    "id": 704,
     "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
@@ -3205,7 +3392,7 @@
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
       "avatar": "/naomi-vosburgh.webp",
-      "bio": "Naomi spent seven years writing about national security...",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
@@ -3265,7 +3452,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 701, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
+      { "id": 703, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
     ]
   },
   {

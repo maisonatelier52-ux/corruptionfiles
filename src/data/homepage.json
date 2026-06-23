@@ -464,17 +464,28 @@
 "technologyNews": [
   {
     "id": 701,
-    "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
+    "slug": "five-eyes-ai-cyber-espionage-warning",
     "category": "intelligence",
-    "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
-    "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict.",
+    "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'.",
     "author": "Naomi Vosburgh",
-    "date": "May 20, 2026",
-    "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
+    "date": "June 23, 2026",
+    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
     "id": 702,
+    "slug": "uk-jails-two-men-china-espionage-case",
+    "category": "intelligence",
+    "title": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
+    "excerpt": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions.",
+    "author": "Naomi Vosburgh",
+    "date": "June 18, 2026",
+    "image": "/uk-jails-two-men-china-espionage-case.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 704,
     "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
     "category": "intelligence",
     "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
@@ -482,6 +493,17 @@
     "author": "Naomi Vosburgh",
     "date": "June 9, 2026",
     "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 703,
+    "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
+    "category": "intelligence",
+    "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
+    "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict.",
+    "author": "Naomi Vosburgh",
+    "date": "May 20, 2026",
+    "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 

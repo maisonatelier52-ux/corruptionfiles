@@ -640,6 +640,32 @@ export default function Home() {
     trendingSectionData,
   } = homepageData;
 
+  // ─── DESIGN‑SAFE LIMITS (keeps homepage layout exactly as designed) ─────
+  const SECTION_LIMITS = {
+    politicsNews: 3,
+    secondaryNews: 3,
+    puertoRicoGrid: 2,
+    healthcareNews: 8,
+    worldSidebar: 2,
+    discoveryMiddle: 3,
+    discoveryRight: 4,
+    technologyNews: 2,
+    trendingSectionData: 9,
+    newsCards: 9,
+  };
+
+  // Safe slices – these are the only arrays we’ll render on the homepage
+  const politicsNewsSafe = politicsNews.slice(0, SECTION_LIMITS.politicsNews);
+  const secondaryNewsSafe = secondaryNews.slice(0, SECTION_LIMITS.secondaryNews);
+  const puertoRicoGridSafe = inOtherNews.grid.slice(0, SECTION_LIMITS.puertoRicoGrid);
+  const healthcareNewsSafe = healthcareNews.slice(0, SECTION_LIMITS.healthcareNews);
+  const worldSidebarSafe = worldNews.sidebar.slice(0, SECTION_LIMITS.worldSidebar);
+  const discoveryMiddleSafe = discoveryMiddle.slice(0, SECTION_LIMITS.discoveryMiddle);
+  const discoveryRightSafe = discoveryRight.slice(0, SECTION_LIMITS.discoveryRight);
+  const technologyNewsSafe = technologyNews.slice(0, SECTION_LIMITS.technologyNews);
+  const trendingSectionDataSafe = trendingSectionData.slice(0, SECTION_LIMITS.trendingSectionData);
+  const newsCardsSafe = newsCards.slice(0, SECTION_LIMITS.newsCards);
+
   // ─── JSON-LD ────────────────────────────────────────────────────────────────
 
   const orgJsonLd = {
@@ -710,12 +736,12 @@ export default function Home() {
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          {politicsNews.map((news, index) => (
+          {politicsNewsSafe.map((news, index) => (
             <NewsCard key={news.id} {...news} priority={index < 3} />
           ))}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-8 mb-7">
-          {secondaryNews.map((news) => (
+          {secondaryNewsSafe.map((news) => (
             <NewsCard key={news.id} {...news} />
           ))}
         </div>
@@ -780,7 +806,7 @@ export default function Home() {
           </Link>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
-            {inOtherNews.grid.map((news) => (
+            {puertoRicoGridSafe.map((news) => (
               <NewsCard key={news.id} {...news} />
             ))}
           </div>
@@ -799,7 +825,7 @@ export default function Home() {
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-10 gap-x-8 mt-8 mb-8">
-          {healthcareNews.map((item) => (
+          {healthcareNewsSafe.map((item) => (
             <article key={item.id} className="flex flex-col gap-3 group">
               <Link
                 href={`/${item.category}/${item.slug}`}
@@ -901,7 +927,7 @@ export default function Home() {
             className="lg:col-span-4 flex flex-col gap-4"
             aria-label="Related Big Tech articles"
           >
-            {worldNews.sidebar.map((item) => (
+            {worldSidebarSafe.map((item) => (
               <Link
                 key={item.id}
                 href={`/${item.category}/${item.slug}`}
@@ -954,7 +980,7 @@ export default function Home() {
         {/* ── NEWS FEED + SIDEBAR ─────────────────────────────────────────── */}
         <div className="mt-10 flex flex-col lg:flex-row gap-8">
           <div className="flex-1 min-w-0">
-            {newsCards.slice(0, 4).map((card) => (
+            {newsCardsSafe.slice(0, 4).map((card) => (
               <NewsListCard key={card.id} card={card} />
             ))}
 
@@ -975,7 +1001,7 @@ export default function Home() {
             </a>
 
             <div id="ad-sentinel" className="h-0 w-full" />
-            {newsCards.slice(4).map((card) => (
+            {newsCardsSafe.slice(4).map((card) => (
               <NewsListCard key={card.id} card={card} />
             ))}
           </div>
@@ -1035,12 +1061,12 @@ export default function Home() {
               <DiscoveryMainCard item={discoveryMain} />
             </div>
             <div className="flex flex-col lg:border-r border-gray-200 lg:pr-8">
-              {discoveryMiddle.map((item) => (
+              {discoveryMiddleSafe.map((item) => (
                 <DiscoveryMiddleItem key={item.id} item={item} />
               ))}
             </div>
             <div className="flex flex-col h-full pt-4 lg:pt-0">
-              {discoveryRight.map((item) => (
+              {discoveryRightSafe.map((item) => (
                 <DiscoveryRightItem key={item.id} item={item} />
               ))}
             </div>
@@ -1074,7 +1100,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {technologyNews.map((item) => (
+            {technologyNewsSafe.map((item) => (
               <TechOverlayCard key={item.id} item={item} />
             ))}
           </div>
@@ -1103,7 +1129,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-8">
-            {trendingSectionData.map((item) => (
+            {trendingSectionDataSafe.map((item) => (
               <TrendingCircleCard key={item.id} item={item} />
             ))}
           </div>
