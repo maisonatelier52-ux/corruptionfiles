@@ -78,16 +78,14 @@
   "inOtherNews": {
     "featured": {
       "id": 301,
-      "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring",
-      "categories": [
-        { "label": "Puerto Rico", "color": "bg-[#2196f3]" }
-      ],
+      "slug": "puerto-rico-power-operator-countersues-government",
+      "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
       "category": "puerto-rico",
       "author": "Carlos Medina Reyes",
-      "date": "May 15, 2026",
-      "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
-      "quote": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison.",
-      "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp"
+      "date": "June 24, 2026",
+      "title": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
+      "quote": "LUMA Energy accused the government of acting 'in bad faith and with intentional malice to the detriment of the public interest' and warned that canceling its contract could cost the people of Puerto Rico at least $4.5 billion in damages.",
+      "image": "/puerto-rico-power-operator-countersues-government.webp"
     },
     "grid": [
       {
@@ -113,6 +111,18 @@
         "author": "Carlos Medina Reyes",
         "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released",
         "description": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort."
+      },
+      {
+        "id": 304,
+        "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring",
+        "category": "puerto-rico",
+        "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp",
+        "categoryLabel": "Puerto Rico",
+        "categoryColor": "bg-[#2196f3]",
+        "date": "May 15, 2026",
+        "author": "Carlos Medina Reyes",
+        "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
+        "description": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison."
       }
     ]
   },
