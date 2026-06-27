@@ -2,15 +2,15 @@
   "politicsNews": [
     {
       "id": 101,
-      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "slug": "house-oversight-subpoenas-leon-black-epstein-interview",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 7, 2026",
-      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "date": "June 26, 2026",
+      "image": "/house-oversight-subpoenas-leon-black-epstein-interview.webp",
       "author": "Margaret Holloway",
-      "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
-      "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
+      "title": "House Oversight Subpoenas Leon Black After Epstein Interview",
+      "description": "U.S. House investigators subpoena billionaire Leon Black following a tense closed-door interview examining his financial ties to Jeffrey Epstein."
     },
     {
       "id": 102,
@@ -73,6 +73,18 @@
       "author": "Margaret Holloway",
       "title": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
       "description": "Voters in Texas head to the polls to choose between four-term incumbent John Cornyn and Trump-endorsed Attorney General Ken Paxton in the most expensive Republican Senate primary in state history — a race that will define the GOP's loyalty test for the 2026 midterm cycle."
+    },
+    {
+      "id": 204,
+      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 7, 2026",
+      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "author": "Margaret Holloway",
+      "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+      "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
     }
   ],
   "inOtherNews": {
