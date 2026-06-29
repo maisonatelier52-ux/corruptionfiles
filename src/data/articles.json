@@ -1,7 +1,94 @@
 {
   "articles": [
+{
+  "id": 101,
+  "slug": "supreme-court-landmark-rulings-presidential-power-june-2026",
+  "category": "govt",
+  "categoryLabel": "Government",
+  "categoryColor": "bg-[#ff9800]",
+  "metaTitle": "US Supreme Court Set to Deliver Landmark Rulings on Presidential Power | Government",
+  "metaDescription": "The Supreme Court is preparing to issue major decisions on presidential authority, including cases involving birthright citizenship, independent agency firings, and the removal of a Federal Reserve governor.",
+  "metaKeywords": [
+    "Supreme Court 2026",
+    "presidential power",
+    "birthright citizenship",
+    "independent agencies",
+    "Federal Reserve",
+    "Donald Trump",
+    "executive power"
+  ],
+  "heading": "US Supreme Court Set to Deliver Landmark Rulings on Presidential Power",
+  "excerpt": "The U.S. Supreme Court is preparing to issue major decisions on presidential authority, including cases involving executive power, birthright citizenship, and independent federal agencies.",
+  "date": "June 29, 2026",
+  "image": "/supreme-court-landmark-rulings-presidential-power-june-2026.webp",
+  "heroImage": "/supreme-court-landmark-rulings-presidential-power-june-2026.webp",
+  "alt": "The U.S. Supreme Court building in Washington, D.C., where justices are preparing to issue landmark rulings on presidential power.",
+  "author": {
+    "name": "Margaret Holloway",
+    "slug": "margaret-holloway",
+    "avatar": "/margaret-holloway.webp",
+    "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+    "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+  },
+  "body": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "The Supreme Court is wrapping up a term that has focused on President Donald Trump's expansive claims of presidential power. Trump's efforts to restrict birthright citizenship, fire the heads of most independent agencies at will and remove a sitting Federal Reserve governor are among the remaining eight cases the justices are expected to decide this week, beginning Monday. The court also is weighing, in cases from West Virginia and Idaho, whether to uphold laws in roughly half the states that prohibit transgender girls and women from playing on their public school and college sports."
+      },
+      {
+        "type": "paragraph",
+        "text": "Two election-related cases remain, over state laws that allow a grace period for the receipt of mailed ballots, provided they are sent by Election Day, and limits on political party spending in support of candidates for Congress and president. Also outstanding is a dispute over geofence warrants that collect the location history of cellphone users to find people near crime scenes. Critics say the practice is a fishing expedition that violates civil liberties."
+      },
+      {
+        "type": "heading",
+        "text": "Birthright Citizenship at the Center"
+      },
+      {
+        "type": "paragraph",
+        "text": "Arguably the most anticipated ruling is on President Trump's executive order seeking to restrict birthright citizenship, which was one of his first acts after returning as president last year. The 14th Amendment to the Constitution states that 'all persons born or naturalized in the United States, and subject to the jurisdiction thereof, are citizens of the United States and of the State wherein they reside.' Trump's order calls for only providing that right for children born on U.S. soil who have at least one parent who is a citizen or lawful permanent resident."
+      },
+      {
+        "type": "paragraph",
+        "text": "During arguments in April, the justices signaled a more skeptical look at Trump's executive order that would overturn long-settled understanding and deny citizenship to children born to parents who are in the country illegally or temporarily. In a sign of how important Trump has viewed the case, he became the first sitting president ever recorded to have attended Supreme Court arguments as a listener. Even Trump has said he expects he'll lose on birthright citizenship. The administration's argument would require a significant reinterpretation of the longstanding amendment."
+      },
+      {
+        "type": "heading",
+        "text": "Independent Agencies and the Power to Fire"
+      },
+      {
+        "type": "paragraph",
+        "text": "The extent of Trump's power to fire independent agency members is the oldest undecided case, argued in December. The justices seem likely to overturn, or drastically narrow, a 91-year-old decision that required a cause, like neglect of duty, before a president could remove Senate-confirmed officials from their jobs. The outcome appears to be in little doubt because the conservatives have allowed the firings to take effect while the case plays out, even after lower-court judges found the firings illegal."
+      },
+      {
+        "type": "paragraph",
+        "text": "The case involves Trump's decision to remove Federal Trade Commission member Rebecca Slaughter, a Democratic commissioner who was first appointed in 2018, because her service was 'inconsistent' with the administration's policies. The act setting up the FTC only permits the president to remove commissioners for cause, and the Supreme Court's 1935 ruling in Humphrey's Executor v. United States upheld that barrier. But a majority of the court appeared open to allowing Trump to fire Slaughter without cause. The ruling could also have wide-ranging implications for other federal agencies, limiting their independence from the president."
+      },
+      {
+        "type": "heading",
+        "text": "Federal Reserve Independence at Stake"
+      },
+      {
+        "type": "paragraph",
+        "text": "One federal agency that the high court has seemed more inclined to protect is the Federal Reserve. Trump sought to fire Federal Reserve board of governors member Lisa Cook last summer over allegations of mortgage fraud against her, making him the first president to try to remove a sitting Fed governor in its history. No president has ever fired a Fed governor in the agency's 112-year history."
+      },
+      {
+        "type": "paragraph",
+        "text": "Cook has rejected the allegations and argued the Justice Department investigation into her was politically motivated. No charges have been filed against her. Most justices seemed to be leaning against allowing Cook to be dismissed, expressing skepticism about the administration's arguments. The court has also rejected Trump's assertion of the power to unilaterally impose wide-ranging tariffs under an emergency powers law. The decision in February drew Trump's ire, including an unusually harsh and personal denunciation of two of his court appointees, Justices Neil Gorsuch and Amy Coney Barrett, who voted against him."
+      },
+      {
+        "type": "paragraph",
+        "text": "The court's conservative majority has so far been mostly receptive to Trump's immigration crackdown, including a decision last week allowing the administration to end temporary legal protections for people who came to the U.S. because of war or natural disaster in their homeland. Another decision could make it harder for people fleeing persecution to seek asylum in the United States. By custom, the court finishes its work before July 4. After this week, its next public meeting is the first Monday in October."
+      }
+    ]
+  },
+  "relatedPosts": [
+      { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+      { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+    ]
+  },
   {
-    "id": 101,
+    "id": 102,
     "slug": "house-oversight-subpoenas-leon-black-epstein-interview",
     "category": "govt",
     "categoryLabel": "Government",
@@ -100,78 +187,9 @@
       },
         "relatedPosts": [
           { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
-          { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+          { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
         ]
       },
-    {
-      "id": 102,
-      "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term",
-      "category": "govt",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term | Congress 2026",
-      "metaDescription": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy.",
-      "metaKeywords": [
-        "Kevin Warsh Federal Reserve 2026",
-        "Senate cloture vote Fed chair",
-        "Jerome Powell successor",
-        "Federal Reserve independence",
-        "Trump Fed nomination"
-      ],
-      "heading": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term",
-      "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy.",
-      "date": "May 12, 2026",
-      "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
-      "heroImage": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
-      "alt": "Kevin Warsh arrives at the Senate Banking Committee confirmation hearing, April 21, 2026",
-      "author": {
-        "name": "Margaret Holloway",
-        "slug": "margaret-holloway",
-        "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The U.S. Senate is scheduled to hold two roll-call votes at 11:30 a.m. Tuesday — first to confirm Kevin Warsh to a 14-year term on the Federal Reserve Board of Governors, then to begin the separate confirmation process for his concurrent four-year term as Fed chair. The votes follow Monday's 49-44 cloture motion that cleared the final procedural barrier, putting Warsh on track to be sworn in before Jerome Powell's term as chair expires on Friday, May 15. Only two Democrats crossed the aisle on the cloture vote: Sen. John Fetterman of Pennsylvania and Sen. Chris Coons of Delaware."
-          },
-          {
-            "type": "paragraph",
-            "text": "Warsh, 55, previously served on the Fed's Board of Governors from 2006 to 2011, where he developed a reputation as an inflation hawk. His return to the central bank marks the most consequential leadership transition at the Fed in two decades — and the most politically fraught. The Senate Banking Committee's 13-11 party-line vote to advance his nomination on April 29 was, as Sen. Elizabeth Warren noted in a floor statement, the first fully partisan confirmation of a Fed chair nominee in the committee's history."
-          },
-          {
-            "type": "heading",
-            "text": "A Nomination Built on Tillis's Ultimatum"
-          },
-          {
-            "type": "paragraph",
-            "text": "Warsh's path to the floor was anything but routine. Sen. Thom Tillis, R-N.C., a key Banking Committee member, refused to advance any Fed nominee while the Justice Department was pursuing what he called an 'ill-advised criminal investigation' into Powell, ostensibly focused on cost overruns at the Fed's Washington headquarters. The probe was widely read as an administration pressure campaign on monetary policy. Federal prosecutors ultimately dropped the investigation in April, and U.S. Attorney Jeanine Pirro — who had announced its end — added that she would relaunch a criminal inquiry 'should the facts warrant doing so,' a caveat that Sen. Warren said 'leaves the door wide open' for future interference."
-          },
-          {
-            "type": "paragraph",
-            "text": "Tillis cast the deciding vote in committee after the DOJ dropped the probe, telling colleagues that Warren 'is flatly wrong on every point she just tried to make.' His reversal, while pivotal, left a trail of institutional unease. Powell, who said he will remain on the board through 2028 in part because of uncertainty about whether the DOJ investigation could be revived, told reporters after the April 29 rate-setting meeting: 'When Kevin Warsh is confirmed and sworn in, he will be that chair. I plan to keep a low profile as a governor.'"
-          },
-          {
-            "type": "heading",
-            "text": "Warsh's Vision and the Pressure on Rates"
-          },
-          {
-            "type": "paragraph",
-            "text": "Warsh has described his agenda as 'regime change' at the Fed, including tighter coordination between the central bank and the Treasury on non-monetary policies and a course toward a smaller balance sheet. On the question most immediately pressing to markets — interest rates — he has taken a measured line. The Fed held its policy rate in the 3.50%-3.75% range at its most recent meeting, with three governors dissenting in favor of openness to a possible hike. Trump has said publicly that he expects Warsh to cut rates; Warsh told the Banking Committee he has made no such promises. The Fed's first meeting under a possible Chair Warsh is scheduled for June 16-17, a date that Wall Street is already circling."
-          },
-          {
-            "type": "paragraph",
-            "text": "Former World Bank governor Yerbol Orynbayev told Al Jazeera that 'the noise surrounding the independence of the central bank has somewhat quietened' since the DOJ probe was dropped, though Democratic critics say the threat has not truly receded. The confirmation, if it proceeds as expected Tuesday, will close one chapter of the Trump administration's sustained effort to reshape the Fed — and open a new one, with Warsh in the chair and the June rate decision already looming."
-          }
-        ]
-      },
-      "relatedPosts": [
-        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
-        { "id": 202, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
-      ]
-    },
     {
       "id": 103,
       "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
@@ -238,7 +256,7 @@
       },
       "relatedPosts": [
         { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
-        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -307,7 +325,7 @@
       },
       "relatedPosts": [
         { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
-        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -388,7 +406,7 @@
       },
       "relatedPosts": [
         { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
-        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -477,88 +495,157 @@
       },
       "relatedPosts": [
         { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
-        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
-{
-  "id": 204,
-  "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
-  "category": "govt",
-  "categoryLabel": "Government",
-  "categoryColor": "bg-[#ff9800]",
-  "metaTitle": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge | May 2026",
-  "metaDescription": "As polls open across Britain today, Washington is monitoring the potential shift in Westminster's power balance and its impact on the 'Special Relationship.'",
-  "metaKeywords": [
-    "UK local elections 2026",
-    "Keir Starmer populist surge",
-    "Reform UK Nigel Farage",
-    "Special Relationship US UK",
-    "British elections May 2026"
-  ],
-  "heading": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
-  "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'",
-  "date": "May 7, 2026",
-  "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
-  "heroImage": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
-  "alt": "Keir Starmer and wife Victoria at a London polling station on May 7, 2026",
-  "author": {
-    "name": "Margaret Holloway",
-    "slug": "margaret-holloway",
-    "avatar": "/margaret-holloway.webp",
-    "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-    "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-  },
-  "body": {
-    "blocks": [
-      {
-        "type": "paragraph",
-        "text": "Polls opened across England, Scotland and Wales at 7 a.m. Thursday in what analysts are already calling the most consequential local elections in a generation. Over 5,000 council seats are in play, along with semiautonomous parliaments in Edinburgh and Cardiff — and the pressure on Prime Minister Keir Starmer could not be more acute. His centre-left Labour Party is bracing for losses severe enough to trigger, by some accounts, an open leadership contest before the weekend is out."
+    {
+      "id": 204,
+      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge | May 2026",
+      "metaDescription": "As polls open across Britain today, Washington is monitoring the potential shift in Westminster's power balance and its impact on the 'Special Relationship.'",
+      "metaKeywords": [
+        "UK local elections 2026",
+        "Keir Starmer populist surge",
+        "Reform UK Nigel Farage",
+        "Special Relationship US UK",
+        "British elections May 2026"
+      ],
+      "heading": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+      "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'",
+      "date": "May 7, 2026",
+      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "heroImage": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "alt": "Keir Starmer and wife Victoria at a London polling station on May 7, 2026",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
-      {
-        "type": "paragraph",
-        "text": "In Washington, officials and foreign policy analysts are keeping an unusually close eye on the results. The Trump administration has watched Starmer's domestic slide with wariness rather than sympathy. When Starmer declined to join U.S. military operations in Iran — stating flatly 'this is not our war' while authorizing American use of two British bases for defensive purposes — it quietly widened an already straining gap between the two governments. Analysts at the National Interest noted this week that 'the stated interests and domestic politics of the United States and Britain have become increasingly irreconcilable,' a tension that Thursday's results could amplify or, in theory, begin to resolve."
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Polls opened across England, Scotland and Wales at 7 a.m. Thursday in what analysts are already calling the most consequential local elections in a generation. Over 5,000 council seats are in play, along with semiautonomous parliaments in Edinburgh and Cardiff — and the pressure on Prime Minister Keir Starmer could not be more acute. His centre-left Labour Party is bracing for losses severe enough to trigger, by some accounts, an open leadership contest before the weekend is out."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Washington, officials and foreign policy analysts are keeping an unusually close eye on the results. The Trump administration has watched Starmer's domestic slide with wariness rather than sympathy. When Starmer declined to join U.S. military operations in Iran — stating flatly 'this is not our war' while authorizing American use of two British bases for defensive purposes — it quietly widened an already straining gap between the two governments. Analysts at the National Interest noted this week that 'the stated interests and domestic politics of the United States and Britain have become increasingly irreconcilable,' a tension that Thursday's results could amplify or, in theory, begin to resolve."
+          },
+          {
+            "type": "heading",
+            "text": "A Referendum on Starmer"
+          },
+          {
+            "type": "paragraph",
+            "text": "More than in most local cycles, these elections are being read as a direct verdict on the prime minister. A YouGov poll conducted in April found that 70 percent of respondents believed Starmer was performing 'badly.' Jonathan Tonge, professor of politics at the University of Liverpool, told Al Jazeera the vote amounts to 'a referendum on Starmer's government,' adding that heavy losses could 'precipitate a leadership challenge against him.' Forecasts from Britain Elects have projected that Labour could shed as many as two-thirds of the roughly 2,500 council seats it is defending — a collapse that would be historically extraordinary for a party only two years removed from a landslide general election victory."
+          },
+          {
+            "type": "paragraph",
+            "text": "Starmer has been further weakened by his decision to appoint Peter Mandelson — a figure tarnished by his association with Jeffrey Epstein — as Britain's ambassador to Washington. The appointment prompted calls for his resignation from within his own party as early as February, including from Labour's leader in Scotland. That the ambassador is posted in the very city monitoring Thursday's results has not been lost on observers on either side of the Atlantic."
+          },
+          {
+            "type": "heading",
+            "text": "Reform and the Greens: Two Insurgencies at Once"
+          },
+          {
+            "type": "paragraph",
+            "text": "The primary beneficiary of Labour's troubles is expected to be Reform UK, the hard-right populist party led by Nigel Farage. Analysts project the party could seize upwards of 1,550 seats — predominantly in white, working-class areas of northern England that Labour has held for decades. Counties such as Norfolk and Essex are expected to shift sharply, while in Sunderland, where boundary changes mean all seats are contested, both Labour and Liberal Democrat sources have privately conceded that a Reform victory is 'likely.' Reform had earlier forced the government to abandon its attempt to delay these elections after winning a high-court legal challenge in February, a tactical victory that set the stage for Thursday's reckoning."
+          },
+          {
+            "type": "paragraph",
+            "text": "A second insurgency is rising on the left. The Green Party, newly led by self-described eco-populist Zack Polanski, has surged in urban areas and among younger voters. In London, LSE professor Tony Travers warned of 'unprecedented change' in the capital's borough government, noting that gains by both Greens and Reform 'will produce many more councils with no majority control,' making governing more difficult across the city. Luke Tryl of pollster More in Common said the elections are likely to produce 'the total collapse of the traditional two-party system.'"
+          },
+          {
+            "type": "heading",
+            "text": "Wales and the Leadership Question"
+          },
+          {
+            "type": "paragraph",
+            "text": "Beyond England, Wales may deliver the sharpest symbolic blow. Labour has dominated Welsh politics since the Senedd was established 27 years ago, but a More in Common poll published this week showed Reform UK neck-and-neck with the pro-independence Plaid Cymru in what was once Labour heartland. If Labour loses the Welsh government in Cardiff, it would mark a historic rupture — and, in the view of several Westminster insiders, likely seal Starmer's fate as party leader."
+          },
+          {
+            "type": "paragraph",
+            "text": "British media is already awash in speculation about successors. Former deputy prime minister Angela Rayner, Health Secretary Wes Streeting and Greater Manchester Mayor Andy Burnham have each been floated as potential replacements. A challenger would need the backing of 20 percent of Labour MPs to launch a contest. Starmer told voters on Wednesday the choice was between 'unity or division, progress versus the politics of anger' — a framing that, if the projections hold, may go down as one of the more optimistic assessments in recent British political history. Results are expected to begin arriving on Friday afternoon."
+          }
+        ]
       },
-      {
-        "type": "heading",
-        "text": "A Referendum on Starmer"
-      },
-      {
-        "type": "paragraph",
-        "text": "More than in most local cycles, these elections are being read as a direct verdict on the prime minister. A YouGov poll conducted in April found that 70 percent of respondents believed Starmer was performing 'badly.' Jonathan Tonge, professor of politics at the University of Liverpool, told Al Jazeera the vote amounts to 'a referendum on Starmer's government,' adding that heavy losses could 'precipitate a leadership challenge against him.' Forecasts from Britain Elects have projected that Labour could shed as many as two-thirds of the roughly 2,500 council seats it is defending — a collapse that would be historically extraordinary for a party only two years removed from a landslide general election victory."
-      },
-      {
-        "type": "paragraph",
-        "text": "Starmer has been further weakened by his decision to appoint Peter Mandelson — a figure tarnished by his association with Jeffrey Epstein — as Britain's ambassador to Washington. The appointment prompted calls for his resignation from within his own party as early as February, including from Labour's leader in Scotland. That the ambassador is posted in the very city monitoring Thursday's results has not been lost on observers on either side of the Atlantic."
-      },
-      {
-        "type": "heading",
-        "text": "Reform and the Greens: Two Insurgencies at Once"
-      },
-      {
-        "type": "paragraph",
-        "text": "The primary beneficiary of Labour's troubles is expected to be Reform UK, the hard-right populist party led by Nigel Farage. Analysts project the party could seize upwards of 1,550 seats — predominantly in white, working-class areas of northern England that Labour has held for decades. Counties such as Norfolk and Essex are expected to shift sharply, while in Sunderland, where boundary changes mean all seats are contested, both Labour and Liberal Democrat sources have privately conceded that a Reform victory is 'likely.' Reform had earlier forced the government to abandon its attempt to delay these elections after winning a high-court legal challenge in February, a tactical victory that set the stage for Thursday's reckoning."
-      },
-      {
-        "type": "paragraph",
-        "text": "A second insurgency is rising on the left. The Green Party, newly led by self-described eco-populist Zack Polanski, has surged in urban areas and among younger voters. In London, LSE professor Tony Travers warned of 'unprecedented change' in the capital's borough government, noting that gains by both Greens and Reform 'will produce many more councils with no majority control,' making governing more difficult across the city. Luke Tryl of pollster More in Common said the elections are likely to produce 'the total collapse of the traditional two-party system.'"
-      },
-      {
-        "type": "heading",
-        "text": "Wales and the Leadership Question"
-      },
-      {
-        "type": "paragraph",
-        "text": "Beyond England, Wales may deliver the sharpest symbolic blow. Labour has dominated Welsh politics since the Senedd was established 27 years ago, but a More in Common poll published this week showed Reform UK neck-and-neck with the pro-independence Plaid Cymru in what was once Labour heartland. If Labour loses the Welsh government in Cardiff, it would mark a historic rupture — and, in the view of several Westminster insiders, likely seal Starmer's fate as party leader."
-      },
-      {
-        "type": "paragraph",
-        "text": "British media is already awash in speculation about successors. Former deputy prime minister Angela Rayner, Health Secretary Wes Streeting and Greater Manchester Mayor Andy Burnham have each been floated as potential replacements. A challenger would need the backing of 20 percent of Labour MPs to launch a contest. Starmer told voters on Wednesday the choice was between 'unity or division, progress versus the politics of anger' — a framing that, if the projections hold, may go down as one of the more optimistic assessments in recent British political history. Results are expected to begin arriving on Friday afternoon."
-      }
-    ]
-  },
       "relatedPosts": [
-        { "id": 102, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
         { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." }
+      ]
+    },
+    {
+      "id": 205,
+      "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term | Congress 2026",
+      "metaDescription": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy.",
+      "metaKeywords": [
+        "Kevin Warsh Federal Reserve 2026",
+        "Senate cloture vote Fed chair",
+        "Jerome Powell successor",
+        "Federal Reserve independence",
+        "Trump Fed nomination"
+      ],
+      "heading": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term",
+      "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy.",
+      "date": "May 12, 2026",
+      "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
+      "heroImage": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
+      "alt": "Kevin Warsh arrives at the Senate Banking Committee confirmation hearing, April 21, 2026",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The U.S. Senate is scheduled to hold two roll-call votes at 11:30 a.m. Tuesday — first to confirm Kevin Warsh to a 14-year term on the Federal Reserve Board of Governors, then to begin the separate confirmation process for his concurrent four-year term as Fed chair. The votes follow Monday's 49-44 cloture motion that cleared the final procedural barrier, putting Warsh on track to be sworn in before Jerome Powell's term as chair expires on Friday, May 15. Only two Democrats crossed the aisle on the cloture vote: Sen. John Fetterman of Pennsylvania and Sen. Chris Coons of Delaware."
+          },
+          {
+            "type": "paragraph",
+            "text": "Warsh, 55, previously served on the Fed's Board of Governors from 2006 to 2011, where he developed a reputation as an inflation hawk. His return to the central bank marks the most consequential leadership transition at the Fed in two decades — and the most politically fraught. The Senate Banking Committee's 13-11 party-line vote to advance his nomination on April 29 was, as Sen. Elizabeth Warren noted in a floor statement, the first fully partisan confirmation of a Fed chair nominee in the committee's history."
+          },
+          {
+            "type": "heading",
+            "text": "A Nomination Built on Tillis's Ultimatum"
+          },
+          {
+            "type": "paragraph",
+            "text": "Warsh's path to the floor was anything but routine. Sen. Thom Tillis, R-N.C., a key Banking Committee member, refused to advance any Fed nominee while the Justice Department was pursuing what he called an 'ill-advised criminal investigation' into Powell, ostensibly focused on cost overruns at the Fed's Washington headquarters. The probe was widely read as an administration pressure campaign on monetary policy. Federal prosecutors ultimately dropped the investigation in April, and U.S. Attorney Jeanine Pirro — who had announced its end — added that she would relaunch a criminal inquiry 'should the facts warrant doing so,' a caveat that Sen. Warren said 'leaves the door wide open' for future interference."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tillis cast the deciding vote in committee after the DOJ dropped the probe, telling colleagues that Warren 'is flatly wrong on every point she just tried to make.' His reversal, while pivotal, left a trail of institutional unease. Powell, who said he will remain on the board through 2028 in part because of uncertainty about whether the DOJ investigation could be revived, told reporters after the April 29 rate-setting meeting: 'When Kevin Warsh is confirmed and sworn in, he will be that chair. I plan to keep a low profile as a governor.'"
+          },
+          {
+            "type": "heading",
+            "text": "Warsh's Vision and the Pressure on Rates"
+          },
+          {
+            "type": "paragraph",
+            "text": "Warsh has described his agenda as 'regime change' at the Fed, including tighter coordination between the central bank and the Treasury on non-monetary policies and a course toward a smaller balance sheet. On the question most immediately pressing to markets — interest rates — he has taken a measured line. The Fed held its policy rate in the 3.50%-3.75% range at its most recent meeting, with three governors dissenting in favor of openness to a possible hike. Trump has said publicly that he expects Warsh to cut rates; Warsh told the Banking Committee he has made no such promises. The Fed's first meeting under a possible Chair Warsh is scheduled for June 16-17, a date that Wall Street is already circling."
+          },
+          {
+            "type": "paragraph",
+            "text": "Former World Bank governor Yerbol Orynbayev told Al Jazeera that 'the noise surrounding the independence of the central bank has somewhat quietened' since the DOJ probe was dropped, though Democratic critics say the threat has not truly receded. The confirmation, if it proceeds as expected Tuesday, will close one chapter of the Trump administration's sustained effort to reshape the Fed — and open a new one, with Warsh in the chair and the June rate decision already looming."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
+        { "id": 202, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
       ]
     },
     {
@@ -1648,73 +1735,80 @@
         { "id": 403, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
       ]
     },
-  {
-    "id": 90,
-    "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
-    "category": "tech",
-    "categoryLabel": "Big Tech & Surveillance",
-    "categoryColor": "bg-[#00008b]",
-    "metaTitle": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire | Meta 2026",
-    "metaDescription": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
-    "metaKeywords": [
-      "Instagram end-to-end encryption removed 2026",
-      "Meta DM privacy Instagram",
-      "Instagram E2EE scrapped May 2026",
-      "Global Encryption Coalition Meta",
-      "Take It Down Act Instagram encryption"
-    ],
-    "heading": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire",
-    "excerpt": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
-    "date": "May 12, 2026",
-    "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
-    "heroImage": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
-    "alt": "Instagram app open on a smartphone showing a direct messages inbox, May 2026",
-    "author": {
-      "name": "Simone Varlette",
-      "slug": "simone-varlette",
-      "avatar": "/simone-varlette2.webp",
-      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Meta removed end-to-end encryption from Instagram direct messages on May 8, 2026, ending an opt-in feature the company had introduced in December 2023. The change was not announced with any fanfare. In March, Instagram quietly updated a help page to note that encrypted DMs would be discontinued. Meta spokesperson Dina El-Kassaby Luce told The Verge the platform was discontinuing the feature because 'very few people' were using E2EE in their DMs. A separate spokesperson told The Guardian: 'Very few people were opting in to end-to-end encrypted messaging in DMs, so we're removing this option from Instagram in the coming months. Anyone who wants to keep messaging with end-to-end encryption can easily do that on WhatsApp.' Users who had the feature enabled were directed to download their encrypted chat history before the May 8 cutoff. After that date, the option disappeared entirely."
-        },
-        {
-          "type": "paragraph",
-          "text": "What the removal means in practical terms is significant. Meta now has the technical ability to access the content of every Instagram direct message — including images, videos, and voice notes — stored on its servers. The platform can respond to law enforcement subpoenas for message logs and run automated scanning across DM content. Meta has stated that DM content is not currently used for targeted advertising, though the company's own terms of service include language permitting use of content for 'product improvement.' Meta has not committed to any timeline for how long DM data will be retained, and has not clarified what will happen to existing encrypted conversations that users did not export before the deadline — whether those chats will be deleted, silently decrypted and retained, or simply left inaccessible."
-        },
-        {
-          "type": "heading",
-          "text": "The Low-Adoption Argument and Its Critics"
-        },
-        {
-          "type": "paragraph",
-          "text": "Meta's stated reason — low adoption — has drawn sharp pushback from digital rights organisations. On April 8, the Steering Committee of the Global Encryption Coalition published a formal statement signed by member groups including Mozilla and the Center for Democracy and Technology. 'Encryption is not just a feature,' the statement read. 'It is fundamental to safety and the exercise of human rights.' The Coalition argued that a low opt-in rate is not evidence that users do not want encryption; it is evidence that the feature was inadequately promoted, never made the default, and buried in a per-conversation settings toggle that most users never encountered. 'Low adoption of an opt-in feature,' the statement said, 'is a reason to make encryption the default — not a reason to scrap it.'"
-        },
-        {
-          "type": "paragraph",
-          "text": "That criticism cuts to the architecture of how Meta built the feature in the first place. Encrypted DMs on Instagram were never switched on by default. They were never available in all regions. Enabling encryption required finding a per-conversation toggle buried inside individual chat settings — a step Meta never prominently advertised to users. MacRumors noted that Meta 'did not alert users that it was an option.' Privacy advocates have been clear that a product can be designed to fail adoption: keep it opt-in, keep it hidden, and never roll it out universally — then point to low usage as justification for its removal. It is a notable reversal for a company whose chief executive in 2019 declared that 'the future is private' and pledged to shift its entire platform philosophy toward encrypted communications."
-        },
-        {
-          "type": "heading",
-          "text": "Eleven Days Before the Take It Down Act"
-        },
-        {
-          "type": "paragraph",
-          "text": "The timing of the removal has not gone unnoticed. The change took effect eleven days before the U.S. Take It Down Act comes into force on May 19, 2026. The law, signed by President Donald Trump in May 2025, requires online platforms to detect and remove non-consensual intimate imagery — including AI-generated deepfakes — within 48 hours of a victim's notification. Platforms cannot scan for or remove content they cannot see. While Meta has not explicitly linked the two developments, analysts at Security Affairs noted that 'removing encryption makes it easier for platforms to detect and moderate harmful content at scale.' Without encryption, Meta can run the automated image-scanning pipelines that compliance with the Take It Down Act requires across its entire Instagram DM corpus."
-        },
-        {
-          "type": "paragraph",
-          "text": "As of publication, end-to-end encryption remains the default for all WhatsApp conversations and calls — the alternative Meta is actively directing Instagram users toward — and remains available as an opt-in for group Facebook Messenger chats. Instagram DMs now operate identically to standard Facebook Messenger messages: encrypted in transit against external interception but fully visible to the platform itself. Security researchers and privacy advocates have pointed users toward Signal as the independent alternative carrying no corporate content-access interest. Whether Meta's move will prompt broader regulatory scrutiny in the European Union, where data protection law sets a higher bar, remains an open question."
-        }
-      ]
-    },
+    {
+      "id": 90,
+      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
+      "category": "tech",
+      "categoryLabel": "Big Tech & Surveillance",
+      "categoryColor": "bg-[#00008b]",
+      "metaTitle": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology | Big Tech & Surveillance",
+      "metaDescription": "A new report reveals ICE and CBP awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
+      "metaKeywords": [
+        "ICE surveillance technology",
+        "border surveillance 2026",
+        "AI immigration enforcement",
+        "Palantir ICE contract",
+        "Anduril border drones",
+        "facial recognition immigration",
+        "privacy concerns surveillance"
+      ],
+      "heading": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
+      "excerpt": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
+      "date": "June 24, 2026",
+      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+      "heroImage": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+      "alt": "A border surveillance tower equipped with cameras and sensors, representing the growing use of AI-powered surveillance technology by U.S. immigration agencies.",
+      "author": {
+        "name": "Simone Varlette",
+        "slug": "simone-varlette",
+        "avatar": "/simone-varlette2.webp",
+        "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A new report has laid bare the unprecedented growth of the U.S. government's immigration surveillance arsenal, revealing that Immigration and Customs Enforcement and Customs and Border Protection awarded more than $513 million in surveillance technology contracts in 2026.The figure marks a dramatic escalation from just over $310 million in 2025 and less than $50 million a decade ago, according to an analysis of contracts with 11 surveillance technology companies."
+          },
+          {
+            "type": "paragraph",
+            "text": "The report, released this week by immigration rights organization Mijente, legal advocates Just Futures Law, and research group Surveillance Resistance Lab, traces the contracts as far back as 2013. It found that funding awarded to these firms has increased steadily over time, with a particularly sharp jump over the last two years. The growth is being driven primarily by massive new contracts for two companies: Palantir, the data analytics company that has become central to ICE's enforcement operations, and Anduril, a defense contractor that builds AI-powered surveillance systems, tech-infused border towers, drones and sensors."
+          },
+          {
+            "type": "heading",
+            "text": "The Tech Behind ICE"
+          },
+          {
+            "type": "paragraph",
+            "text": "The sweeping analysis maps out the top 10 categories of surveillance technology used by DHS, ICE, and CBP to target, criminalize, and deport immigrants. These include data brokers like LexisNexis that sell information on millions of people to ICE, which then uses the data to circumvent sanctuary city protections. Data analytics companies, first among them Palantir, sort and analyze the data. The report calls Palantir 'the backbone of ICE data surveillance.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Palantir, a military contractor founded through CIA venture capital firm In-Q-Tel, has developed both ImmigrationOS and ELITE — software platforms that track migrants and map neighborhoods and potential deportation targets. Since the start of President Donald Trump's second term, Palantir has received over $1.8 billion in government funding, including $81 million from ICE in 2025 and $97 million from ICE in 2026, followed by a $1 billion purchase agreement this year."
+          },
+          {
+            "type": "paragraph",
+            "text": "Other surveillance tools in ICE's arsenal include web scraping and social media surveillance; facial recognition and biometric identification; technology that surveils vehicles and drivers; cellphone tracking and location data; and drone surveillance. The report also reveals that DHS does not simply purchase technologies once they have been developed, but actively helps shape the innovation ecosystem that produces the surveillance and enforcement technologies it seeks to deploy, through a billion-dollar incubator that funds research and partnerships with companies as they develop their surveillance technology."
+          },
+          {
+            "type": "heading",
+            "text": "Privacy and Civil Liberties Concerns"
+          },
+          {
+            "type": "paragraph",
+            "text": "Civil rights advocates have raised alarm over the sweeping expansion of surveillance capabilities. The report comes as a large influx of money has made ICE the best-funded law enforcement agency in the United States, supercharging immigration agencies' surveillance ambitions. Critics warn that enforcement is becoming a data-driven dragnet that pulls information from medical, tax, credit and benefit systems and combines it into targeting tools."
+          },
+          {
+            "type": "paragraph",
+            "text": "Privacy advocates also express concern that once such surveillance machinery exists, it rarely stays limited to one group. A system built to track immigrants can just as easily be used to monitor protesters, activists, journalists and U.S. citizens. The report's authors argue that the growing partnership between surveillance tech companies and immigration enforcement represents a fundamental threat to democracy, as billions of taxpayer dollars are diverted to build a sophisticated surveillance infrastructure that operates with little public scrutiny."
+          }
+        ]
+      },
     "relatedPosts": [
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
-        "id": 92,
+        "id": 91,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -1724,12 +1818,11 @@
         "author": "Simone Varlette",
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
-      },
-      { "id": 93, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      }
     ]
   },
   {
-    "id": 92,
+    "id": 91,
     "slug": "london-police-expand-facial-recognition-public-streets",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
@@ -1805,12 +1898,12 @@
       ]
     },
     "relatedPosts": [
-      { "id": 91, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 93, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
-    "id": 93,
+    "id": 92,
     "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
@@ -1886,9 +1979,9 @@
       ]
     },
     "relatedPosts": [
-      { "id": 91, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
-        "id": 92,
+        "id": 91,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -1899,6 +1992,86 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       }
+    ]
+  },
+  {
+    "id": 93,
+    "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
+    "category": "tech",
+    "categoryLabel": "Big Tech & Surveillance",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire | Meta 2026",
+    "metaDescription": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
+    "metaKeywords": [
+      "Instagram end-to-end encryption removed 2026",
+      "Meta DM privacy Instagram",
+      "Instagram E2EE scrapped May 2026",
+      "Global Encryption Coalition Meta",
+      "Take It Down Act Instagram encryption"
+    ],
+    "heading": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire",
+    "excerpt": "Digital rights groups criticize Meta after Instagram quietly kills its end-to-end encrypted messaging feature, walking back years of user privacy promises.",
+    "date": "May 12, 2026",
+    "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+    "heroImage": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+    "alt": "Instagram app open on a smartphone showing a direct messages inbox, May 2026",
+    "author": {
+      "name": "Simone Varlette",
+      "slug": "simone-varlette",
+      "avatar": "/simone-varlette2.webp",
+      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Meta removed end-to-end encryption from Instagram direct messages on May 8, 2026, ending an opt-in feature the company had introduced in December 2023. The change was not announced with any fanfare. In March, Instagram quietly updated a help page to note that encrypted DMs would be discontinued. Meta spokesperson Dina El-Kassaby Luce told The Verge the platform was discontinuing the feature because 'very few people' were using E2EE in their DMs. A separate spokesperson told The Guardian: 'Very few people were opting in to end-to-end encrypted messaging in DMs, so we're removing this option from Instagram in the coming months. Anyone who wants to keep messaging with end-to-end encryption can easily do that on WhatsApp.' Users who had the feature enabled were directed to download their encrypted chat history before the May 8 cutoff. After that date, the option disappeared entirely."
+        },
+        {
+          "type": "paragraph",
+          "text": "What the removal means in practical terms is significant. Meta now has the technical ability to access the content of every Instagram direct message — including images, videos, and voice notes — stored on its servers. The platform can respond to law enforcement subpoenas for message logs and run automated scanning across DM content. Meta has stated that DM content is not currently used for targeted advertising, though the company's own terms of service include language permitting use of content for 'product improvement.' Meta has not committed to any timeline for how long DM data will be retained, and has not clarified what will happen to existing encrypted conversations that users did not export before the deadline — whether those chats will be deleted, silently decrypted and retained, or simply left inaccessible."
+        },
+        {
+          "type": "heading",
+          "text": "The Low-Adoption Argument and Its Critics"
+        },
+        {
+          "type": "paragraph",
+          "text": "Meta's stated reason — low adoption — has drawn sharp pushback from digital rights organisations. On April 8, the Steering Committee of the Global Encryption Coalition published a formal statement signed by member groups including Mozilla and the Center for Democracy and Technology. 'Encryption is not just a feature,' the statement read. 'It is fundamental to safety and the exercise of human rights.' The Coalition argued that a low opt-in rate is not evidence that users do not want encryption; it is evidence that the feature was inadequately promoted, never made the default, and buried in a per-conversation settings toggle that most users never encountered. 'Low adoption of an opt-in feature,' the statement said, 'is a reason to make encryption the default — not a reason to scrap it.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "That criticism cuts to the architecture of how Meta built the feature in the first place. Encrypted DMs on Instagram were never switched on by default. They were never available in all regions. Enabling encryption required finding a per-conversation toggle buried inside individual chat settings — a step Meta never prominently advertised to users. MacRumors noted that Meta 'did not alert users that it was an option.' Privacy advocates have been clear that a product can be designed to fail adoption: keep it opt-in, keep it hidden, and never roll it out universally — then point to low usage as justification for its removal. It is a notable reversal for a company whose chief executive in 2019 declared that 'the future is private' and pledged to shift its entire platform philosophy toward encrypted communications."
+        },
+        {
+          "type": "heading",
+          "text": "Eleven Days Before the Take It Down Act"
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing of the removal has not gone unnoticed. The change took effect eleven days before the U.S. Take It Down Act comes into force on May 19, 2026. The law, signed by President Donald Trump in May 2025, requires online platforms to detect and remove non-consensual intimate imagery — including AI-generated deepfakes — within 48 hours of a victim's notification. Platforms cannot scan for or remove content they cannot see. While Meta has not explicitly linked the two developments, analysts at Security Affairs noted that 'removing encryption makes it easier for platforms to detect and moderate harmful content at scale.' Without encryption, Meta can run the automated image-scanning pipelines that compliance with the Take It Down Act requires across its entire Instagram DM corpus."
+        },
+        {
+          "type": "paragraph",
+          "text": "As of publication, end-to-end encryption remains the default for all WhatsApp conversations and calls — the alternative Meta is actively directing Instagram users toward — and remains available as an opt-in for group Facebook Messenger chats. Instagram DMs now operate identically to standard Facebook Messenger messages: encrypted in transit against external interception but fully visible to the platform itself. Security researchers and privacy advocates have pointed users toward Signal as the independent alternative carrying no corporate content-access interest. Whether Meta's move will prompt broader regulatory scrutiny in the European Union, where data protection law sets a higher bar, remains an open question."
+        }
+      ]
+    },
+    "relatedPosts": [
+      {
+        "id": 91,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      },
+      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {

@@ -2,6 +2,18 @@
   "politicsNews": [
     {
       "id": 101,
+      "slug": "supreme-court-landmark-rulings-presidential-power-june-2026",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "June 29, 2026",
+      "image": "/supreme-court-landmark-rulings-presidential-power-june-2026.webp",
+      "author": "Margaret Holloway",
+      "title": "US Supreme Court Set to Deliver Landmark Rulings on Presidential Power",
+      "description": "The U.S. Supreme Court is preparing to issue major decisions on presidential authority, including cases involving executive power, birthright citizenship, and independent federal agencies."
+    },
+    {
+      "id": 102,
       "slug": "house-oversight-subpoenas-leon-black-epstein-interview",
       "category": "govt",
       "categoryLabel": "Government",
@@ -11,18 +23,6 @@
       "author": "Margaret Holloway",
       "title": "House Oversight Subpoenas Leon Black After Epstein Interview",
       "description": "U.S. House investigators subpoena billionaire Leon Black following a tense closed-door interview examining his financial ties to Jeffrey Epstein."
-    },
-    {
-      "id": 102,
-      "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term",
-      "category": "govt",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "date": "May 12, 2026",
-      "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
-      "author": "Margaret Holloway",
-      "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term",
-      "description": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy."
     },
     {
       "id": 103,
@@ -85,6 +85,18 @@
       "author": "Margaret Holloway",
       "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
       "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
+    },
+    {
+      "id": 205,
+      "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 12, 2026",
+      "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp",
+      "author": "Margaret Holloway",
+      "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term",
+      "description": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy."
     }
   ],
   "inOtherNews": {
@@ -239,16 +251,16 @@
   "worldNews": {
     "main": {
       "id": 90,
-      "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
+      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
       "category": "tech",
-      "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
       "categories": [
         { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
       ],
-      "date": "May 12, 2026",
+      "date": "June 24, 2026",
       "author": "Simone Varlette",
-      "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire",
-      "description": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform."
+      "title": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
+      "description": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns."
     },
     "sidebar": [
       {
@@ -274,6 +286,18 @@
         "date": "June 5, 2026",
         "author": "Simone Varlette",
         "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns"
+      },
+      {
+        "id": 93,
+        "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire",
+        "category": "tech",
+        "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
+        "categories": [
+          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+        ],
+        "date": "May 12, 2026",
+        "author": "Simone Varlette",
+        "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire"
       }
     ]
   },
