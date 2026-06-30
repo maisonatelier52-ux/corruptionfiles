@@ -83,7 +83,7 @@
     ]
   },
   "relatedPosts": [
-      { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+      { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
       { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
     ]
   },
@@ -186,76 +186,81 @@
       ]
       },
         "relatedPosts": [
-          { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+          { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
           { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
         ]
       },
-    {
-      "id": 103,
-      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
-      "category": "govt",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age | Congress 2026",
-      "metaDescription": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
-      "metaKeywords": [
-        "Capitol Police retirement age 2026",
-        "Congress Capitol Police staffing",
-        "threats against lawmakers 2026",
-        "Senate bipartisan police bill",
-        "Capitol Police Chief Sullivan"
-      ],
-      "heading": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
-      "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
-      "date": "May 15, 2026",
-      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
-      "heroImage": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
-      "alt": "A U.S. Capitol Police officer stands guard during a Senate Armed Services Committee hearing, April 30, 2026",
-      "author": {
-        "name": "Margaret Holloway",
-        "slug": "margaret-holloway",
-        "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The U.S. Senate voted unanimously Thursday to raise the maximum retirement age for Capitol Police officers, passing legislation that would allow officers to apply for waivers to extend their service until age 62 — up from the current cap of 60. The House passed its own version of the bill, H.R. 8364, earlier this year, which sets the ceiling at 65. Under current law, officers are forced to retire at 57, or after 20 years of service, whichever comes later, unless the Capitol Police Board grants a waiver. The two chambers will need to reconcile their differing age thresholds before the measure can be sent to the president."
-          },
-          {
-            "type": "paragraph",
-            "text": "The bills arrive as the Capitol Police force confronts a compounding staffing crisis. Chief Thomas Sullivan told Congress at a March oversight hearing that the department has roughly 1,250 uniformed officers but needs at least 150 more to cover every post without mandatory overtime. The department's budget request this year topped $1 billion for the first time, reflecting both expanded member-protection operations and reimbursements to local law enforcement agencies across the country. Nearly 60 sworn officers are already serving under retirement waivers — a figure that exceeds the combined size of two standard USCP recruiting classes, according to the House Administration Committee."
-          },
-          {
-            "type": "heading",
-            "text": "Threats Against Lawmakers at a Record High"
-          },
-          {
-            "type": "paragraph",
-            "text": "The staffing squeeze is inseparable from a sustained rise in threats. The department investigated nearly 15,000 threats against members of Congress in 2025 — a 58 percent increase over 2024 — and Sullivan told lawmakers that the pace in 2026 is on track to climb further still. The department has overhauled its member-protection protocols since January 6, extending security coverage to lawmakers and their families in home districts and standing up a dedicated center to receive and process threat reports. 'While we focus on those individuals at the beginning of their career, we also need to focus on that experience that's at the end of their career,' Sullivan told the oversight panel. Funding for the department's protective intelligence division — the unit responsible for monitoring and investigating threats — remains, in Sullivan's own description, 'very slim.'"
-          },
-          {
-            "type": "paragraph",
-            "text": "Compounding the problem is attrition. Sullivan said a significant number of officers have left the Capitol Police for other federal law enforcement agencies offering stronger pay and retirement benefits. 'There's nothing keeping folks here,' he told Congress. The protective intelligence division is described as particularly thinly staffed, creating what Sullivan called a dangerous gap between the volume of threats and the personnel available to assess them. 'There's drafts on a consistent basis and it pushes the men and women that we have to the limit,' he said of the overtime burden on the current force."
-          },
-          {
-            "type": "heading",
-            "text": "A Rare Bicameral, Bipartisan Agreement"
-          },
-          {
-            "type": "paragraph",
-            "text": "The Senate bill was co-authored by the top Democrat and Republican on the Senate Rules Committee, which has oversight of the Capitol Police. Sen. Alex Padilla of California and Senate Rules Committee Chairman Mitch McConnell of Kentucky introduced the measure jointly, a pairing that reflected the rare unanimity the issue commands. 'We're talking about officers who have served for a long, long time and have a tremendous amount of institutional memory, experience and expertise,' Padilla said on the floor. 'They offer immense value to the department.' He added: 'After bicameral and bipartisan discussions, I hope to see this measure signed into law.'"
-          },
-          {
-            "type": "paragraph",
-            "text": "On the House side, Administration Committee Chairman Bryan Steil of Wisconsin and Ranking Member Joe Morelle of New York shepherded H.R. 8364 out of committee unanimously. 'No officer should be forced to retire when they can still do the job,' Steil said. Morelle, the panel's top Democrat, echoed the sentiment: 'The Department cannot afford to lose a substantial number of experienced, fully capable officers solely because they reach an arbitrary age threshold.' With both chambers having now passed their respective bills, the next step is a conference to resolve the five-year gap in maximum age — 62 in the Senate version, 65 in the House version — before final passage."
-          }
-        ]
-      },
+      {
+        "id": 103,
+        "slug": "andy-burnham-no-10-north-devolution-proposal",
+        "category": "govt",
+        "categoryLabel": "Government",
+        "categoryColor": "bg-[#ff9800]",
+        "metaTitle": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster | Government",
+        "metaDescription": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster and expand regional autonomy over housing, transport, and economic policy.",
+        "metaKeywords": [
+          "Andy Burnham No 10 North",
+          "UK devolution",
+          "Manchester devolution",
+          "decentralize UK power",
+          "Burnham prime minister",
+          "Westminster reform"
+        ],
+        "heading": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster",
+        "excerpt": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster and expand regional autonomy over housing, transport, and economic policy.",
+        "date": "June 29, 2026",
+        "image": "/andy-burnham-no-10-north-devolution-proposal.webp",
+        "heroImage": "/andy-burnham-no-10-north-devolution-proposal.webp",
+        "alt": "Andy Burnham delivers his devolution speech at the People's History Museum in Manchester, announcing plans for 'No 10 North'.",
+        "author": {
+          "name": "Margaret Holloway",
+          "slug": "margaret-holloway",
+          "avatar": "/margaret-holloway.webp",
+          "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+          "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+        },
+        "body": {
+          "blocks": [
+            {
+              "type": "paragraph",
+              "text": "Andy Burnham, the prime minister-in-waiting, has announced plans to set up a 'No 10 North' office in Manchester as the 'nerve centre of a rewired Britain' to oversee a sweeping devolution of power and resources across the UK. In his first major speech since Keir Starmer announced he was standing down, Burnham told an audience at the People's History Museum in Manchester that the Westminster system was 'broken' and that a 'more of the same' approach would neither improve living standards nor restore people's faith in how politics worked for them."
+            },
+            {
+              "type": "paragraph",
+              "text": "The new Makerfield MP, dressed in a dark T-shirt and jacket rather than the usual politician's uniform of a suit and tie, is expected to become prime minister on 20 July, unless he is challenged for the Labour leadership. His promise of a 'new direction' is at the heart of his offer to the country. 'What hope can we have that it will be different this time? That is the question I would be asking if I was a voter right now,' he said. 'Westminster has not been working for people and it has not been working for a very long time. In fact, it is broken.'"
+            },
+            {
+              "type": "heading",
+              "text": "Three Clear Tasks for Devolution"
+            },
+            {
+              "type": "paragraph",
+              "text": "Burnham said No 10 North would have three 'clear tasks' for devolution: to increase public ownership of essential utilities such as water, energy and housing; reindustrialise swathes of the country; and regenerate towns, prioritising places that had been left behind. This would include overseeing the biggest council housebuilding programme since the postwar period, as well as ordering Whitehall to back British firms bidding for public contracts — even if this cost taxpayers more."
+            },
+            {
+              "type": "paragraph",
+              "text": "The change would be the biggest change in our lifetimes to the way the country is run, Burnham said, and is consistent with the 2024 Labour manifesto. 'We will create a more streamlined state with a clearer purpose to power up all parts of the country and put a laser-like focus on growth and regeneration — good growth,' he said. 'The job of No 10 North will be to make power flow into the Midlands, into the South West, into the East of England and yes, into London.'"
+            },
+            {
+              "type": "heading",
+              "text": "Reactions from Across the Political Spectrum"
+            },
+            {
+              "type": "paragraph",
+              "text": "The speech drew a mixed response from across the political spectrum. Conservative leader Kemi Badenoch said Burnham backed devolution because he 'doesn't know what to do so he wants to pass the problem to someone else.' However, thinktanks broadly welcomed the proposals. The Fabian Society's deputy general secretary, Luke Raikes, said centralisation is the root cause of the growth failures in the north and the housing failures in the south, adding that the answer to both problems is devolution."
+            },
+            {
+              "type": "paragraph",
+              "text": "The left-leaning IPPR also praised the speech, with executive director Harry Quilter-Pinner stating: 'Andy Burnham is right to put rebalancing Britain at the heart of his agenda. The UK's concentration of power and opportunity in Westminster has held back growth, productivity and living standards for too long.' The LGIU's chief executive, Jonathan Carr-West, described the speech as 'the most ambitious statement on devolution we have seen from a senior politician in a generation.'"
+            },
+            {
+              "type": "paragraph",
+              "text": "Burnham also hinted at an early cost of living support package once he made it to Downing Street. 'I heard on doorsteps in Makerfield how people need a bit extra now to help with rising costs,' he said. 'I will do my very best to deliver it, and whilst not taking risks with the public finances, will seek to give Britain some breathing space as soon as I can.'"
+            }
+          ]
+        },
       "relatedPosts": [
-        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
+        { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -324,7 +329,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 103, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+        { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -646,6 +651,75 @@
       "relatedPosts": [
         { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
         { "id": 202, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
+      ]
+    },
+    {
+      "id": 206,
+      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age | Congress 2026",
+      "metaDescription": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
+      "metaKeywords": [
+        "Capitol Police retirement age 2026",
+        "Congress Capitol Police staffing",
+        "threats against lawmakers 2026",
+        "Senate bipartisan police bill",
+        "Capitol Police Chief Sullivan"
+      ],
+      "heading": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
+      "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages.",
+      "date": "May 15, 2026",
+      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "heroImage": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "alt": "A U.S. Capitol Police officer stands guard during a Senate Armed Services Committee hearing, April 30, 2026",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The U.S. Senate voted unanimously Thursday to raise the maximum retirement age for Capitol Police officers, passing legislation that would allow officers to apply for waivers to extend their service until age 62 — up from the current cap of 60. The House passed its own version of the bill, H.R. 8364, earlier this year, which sets the ceiling at 65. Under current law, officers are forced to retire at 57, or after 20 years of service, whichever comes later, unless the Capitol Police Board grants a waiver. The two chambers will need to reconcile their differing age thresholds before the measure can be sent to the president."
+          },
+          {
+            "type": "paragraph",
+            "text": "The bills arrive as the Capitol Police force confronts a compounding staffing crisis. Chief Thomas Sullivan told Congress at a March oversight hearing that the department has roughly 1,250 uniformed officers but needs at least 150 more to cover every post without mandatory overtime. The department's budget request this year topped $1 billion for the first time, reflecting both expanded member-protection operations and reimbursements to local law enforcement agencies across the country. Nearly 60 sworn officers are already serving under retirement waivers — a figure that exceeds the combined size of two standard USCP recruiting classes, according to the House Administration Committee."
+          },
+          {
+            "type": "heading",
+            "text": "Threats Against Lawmakers at a Record High"
+          },
+          {
+            "type": "paragraph",
+            "text": "The staffing squeeze is inseparable from a sustained rise in threats. The department investigated nearly 15,000 threats against members of Congress in 2025 — a 58 percent increase over 2024 — and Sullivan told lawmakers that the pace in 2026 is on track to climb further still. The department has overhauled its member-protection protocols since January 6, extending security coverage to lawmakers and their families in home districts and standing up a dedicated center to receive and process threat reports. 'While we focus on those individuals at the beginning of their career, we also need to focus on that experience that's at the end of their career,' Sullivan told the oversight panel. Funding for the department's protective intelligence division — the unit responsible for monitoring and investigating threats — remains, in Sullivan's own description, 'very slim.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Compounding the problem is attrition. Sullivan said a significant number of officers have left the Capitol Police for other federal law enforcement agencies offering stronger pay and retirement benefits. 'There's nothing keeping folks here,' he told Congress. The protective intelligence division is described as particularly thinly staffed, creating what Sullivan called a dangerous gap between the volume of threats and the personnel available to assess them. 'There's drafts on a consistent basis and it pushes the men and women that we have to the limit,' he said of the overtime burden on the current force."
+          },
+          {
+            "type": "heading",
+            "text": "A Rare Bicameral, Bipartisan Agreement"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Senate bill was co-authored by the top Democrat and Republican on the Senate Rules Committee, which has oversight of the Capitol Police. Sen. Alex Padilla of California and Senate Rules Committee Chairman Mitch McConnell of Kentucky introduced the measure jointly, a pairing that reflected the rare unanimity the issue commands. 'We're talking about officers who have served for a long, long time and have a tremendous amount of institutional memory, experience and expertise,' Padilla said on the floor. 'They offer immense value to the department.' He added: 'After bicameral and bipartisan discussions, I hope to see this measure signed into law.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "On the House side, Administration Committee Chairman Bryan Steil of Wisconsin and Ranking Member Joe Morelle of New York shepherded H.R. 8364 out of committee unanimously. 'No officer should be forced to retire when they can still do the job,' Steil said. Morelle, the panel's top Democrat, echoed the sentiment: 'The Department cannot afford to lose a substantial number of experienced, fully capable officers solely because they reach an arbitrary age threshold.' With both chambers having now passed their respective bills, the next step is a conference to resolve the five-year gap in maximum age — 62 in the Senate version, 65 in the House version — before final passage."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 201, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {

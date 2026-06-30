@@ -26,15 +26,15 @@
     },
     {
       "id": 103,
-      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
+      "slug": "andy-burnham-no-10-north-devolution-proposal",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 15, 2026",
-      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "date": "June 29, 2026",
+      "image": "/andy-burnham-no-10-north-devolution-proposal.webp",
       "author": "Margaret Holloway",
-      "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
-      "description": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages."
+      "title": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster",
+      "description": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster."
     }
   ],
   "secondaryNews": [
@@ -97,6 +97,18 @@
       "author": "Margaret Holloway",
       "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term",
       "description": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy."
+    },
+    {
+      "id": 206,
+      "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 15, 2026",
+      "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp",
+      "author": "Margaret Holloway",
+      "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
+      "description": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages."
     }
   ],
   "inOtherNews": {
