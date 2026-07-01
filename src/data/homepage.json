@@ -316,14 +316,14 @@
 "newsCards": [
   {
     "id": 1,
-    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
+    "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "May 18, 2026",
-    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "date": "June 30, 2026",
+    "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
     "author": "Ruth Anselmi",
-    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
-    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+    "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -412,14 +412,14 @@
   },
   {
     "id": 9,
-    "slug": "abbvie-astrazeneca-drug-overcharging",
+    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "March 18, 2026",
-    "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging",
+    "date": "May 18, 2026",
+    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
     "author": "Ruth Anselmi",
-    "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs.",
-    "image": "/abbvie-astrazeneca-drug-overcharging.webp",
+    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
+    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   }
 ],

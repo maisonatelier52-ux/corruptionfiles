@@ -2150,79 +2150,81 @@
   },
   {
     "id": 1,
-    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
+    "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
-    "metaDescription": "A U.S. jury found Takeda liable for delaying cheaper generic versions of its constipation drug Amitiza, in a major pharma antitrust and pricing fraud case.",
+    "metaTitle": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas | Medical Fraud",
+    "metaDescription": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
     "metaKeywords": [
-      "Takeda Amitiza pay-for-delay verdict",
-      "Takeda $885 million antitrust ruling",
-      "generic drug delay lawsuit 2026",
-      "Par Pharmaceutical Amitiza settlement",
-      "pharma pay-for-delay antitrust law"
+      "AstraZeneca settlement",
+      "Texas Medicaid kickback",
+      "AstraZeneca $34 million",
+      "Ken Paxton",
+      "healthcare fraud",
+      "pharmaceutical kickbacks",
+      "Texas Health Care Program Fraud Prevention Act"
     ],
-    "heading": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
-    "excerpt": "A federal jury in Boston found Takeda Pharmaceutical liable for delaying cheaper generic versions of its constipation drug Amitiza, awarding plaintiffs roughly $885 million — a figure that could triple to $2.5 billion under federal antitrust law.",
-    "date": "May 18, 2026",
-    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
-    "heroImage": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
-    "alt": "Takeda Pharmaceutical headquarters as jury delivers $885 million pay-for-delay antitrust verdict, May 18, 2026",
+    "heading": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
+    "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+    "date": "June 30, 2026",
+    "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+    "heroImage": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+    "alt": "AstraZeneca logo and Texas Attorney General Ken Paxton announcing a $34 million settlement over alleged Medicaid kickbacks.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A federal jury in Boston has found Takeda Pharmaceutical liable for causing approximately $885 million in damages by orchestrating an anticompetitive scheme to delay a cheaper generic version of its constipation drug Amitiza (lubiprostone). The verdict, returned Monday in the U.S. District Court for the District of Massachusetts following a five-week trial, sided with a class of plaintiffs that included pharmacies, insurers, health funds, and major retailers such as CVS and Walgreens, who argued they were forced to overpay for the drug for years as a direct result of the arrangement."
+          "text": "AstraZeneca has agreed to pay nearly $34 million to settle a lawsuit filed by the Texas Attorney General's office alleging that the pharmaceutical giant used illegal kickbacks to influence prescriptions paid for by Texas Medicaid. The settlement, announced on June 29, 2026, resolves claims that AstraZeneca provided free nursing services and other inducements to healthcare providers in exchange for prescribing its drugs, resulting in millions of dollars in tainted Medicaid claims."
         },
         {
           "type": "paragraph",
-          "text": "According to Reuters, the jury's award breaks down to roughly $475 million for direct purchasers and $347 million for individual retailers. Under federal antitrust law, $821.7 million of that total is subject to automatic trebling upon entry of final judgment, which would push the payout to approximately $2.47 billion. Takeda said in a statement released shortly after the verdict that the damages figure is not final and remains subject to further court proceedings, and that the company intends to \"vigorously pursue post-trial motions and an appeal.\""
+          "text": "Texas Attorney General Ken Paxton secured the settlement under the Texas Health Care Program Fraud Prevention Act. The state alleged that AstraZeneca provided free nursing services and reimbursements to healthcare providers 'under the guise of non-branded counseling' to influence them to prescribe the company's drugs. Many of these prescriptions were covered by Medicaid, leading to 'millions of dollars in claims to Texas Medicaid that were tainted by AstraZeneca's illegal inducements.'"
         },
         {
           "type": "heading",
-          "text": "How a 2014 Settlement Became the Heart of the Case"
+          "text": "The Alleged Kickback Scheme"
         },
         {
           "type": "paragraph",
-          "text": "The case traces its origins to 2012, when Par Pharmaceutical filed for FDA approval to market a generic version of Amitiza. Sucampo Pharmaceuticals — which developed Amitiza and partnered with Takeda to market it in the U.S. following FDA approval in 2006 — and Takeda responded with a patent infringement lawsuit. Par pushed back, arguing the patents were invalid. The litigation resolved in a 2014 settlement under which Par agreed not to launch a competing generic until January 2021. In exchange, Par was permitted to sell an authorized generic version of Amitiza supplied by Sucampo under a profit-sharing agreement. Plaintiffs' lawyers described the arrangement to jurors as a $210 million payoff that locked out cheaper alternatives for six additional years."
+          "text": "According to the complaint, AstraZeneca's kickback scheme took the form of a free network of nurses and insurance support services designed to boost prescriptions of its medicines. By providing these services, the company allegedly helped manage key aspects of patient care that a physician would otherwise have to handle or pay staff to perform. The state argued that these inducements prompted pharmacies, pharmacy benefit managers, and others to submit claims to Texas Medicaid for AstraZeneca's medicines, causing the program to disburse millions of dollars in unauthorized reimbursements."
         },
         {
           "type": "paragraph",
-          "text": "Sucampo was later acquired by Mallinckrodt in a $1.2 billion deal in 2018. By the time Par's authorized generic entered the market in January 2021, Amitiza had been generating peak annual revenues of close to $500 million. In Takeda's fiscal year 2020 — the period when the first generic competition arrived — Amitiza sales fell nearly 25 percent year-over-year to roughly $191 million. Takeda no longer markets the drug; its license was terminated in 2024."
+          "text": "Texas has filed similar lawsuits against other major pharmaceutical companies over the last year, including Eli Lilly and Sanofi, for providing free nurses and paid third parties alleged to have steered patients to those companies' products. In supplying these healthcare professionals, the companies can manage the care of patients in place of independent physicians. A decade ago, Lilly and Novo Nordisk faced similar allegations of using nursing services and 'white coat' sales schemes to influence the marketing of their insulin products."
         },
         {
           "type": "heading",
-          "text": "A Landmark in Pay-for-Delay Litigation"
+          "text": "Settlement Terms and State Response"
         },
         {
           "type": "paragraph",
-          "text": "Monday's verdict is the first time a federal jury has found a pharmaceutical company liable in class-action litigation over a pay-for-delay agreement since the U.S. Supreme Court's 2013 ruling in FTC v. Actavis established that such settlements can violate antitrust law. Three earlier trials brought by private plaintiffs under similar theories all ended in defense verdicts. \"We were incredibly fortunate to have a committed jury that really showed up every day, took their job seriously,\" said Kristen Johnson, a lawyer for the direct purchaser class. \"They understood that paying off a competitor has real consequences on competition.\""
+          "text": "Under the settlement, AstraZeneca will pay $33,998,000 to resolve the state's claims. The agreement is the 'result of a mutual desire to settle their disputes amicably and to avoid the delay, expense, litigation costs, inconvenience, and uncertainty of protracted litigation,' according to the settlement document. AstraZeneca did not admit to any wrongdoing as part of the settlement."
         },
         {
           "type": "paragraph",
-          "text": "Seattle-based law firm Hagens Berman, which represented the direct purchaser class, said in a statement that the delay caused \"hundreds of millions of dollars in overcharges\" for its clients. The Federal Trade Commission has previously estimated that pay-for-delay arrangements cost consumers and taxpayers roughly $3.5 billion in higher drug prices annually, and has pursued several such cases in recent years, including a landmark $1.5 billion settlement with Teva in 2015."
+          "text": "Texas Attorney General Ken Paxton said in a statement: 'I will not allow Big Pharma to misuse taxpayer dollars to put profit ahead of Texans' health. My office will continue aggressively pursuing healthcare fraud to protect taxpayer dollars and the integrity of our healthcare system.' Paxton, who is currently running for Senate, announced the settlement in a press release on June 29."
         },
         {
           "type": "heading",
-          "text": "Takeda Disputes the Verdict and Signals a Long Appeal"
+          "text": "Wider Context and Implications"
         },
         {
           "type": "paragraph",
-          "text": "Takeda denied wrongdoing throughout the trial. Joshua Barlow, one of the company's defense attorneys, told jurors in his closing argument that the 2014 settlement with Par was both lawful and pro-competitive — that without it, a generic version of Amitiza would not have reached the market until the company's final patents expired, which he said is not scheduled until October 2027. Takeda also maintained that the deal actually allowed Par to introduce a generic more than six years ahead of that patent cliff. In its post-verdict statement, the company said it \"remains firm in our conviction that the plaintiffs' case lacks merit\" and cited what it called \"evidentiary and legal errors made during the trial.\" The verdict cannot be enforced until the court formally enters judgment, and Takeda's appeal is expected to proceed through the First Circuit."
+          "text": "The settlement follows a similar Texas lawsuit against Eli Lilly, which the state accused of using free nurse and reimbursement-support programs to steer providers toward prescribing its drugs, including the GLP-1s Mounjaro and Zepbound, tainting Texas Medicaid claims. The AstraZeneca case is part of a broader crackdown by Texas authorities on pharmaceutical companies' marketing practices, particularly those involving free services provided to healthcare providers. The state has signaled that it will continue to aggressively pursue healthcare fraud cases against drug manufacturers."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 2, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
-      { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." }
+      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
+      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
     ]
   },
   {
@@ -2294,7 +2296,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 1, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 9, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
       { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
     ]
   },
@@ -2472,8 +2474,8 @@
       ]
     },
     "relatedPosts": [
-      { "id": 1, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
-      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs." }
+      { "id": 9, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
   {
@@ -2740,7 +2742,7 @@
     },
     "relatedPosts": [
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." },
-      { "id": 9, "slug": "abbvie-astrazeneca-drug-overcharging", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/abbvie-astrazeneca-drug-overcharging.webp", "date": "March 18, 2026", "author": "Ruth Anselmi", "title": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging", "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs." }
+      { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
   {
@@ -2855,59 +2857,78 @@
   },
   {
     "id": 9,
-    "slug": "abbvie-astrazeneca-drug-overcharging",
+    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging",
-    "metaDescription": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs.",
-    "metaKeywords": ["AbbVie lawsuit", "AstraZeneca overcharging", "340B program fraud", "drug pricing fraud", "qui tam"],
-    "heading": "Federal Court Revives Lawsuit Against AbbVie and AstraZeneca Over Drug Overcharging",
-    "excerpt": "The Ninth Circuit revived a qui tam lawsuit claiming AbbVie and AstraZeneca systematically overcharged public health programs for life-saving drugs.",
-    "date": "March 18, 2026",
-    "image": "/abbvie-astrazeneca-drug-overcharging.webp",
-    "heroImage": "/abbvie-astrazeneca-drug-overcharging.webp",
-    "alt": "Pharmaceutical bottles and gavel",
+    "metaTitle": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "metaDescription": "A U.S. jury found Takeda liable for delaying cheaper generic versions of its constipation drug Amitiza, in a major pharma antitrust and pricing fraud case.",
+    "metaKeywords": [
+      "Takeda Amitiza pay-for-delay verdict",
+      "Takeda $885 million antitrust ruling",
+      "generic drug delay lawsuit 2026",
+      "Par Pharmaceutical Amitiza settlement",
+      "pharma pay-for-delay antitrust law"
+    ],
+    "heading": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "excerpt": "A federal jury in Boston found Takeda Pharmaceutical liable for delaying cheaper generic versions of its constipation drug Amitiza, awarding plaintiffs roughly $885 million — a figure that could triple to $2.5 billion under federal antitrust law.",
+    "date": "May 18, 2026",
+    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "heroImage": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "alt": "Takeda Pharmaceutical headquarters as jury delivers $885 million pay-for-delay antitrust verdict, May 18, 2026",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist...",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he U.S. Court of Appeals for the Ninth Circuit on Tuesday revived a False Claims Act lawsuit alleging that AbbVie and AstraZeneca overcharged Medicaid, Medicare, and other federal programs by more than $1.5 billion for drugs including Humira and Symbicort."
-      },
-      "paragraphs": [
-        "The whistleblower complaint, originally filed in 2021 by a former pharmaceutical pricing analyst, claims the companies manipulated the Average Manufacturer Price (AMP) calculations used to determine rebates owed to state Medicaid programs. Specifically, the lawsuit alleges that both companies excluded certain discounts and rebates from their AMP reports, resulting in artificially high drug prices paid by public programs.",
-        "A lower court had dismissed the case, ruling that the plaintiffs had not sufficiently alleged fraud with particularity. The Ninth Circuit reversed, finding that 'detailed allegations of systematic exclusion of discounts' met the pleading standard."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Potential damages could exceed $4.5 billion",
-          "content": [
-            "Under the False Claims Act, defendants face treble damages plus penalties of up to $25,000 per false claim. If the whistleblower prevails, the government could recover more than $4.5 billion. The whistleblower would be entitled to 15-25% of the recovery.",
-            "AbbVie and AstraZeneca both denied the allegations. 'Our pricing practices are fully compliant with all applicable laws and regulations,' an AbbVie spokesperson said. AstraZeneca stated that it 'looks forward to demonstrating the lack of merit in these claims.'"
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This ruling is a major victory for transparency in drug pricing. Public programs should not be overcharged by billions while drug companies hide behind complex reporting rules.",
-          "cite": "Whistleblower attorney Reuben Guttman"
+          "type": "paragraph",
+          "text": "A federal jury in Boston has found Takeda Pharmaceutical liable for causing approximately $885 million in damages by orchestrating an anticompetitive scheme to delay a cheaper generic version of its constipation drug Amitiza (lubiprostone). The verdict, returned Monday in the U.S. District Court for the District of Massachusetts following a five-week trial, sided with a class of plaintiffs that included pharmacies, insurers, health funds, and major retailers such as CVS and Walgreens, who argued they were forced to overpay for the drug for years as a direct result of the arrangement."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The case will now return to district court for discovery and potential trial. The Department of Justice has not yet decided whether to intervene, but the Ninth Circuit's ruling may increase the likelihood of government participation."
-          ]
+          "text": "According to Reuters, the jury's award breaks down to roughly $475 million for direct purchasers and $347 million for individual retailers. Under federal antitrust law, $821.7 million of that total is subject to automatic trebling upon entry of final judgment, which would push the payout to approximately $2.47 billion. Takeda said in a statement released shortly after the verdict that the damages figure is not final and remains subject to further court proceedings, and that the company intends to \"vigorously pursue post-trial motions and an appeal.\""
+        },
+        {
+          "type": "heading",
+          "text": "How a 2014 Settlement Became the Heart of the Case"
+        },
+        {
+          "type": "paragraph",
+          "text": "The case traces its origins to 2012, when Par Pharmaceutical filed for FDA approval to market a generic version of Amitiza. Sucampo Pharmaceuticals — which developed Amitiza and partnered with Takeda to market it in the U.S. following FDA approval in 2006 — and Takeda responded with a patent infringement lawsuit. Par pushed back, arguing the patents were invalid. The litigation resolved in a 2014 settlement under which Par agreed not to launch a competing generic until January 2021. In exchange, Par was permitted to sell an authorized generic version of Amitiza supplied by Sucampo under a profit-sharing agreement. Plaintiffs' lawyers described the arrangement to jurors as a $210 million payoff that locked out cheaper alternatives for six additional years."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sucampo was later acquired by Mallinckrodt in a $1.2 billion deal in 2018. By the time Par's authorized generic entered the market in January 2021, Amitiza had been generating peak annual revenues of close to $500 million. In Takeda's fiscal year 2020 — the period when the first generic competition arrived — Amitiza sales fell nearly 25 percent year-over-year to roughly $191 million. Takeda no longer markets the drug; its license was terminated in 2024."
+        },
+        {
+          "type": "heading",
+          "text": "A Landmark in Pay-for-Delay Litigation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Monday's verdict is the first time a federal jury has found a pharmaceutical company liable in class-action litigation over a pay-for-delay agreement since the U.S. Supreme Court's 2013 ruling in FTC v. Actavis established that such settlements can violate antitrust law. Three earlier trials brought by private plaintiffs under similar theories all ended in defense verdicts. \"We were incredibly fortunate to have a committed jury that really showed up every day, took their job seriously,\" said Kristen Johnson, a lawyer for the direct purchaser class. \"They understood that paying off a competitor has real consequences on competition.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Seattle-based law firm Hagens Berman, which represented the direct purchaser class, said in a statement that the delay caused \"hundreds of millions of dollars in overcharges\" for its clients. The Federal Trade Commission has previously estimated that pay-for-delay arrangements cost consumers and taxpayers roughly $3.5 billion in higher drug prices annually, and has pursued several such cases in recent years, including a landmark $1.5 billion settlement with Teva in 2015."
+        },
+        {
+          "type": "heading",
+          "text": "Takeda Disputes the Verdict and Signals a Long Appeal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Takeda denied wrongdoing throughout the trial. Joshua Barlow, one of the company's defense attorneys, told jurors in his closing argument that the 2014 settlement with Par was both lawful and pro-competitive — that without it, a generic version of Amitiza would not have reached the market until the company's final patents expired, which he said is not scheduled until October 2027. Takeda also maintained that the deal actually allowed Par to introduce a generic more than six years ahead of that patent cliff. In its post-verdict statement, the company said it \"remains firm in our conviction that the plaintiffs' case lacks merit\" and cited what it called \"evidentiary and legal errors made during the trial.\" The verdict cannot be enforced until the court formally enters judgment, and Takeda's appeal is expected to proceed through the First Circuit."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 7, "slug": "ahold-delhaize-40-million-pharmacy-pricing-settlement", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp", "date": "June 18, 2026", "author": "Ruth Anselmi", "title": "Ahold Delhaize to Pay $40 Million Over Alleged Pharmacy Pricing Fraud in U.S. Health Programs", "excerpt": "Ahold Delhaize, owner of Stop & Shop and Giant pharmacies, agreed to a $40 million settlement after allegations that it inflated prescription prices charged to Medicare, Medicaid and TRICARE." },
+      { "id": 2, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." }
     ]
   },
