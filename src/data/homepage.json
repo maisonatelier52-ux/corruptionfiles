@@ -328,14 +328,14 @@
   },
   {
     "id": 2,
-    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
+    "slug": "russian-linked-medicare-fraud-operation-gold-rush",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "May 21, 2026",
-    "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "date": "June 30, 2026",
+    "title": "Russian-linked criminal network allegedly runs $1B Medicare fraud operation across U.S., federal investigators say",
     "author": "Ruth Anselmi",
-    "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing.",
-    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "excerpt": "U.S. authorities have uncovered a large-scale Medicare fraud scheme allegedly linked to Russian organised crime, involving fake medical billing and stolen patient data.",
+    "image": "/russian-linked-medicare-fraud-operation-gold-rush.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -420,6 +420,18 @@
     "author": "Ruth Anselmi",
     "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
     "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 10,
+    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "date": "May 21, 2026",
+    "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "author": "Ruth Anselmi",
+    "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed without proper licensing.",
+    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   }
 ],
