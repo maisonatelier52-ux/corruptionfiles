@@ -1121,95 +1121,77 @@
       { "id": 407, "slug": "belfast-psni-inaction-far-right-attacks", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/belfast-psni-inaction-far-right-attacks.webp", "date": "June 12, 2026", "author": "Darnell Hutchins", "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks", "excerpt": "Residents express outrage as targeted far‑right attacks escalate in Belfast, with calls for urgent PSNI intervention." }
     ]
   },
-    {
-      "id": 402,
-      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
-      "category": "pa",
-      "categoryLabel": "Police Accountability",
-      "categoryColor": "bg-[#e91e63]",
-      "metaTitle": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
-      "metaDescription": "A moment of silence for former officer Derek Chauvin at a Minnesota Republican convention has sparked criticism from officials and activists, reigniting debate over police accountability and justice reforms.",
-      "metaKeywords": [
-        "Minnesota GOP Derek Chauvin moment of silence 2026",
-        "Minnesota Republican convention Duluth Chauvin tribute",
-        "Keith Ellison blasts Minnesota GOP Chauvin",
-        "George Floyd sixth anniversary Minnesota Republicans",
-        "Derek Chauvin conviction pardon appeal 2026"
-      ],
-      "heading": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
-      "excerpt": "A delegate-requested moment of silence for Derek Chauvin at the Minnesota Republican Party's endorsement convention in Duluth — held days after the sixth anniversary of George Floyd's murder — has ignited a fierce political storm, with Attorney General Keith Ellison calling it an act of profound cruelty to the Floyd family while GOP party chair Alex Plechash declined to say whether he endorsed the tribute.",
-      "date": "June 2, 2026",
-      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
-      "heroImage": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
-      "alt": "Minnesota Republican Party state convention in Duluth where delegates held a 10-second moment of silence for Derek Chauvin, May 31, 2026",
-      "author": {
-        "name": "Darnell Hutchins",
-        "slug": "darnell-hutchins",
-        "avatar": "/darnell-hutchins.webp",
-        "bio": "Darnell started his career as a public defender...",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The Minnesota Republican Party's two-day endorsement convention in Duluth ended over the weekend with the party having selected its endorsed candidates for November's statewide races — but the moment that dominated the political fallout had nothing to do with the ballot. Early Saturday morning, before the day's formal business began, a delegate requested a moment of silence for Derek Chauvin, the former Minneapolis police officer serving more than 22 years in a Texas federal prison after being convicted of second-degree murder in the Memorial Day 2020 death of George Floyd. State Rep. Danny Nadeau, a Republican from Rogers who chaired the convention, put the motion to an informal vote and then led roughly 2,300 delegates in approximately ten seconds of silent prayer for Chauvin. The tribute was not planned by party leadership."
-          },
-          {
-            "type": "paragraph",
-            "text": "The timing was not incidental. May 25 marked the sixth anniversary of Floyd's death — the day Chauvin knelt on Floyd's neck for more than nine minutes while Floyd lay handcuffed and face down on a Minneapolis street, saying \"I can't breathe.\" Chauvin was found guilty by a jury in April 2021 on three counts: unintentional second-degree murder, third-degree murder, and second-degree manslaughter. He was sentenced to 22.5 years in prison. The Minnesota Court of Appeals has previously rejected his appeal, and a judge denied his petition for a new trial in May of this year."
-          },
-          {
-            "type": "heading",
-            "text": "Ellison: 'An Act of Profound Cruelty'"
-          },
-          {
-            "type": "paragraph",
-            "text": "Attorney General Keith Ellison, whose office prosecuted Chauvin and who was in Rochester over the weekend for the DFL convention where he received his party's endorsement for re-election, released a statement Sunday that did not mince words. \"I am heartbroken and frankly shocked by the Minnesota Republican Party's decision to hold a moment of silence for Derek Chauvin at their convention yesterday — days after the sixth anniversary of George Floyd's murder,\" Ellison wrote. \"George Floyd's children lost their father. His siblings lost their brother. His community lost a neighbor and friend. That loss is permanent and irreparable. The jury heard all the evidence. The appeals courts reviewed every claim. Justice was rendered according to our system of law. To honor the man convicted of murdering George Floyd — days after the very anniversary of that terrible day — is an act of profound cruelty to the Floyd family and to every Minnesotan who believes in accountability under law.\""
-          },
-          {
-            "type": "paragraph",
-            "text": "The Star Tribune reported that Ellison's statement also addressed the broader symbolism of the tribute, describing the moment as one that \"dishonors the memory of George Floyd and wounds his loved ones all over again.\" He added: \"I am deeply troubled by what this says about the state of our politics. I apologize to the Floyd family and to all the dedicated officers who do their jobs honorably every day.\""
-          },
-          {
-            "type": "heading",
-            "text": "GOP Chair Plechash Declines to Say Whether He Supported It"
-          },
-          {
-            "type": "paragraph",
-            "text": "Minnesota Republican Party Chair Alex Plechash appeared on WCCO Radio Monday morning with host Vineeta Sawkar and defended the party's handling of the moment while declining to state his personal view. \"That came from the body, of course. The body elected to have that moment of silence, we had maybe 10 seconds or so. There are a lot of people that believe Derek Chauvin was improperly convicted, and not treated well. Those people wanted to have a moment of silence in recognition because they felt that way,\" Plechash said. When Sawkar asked directly whether he agreed with those delegates, Plechash replied: \"I don't think I'm going to comment on that, the court system had its verdict and I'm not going to challenge the court.\" Asked further whether he was comfortable with a convicted murderer receiving a tribute at the party's convention, Plechash said: \"I don't think I should comment on that.\""
-          },
-          {
-            "type": "paragraph",
-            "text": "Convention chair Rep. Danny Nadeau told the Star Tribune that any delegate has the right to make a motion during the opening portion of the convention process, and that delegates submitted hundreds of such motions across the weekend. A spokesperson for the Minnesota Republican Party separately told the outlet that Nadeau's responsibility as chairman was to \"preside over the proceedings\" and that the vote on the moment of silence came from the delegates themselves, not from party leadership."
-          },
-          {
-            "type": "heading",
-            "text": "Emmer Defends the Delegates; Democrats Tie It to Broader Party Failures"
-          },
-          {
-            "type": "paragraph",
-            "text": "Congressman Tom Emmer offered the most forceful Republican defence of the moment in a statement to FOX 9. \"It's a sad day in the State of Minnesota when it's so-called 'news' that hundreds of patriotic Minnesotans came together to peacefully and respectfully recognize a member of law enforcement,\" Emmer said, adding that journalists should instead \"cover the corrupt and incompetent Walz-Flanagan-Ellison-Simon administration.\" Some national conservative voices, including commentator Ben Shapiro, have argued in an open letter to President Trump that Chauvin did not receive a fair trial due to jury pressure, and have pushed for a presidential pardon. No pardon has been issued."
-          },
-          {
-            "type": "paragraph",
-            "text": "Democratic legislators tied the moment directly to gun violence and a stalled legislative agenda. Rep. Jamie Long (D-Minneapolis) called the tribute \"disgusting\" and noted the GOP had chosen to honour a convicted murderer while blocking a gun safety bill in the House. Rep. Jay Xiong (D-St. Paul) shared Long's post and called out House Speaker Lisa Demuth — who has not commented on the moment of silence — for remaining silent. \"Two children were killed during morning Mass at Annunciation and 28 others were injured — and Demuth buried the gun safety bill and blocked a full House vote,\" Xiong wrote. \"No moment of silence for Fletcher Merkel, Harper Moyski, or Melissa and Mark Hortman, murdered in their own home by a gunman with a death list of Democratic lawmakers.\""
-          },
-          {
-            "type": "heading",
-            "text": "Convention Endorsements and an Unresolved Ballot Dispute"
-          },
-          {
-            "type": "paragraph",
-            "text": "Beneath the controversy, the convention accomplished its formal purpose. GOP delegates endorsed Kendall Qualls — who secured the party's backing over incumbent Governor Tim Walz — and former Navy SEAL Adam Schwarze for U.S. Senate. The convention also left an unresolved dispute over a disruption in the convention balloting, following which the Minnesota Republican Party said that Governor candidate Lisa Demuth may continue her campaign even though Qualls secured the party's formal endorsement. The Star Tribune noted that the Chauvin moment is now giving Democrats a ready-made attack line as the 2026 campaign season begins in earnest — one that Republicans will need to answer at every contested forum between now and November."
-          }
-        ]
-      },
-      "relatedPosts": [
-        { "id": 409, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
-        { "id": 404, "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp", "date": "June 5, 2026", "author": "Darnell Hutchins", "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate", "excerpt": "UK Prime Minister Keir Starmer has called on Elon Musk to refrain from influencing UK politics, amid growing concerns over police misconduct and public accountability." }
+  {
+    "id": 402,
+    "slug": "uk-police-gross-misconduct-investigation-henry-nowak",
+    "category": "pa",
+    "categoryLabel": "Police Accountability",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "UK Police Under Gross Misconduct Investigation After Arresting Stab Victim in Fatal Misidentification Case | Police Accountability",
+    "metaDescription": "Two Hampshire police officers are under investigation by the IOPC for gross misconduct after handcuffing 18-year-old Henry Nowak as he lay dying from stab wounds, following his killer's false claims of a racist attack.",
+    "metaKeywords": [
+      "Henry Nowak",
+      "IOPC investigation",
+      "gross misconduct",
+      "Hampshire police",
+      "police accountability",
+      "UK police",
+      "Vickrum Digwa"
+    ],
+    "heading": "UK Police Under Gross Misconduct Investigation After Arresting Stab Victim in Fatal Misidentification Case",
+    "excerpt": "Two Hampshire police officers are under investigation by the Independent Office for Police Conduct (IOPC) after reportedly handcuffing 18-year-old Henry Nowak as he lay dying from stab wounds.",
+    "date": "July 1, 2026",
+    "image": "/uk-police-gross-misconduct-investigation-henry-nowak.webp",
+    "heroImage": "/uk-police-gross-misconduct-investigation-henry-nowak.webp",
+    "alt": "Protesters holding signs demanding justice for Henry Nowak outside a police station in Southampton, UK.",
+    "author": {
+      "name": "Darnell Hutchins",
+      "slug": "darnell-hutchins",
+      "avatar": "/darnell-hutchins.webp",
+      "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty. He has since covered police accountability across three continents.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Two police officers in the case of Henry Nowak have been placed under investigation for gross misconduct by Britain's police watchdog, the Independent Office for Police Conduct (IOPC). Nowak, an 18-year-old finance and accounting university student, died in December 2025 after being stabbed by Vickrum Digwa in Southampton."
+        },
+        {
+          "type": "paragraph",
+          "text": "Digwa, a British Sikh, falsely told police he was the victim of a racist attack, claiming Nowak had racially insulted him. This led officers to handcuff Nowak and treat him as a suspect, despite him saying he had been stabbed and that he could not breathe. Digwa was convicted of murder and sentenced to life in prison with a minimum term of 21 years."
+        },
+        {
+          "type": "heading",
+          "text": "IOPC Investigation and Potential Misconduct"
+        },
+        {
+          "type": "paragraph",
+          "text": "The IOPC said evidence suggested the two officers who arrived first may have breached professional standards. The investigation relates to potential failures by the officers to recognise Nowak needed urgent medical help and the decision to arrest and handcuff him rather than provide first aid. There is also an indication one of the officers may have breached standards of authority, respect and courtesy by appearing to dismiss Nowak when he said he had been stabbed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Derrick Campbell, director of engagement at the IOPC, said: 'Our investigators met with Henry's family earlier this month where we were able to discuss our investigation with them in depth, now that criminal proceedings have concluded.' Campbell added: 'Two officers will now face gross misconduct investigations. There is clear evidence that public confidence in the force may have been seriously harmed by this incident, and that is a factor we must consider when assessing the evidence.'"
+        },
+        {
+          "type": "heading",
+          "text": "Race and Community Tensions Under Scrutiny"
+        },
+        {
+          "type": "paragraph",
+          "text": "The watchdog is also investigating whether the race or religion of either Henry or the Digwa family impacted on the actions and decision-making of the officers. It will also look at whether officers' decisions were influenced by assumptions or prejudice relating to community tensions at the time. The case has sparked anger and protests, with far-right figures claiming the officers' response proved police forces treat white people and ethnic minorities differently."
+        },
+        {
+          "type": "paragraph",
+          "text": "The IOPC will also examine why Nowak was handcuffed, while Digwa was not when he was arrested for attempted murder after police realised Nowak had been stabbed. The police force involved has since apologised for handcuffing Nowak. The IOPC said it will share its provisional findings with Nowak's family and Hampshire police before any final decisions are made."
+        }
       ]
     },
+    "relatedPosts": [
+      { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
+      { "id": 408, "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp", "date": "June 18, 2026", "author": "Darnell Hutchins", "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface", "excerpt": "A former Louisville police officer has been indicted on manslaughter charges in the fatal shooting of an unarmed man, renewing scrutiny over police accountability." }
+    ]
+  },
     {
       "id": 403,
       "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
@@ -1365,7 +1347,7 @@
       },
       "relatedPosts": [
         { "id": 409, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
-        { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." }
+        { "id": 410, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." }
       ]
     },
     {
@@ -1805,8 +1787,97 @@
         ]
       },
       "relatedPosts": [
-        { "id": 402, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
+        { "id": 410, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
         { "id": 403, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
+      ]
+    },
+    {
+      "id": 410,
+      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+      "category": "pa",
+      "categoryLabel": "Police Accountability",
+      "categoryColor": "bg-[#e91e63]",
+      "metaTitle": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "metaDescription": "A moment of silence for former officer Derek Chauvin at a Minnesota Republican convention has sparked criticism from officials and activists, reigniting debate over police accountability and justice reforms.",
+      "metaKeywords": [
+        "Minnesota GOP Derek Chauvin moment of silence 2026",
+        "Minnesota Republican convention Duluth Chauvin tribute",
+        "Keith Ellison blasts Minnesota GOP Chauvin",
+        "George Floyd sixth anniversary Minnesota Republicans",
+        "Derek Chauvin conviction pardon appeal 2026"
+      ],
+      "heading": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "excerpt": "A delegate-requested moment of silence for Derek Chauvin at the Minnesota Republican Party's endorsement convention in Duluth — held days after the sixth anniversary of George Floyd's murder — has ignited a fierce political storm, with Attorney General Keith Ellison calling it an act of profound cruelty to the Floyd family while GOP party chair Alex Plechash declined to say whether he endorsed the tribute.",
+      "date": "June 2, 2026",
+      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "heroImage": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "alt": "Minnesota Republican Party state convention in Duluth where delegates held a 10-second moment of silence for Derek Chauvin, May 31, 2026",
+      "author": {
+        "name": "Darnell Hutchins",
+        "slug": "darnell-hutchins",
+        "avatar": "/darnell-hutchins.webp",
+        "bio": "Darnell started his career as a public defender...",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Minnesota Republican Party's two-day endorsement convention in Duluth ended over the weekend with the party having selected its endorsed candidates for November's statewide races — but the moment that dominated the political fallout had nothing to do with the ballot. Early Saturday morning, before the day's formal business began, a delegate requested a moment of silence for Derek Chauvin, the former Minneapolis police officer serving more than 22 years in a Texas federal prison after being convicted of second-degree murder in the Memorial Day 2020 death of George Floyd. State Rep. Danny Nadeau, a Republican from Rogers who chaired the convention, put the motion to an informal vote and then led roughly 2,300 delegates in approximately ten seconds of silent prayer for Chauvin. The tribute was not planned by party leadership."
+          },
+          {
+            "type": "paragraph",
+            "text": "The timing was not incidental. May 25 marked the sixth anniversary of Floyd's death — the day Chauvin knelt on Floyd's neck for more than nine minutes while Floyd lay handcuffed and face down on a Minneapolis street, saying \"I can't breathe.\" Chauvin was found guilty by a jury in April 2021 on three counts: unintentional second-degree murder, third-degree murder, and second-degree manslaughter. He was sentenced to 22.5 years in prison. The Minnesota Court of Appeals has previously rejected his appeal, and a judge denied his petition for a new trial in May of this year."
+          },
+          {
+            "type": "heading",
+            "text": "Ellison: 'An Act of Profound Cruelty'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Attorney General Keith Ellison, whose office prosecuted Chauvin and who was in Rochester over the weekend for the DFL convention where he received his party's endorsement for re-election, released a statement Sunday that did not mince words. \"I am heartbroken and frankly shocked by the Minnesota Republican Party's decision to hold a moment of silence for Derek Chauvin at their convention yesterday — days after the sixth anniversary of George Floyd's murder,\" Ellison wrote. \"George Floyd's children lost their father. His siblings lost their brother. His community lost a neighbor and friend. That loss is permanent and irreparable. The jury heard all the evidence. The appeals courts reviewed every claim. Justice was rendered according to our system of law. To honor the man convicted of murdering George Floyd — days after the very anniversary of that terrible day — is an act of profound cruelty to the Floyd family and to every Minnesotan who believes in accountability under law.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The Star Tribune reported that Ellison's statement also addressed the broader symbolism of the tribute, describing the moment as one that \"dishonors the memory of George Floyd and wounds his loved ones all over again.\" He added: \"I am deeply troubled by what this says about the state of our politics. I apologize to the Floyd family and to all the dedicated officers who do their jobs honorably every day.\""
+          },
+          {
+            "type": "heading",
+            "text": "GOP Chair Plechash Declines to Say Whether He Supported It"
+          },
+          {
+            "type": "paragraph",
+            "text": "Minnesota Republican Party Chair Alex Plechash appeared on WCCO Radio Monday morning with host Vineeta Sawkar and defended the party's handling of the moment while declining to state his personal view. \"That came from the body, of course. The body elected to have that moment of silence, we had maybe 10 seconds or so. There are a lot of people that believe Derek Chauvin was improperly convicted, and not treated well. Those people wanted to have a moment of silence in recognition because they felt that way,\" Plechash said. When Sawkar asked directly whether he agreed with those delegates, Plechash replied: \"I don't think I'm going to comment on that, the court system had its verdict and I'm not going to challenge the court.\" Asked further whether he was comfortable with a convicted murderer receiving a tribute at the party's convention, Plechash said: \"I don't think I should comment on that.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Convention chair Rep. Danny Nadeau told the Star Tribune that any delegate has the right to make a motion during the opening portion of the convention process, and that delegates submitted hundreds of such motions across the weekend. A spokesperson for the Minnesota Republican Party separately told the outlet that Nadeau's responsibility as chairman was to \"preside over the proceedings\" and that the vote on the moment of silence came from the delegates themselves, not from party leadership."
+          },
+          {
+            "type": "heading",
+            "text": "Emmer Defends the Delegates; Democrats Tie It to Broader Party Failures"
+          },
+          {
+            "type": "paragraph",
+            "text": "Congressman Tom Emmer offered the most forceful Republican defence of the moment in a statement to FOX 9. \"It's a sad day in the State of Minnesota when it's so-called 'news' that hundreds of patriotic Minnesotans came together to peacefully and respectfully recognize a member of law enforcement,\" Emmer said, adding that journalists should instead \"cover the corrupt and incompetent Walz-Flanagan-Ellison-Simon administration.\" Some national conservative voices, including commentator Ben Shapiro, have argued in an open letter to President Trump that Chauvin did not receive a fair trial due to jury pressure, and have pushed for a presidential pardon. No pardon has been issued."
+          },
+          {
+            "type": "paragraph",
+            "text": "Democratic legislators tied the moment directly to gun violence and a stalled legislative agenda. Rep. Jamie Long (D-Minneapolis) called the tribute \"disgusting\" and noted the GOP had chosen to honour a convicted murderer while blocking a gun safety bill in the House. Rep. Jay Xiong (D-St. Paul) shared Long's post and called out House Speaker Lisa Demuth — who has not commented on the moment of silence — for remaining silent. \"Two children were killed during morning Mass at Annunciation and 28 others were injured — and Demuth buried the gun safety bill and blocked a full House vote,\" Xiong wrote. \"No moment of silence for Fletcher Merkel, Harper Moyski, or Melissa and Mark Hortman, murdered in their own home by a gunman with a death list of Democratic lawmakers.\""
+          },
+          {
+            "type": "heading",
+            "text": "Convention Endorsements and an Unresolved Ballot Dispute"
+          },
+          {
+            "type": "paragraph",
+            "text": "Beneath the controversy, the convention accomplished its formal purpose. GOP delegates endorsed Kendall Qualls — who secured the party's backing over incumbent Governor Tim Walz — and former Navy SEAL Adam Schwarze for U.S. Senate. The convention also left an unresolved dispute over a disruption in the convention balloting, following which the Minnesota Republican Party said that Governor candidate Lisa Demuth may continue her campaign even though Qualls secured the party's formal endorsement. The Star Tribune noted that the Chauvin moment is now giving Democrats a ready-made attack line as the 2026 campaign season begins in earnest — one that Republicans will need to answer at every contested forum between now and November."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 409, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
+        { "id": 404, "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp", "date": "June 5, 2026", "author": "Darnell Hutchins", "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate", "excerpt": "UK Prime Minister Keir Starmer has called on Elon Musk to refrain from influencing UK politics, amid growing concerns over police misconduct and public accountability." }
       ]
     },
     {

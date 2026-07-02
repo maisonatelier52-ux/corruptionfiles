@@ -175,12 +175,12 @@
 },
 {
   "id": 402,
-  "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+  "slug": "uk-police-gross-misconduct-investigation-henry-nowak",
+  "image": "/uk-police-gross-misconduct-investigation-henry-nowak.webp",
   "category": "pa",
-  "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
-  "date": "June 2, 2026",
+  "title": "UK Police Under Gross Misconduct Investigation After Arresting Stab Victim in Fatal Misidentification Case",
+  "date": "July 1, 2026",
   "author": "Darnell Hutchins"
 },
 {
@@ -257,6 +257,16 @@
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
   "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
   "date": "May 14, 2026",
+  "author": "Darnell Hutchins"
+},
+{
+  "id": 410,
+  "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+  "category": "pa",
+  "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+  "date": "June 2, 2026",
   "author": "Darnell Hutchins"
 }
   ],
