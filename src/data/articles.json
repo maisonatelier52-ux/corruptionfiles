@@ -3104,25 +3104,27 @@
   },
   {
     "id": 601,
-    "slug": "global-rainforests-breaking-point-resource-exploitation",
+    "slug": "climate-activists-sue-totalenergies-nigeria-oil-sale",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
-    "metaDescription": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia.",
+    "metaTitle": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns | Environmental Exploitation",
+    "metaDescription": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake, citing concerns about spill risks, pollution history, and inadequate environmental safeguards.",
     "metaKeywords": [
-      "rainforest destruction resource exploitation 2026",
-      "Amazon Congo Basin deforestation report",
-      "critical minerals biofuels deforestation",
-      "Rainforest Foundation Norway Profundo study",
-      "Global Forest Watch tropical forest loss 2025"
+      "TotalEnergies lawsuit",
+      "Nigeria oil asset sale",
+      "climate activists",
+      "environmental risk",
+      "Niger Delta pollution",
+      "France duty of vigilance law",
+      "SPDC"
     ],
-    "heading": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
-    "excerpt": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia — layering fresh extraction pressure on top of long-established drivers that forests are already struggling to absorb.",
-    "date": "May 20, 2026",
-    "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
-    "heroImage": "/global-rainforests-breaking-point-resource-exploitation.webp",
-    "alt": "Burning Amazon rainforest clearing for cattle ranching and mining operations, 2026",
+    "heading": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns",
+    "excerpt": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake, citing concerns about spill risks, pollution history, and inadequate environmental safeguards.",
+    "date": "July 1, 2026",
+    "image": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
+    "heroImage": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
+    "alt": "Protesters hold signs outside a TotalEnergies facility, demanding transparency over the company's Nigerian oil asset sale.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -3134,61 +3136,73 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The world's tropical rainforests are approaching a breaking point, according to a new report commissioned by Rainforest Foundation Norway and produced by Dutch research organization Profundo. The study, published on May 20, identifies a compounding assault on the Amazon, the Congo Basin, and the forests of Southeast Asia — one driven not only by long-established threats such as cattle ranching, oil drilling, and monoculture agriculture, but increasingly by a new wave of extraction tied to critical minerals, biofuels, and industrial pulp. These newer pressures, the report concludes, are weakening forests' ability to regulate temperature, store carbon, recycle water, and support wildlife — functions that underpin climate stability far beyond the forest edge."
+          "text": "Friends of the Earth France, and a handful of other non-profits, have filed a civil suit against TotalEnergies in France requesting access to environmental data connected to the company’s planned sale of its onshore oil interests in Nigeria’s Niger Delta. Filed July 1, 2026, the lawsuit seeks to force the oil giant to disclose the conditions of its intended divestment from the Renaissance joint venture in which it owns a 10% share."
         },
         {
           "type": "paragraph",
-          "text": "\"It creates a pressure that the rainforests cannot withstand,\" said Ingrid Turgen of Rainforest Foundation Norway. The study calls on governments and industry to urgently replace and reduce consumption of forest-derived products, and frames the extractive threats from energy, mining, and e-commerce as elements of a single compounded crisis rather than separate problems to be managed in isolation."
+          "text": "The case is made under Article 145 of the French Code of Civil Procedure, which allows parties to ask a court to impose measures to preserve or gather evidence before a substantive action is filed. NGOs say the deal has been done with little public notice, raising issues about who will be responsible for cleaning up polluted sites and paying communities damaged by decades of oil exploration in the Niger Delta."
         },
         {
           "type": "heading",
-          "text": "Cattle, Gold, and the Expanding Agricultural Frontier"
+          "text": "France's Duty of Vigilance Law"
         },
         {
           "type": "paragraph",
-          "text": "The report identifies cattle ranching, large-scale agriculture, and gold mining as the three most significant current threats to tropical forests — and all three are expected to continue expanding. The Brazilian government's own forecast of a 10.2 percent increase in beef production is likely to cause at least 57,000 square kilometers of additional deforestation by 2034, the study found. That projection could climb higher still if the trend of shifting ranching operations deeper into the Amazon continues. Global meat production overall is expected to rise by 13 percent over the same period, driven by population growth and rising incomes in developing markets."
+          "text": "The lawsuit cites France's corporate duty of vigilance law, which requires large companies to identify and prevent serious human rights and environmental risks linked to their operations and business relationships. The NGOs want to analyse environmental management plans included in the sale agreement. If they deem them insufficient under Total's duty of vigilance, they can file a second lawsuit asking the court to force Total to take remedial steps."
         },
         {
           "type": "paragraph",
-          "text": "Gold mining is also carving into the Amazon at a pace that tracks commodity prices more than policy. Open-pit goldmines already cover 1.9 million hectares of the Amazon biome. The report identifies a clear correlation between gold price increases and deforestation linked to mining activity in the Brazilian Amazon, and projects that current demand trends will cause an additional 375 square kilometers of forest loss by 2028 from this source alone. Nearly three-quarters of gold demand comes from jewelry (43 percent) and investor holdings, with technology contributing a further 7 percent — meaning the market signals encouraging more mining are embedded in everyday consumer behavior."
+          "text": "The organisations involved in the legal action include Friends of the Earth France, Hawkmoth, HEDA Resource Centre and Social Action International, supported by The Corner House and ReCommon. They are demanding documents that would clarify the terms of the proposed sale of TotalEnergies' stake in the Renaissance joint venture."
         },
         {
           "type": "heading",
-          "text": "The Clean Energy Paradox: Critical Minerals and Fossil Fuel Frontiers"
+          "text": "Nigeria's Niger Delta: A Legacy of Pollution"
         },
         {
           "type": "paragraph",
-          "text": "Among the report's more pointed findings is a paradox at the heart of the global energy transition. Mining for critical minerals — lithium, nickel, and cobalt, which are essential components of electric vehicle batteries and renewable energy infrastructure — is adding new stress to forest ecosystems at precisely the moment the world is attempting to move away from fossil fuels. The environmental impact of these operations is larger than commonly understood, the report argues, due to secondary effects including water pollution from mine tailings, road construction that opens previously inaccessible forest interiors to further exploitation, and the displacement of communities that previously acted as de facto forest stewards."
+          "text": "The organisations cited findings by the Bayelsa State Oil and Environmental Commission, which described the Niger Delta as one of the world's 'most polluted places on Earth.' Decades of oil production have left drinking water contaminated, destroyed fisheries and rendered large areas of farmland unsuitable for cultivation. According to the commission's 2023 report, between nine million and 13 million barrels of crude oil were spilled across the Niger Delta between 1958 and 2010 — an amount estimated to be 35 to 50 times the volume released during the Exxon Valdez oil spill in Alaska."
         },
         {
           "type": "paragraph",
-          "text": "Meanwhile, fossil fuel extraction itself is expanding into the Amazon at an accelerating rate. The study notes that the Amazon has become one of the world's fastest-growing fossil fuel frontiers, with active exploration and extraction in Brazil, Suriname, Ecuador, Colombia, and Peru. Nearly one-fifth of all oil and natural gas reserves discovered globally between 2022 and 2024 were located in South American rainforest or offshore areas. In the Congo Basin, the Democratic Republic of the Congo last year approved the exploration of 52 new oil blocks covering 1.24 million square kilometers in the Cuvette Centrale peatlands — the world's largest terrestrial carbon sink."
+          "text": "'This case is about people, not just oil assets. It is about children growing up with poisoned water, families breathing polluted air, and communities losing their health and livelihoods while international oil companies walk away with decades of profits,' said Isaac Osuoka, Coordinator of Social Action International."
         },
         {
           "type": "heading",
-          "text": "WRI Data: Loss Down from Record, But Still Alarmingly High"
+          "text": "The Sale Agreement and Regulatory Hurdles"
         },
         {
           "type": "paragraph",
-          "text": "The Rainforest Foundation Norway report lands against a backdrop of cautious and contested progress documented in Global Forest Watch's annual analysis, released by the World Resources Institute on April 29. The WRI found that tropical primary rainforest loss dropped 36 percent in 2025 compared to the record high set in 2024 — a decline driven largely by policy enforcement in Brazil. The world still lost 4.3 million hectares of tropical primary rainforest in 2025, an area roughly the size of Denmark. Despite the year-on-year improvement, that figure remains 46 percent higher than the rate recorded a decade ago, with primary forests disappearing at approximately 11 soccer fields per minute."
+          "text": "TotalEnergies announced in January 2026 that it had signed a sale and purchase agreement to divest its 10% non-operating interest in the Renaissance joint venture to Nigerian consortium Vaaris. The proposed sale covers its interest in 18 onshore oil mining licences in the Niger Delta but excludes its stakes in three gas-producing licences that supply about half of the feed gas to the Nigeria LNG project."
         },
         {
           "type": "paragraph",
-          "text": "Bolivia recorded the second-highest amount of tropical primary forest loss in the world in 2025, despite holding 60 percent less primary forest than the Democratic Republic of Congo. Fire — mostly set by humans to clear land for agriculture — was the main driver in Bolivia, alongside the expansion of cattle ranching and soy and maize cultivation.In the DRC, although total forest loss dipped slightly in 2025, non-fire loss hit a record high, linked to small-scale farming, charcoal production, conflict-driven displacement, and intensifying pressure from mining.There's progress in parts of the Congo Basin, but in others deforestation remains alarmingly high, said Teodyl Nkuintchua, Congo Basin Strategy and Engagement Lead at WRI Africa."
+          "text": "Completion of the transaction remains subject to approval by the Nigerian Upstream Petroleum Regulatory Commission (NUPRC). Nigerian regulators have not yet approved the sale. Before it approves the sale, Nigeria's oil regulator must first verify Vaaris has the technical and financial expertise to operate the asset, including maintaining environmental standards."
+        },
+        {
+          "type": "paragraph",
+          "text": "NGOs, however, question whether Renaissance's new owners have that financial capacity. Vaaris has yet to close its transaction with Total despite repeated deadline extensions. And Shell had to loan funds to buyer Renaissance Africa Energy Company in order to complete the sale of its stake."
         },
         {
           "type": "heading",
-          "text": "Southeast Asia: Stable for Now, But Under Pressure"
+          "text": "Industry Perspective and Concerns"
         },
         {
           "type": "paragraph",
-          "text": "Indonesia and Malaysia posted stable and relatively low forest loss rates in 2025 compared to the peaks of the mid-2010s. Indonesia's performance was attributed in part to policies restricting new forest clearing and expanding community forest rights.However, analysts cautioned that Jakarta's ambitions for large-scale food and energy self-sufficiency involving expanded palm oil and biofuel production risk reversing those gains. The WRI noted that 2026 will put Southeast Asia's recent progress to a severe test, with El Niño conditions expected to increase fire risk and national elections in several forest-heavy countries set to determine whether conservation policies hold."
+          "text": "TotalEnergies CEO Patrick Pouyanne said at the company's May 29 shareholder meeting that it was selling the asset because it was unable to stop oil theft. 'There is a national sport of sorts involving making holes in these pipes to take the oil and load it onto tankers. It's like the Wild West,' he said. Acts of sabotage have largely subsided since Shell sold its 30% stake in the asset, which was recently renamed Renaissance, to a Nigerian company and production has increased, he added."
+        },
+        {
+          "type": "paragraph",
+          "text": "Total was responsible for confirmed cases of pollution under its ownership, Pouyanne told the meeting, but Vaaris would be responsible for future leaks. 'Given the increased production that has occurred with the departure of international companies, I think they'll have the money to finance cleanup. And above all, there will be less sabotage, so pollution will go down,' he said."
+        },
+        {
+          "type": "paragraph",
+          "text": "However, activists remain sceptical. 'None of the divestments so far has involved a blueprint for environmental remediation,' said Ken Henshaw, executive director of We the People, an NGO based in the Niger Delta involved in the suit. 'The Nigerian government is more interested in how the successor companies will expand the assets and generate more oil for revenues rather than managing environmental issues,' he said."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
-      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
+      { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
   {
@@ -3276,7 +3290,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
       { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
@@ -3454,7 +3468,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 601, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
       { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
@@ -3819,6 +3833,95 @@
     "relatedPosts": [
       { "id": 605, "slug": "unicef-report-children-climate-hazards-2026", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/unicef-report-children-climate-hazards-2026.webp", "date": "June 18, 2026", "author": "Thomas Aldgate", "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", "excerpt": "A new UNICEF report warns that nearly all children worldwide are exposed to climate-related hazards, raising concerns over health, safety, and future well-being." },
       { "id": 607, "slug": "thames-water-rescue-plan-backlash-pollution-environment", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp", "date": "June 16, 2026", "author": "Thomas Aldgate", "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK", "excerpt": "Critics say Thames Water’s rescue plan fails to address ongoing pollution issues, raising concerns about environmental protection and accountability across the UK." }
+    ]
+  },
+  {
+    "id": 609,
+    "slug": "global-rainforests-breaking-point-resource-exploitation",
+    "category": "eco",
+    "categoryLabel": "Environmental Exploitation",
+    "categoryColor": "bg-[#2196f3]",
+    "metaTitle": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+    "metaDescription": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia.",
+    "metaKeywords": [
+      "rainforest destruction resource exploitation 2026",
+      "Amazon Congo Basin deforestation report",
+      "critical minerals biofuels deforestation",
+      "Rainforest Foundation Norway Profundo study",
+      "Global Forest Watch tropical forest loss 2025"
+    ],
+    "heading": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+    "excerpt": "A new report warns that rising demand for minerals, biofuels and industrial resources is accelerating rainforest destruction across the Amazon, Congo Basin and Southeast Asia — layering fresh extraction pressure on top of long-established drivers that forests are already struggling to absorb.",
+    "date": "May 20, 2026",
+    "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
+    "heroImage": "/global-rainforests-breaking-point-resource-exploitation.webp",
+    "alt": "Burning Amazon rainforest clearing for cattle ranching and mining operations, 2026",
+    "author": {
+      "name": "Thomas Aldgate",
+      "slug": "thomas-aldgate",
+      "avatar": "/thomas-aldgate.webp",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The world's tropical rainforests are approaching a breaking point, according to a new report commissioned by Rainforest Foundation Norway and produced by Dutch research organization Profundo. The study, published on May 20, identifies a compounding assault on the Amazon, the Congo Basin, and the forests of Southeast Asia — one driven not only by long-established threats such as cattle ranching, oil drilling, and monoculture agriculture, but increasingly by a new wave of extraction tied to critical minerals, biofuels, and industrial pulp. These newer pressures, the report concludes, are weakening forests' ability to regulate temperature, store carbon, recycle water, and support wildlife — functions that underpin climate stability far beyond the forest edge."
+        },
+        {
+          "type": "paragraph",
+          "text": "\"It creates a pressure that the rainforests cannot withstand,\" said Ingrid Turgen of Rainforest Foundation Norway. The study calls on governments and industry to urgently replace and reduce consumption of forest-derived products, and frames the extractive threats from energy, mining, and e-commerce as elements of a single compounded crisis rather than separate problems to be managed in isolation."
+        },
+        {
+          "type": "heading",
+          "text": "Cattle, Gold, and the Expanding Agricultural Frontier"
+        },
+        {
+          "type": "paragraph",
+          "text": "The report identifies cattle ranching, large-scale agriculture, and gold mining as the three most significant current threats to tropical forests — and all three are expected to continue expanding. The Brazilian government's own forecast of a 10.2 percent increase in beef production is likely to cause at least 57,000 square kilometers of additional deforestation by 2034, the study found. That projection could climb higher still if the trend of shifting ranching operations deeper into the Amazon continues. Global meat production overall is expected to rise by 13 percent over the same period, driven by population growth and rising incomes in developing markets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gold mining is also carving into the Amazon at a pace that tracks commodity prices more than policy. Open-pit goldmines already cover 1.9 million hectares of the Amazon biome. The report identifies a clear correlation between gold price increases and deforestation linked to mining activity in the Brazilian Amazon, and projects that current demand trends will cause an additional 375 square kilometers of forest loss by 2028 from this source alone. Nearly three-quarters of gold demand comes from jewelry (43 percent) and investor holdings, with technology contributing a further 7 percent — meaning the market signals encouraging more mining are embedded in everyday consumer behavior."
+        },
+        {
+          "type": "heading",
+          "text": "The Clean Energy Paradox: Critical Minerals and Fossil Fuel Frontiers"
+        },
+        {
+          "type": "paragraph",
+          "text": "Among the report's more pointed findings is a paradox at the heart of the global energy transition. Mining for critical minerals — lithium, nickel, and cobalt, which are essential components of electric vehicle batteries and renewable energy infrastructure — is adding new stress to forest ecosystems at precisely the moment the world is attempting to move away from fossil fuels. The environmental impact of these operations is larger than commonly understood, the report argues, due to secondary effects including water pollution from mine tailings, road construction that opens previously inaccessible forest interiors to further exploitation, and the displacement of communities that previously acted as de facto forest stewards."
+        },
+        {
+          "type": "paragraph",
+          "text": "Meanwhile, fossil fuel extraction itself is expanding into the Amazon at an accelerating rate. The study notes that the Amazon has become one of the world's fastest-growing fossil fuel frontiers, with active exploration and extraction in Brazil, Suriname, Ecuador, Colombia, and Peru. Nearly one-fifth of all oil and natural gas reserves discovered globally between 2022 and 2024 were located in South American rainforest or offshore areas. In the Congo Basin, the Democratic Republic of the Congo last year approved the exploration of 52 new oil blocks covering 1.24 million square kilometers in the Cuvette Centrale peatlands — the world's largest terrestrial carbon sink."
+        },
+        {
+          "type": "heading",
+          "text": "WRI Data: Loss Down from Record, But Still Alarmingly High"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Rainforest Foundation Norway report lands against a backdrop of cautious and contested progress documented in Global Forest Watch's annual analysis, released by the World Resources Institute on April 29. The WRI found that tropical primary rainforest loss dropped 36 percent in 2025 compared to the record high set in 2024 — a decline driven largely by policy enforcement in Brazil. The world still lost 4.3 million hectares of tropical primary rainforest in 2025, an area roughly the size of Denmark. Despite the year-on-year improvement, that figure remains 46 percent higher than the rate recorded a decade ago, with primary forests disappearing at approximately 11 soccer fields per minute."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bolivia recorded the second-highest amount of tropical primary forest loss in the world in 2025, despite holding 60 percent less primary forest than the Democratic Republic of Congo. Fire — mostly set by humans to clear land for agriculture — was the main driver in Bolivia, alongside the expansion of cattle ranching and soy and maize cultivation.In the DRC, although total forest loss dipped slightly in 2025, non-fire loss hit a record high, linked to small-scale farming, charcoal production, conflict-driven displacement, and intensifying pressure from mining.There's progress in parts of the Congo Basin, but in others deforestation remains alarmingly high, said Teodyl Nkuintchua, Congo Basin Strategy and Engagement Lead at WRI Africa."
+        },
+        {
+          "type": "heading",
+          "text": "Southeast Asia: Stable for Now, But Under Pressure"
+        },
+        {
+          "type": "paragraph",
+          "text": "Indonesia and Malaysia posted stable and relatively low forest loss rates in 2025 compared to the peaks of the mid-2010s. Indonesia's performance was attributed in part to policies restricting new forest clearing and expanding community forest rights.However, analysts cautioned that Jakarta's ambitions for large-scale food and energy self-sufficiency involving expanded palm oil and biofuel production risk reversing those gains. The WRI noted that 2026 will put Southeast Asia's recent progress to a severe test, with El Niño conditions expected to increase fire risk and national elections in several forest-heavy countries set to determine whether conservation policies hold."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
+      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
     ]
   },
   {

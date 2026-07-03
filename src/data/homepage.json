@@ -457,15 +457,15 @@
   ],
       "discoveryMain": {
       "id": 501,
-      "slug": "global-rainforests-breaking-point-resource-exploitation",
+      "slug": "climate-activists-sue-totalenergies-nigeria-oil-sale",
       "category": "eco",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "May 20, 2026",
-      "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+      "date": "July 1, 2026",
+      "title": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns",
       "author": "Thomas Aldgate",
-      "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia.",
-      "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
+      "excerpt": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake.",
+      "image": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
       "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
     },
   "discoveryMiddle": [
@@ -548,6 +548,17 @@
       "image": "/texas-fracking-expansion-near-schools-arlington.webp",
       "categoryColor": "bg-[#2196f3]",
       "date": "June 17, 2026",
+      "author": "Thomas Aldgate"
+    },
+    {
+      "id": 509,
+      "slug": "global-rainforests-breaking-point-resource-exploitation",
+      "category": "eco",
+      "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges",
+      "categoryLabel": "Environmental Exploitation",
+      "image": "/global-rainforests-breaking-point-resource-exploitation.webp",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "May 20, 2026",
       "author": "Thomas Aldgate"
     }
   ], 
