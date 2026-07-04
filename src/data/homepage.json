@@ -564,6 +564,17 @@
   ], 
 "technologyNews": [
   {
+    "id": 704,
+    "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
+    "category": "intelligence",
+    "title": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
+    "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
+    "author": "Naomi Vosburgh",
+    "date": "July 3, 2026",
+    "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
     "id": 701,
     "slug": "five-eyes-ai-cyber-espionage-warning",
     "category": "intelligence",
@@ -586,17 +597,6 @@
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
-    "id": 704,
-    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
-    "category": "intelligence",
-    "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
-    "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence.",
-    "author": "Naomi Vosburgh",
-    "date": "June 9, 2026",
-    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
     "id": 703,
     "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
     "category": "intelligence",
@@ -616,6 +616,17 @@
     "author": "Naomi Vosburgh",
     "date": "June 18, 2026",
     "image": "/uk-jails-two-men-china-espionage-case.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 706,
+    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
+    "category": "intelligence",
+    "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence.",
+    "author": "Naomi Vosburgh",
+    "date": "June 9, 2026",
+    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 

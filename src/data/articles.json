@@ -4096,7 +4096,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 704, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+      { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
     ]
   },
   {
@@ -4164,30 +4164,32 @@
       ]
     },
     "relatedPosts": [
-      { "id": 704, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+      { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
     ]
   },
   {
     "id": 704,
-    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
+    "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
-    "metaDescription": "Lawmakers from both parties warn that President Donald Trump's appointment of Bill Pulte as acting Director of National Intelligence could complicate efforts to renew the Section 702 surveillance program, a key tool used by U.S. intelligence agencies.",
+    "metaTitle": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats | Intelligence",
+    "metaDescription": "The Department of Homeland Security is investigating a breach of the Homeland Security Information Network (HSIN), while UK intelligence agencies warn of escalating state-backed cyber espionage targeting allied networks.",
     "metaKeywords": [
-      "FISA Section 702 expiry June 12 2026 Pulte DNI",
-      "Bill Pulte acting Director National Intelligence FISA",
-      "Warner live hand grenade FISA renewal Senate",
-      "Jim Himes 702 reauthorization off the table CBS",
-      "Section 702 lapse intelligence community FIFA World Cup"
+      "DHS cyber breach",
+      "HSIN breach 2026",
+      "Homeland Security Information Network",
+      "UK cyber espionage warning",
+      "GCHQ Russia warning",
+      "state-backed cyber threats",
+      "Mark Warner HSIN"
     ],
-    "heading": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
-    "excerpt": "With Section 702 of the Foreign Intelligence Surveillance Act set to expire Friday, bipartisan alarm is growing on Capitol Hill that President Trump's appointment of Bill Pulte as acting Director of National Intelligence has made renewal all but impossible — a situation one senior senator described as a self-inflicted wound that hands adversaries a potential opening at the worst possible moment.",
-    "date": "June 9, 2026",
-    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
-    "heroImage": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
-    "alt": "NSA signals intelligence facility as Section 702 of FISA faces lapse on June 12, 2026 amid congressional standoff over Bill Pulte's appointment as acting Director of National Intelligence",
+    "heading": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
+    "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
+    "date": "July 3, 2026",
+    "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
+    "heroImage": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
+    "alt": "Department of Homeland Security seal and cybersecurity concept imagery representing the HSIN breach investigation.",
     "author": {
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
@@ -4199,55 +4201,47 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Section 702 of the Foreign Intelligence Surveillance Act — a legal authority the U.S. intelligence community uses to collect communications of foreign targets overseas, and which officials say accounts for more than half of the most sensitive intelligence products that reach the President's Daily Brief — is set to expire at midnight Friday, June 12. As of Monday, there is no clear path to renewal. Senate Majority Leader John Thune told reporters after last week's failed cloture vote that the chamber would \"take another run at\" passing an extension this week, but the votes are not there. Democrats have made their position explicit: they will not support reauthorization under any circumstances as long as Bill Pulte remains the acting Director of National Intelligence."
+          "text": "The Department of Homeland Security is investigating a cyberattack that compromised the Homeland Security Information Network (HSIN), a sensitive but unclassified platform used by federal, state, local, and private-sector partners to share threat intelligence and coordinate emergency response. The intrusion, first reported by Nextgov, was carried out by an unknown threat actor in recent weeks and is believed to have occurred sometime between late May and early June 2026."
         },
         {
           "type": "paragraph",
-          "text": "The standoff puts some of America's most sensitive foreign intelligence collection activities — covering terrorism, weapons proliferation, cyberattacks, and foreign government communications — at immediate risk of disruption. Under Section 702, the National Security Agency and other agencies collect vast amounts of internet and telephone data on foreign targets abroad, including communications with Americans. The authority does not require an individual warrant. Without renewal, agencies must rely on existing court orders until they expire and would face a protracted legal battle to compel companies to maintain cooperation with data collection requests. Intelligence officials have privately warned lawmakers that tech companies, which have their own legal and public-relations incentives to stop cooperating the moment the law lapses, are not likely to wait for a court order to tell them to."
+          "text": "DHS confirmed the incident on July 1, stating that it had isolated the affected systems, mitigated the vulnerability, and launched a comprehensive forensic investigation. 'The Department of Homeland Security is aware of a recent cyber incident involving a specific, unclassified legacy information sharing environment,' a DHS spokesperson said. 'There is no indication that classified networks were impacted, and the system remains operational for our partners.'"
         },
         {
           "type": "heading",
-          "text": "Warner: Trump May Not Actually Want Renewal"
+          "text": "HSIN Breach and National Security Concerns"
         },
         {
           "type": "paragraph",
-          "text": "Sen. Mark Warner of Virginia, the senior Democrat on the Senate Intelligence Committee and the principal Democratic architect of the bipartisan renewal deal that collapsed last week, used his Sunday television appearances to raise a question that had been circulating privately in Washington for days: whether the Trump administration actually wants FISA to survive. \"I'm not sure Trump really wants renewal of 702 because why would he throw a live hand grenade with this kind of controversial pick 10 days before its renewal date?\" Warner told CNN's State of the Union. On ABC's This Week, Warner was equally blunt, calling the Pulte appointment \"a self-inflicted harm\" and describing it as throwing a \"live hand grenade\" into the congressional debate at the worst possible moment."
+          "text": "The hackers targeted HSIN servers as well as a SharePoint system used for interagency collaboration. According to sources familiar with the matter, the threat actors may have spent up to five weeks inside the network as federal agencies relied on it for real-time security coordination, including preparations for the FIFA World Cup and America250 celebrations."
         },
         {
           "type": "paragraph",
-          "text": "Warner acknowledged the broader surveillance policy dilemma openly. \"It is a controversial program,\" he said on CNN. \"I think it's a necessary program, and we've worked on even further reforms. But the idea that we're going to allow Mr. Pulte to be potentially in charge of how this tool is used or manipulated, that's going to be a very uphill path to convince Democrats, and this was a self-inflicted harm.\" Warner's concern is not hypothetical. Pulte, while serving as director of the Federal Housing Finance Agency, has used his access to mortgage data to investigate Trump political adversaries. Placed atop the nation's entire intelligence apparatus — even in an acting capacity — those instincts, Democrats argue, could be turned toward far more powerful tools."
+          "text": "Senator Mark Warner, the top Democrat on the Senate Intelligence Committee, expressed serious concern over the breach. 'The information exchanged over HSIN is highly sensitive, and its exposure risks national security,' Warner said. He called on DHS and the Department of Justice to 'thoroughly investigate' who breached the network and what was compromised."
+        },
+        {
+          "type": "paragraph",
+          "text": "HSIN previously suffered a security incident in 2023, when a contractor coding error exposed restricted data, including sensitive U.S. person records, to unauthorized users inside the platform. The current breach has not yet been attributed to any specific threat actor or foreign government."
         },
         {
           "type": "heading",
-          "text": "Trump: Pulte Will Not Be Permanent — But He Can Stay 210 Days"
+          "text": "UK Intelligence Warns of Escalating State-Backed Cyber Threats"
         },
         {
           "type": "paragraph",
-          "text": "President Trump appeared to offer a partial concession on Thursday when he told reporters he did not think he would nominate Pulte to be a permanent Director of National Intelligence. The statement was widely noted on Capitol Hill, but it did not move Democratic positions — because it does not resolve the underlying problem. Under federal law governing acting appointments, Pulte can serve as acting DNI for 210 days without Senate confirmation. A statement from Trump that he does not plan a permanent nomination leaves Pulte in place through at least late 2026, covering the entirety of the period during which any renewed FISA authority would be in operation. Democrats say the question is not whether Pulte will be confirmed permanently — it is whether he will be overseeing Section 702 collection at all. The answer, unless Trump reverses the appointment entirely, remains yes."
+          "text": "The DHS breach comes as UK intelligence agencies have issued stark warnings about escalating state-backed cyber espionage threats targeting allied networks. GCHQ Director Anne Keast-Butler recently warned that Britain faces a 'moment of consequence' in cybersecurity amid escalating hostile state activity."
         },
         {
           "type": "paragraph",
-          "text": "Rep. Don Bacon, a Republican from Nebraska, expressed the frustration of the GOP members caught between their institutional support for FISA and their reluctance to break with the White House. \"FISA gives us over 50% of our most sensitive intelligence and has enabled the U.S. to stop multiple terrorist attacks,\" Bacon wrote on X on Monday. \"Letting FISA lapse would reflect a nation paralyzed by hyper-partisanship and dysfunction.\" He added directly that Trump could \"help\" prevent a lapse by canceling plans for Pulte to succeed outgoing director Tulsi Gabbard, who is formally departing on June 30. It was the most public Republican call yet for the president to reverse course."
-        },
-        {
-          "type": "heading",
-          "text": "World Cup, 250th Anniversary — and a Warning About Timing"
+          "text": "Keast-Butler singled out Russia as a persistent threat, accusing Moscow of 'relentlessly targeting critical infrastructure, democratic processes, supply chains and public trust' in Britain and Europe. The GCHQ chief emphasized that hybrid tactics, combining cyber attacks, disruption and disinformation, are increasingly used to destabilise nations without direct military conflict."
         },
         {
           "type": "paragraph",
-          "text": "Rep. Jim Himes, the ranking Democrat on the House Intelligence Committee, used an appearance on CBS's Face the Nation to offer the most pessimistic assessment yet of where things stand. \"I think at one level they're acknowledging reality, which is that the Pulte appointment has taken 702 reauthorization off the table,\" Himes told CBS. For Himes, the failure to renew would not be merely a bureaucratic disruption — it would be a genuine intelligence gap opening at a moment when the United States faces heightened threat environments on multiple fronts. Rep. Michael McCaul, a former House Homeland Security Committee chairman, sharpened that point dramatically, warning that failing to renew FISA would be \"the most grossly irresponsible thing I've seen Congress do in my 22 years in office\" — in large part because of the specific timing. The FIFA World Cup begins in North America this month, bringing tens of millions of visitors and unprecedented security and intelligence requirements. Celebrations of the 250th anniversary of American independence, including a major July 4 observance, add further elevated-threat events to an already compressed calendar."
-        },
-        {
-          "type": "heading",
-          "text": "What Happens If 702 Lapses — and What Comes Next"
+          "text": "The National Cyber Security Centre, part of GCHQ, has also warned that three-quarters of UK critical infrastructure cyber attacks are linked to hostile state actors. NCSC CEO Dr Richard Horne said the agency managed more than 200 cyber incidents affecting critical national infrastructure in the year to May 2026. The warnings highlight a broader shift in the threat landscape, with state-backed hacking groups, digital espionage campaigns, and attacks targeting critical infrastructure posing growing risks to allied nations."
         },
         {
           "type": "paragraph",
-          "text": "A lapse would not immediately and completely switch off surveillance collection. Existing court orders authorising specific collection activities under Section 702 remain valid through their own expiry dates, which in some cases extend into 2025. But the legal infrastructure allowing new certifications, new targeting decisions, and new data requests from technology companies would no longer exist. The Department of Justice has previously warned Congress in writing that companies are likely to stop or reduce cooperation with legal process the moment the authority lapses, because their own legal exposure changes and because their customers expect them to. A prior lapse experience — during the 2024 FISA reauthorization debate — demonstrated that even brief gaps produce immediate friction with corporate partners and require lengthy judicial proceedings to restore full cooperation."
-        },
-        {
-          "type": "paragraph",
-          "text": "Thune has signalled the Senate will attempt another cloture vote this week before the Friday deadline. Whether anything has changed in the underlying arithmetic is unclear. Trump has not publicly indicated he will reverse the Pulte appointment, and Democrats have not indicated they will move without that reversal. Some intelligence officials have privately suggested the administration may be hoping to allow the authority to lapse briefly, then use the resulting alarm — among agencies, allies, and the public — to force a clean reauthorization on terms more favourable to the executive branch. That calculation, if it exists, carries significant risk. FISA Section 702 is not the kind of authority that can be lapsed and restored without cost. The question of how much cost the administration is prepared to accept for a political point on intelligence oversight is one Washington is rapidly running out of time to answer."
+          "text": "The simultaneous DHS breach and UK intelligence warnings underscore the increasing sophistication and persistence of state-backed cyber operations targeting Western intelligence-sharing networks and critical infrastructure. As the United States and its allies prepare for major international events and continue to share sensitive threat intelligence, the security of these information-sharing platforms has become a paramount concern for national security officials."
         }
       ]
     },
@@ -4349,7 +4343,95 @@
       ]
     },
     "relatedPosts": [
-      { "id": 704, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+      { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+    ]
+  },
+  {
+    "id": 706,
+    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "metaDescription": "Lawmakers from both parties warn that President Donald Trump's appointment of Bill Pulte as acting Director of National Intelligence could complicate efforts to renew the Section 702 surveillance program, a key tool used by U.S. intelligence agencies.",
+    "metaKeywords": [
+      "FISA Section 702 expiry June 12 2026 Pulte DNI",
+      "Bill Pulte acting Director National Intelligence FISA",
+      "Warner live hand grenade FISA renewal Senate",
+      "Jim Himes 702 reauthorization off the table CBS",
+      "Section 702 lapse intelligence community FIFA World Cup"
+    ],
+    "heading": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+    "excerpt": "With Section 702 of the Foreign Intelligence Surveillance Act set to expire Friday, bipartisan alarm is growing on Capitol Hill that President Trump's appointment of Bill Pulte as acting Director of National Intelligence has made renewal all but impossible — a situation one senior senator described as a self-inflicted wound that hands adversaries a potential opening at the worst possible moment.",
+    "date": "June 9, 2026",
+    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "heroImage": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "alt": "NSA signals intelligence facility as Section 702 of FISA faces lapse on June 12, 2026 amid congressional standoff over Bill Pulte's appointment as acting Director of National Intelligence",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Section 702 of the Foreign Intelligence Surveillance Act — a legal authority the U.S. intelligence community uses to collect communications of foreign targets overseas, and which officials say accounts for more than half of the most sensitive intelligence products that reach the President's Daily Brief — is set to expire at midnight Friday, June 12. As of Monday, there is no clear path to renewal. Senate Majority Leader John Thune told reporters after last week's failed cloture vote that the chamber would \"take another run at\" passing an extension this week, but the votes are not there. Democrats have made their position explicit: they will not support reauthorization under any circumstances as long as Bill Pulte remains the acting Director of National Intelligence."
+        },
+        {
+          "type": "paragraph",
+          "text": "The standoff puts some of America's most sensitive foreign intelligence collection activities — covering terrorism, weapons proliferation, cyberattacks, and foreign government communications — at immediate risk of disruption. Under Section 702, the National Security Agency and other agencies collect vast amounts of internet and telephone data on foreign targets abroad, including communications with Americans. The authority does not require an individual warrant. Without renewal, agencies must rely on existing court orders until they expire and would face a protracted legal battle to compel companies to maintain cooperation with data collection requests. Intelligence officials have privately warned lawmakers that tech companies, which have their own legal and public-relations incentives to stop cooperating the moment the law lapses, are not likely to wait for a court order to tell them to."
+        },
+        {
+          "type": "heading",
+          "text": "Warner: Trump May Not Actually Want Renewal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sen. Mark Warner of Virginia, the senior Democrat on the Senate Intelligence Committee and the principal Democratic architect of the bipartisan renewal deal that collapsed last week, used his Sunday television appearances to raise a question that had been circulating privately in Washington for days: whether the Trump administration actually wants FISA to survive. \"I'm not sure Trump really wants renewal of 702 because why would he throw a live hand grenade with this kind of controversial pick 10 days before its renewal date?\" Warner told CNN's State of the Union. On ABC's This Week, Warner was equally blunt, calling the Pulte appointment \"a self-inflicted harm\" and describing it as throwing a \"live hand grenade\" into the congressional debate at the worst possible moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Warner acknowledged the broader surveillance policy dilemma openly. \"It is a controversial program,\" he said on CNN. \"I think it's a necessary program, and we've worked on even further reforms. But the idea that we're going to allow Mr. Pulte to be potentially in charge of how this tool is used or manipulated, that's going to be a very uphill path to convince Democrats, and this was a self-inflicted harm.\" Warner's concern is not hypothetical. Pulte, while serving as director of the Federal Housing Finance Agency, has used his access to mortgage data to investigate Trump political adversaries. Placed atop the nation's entire intelligence apparatus — even in an acting capacity — those instincts, Democrats argue, could be turned toward far more powerful tools."
+        },
+        {
+          "type": "heading",
+          "text": "Trump: Pulte Will Not Be Permanent — But He Can Stay 210 Days"
+        },
+        {
+          "type": "paragraph",
+          "text": "President Trump appeared to offer a partial concession on Thursday when he told reporters he did not think he would nominate Pulte to be a permanent Director of National Intelligence. The statement was widely noted on Capitol Hill, but it did not move Democratic positions — because it does not resolve the underlying problem. Under federal law governing acting appointments, Pulte can serve as acting DNI for 210 days without Senate confirmation. A statement from Trump that he does not plan a permanent nomination leaves Pulte in place through at least late 2026, covering the entirety of the period during which any renewed FISA authority would be in operation. Democrats say the question is not whether Pulte will be confirmed permanently — it is whether he will be overseeing Section 702 collection at all. The answer, unless Trump reverses the appointment entirely, remains yes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rep. Don Bacon, a Republican from Nebraska, expressed the frustration of the GOP members caught between their institutional support for FISA and their reluctance to break with the White House. \"FISA gives us over 50% of our most sensitive intelligence and has enabled the U.S. to stop multiple terrorist attacks,\" Bacon wrote on X on Monday. \"Letting FISA lapse would reflect a nation paralyzed by hyper-partisanship and dysfunction.\" He added directly that Trump could \"help\" prevent a lapse by canceling plans for Pulte to succeed outgoing director Tulsi Gabbard, who is formally departing on June 30. It was the most public Republican call yet for the president to reverse course."
+        },
+        {
+          "type": "heading",
+          "text": "World Cup, 250th Anniversary — and a Warning About Timing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rep. Jim Himes, the ranking Democrat on the House Intelligence Committee, used an appearance on CBS's Face the Nation to offer the most pessimistic assessment yet of where things stand. \"I think at one level they're acknowledging reality, which is that the Pulte appointment has taken 702 reauthorization off the table,\" Himes told CBS. For Himes, the failure to renew would not be merely a bureaucratic disruption — it would be a genuine intelligence gap opening at a moment when the United States faces heightened threat environments on multiple fronts. Rep. Michael McCaul, a former House Homeland Security Committee chairman, sharpened that point dramatically, warning that failing to renew FISA would be \"the most grossly irresponsible thing I've seen Congress do in my 22 years in office\" — in large part because of the specific timing. The FIFA World Cup begins in North America this month, bringing tens of millions of visitors and unprecedented security and intelligence requirements. Celebrations of the 250th anniversary of American independence, including a major July 4 observance, add further elevated-threat events to an already compressed calendar."
+        },
+        {
+          "type": "heading",
+          "text": "What Happens If 702 Lapses — and What Comes Next"
+        },
+        {
+          "type": "paragraph",
+          "text": "A lapse would not immediately and completely switch off surveillance collection. Existing court orders authorising specific collection activities under Section 702 remain valid through their own expiry dates, which in some cases extend into 2025. But the legal infrastructure allowing new certifications, new targeting decisions, and new data requests from technology companies would no longer exist. The Department of Justice has previously warned Congress in writing that companies are likely to stop or reduce cooperation with legal process the moment the authority lapses, because their own legal exposure changes and because their customers expect them to. A prior lapse experience — during the 2024 FISA reauthorization debate — demonstrated that even brief gaps produce immediate friction with corporate partners and require lengthy judicial proceedings to restore full cooperation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Thune has signalled the Senate will attempt another cloture vote this week before the Friday deadline. Whether anything has changed in the underlying arithmetic is unclear. Trump has not publicly indicated he will reverse the Pulte appointment, and Democrats have not indicated they will move without that reversal. Some intelligence officials have privately suggested the administration may be hoping to allow the authority to lapse briefly, then use the resulting alarm — among agencies, allies, and the public — to force a clean reauthorization on terms more favourable to the executive branch. That calculation, if it exists, carries significant risk. FISA Section 702 is not the kind of authority that can be lapsed and restored without cost. The question of how much cost the administration is prepared to accept for a political point on intelligence oversight is one Washington is rapidly running out of time to answer."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 703, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
     ]
   },
   {

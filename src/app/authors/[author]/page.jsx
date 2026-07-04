@@ -433,19 +433,19 @@ function AuthorHeader({ author, articleCount }) {
               />
             </div>
             <div>
-              <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1">
+              <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1" >
                 About Author
               </span>
               {/* H1 — this is the primary page heading (author name) */}
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black capitalize leading-tight">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black capitalize leading-tight" >
                 {author.name}
               </h1>
             </div>
           </div>
 
-          <div className="flex items-center gap-3 flex-wrap">
+          <div className="flex items-center gap-3 flex-wrap" >
             {author.role && (
-              <span className="text-[#2196f3] text-sm font-semibold">
+              <span className="text-[#2196f3] text-sm font-semibold" >
                 {author.role}
               </span>
             )}
@@ -816,7 +816,7 @@ export default async function AuthorPage({ params }) {
             </div>
 
             <div>
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
                 Categories
               </h3>
               <div className="flex flex-col gap-1">

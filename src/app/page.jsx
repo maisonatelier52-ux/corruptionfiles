@@ -721,7 +721,7 @@ export default function Home() {
         </h1>
 
         {/* ── GOVERNMENT SECTION ─────────────────────────────────────────── */}
-        <div className="border-b-2 border-black mb-6">
+        <div>
           <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
             <Link
               href="/govt"
@@ -1013,7 +1013,7 @@ export default function Home() {
             <StickyAd />
 
             <div className="mb-6 mt-14">
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" >
                 Latest Today
               </h3>
               <div className="grid grid-cols-2 gap-4">
@@ -1025,7 +1025,7 @@ export default function Home() {
 
             {/* ── CATEGORIES SECTION (STYLED LIKE AUTHOR PAGE) ───────────── */}
             <div>
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
                 Categories
               </h3>
               <div className="flex flex-col gap-1">

@@ -71,7 +71,7 @@ const LATEST_ARTICLE = getLatestArticle();
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white font-sans text-[#222] pt-16 pb-8 border-t border-gray-100">
+    <footer className="w-full bg-[#f8f9fb] font-sans text-[#222] pt-16 pb-8 border-t border-gray-100">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* MAIN FOOTER CONTENT (4 Columns) */}

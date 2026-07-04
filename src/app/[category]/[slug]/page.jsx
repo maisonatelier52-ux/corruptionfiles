@@ -372,9 +372,9 @@ function LatestCard({ item }) {
 
 function SidebarCategoryCard({ cat }) {
   return (
-    <Link
+    <Link 
       href={`/${cat.category}`}
-      className="relative overflow-hidden h-[56px] cursor-pointer group block"
+      className="relative overflow-hidden h-[56px] cursor-pointer group block" 
       title={`Browse ${cat.label} articles`}
     >
       <Image
@@ -399,7 +399,7 @@ function ArticleSidebar() {
     >
       <StickyAd />
       <div className="mb-6 mt-6 lg:mt-14">
-        <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
+        <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" >
           Latest Today
         </h3>
         <div className="grid grid-cols-2 gap-4">
@@ -558,7 +558,6 @@ export default async function ArticlePage({ params }) {
                 sizes="(max-width: 1024px) 100vw, 800px"
                 className="object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent z-10" />
               <div className="absolute bottom-6 left-6 z-20">
                 <span
                   className={`${article.categoryColor} text-white text-[10px] font-bold px-3 py-1 uppercase tracking-wider`}
@@ -636,7 +635,7 @@ export default async function ArticlePage({ params }) {
               </div>
               <div className="flex-1">
                 <div className="flex items-center gap-3 mb-2 flex-wrap">
-                  <span className="text-xs font-bold text-gray-500 uppercase tracking-wider">
+                  <span className="text-xs font-bold text-gray-500 uppercase tracking-wider" >
                     About Author
                   </span>
                   <Link
@@ -682,7 +681,7 @@ export default async function ArticlePage({ params }) {
             {/* Related Posts */}
             {relatedPosts && relatedPosts.length > 0 && (
               <section aria-label="Related articles" className="mb-6 md:mb-10">
-                <h2 className="font-bold text-lg text-gray-900 mb-4 md:mb-6 pb-2 border-b-2 border-black">
+                <h2 className="font-bold text-lg text-gray-900 mb-4 md:mb-6 pb-2 border-b-2 border-black" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
                   Related posts
                 </h2>
                 <div className="space-y-5 md:space-y-6">
