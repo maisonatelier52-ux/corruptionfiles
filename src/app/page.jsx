@@ -726,12 +726,12 @@ export default function Home() {
             <Link
               href="/govt"
               title="Browse Government news"
-              className="hover:text-blue-600 transition-colors"
+              className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
             >
               Government
             </Link>
           </h2>
-          <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">
+          <p className="text-yellow-400 text-[14px] font-medium mb-4 uppercase tracking-tight">
             Capitol &amp; Westminster
           </p>
         </div>
@@ -752,7 +752,7 @@ export default function Home() {
             <Link
               href="/puerto-rico"
               title="Browse Puerto Rico news"
-              className="hover:text-blue-600 transition-colors"
+              className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
             >
               Puerto Rico
             </Link>
@@ -818,7 +818,7 @@ export default function Home() {
             <Link
               href="/pa"
               title="Browse Police Accountability news"
-              className="hover:text-blue-600 transition-colors"
+              className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
             >
               Police Accountability
             </Link>
@@ -868,12 +868,12 @@ export default function Home() {
             <Link
               href="/tech"
               title="Browse Big Tech & Surveillance news"
-              className="hover:text-blue-600 transition-colors"
+              className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
             >
               Big Tech &amp; Surveillance
             </Link>
           </h2>
-          <p className="text-gray-400 text-[14px] font-medium mb-4 uppercase tracking-tight">
+          <p className="text-blue-700 text-[14px] font-medium mb-4 uppercase tracking-tight">
             News
           </p>
         </div>
@@ -1047,12 +1047,12 @@ export default function Home() {
               <Link
                 href="/eco"
                 title="Browse Environmental Exploitation news"
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
               >
                 Environmental Exploitation
               </Link>
             </h2>
-            <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">
+            <p className="text-blue-400 text-[14px] font-medium uppercase tracking-tight">
               Never miss what people read
             </p>
           </div>
@@ -1090,12 +1090,12 @@ export default function Home() {
               <Link
                 href="/intelligence"
                 title="Browse Intelligence news"
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
               >
                 Intelligence
               </Link>
             </h2>
-            <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">
+            <p className="text-blue-600 text-[14px] font-medium uppercase tracking-tight">
               News
             </p>
           </div>
@@ -1119,12 +1119,12 @@ export default function Home() {
               <Link
                 href="/offshore"
                 title="Browse Offshore Wealth & Sanctions news"
-                className="hover:text-blue-600 transition-colors"
+                className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
               >
                 Offshore Wealth &amp; Sanctions
               </Link>
             </h2>
-            <p className="text-gray-400 text-[14px] font-medium uppercase tracking-tight">
+            <p className="text-pink-600 text-[14px] font-medium uppercase tracking-tight">
               News
             </p>
           </div>

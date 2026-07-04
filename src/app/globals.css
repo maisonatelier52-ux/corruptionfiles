@@ -37,3 +37,14 @@ main {
   position: relative;
   z-index: 10;
 }
+
+@keyframes subtleFlicker {
+  0%, 100% { opacity: 1; }
+  92% { opacity: 0.95; }
+  94% { opacity: 1; }
+  96% { opacity: 0.92; }
+}
+
+.logo-flicker {
+  animation: subtleFlicker 6s infinite;
+}
