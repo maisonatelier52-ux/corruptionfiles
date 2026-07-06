@@ -868,86 +868,91 @@
         ]
       },
       "relatedPosts": [
-        { "id": 302, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
-        { "id": 303, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
+        { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
+        { "id": 302, "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp", "date": "July 2, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds", "excerpt": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid." }
       ]
     },
-    {
-      "id": 302,
-      "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
-      "category": "puerto-rico",
-      "categoryLabel": "Puerto Rico",
-      "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
-      "metaDescription": "Puerto Rico's economic development chief resigned after alleging political interference and procurement issues inside Governor Jenniffer González's administration.",
-      "metaKeywords": [
-        "Sebastián Negrón Reichard resignation DDEC Puerto Rico",
-        "Puerto Rico DDEC government interference González 2026",
-        "Puerto Rico economic development agency scandal",
-        "Jenniffer González Puerto Rico cabinet resignation",
-        "OGPE procurement irregularities Puerto Rico federal funds"
-      ],
-      "heading": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
-      "excerpt": "Sebastián Negrón Reichard resigned as Puerto Rico's Secretary of Economic Development and Commerce on Tuesday, saying mutual trust with the González administration no longer existed after the government reversed disciplinary actions he had taken against officials implicated in a federal procurement probe — triggering a simultaneous walkout of more than ten senior agency leaders.",
-      "date": "May 27, 2026",
-      "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
-      "heroImage": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
-      "alt": "Puerto Rico Capitol in San Juan as Secretary Sebastián Negrón Reichard resigns from DDEC over government interference allegations, May 2026",
-      "author": {
-        "name": "Carlos Medina Reyes",
-        "slug": "carlos-medina-reyes",
-        "avatar": "/carlos-medina-reyes.webp",
-        "bio": "Born in Ponce and raised between San Juan and New York...",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Sebastián Negrón Reichard, Puerto Rico's Secretary of Economic Development and Commerce, announced his immediate resignation Tuesday, effective at noon, telling Governor Jenniffer González-Colón in a written statement that the mutual trust and respect for his legal authority that the role requires no longer existed. \"The position demands mutual trust and respect for the powers that the law confers on the Secretary,\" Negrón Reichard said. \"That trust no longer exists, which makes it impossible for me to continue in the post.\" He added that he would not comment further, citing pending legal actions."
-          },
-          {
-            "type": "paragraph",
-            "text": "Negrón Reichard's departure — and the mass walkout of more than ten senior officials that followed it — came at a particularly fraught moment for Puerto Rico. The territory is in the middle of a fragile economic recovery, aggressively courting private investment and navigating federal compliance requirements under its fiscal oversight board, while simultaneously pushing a long-stalled permitting reform that Negrón Reichard had made a central pillar of his agency's work. Bloomberg reported that he and the governor \"no longer trust\" each other and that the breakdown had made continuing in the role impossible."
-          },
-          {
-            "type": "heading",
-            "text": "A Federal Procurement Probe at the Heart of the Dispute"
-          },
-          {
-            "type": "paragraph",
-            "text": "The immediate catalyst for the resignation was a confrontation over the Permit Management Office, known by its Spanish acronym OGPe — an agency that sits within the DDEC and that Negrón Reichard had positioned as the engine of his permitting reform. The dispute began when his office launched an internal investigation into allegations of improper pressure and attempted obstruction in a competitive procurement process funded with federal money, estimated to be worth between $1 million and $2 million. That investigation led Negrón Reichard to dismiss the deputy secretary of OGPe, Norberto Almodóvar Vélez, and refer the matter to Puerto Rico's Department of Justice and other relevant authorities."
-          },
-          {
-            "type": "paragraph",
-            "text": "In his resignation statement, Negrón Reichard said the González administration then reversed two summary suspensions he had issued against officials implicated in the probe — a decision he said was made through interventions in areas whose legal authority belongs to the secretary of the DDEC, not the executive office. He said those decisions had the \"unfortunate consequence of leaving unprotected the staff who reported alleged irregularities in internal processes\" — a phrase widely read as a direct allegation that the governor's office had shielded the officials he sought to discipline. As a result of the situation, more than ten officials with leadership roles at DDEC — including its chief of staff, general counsel, finance chief, head of communications, and strategic development director — also resigned."
-          },
-          {
-            "type": "heading",
-            "text": "González Says the Resignation Caught Her by Surprise"
-          },
-          {
-            "type": "paragraph",
-            "text": "Governor Jenniffer González-Colón said publicly that the resignation blindsided her. \"It took me by surprise; I found out here in a hallway, I have not seen the letter, no one had called me about it, I found out through you,\" the governor told reporters who stopped her in the Capitol building. She praised Negrón Reichard as \"a great agency secretary\" who had accomplished a great deal in his fifteen months in office, and said she had continued working with him on economic development matters until just hours before the announcement. \"I am disappointed, because I believe he was a great agency secretary. He did a lot and we worked a lot together.\""
-          },
-          {
-            "type": "paragraph",
-            "text": "The governor's account — that she learned of the resignation from journalists rather than from the secretary himself — added to the public drama surrounding the departure. El Nuevo Día, citing its own sources, reported that the deeper motivation for the resignation was that La Fortaleza, the seat of the Puerto Rico executive branch, had withdrawn its confidence in Negrón Reichard — framing the split as mutual rather than a one-sided push by the secretary. Opposition House member Manuel Hernández issued a statement calling the resignation \"another episode in the soap opera of scandals\" engulfing the González government and demanding to know \"what La Fortaleza is covering up, and who it is protecting.\""
-          },
-          {
-            "type": "heading",
-            "text": "Rivera Schatz Warns of Consequences; Business Groups Urge Stability"
-          },
-          {
-            "type": "paragraph",
-            "text": "Puerto Rico Senate President Thomás Rivera Schatz — a member of González's own New Progressive Party, though increasingly at odds with the governor on several fronts — called the resignation \"extremely regrettable\" and issued what amounted to a public warning. \"I hope that those responsible for evaluating and understanding the scope of these circumstances will do so and take the corrective actions they need to take, which I've been warning them about for quite some time,\" Rivera Schatz said. \"If they don't, well, I'll be talking to these people, and if they bring evidence to me that shows something is wrong, I'll go after them.\""
-          },
-          {
-            "type": "paragraph",
-            "text": "Puerto Rico's leading business associations moved quickly to try to contain the damage to investor confidence. Both the Puerto Rico Chamber of Commerce and the Puerto Rico Manufacturers Association called on Governor González to name a successor rapidly and ensure continuity of the economic development agenda, warning that the leadership void should not be allowed to disrupt work tied to investment attraction, competitiveness, and growth. Negrón Reichard, a graduate of the Wharton School of the University of Pennsylvania and a holder of dual graduate degrees from Harvard Law School and Harvard Business School, had taken office in February 2025 after confirmation by the Puerto Rico Senate. His administration focused on modernising permitting procedures, attracting foreign investment, and promoting the island as a hub for manufacturing and advanced industries — a mission that his allies say will now be thrown into uncertainty."
-          }
-        ]
-      },
+  {
+    "id": 302,
+    "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds",
+    "category": "puerto-rico",
+    "categoryLabel": "Puerto Rico",
+    "categoryColor": "bg-[#2196f3]",
+    "metaTitle": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds | Puerto Rico",
+    "metaDescription": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
+    "metaKeywords": [
+      "Puerto Rico recovery funds",
+      "Hurricane Maria aid",
+      "federal audit Puerto Rico",
+      "GAO report",
+      "FEMA Puerto Rico",
+      "power grid reconstruction"
+    ],
+    "heading": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds",
+    "excerpt": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
+    "date": "July 2, 2026",
+    "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
+    "heroImage": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
+    "alt": "A damaged power line in Puerto Rico, illustrating the ongoing challenges in rebuilding the island's grid nearly a decade after Hurricane Maria.",
+    "author": {
+      "name": "Carlos Medina Reyes",
+      "slug": "carlos-medina-reyes",
+      "avatar": "/carlos-medina-reyes.webp",
+      "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Nearly a decade after Hurricane Maria destroyed Puerto Rico, a new federal audit found the island has gotten only a quarter of the disaster recovery funding approved for rebuilding its electricity grid, raising fresh concerns over bureaucratic delays and the slow pace of rehabilitation."
+        },
+        {
+          "type": "paragraph",
+          "text": "The audit, conducted by the U.S. Government Accountability Office (GAO), found that only 25% of some $14 billion in federal funds obligated for Puerto Rico's power grid after Hurricane Maria has reached the U.S. territory. Of the $11 billion obligated by the Federal Emergency Management Agency (FEMA) alone, some $2.7 billion has been disbursed, mostly for equipment, materials, and architecture and engineering design costs, according to the GAO report."
+        },
+        {
+          "type": "heading",
+          "text": "An Inefficient and Slow Process of Recovery"
+        },
+        {
+          "type": "paragraph",
+          "text": "The report by the GAO exposes continuing problems that have hindered Puerto Rico’s recovery from the deadly 2017 hurricane. The sluggish pace of finance disbursement has left key infrastructure projects hanging in the balance, with the island’s electricity supply remaining frail and prone to blackouts. Bureaucratic impediments and a lack of collaboration between federal and local agencies have compounded the delays, the report said, noting that a 'significant amount' of permanent recovery work remained to be done."
+        },
+        {
+          "type": "paragraph",
+          "text": "As of May 2025, of more than $10 billion FEMA had obligated for Puerto Rico's permanent recovery work, only about $2 billion had been disbursed. The GAO also said that FEMA had given Puerto Rico $23.4 billion in Public Assistance funds for permanent recovery work as of June 2023, with Puerto Rico having spent $1.8 billion of that money at the time."
+        },
+        {
+          "type": "heading",
+          "text": "Political and Community Reactions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The audit has drawn sharp criticism from Puerto Rican officials and community leaders, who have long complained about the slow pace of federal aid distribution. Resident Commissioner Pablo José Hernández has repeatedly raised concerns over the delays, noting that more than $24 billion in federal funds remain undisbursed nearly nine years after the hurricane."
+        },
+        {
+          "type": "paragraph",
+          "text": "'Nearly nine years after Hurricane María, families are still waiting on the reconstruction they were promised,' Hernández said. 'The money has been allocated, but the bureaucracy has failed the people of Puerto Rico.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The findings come as Puerto Rico continues to grapple with the legacy of Hurricane Maria, which caused an estimated $90 billion in damage and killed nearly 3,000 people.The delayed recovery has spurred persistent dissatisfaction and protests, with many people wondering if the federal government has made rebuilding the island a priority."
+        },
+        {
+          "type": "heading",
+          "text": "Demands for Reform and Oversight"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers have responded to the report by demanding stronger supervision and reform of the disaster recovery process. GAO report recommended FEMA enhance its interaction with Puerto Rico authorities and shorten the clearance process for recovery projects. The agency has admitted the difficulties and vowed to cooperate with the island’s government to speed up the disbursement of funding."
+        },
+        {
+          "type": "paragraph",
+          "text": "The assessment also comes as Puerto Rico’s electricity grid remains a critical worry for people and companies alike. In recent years, the island has suffered recurrent blackouts, highlighting the need for a new and resilient energy infrastructure. But a small percentage of the money really makes it to the island, and full recovery is still a question mark."
+        }
+      ]
+    },
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
         { "id": 303, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
@@ -1031,7 +1036,88 @@
       },
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 302, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." }
+        { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." }
+      ]
+    },
+    {
+      "id": 305,
+      "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+      "metaDescription": "Puerto Rico's economic development chief resigned after alleging political interference and procurement issues inside Governor Jenniffer González's administration.",
+      "metaKeywords": [
+        "Sebastián Negrón Reichard resignation DDEC Puerto Rico",
+        "Puerto Rico DDEC government interference González 2026",
+        "Puerto Rico economic development agency scandal",
+        "Jenniffer González Puerto Rico cabinet resignation",
+        "OGPE procurement irregularities Puerto Rico federal funds"
+      ],
+      "heading": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+      "excerpt": "Sebastián Negrón Reichard resigned as Puerto Rico's Secretary of Economic Development and Commerce on Tuesday, saying mutual trust with the González administration no longer existed after the government reversed disciplinary actions he had taken against officials implicated in a federal procurement probe — triggering a simultaneous walkout of more than ten senior agency leaders.",
+      "date": "May 27, 2026",
+      "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+      "heroImage": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+      "alt": "Puerto Rico Capitol in San Juan as Secretary Sebastián Negrón Reichard resigns from DDEC over government interference allegations, May 2026",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York...",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Sebastián Negrón Reichard, Puerto Rico's Secretary of Economic Development and Commerce, announced his immediate resignation Tuesday, effective at noon, telling Governor Jenniffer González-Colón in a written statement that the mutual trust and respect for his legal authority that the role requires no longer existed. \"The position demands mutual trust and respect for the powers that the law confers on the Secretary,\" Negrón Reichard said. \"That trust no longer exists, which makes it impossible for me to continue in the post.\" He added that he would not comment further, citing pending legal actions."
+          },
+          {
+            "type": "paragraph",
+            "text": "Negrón Reichard's departure — and the mass walkout of more than ten senior officials that followed it — came at a particularly fraught moment for Puerto Rico. The territory is in the middle of a fragile economic recovery, aggressively courting private investment and navigating federal compliance requirements under its fiscal oversight board, while simultaneously pushing a long-stalled permitting reform that Negrón Reichard had made a central pillar of his agency's work. Bloomberg reported that he and the governor \"no longer trust\" each other and that the breakdown had made continuing in the role impossible."
+          },
+          {
+            "type": "heading",
+            "text": "A Federal Procurement Probe at the Heart of the Dispute"
+          },
+          {
+            "type": "paragraph",
+            "text": "The immediate catalyst for the resignation was a confrontation over the Permit Management Office, known by its Spanish acronym OGPe — an agency that sits within the DDEC and that Negrón Reichard had positioned as the engine of his permitting reform. The dispute began when his office launched an internal investigation into allegations of improper pressure and attempted obstruction in a competitive procurement process funded with federal money, estimated to be worth between $1 million and $2 million. That investigation led Negrón Reichard to dismiss the deputy secretary of OGPe, Norberto Almodóvar Vélez, and refer the matter to Puerto Rico's Department of Justice and other relevant authorities."
+          },
+          {
+            "type": "paragraph",
+            "text": "In his resignation statement, Negrón Reichard said the González administration then reversed two summary suspensions he had issued against officials implicated in the probe — a decision he said was made through interventions in areas whose legal authority belongs to the secretary of the DDEC, not the executive office. He said those decisions had the \"unfortunate consequence of leaving unprotected the staff who reported alleged irregularities in internal processes\" — a phrase widely read as a direct allegation that the governor's office had shielded the officials he sought to discipline. As a result of the situation, more than ten officials with leadership roles at DDEC — including its chief of staff, general counsel, finance chief, head of communications, and strategic development director — also resigned."
+          },
+          {
+            "type": "heading",
+            "text": "González Says the Resignation Caught Her by Surprise"
+          },
+          {
+            "type": "paragraph",
+            "text": "Governor Jenniffer González-Colón said publicly that the resignation blindsided her. \"It took me by surprise; I found out here in a hallway, I have not seen the letter, no one had called me about it, I found out through you,\" the governor told reporters who stopped her in the Capitol building. She praised Negrón Reichard as \"a great agency secretary\" who had accomplished a great deal in his fifteen months in office, and said she had continued working with him on economic development matters until just hours before the announcement. \"I am disappointed, because I believe he was a great agency secretary. He did a lot and we worked a lot together.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The governor's account — that she learned of the resignation from journalists rather than from the secretary himself — added to the public drama surrounding the departure. El Nuevo Día, citing its own sources, reported that the deeper motivation for the resignation was that La Fortaleza, the seat of the Puerto Rico executive branch, had withdrawn its confidence in Negrón Reichard — framing the split as mutual rather than a one-sided push by the secretary. Opposition House member Manuel Hernández issued a statement calling the resignation \"another episode in the soap opera of scandals\" engulfing the González government and demanding to know \"what La Fortaleza is covering up, and who it is protecting.\""
+          },
+          {
+            "type": "heading",
+            "text": "Rivera Schatz Warns of Consequences; Business Groups Urge Stability"
+          },
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico Senate President Thomás Rivera Schatz — a member of González's own New Progressive Party, though increasingly at odds with the governor on several fronts — called the resignation \"extremely regrettable\" and issued what amounted to a public warning. \"I hope that those responsible for evaluating and understanding the scope of these circumstances will do so and take the corrective actions they need to take, which I've been warning them about for quite some time,\" Rivera Schatz said. \"If they don't, well, I'll be talking to these people, and if they bring evidence to me that shows something is wrong, I'll go after them.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico's leading business associations moved quickly to try to contain the damage to investor confidence. Both the Puerto Rico Chamber of Commerce and the Puerto Rico Manufacturers Association called on Governor González to name a successor rapidly and ensure continuity of the economic development agenda, warning that the leadership void should not be allowed to disrupt work tied to investment attraction, competitiveness, and growth. Negrón Reichard, a graduate of the Wharton School of the University of Pennsylvania and a holder of dual graduate degrees from Harvard Law School and Harvard Business School, had taken office in February 2025 after confirmation by the Puerto Rico Senate. His administration focused on modernising permitting procedures, attracting foreign investment, and promoting the island as a hub for manufacturing and advanced industries — a mission that his allies say will now be thrown into uncertainty."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 303, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
     {

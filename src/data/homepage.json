@@ -126,15 +126,15 @@
     "grid": [
       {
         "id": 302,
-        "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
+        "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds",
         "category": "puerto-rico",
-        "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+        "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
-        "date": "May 27, 2026",
+        "date": "July 2, 2026",
         "author": "Carlos Medina Reyes",
-        "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
-        "description": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him."
+        "title": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds",
+        "description": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid."
       },
       {
         "id": 303,
@@ -159,6 +159,18 @@
         "author": "Carlos Medina Reyes",
         "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring",
         "description": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison."
+      },
+      {
+        "id": 305,
+        "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
+        "category": "puerto-rico",
+        "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+        "categoryLabel": "Puerto Rico",
+        "categoryColor": "bg-[#2196f3]",
+        "date": "May 27, 2026",
+        "author": "Carlos Medina Reyes",
+        "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+        "description": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him."
       }
     ]
   },
