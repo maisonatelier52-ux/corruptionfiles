@@ -299,15 +299,16 @@
     "sidebar": [
       {
         "id": 91,
-        "slug": "london-police-expand-facial-recognition-public-streets",
+        "slug": "supreme-court-geofence-warrants-privacy-ruling",
         "category": "tech",
-        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
         "categories": [
           { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
         ],
-        "date": "May 27, 2026",
+        "date": "June 29, 2026",
         "author": "Simone Varlette",
-        "title": "London Police Expand Facial Recognition Across Public Streets"
+        "title": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling",
+        "description": "The U.S. Supreme Court ruled that police must meet stronger constitutional standards before using geofence warrants to obtain smartphone location data, marking a major victory for digital privacy."
       },
       {
         "id": 92,
@@ -332,6 +333,18 @@
         "date": "May 12, 2026",
         "author": "Simone Varlette",
         "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire"
+      },
+      {
+        "id": 94,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "categories": [
+          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+        ],
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets"
       }
     ]
   },

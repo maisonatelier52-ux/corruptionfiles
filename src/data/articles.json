@@ -2039,7 +2039,7 @@
     "relatedPosts": [
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
-        "id": 91,
+        "id": 94,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -2054,82 +2054,95 @@
   },
   {
     "id": 91,
-    "slug": "london-police-expand-facial-recognition-public-streets",
+    "slug": "supreme-court-geofence-warrants-privacy-ruling",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "London Police Expand Facial Recognition Across Public Streets",
-    "metaDescription": "The Metropolitan Police are rapidly expanding live facial recognition surveillance across London, intensifying privacy concerns and debate over mass monitoring in the UK.",
+    "metaTitle": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling | Big Tech & Surveillance",
+    "metaDescription": "The Supreme Court ruled 6-3 that geofence warrants are Fourth Amendment searches, requiring stricter constitutional standards for police to obtain cellphone location data and limiting broad digital surveillance.",
     "metaKeywords": [
-      "Metropolitan Police facial recognition London 2026",
-      "live facial recognition UK expansion High Court",
-      "Big Brother Watch LFR surveillance protest",
-      "Met Police biometric watchlist streets",
-      "UK facial recognition civil liberties privacy"
+      "Supreme Court geofence warrants",
+      "Fourth Amendment location data",
+      "cellphone privacy ruling 2026",
+      "Okello Chatrie",
+      "Elena Kagan",
+      "geofence warrant decision",
+      "digital privacy"
     ],
-    "heading": "London Police Expand Facial Recognition Across Public Streets",
-    "excerpt": "The Metropolitan Police are deploying live facial recognition cameras across every London borough following a High Court ruling last month clearing the technology's use — triggering a fierce civil liberties debate after the system was used at a protest for the first time and the government announced plans for a nationwide rollout.",
-    "date": "May 27, 2026",
-    "image": "/london-police-expand-facial-recognition-public-streets.webp",
-    "heroImage": "/london-police-expand-facial-recognition-public-streets.webp",
-    "alt": "Metropolitan Police live facial recognition van and temporary warning signs on a London street, May 2026. REUTERS/Chris J. Ratcliffe",
+    "heading": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling",
+    "excerpt": "The U.S. Supreme Court ruled that police must meet stronger constitutional standards before using geofence warrants to obtain smartphone location data, marking a major victory for digital privacy and limiting broad surveillance practices.",
+    "date": "June 29, 2026",
+    "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
+    "heroImage": "/supreme-court-geofence-warrants-privacy-ruling.webp",
+    "alt": "The U.S. Supreme Court building in Washington, D.C., where justices ruled 6-3 that geofence warrants constitute Fourth Amendment searches.",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
       "avatar": "/simone-varlette2.webp",
-      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls.",
+      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Tourists, shoppers, and office workers moving through a busy central London street on an ordinary weekday recently found themselves scanned against a Metropolitan Police watchlist, their faces converted into biometric data and compared against roughly 17,000 custody images in real time — all within seconds, and without any individual suspicion. The operation in Victoria, and a simultaneous deployment in Tottenham, north London, resulted in six arrests for offences including threats to kill, a breach of a court order, and a man in possession of a lock knife. Within an hour of the Victoria deployment beginning, a man in a grey hoodie, black baseball cap, and blue trainers looked startled as two officers stopped him on the pavement. He was handcuffed and taken away in a police van."
+          "text": "On June 29, 2026, the Supreme Court ruled that constitutional privacy rights apply to mobile location data and that police need a warrant to get geofence warrants to collect location data on a group of people. In an opinion by Justice Elena Kagan, the court held 6-3 that geofence warrants are Fourth Amendment searches, requiring lower courts to give them heightened scrutiny and imposing tighter constitutional standards on law enforcement."
         },
         {
           "type": "paragraph",
-          "text": "The Metropolitan Police have now deployed live facial recognition technology across all 32 London boroughs, following a High Court ruling last month that rejected a judicial review challenge brought by civil liberties group Big Brother Watch and a community worker who had been wrongly identified by the system. The court found the technology's use was lawful and that existing safeguards were sufficient. The government confirmed plans to extend the system nationwide, expanding the number of surveillance vans and rolling it out across all police forces in England and Wales. A new Law Enforcement Data Service, providing officers with instant biometric identity verification capabilities, is expected to launch around early 2027."
+          "text": "The case, Chatrie v. United States, arose from an armed robbery of a bank union in Midlothian, Va., in 2019. Police were pursuing other leads when they got a geofence warrant from Google to identify cellphones in the area of the bank within 150 meters around the time of the crime. The warrant ultimately led to Okello Chatrie, who pleaded guilty and was sentenced to nearly 12 years in prison. His lawyers argued on appeal that the warrant violated his privacy because it allowed authorities to gather location history from people near the bank without any evidence they were involved in the robbery."
         },
         {
           "type": "heading",
-          "text": "2,500 Arrests — and a Convicted Paedophile Caught on the Street"
+          "text": "A Landmark Decision for Digital Privacy"
         },
         {
           "type": "paragraph",
-          "text": "The Metropolitan Police say live facial recognition has helped officers arrest around 2,500 wanted people since the start of 2024, including suspects accused of violent and sexual offences. Met Police director Lindsey Chiswick, the national and Met lead for live facial recognition, described the technology's impact as \"groundbreaking\" for policing. Speaking at the Victoria operation, she cited a recent case in which a convicted paedophile was identified by the system as he walked along a street holding hands with an eight-year-old girl. \"He should never have been out with a young girl like that on his own,\" Chiswick said. \"As a consequence of that, he's now back in prison.\""
+          "text": "Justice Elena Kagan wrote for the majority that people do not forfeit expectations of privacy even when they opt into Google's location history. 'A cellphone user is not to be viewed as sharing private information with third parties — which then can be freely passed on to the government — just by doing the ordinary things cellphone users do,' Kagan wrote. She added that location data resembles other kinds of private materials such as emails, photographs or documents and should be 'shielded from the inquisitive eyes of the government.'"
         },
         {
           "type": "paragraph",
-          "text": "Chiswick said that of the more than three million faces scanned in the twelve months to last September, the system generated ten false alerts, all of which officers determined were incorrect, and that no arrest had ever resulted from a false alert. Commissioner Sir Mark Rowley echoed that in a statement following the High Court ruling, describing live facial recognition as \"one of the biggest breakthroughs for policing\" and saying the technology was \"actively removing thousands of dangerous and wanted offenders from London's streets, including individuals who pose a serious and ongoing threat to our communities — those wanted for the most serious offences, such as rape, domestic abuse, and child sexual offences.\" Quarterly surveys, Chiswick said, consistently show around 80 percent of the London public supporting the Met's use of the technology."
+          "text": "The court did not decide whether the specific search in Chatrie's case violated the Fourth Amendment, instead sending the case back to the lower courts for further analysis. However, the ruling established that a warrant is required and that geofence searches must be narrowly tailored and specific enough to avoid being effectively a fishing expedition."
         },
         {
           "type": "heading",
-          "text": "Deployed at a Protest — A First That Alarmed Civil Liberties Groups"
+          "text": "Dissent Warns of 'Irresponsible Escapade'"
         },
         {
           "type": "paragraph",
-          "text": "The expansion took a new and more contested turn when the Metropolitan Police deployed live facial recognition at an anti-immigration march in central London last weekend — the first time it had been used at a political protest anywhere in the UK. The Met said it had received intelligence indicating a potential threat to public safety from someone attending the event, and that the cameras had been placed at approach points to the march rather than on the route itself. The explanation did not satisfy civil liberties organisations. Big Brother Watch's senior legal and policy officer, Jasleen Chaggar, said in a statement: \"The police are already experimenting with embedding live facial recognition into CCTV cameras and have now alarmingly deployed the Orwellian technology for the first time at a protest. We are at risk of becoming a nation of suspects, tracked from the moment we leave our front door, with profound consequences for our rights to privacy, free speech and freedom of association.\""
-        },
-        {
-          "type": "paragraph",
-          "text": "Big Brother Watch and Liberty have campaigned against live facial recognition since its first trials nearly a decade ago. Their position — and that of the High Court challenge they supported — is not merely about accuracy, but principle: that scanning the faces of large numbers of people against a police database without any individual suspicion undermines the presumption of innocence that underpins British law, and normalises mass surveillance in public spaces. The High Court's rejection of that argument last month, and the government's immediate announcement of a nationwide rollout, significantly raised the stakes of the debate."
+          "text": "Justice Samuel Alito wrote in dissent, joined by Justices Clarence Thomas and Amy Coney Barrett, describing the court's opinion as an 'irresponsible escapade' that would destabilize longstanding Fourth Amendment jurisprudence. Alito argued that Chatrie had no expectation of privacy in information he voluntarily turned over to Google. In his dissenting opinion, Alito wrote: 'Although today's decision will send seismic waves through our Fourth Amendment doctrine, not one iota of the majority opinion will affect the outcome of this case.'"
         },
         {
           "type": "heading",
-          "text": "Handheld Devices, Fixed Cameras, and a Racial Disparity Row"
+          "text": "Implications for Law Enforcement and Privacy"
         },
         {
           "type": "paragraph",
-          "text": "The expansion of live facial recognition is broader than the police vans that have become familiar sights at London shopping streets and transport hubs. In February, Mayor of London Sadiq Khan was forced by persistent questioning from Green Party London Assembly Member Zoë Garbett to confirm for the first time that the Metropolitan Police was also trialling handheld Operator-Initiated Facial Recognition (OIFR) devices — technology capable of scanning and identifying individuals on the spot — despite the Met's own website stating at the time that it did not use such technology. Pilots of cameras fixed permanently to street furniture, rather than deployed from vans, are also underway. The Metropolitan Police's own strategy document, \"New Met for London Phase 2 2025-2028,\" confirms that retrospective facial recognition capabilities will continue to grow."
+          "text": "The ruling marks a significant victory for digital privacy advocates, who have long warned that geofence warrants allow police to conduct 'search first, develop suspicions later' investigations that sweep up data from innocent bystanders. Chatrie's attorneys had argued that the warrant was not particularized because it required Google to parse through location data for millions of people to identify a small subset near the crime scene. 'The potential for abuse is breathtaking,' they argued."
         },
         {
           "type": "paragraph",
-          "text": "Garbett's February report on what she called the \"unchecked expansion\" of live facial recognition in London raised a further controversy: data she compiled showed that over half of all live facial recognition deployments in 2024 took place in areas with higher-than-average Black populations, including Thornton Heath in Croydon, where 40 percent of residents are Black; Northumberland Park in Haringey at 36 percent; and Deptford High Street in Lewisham at 34 percent. The Metropolitan Police has faced sustained criticism for what critics describe as limited transparency about where and how the technology is deployed, and who ends up on the watchlist it is checked against. The government says it is working on a new legal framework for live facial recognition, but no timeline has been set for legislation."
+          "text": "George Washington University School of Law Professor Andrew Ferguson called the decision 'a major win for Fourth Amendment privacy.' 'While police have been getting warrants in many cases, including Chatrie, it was not clear they had to under the Fourth Amendment,' Ferguson said. 'Chatrie clarifies the importance of the warrant.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ruling is the Supreme Court's latest effort to apply the Fourth Amendment, ratified in 1791, to technologies the nation's founders could not have envisioned. It follows the court's 2018 decision in Carpenter v. United States, which imposed limits on police obtaining cellphone data pinpointing the past locations of criminal suspects."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      {
+        "id": 94,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      },
       { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
@@ -2213,15 +2226,15 @@
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
         "id": 91,
-        "slug": "london-police-expand-facial-recognition-public-streets",
+        "slug": "supreme-court-geofence-warrants-privacy-ruling",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
         "secondaryColor": "bg-[#00008b]",
-        "image": "/london-police-expand-facial-recognition-public-streets.webp",
-        "date": "May 27, 2026",
+        "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
+        "date": "July 6, 2026",
         "author": "Simone Varlette",
-        "title": "London Police Expand Facial Recognition Across Public Streets",
-        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+        "title": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling",
+        "excerpt": "The U.S. Supreme Court ruled that police must meet stronger constitutional standards before using geofence warrants to obtain smartphone location data, marking a major victory for digital privacy."
       }
     ]
   },
@@ -2291,7 +2304,7 @@
     },
     "relatedPosts": [
       {
-        "id": 91,
+        "id": 94,
         "slug": "london-police-expand-facial-recognition-public-streets",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -2302,6 +2315,87 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
+      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+    ]
+  },
+  {
+    "id": 94,
+    "slug": "london-police-expand-facial-recognition-public-streets",
+    "category": "tech",
+    "categoryLabel": "Big Tech & Surveillance",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "London Police Expand Facial Recognition Across Public Streets",
+    "metaDescription": "The Metropolitan Police are rapidly expanding live facial recognition surveillance across London, intensifying privacy concerns and debate over mass monitoring in the UK.",
+    "metaKeywords": [
+      "Metropolitan Police facial recognition London 2026",
+      "live facial recognition UK expansion High Court",
+      "Big Brother Watch LFR surveillance protest",
+      "Met Police biometric watchlist streets",
+      "UK facial recognition civil liberties privacy"
+    ],
+    "heading": "London Police Expand Facial Recognition Across Public Streets",
+    "excerpt": "The Metropolitan Police are deploying live facial recognition cameras across every London borough following a High Court ruling last month clearing the technology's use — triggering a fierce civil liberties debate after the system was used at a protest for the first time and the government announced plans for a nationwide rollout.",
+    "date": "May 27, 2026",
+    "image": "/london-police-expand-facial-recognition-public-streets.webp",
+    "heroImage": "/london-police-expand-facial-recognition-public-streets.webp",
+    "alt": "Metropolitan Police live facial recognition van and temporary warning signs on a London street, May 2026. REUTERS/Chris J. Ratcliffe",
+    "author": {
+      "name": "Simone Varlette",
+      "slug": "simone-varlette",
+      "avatar": "/simone-varlette2.webp",
+      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Tourists, shoppers, and office workers moving through a busy central London street on an ordinary weekday recently found themselves scanned against a Metropolitan Police watchlist, their faces converted into biometric data and compared against roughly 17,000 custody images in real time — all within seconds, and without any individual suspicion. The operation in Victoria, and a simultaneous deployment in Tottenham, north London, resulted in six arrests for offences including threats to kill, a breach of a court order, and a man in possession of a lock knife. Within an hour of the Victoria deployment beginning, a man in a grey hoodie, black baseball cap, and blue trainers looked startled as two officers stopped him on the pavement. He was handcuffed and taken away in a police van."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Metropolitan Police have now deployed live facial recognition technology across all 32 London boroughs, following a High Court ruling last month that rejected a judicial review challenge brought by civil liberties group Big Brother Watch and a community worker who had been wrongly identified by the system. The court found the technology's use was lawful and that existing safeguards were sufficient. The government confirmed plans to extend the system nationwide, expanding the number of surveillance vans and rolling it out across all police forces in England and Wales. A new Law Enforcement Data Service, providing officers with instant biometric identity verification capabilities, is expected to launch around early 2027."
+        },
+        {
+          "type": "heading",
+          "text": "2,500 Arrests — and a Convicted Paedophile Caught on the Street"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Metropolitan Police say live facial recognition has helped officers arrest around 2,500 wanted people since the start of 2024, including suspects accused of violent and sexual offences. Met Police director Lindsey Chiswick, the national and Met lead for live facial recognition, described the technology's impact as \"groundbreaking\" for policing. Speaking at the Victoria operation, she cited a recent case in which a convicted paedophile was identified by the system as he walked along a street holding hands with an eight-year-old girl. \"He should never have been out with a young girl like that on his own,\" Chiswick said. \"As a consequence of that, he's now back in prison.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Chiswick said that of the more than three million faces scanned in the twelve months to last September, the system generated ten false alerts, all of which officers determined were incorrect, and that no arrest had ever resulted from a false alert. Commissioner Sir Mark Rowley echoed that in a statement following the High Court ruling, describing live facial recognition as \"one of the biggest breakthroughs for policing\" and saying the technology was \"actively removing thousands of dangerous and wanted offenders from London's streets, including individuals who pose a serious and ongoing threat to our communities — those wanted for the most serious offences, such as rape, domestic abuse, and child sexual offences.\" Quarterly surveys, Chiswick said, consistently show around 80 percent of the London public supporting the Met's use of the technology."
+        },
+        {
+          "type": "heading",
+          "text": "Deployed at a Protest — A First That Alarmed Civil Liberties Groups"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion took a new and more contested turn when the Metropolitan Police deployed live facial recognition at an anti-immigration march in central London last weekend — the first time it had been used at a political protest anywhere in the UK. The Met said it had received intelligence indicating a potential threat to public safety from someone attending the event, and that the cameras had been placed at approach points to the march rather than on the route itself. The explanation did not satisfy civil liberties organisations. Big Brother Watch's senior legal and policy officer, Jasleen Chaggar, said in a statement: \"The police are already experimenting with embedding live facial recognition into CCTV cameras and have now alarmingly deployed the Orwellian technology for the first time at a protest. We are at risk of becoming a nation of suspects, tracked from the moment we leave our front door, with profound consequences for our rights to privacy, free speech and freedom of association.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Big Brother Watch and Liberty have campaigned against live facial recognition since its first trials nearly a decade ago. Their position — and that of the High Court challenge they supported — is not merely about accuracy, but principle: that scanning the faces of large numbers of people against a police database without any individual suspicion undermines the presumption of innocence that underpins British law, and normalises mass surveillance in public spaces. The High Court's rejection of that argument last month, and the government's immediate announcement of a nationwide rollout, significantly raised the stakes of the debate."
+        },
+        {
+          "type": "heading",
+          "text": "Handheld Devices, Fixed Cameras, and a Racial Disparity Row"
+        },
+        {
+          "type": "paragraph",
+          "text": "The expansion of live facial recognition is broader than the police vans that have become familiar sights at London shopping streets and transport hubs. In February, Mayor of London Sadiq Khan was forced by persistent questioning from Green Party London Assembly Member Zoë Garbett to confirm for the first time that the Metropolitan Police was also trialling handheld Operator-Initiated Facial Recognition (OIFR) devices — technology capable of scanning and identifying individuals on the spot — despite the Met's own website stating at the time that it did not use such technology. Pilots of cameras fixed permanently to street furniture, rather than deployed from vans, are also underway. The Metropolitan Police's own strategy document, \"New Met for London Phase 2 2025-2028,\" confirms that retrospective facial recognition capabilities will continue to grow."
+        },
+        {
+          "type": "paragraph",
+          "text": "Garbett's February report on what she called the \"unchecked expansion\" of live facial recognition in London raised a further controversy: data she compiled showed that over half of all live facial recognition deployments in 2024 took place in areas with higher-than-average Black populations, including Thornton Heath in Croydon, where 40 percent of residents are Black; Northumberland Park in Haringey at 36 percent; and Deptford High Street in Lewisham at 34 percent. The Metropolitan Police has faced sustained criticism for what critics describe as limited transparency about where and how the technology is deployed, and who ends up on the watchlist it is checked against. The government says it is working on a new legal framework for live facial recognition, but no timeline has been set for legislation."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
