@@ -40,15 +40,15 @@
   "secondaryNews": [
     {
       "id": 201,
-      "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc",
+      "slug": "nigel-farage-westminster-scrutiny-undeclared-gifts-donations",
       "category": "govt",
-      "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp",
+      "image": "/nigel-farage-westminster-scrutiny-undeclared-gifts-donations.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 17, 2026",
+      "date": "July 7, 2026",
       "author": "Margaret Holloway",
-      "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC",
-      "description": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials."
+      "title": "Nigel Farage Faces Westminster Scrutiny Over Undeclared Gifts and Political Donations",
+      "description": "Reform UK leader Nigel Farage is under pressure in Westminster as lawmakers call for investigations into alleged undeclared gifts and donations."
     },
     {
       "id": 202,
@@ -109,6 +109,18 @@
       "author": "Margaret Holloway",
       "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age",
       "description": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages."
+    },
+    {
+      "id": 207,
+      "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc",
+      "category": "govt",
+      "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 17, 2026",
+      "author": "Margaret Holloway",
+      "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC",
+      "description": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials."
     }
   ],
   "inOtherNews": {
