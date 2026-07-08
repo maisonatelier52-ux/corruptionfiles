@@ -613,13 +613,13 @@
   },
   {
     "id": 701,
-    "slug": "five-eyes-ai-cyber-espionage-warning",
+    "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
     "category": "intelligence",
-    "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
-    "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'.",
+    "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
+    "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
     "author": "Naomi Vosburgh",
-    "date": "June 23, 2026",
-    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "date": "July 8, 2026",
+    "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -664,6 +664,17 @@
     "author": "Naomi Vosburgh",
     "date": "June 9, 2026",
     "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 707,
+    "slug": "five-eyes-ai-cyber-espionage-warning",
+    "category": "intelligence",
+    "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'.",
+    "author": "Naomi Vosburgh",
+    "date": "June 23, 2026",
+    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 

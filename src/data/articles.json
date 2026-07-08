@@ -4201,27 +4201,27 @@
   },
   {
     "id": 701,
-    "slug": "five-eyes-ai-cyber-espionage-warning",
+    "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
-    "metaDescription": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations.",
+    "metaTitle": "Senate Intelligence Committee Sets July 15 Hearing for DNI Nominee Jay Clayton | Intelligence",
+    "metaDescription": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence, aiming to replace acting director Bill Pulte.",
     "metaKeywords": [
-      "Five Eyes AI warning",
-      "AI cyber espionage",
-      "artificial intelligence cyber threat",
-      "Five Eyes intelligence alliance",
-      "AI national security",
-      "Anthropic Mythos Fable",
-      "cyber espionage AI"
+      "Jay Clayton",
+      "Director of National Intelligence",
+      "Senate Intelligence Committee",
+      "confirmation hearing",
+      "Bill Pulte",
+      "DNI nomination",
+      "July 15 2026"
     ],
-    "heading": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
-    "excerpt": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations within months, not years.",
-    "date": "June 23, 2026",
-    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
-    "heroImage": "/five-eyes-ai-cyber-espionage-warning.webp",
-    "alt": "Representative image of AI cyber threat concept with digital lock and binary code overlay",
+    "heading": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
+    "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
+    "date": "July 8, 2026",
+    "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+    "heroImage": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+    "alt": "The U.S. Capitol building in Washington, D.C., where the Senate Intelligence Committee will hold a confirmation hearing for Jay Clayton.",
     "author": {
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
@@ -4233,60 +4233,40 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The Five Eyes intelligence alliance — comprising the United States, United Kingdom, Canada, Australia and New Zealand — has issued a rare joint warning that cutting-edge artificial intelligence technology is poised to dramatically enhance offensive hacking capabilities within months, not years. In a three-page statement dated Monday, the alliance said that 'frontier AI models are anticipated to exceed current industry expectations, fundamentally transforming both offensive and defensive cyber capabilities. The timeline is not years, it is months.'"
+          "text": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Donald Trump's nominee to serve as the next Director of National Intelligence. Committee Chair Tom Cotton officially set the date as Republicans aim to quickly confirm Clayton and replace acting director Bill Pulte, a Trump ally whose appointment has drawn bipartisan criticism over his lack of national security experience."
         },
         {
           "type": "paragraph",
-          "text": "The warning comes as the Trump administration has already taken unprecedented steps to restrict access to advanced AI models over national security concerns. Earlier this month, the U.S. government ordered AI company Anthropic to suspend access to its two most powerful models — Mythos 5 and Fable 5 — by foreign nationals. The company had previously touted Mythos's unprecedented ability to find software vulnerabilities, raising widespread cybersecurity concerns."
+          "text": "Clayton, a former chairman of the Securities and Exchange Commission and current U.S. attorney for the Southern District of New York, was nominated last month to lead the nation's 18 intelligence agencies. His selection came amid political backlash over Pulte, the Federal Housing Finance Agency director who had no national security experience, raising concerns even among some Republicans that he would 'weaponize' intelligence against the president's perceived political foes."
         },
         {
           "type": "heading",
-          "text": "Urgent Call to Action for Governments and Businesses"
+          "text": "A Delayed Confirmation Process"
         },
         {
           "type": "paragraph",
-          "text": "The Five Eyes agencies urged governments and corporate leaders to 'act now' to improve their defenses against sophisticated AI-driven cyber threats. The statement emphasized that AI 'lowers barriers for malicious actors and increases the speed and complexity of attacks.' The alliance warned that 'breaches will occur' and that preparedness is essential to contain them quickly and prevent escalation into major operational and financial crises."
+          "text": "The hearing was originally scheduled for June but was abruptly postponed when Trump announced the confirmation process would not move forward until James McDonald's nomination to succeed Clayton as U.S. attorney for the Southern District of New York was approved. Trump later appeared to reverse course, telling reporters at the start of July that Clayton's hearing would take place in two weeks."
         },
         {
           "type": "paragraph",
-          "text": "To counter the threat, the alliance recommended that organizations integrate AI tools into their security operations to detect vulnerabilities earlier, improve software quality, monitor unusual behavior, and respond faster to incidents. They also urged swift patching of faulty software, updating old systems, limiting access to critical systems, and avoiding putting systems online unless necessary."
+          "text": "The postponement drew criticism from Committee Chair Cotton, who wrote at the time: 'It's regrettable that the president has directed Jay Clayton not to appear at his confirmation hearing today.' Despite the delay, Republicans have continued to push for Clayton's swift confirmation, hoping to have him in place before leaving for a weeks-long break at the start of August."
         },
         {
           "type": "heading",
-          "text": "The Anthropic Precedent and Growing Unease"
+          "text": "FISA Reauthorization Looms"
         },
         {
           "type": "paragraph",
-          "text": "The Five Eyes statement follows the Trump administration's broad directive against Anthropic's Mythos 5 and Fable 5 models — one of the furthest-reaching actions a government has taken in response to the advanced capabilities of an AI model. Anthropic had said it believed the U.S. government had 'become aware' of a method of 'jailbreaking' its public Fable model, or getting around its internal safety guardrails."
+          "text": "The confirmation hearing carries significant implications beyond the intelligence community. Republicans hope that moving Clayton's nomination will break a stalemate over a three-year extension of Section 702 authority of the Foreign Intelligence Surveillance Act. Democrats have said they will not vote for the reauthorization until Pulte, whom they deem unqualified, is removed from the post."
         },
         {
           "type": "paragraph",
-          "text": "While the Five Eyes statement does not mention specific AI models or companies by name, many observers have focused on Anthropic's advanced tools. The company's Fable 5 was described as a supposedly more community-friendly version of Mythos — a powerful AI model capable of detecting vulnerabilities in cyber systems that was only available to vetted organizations because of concerns it could be exploited for malicious purposes."
-        },
-        {
-          "type": "heading",
-          "text": "Broader Implications and Expert Concerns"
-        },
-        {
-          "type": "paragraph",
-          "text": "AI experts have described the message as 'really stark,' warning that it has worrying implications not just for governments and large corporations, but for small and medium businesses around the world. Olivia Shen, director of the Strategic Technologies Program with the United States Studies Centre at the University of Sydney, told CNN: 'What it was saying is that in an age of AI, breaches will occur. It's not a matter of if, but when, so it's important to get prepared now.'"
-        },
-        {
-          "type": "paragraph",
-          "text": "Shen also cautioned that while much of the world's attention is currently on Anthropic, other highly capable AI models could emerge from other actors. 'I think we have to anticipate that the next Mythos or the next Fable is just around the corner,' Shen said. 'We can only see what's been released, but there could be other models being developed by the likes of China, or other states and other actors and companies, that are just as advanced.'"
-        },
-        {
-          "type": "paragraph",
-          "text": "The warning is another indication of officials' increasing concerns over models such as Anthropic's Mythos or OpenAI's GPT-5.5-Cyber, which are said to allow users to quickly execute complex — and potentially devastating — hacks. Around the same time as the Five Eyes statement, the U.S. cyber defense agency CISA — which was among those cosigning the statement — reduced the deadlines imposed on government officials to deal with serious digital vulnerabilities in their networks to three days, citing AI threats."
-        },
-        {
-          "type": "paragraph",
-          "text": "The Five Eyes alliance called for a 'whole-of-organisation and whole-of-society response,' stating that 'cyber risk can no longer be treated as a purely technical issue. This is a core business risk and leadership responsibility.' As the technology continues to evolve at a rapid pace, the window for preparation is closing fast."
+          "text": "Backers of the key surveillance authority believe they could swiftly confirm Clayton — barring any major surprises — and that doing so would unlock the Democratic votes needed to pass a FISA extension. The committee's move to schedule the hearing reflects the urgency among lawmakers to resolve the FISA impasse while also filling the permanent intelligence director role."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 703, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
+      { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
     ]
   },
   {
@@ -4618,7 +4598,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+      { "id": 707, "slug": "five-eyes-ai-cyber-espionage-warning", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/five-eyes-ai-cyber-espionage-warning.webp", "date": "June 23, 2026", "author": "Naomi Vosburgh", "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage", "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'." }
     ]
   },
   {
@@ -4702,6 +4682,96 @@
         {
           "type": "paragraph",
           "text": "Thune has signalled the Senate will attempt another cloture vote this week before the Friday deadline. Whether anything has changed in the underlying arithmetic is unclear. Trump has not publicly indicated he will reverse the Pulte appointment, and Democrats have not indicated they will move without that reversal. Some intelligence officials have privately suggested the administration may be hoping to allow the authority to lapse briefly, then use the resulting alarm — among agencies, allies, and the public — to force a clean reauthorization on terms more favourable to the executive branch. That calculation, if it exists, carries significant risk. FISA Section 702 is not the kind of authority that can be lapsed and restored without cost. The question of how much cost the administration is prepared to accept for a political point on intelligence oversight is one Washington is rapidly running out of time to answer."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 703, "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp", "date": "May 20, 2026", "author": "Naomi Vosburgh", "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post", "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict." }
+    ]
+  },
+  {
+    "id": 707,
+    "slug": "five-eyes-ai-cyber-espionage-warning",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "metaDescription": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations.",
+    "metaKeywords": [
+      "Five Eyes AI warning",
+      "AI cyber espionage",
+      "artificial intelligence cyber threat",
+      "Five Eyes intelligence alliance",
+      "AI national security",
+      "Anthropic Mythos Fable",
+      "cyber espionage AI"
+    ],
+    "heading": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+    "excerpt": "The Five Eyes intelligence alliance has issued an urgent warning that advanced AI models could dramatically enhance cyber espionage capabilities, allowing hostile states and intelligence services to conduct more sophisticated cyber operations within months, not years.",
+    "date": "June 23, 2026",
+    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "heroImage": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "alt": "Representative image of AI cyber threat concept with digital lock and binary code overlay",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes intelligence alliance — comprising the United States, United Kingdom, Canada, Australia and New Zealand — has issued a rare joint warning that cutting-edge artificial intelligence technology is poised to dramatically enhance offensive hacking capabilities within months, not years. In a three-page statement dated Monday, the alliance said that 'frontier AI models are anticipated to exceed current industry expectations, fundamentally transforming both offensive and defensive cyber capabilities. The timeline is not years, it is months.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The warning comes as the Trump administration has already taken unprecedented steps to restrict access to advanced AI models over national security concerns. Earlier this month, the U.S. government ordered AI company Anthropic to suspend access to its two most powerful models — Mythos 5 and Fable 5 — by foreign nationals. The company had previously touted Mythos's unprecedented ability to find software vulnerabilities, raising widespread cybersecurity concerns."
+        },
+        {
+          "type": "heading",
+          "text": "Urgent Call to Action for Governments and Businesses"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes agencies urged governments and corporate leaders to 'act now' to improve their defenses against sophisticated AI-driven cyber threats. The statement emphasized that AI 'lowers barriers for malicious actors and increases the speed and complexity of attacks.' The alliance warned that 'breaches will occur' and that preparedness is essential to contain them quickly and prevent escalation into major operational and financial crises."
+        },
+        {
+          "type": "paragraph",
+          "text": "To counter the threat, the alliance recommended that organizations integrate AI tools into their security operations to detect vulnerabilities earlier, improve software quality, monitor unusual behavior, and respond faster to incidents. They also urged swift patching of faulty software, updating old systems, limiting access to critical systems, and avoiding putting systems online unless necessary."
+        },
+        {
+          "type": "heading",
+          "text": "The Anthropic Precedent and Growing Unease"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes statement follows the Trump administration's broad directive against Anthropic's Mythos 5 and Fable 5 models — one of the furthest-reaching actions a government has taken in response to the advanced capabilities of an AI model. Anthropic had said it believed the U.S. government had 'become aware' of a method of 'jailbreaking' its public Fable model, or getting around its internal safety guardrails."
+        },
+        {
+          "type": "paragraph",
+          "text": "While the Five Eyes statement does not mention specific AI models or companies by name, many observers have focused on Anthropic's advanced tools. The company's Fable 5 was described as a supposedly more community-friendly version of Mythos — a powerful AI model capable of detecting vulnerabilities in cyber systems that was only available to vetted organizations because of concerns it could be exploited for malicious purposes."
+        },
+        {
+          "type": "heading",
+          "text": "Broader Implications and Expert Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "AI experts have described the message as 'really stark,' warning that it has worrying implications not just for governments and large corporations, but for small and medium businesses around the world. Olivia Shen, director of the Strategic Technologies Program with the United States Studies Centre at the University of Sydney, told CNN: 'What it was saying is that in an age of AI, breaches will occur. It's not a matter of if, but when, so it's important to get prepared now.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Shen also cautioned that while much of the world's attention is currently on Anthropic, other highly capable AI models could emerge from other actors. 'I think we have to anticipate that the next Mythos or the next Fable is just around the corner,' Shen said. 'We can only see what's been released, but there could be other models being developed by the likes of China, or other states and other actors and companies, that are just as advanced.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The warning is another indication of officials' increasing concerns over models such as Anthropic's Mythos or OpenAI's GPT-5.5-Cyber, which are said to allow users to quickly execute complex — and potentially devastating — hacks. Around the same time as the Five Eyes statement, the U.S. cyber defense agency CISA — which was among those cosigning the statement — reduced the deadlines imposed on government officials to deal with serious digital vulnerabilities in their networks to three days, citing AI threats."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Five Eyes alliance called for a 'whole-of-organisation and whole-of-society response,' stating that 'cyber risk can no longer be treated as a purely technical issue. This is a core business risk and leadership responsibility.' As the technology continues to evolve at a rapid pace, the window for preparation is closing fast."
         }
       ]
     },
