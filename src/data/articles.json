@@ -3482,25 +3482,27 @@
   },
   {
     "id": 602,
-    "slug": "ai-data-centres-environmental-backlash-us-uk",
+    "slug": "uk-warns-ecosystem-collapse-threatens-food-security-national-safety",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "AI Data Centres Face Growing Environmental Backlash in US and UK",
-    "metaDescription": "Rising AI infrastructure and data-centre expansion are increasing electricity demand in the US and UK, prompting environmental concerns and public opposition.",
+    "metaTitle": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety | Environmental Exploitation",
+    "metaDescription": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
     "metaKeywords": [
-      "AI data centres environmental backlash 2026",
-      "data centres electricity demand UK US",
-      "Seattle data centre moratorium AI energy",
-      "UK datacentres gas electricity climate targets",
-      "EIA power demand record high data centres"
+      "UK ecosystem collapse",
+      "food security UK",
+      "national security threat",
+      "biodiversity loss",
+      "climate crisis",
+      "environmental exploitation",
+      "UK report 2026"
     ],
-    "heading": "AI Data Centres Face Growing Environmental Backlash in US and UK",
-    "excerpt": "Rising AI infrastructure and data-centre expansion are pushing electricity grids in the US and UK toward their limits — driving up consumer power bills, threatening climate targets, and sparking a growing wave of community opposition that is already canceling projects.",
-    "date": "May 22, 2026",
-    "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
-    "heroImage": "/ai-data-centres-environmental-backlash-us-uk.webp",
-    "alt": "Rows of AI data centre server racks drawing enormous electricity loads as public backlash mounts in the US and UK, May 2026",
+    "heading": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety",
+    "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
+    "date": "July 8, 2026",
+    "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
+    "heroImage": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
+    "alt": "A parched field and dried-up riverbed illustrating the impact of ecosystem collapse on food security.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -3512,61 +3514,73 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The rapid expansion of artificial intelligence infrastructure is colliding with electricity grids on both sides of the Atlantic, generating a surge of environmental concern, regulatory scrutiny, and public opposition that is starting to slow the industry's build-out in concrete ways. Data centres already consume around 6 percent of electricity supply in both the United Kingdom and the United States, according to recent industry estimates — a figure that industry analysts say is climbing rapidly as AI workloads multiply. The consequences are landing on ratepayers' bills, on national climate targets, and on the communities where the facilities are being built."
+          "text": "Members of parliament have demanded the full publication of an explosive report by the UK's spy leaders that found the collapse of ecosystems overseas would have catastrophic consequences for the UK's national security, warning that the UK has 'no future' if the findings are not urgently acted on."
         },
         {
           "type": "paragraph",
-          "text": "In the United States, the U.S. Energy Information Administration projected that power demand would rise to 4,283 billion kilowatt hours in 2026 — up from a record 4,097 billion kWh in 2024 — with data centres identified as a primary driver, alongside electrification of heating and transport. On PJM Interconnection, the 13-state grid that is the largest in the country, wholesale power prices jumped 76 percent in the first quarter of 2026 compared to the same period in 2025, averaging $136.53 per megawatt-hour against $77.78 a year earlier, according to a report by the grid's independent market monitor cited by Bloomberg. PJM's own executive vice president of market services, Stu Bresler, confirmed that data centres were responsible for a majority of the projected 5,400-megawatt increase in grid demand projected for 2026."
+          "text": "The report paints a devastating picture of severe food shortages, price rises, migration, political destabilisation and possible war, resulting from the collapse of ecosystems, fuelled by the human-induced climate crisis and over-exploitation. Food shortages could result within five years."
         },
         {
           "type": "heading",
-          "text": "Consumers Pay as Utilities Race to Keep Up"
+          "text": "Government Refuses to Publish Full Report"
         },
         {
           "type": "paragraph",
-          "text": "The cost pressure is reaching households. Utility companies requested state commissions to approve rate increases worth $9.4 billion in just the first three months of 2026, according to a report by the nonprofit PowerLines — following a record $31 billion in rate-hike requests for all of 2025, more than double the $15 billion sought in 2024, as reported by Fortune. Critically, nearly half of those 2025 requests had not yet been approved as of early 2026, meaning a significant wave of additional bill increases is still working through the regulatory pipeline. Virginia resident John Steinbach told Consumer Reports his electricity bill spiked to $281 in January 2026, more than double his typical payment, a pattern being reported by ratepayers across Northern Virginia's dense concentration of AI data centre campuses."
+          "text": "Despite growing concerns for the UK's food security, likely to be worsened by the third heatwave this summer currently afflicting the UK and swathes of the northern hemisphere, the government has refused to publish the full report, which has circulated among defence officials for more than a year."
         },
         {
           "type": "paragraph",
-          "text": "Lawmakers in more than 30 states have introduced over 300 bills in 2026 dealing with data-centre energy policy, moratoriums, and cost allocation, according to Multistate. In January, Reps. Mike Levin and Kathy Castor introduced the SHIELD Act to require large-load consumers rather than households to bear the costs of grid upgrades their facilities require. In March, Senators Elizabeth Warren and Josh Hawley — crossing the aisle — pushed the EIA to establish mandatory energy reporting requirements for data centres, writing that without such data, \"policymakers, utility companies, and local communities are operating in the dark.\" The Federal Energy Regulatory Commission is expected to act by the end of June on rules to govern how large data centres connect to the grid."
+          "text": "MPs on the environmental audit committee, who held a hearing on the report on Wednesday afternoon, also warned that the government was failing to 'join the dots' between the national security threat posed by the climate crisis and the collapse of species, and swingeing cuts to the overseas aid and climate finance budgets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mary Creagh, the minister for the Department of Environment Food and Rural Affairs, told MPs at the hearing that a redacted 14-page version of some findings, published after repeated freedom of information requests in January, should provide enough information. The Cabinet Office, also responsible for the cross-government report, refused to send a minister or official."
         },
         {
           "type": "heading",
-          "text": "Seattle Weighs a One-Year Ban"
+          "text": "MPs and Experts Demand Action"
         },
         {
           "type": "paragraph",
-          "text": "Nowhere has the municipal-level fight become sharper than in Seattle. City officials are weighing a one-year moratorium on new large data centres after four companies approached Seattle City Light proposing five new facilities that would collectively require up to 369 megawatts of electricity per day — roughly one-third of the city's current average daily power usage. Two of those companies have since withdrawn their proposals, but City Councilmember Eddie Lin, who is sponsoring the moratorium legislation, said the pause is still needed to allow the city to develop proper rules. \"I don't see us having a permanent ban on all data centers,\" Lin said at a council meeting last week, \"but I do think we need to have appropriate rules and regulations\" covering water use, electricity consumption, noise, greenhouse-gas emissions, and jobs."
+          "text": "Toby Perkins, the chair of the committee, said he was 'disappointed' not to see the full version. 'It's a disappointing signal, and it would be a positive sign if we could cooperate on a response to the findings,' he said. 'The minister clearly does appreciate the scale of this crisis. But I remain of the view that the government has more to do to grasp the urgency of the moment.'"
         },
         {
           "type": "paragraph",
-          "text": "City Council President Joy Hollingsworth backed the measure, saying it was \"not a knee-jerk reaction\" and citing the experience of other American cities already grappling with the footprint of large-scale server farms. The Seattle Metropolitan Chamber of Commerce pushed back, with president Joe Nguyen arguing the moratorium would be \"more symbolic than functional\" — since data centre projects would simply relocate rather than disappear — and warning it risked being read as \"another attack on the technology industry.\" Mayor Katie Wilson's administration said Seattle City Light is separately developing new policies to ensure infrastructure and energy costs from large-load data centres are not passed on to city residents."
+          "text": "Chris Hinchliff, the Labour MP, and a member of the committee, contrasted the £15bn to be added to the defence budget with the lack of funding to protect critical ecosystems. 'The government can summon billions of pounds for new military hardware when the defence sector calls for it. We need an equally decisive mobilisation of investment to restore the natural world on which we rely for our food, water, and clean air. Without these essentials our country has no future,' he said."
+        },
+        {
+          "type": "paragraph",
+          "text": "'Every critical ecosystem across our planet is on a pathway to collapse with an irreversible loss of function, and this poses huge threats to our national security. This looming crisis demands urgent action,' he added, citing findings in the unpublished report."
+        },
+        {
+          "type": "paragraph",
+          "text": "Adrian Barclay, the Green party MP, said: 'If the government is serious about security it makes no sense to be cutting the international development and climate finance budgets which are crucial to tackling these fundamental threats. It's outrageous for the government to refuse to let MPs see the full report. How can we possibly scrutinise whether the government's response to these grave risks is adequate?'"
         },
         {
           "type": "heading",
-          "text": "UK Datacentres Turn to Gas as Grid Queue Stretches for Years"
+          "text": "Catastrophic Global Consequences"
         },
         {
           "type": "paragraph",
-          "text": "In the United Kingdom, the tension has taken a different and more immediate form. More than 100 new data centre projects are now planning to burn gas to generate their own electricity — with some potentially doing so permanently — because of the years-long wait to secure connections to the National Grid, The Guardian reported on May 18. Silvia Simon, head of research at Future Energy Networks, which represents UK gas suppliers, told the Guardian her organisation had received more than 100 requests for gas connections from data-centre operators over the past two years. The total gas demand those requests represent amounts to more than 15 terawatt hours per year — enough to power London for roughly four and a half months."
+          "text": "The report by the joint intelligence committee and other government departments shows that the UK will face catastrophic consequences from the collapse of key ecosystems in other countries. These include the Amazon rainforest, which scientists fear is reaching a 'tipping point' triggered by deforestation and rising temperatures, which would turn the ecosystem from a huge absorber of carbon dioxide into a net source of carbon."
         },
         {
           "type": "paragraph",
-          "text": "Stuart Okin, Ofgem's director of cyber regulation and AI, laid out the scale of the problem at the All-Energy conference in Glasgow: \"There's 100GW of datacentre projects in the queue. Clearly that's not all going to be able to connect to the grid. If a project isn't going to get a connection, it is going to have to come up with an alternative method.\" The shift to permanent gas generation puts the UK's Clean Power 2030 target in direct jeopardy. Julian Leslie, strategic planning director at the National Energy System Operator, told the Guardian the government's goal was to have less than 5 percent of power supplied by unabated gas, but data centres running on off-grid gas supplies would sit outside that accounting, raising what Leslie called \"an interesting question\" about what the target actually means in practice."
-        },
-        {
-          "type": "heading",
-          "text": "Public Opposition Hardens — and Starts to Cancel Projects"
+          "text": "Food shortages would be almost certain to result from the decline of ecosystems overseas, the report found, as would a big increase in global migration, with the potential to fuel unrest. Among the most alarming findings was that armed conflict, which includes nuclear war, was also a potential consequence."
         },
         {
           "type": "paragraph",
-          "text": "The backlash is no longer just rhetorical. A record number of data centre projects were canceled in the first quarter of 2026 amid community resistance, according to data from Heatmap Pro, cited by Axios. Morgan Stanley analysts wrote in a note on midterm election market risks that \"public pushback is emerging as a binding constraint, particularly around data center buildout,\" while investment bank Jefferies told clients the cancellations were \"sapping confidence\" among investors. An Economist/YouGov poll conducted May 9-11 found over 70 percent of Americans believe AI is advancing too quickly — with 77 percent of Democrats and 68 percent of Republicans sharing that view. A separate Gallup survey found only 18 percent of young people between the ages of 14 and 29 say they feel hopeful about AI. Other YouGov polling shows negative views of the technology rising from 34 percent three years ago to just over 50 percent today."
+          "text": "The report was due to be published at an event last October, attended by King Charles, in the Natural History Museum. However, at the last minute the publication was pulled, at the behest of Downing Street."
+        },
+        {
+          "type": "paragraph",
+          "text": "Creagh told the hearing of the Environmental Audit Committee on Wednesday that the government was 'laser-focused' on using the diminished finance available to protect nature. She pointed to £6.7bn the government planned to spend on nature and climate, with an added aim of 'mobilising billions' from the private sector."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
+      { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
+      { "id": 608, "slug": "texas-fracking-expansion-near-schools-arlington", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/texas-fracking-expansion-near-schools-arlington.webp", "date": "June 17, 2026", "author": "Thomas Aldgate", "title": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns", "excerpt": "Residents and environmental groups are raising concerns over expanded fracking operations near schools and neighborhoods in Arlington, citing potential pollution and public health risks." }
     ]
   },
   {
@@ -3646,7 +3660,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
+      { "id": 610, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
       { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
     ]
   },
@@ -4195,8 +4209,97 @@
       ]
     },
     "relatedPosts": [
-      { "id": 602, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
+      { "id": 602, "slug": "uk-warns-ecosystem-collapse-threatens-food-security-national-safety", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp", "date": "July 8, 2026", "author": "Thomas Aldgate", "title": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety", "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability." },
       { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
+    ]
+  },
+  {
+    "id": 610,
+    "slug": "ai-data-centres-environmental-backlash-us-uk",
+    "category": "eco",
+    "categoryLabel": "Environmental Exploitation",
+    "categoryColor": "bg-[#2196f3]",
+    "metaTitle": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+    "metaDescription": "Rising AI infrastructure and data-centre expansion are increasing electricity demand in the US and UK, prompting environmental concerns and public opposition.",
+    "metaKeywords": [
+      "AI data centres environmental backlash 2026",
+      "data centres electricity demand UK US",
+      "Seattle data centre moratorium AI energy",
+      "UK datacentres gas electricity climate targets",
+      "EIA power demand record high data centres"
+    ],
+    "heading": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+    "excerpt": "Rising AI infrastructure and data-centre expansion are pushing electricity grids in the US and UK toward their limits — driving up consumer power bills, threatening climate targets, and sparking a growing wave of community opposition that is already canceling projects.",
+    "date": "May 22, 2026",
+    "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
+    "heroImage": "/ai-data-centres-environmental-backlash-us-uk.webp",
+    "alt": "Rows of AI data centre server racks drawing enormous electricity loads as public backlash mounts in the US and UK, May 2026",
+    "author": {
+      "name": "Thomas Aldgate",
+      "slug": "thomas-aldgate",
+      "avatar": "/thomas-aldgate.webp",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The rapid expansion of artificial intelligence infrastructure is colliding with electricity grids on both sides of the Atlantic, generating a surge of environmental concern, regulatory scrutiny, and public opposition that is starting to slow the industry's build-out in concrete ways. Data centres already consume around 6 percent of electricity supply in both the United Kingdom and the United States, according to recent industry estimates — a figure that industry analysts say is climbing rapidly as AI workloads multiply. The consequences are landing on ratepayers' bills, on national climate targets, and on the communities where the facilities are being built."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United States, the U.S. Energy Information Administration projected that power demand would rise to 4,283 billion kilowatt hours in 2026 — up from a record 4,097 billion kWh in 2024 — with data centres identified as a primary driver, alongside electrification of heating and transport. On PJM Interconnection, the 13-state grid that is the largest in the country, wholesale power prices jumped 76 percent in the first quarter of 2026 compared to the same period in 2025, averaging $136.53 per megawatt-hour against $77.78 a year earlier, according to a report by the grid's independent market monitor cited by Bloomberg. PJM's own executive vice president of market services, Stu Bresler, confirmed that data centres were responsible for a majority of the projected 5,400-megawatt increase in grid demand projected for 2026."
+        },
+        {
+          "type": "heading",
+          "text": "Consumers Pay as Utilities Race to Keep Up"
+        },
+        {
+          "type": "paragraph",
+          "text": "The cost pressure is reaching households. Utility companies requested state commissions to approve rate increases worth $9.4 billion in just the first three months of 2026, according to a report by the nonprofit PowerLines — following a record $31 billion in rate-hike requests for all of 2025, more than double the $15 billion sought in 2024, as reported by Fortune. Critically, nearly half of those 2025 requests had not yet been approved as of early 2026, meaning a significant wave of additional bill increases is still working through the regulatory pipeline. Virginia resident John Steinbach told Consumer Reports his electricity bill spiked to $281 in January 2026, more than double his typical payment, a pattern being reported by ratepayers across Northern Virginia's dense concentration of AI data centre campuses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers in more than 30 states have introduced over 300 bills in 2026 dealing with data-centre energy policy, moratoriums, and cost allocation, according to Multistate. In January, Reps. Mike Levin and Kathy Castor introduced the SHIELD Act to require large-load consumers rather than households to bear the costs of grid upgrades their facilities require. In March, Senators Elizabeth Warren and Josh Hawley — crossing the aisle — pushed the EIA to establish mandatory energy reporting requirements for data centres, writing that without such data, \"policymakers, utility companies, and local communities are operating in the dark.\" The Federal Energy Regulatory Commission is expected to act by the end of June on rules to govern how large data centres connect to the grid."
+        },
+        {
+          "type": "heading",
+          "text": "Seattle Weighs a One-Year Ban"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nowhere has the municipal-level fight become sharper than in Seattle. City officials are weighing a one-year moratorium on new large data centres after four companies approached Seattle City Light proposing five new facilities that would collectively require up to 369 megawatts of electricity per day — roughly one-third of the city's current average daily power usage. Two of those companies have since withdrawn their proposals, but City Councilmember Eddie Lin, who is sponsoring the moratorium legislation, said the pause is still needed to allow the city to develop proper rules. \"I don't see us having a permanent ban on all data centers,\" Lin said at a council meeting last week, \"but I do think we need to have appropriate rules and regulations\" covering water use, electricity consumption, noise, greenhouse-gas emissions, and jobs."
+        },
+        {
+          "type": "paragraph",
+          "text": "City Council President Joy Hollingsworth backed the measure, saying it was \"not a knee-jerk reaction\" and citing the experience of other American cities already grappling with the footprint of large-scale server farms. The Seattle Metropolitan Chamber of Commerce pushed back, with president Joe Nguyen arguing the moratorium would be \"more symbolic than functional\" — since data centre projects would simply relocate rather than disappear — and warning it risked being read as \"another attack on the technology industry.\" Mayor Katie Wilson's administration said Seattle City Light is separately developing new policies to ensure infrastructure and energy costs from large-load data centres are not passed on to city residents."
+        },
+        {
+          "type": "heading",
+          "text": "UK Datacentres Turn to Gas as Grid Queue Stretches for Years"
+        },
+        {
+          "type": "paragraph",
+          "text": "In the United Kingdom, the tension has taken a different and more immediate form. More than 100 new data centre projects are now planning to burn gas to generate their own electricity — with some potentially doing so permanently — because of the years-long wait to secure connections to the National Grid, The Guardian reported on May 18. Silvia Simon, head of research at Future Energy Networks, which represents UK gas suppliers, told the Guardian her organisation had received more than 100 requests for gas connections from data-centre operators over the past two years. The total gas demand those requests represent amounts to more than 15 terawatt hours per year — enough to power London for roughly four and a half months."
+        },
+        {
+          "type": "paragraph",
+          "text": "Stuart Okin, Ofgem's director of cyber regulation and AI, laid out the scale of the problem at the All-Energy conference in Glasgow: \"There's 100GW of datacentre projects in the queue. Clearly that's not all going to be able to connect to the grid. If a project isn't going to get a connection, it is going to have to come up with an alternative method.\" The shift to permanent gas generation puts the UK's Clean Power 2030 target in direct jeopardy. Julian Leslie, strategic planning director at the National Energy System Operator, told the Guardian the government's goal was to have less than 5 percent of power supplied by unabated gas, but data centres running on off-grid gas supplies would sit outside that accounting, raising what Leslie called \"an interesting question\" about what the target actually means in practice."
+        },
+        {
+          "type": "heading",
+          "text": "Public Opposition Hardens — and Starts to Cancel Projects"
+        },
+        {
+          "type": "paragraph",
+          "text": "The backlash is no longer just rhetorical. A record number of data centre projects were canceled in the first quarter of 2026 amid community resistance, according to data from Heatmap Pro, cited by Axios. Morgan Stanley analysts wrote in a note on midterm election market risks that \"public pushback is emerging as a binding constraint, particularly around data center buildout,\" while investment bank Jefferies told clients the cancellations were \"sapping confidence\" among investors. An Economist/YouGov poll conducted May 9-11 found over 70 percent of Americans believe AI is advancing too quickly — with 77 percent of Democrats and 68 percent of Republicans sharing that view. A separate Gallup survey found only 18 percent of young people between the ages of 14 and 29 say they feel hopeful about AI. Other YouGov polling shows negative views of the technology rising from 34 percent three years ago to just over 50 percent today."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
+      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
   {

@@ -508,15 +508,15 @@
   "discoveryMiddle": [
     {
       "id": 502,
-      "slug": "ai-data-centres-environmental-backlash-us-uk",
+      "slug": "uk-warns-ecosystem-collapse-threatens-food-security-national-safety",
       "category": "eco",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "May 22, 2026",
-      "title": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+      "date": "July 8, 2026",
+      "title": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety",
       "author": "Thomas Aldgate",
-      "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years.",
-      "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
+      "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
+      "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
       "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
     },
     {
@@ -597,6 +597,19 @@
       "categoryColor": "bg-[#2196f3]",
       "date": "May 20, 2026",
       "author": "Thomas Aldgate"
+    },
+    {
+      "id": 510,
+      "slug": "ai-data-centres-environmental-backlash-us-uk",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "May 22, 2026",
+      "title": "AI Data Centres Face Growing Environmental Backlash in US and UK",
+      "author": "Thomas Aldgate",
+      "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years.",
+      "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
+      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
     }
   ], 
 "technologyNews": [
