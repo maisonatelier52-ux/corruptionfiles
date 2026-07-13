@@ -52,15 +52,15 @@
     },
     {
       "id": 202,
-      "slug": "house-committee-advances-sunshine-protection-act-permanent-dst",
+      "slug": "congress-returns-republican-leadership-uncertainty-lindsey-graham-death",
       "category": "govt",
-      "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp",
+      "image": "/congress-returns-republican-leadership-uncertainty-lindsey-graham-death.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 25, 2026",
+      "date": "July 13, 2026",
       "author": "Margaret Holloway",
-      "title": "House Committee Advances Permanent Daylight Saving Time Bill",
-      "description": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber."
+      "title": "Congress Returns to Capitol as Republicans Face Leadership Uncertainty After Lindsey Graham's Death",
+      "description": "Republican lawmakers return to Capitol Hill facing a packed legislative agenda and fresh leadership challenges following Senator Lindsey Graham's death."
     },
     {
       "id": 203,
@@ -121,6 +121,18 @@
       "author": "Margaret Holloway",
       "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC",
       "description": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials."
+    },
+    {
+      "id": 208,
+      "slug": "house-committee-advances-sunshine-protection-act-permanent-dst",
+      "category": "govt",
+      "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 25, 2026",
+      "author": "Margaret Holloway",
+      "title": "House Committee Advances Permanent Daylight Saving Time Bill",
+      "description": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber."
     }
   ],
   "inOtherNews": {
