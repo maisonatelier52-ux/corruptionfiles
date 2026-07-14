@@ -64,15 +64,15 @@
     },
     {
       "id": 203,
-      "slug": "texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026",
+      "slug": "hillsborough-law-nears-final-approval-uk-parliament",
       "category": "govt",
-      "image": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "image": "/hillsborough-law-nears-final-approval-uk-parliament.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 26, 2026",
+      "date": "July 14, 2026",
       "author": "Margaret Holloway",
-      "title": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
-      "description": "Voters in Texas head to the polls to choose between four-term incumbent John Cornyn and Trump-endorsed Attorney General Ken Paxton in the most expensive Republican Senate primary in state history — a race that will define the GOP's loyalty test for the 2026 midterm cycle."
+      "title": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning",
+      "description": "The UK Parliament is expected to pass the landmark Hillsborough Law, showing a legal duty of candour for public officials following years of campaigning by victims' families."
     },
     {
       "id": 204,
@@ -133,6 +133,18 @@
       "author": "Margaret Holloway",
       "title": "House Committee Advances Permanent Daylight Saving Time Bill",
       "description": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber."
+    },
+    {
+      "id": 209,
+      "slug": "texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026",
+      "category": "govt",
+      "image": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 26, 2026",
+      "author": "Margaret Holloway",
+      "title": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
+      "description": "Voters in Texas head to the polls to choose between four-term incumbent John Cornyn and Trump-endorsed Attorney General Ken Paxton in the most expensive Republican Senate primary in state history — a race that will define the GOP's loyalty test for the 2026 midterm cycle."
     }
   ],
   "inOtherNews": {

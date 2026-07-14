@@ -452,90 +452,104 @@
     },
     {
       "id": 203,
-      "slug": "texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026",
+      "slug": "hillsborough-law-nears-final-approval-uk-parliament",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
-      "metaDescription": "Republicans in Texas are locked in a heated Senate runoff that could reveal the strength of Donald Trump's influence within the GOP before the 2026 midterms.",
+      "metaTitle": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning | Government",
+      "metaDescription": "The UK Parliament is expected to pass the landmark Hillsborough Law, introducing a legal duty of candour for public officials following years of campaigning by victims' families.",
       "metaKeywords": [
-        "Texas GOP Senate runoff 2026 Cornyn Paxton",
-        "Trump endorses Ken Paxton Texas Senate",
-        "John Cornyn Ken Paxton primary runoff",
-        "Texas Republican midterms 2026 Senate race",
-        "MAGA establishment Texas GOP battle"
+        "Hillsborough Law",
+        "Public Office Accountability Bill",
+        "duty of candour",
+        "Hillsborough disaster",
+        "Keir Starmer",
+        "Andy Burnham",
+        "UK Parliament"
       ],
-      "heading": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
-      "excerpt": "Thirteen months, $135 million, and a last-minute Trump endorsement of Attorney General Ken Paxton have transformed the Cornyn-Paxton contest into the most consequential test of whether loyalty to Trump — or statesmanship — defines the future of the Republican Party heading into the 2026 midterms.",
-      "date": "May 26, 2026",
-      "image": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
-      "heroImage": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
-      "alt": "Sen. John Cornyn and Texas Attorney General Ken Paxton face off in the Texas Republican Senate runoff on May 26, 2026",
+      "heading": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning",
+      "excerpt": "The UK Parliament is expected to pass the landmark Hillsborough Law, introducing a legal duty of candour for public officials following years of campaigning by victims' families.",
+      "date": "July 14, 2026",
+      "image": "/hillsborough-law-nears-final-approval-uk-parliament.webp",
+      "heroImage": "/hillsborough-law-nears-final-approval-uk-parliament.webp",
+      "alt": "The Houses of Parliament in London, where the Hillsborough Law is set to pass its final Commons stages.",
       "author": {
         "name": "Margaret Holloway",
         "slug": "margaret-holloway",
         "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill...",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
         "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
       },
       "body": {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Texas Republican voters head to the polls Tuesday to decide one of the most expensive, most contested, and most politically consequential primary runoffs in the state's history — a Senate race between four-term incumbent John Cornyn and Attorney General Ken Paxton that has spent thirteen months consuming roughly $135 million in advertising and reaching its climax only after President Donald Trump, in defiance of his own party's Senate leadership, threw his endorsement behind Paxton on Tuesday, May 19. The decision upended a race that Washington Republicans had spent tens of millions of dollars trying to lock up for Cornyn, and now forces the Republican establishment to reckon publicly with what it means when the sitting president targets their own incumbent senator as insufficiently loyal."
+            "text": "A new law criminalising public bodies and officials that lie to the British public is expected to complete its final stages in the House of Commons on Tuesday, pushed through by Keir Starmer as one of his final acts as prime minister. After a decade of campaigning, the landmark legislation — officially known as the Public Office (Accountability) Bill, but widely referred to as the Hillsborough Law — will create a legally enforceable duty of candour, compelling public officials and authorities to act transparently when investigations and inquiries take place."
           },
           {
             "type": "paragraph",
-            "text": "The two men finished within two percentage points of each other in the March 3 primary — Cornyn at 42 percent, Paxton at 40.5 percent — with U.S. Rep. Wesley Hunt drawing 13.5 percent, enough to prevent either from clinching the nomination outright and force the race to a runoff. The eventual nominee will face Democratic nominee James Talarico in November's general election. While Texas has voted Republican in three consecutive presidential elections — and Trump carried it by 14 points in 2024 — Democrats have spent months arguing that a Paxton nomination would deliver them a competitive opening in a state they have long sought to put in play."
+            "text": "The law takes its name from the 1989 Hillsborough disaster, which claimed the lives of 97 Liverpool supporters after a crush during the FA Cup semi-final at Sheffield Wednesday's stadium. In the aftermath, police spread false narratives blaming Liverpool fans and withheld evidence of their own failings. Fresh inquests held in 2016 found that the fans had been unlawfully killed, and that it was the police who had caused or contributed to their deaths."
           },
           {
             "type": "heading",
-            "text": "Trump Goes Against Thune — and the Establishment Machine"
+            "text": "A Decade of Campaigning and Delays"
           },
           {
             "type": "paragraph",
-            "text": "Trump's endorsement of Paxton was, by any measure, a direct rebuke of Senate Majority Leader John Thune and the institutional Republican apparatus in Washington. In endorsing Paxton, Trump specifically cited the attorney general's support for terminating the Senate filibuster and his championing of the SAVE America Act — a voting restrictions bill central to Trump's legislative agenda — as well as Paxton's consistent personal loyalty. He described Cornyn as someone who had been disloyal to him \"when times were tough.\" Trump also posted on social media that Paxton was \"a Strong Supporter of TERMINATING THE FILIBUSTER\" and \"someone who has always been extremely loyal to me and our AMAZING MAGA MOVEMENT.\""
+            "text": "The bill was first promised by Labour as a defining manifesto commitment before entering government. Starmer pledged at the party's 2024 conference in Liverpool to introduce legislation before the next anniversary of the disaster — 15 April 2025. However, the bill was delayed after ministers clashed with campaigners over how it should apply to the intelligence services."
           },
           {
             "type": "paragraph",
-            "text": "The endorsement followed a calculated gamble Paxton made in early March that analysts say was pivotal: he offered to drop out of the race if the Senate passed the SAVE America Act, casting himself as willing to sacrifice his own candidacy for Trump's legislative priorities. \"By floating the idea of dropping out, and essentially making himself a martyr for the cause of voter integrity, with leverage that he did not have, he showed that he would go further for Trump than most other Republicans,\" said Joshua Blank, research director at the Texas Politics Project. \"I think Paxton's move there was really adept.\" Cornyn separately dropped his longstanding support for the filibuster in March to signal openness to reform — but it was not enough, in Trump's eyes, to match Paxton's resolve."
+            "text": "In January, Downing Street withdrew the legislation from the parliamentary agenda following disagreements over how far it would require MI5, MI6 and GCHQ to comply with the proposed duty of candour. The intelligence agencies raised concerns about the impact on national security operations and covert officers."
+          },
+          {
+            "type": "paragraph",
+            "text": "Campaigners and bereaved families feared the law would be watered down or delayed indefinitely. But a breakthrough was reached after months of behind-the-scenes negotiations. Amendments agreed by the government mean there will be no exemptions for the intelligence services. Instead, individuals who work or have worked for intelligence agencies can be given 'compliance directions', allowing sensitive information to be disclosed securely to inquiries while preserving the duty of candour."
           },
           {
             "type": "heading",
-            "text": "Cornyn's Case: Electability Over Loyalty Tests"
+            "text": "What the Law Will Do"
           },
           {
             "type": "paragraph",
-            "text": "Cornyn has made the race squarely about electability and the risk of nominating a candidate carrying significant personal and legal baggage into a general election that Republicans cannot afford to lose. \"I won in 2020 by 10 points, and President Trump won that same year in Texas by six points,\" Cornyn told The Texas Tribune on May 18. \"So I think I've demonstrated that I can help the ticket up and down the ballot, and Paxton would be an albatross — and also divert hundreds of millions of dollars that would be spent trying to salvage this Senate seat that could be used in places like Georgia, North Carolina, Michigan and New Hampshire.\" Multiple national Republican figures, including many who have stayed publicly neutral, privately share Cornyn's assessment of Paxton's vulnerabilities."
+            "text": "The Hillsborough Law will introduce a legally enforceable duty of candour, requiring public officials and authorities to be completely open and transparent during investigations and inquiries, and not to engage in selective disclosure of facts and evidence."
           },
           {
             "type": "paragraph",
-            "text": "Paxton's legal and personal record has given the Cornyn campaign ample material. The attorney general was impeached by the Republican-controlled Texas House of Representatives in 2023 on corruption charges — though he was ultimately acquitted by the state Senate — and has faced allegations of an extramarital affair and a contentious divorce. The Cornyn campaign ran ads on all of these fronts throughout the runoff. Paxton's team responded by leaning into anti-incumbent and anti-establishment messaging, with Paxton arguing directly on Fox News that under Cornyn, \"the MAGA agenda is dead.\" His stump speeches challenge voters to name a single Cornyn accomplishment, and he has promised to take a \"sledgehammer\" to Senate customs he describes as blocking Trump's agenda."
+            "text": "It will also expand legal aid so bereaved families have equal, publicly funded representation at inquests, preventing the kind of inequality that saw Hillsborough families forced to use insurance payouts to hire lawyers while the state deployed armies of lawyers to deny justice."
+          },
+          {
+            "type": "paragraph",
+            "text": "The legislation will create new mandatory codes of conduct, a strengthened definition of 'misconduct in public office', and enhanced status for the representatives of victims during public inquiries. It will make it a criminal offence for public officials to mislead proceedings."
           },
           {
             "type": "heading",
-            "text": "Ted Cruz, Turnout, and the Hunt Factor"
+            "text": "Political Significance and Reactions"
           },
           {
             "type": "paragraph",
-            "text": "Sen. Ted Cruz, who has carefully stayed out of the race, offered what may be the most candid assessment of where things stand. \"We don't know for a fact what will happen on election day, but any observer will acknowledge that President Trump's endorsement makes it significantly more likely that Ken Paxton wins,\" Cruz said on his podcast Tuesday. \"How much more likely, I don't know.\" Wesley Hunt, whose 13.5 percent share of the March primary vote represents the largest bloc of undecided runoff voters, endorsed Paxton shortly after Trump and urged his supporters to back the attorney general. The combination of Trump's endorsement and Hunt's follow-on is widely considered to have shifted momentum decisively toward Paxton in the runoff's final days."
+            "text": "The bill's passage is seen as a significant achievement for Starmer in his final week as prime minister, delivering on a promise he made to families before entering Downing Street. Andy Burnham, the incoming prime minister and a long-standing supporter of the Hillsborough families, also played a crucial role in persuading ministers to allow the bill to proceed without the changes campaigners had feared."
           },
           {
             "type": "paragraph",
-            "text": "Whether momentum translates into votes will depend heavily on turnout — and the runoff electorate structurally favours Paxton. Texas runoffs typically draw a fraction of primary voters, and the electorate that does show up skews heavily toward the hard-core base. Cornyn's camp has staked its final strategy on expanding the electorate beyond that base, making a direct appeal in the runoff's last days to registered Republicans who sat out both the primary and early voting. Data from the first two days of early voting told a difficult story for that strategy: GOP operative and pollster Ross Hunt, uninvolved in the race, analysed the early vote and found that 85 percent of early voters were people who had already voted in the March primary, and only 3 percent were entirely new voters. \"Squinting, you can see a tiny advantage for Cornyn relative to his Round One early vote distribution, but you've got to squint pretty hard,\" Hunt said. \"It's basically just a wash.\""
-          },
-          {
-            "type": "heading",
-            "text": "What the Result Will Tell Washington"
+            "text": "Hillsborough survivor and MP Ian Byrne, who has led the parliamentary campaign for the law, told the BBC: 'I'm absolutely delighted, and above all relieved, that we have finally secured the Hillsborough Law. This is a lasting legacy for the 97, for the survivors, the bereaved families, and for every person who has suffered at the hands of the state and been denied truth and justice.'"
           },
           {
             "type": "paragraph",
-            "text": "The race's implications reach well beyond Texas. Trump has moved in rapid succession to oust Republican incumbents who have resisted his agenda — five Indiana state senators were purged in that state's primary three weeks ago, and a sitting member of Congress was toppled in a recent race — making the Texas runoff the highest-profile test yet of whether that pattern holds in a statewide general-election-scale contest. A Paxton victory would confirm that Trump's endorsement remains a decisive force even against a four-term incumbent who has spent $90 million on advertising alone in the runoff period, according to tracking firm AdImpact, and it would sharpen the loyalty test that every Republican senator up in 2028 is now watching closely. A Cornyn survival would signal that the establishment can still hold ground when it spends massively and frames the race around electability — a result that would carry its own message about the limits of Trump's influence when deployed against incumbents in safe Republican terrain."
+            "text": "Charlotte Hennessy, whose father James was among the 97 killed, said: 'The prime minister made us a promise and he has fulfilled it, that is a clear testament to the man he is. A special thank you to Keir Starmer and Andy Burnham for pushing together to get this bill back on track.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Hillsborough Law Now campaign said in a statement: 'The government has now conceded that there will be no carve-outs, no exemptions for security services or anyone else, breaking the impasse that has persisted since January. This is an important milestone, not just for Hillsborough families, but for every family who has experienced a cover-up and lack of accountability from public authorities.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "If the bill clears the Commons this week, it will move to the House of Lords before receiving royal assent. For the families who have fought for decades, it represents a fundamental shift in the balance of power — ensuring the state can never again hide from the people it is supposed to serve."
           }
         ]
       },
       "relatedPosts": [
-        { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 207, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -900,6 +914,95 @@
           {
             "type": "paragraph",
             "text": "Public polling consistently shows that the majority of Americans want to stop changing clocks twice a year — but reveals less consensus on which time setting should be made permanent. An October 2025 AP-NORC nationwide poll found that nearly half of Americans oppose the twice-yearly change, with only 12 percent in favour of keeping it. A YouGov survey conducted earlier in 2026 found that roughly two-thirds of Americans want the practice abolished. However, the same polling showed Americans roughly split on whether the country should lock to permanent DST or permanent standard time — the sticking point that has repeatedly complicated Senate passage of earlier versions of the bill. Unless Congress acts before autumn, Americans in most states will still set their clocks back one hour on November 1, 2026."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 203, "slug": "hillsborough-law-nears-final-approval-uk-parliament", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/hillsborough-law-nears-final-approval-uk-parliament.webp", "author": "Margaret Holloway", "title": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning", "excerpt": "The UK Parliament is expected to pass the landmark Hillsborough Law, introducing a legal duty of candour for public officials following years of campaigning by victims' families." },
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+      ]
+    },
+    {
+      "id": 209,
+      "slug": "texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
+      "metaDescription": "Republicans in Texas are locked in a heated Senate runoff that could reveal the strength of Donald Trump's influence within the GOP before the 2026 midterms.",
+      "metaKeywords": [
+        "Texas GOP Senate runoff 2026 Cornyn Paxton",
+        "Trump endorses Ken Paxton Texas Senate",
+        "John Cornyn Ken Paxton primary runoff",
+        "Texas Republican midterms 2026 Senate race",
+        "MAGA establishment Texas GOP battle"
+      ],
+      "heading": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
+      "excerpt": "Thirteen months, $135 million, and a last-minute Trump endorsement of Attorney General Ken Paxton have transformed the Cornyn-Paxton contest into the most consequential test of whether loyalty to Trump — or statesmanship — defines the future of the Republican Party heading into the 2026 midterms.",
+      "date": "May 26, 2026",
+      "image": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "heroImage": "/texas-gop-senate-runoff-cornyn-paxton-trump-midterms-2026.webp",
+      "alt": "Sen. John Cornyn and Texas Attorney General Ken Paxton face off in the Texas Republican Senate runoff on May 26, 2026",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Texas Republican voters head to the polls Tuesday to decide one of the most expensive, most contested, and most politically consequential primary runoffs in the state's history — a Senate race between four-term incumbent John Cornyn and Attorney General Ken Paxton that has spent thirteen months consuming roughly $135 million in advertising and reaching its climax only after President Donald Trump, in defiance of his own party's Senate leadership, threw his endorsement behind Paxton on Tuesday, May 19. The decision upended a race that Washington Republicans had spent tens of millions of dollars trying to lock up for Cornyn, and now forces the Republican establishment to reckon publicly with what it means when the sitting president targets their own incumbent senator as insufficiently loyal."
+          },
+          {
+            "type": "paragraph",
+            "text": "The two men finished within two percentage points of each other in the March 3 primary — Cornyn at 42 percent, Paxton at 40.5 percent — with U.S. Rep. Wesley Hunt drawing 13.5 percent, enough to prevent either from clinching the nomination outright and force the race to a runoff. The eventual nominee will face Democratic nominee James Talarico in November's general election. While Texas has voted Republican in three consecutive presidential elections — and Trump carried it by 14 points in 2024 — Democrats have spent months arguing that a Paxton nomination would deliver them a competitive opening in a state they have long sought to put in play."
+          },
+          {
+            "type": "heading",
+            "text": "Trump Goes Against Thune — and the Establishment Machine"
+          },
+          {
+            "type": "paragraph",
+            "text": "Trump's endorsement of Paxton was, by any measure, a direct rebuke of Senate Majority Leader John Thune and the institutional Republican apparatus in Washington. In endorsing Paxton, Trump specifically cited the attorney general's support for terminating the Senate filibuster and his championing of the SAVE America Act — a voting restrictions bill central to Trump's legislative agenda — as well as Paxton's consistent personal loyalty. He described Cornyn as someone who had been disloyal to him \"when times were tough.\" Trump also posted on social media that Paxton was \"a Strong Supporter of TERMINATING THE FILIBUSTER\" and \"someone who has always been extremely loyal to me and our AMAZING MAGA MOVEMENT.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The endorsement followed a calculated gamble Paxton made in early March that analysts say was pivotal: he offered to drop out of the race if the Senate passed the SAVE America Act, casting himself as willing to sacrifice his own candidacy for Trump's legislative priorities. \"By floating the idea of dropping out, and essentially making himself a martyr for the cause of voter integrity, with leverage that he did not have, he showed that he would go further for Trump than most other Republicans,\" said Joshua Blank, research director at the Texas Politics Project. \"I think Paxton's move there was really adept.\" Cornyn separately dropped his longstanding support for the filibuster in March to signal openness to reform — but it was not enough, in Trump's eyes, to match Paxton's resolve."
+          },
+          {
+            "type": "heading",
+            "text": "Cornyn's Case: Electability Over Loyalty Tests"
+          },
+          {
+            "type": "paragraph",
+            "text": "Cornyn has made the race squarely about electability and the risk of nominating a candidate carrying significant personal and legal baggage into a general election that Republicans cannot afford to lose. \"I won in 2020 by 10 points, and President Trump won that same year in Texas by six points,\" Cornyn told The Texas Tribune on May 18. \"So I think I've demonstrated that I can help the ticket up and down the ballot, and Paxton would be an albatross — and also divert hundreds of millions of dollars that would be spent trying to salvage this Senate seat that could be used in places like Georgia, North Carolina, Michigan and New Hampshire.\" Multiple national Republican figures, including many who have stayed publicly neutral, privately share Cornyn's assessment of Paxton's vulnerabilities."
+          },
+          {
+            "type": "paragraph",
+            "text": "Paxton's legal and personal record has given the Cornyn campaign ample material. The attorney general was impeached by the Republican-controlled Texas House of Representatives in 2023 on corruption charges — though he was ultimately acquitted by the state Senate — and has faced allegations of an extramarital affair and a contentious divorce. The Cornyn campaign ran ads on all of these fronts throughout the runoff. Paxton's team responded by leaning into anti-incumbent and anti-establishment messaging, with Paxton arguing directly on Fox News that under Cornyn, \"the MAGA agenda is dead.\" His stump speeches challenge voters to name a single Cornyn accomplishment, and he has promised to take a \"sledgehammer\" to Senate customs he describes as blocking Trump's agenda."
+          },
+          {
+            "type": "heading",
+            "text": "Ted Cruz, Turnout, and the Hunt Factor"
+          },
+          {
+            "type": "paragraph",
+            "text": "Sen. Ted Cruz, who has carefully stayed out of the race, offered what may be the most candid assessment of where things stand. \"We don't know for a fact what will happen on election day, but any observer will acknowledge that President Trump's endorsement makes it significantly more likely that Ken Paxton wins,\" Cruz said on his podcast Tuesday. \"How much more likely, I don't know.\" Wesley Hunt, whose 13.5 percent share of the March primary vote represents the largest bloc of undecided runoff voters, endorsed Paxton shortly after Trump and urged his supporters to back the attorney general. The combination of Trump's endorsement and Hunt's follow-on is widely considered to have shifted momentum decisively toward Paxton in the runoff's final days."
+          },
+          {
+            "type": "paragraph",
+            "text": "Whether momentum translates into votes will depend heavily on turnout — and the runoff electorate structurally favours Paxton. Texas runoffs typically draw a fraction of primary voters, and the electorate that does show up skews heavily toward the hard-core base. Cornyn's camp has staked its final strategy on expanding the electorate beyond that base, making a direct appeal in the runoff's last days to registered Republicans who sat out both the primary and early voting. Data from the first two days of early voting told a difficult story for that strategy: GOP operative and pollster Ross Hunt, uninvolved in the race, analysed the early vote and found that 85 percent of early voters were people who had already voted in the March primary, and only 3 percent were entirely new voters. \"Squinting, you can see a tiny advantage for Cornyn relative to his Round One early vote distribution, but you've got to squint pretty hard,\" Hunt said. \"It's basically just a wash.\""
+          },
+          {
+            "type": "heading",
+            "text": "What the Result Will Tell Washington"
+          },
+          {
+            "type": "paragraph",
+            "text": "The race's implications reach well beyond Texas. Trump has moved in rapid succession to oust Republican incumbents who have resisted his agenda — five Indiana state senators were purged in that state's primary three weeks ago, and a sitting member of Congress was toppled in a recent race — making the Texas runoff the highest-profile test yet of whether that pattern holds in a statewide general-election-scale contest. A Paxton victory would confirm that Trump's endorsement remains a decisive force even against a four-term incumbent who has spent $90 million on advertising alone in the runoff period, according to tracking firm AdImpact, and it would sharpen the loyalty test that every Republican senator up in 2028 is now watching closely. A Cornyn survival would signal that the establishment can still hold ground when it spends massively and frames the race around electability — a result that would carry its own message about the limits of Trump's influence when deployed against incumbents in safe Republican terrain."
           }
         ]
       },
