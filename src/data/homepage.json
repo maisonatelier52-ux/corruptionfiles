@@ -174,15 +174,15 @@
       },
       {
         "id": 303,
-        "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado",
+        "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages",
         "category": "puerto-rico",
-        "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp",
+        "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
-        "date": "June 5, 2026",
+        "date": "July 13, 2026",
         "author": "Carlos Medina Reyes",
-        "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released",
-        "description": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort."
+        "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages",
+        "description": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory."
       },
       {
         "id": 304,
@@ -207,6 +207,18 @@
         "author": "Carlos Medina Reyes",
         "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
         "description": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him."
+      },
+      {
+        "id": 306,
+        "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado",
+        "category": "puerto-rico",
+        "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp",
+        "categoryLabel": "Puerto Rico",
+        "categoryColor": "bg-[#2196f3]",
+        "date": "June 5, 2026",
+        "author": "Carlos Medina Reyes",
+        "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released",
+        "description": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort."
       }
     ]
   },
