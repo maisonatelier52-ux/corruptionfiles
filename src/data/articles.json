@@ -5245,7 +5245,7 @@
     },
     "relatedPosts": [
       { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals and 3 new general licenses for agricultural and pharmaceutical transactions." }
+      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." }
     ]
   },
   {
@@ -5604,54 +5604,83 @@
   },
   {
     "id": 806,
-    "slug": "ofac-russia-sanctions-list-removals-general-licenses",
+    "slug": "us-targets-iran-offshore-financial-networks-sanctions",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
-    "metaDescription": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses for agricultural and pharmaceutical transactions.",
-    "metaKeywords": ["OFAC Russia sanctions", "sanctions list update", "general licenses", "Russia divestment", "sanctions compliance"],
-    "heading": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
-    "excerpt": "OFAC updated its Russia sanctions list with 14 removals and 3 new general licenses for agricultural and pharmaceutical transactions.",
-    "date": "April 3, 2026",
-    "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
-    "heroImage": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
-    "alt": "Sanctions document with Russian flag",
+    "metaTitle": "US Targets Iran’s Offshore Wealth Channels With New Sanctions on Shadow Exchange Houses | Offshore Wealth & Sanctions",
+    "metaDescription": "The U.S. Treasury imposed sanctions on individuals, exchange houses, and offshore entities accused of moving billions through hidden financial networks for Iran’s Supreme Leader and regime elites.",
+    "metaKeywords": [
+      "Iran sanctions",
+      "offshore financial networks",
+      "Treasury OFAC",
+      "Ali Ansari",
+      "Iran exchange houses",
+      "Mojtaba Khamenei",
+      "shipping sanctions"
+    ],
+    "heading": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions",
+    "excerpt": "The U.S. Treasury has imposed new sanctions on individuals, exchange houses, and offshore entities accused of helping move billions through hidden financial networks linked to Iran’s leadership and overseas wealth structures.",
+    "date": "July 11, 2026",
+    "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp",
+    "heroImage": "/us-targets-iran-offshore-financial-networks-sanctions.webp",
+    "alt": "The U.S. Treasury Department building in Washington, D.C., where officials announced new sanctions targeting Iran's offshore financial networks.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
       "avatar": "/felix-draper.webp",
-      "bio": "Felix came to this beat through financial journalism...",
+      "bio": "Felix came to this beat through financial journalism, tracking the movement of dirty money through offshore havens and sanctions loopholes. His investigations have traced Russian oil shipments from the Baltic to the Gulf and exposed how shell companies obscure the true owners of superyachts and luxury real estate.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "O",
-        "text": "FAC announced a significant update to the Russia sanctions regime on Friday, removing 14 entities that have certified full divestment from Russian ownership or control, and adding 3 new general licenses to facilitate humanitarian and agricultural transactions."
-      },
-      "paragraphs": [
-        "The removals include six European energy firms that were originally sanctioned for operating joint ventures with Rosneft and Gazprom. Each company provided audited documentation proving that Russian partners have been bought out or excluded from governance. The remaining eight removals are Central Asian shell companies that were used for transshipment of dual-use goods; those companies have been dissolved.",
-        "OFAC also issued General Licenses 101, 102, and 103, authorizing: (101) agricultural equipment and fertilizer exports to Russia, (102) certain pharmaceutical and medical device transactions, and (103) non-commercial funds transfers for Russian students studying in the U.S. and vice versa."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "No major oligarchs removed",
-          "content": [
-            "Notably, no individuals on the Russia sanctions list — including oligarchs like Roman Abramovich and Oleg Deripaska — were removed. OFAC also added 22 new listings, including 7 Belarusian defense companies and 15 Chinese firms alleged to have shipped drone components to Russia.",
-            "Deputy Treasury Secretary Wally Adeyemo said: 'We are tightening the net, not loosening it. Removals are only for entities that have genuinely severed ties with the Kremlin's war machine.'"
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "We are tightening the net, not loosening it. Removals are only for entities that have genuinely severed ties with the Kremlin's war machine.",
-          "cite": "Deputy Treasury Secretary Wally Adeyemo"
+          "type": "paragraph",
+          "text": "The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated a senior Iranian financial facilitator, Ali Ansari, and a network of Iranian exchange houses and front firms across various jurisdictions. The July 10, 2026, measure is aimed against the offshore financial infrastructure that moves billions of dollars a year for sanctioned Iranian banks and regime insiders, including Supreme Leader Mojtaba Khamenei."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The updated list takes effect April 15. OFAC also published a new FAQ section clarifying that General Licenses 101-103 do not authorize transactions involving designated Russian banks (Sberbank, VTB, etc.)."
-          ]
+          "text": "The sanctions come as part of Washington's broader effort to increase economic pressure on Tehran following Iran's resumption of attacks on international shipping in the Strait of Hormuz. Treasury Secretary Scott Bessent said in a statement: 'The so-called Supreme Leader is hiding in seclusion while his regime crumbles. Treasury will continue using every tool at its disposal to isolate him and other regime elites from the global financial system.'"
+        },
+        {
+          "type": "heading",
+          "text": "Ali Ansari and the Supreme Leader's Overseas Empire"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ali Ansari, a Dubai-based Iranian national, has been described by Treasury as a financier who oversees a 'sprawling global network of assets' benefiting Mojtaba Khamenei and other regime elites. According to the Treasury, Ansari 'institutionalized large-scale embezzlement within the Iranian regime,' diverting publicly funded wealth into an extensive overseas portfolio of real estate and commercial holdings."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ansari was the former owner and director of the now defunct Ayandeh Bank, which was sanctioned by the U.S. and ordered by the Iranian government to dissolve in October 2025, having run up billions in debt. Ansari’s millions of dollars of holdings, through a holding company called Smart Global Limited, based in Saint Kitts and Nevis, were invested in properties in Germany, Luxembourg, Spain, the UK, Cyprus and the UAE, utilising shell companies and bank accounts in multiple jurisdictions."
+        },
+        {
+          "type": "heading",
+          "text": "Shadow Exchange Houses and Front Companies"
+        },
+        {
+          "type": "paragraph",
+          "text": "OFAC also designated a number of Iranian exchange companies that handle billions of dollars in foreign currency transactions annually, allowing the regime to skirt sanctions and access the international banking system. Among those targeted was Amin Exchange, also known as Ebrahimi and Associates Partnership Company, which the Treasury said operates a widespread network of front companies in the United Arab Emirates, Turkey, and Hong Kong."
+        },
+        {
+          "type": "paragraph",
+          "text": "The exchange houses have facilitated transactions moving hundreds of millions of dollars on behalf of sanctioned Iranian banks. One designated entity, Exchange General Partnership Company, held tens of millions of dollars' worth of foreign currency on behalf of its sanctioned Iranian bank customers. Front companies in Hong Kong and the UAE, including Ningbo Jiarui Trading Co., Starshine Petrochemical Corporation Limited, Alieen Goods Wholesalers LLC, and Bold Trading FZE, were also designated for their role in assisting these exchange houses."
+        },
+        {
+          "type": "heading",
+          "text": "Shipping Network Disruption"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Treasury also intensified pressure on the illicit shipping network of Mohammad Hossein Shamkhani, which remains a major force behind Iran's oil exports and has expanded into global containerized shipping and commodities trading. Treasury has now sanctioned more than 200 individuals, entities, and vessels operating under Shamkhani's patronage."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Shamkhani network relies on a combination of Iranian and foreign nationals, offshore shell companies, and international shipping firms to move sanctioned goods, process payments, and conceal proceeds from restricted trade. Among those designated are Iranian nationals Hossein Ghorbani Zahed and Mohammad Reza Rahbar Madani, who provided exchange house services and shell companies based outside of Iran. Also targeted was Ali Rakhbarmadani, one of Shamkhani's closest business associates and the deputy chief executive officer of the sanctioned Oriel Group."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bessent described the Shamkhani network as 'one of its most profitable engines' for the regime. 'Treasury is shutting down the financial infrastructure that allows the regime to continue its threats to U.S. national security and global shipping,' he said. The sanctions were imposed under Executive Order 13902, which targets persons operating in Iran's financial and petroleum sectors, as well as E.O. 13876 and the counterterrorism authority E.O. 13224."
         }
       ]
     },
@@ -5772,7 +5801,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses for agricultural and pharmaceutical transactions." },
+      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." },
       { "id": 809, "slug": "bny-named-financial-agent-trump-accounts-asset-program", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program", "excerpt": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act." }
     ]
   },
@@ -5831,7 +5860,7 @@
     },
     "relatedPosts": [
       { "id": 801, "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp", "date": "May 20, 2026", "author": "Felix Draper", "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch", "excerpt": "Britain postpones its Russian fuel import ban as Middle East supply disruptions tighten global energy markets and raise supply concerns." },
-      { "id": 806, "slug": "ofac-russia-sanctions-list-removals-general-licenses", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses", "excerpt": "OFAC updated its Russia sanctions list with 14 removals of entities that have divested from Russian ownership and 3 new general licenses." }
+      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." }
     ]
   }
   ]

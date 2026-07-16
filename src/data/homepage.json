@@ -729,14 +729,14 @@
 ], 
 "trendingSectionData": [
   {
-    "id": 801,
-    "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch",
+    "id": 806,
+    "slug": "us-targets-iran-offshore-financial-networks-sanctions",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
-    "date": "May 20, 2026",
-    "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch",
-    "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp",
+    "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions",
+    "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp",
     "author": "Felix Draper",
+    "date": "July 11, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
@@ -784,14 +784,14 @@
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
-    "id": 806,
-    "slug": "ofac-russia-sanctions-list-removals-general-licenses",
+    "id": 801,
+    "slug": "uk-delays-russian-fuel-import-ban-middle-east-supply-crunch",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "OFAC Updates Russia Sanctions List: Key Removals and New General Licenses",
-    "image": "/ofac-russia-sanctions-list-removals-general-licenses.webp",
+    "date": "May 20, 2026",
+    "title": "UK Delays Russian Fuel Import Ban Amid Middle East Supply Crunch",
+    "image": "/uk-delays-russian-fuel-import-ban-middle-east-supply-crunch.webp",
     "author": "Felix Draper",
-    "date": "April 3, 2026",
     "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
   },
   {
