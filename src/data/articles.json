@@ -3766,7 +3766,7 @@
     },
     "relatedPosts": [
       { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
+      { "id": 603, "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp", "date": "July 17, 2026", "author": "Thomas Aldgate", "title": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions", "excerpt": "Smoke from Canadian wildfires is spreading across U.S. regions, creating hazardous air quality conditions and health concerns for millions." }
     ]
   },
   {
@@ -3874,25 +3874,27 @@
   },
   {
     "id": 603,
-    "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
+    "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
-    "metaDescription": "Major automakers have urged the EPA to postpone strict vehicle pollution standards by two years. Environmental advocates warn the move could increase harmful emissions, worsen air quality, and lead to significant public health impacts.",
+    "metaTitle": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions | Environmental Exploitation",
+    "metaDescription": "Heavy smoke from hundreds of Canadian wildfires has spread across the U.S. Midwest and East Coast, causing hazardous air quality levels in multiple states and prompting officials to urge residents to stay indoors.",
     "metaKeywords": [
-      "EPA vehicle pollution rules delay two years 2026",
-      "Alliance Automotive Innovation EPA hearing Biden emissions",
-      "vehicle criteria pollutants delay 2027 2029",
-      "EV tax credit expiry emissions compliance automakers",
-      "Environmental Defense Fund vehicle standards health harms"
+      "Canadian wildfires 2026",
+      "US air quality",
+      "wildfire smoke",
+      "hazardous air",
+      "Detroit air quality",
+      "Midwest smoke",
+      "climate change wildfires"
     ],
-    "heading": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
-    "excerpt": "The Alliance for Automotive Innovation — the trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA regulators at a public hearing this week that a proposed two-year delay in enforcing Biden-era vehicle pollution standards is necessary, but pushed the agency to move quickly to rewrite the rules permanently rather than simply deferring the problem.",
-    "date": "June 9, 2026",
-    "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
-    "heroImage": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
-    "alt": "Vehicle exhaust pipes emitting criteria pollutants as US automakers back EPA's proposed two-year delay to Biden-era emissions standards at a public hearing, June 2026",
+    "heading": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions",
+    "excerpt": "Heavy smoke from hundreds of Canadian wildfires has spread across the U.S. Midwest and East Coast, causing hazardous air quality levels in several states and prompting officials to urge residents to stay indoors.",
+    "date": "July 17, 2026",
+    "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
+    "heroImage": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
+    "alt": "Thick wildfire smoke from Canada blankets the skyline of a U.S. city, reducing visibility and prompting air quality alerts.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -3904,53 +3906,73 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Major US automakers publicly backed the Environmental Protection Agency's proposal to delay enforcement of Biden-era vehicle pollution rules by two years at a public hearing on Wednesday, while calling on the agency to move quickly to rewrite the underlying standards rather than simply pushing deadlines back. The Alliance for Automotive Innovation — a trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA officials that the delay was necessary and called for what its representative described as \"a reasonable, workable path forward\" and \"realistic and durable long-term standards.\" The EPA estimates that postponing enforcement of the Biden rules by two years would save automakers approximately $1.7 billion."
+          "text": "Heavy, pungent smoke from hundreds of wildfires burning across Canada has blanketed a large swath of the United States from the Great Lakes to parts of the East Coast, triggering hazardous air quality alerts and prompting officials to urge millions of residents to stay indoors. The thick smoke, which has darkened skies and reduced visibility for commuters, is coming from fires burning primarily in Canada but also in northern Minnesota."
         },
         {
           "type": "paragraph",
-          "text": "In prepared testimony delivered to the EPA, Alliance Senior Director and Executive Adviser Michael Hartrick argued that the market conditions assumed when the Biden administration finalised the rules in April 2024 had failed to materialise. He pointed to three specific factors driving the gap between the rules' assumptions and current reality: slower-than-projected consumer adoption of electric vehicles, the expiry of federal tax credits for EV purchases, and China's continued dominance in battery production — all of which he said had made meeting the original compliance deadlines impractical. \"This fundamental disconnect between outdated policy assumptions and market reality has already stranded billions of dollars in investments,\" Hartrick said. \"The decline in EV sales has already stranded billions of dollars in investments.\""
+          "text": "As of Thursday morning, officials tallied 858 fires burning across Canada, including 111 considered out of control. Most of the fires were in the central provinces of Manitoba, Saskatchewan and Ontario. More than 800 wildfires are burning across Canada, with air quality alerts now extending south into multiple US states. The large cluster of fires affecting northwestern areas of Ontario are responsible for sending thick plumes of smoke and poor air quality across Thunder Bay and Toronto, with lower concentrations of smoke high in the atmosphere drifting over the Great Lakes and above New York."
         },
         {
           "type": "heading",
-          "text": "What the Biden Rules Required — and What a Delay Would Change"
+          "text": "Hazardous Air Quality Across the Midwest and East Coast"
         },
         {
           "type": "paragraph",
-          "text": "The regulations at the centre of the dispute were finalised by Biden's EPA in April 2024. They cover what regulators call criteria pollutants — six specific air pollutants: ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, and lead — and set compliance targets running from the 2027 through the 2032 model years. The rules require a 50 percent reduction in criteria pollutants from light-duty passenger vehicles and a 58 percent reduction from medium-duty commercial vehicles by 2032. The EPA's own modelling found that reaching those targets would require a significant shift toward electric vehicles in the new-car fleet, with projections under the Biden-era rules suggesting between 35 and 56 percent of new vehicles sold between 2030 and 2032 would need to be electric."
+          "text": "The air quality in large parts of the northern states of Michigan and Minnesota is deemed 'hazardous' by the US Air Quality Index program, with people recommended to stay indoors. Alerts span the Upper Midwest, the Great Lakes region and into the northeast. Entire states including New York, New Jersey, Connecticut, Delaware, Massachusetts, Michigan, New Hampshire, Ohio, Pennsylvania, Rhode Island and Wisconsin were under air quality alerts."
         },
         {
           "type": "paragraph",
-          "text": "The proposed delay would push enforcement of those standards back two years — from the 2027 model year to the 2029 model year — while the EPA works to rewrite the rules to better reflect what the agency described in its May proposal as \"evolving market conditions, regulatory requirements, and feasibility challenges, while maintaining strong environmental protections.\" The automaker alliance's message at the hearing was clear: a temporary reprieve is welcome, but what the industry needs is a permanent reset of the standards, not a series of rolling deferrals. What no automaker wants, several industry observers noted, is to spend the next several years operating under the uncertainty of a two-year delay only to face equally stringent targets on the other side."
+          "text": "Detroit registered the worst air quality of any city in the world on Thursday, according to monitoring company IQAir, with a pollutant index of 600 — twice the level considered 'hazardous' by the US Environmental Protection Agency. Federal data showed dangerous levels of smoke across Minnesota, Michigan, northern Illinois, northern Ohio and into Ontario, with hazardous readings in major cities Minneapolis, Milwaukee and Toronto. Milwaukee recorded the worst air quality in its history — a record-breaking Air Quality Index measured at over 600."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the Chicago area, air quality ranged from very unhealthy to hazardous. The city closed all of its public beaches and outdoor pools. Chicago along with Toledo, Ohio, and areas in Minnesota relatively close to the fires were well into the 700s on the air quality index during the afternoon, with much of the rest of the upper Midwest also experiencing AQI levels in the worst category of 'hazardous'."
         },
         {
           "type": "heading",
-          "text": "Environmental Groups: The Delay Will Cost Lives"
+          "text": "New York and East Coast Affected"
         },
         {
           "type": "paragraph",
-          "text": "Environmental organisations sharply criticised the proposed postponement. Rishab Jagetia, a fellow with the Environmental Defense Fund, told the hearing directly that postponing the standards would increase public health risks and generate billions of dollars in additional health-related costs for American families and public health systems. \"Vehicle standards save lives,\" Jagetia said. \"Delaying them means more people will suffer from serious heart and lung diseases and die prematurely from air pollution that we have the technology and the regulatory framework to prevent.\" The EDF and allied groups argue that the six criteria pollutants targeted by the Biden rules are among the most well-documented causes of preventable illness in American communities, disproportionately concentrated in lower-income areas near highways and freight corridors."
+          "text": "Further east, smoke from the Canadian wildfires enveloped New York City, prompting Mayor Zohran Mamdani to urge residents to 'take precautions to stay cool and out of harm's way' while dealing with both the smoke and high temperatures. 'Today is expected to be the worst day of this event,' Mamdani said at a gathering on Thursday. 'At 'unhealthy' levels, everyone — not just people with asthma or heart conditions, not just older adults — everyone may feel health effects. So today, every New Yorker should take precautions,' he said."
         },
         {
           "type": "paragraph",
-          "text": "The Sierra Club issued a separate statement calling the delay a gift to the auto industry at the public's expense, noting that EPA Administrator Lee Zeldin had in March already moved to reconsider the agency's broader greenhouse gas rules for vehicles — rules that would have required fleet-average tailpipe emissions to drop by nearly 50 percent by 2032 compared with 2027 projected levels. Together, the criteria pollutant delay and the greenhouse gas rule rollback represent the most significant rollback of US vehicle emissions policy in a generation. Under the Biden-era standards, EPA had previously projected the rules would prevent tens of thousands of premature deaths annually by 2032."
+          "text": "In the New York City area, a thick haze tinged the morning sky orange and yellow and partly obscured Manhattan's skyline. Authorities encouraged New Yorkers to spend as little time outside as possible, handing out free KN95 face masks at hundreds of libraries, police precincts and firehouses. In western regions of New York state, the air quality on Thursday is considered 'very unhealthy', while in the New York City metro area the air quality is 'unhealthy'."
         },
         {
           "type": "heading",
-          "text": "A Wider Pattern of Regulatory Rollback"
+          "text": "Health Warnings and Disruptions"
         },
         {
           "type": "paragraph",
-          "text": "The hearing came against a backdrop of sustained deregulatory activity at the federal level affecting the auto sector. The Transportation Department under the Trump administration has dialled back fuel economy standards — moving from a Biden-era target of 50.4 miles per gallon average by 2031 to 34.5 mpg, a reduction of roughly 16 mpg that reversed years of tightening standards. Zeldin told reporters in March that automakers had told the EPA the existing emissions requirements were \"causing adverse impacts\" and that heeding their concerns would have a \"positive impact on the auto industry, on auto jobs and bringing down the cost of vehicles and increasing consumer choice.\" The criteria pollutant delay sits within this broader policy shift and reflects an industry that spent part of the Biden years investing in EV capability, then watched demand fall short of projections, and is now pressing for regulatory relief on multiple fronts simultaneously."
+          "text": "Wildfire smoke contains dangerous, tiny pollutants called PM2.5 that can travel deep into the lungs or enter the bloodstream when inhaled. The minuscule particles can lead to breathing problems like bronchitis and cause inflammation that aggravates diabetes, heart disease and other health conditions. People with lung or heart disease, children and older adults are especially at risk for smoke-related illness."
         },
         {
           "type": "paragraph",
-          "text": "The Alliance for Automotive Innovation's consistent position — both in September 2025 comments to the EPA and in Wednesday's hearing testimony — is that the criteria pollutant rules as currently written are \"unachievable without significant increases in EV market share\" and that without relief, manufacturers face hundreds of dollars of additional cost per internal combustion engine vehicle. What the industry is seeking is not freedom from environmental standards, its representatives have been careful to say, but a regulatory framework that is achievable with the technology and market conditions that actually exist rather than those that policy architects projected would exist. Whether the EPA's permanent rewrite, whenever it arrives, will satisfy both the industry and public health advocates remains very much an open question."
+          "text": "The smoke has caused widespread disruptions. In Detroit, businesses and attractions closed due to poor air quality. Some workers inside Ford Motor's Michigan Assembly plant in Wayne were hospitalized amid the smoky haze and intense heat. A planned concert by rocker John Mellencamp at Pine Knob Music Theatre in Clarkston, Mich., was canceled. The start time for the MLB game between the New York Mets and the Phillies on Thursday in Philadelphia was moved up an hour due to air quality concerns, and an MLS game in Chicago was postponed."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gwen Moseley, 65, was among the first patrons at Rosedale Library in Queens to take advantage of the free masks, saying she was on the road much of the day working as a therapist for children with autism. 'Who wants to be breathing this? It's not healthy,' Moseley said. 'When I'm out walking, I can feel the scratchiness in my throat'. Bill Ostrowski, 76, wore a mask as he walked through downtown Chicago, where wildfire smoke shrouded skyscrapers. 'It stinks. It's not a good sign when you wake up in the morning and you can smell the air,' he said."
+        },
+        {
+          "type": "heading",
+          "text": "Climate Change Connection and Outlook"
+        },
+        {
+          "type": "paragraph",
+          "text": "'It's basically a river of smoke pouring into the Midwest right now,' said Emily Fischer, an atmospheric chemist and professor at Colorado State University. 'This is a direct connection to climate change. This is the climate change that people breathe'. Laura Chasmer, a professor of geography and the environment at the University of Western Ontario, noted that wildfires have become more frequent since 2015. 'This is associated with some of the extreme climate warming that we've been seeing, and the atmospheric drying of the surface,' she said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Northwesterly winds will continue to blow the smoke into northern US states for the rest of this week and into the weekend, leading to concerns smoke will drift into New Jersey where Sunday's World Cup final is due to take place. A change in the wind direction by Monday means that the smoke will tend to be steered across Quebec with an improvement in air quality further south in the US. Michigan's statewide air quality alert was extended through Friday before cooler weather was expected to move the smoky pall out of the Great Lakes region."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 610, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
-      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
+      { "id": 605, "slug": "unicef-report-children-climate-hazards-2026", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/unicef-report-children-climate-hazards-2026.webp", "date": "June 18, 2026", "author": "Thomas Aldgate", "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", "excerpt": "A new UNICEF report warns that nearly all children worldwide are exposed to climate-related hazards, raising concerns over health, safety, and future well-being." },
+      { "id": 607, "slug": "thames-water-rescue-plan-backlash-pollution-environment", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp", "date": "June 16, 2026", "author": "Thomas Aldgate", "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK", "excerpt": "Critics say Thames Water’s rescue plan fails to address ongoing pollution issues, raising concerns about environmental protection and accountability across the UK." }
     ]
   },
   {
@@ -4047,7 +4069,7 @@
     },
     "relatedPosts": [
       { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
+      { "id": 611, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
     ]
   },
   {
@@ -4588,7 +4610,88 @@
     },
     "relatedPosts": [
       { "id": 609, "slug": "global-rainforests-breaking-point-resource-exploitation", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/global-rainforests-breaking-point-resource-exploitation.webp", "date": "May 20, 2026", "author": "Thomas Aldgate", "title": "Global Rainforests Near Breaking Point as Resource Exploitation Surges", "excerpt": "A new Rainforest Foundation Norway report finds that rising demand for critical minerals, biofuels, and industrial pulp is layering fresh extraction pressure on already-stressed forests across the Amazon, Congo Basin, and Southeast Asia." },
-      { "id": 603, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
+      { "id": 611, "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp", "date": "June 9, 2026", "author": "Thomas Aldgate", "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns", "excerpt": "Major U.S. automakers are urging regulators to delay stricter vehicle emissions standards by two years, a move that has drawn criticism from environmental groups concerned about increased pollution and climate impacts." }
+    ]
+  },
+  {
+    "id": 611,
+    "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
+    "category": "eco",
+    "categoryLabel": "Environmental Exploitation",
+    "categoryColor": "bg-[#2196f3]",
+    "metaTitle": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+    "metaDescription": "Major automakers have urged the EPA to postpone strict vehicle pollution standards by two years. Environmental advocates warn the move could increase harmful emissions, worsen air quality, and lead to significant public health impacts.",
+    "metaKeywords": [
+      "EPA vehicle pollution rules delay two years 2026",
+      "Alliance Automotive Innovation EPA hearing Biden emissions",
+      "vehicle criteria pollutants delay 2027 2029",
+      "EV tax credit expiry emissions compliance automakers",
+      "Environmental Defense Fund vehicle standards health harms"
+    ],
+    "heading": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+    "excerpt": "The Alliance for Automotive Innovation — the trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA regulators at a public hearing this week that a proposed two-year delay in enforcing Biden-era vehicle pollution standards is necessary, but pushed the agency to move quickly to rewrite the rules permanently rather than simply deferring the problem.",
+    "date": "June 9, 2026",
+    "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+    "heroImage": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+    "alt": "Vehicle exhaust pipes emitting criteria pollutants as US automakers back EPA's proposed two-year delay to Biden-era emissions standards at a public hearing, June 2026",
+    "author": {
+      "name": "Thomas Aldgate",
+      "slug": "thomas-aldgate",
+      "avatar": "/thomas-aldgate.webp",
+      "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Major US automakers publicly backed the Environmental Protection Agency's proposal to delay enforcement of Biden-era vehicle pollution rules by two years at a public hearing on Wednesday, while calling on the agency to move quickly to rewrite the underlying standards rather than simply pushing deadlines back. The Alliance for Automotive Innovation — a trade group representing General Motors, Ford, Stellantis, Toyota, Volkswagen, and Hyundai — told EPA officials that the delay was necessary and called for what its representative described as \"a reasonable, workable path forward\" and \"realistic and durable long-term standards.\" The EPA estimates that postponing enforcement of the Biden rules by two years would save automakers approximately $1.7 billion."
+        },
+        {
+          "type": "paragraph",
+          "text": "In prepared testimony delivered to the EPA, Alliance Senior Director and Executive Adviser Michael Hartrick argued that the market conditions assumed when the Biden administration finalised the rules in April 2024 had failed to materialise. He pointed to three specific factors driving the gap between the rules' assumptions and current reality: slower-than-projected consumer adoption of electric vehicles, the expiry of federal tax credits for EV purchases, and China's continued dominance in battery production — all of which he said had made meeting the original compliance deadlines impractical. \"This fundamental disconnect between outdated policy assumptions and market reality has already stranded billions of dollars in investments,\" Hartrick said. \"The decline in EV sales has already stranded billions of dollars in investments.\""
+        },
+        {
+          "type": "heading",
+          "text": "What the Biden Rules Required — and What a Delay Would Change"
+        },
+        {
+          "type": "paragraph",
+          "text": "The regulations at the centre of the dispute were finalised by Biden's EPA in April 2024. They cover what regulators call criteria pollutants — six specific air pollutants: ozone, particulate matter, carbon monoxide, nitrogen dioxide, sulfur dioxide, and lead — and set compliance targets running from the 2027 through the 2032 model years. The rules require a 50 percent reduction in criteria pollutants from light-duty passenger vehicles and a 58 percent reduction from medium-duty commercial vehicles by 2032. The EPA's own modelling found that reaching those targets would require a significant shift toward electric vehicles in the new-car fleet, with projections under the Biden-era rules suggesting between 35 and 56 percent of new vehicles sold between 2030 and 2032 would need to be electric."
+        },
+        {
+          "type": "paragraph",
+          "text": "The proposed delay would push enforcement of those standards back two years — from the 2027 model year to the 2029 model year — while the EPA works to rewrite the rules to better reflect what the agency described in its May proposal as \"evolving market conditions, regulatory requirements, and feasibility challenges, while maintaining strong environmental protections.\" The automaker alliance's message at the hearing was clear: a temporary reprieve is welcome, but what the industry needs is a permanent reset of the standards, not a series of rolling deferrals. What no automaker wants, several industry observers noted, is to spend the next several years operating under the uncertainty of a two-year delay only to face equally stringent targets on the other side."
+        },
+        {
+          "type": "heading",
+          "text": "Environmental Groups: The Delay Will Cost Lives"
+        },
+        {
+          "type": "paragraph",
+          "text": "Environmental organisations sharply criticised the proposed postponement. Rishab Jagetia, a fellow with the Environmental Defense Fund, told the hearing directly that postponing the standards would increase public health risks and generate billions of dollars in additional health-related costs for American families and public health systems. \"Vehicle standards save lives,\" Jagetia said. \"Delaying them means more people will suffer from serious heart and lung diseases and die prematurely from air pollution that we have the technology and the regulatory framework to prevent.\" The EDF and allied groups argue that the six criteria pollutants targeted by the Biden rules are among the most well-documented causes of preventable illness in American communities, disproportionately concentrated in lower-income areas near highways and freight corridors."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Sierra Club issued a separate statement calling the delay a gift to the auto industry at the public's expense, noting that EPA Administrator Lee Zeldin had in March already moved to reconsider the agency's broader greenhouse gas rules for vehicles — rules that would have required fleet-average tailpipe emissions to drop by nearly 50 percent by 2032 compared with 2027 projected levels. Together, the criteria pollutant delay and the greenhouse gas rule rollback represent the most significant rollback of US vehicle emissions policy in a generation. Under the Biden-era standards, EPA had previously projected the rules would prevent tens of thousands of premature deaths annually by 2032."
+        },
+        {
+          "type": "heading",
+          "text": "A Wider Pattern of Regulatory Rollback"
+        },
+        {
+          "type": "paragraph",
+          "text": "The hearing came against a backdrop of sustained deregulatory activity at the federal level affecting the auto sector. The Transportation Department under the Trump administration has dialled back fuel economy standards — moving from a Biden-era target of 50.4 miles per gallon average by 2031 to 34.5 mpg, a reduction of roughly 16 mpg that reversed years of tightening standards. Zeldin told reporters in March that automakers had told the EPA the existing emissions requirements were \"causing adverse impacts\" and that heeding their concerns would have a \"positive impact on the auto industry, on auto jobs and bringing down the cost of vehicles and increasing consumer choice.\" The criteria pollutant delay sits within this broader policy shift and reflects an industry that spent part of the Biden years investing in EV capability, then watched demand fall short of projections, and is now pressing for regulatory relief on multiple fronts simultaneously."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Alliance for Automotive Innovation's consistent position — both in September 2025 comments to the EPA and in Wednesday's hearing testimony — is that the criteria pollutant rules as currently written are \"unachievable without significant increases in EV market share\" and that without relief, manufacturers face hundreds of dollars of additional cost per internal combustion engine vehicle. What the industry is seeking is not freedom from environmental standards, its representatives have been careful to say, but a regulatory framework that is achievable with the technology and market conditions that actually exist rather than those that policy architects projected would exist. Whether the EPA's permanent rewrite, whenever it arrives, will satisfy both the industry and public health advocates remains very much an open question."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 610, "slug": "ai-data-centres-environmental-backlash-us-uk", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/ai-data-centres-environmental-backlash-us-uk.webp", "date": "May 22, 2026", "author": "Thomas Aldgate", "title": "AI Data Centres Face Growing Environmental Backlash in US and UK", "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years." },
+      { "id": 604, "slug": "world-cup-2026-carbon-footprint-environmental-concerns", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/world-cup-2026-carbon-footprint-environmental-concerns.webp", "date": "June 11, 2026", "author": "Thomas Aldgate", "title": "Environmental Concerns Grow Over 2026 World Cup's Massive Carbon Footprint", "excerpt": "Experts warn the expanded 2026 World Cup could significantly increase emissions through extensive travel, infrastructure demands, and energy consumption." }
     ]
   },
   {

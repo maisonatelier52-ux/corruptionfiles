@@ -557,13 +557,13 @@
     },
     {
       "id": 503,
-      "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
+      "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions",
       "category": "eco",
-      "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
-      "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+      "title": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions",
+      "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "June 9, 2026",
+      "date": "July 17, 2026",
       "author": "Thomas Aldgate"
     },
     {
@@ -646,6 +646,17 @@
       "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years.",
       "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
       "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
+    },
+    {
+      "id": 511,
+      "slug": "automakers-epa-vehicle-pollution-rules-delay-two-years",
+      "category": "eco",
+      "title": "US Automakers Push to Delay Vehicle Pollution Rules, Sparking Environmental Concerns",
+      "image": "/automakers-epa-vehicle-pollution-rules-delay-two-years.webp",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "June 9, 2026",
+      "author": "Thomas Aldgate"
     }
   ], 
 "technologyNews": [
