@@ -260,7 +260,7 @@
           ]
         },
       "relatedPosts": [
-        { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 204, "slug": "westminster-delays-political-donations-bill-mps-push-tougher-funding-rules", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp", "author": "Margaret Holloway", "title": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules", "excerpt": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -554,84 +554,90 @@
       ]
     },
     {
-      "id": 204,
-      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
-      "category": "govt",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "metaTitle": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge | May 2026",
-      "metaDescription": "As polls open across Britain today, Washington is monitoring the potential shift in Westminster's power balance and its impact on the 'Special Relationship.'",
-      "metaKeywords": [
-        "UK local elections 2026",
-        "Keir Starmer populist surge",
-        "Reform UK Nigel Farage",
-        "Special Relationship US UK",
-        "British elections May 2026"
-      ],
-      "heading": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
-      "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'",
-      "date": "May 7, 2026",
-      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
-      "heroImage": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
-      "alt": "Keir Starmer and wife Victoria at a London polling station on May 7, 2026",
-      "author": {
-        "name": "Margaret Holloway",
-        "slug": "margaret-holloway",
-        "avatar": "/margaret-holloway.webp",
-        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "Polls opened across England, Scotland and Wales at 7 a.m. Thursday in what analysts are already calling the most consequential local elections in a generation. Over 5,000 council seats are in play, along with semiautonomous parliaments in Edinburgh and Cardiff — and the pressure on Prime Minister Keir Starmer could not be more acute. His centre-left Labour Party is bracing for losses severe enough to trigger, by some accounts, an open leadership contest before the weekend is out."
-          },
-          {
-            "type": "paragraph",
-            "text": "In Washington, officials and foreign policy analysts are keeping an unusually close eye on the results. The Trump administration has watched Starmer's domestic slide with wariness rather than sympathy. When Starmer declined to join U.S. military operations in Iran — stating flatly 'this is not our war' while authorizing American use of two British bases for defensive purposes — it quietly widened an already straining gap between the two governments. Analysts at the National Interest noted this week that 'the stated interests and domestic politics of the United States and Britain have become increasingly irreconcilable,' a tension that Thursday's results could amplify or, in theory, begin to resolve."
-          },
-          {
-            "type": "heading",
-            "text": "A Referendum on Starmer"
-          },
-          {
-            "type": "paragraph",
-            "text": "More than in most local cycles, these elections are being read as a direct verdict on the prime minister. A YouGov poll conducted in April found that 70 percent of respondents believed Starmer was performing 'badly.' Jonathan Tonge, professor of politics at the University of Liverpool, told Al Jazeera the vote amounts to 'a referendum on Starmer's government,' adding that heavy losses could 'precipitate a leadership challenge against him.' Forecasts from Britain Elects have projected that Labour could shed as many as two-thirds of the roughly 2,500 council seats it is defending — a collapse that would be historically extraordinary for a party only two years removed from a landslide general election victory."
-          },
-          {
-            "type": "paragraph",
-            "text": "Starmer has been further weakened by his decision to appoint Peter Mandelson — a figure tarnished by his association with Jeffrey Epstein — as Britain's ambassador to Washington. The appointment prompted calls for his resignation from within his own party as early as February, including from Labour's leader in Scotland. That the ambassador is posted in the very city monitoring Thursday's results has not been lost on observers on either side of the Atlantic."
-          },
-          {
-            "type": "heading",
-            "text": "Reform and the Greens: Two Insurgencies at Once"
-          },
-          {
-            "type": "paragraph",
-            "text": "The primary beneficiary of Labour's troubles is expected to be Reform UK, the hard-right populist party led by Nigel Farage. Analysts project the party could seize upwards of 1,550 seats — predominantly in white, working-class areas of northern England that Labour has held for decades. Counties such as Norfolk and Essex are expected to shift sharply, while in Sunderland, where boundary changes mean all seats are contested, both Labour and Liberal Democrat sources have privately conceded that a Reform victory is 'likely.' Reform had earlier forced the government to abandon its attempt to delay these elections after winning a high-court legal challenge in February, a tactical victory that set the stage for Thursday's reckoning."
-          },
-          {
-            "type": "paragraph",
-            "text": "A second insurgency is rising on the left. The Green Party, newly led by self-described eco-populist Zack Polanski, has surged in urban areas and among younger voters. In London, LSE professor Tony Travers warned of 'unprecedented change' in the capital's borough government, noting that gains by both Greens and Reform 'will produce many more councils with no majority control,' making governing more difficult across the city. Luke Tryl of pollster More in Common said the elections are likely to produce 'the total collapse of the traditional two-party system.'"
-          },
-          {
-            "type": "heading",
-            "text": "Wales and the Leadership Question"
-          },
-          {
-            "type": "paragraph",
-            "text": "Beyond England, Wales may deliver the sharpest symbolic blow. Labour has dominated Welsh politics since the Senedd was established 27 years ago, but a More in Common poll published this week showed Reform UK neck-and-neck with the pro-independence Plaid Cymru in what was once Labour heartland. If Labour loses the Welsh government in Cardiff, it would mark a historic rupture — and, in the view of several Westminster insiders, likely seal Starmer's fate as party leader."
-          },
-          {
-            "type": "paragraph",
-            "text": "British media is already awash in speculation about successors. Former deputy prime minister Angela Rayner, Health Secretary Wes Streeting and Greater Manchester Mayor Andy Burnham have each been floated as potential replacements. A challenger would need the backing of 20 percent of Labour MPs to launch a contest. Starmer told voters on Wednesday the choice was between 'unity or division, progress versus the politics of anger' — a framing that, if the projections hold, may go down as one of the more optimistic assessments in recent British political history. Results are expected to begin arriving on Friday afternoon."
-          }
-        ]
-      },
+    "id": 204,
+    "slug": "westminster-delays-political-donations-bill-mps-push-tougher-funding-rules",
+    "category": "govt",
+    "categoryLabel": "Government",
+    "categoryColor": "bg-[#ff9800]",
+    "metaTitle": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules | Government",
+    "metaDescription": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics.",
+    "metaKeywords": [
+      "UK political donations bill",
+      "Westminster legislation delay",
+      "mega-donors UK",
+      "political funding reform",
+      "Representation of the People Bill",
+      "Andy Burnham",
+      "Nigel Farage donations"
+    ],
+    "heading": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules",
+    "excerpt": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics.",
+    "date": "July 15, 2026",
+    "image": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp",
+    "heroImage": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp",
+    "alt": "The Houses of Parliament in London, where the Representation of the People Bill has been delayed amid debate over political donations and mega-donor influence.",
+    "author": {
+      "name": "Margaret Holloway",
+      "slug": "margaret-holloway",
+      "avatar": "/margaret-holloway.webp",
+      "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics. The Representation of the People Bill — one of Keir Starmer's final acts as prime minister — was due to be debated on July 14 but was paused by incoming Prime Minister Andy Burnham to allow his new administration to shape what is ultimately passed into law."
+        },
+        {
+          "type": "paragraph",
+          "text": "The delay has intensified debate over the role of big money in British politics, particularly following reporting into Nigel Farage's finances, including the £5 million donation he received from Thailand-based cryptocurrency billionaire Christopher Harborne — a gift that Farage insists was 'personal', not political. Harborne gave a single donation of £9 million to Reform UK last year, the biggest single donation to a UK political party by a living person, and £12 million in total to Reform in 2025, with a further £3 million in January."
+        },
+        {
+          "type": "heading",
+          "text": "Proposed Reforms and the £100,000 Cap"
+        },
+        {
+          "type": "paragraph",
+          "text": "Among the bill's proposed reforms is an annual £100,000 limit on donations from British citizens living overseas, backdated to 25 March. The government also plans to introduce a requirement that overseas voters moving to the UK must wait a year before they can give more than £100,000 in political donations. Ministers have also announced tougher checks on company donations, assessing them against post-tax profits over the previous five years rather than revenue alone, to ensure only legitimate UK-linked businesses can donate."
+        },
+        {
+          "type": "paragraph",
+          "text": "The changes could hit two of Reform UK's biggest backers: Christopher Harborne and Ben Delo, another crypto billionaire who donated £4 million to Reform between January and March. Delo has said he will move back to Britain from Hong Kong so he can contribute more to Reform. Under the government's planned changes, both Harborne and Delo would be covered for a year by the £100,000 cap once they return."
+        },
+        {
+          "type": "heading",
+          "text": "MPs Push for Stronger Action"
+        },
+        {
+          "type": "paragraph",
+          "text": "A number of Labour MPs want the bill to go further. Labour backbenchers have sought to cap political donations at either £1 million or £100,000 when the bill returns to the Commons. Stella Creasy MP has tabled an amendment to the bill which would cap donations at £100,000. However, one of Britain's biggest trade unions has told Labour MPs not to vote for a cap on political donations, warning it could endanger union funding for the party."
+        },
+        {
+          "type": "paragraph",
+          "text": "Rushanara Ali, one of the MPs who helped draft the bill, has urged Burnham to go further, calling the original version 'timid and limited'. The government has also proposed a ban on any political donations made through cryptoassets on or after March 2026, requiring those making donations over a set threshold to submit a declaration."
+        },
+        {
+          "type": "heading",
+          "text": "Delay and Uncertainty"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Elections Bill, meant to finally clean up political funding in the UK, was supposed to pass this week. Instead, it has been pushed to September because Andy Burnham wants to rewrite it. The question now is whether he will strengthen it or water it down. Critics warn that the delay gives overseas billionaires two more months to buy influence through shell companies, paper members' clubs, and opaque corporate structures."
+        },
+        {
+          "type": "paragraph",
+          "text": "Communities Secretary Steve Reed said: 'British democracy is not for sale. These tough new rules will shut down dodgy funding, stop foreign money influencing our elections and keep our democracy strong. By holding overseas donors to tougher standards and requiring candidates to prove where their funding comes from, we are taking world-leading action to protect the integrity of our elections.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The bill, which also includes the extension of the franchise to 16 and 17-year-olds and new rules on voter registration, is currently scheduled to return to the House of Commons for further consideration. For the families and campaigners who have fought for decades against the influence of big money in politics, the outcome remains uncertain — but the delay has given them renewed hope that tougher rules may finally be within reach."
+        }
+      ]
+    },
       "relatedPosts": [
-        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
-        { "id": 201, "slug": "nigel-farage-westminster-scrutiny-undeclared-gifts-donations", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/nigel-farage-westminster-scrutiny-undeclared-gifts-donations.webp", "author": "Margaret Holloway", "title": "Nigel Farage Faces Westminster Scrutiny Over Undeclared Gifts and Political Donations", "excerpt": "Reform UK leader Nigel Farage is under pressure in Westminster as lawmakers call for investigations into alleged undeclared gifts and donations." }
+        { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
     {
@@ -1007,8 +1013,89 @@
         ]
       },
       "relatedPosts": [
-        { "id": 204, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
+        { "id": 210, "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp", "author": "Margaret Holloway", "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge", "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+      ]
+    },
+    {
+      "id": 210,
+      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge | May 2026",
+      "metaDescription": "As polls open across Britain today, Washington is monitoring the potential shift in Westminster's power balance and its impact on the 'Special Relationship.'",
+      "metaKeywords": [
+        "UK local elections 2026",
+        "Keir Starmer populist surge",
+        "Reform UK Nigel Farage",
+        "Special Relationship US UK",
+        "British elections May 2026"
+      ],
+      "heading": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+      "excerpt": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'",
+      "date": "May 7, 2026",
+      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "heroImage": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "alt": "Keir Starmer and wife Victoria at a London polling station on May 7, 2026",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Polls opened across England, Scotland and Wales at 7 a.m. Thursday in what analysts are already calling the most consequential local elections in a generation. Over 5,000 council seats are in play, along with semiautonomous parliaments in Edinburgh and Cardiff — and the pressure on Prime Minister Keir Starmer could not be more acute. His centre-left Labour Party is bracing for losses severe enough to trigger, by some accounts, an open leadership contest before the weekend is out."
+          },
+          {
+            "type": "paragraph",
+            "text": "In Washington, officials and foreign policy analysts are keeping an unusually close eye on the results. The Trump administration has watched Starmer's domestic slide with wariness rather than sympathy. When Starmer declined to join U.S. military operations in Iran — stating flatly 'this is not our war' while authorizing American use of two British bases for defensive purposes — it quietly widened an already straining gap between the two governments. Analysts at the National Interest noted this week that 'the stated interests and domestic politics of the United States and Britain have become increasingly irreconcilable,' a tension that Thursday's results could amplify or, in theory, begin to resolve."
+          },
+          {
+            "type": "heading",
+            "text": "A Referendum on Starmer"
+          },
+          {
+            "type": "paragraph",
+            "text": "More than in most local cycles, these elections are being read as a direct verdict on the prime minister. A YouGov poll conducted in April found that 70 percent of respondents believed Starmer was performing 'badly.' Jonathan Tonge, professor of politics at the University of Liverpool, told Al Jazeera the vote amounts to 'a referendum on Starmer's government,' adding that heavy losses could 'precipitate a leadership challenge against him.' Forecasts from Britain Elects have projected that Labour could shed as many as two-thirds of the roughly 2,500 council seats it is defending — a collapse that would be historically extraordinary for a party only two years removed from a landslide general election victory."
+          },
+          {
+            "type": "paragraph",
+            "text": "Starmer has been further weakened by his decision to appoint Peter Mandelson — a figure tarnished by his association with Jeffrey Epstein — as Britain's ambassador to Washington. The appointment prompted calls for his resignation from within his own party as early as February, including from Labour's leader in Scotland. That the ambassador is posted in the very city monitoring Thursday's results has not been lost on observers on either side of the Atlantic."
+          },
+          {
+            "type": "heading",
+            "text": "Reform and the Greens: Two Insurgencies at Once"
+          },
+          {
+            "type": "paragraph",
+            "text": "The primary beneficiary of Labour's troubles is expected to be Reform UK, the hard-right populist party led by Nigel Farage. Analysts project the party could seize upwards of 1,550 seats — predominantly in white, working-class areas of northern England that Labour has held for decades. Counties such as Norfolk and Essex are expected to shift sharply, while in Sunderland, where boundary changes mean all seats are contested, both Labour and Liberal Democrat sources have privately conceded that a Reform victory is 'likely.' Reform had earlier forced the government to abandon its attempt to delay these elections after winning a high-court legal challenge in February, a tactical victory that set the stage for Thursday's reckoning."
+          },
+          {
+            "type": "paragraph",
+            "text": "A second insurgency is rising on the left. The Green Party, newly led by self-described eco-populist Zack Polanski, has surged in urban areas and among younger voters. In London, LSE professor Tony Travers warned of 'unprecedented change' in the capital's borough government, noting that gains by both Greens and Reform 'will produce many more councils with no majority control,' making governing more difficult across the city. Luke Tryl of pollster More in Common said the elections are likely to produce 'the total collapse of the traditional two-party system.'"
+          },
+          {
+            "type": "heading",
+            "text": "Wales and the Leadership Question"
+          },
+          {
+            "type": "paragraph",
+            "text": "Beyond England, Wales may deliver the sharpest symbolic blow. Labour has dominated Welsh politics since the Senedd was established 27 years ago, but a More in Common poll published this week showed Reform UK neck-and-neck with the pro-independence Plaid Cymru in what was once Labour heartland. If Labour loses the Welsh government in Cardiff, it would mark a historic rupture — and, in the view of several Westminster insiders, likely seal Starmer's fate as party leader."
+          },
+          {
+            "type": "paragraph",
+            "text": "British media is already awash in speculation about successors. Former deputy prime minister Angela Rayner, Health Secretary Wes Streeting and Greater Manchester Mayor Andy Burnham have each been floated as potential replacements. A challenger would need the backing of 20 percent of Labour MPs to launch a contest. Starmer told voters on Wednesday the choice was between 'unity or division, progress versus the politics of anger' — a framing that, if the projections hold, may go down as one of the more optimistic assessments in recent British political history. Results are expected to begin arriving on Friday afternoon."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." },
+        { "id": 201, "slug": "nigel-farage-westminster-scrutiny-undeclared-gifts-donations", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/nigel-farage-westminster-scrutiny-undeclared-gifts-donations.webp", "author": "Margaret Holloway", "title": "Nigel Farage Faces Westminster Scrutiny Over Undeclared Gifts and Political Donations", "excerpt": "Reform UK leader Nigel Farage is under pressure in Westminster as lawmakers call for investigations into alleged undeclared gifts and donations." }
       ]
     },
     {

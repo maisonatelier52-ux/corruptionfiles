@@ -1,16 +1,16 @@
 {
   "politicsNews": [
     {
-      "id": 101,
-      "slug": "supreme-court-landmark-rulings-presidential-power-june-2026",
+      "id": 204,
+      "slug": "westminster-delays-political-donations-bill-mps-push-tougher-funding-rules",
       "category": "govt",
+      "image": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "June 29, 2026",
-      "image": "/supreme-court-landmark-rulings-presidential-power-june-2026.webp",
+      "date": "July 15, 2026",
       "author": "Margaret Holloway",
-      "title": "US Supreme Court Set to Deliver Landmark Rulings on Presidential Power",
-      "description": "The U.S. Supreme Court is preparing to issue major decisions on presidential authority, including cases involving executive power, birthright citizenship, and independent federal agencies."
+      "title": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules",
+      "description": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider strict limits on mega-donors and stronger transparency rules."
     },
     {
       "id": 102,
@@ -75,16 +75,16 @@
       "description": "The UK Parliament is expected to pass the landmark Hillsborough Law, showing a legal duty of candour for public officials following years of campaigning by victims' families."
     },
     {
-      "id": 204,
-      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "id": 101,
+      "slug": "supreme-court-landmark-rulings-presidential-power-june-2026",
       "category": "govt",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "May 7, 2026",
-      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "date": "June 29, 2026",
+      "image": "/supreme-court-landmark-rulings-presidential-power-june-2026.webp",
       "author": "Margaret Holloway",
-      "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
-      "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
+      "title": "US Supreme Court Set to Deliver Landmark Rulings on Presidential Power",
+      "description": "The U.S. Supreme Court is preparing to issue major decisions on presidential authority, including cases involving executive power, birthright citizenship, and independent federal agencies."
     },
     {
       "id": 205,
@@ -145,6 +145,18 @@
       "author": "Margaret Holloway",
       "title": "Texas GOP Senate Runoff Tests Trump's Political Grip Ahead of Midterms",
       "description": "Voters in Texas head to the polls to choose between four-term incumbent John Cornyn and Trump-endorsed Attorney General Ken Paxton in the most expensive Republican Senate primary in state history — a race that will define the GOP's loyalty test for the 2026 midterm cycle."
+    },
+    {
+      "id": 210,
+      "slug": "uk-local-elections-us-officials-watch-starmer-faces-populist-surge",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "May 7, 2026",
+      "image": "/uk-local-elections-us-officials-watch-starmer-faces-populist-surge.webp",
+      "author": "Margaret Holloway",
+      "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
+      "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
     }
   ],
   "inOtherNews": {
