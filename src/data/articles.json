@@ -2437,78 +2437,94 @@
         { "id": 404, "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp", "date": "June 5, 2026", "author": "Darnell Hutchins", "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate", "excerpt": "UK Prime Minister Keir Starmer has called on Elon Musk to refrain from influencing UK politics, amid growing concerns over police misconduct and public accountability." }
       ]
     },
-    {
-      "id": 90,
-      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
-      "category": "tech",
-      "categoryLabel": "Big Tech & Surveillance",
-      "categoryColor": "bg-[#00008b]",
-      "metaTitle": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology | Big Tech & Surveillance",
-      "metaDescription": "A new report reveals ICE and CBP awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
-      "metaKeywords": [
-        "ICE surveillance technology",
-        "border surveillance 2026",
-        "AI immigration enforcement",
-        "Palantir ICE contract",
-        "Anduril border drones",
-        "facial recognition immigration",
-        "privacy concerns surveillance"
-      ],
-      "heading": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
-      "excerpt": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
-      "date": "June 24, 2026",
-      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
-      "heroImage": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
-      "alt": "A border surveillance tower equipped with cameras and sensors, representing the growing use of AI-powered surveillance technology by U.S. immigration agencies.",
-      "author": {
-        "name": "Simone Varlette",
-        "slug": "simone-varlette",
-        "avatar": "/simone-varlette2.webp",
-        "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "A new report has laid bare the unprecedented growth of the U.S. government's immigration surveillance arsenal, revealing that Immigration and Customs Enforcement and Customs and Border Protection awarded more than $513 million in surveillance technology contracts in 2026.The figure marks a dramatic escalation from just over $310 million in 2025 and less than $50 million a decade ago, according to an analysis of contracts with 11 surveillance technology companies."
-          },
-          {
-            "type": "paragraph",
-            "text": "The report, released this week by immigration rights organization Mijente, legal advocates Just Futures Law, and research group Surveillance Resistance Lab, traces the contracts as far back as 2013. It found that funding awarded to these firms has increased steadily over time, with a particularly sharp jump over the last two years. The growth is being driven primarily by massive new contracts for two companies: Palantir, the data analytics company that has become central to ICE's enforcement operations, and Anduril, a defense contractor that builds AI-powered surveillance systems, tech-infused border towers, drones and sensors."
-          },
-          {
-            "type": "heading",
-            "text": "The Tech Behind ICE"
-          },
-          {
-            "type": "paragraph",
-            "text": "The sweeping analysis maps out the top 10 categories of surveillance technology used by DHS, ICE, and CBP to target, criminalize, and deport immigrants. These include data brokers like LexisNexis that sell information on millions of people to ICE, which then uses the data to circumvent sanctuary city protections. Data analytics companies, first among them Palantir, sort and analyze the data. The report calls Palantir 'the backbone of ICE data surveillance.'"
-          },
-          {
-            "type": "paragraph",
-            "text": "Palantir, a military contractor founded through CIA venture capital firm In-Q-Tel, has developed both ImmigrationOS and ELITE — software platforms that track migrants and map neighborhoods and potential deportation targets. Since the start of President Donald Trump's second term, Palantir has received over $1.8 billion in government funding, including $81 million from ICE in 2025 and $97 million from ICE in 2026, followed by a $1 billion purchase agreement this year."
-          },
-          {
-            "type": "paragraph",
-            "text": "Other surveillance tools in ICE's arsenal include web scraping and social media surveillance; facial recognition and biometric identification; technology that surveils vehicles and drivers; cellphone tracking and location data; and drone surveillance. The report also reveals that DHS does not simply purchase technologies once they have been developed, but actively helps shape the innovation ecosystem that produces the surveillance and enforcement technologies it seeks to deploy, through a billion-dollar incubator that funds research and partnerships with companies as they develop their surveillance technology."
-          },
-          {
-            "type": "heading",
-            "text": "Privacy and Civil Liberties Concerns"
-          },
-          {
-            "type": "paragraph",
-            "text": "Civil rights advocates have raised alarm over the sweeping expansion of surveillance capabilities. The report comes as a large influx of money has made ICE the best-funded law enforcement agency in the United States, supercharging immigration agencies' surveillance ambitions. Critics warn that enforcement is becoming a data-driven dragnet that pulls information from medical, tax, credit and benefit systems and combines it into targeting tools."
-          },
-          {
-            "type": "paragraph",
-            "text": "Privacy advocates also express concern that once such surveillance machinery exists, it rarely stays limited to one group. A system built to track immigrants can just as easily be used to monitor protesters, activists, journalists and U.S. citizens. The report's authors argue that the growing partnership between surveillance tech companies and immigration enforcement represents a fundamental threat to democracy, as billions of taxpayer dollars are diverted to build a sophisticated surveillance infrastructure that operates with little public scrutiny."
-          }
-        ]
-      },
+  {
+    "id": 90,
+    "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+    "category": "tech",
+    "categoryLabel": "Big Tech & Surveillance",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks | Big Tech & Surveillance",
+    "metaDescription": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech.",
+    "metaKeywords": [
+      "UK cloud oversight",
+      "Big Tech regulation",
+      "Amazon Web Services",
+      "Microsoft Azure",
+      "Google Cloud",
+      "Oracle cloud",
+      "critical third parties",
+      "financial services regulation"
+    ],
+    "heading": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
+    "excerpt": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech.",
+    "date": "July 17, 2026",
+    "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+    "heroImage": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+    "alt": "UK financial regulators announce new oversight for Amazon Web Services, Google Cloud, Microsoft, and Oracle.",
+    "author": {
+      "name": "Simone Varlette",
+      "slug": "simone-varlette",
+      "avatar": "/simone-varlette2.webp",
+      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The UK government has formally classified Amazon Web Services, Microsoft, Google Cloud, and Oracle as 'critical third parties' to the country's financial services sector, bringing the four major cloud providers under direct regulatory oversight for the first time. The designation, announced by HM Treasury on 10 July 2026, took effect on 13 July, with joint supervision by the Bank of England, the Prudential Regulation Authority (PRA), and the Financial Conduct Authority (FCA)."
+        },
+        {
+          "type": "paragraph",
+          "text": "The move reflects growing concern over how deeply a small group of technology companies has become embedded in banking, payments, and insurance. The top three IT services groups — Amazon, Microsoft and Google — accounted for 73 per cent of cloud computing services provided to UK financial companies, according to a survey by the Bank of England and FCA. A major outage or cyberattack at one widely used cloud provider could disrupt several financial institutions at once, creating risks that spread well beyond a single company."
+        },
+        {
+          "type": "heading",
+          "text": "What the 'Critical Third Party' Designation Means"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the new regime, designated cloud providers must meet operational resilience, cyber-security, and incident-reporting standards for the systemic services they supply to the financial sector. Regulators now have the authority to set resilience standards, require scenario testing, review self-assessments, and receive reports about serious incidents. The providers must identify threats to their critical services and communicate promptly with regulators and customers when significant problems arise."
+        },
+        {
+          "type": "paragraph",
+          "text": "The rules are limited to the specific 'systemic' services a provider supplies to the financial sector rather than regulating their entire global businesses. However, designated firms must comply with six fundamental rules requiring them to conduct their business with integrity, due skill and care, act prudently, have effective risk management systems, organize their affairs responsibly, and deal with regulators openly and cooperatively."
+        },
+        {
+          "type": "paragraph",
+          "text": "FCA Chief Executive Nikhil Rathi said: 'Critical third parties provide essential services which support innovation and growth. At the same time, when the same providers serve thousands of firms, a single failure can reverberate across the financial system. Operationalising this regime strengthens our ability to tackle those risks and improve overall resilience'."
+        },
+        {
+          "type": "heading",
+          "text": "Regulatory Response and Industry Implications"
+        },
+        {
+          "type": "paragraph",
+          "text": "The critical third party regime was created by the Financial Services and Markets Act 2023 and took effect on 1 January 2025, but the July 2026 designations bring the framework into live operation. The Treasury has taken a 'targeted and proportionate approach, with these first designations focused on the most critical providers,' according to a government statement. More companies could be designated over time 'where this is necessary to protect UK resilience'."
+        },
+        {
+          "type": "paragraph",
+          "text": "The new oversight adds a layer of regulatory visibility on top of existing obligations. Banks and financial firms have long been responsible for assessing vendors and managing outsourcing risks — those obligations remain in place. The practical effects may appear in technology contracts, audit rights, and incident-notification procedures, potentially raising compliance costs, particularly for fintechs that build quickly by relying heavily on a single provider."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sarah Breeden, Deputy Governor for Financial Stability at the Bank of England, said: 'As critical third parties become increasingly embedded in the operations of financial institutions, they can introduce new forms of systemic risk. Our proportionate approach to overseeing these providers will ensure that these dependencies are managed in a way that safeguards financial stability'."
+        },
+        {
+          "type": "heading",
+          "text": "Future Outlook and AI Considerations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dame Meg Hillier, chair of the Treasury committee of MPs, called the move 'a huge step forward' and noted that as the use of AI in financial services expands, there may come a time when the government needs to consider designating specific AI firms under the critical third parties regime. The Mills Review, published by the FCA in July, warned that concentration in AI models, computing capacity, and cloud infrastructure could leave financial companies facing higher prices, restricted access and weaker bargaining power."
+        },
+        {
+          "type": "paragraph",
+          "text": "The UK's approach is narrower than the EU's, which last year designated a much longer list of 19 IT services providers for direct oversight by the bloc's regulators. City minister Rachel Blake said: 'These designations will help ensure the critical services financial firms rely on remain resilient, protecting consumers and businesses while supporting growth across the economy'."
+        }
+      ]
+    },
     "relatedPosts": [
-      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
         "id": 94,
         "slug": "london-police-expand-facial-recognition-public-streets",
@@ -2520,7 +2536,8 @@
         "author": "Simone Varlette",
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
-      }
+      },
+      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
@@ -2868,6 +2885,92 @@
     "relatedPosts": [
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+    ]
+  },
+    {
+      "id": 95,
+      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
+      "category": "tech",
+      "categoryLabel": "Big Tech & Surveillance",
+      "categoryColor": "bg-[#00008b]",
+      "metaTitle": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology | Big Tech & Surveillance",
+      "metaDescription": "A new report reveals ICE and CBP awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
+      "metaKeywords": [
+        "ICE surveillance technology",
+        "border surveillance 2026",
+        "AI immigration enforcement",
+        "Palantir ICE contract",
+        "Anduril border drones",
+        "facial recognition immigration",
+        "privacy concerns surveillance"
+      ],
+      "heading": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
+      "excerpt": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns.",
+      "date": "June 24, 2026",
+      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+      "heroImage": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+      "alt": "A border surveillance tower equipped with cameras and sensors, representing the growing use of AI-powered surveillance technology by U.S. immigration agencies.",
+      "author": {
+        "name": "Simone Varlette",
+        "slug": "simone-varlette",
+        "avatar": "/simone-varlette2.webp",
+        "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A new report has laid bare the unprecedented growth of the U.S. government's immigration surveillance arsenal, revealing that Immigration and Customs Enforcement and Customs and Border Protection awarded more than $513 million in surveillance technology contracts in 2026.The figure marks a dramatic escalation from just over $310 million in 2025 and less than $50 million a decade ago, according to an analysis of contracts with 11 surveillance technology companies."
+          },
+          {
+            "type": "paragraph",
+            "text": "The report, released this week by immigration rights organization Mijente, legal advocates Just Futures Law, and research group Surveillance Resistance Lab, traces the contracts as far back as 2013. It found that funding awarded to these firms has increased steadily over time, with a particularly sharp jump over the last two years. The growth is being driven primarily by massive new contracts for two companies: Palantir, the data analytics company that has become central to ICE's enforcement operations, and Anduril, a defense contractor that builds AI-powered surveillance systems, tech-infused border towers, drones and sensors."
+          },
+          {
+            "type": "heading",
+            "text": "The Tech Behind ICE"
+          },
+          {
+            "type": "paragraph",
+            "text": "The sweeping analysis maps out the top 10 categories of surveillance technology used by DHS, ICE, and CBP to target, criminalize, and deport immigrants. These include data brokers like LexisNexis that sell information on millions of people to ICE, which then uses the data to circumvent sanctuary city protections. Data analytics companies, first among them Palantir, sort and analyze the data. The report calls Palantir 'the backbone of ICE data surveillance.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Palantir, a military contractor founded through CIA venture capital firm In-Q-Tel, has developed both ImmigrationOS and ELITE — software platforms that track migrants and map neighborhoods and potential deportation targets. Since the start of President Donald Trump's second term, Palantir has received over $1.8 billion in government funding, including $81 million from ICE in 2025 and $97 million from ICE in 2026, followed by a $1 billion purchase agreement this year."
+          },
+          {
+            "type": "paragraph",
+            "text": "Other surveillance tools in ICE's arsenal include web scraping and social media surveillance; facial recognition and biometric identification; technology that surveils vehicles and drivers; cellphone tracking and location data; and drone surveillance. The report also reveals that DHS does not simply purchase technologies once they have been developed, but actively helps shape the innovation ecosystem that produces the surveillance and enforcement technologies it seeks to deploy, through a billion-dollar incubator that funds research and partnerships with companies as they develop their surveillance technology."
+          },
+          {
+            "type": "heading",
+            "text": "Privacy and Civil Liberties Concerns"
+          },
+          {
+            "type": "paragraph",
+            "text": "Civil rights advocates have raised alarm over the sweeping expansion of surveillance capabilities. The report comes as a large influx of money has made ICE the best-funded law enforcement agency in the United States, supercharging immigration agencies' surveillance ambitions. Critics warn that enforcement is becoming a data-driven dragnet that pulls information from medical, tax, credit and benefit systems and combines it into targeting tools."
+          },
+          {
+            "type": "paragraph",
+            "text": "Privacy advocates also express concern that once such surveillance machinery exists, it rarely stays limited to one group. A system built to track immigrants can just as easily be used to monitor protesters, activists, journalists and U.S. citizens. The report's authors argue that the growing partnership between surveillance tech companies and immigration enforcement represents a fundamental threat to democracy, as billions of taxpayer dollars are diverted to build a sophisticated surveillance infrastructure that operates with little public scrutiny."
+          }
+        ]
+      },
+    "relatedPosts": [
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
+      {
+        "id": 94,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      }
     ]
   },
   {

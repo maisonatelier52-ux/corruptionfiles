@@ -344,18 +344,18 @@
   ],
   "worldNews": {
     "main": {
-      "id": 90,
-      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
-      "category": "tech",
-      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
-      "categories": [
-        { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
-      ],
-      "date": "June 24, 2026",
-      "author": "Simone Varlette",
-      "title": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
-      "description": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns."
-    },
+        "id": 90,
+        "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+        "category": "tech",
+        "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+        "categories": [
+          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+        ],
+        "date": "July 17, 2026",
+        "author": "Simone Varlette",
+        "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
+        "description": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
+      },
     "sidebar": [
       {
         "id": 91,
@@ -405,6 +405,19 @@
         "date": "May 27, 2026",
         "author": "Simone Varlette",
         "title": "London Police Expand Facial Recognition Across Public Streets"
+      },
+      {
+      "id": 95,
+      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
+      "category": "tech",
+      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+      "categories": [
+        { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+      ],
+      "date": "June 24, 2026",
+      "author": "Simone Varlette",
+      "title": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
+      "description": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns."
       }
     ]
   },
