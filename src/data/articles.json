@@ -3147,7 +3147,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 9, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 11, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
       { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
@@ -3325,7 +3325,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 9, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 9, "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp", "date": "July 19, 2026", "author": "Ruth Anselmi", "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims", "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations." },
       { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
@@ -3708,6 +3708,166 @@
   },
   {
     "id": 9,
+    "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims | Medical Fraud",
+    "metaDescription": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations.",
+    "metaKeywords": [
+      "Icon Clinical Trials",
+      "Icon fraud lawsuit",
+      "Icon investor lawsuit",
+      "Icon accounting investigation",
+      "Icon revenue overstatement",
+      "Icon class action",
+      "Icon ICLR"
+    ],
+    "heading": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims",
+    "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations.",
+    "date": "July 19, 2026",
+    "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp",
+    "heroImage": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp",
+    "alt": "Icon's corporate logo on a building exterior representing the clinical trials company facing a class action lawsuit over alleged misleading financial disclosures.",
+    "author": {
+      "name": "Ruth Anselmi",
+      "slug": "ruth-anselmi",
+      "avatar": "/ruth-anselmi.webp",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Investors have filed a class action lawsuit against Icon, the Dublin-based clinical trials company, alleging that the company misled shareholders about its financial performance and business prospects. The lawsuit comes after Icon disclosed an internal accounting investigation that revealed potential revenue overstatements in 2023 and 2024, wiping nearly $8 billion from the company's market value."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Nasdaq-listed contract research organisation, which employs more than 40,000 people globally, has been under scrutiny since February 2026 when it withdrew its financial guidance for 2025 and delayed the publication of its fourth-quarter results. The company said it was investigating how it accounted for revenues in 2023 and 2024, warning that it may have overstated earnings by as much as 2 percent."
+        },
+        {
+          "type": "heading",
+          "text": "Accounting Investigation and Revenue Overstatement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Icon's internal investigation, completed in June 2026, found that the company had overstated revenues by $158 million over the course of 2023 and 2024. The overstatement resulted from 'improper adjustments recorded to recognise revenue outside of normal system processes for long-term clinical services revenue contracts,' according to the company's annual report filed with the U.S. Securities and Exchange Commission."
+        },
+        {
+          "type": "paragraph",
+          "text": "The company restated its 2024 revenue to $8.19 billion, down 1.1 percent from the previously reported figure, while 2023 revenues were lowered by 0.8 percent to $8.05 billion. Net income was reduced by 6.6 percent to $739.1 million for 2024 and by 9.5 percent to $554.2 million for 2023. Icon also disclosed that its internal controls over financial reporting and disclosure controls were not effective as of December 31, 2025, due to material weaknesses."
+        },
+        {
+          "type": "heading",
+          "text": "Class Action Lawsuit and Allegations"
+        },
+        {
+          "type": "paragraph",
+          "text": "The class action lawsuit, filed on behalf of investors who purchased Icon shares between July 2023 and October 2024, alleges that the company and its executives made false and misleading statements about Icon's key business metrics and financial performance. The lawsuit contends that Icon executives presented the company's prospects in a favourable light even as drugmakers were dramatically cutting their research and development budgets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Shareholders allege that company insiders had 'motive and opportunity to defraud investors' when they sold almost $78 million worth of shares over a 15-month period. The complaint names former chief executive Stephen Cutler, who sold about $17 million of shares, and former chief financial officer Brendan Brennan, who disposed of nearly $22 million of stock. Current chief executive Barry Balfe was added as a defendant in September 2025."
+        },
+        {
+          "type": "paragraph",
+          "text": "Several U.S. law firms, including Pomerantz, Rosen Law Firm, and Kessler Topaz, have invited investors who purchased Icon ordinary shares during the class period to join the action. The lawsuit seeks to recover damages for alleged violations of federal securities laws."
+        },
+        {
+          "type": "heading",
+          "text": "Industry-Wide Challenges"
+        },
+        {
+          "type": "paragraph",
+          "text": "The legal and accounting troubles at Icon come amid broader challenges facing the clinical research industry. Rivals have also posted disappointing results recently, citing cancellations of contracts and seeing their stock market valuations take a hit. Industry observers say much of the fall-off in sentiment has been driven by the Trump administration's loosening of regulations in the United States, including the possibility that the Food and Drug Administration may authorise new medicines after just one clinical trial instead of the standard two."
+        },
+        {
+          "type": "paragraph",
+          "text": "Icon's share price has fallen 27 percent so far in 2026, with the stock still 43 percent lower than before the accounting investigation was disclosed in February. The company has forecast 2026 revenue of between $7.85 billion and $8.15 billion, down from $8.25 billion in 2025. Icon has said it is 'committed to remediating the material weaknesses' and enhancing its overall internal control environment through a remediation plan focusing on oversight, policies, training, and internal controls over manual adjustments."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." },
+      { "id": 8, "slug": "fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp", "date": "June 21, 2026", "author": "Ruth Anselmi", "title": "FBI Captures Fugitive Linked to $1.2 Billion Medicare Fraud Scheme", "excerpt": "Federal authorities arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces." }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "metaDescription": "Four people linked to a Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving fake allergy treatment claims and unlicensed medical procedures.",
+    "metaKeywords": [
+      "Connecticut Medicaid fraud 2026",
+      "APRM Solutions Shelton clinic charges",
+      "allergy immunotherapy billing fraud CT",
+      "Medicaid Fraud Control Unit Connecticut",
+      "health insurance fraud Connecticut arrest"
+    ],
+    "heading": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+    "excerpt": "Four people linked to a Shelton, Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving thousands of fake allergy treatment claims and unlicensed medical procedures spanning nearly two years.",
+    "date": "May 21, 2026",
+    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "heroImage": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "alt": "Shelton Connecticut pain clinic at center of $659K Medicaid fraud investigation, May 2026",
+    "author": {
+      "name": "Ruth Anselmi",
+      "slug": "ruth-anselmi",
+      "avatar": "/ruth-anselmi.webp",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Investigators with Connecticut's Medicaid Fraud Control Unit, operating under the Office of the Chief State's Attorney, announced on Wednesday, May 20, the arrest of four people connected to a Shelton medical business accused of stealing nearly $660,000 from the state's Medicaid program. The case centers on Advanced Pain and Regenerative Medical Solution Corporation — known as APRM Solutions — which authorities allege submitted thousands of fraudulent billing claims over a period of roughly 20 months."
+        },
+        {
+          "type": "paragraph",
+          "text": "The three defendants publicly named in charging documents are Eid J. Atallah, 61, of Middlebury; Terry L. Choszczyk, 65, of Seymour; and Kimberly Choszczyk, 38, also known as Kimberly Castillo, of Ansonia. All four defendants — including a fourth whose name has not been released in all published reports — were each released on $100,000 bond following their arrests."
+        },
+        {
+          "type": "heading",
+          "text": "4,009 Fraudulent Claims Over 20 Months"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to investigators, APRM Solutions submitted 4,009 claims to Connecticut's Medicaid program that are tied to the alleged fraud. The billing activity took place between February 2024 and October 2025. The total reported loss to the Medicaid program came to $659,627.66. Authorities said the company billed for allergy immunotherapy treatments that either never took place at all, or were carried out by individuals who were not properly qualified or were operating without adequate supervision. Investigators also alleged that the business used the identification numbers of licensed medical providers without their permission to submit the claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Some of the charges specifically accuse the defendants of administering allergy shots, compounding and mixing medications, and performing diagnostic tests without holding the required medical licenses — a set of allegations that goes beyond billing fraud to encompass the unlicensed practice of medicine itself."
+        },
+        {
+          "type": "heading",
+          "text": "Charges and Potential Penalties"
+        },
+        {
+          "type": "paragraph",
+          "text": "Each of the four defendants faces multiple counts. The charges include first-degree larceny by defrauding a public community, health insurance fraud, violation of license requirements, and conspiracy counts tied to each of those offenses. Under Connecticut law, first-degree larceny and health insurance fraud are Class B felonies, both carrying a maximum sentence of up to 20 years in prison. Violation of license requirements is a Class D felony punishable by up to five years. The cases are expected to proceed through the Connecticut Superior Court system."
+        },
+        {
+          "type": "heading",
+          "text": "Connecticut's Medicaid Fraud Control Unit"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Office of the Chief State's Attorney's Medicaid Fraud Control Unit is responsible for investigating and prosecuting fraud committed by healthcare providers enrolled in the Connecticut Medicaid program. The unit handles both civil and criminal cases and routinely works alongside federal agencies on larger schemes. Anyone with information about suspected fraud or abuse within the state's public healthcare system is asked to contact the unit directly at (860) 258-5986."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 11, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
+      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
+    ]
+  },
+  {
+    "id": 11,
     "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
@@ -3781,79 +3941,6 @@
     "relatedPosts": [
       { "id": 10, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." }
-    ]
-  },
-  {
-    "id": 10,
-    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
-    "metaDescription": "Four people linked to a Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving fake allergy treatment claims and unlicensed medical procedures.",
-    "metaKeywords": [
-      "Connecticut Medicaid fraud 2026",
-      "APRM Solutions Shelton clinic charges",
-      "allergy immunotherapy billing fraud CT",
-      "Medicaid Fraud Control Unit Connecticut",
-      "health insurance fraud Connecticut arrest"
-    ],
-    "heading": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
-    "excerpt": "Four people linked to a Shelton, Connecticut pain clinic have been charged over an alleged Medicaid fraud operation involving thousands of fake allergy treatment claims and unlicensed medical procedures spanning nearly two years.",
-    "date": "May 21, 2026",
-    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
-    "heroImage": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
-    "alt": "Shelton Connecticut pain clinic at center of $659K Medicaid fraud investigation, May 2026",
-    "author": {
-      "name": "Ruth Anselmi",
-      "slug": "ruth-anselmi",
-      "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She left the industry after a whistleblower case she had quietly supported was settled out of court under a non-disclosure agreement.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Investigators with Connecticut's Medicaid Fraud Control Unit, operating under the Office of the Chief State's Attorney, announced on Wednesday, May 20, the arrest of four people connected to a Shelton medical business accused of stealing nearly $660,000 from the state's Medicaid program. The case centers on Advanced Pain and Regenerative Medical Solution Corporation — known as APRM Solutions — which authorities allege submitted thousands of fraudulent billing claims over a period of roughly 20 months."
-        },
-        {
-          "type": "paragraph",
-          "text": "The three defendants publicly named in charging documents are Eid J. Atallah, 61, of Middlebury; Terry L. Choszczyk, 65, of Seymour; and Kimberly Choszczyk, 38, also known as Kimberly Castillo, of Ansonia. All four defendants — including a fourth whose name has not been released in all published reports — were each released on $100,000 bond following their arrests."
-        },
-        {
-          "type": "heading",
-          "text": "4,009 Fraudulent Claims Over 20 Months"
-        },
-        {
-          "type": "paragraph",
-          "text": "According to investigators, APRM Solutions submitted 4,009 claims to Connecticut's Medicaid program that are tied to the alleged fraud. The billing activity took place between February 2024 and October 2025. The total reported loss to the Medicaid program came to $659,627.66. Authorities said the company billed for allergy immunotherapy treatments that either never took place at all, or were carried out by individuals who were not properly qualified or were operating without adequate supervision. Investigators also alleged that the business used the identification numbers of licensed medical providers without their permission to submit the claims."
-        },
-        {
-          "type": "paragraph",
-          "text": "Some of the charges specifically accuse the defendants of administering allergy shots, compounding and mixing medications, and performing diagnostic tests without holding the required medical licenses — a set of allegations that goes beyond billing fraud to encompass the unlicensed practice of medicine itself."
-        },
-        {
-          "type": "heading",
-          "text": "Charges and Potential Penalties"
-        },
-        {
-          "type": "paragraph",
-          "text": "Each of the four defendants faces multiple counts. The charges include first-degree larceny by defrauding a public community, health insurance fraud, violation of license requirements, and conspiracy counts tied to each of those offenses. Under Connecticut law, first-degree larceny and health insurance fraud are Class B felonies, both carrying a maximum sentence of up to 20 years in prison. Violation of license requirements is a Class D felony punishable by up to five years. The cases are expected to proceed through the Connecticut Superior Court system."
-        },
-        {
-          "type": "heading",
-          "text": "Connecticut's Medicaid Fraud Control Unit"
-        },
-        {
-          "type": "paragraph",
-          "text": "The Office of the Chief State's Attorney's Medicaid Fraud Control Unit is responsible for investigating and prosecuting fraud committed by healthcare providers enrolled in the Connecticut Medicaid program. The unit handles both civil and criminal cases and routinely works alongside federal agencies on larger schemes. Anyone with information about suspected fraud or abuse within the state's public healthcare system is asked to contact the unit directly at (860) 258-5986."
-        }
-      ]
-    },
-    "relatedPosts": [
-      { "id": 9, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
-      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
     ]
   },
   {

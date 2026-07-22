@@ -520,14 +520,14 @@
   },
   {
     "id": 9,
-    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
+    "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "May 18, 2026",
-    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "date": "July 19, 2026",
+    "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims",
     "author": "Ruth Anselmi",
-    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
-    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations.",
+    "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -540,6 +540,18 @@
     "author": "Ruth Anselmi",
     "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed without proper licensing.",
     "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 11,
+    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "date": "May 18, 2026",
+    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+    "author": "Ruth Anselmi",
+    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
+    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   }
 ],
