@@ -257,12 +257,12 @@
 },
 {
   "id": 403,
-  "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
+  "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
+  "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
   "category": "pa",
-  "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
-  "date": "June 3, 2026",
+  "title": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
+  "date": "July 23, 2026",
   "author": "Darnell Hutchins"
 },
 {
@@ -339,6 +339,16 @@
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
   "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
   "date": "June 2, 2026",
+  "author": "Darnell Hutchins"
+},
+{
+  "id": 411,
+  "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
+  "category": "pa",
+  "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+  "date": "June 3, 2026",
   "author": "Darnell Hutchins"
 }
   ],

@@ -1749,81 +1749,95 @@
       { "id": 408, "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp", "date": "June 18, 2026", "author": "Darnell Hutchins", "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface", "excerpt": "A former Louisville police officer has been indicted on manslaughter charges in the fatal shooting of an unarmed man, renewing scrutiny over police accountability." }
     ]
   },
-    {
-      "id": 403,
-      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
-      "category": "pa",
-      "categoryLabel": "Police Accountability",
-      "categoryColor": "bg-[#e91e63]",
-      "metaTitle": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
-      "metaDescription": "UK police are under investigation after officers handcuffed 18-year-old Henry Nowak as he lay fatally wounded in Southampton, sparking national debate over police accountability and conduct.",
-      "metaKeywords": [
-        "Henry Nowak handcuffed stabbing Southampton police 2026",
-        "Hampshire Police IOPC investigation Nowak",
-        "Vickrum Digwa murder Southampton conviction",
-        "UK police accountability two-tier policing debate",
-        "Donna Jones Hampshire police impartiality criticism"
-      ],
-      "heading": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
-      "excerpt": "The December 2025 stabbing death of 18-year-old Henry Nowak in Southampton erupted into a national crisis over policing and race this week after the release of police body-camera footage showing officers dismissing Nowak's repeated claims that he had been stabbed — handcuffing him as he lay dying while his killer stood nearby having falsely claimed to be the victim of a racist attack.",
-      "date": "June 3, 2026",
-      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
-      "heroImage": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
-      "alt": "Protesters gather outside Southampton police station on June 2, 2026 following the murder conviction of Vickrum Digwa and release of police body-camera footage showing Henry Nowak handcuffed while dying. (Gareth Fuller/PA via AP)",
-      "author": {
-        "name": "Darnell Hutchins",
-        "slug": "darnell-hutchins",
-        "avatar": "/darnell-hutchins.webp",
-        "bio": "Darnell started his career as a public defender...",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-      },
-      "body": {
-        "blocks": [
-          {
-            "type": "paragraph",
-            "text": "The killing of 18-year-old Henry Nowak on a residential street in Southampton last December drew renewed and explosive attention this week after his murderer was sentenced to life in prison on Monday and police released body-camera footage showing the moments after the stabbing. In the video, Nowak is seen lying on his back on a driveway, telling arriving Hampshire officers he had been stabbed as they grabbed his wrists and attempted to sit him up. He repeatedly said he couldn't breathe. \"You've been stabbed? Whereabouts?\" one officer said on the footage. \"Don't think you have, mate.\" Nowak was handcuffed. He appeared to lose consciousness as an officer informed him he was being arrested for assault and read him his rights. Officers then uncuffed him, discovered his injuries, and began CPR. He died from his wounds."
-          },
-          {
-            "type": "paragraph",
-            "text": "The reason the officers initially treated Nowak as a suspect rather than a victim was that his killer, Vickrum Digwa, 23 — who is Sikh — had told the 999 call handler and the officers who arrived that he was the victim of a racist attack by Nowak, claiming Nowak had knocked off his turban and pulled his hair. Digwa was standing nearby at the scene, pointing to a swollen eyelid as apparent evidence of injury. The court found that every element of that account was a lie. Judge William Mousley, sentencing Digwa at Southampton Crown Court on Monday to life with a minimum 21 years, said he did not believe Nowak had said anything racist. \"You are the only person to make that claim and it is completely at odds with his previous character,\" Mousley told Digwa. Digwa had used an 8-inch sheathed Sikh dagger to stab Nowak, alongside a smaller ceremonial kirpan he was entitled to carry for religious reasons."
-          },
-          {
-            "type": "heading",
-            "text": "Police Apologise; Watchdog Opens Investigation"
-          },
-          {
-            "type": "paragraph",
-            "text": "Hampshire and Isle of Wight Constabulary apologised to the Nowak family following the verdict, acknowledging the officers had been misled. Deputy Chief Constable Robert France said in a video statement that officers arriving at the scene had received misleading information during the 999 call and from those present when they arrived, and that he was sorry Nowak had been handcuffed and arrested shortly before losing consciousness. The force later posted on social media that officers had been \"misled at the scene, including denial of weapon use,\" and that they had \"quickly switched to life-saving aid within minutes\" but that \"the medical evidence shows that the injuries were not survivable.\""
-          },
-          {
-            "type": "paragraph",
-            "text": "Hampshire's Police and Crime Commissioner Donna Jones went further, issuing a statement that stopped short of accepting the force's own framing. \"It is devastating the officers did not believe Henry when he said he'd been stabbed and couldn't breathe,\" Jones said. \"The details of the police response raises serious concerns about police impartiality, fairness and judgment.\" The Independent Office for Police Conduct, the UK's police watchdog, confirmed it had opened an investigation into the officers' conduct at the scene. Home Secretary Shabana Mahmood said she understood people's horror at the footage and confirmed the IOPC investigation was underway, but she warned that online misinformation had already led to death threats against an officer who was not involved in the arrest. \"Misinformation and inflammatory commentary is making a dreadful situation even worse,\" Mahmood said."
-          },
-          {
-            "type": "heading",
-            "text": "Starmer 'Sickened' as Protests Turn Violent"
-          },
-          {
-            "type": "paragraph",
-            "text": "Prime Minister Keir Starmer said he was sickened by the footage, adding there were questions to be answered about how \"accusations of racism informed the decision-making in this case.\" On Tuesday night, hundreds gathered in protest outside Southampton's police station, with some in the crowd shouting \"I can't breathe\" — the final words of George Floyd, and also the words Nowak was heard repeating in the body-camera footage as officers held him. A large group then walked toward the street where Nowak was killed, where they clashed with riot police who were pelted with chairs, rocks, and flares before retreating. Henry Nowak's father, Mark Nowak, had asked in a statement outside the court on Monday that the case not be used to stoke further division. \"This case is not about racism or religion,\" he said, urging that his son's death instead lead to safer streets."
-          },
-          {
-            "type": "paragraph",
-            "text": "Reform UK leader Nigel Farage used the case to amplify what he called evidence of two-tier policing — a claim promoted by parts of the British right that ethnic minorities receive preferential treatment from police. Farage urged people to respond with \"pure cold rage\" and called for an end to \"anti-white prejudice.\" Home Secretary Mahmood rejected the two-tier framing directly, telling MPs that different policing standards for different communities did not exist, and urging Parliament not to \"allow this murder to turn communities against one another.\" The judge had noted in sentencing that Digwa's lies had caused serious harm well beyond the killing itself. \"Your actions have stirred up racial tension in Southampton and across the country which have made many Sikhs worried about their own safety even though they have done absolutely nothing wrong,\" Mousley told Digwa."
-          },
-          {
-            "type": "heading",
-            "text": "Digwa's Mother Convicted; Henry Nowak's Story"
-          },
-          {
-            "type": "paragraph",
-            "text": "Digwa's mother, Kiran Kaur, 53, was separately convicted of assisting an offender after attempting to conceal the murder weapon. She will be sentenced on July 17. Henry Nowak was a first-year student at the University of Southampton from Chafford Hundred in Essex, who had been out with university football teammates on the night of December 3, 2025, when the attack occurred in Belmont Road. He had been just a few months into his first year. Teammates described him to the BBC as someone whose \"character was contagious\" and who made everyone around him feel like they had just scored a goal. A charity football match held in his memory earlier this year raised funds for bereavement support charity 2Wish."
-          }
-        ]
-      },
+  {
+    "id": 403,
+    "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
+    "category": "pa",
+    "categoryLabel": "Police Accountability",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest | Police Accountability",
+    "metaDescription": "A police shooting in Madison, Wisconsin, has triggered protests and renewed demands for police accountability as authorities investigate the fatal incident involving officers during an arrest attempt.",
+    "metaKeywords": [
+      "Madison police shooting",
+      "Wisconsin police shooting",
+      "police accountability",
+      "Tony Robinson",
+      "Williamson Street shooting",
+      "Corey Ruiz",
+      "John Patterson"
+    ],
+    "heading": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
+    "excerpt": "A police shooting in Madison, Wisconsin, has triggered protests and renewed demands for police accountability as authorities investigate the fatal incident involving officers during an arrest attempt.",
+    "date": "July 23, 2026",
+    "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
+    "heroImage": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
+    "alt": "Protesters gather on a street corner in Madison, Wisconsin, following a fatal police shooting, holding signs demanding justice and accountability.",
+    "author": {
+      "name": "Darnell Hutchins",
+      "slug": "darnell-hutchins",
+      "avatar": "/darnell-hutchins.webp",
+      "bio": "Darnell started his career as a public defender and saw early on that the courtroom was only one part of the problem. He transitioned into journalism after a case that should have been open-and-shut was buried under paperwork and departmental loyalty. He has since covered police accountability across three continents.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A police officer in Madison, Wisconsin, shot and killed a man Wednesday afternoon in an incident that was captured on cellphone footage, sparking protests and renewed demands for police accountability. The shooting occurred on a city street in a popular neighborhood lined with restaurants, bars, shops and residential homes less than two miles from the state Capitol."
+        },
+        {
+          "type": "paragraph",
+          "text": "Madison Police Chief John Patterson said at a news conference that officers had responded to a report of a person allegedly checking parked vehicles Wednesday afternoon. The suspect, described as a man in his 30s, fled on a bicycle through nearby backyards before officers located him again less than two miles from the state Capitol. A physical struggle ensued, during which the man pulled out a fixed-blade knife and injured one officer, described as a 'veteran officer.'"
+        },
+        {
+          "type": "heading",
+          "text": "Cellphone Footage and Conflicting Accounts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cellphone video of the shooting circulated on social media shortly after the incident. The footage shows officers on the ground at an intersection struggling with a man who is then pulled up to his feet. One officer appears to have deployed a Taser, but it was 'not effective,' Patterson said. A fourth officer then fired his gun at the man at close range. Three gunshots are heard as the man stops moving. The officer who fired the lethal shots had been injured by the suspect with a knife, Patterson said."
+        },
+        {
+          "type": "paragraph",
+          "text": "Patterson stressed that the footage circulating was just one perspective of what happened. 'I caution everyone — this is one perspective,' Patterson said. 'It is not a full overview of everything that was visible from different angles, certainly visible from the officers.' He added that the Wisconsin Department of Justice's Division of Criminal Investigation — which is independently leading the investigation — will review all footage posted online or submitted directly to the agency."
+        },
+        {
+          "type": "heading",
+          "text": "Protests and Calls for Accountability"
+        },
+        {
+          "type": "paragraph",
+          "text": "The shooting sparked immediate protests, with crowds gathering near the scene and marching to the state Capitol. Protesters chanted 'No justice, no peace' and 'Arrest the cops!' A planned Concert on the Square was canceled after protesters took over the stage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Brandi Grayson, the head of Urban Triage, a Madison-based Black community advocacy group, said: 'Another Black man is dead on a Madison street, and our community watched him die before we even knew his name. That is the cruelty of state violence.' The race of the officer who fired his gun and that of the man killed were not released by police. But advocates said the man killed was Black."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sabrina Madison, the city council president, called the videos 'both disturbing and painful' and said she expects 'a full, comprehensive, and transparent independent investigation into today's shooting of a community member.'"
+        },
+        {
+          "type": "heading",
+          "text": "No Body Cameras and Troubled History"
+        },
+        {
+          "type": "paragraph",
+          "text": "None of the officers involved were wearing body cameras, according to Patterson, who noted the department does not have 'any broad deployment of body cameras in Madison, unfortunately.' There was a 90-day body camera pilot program for the department in 2024, and Patterson has pushed for the cameras, calling them an 'essential tool' for modern policing, but funding has been an issue."
+        },
+        {
+          "type": "paragraph",
+          "text": "The shooting occurred on the same street where, in 2015, a white police officer shot and killed Tony Robinson, an unarmed, biracial 19-year-old, an incident that spurred large protests. Patterson acknowledged the shooting was a traumatic incident that 'has occurred in a neighborhood that has experienced a lot of trauma in the past.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "All four officers involved have been placed on administrative leave pending the investigation. The Wisconsin Department of Justice's Division of Criminal Investigation is leading the investigation into the shooting."
+        }
+      ]
+    },
       "relatedPosts": [
-        { "id": 409, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
-        { "id": 404, "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp", "date": "June 5, 2026", "author": "Darnell Hutchins", "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate", "excerpt": "UK Prime Minister Keir Starmer has called on Elon Musk to refrain from influencing UK politics, amid growing concerns over police misconduct and public accountability." }
+        { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
+        { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." }
       ]
     },
     {
@@ -2345,7 +2359,7 @@
       },
       "relatedPosts": [
         { "id": 410, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
-        { "id": 403, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
+        { "id": 411, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
       ]
     },
     {
@@ -2429,6 +2443,83 @@
           {
             "type": "paragraph",
             "text": "Beneath the controversy, the convention accomplished its formal purpose. GOP delegates endorsed Kendall Qualls — who secured the party's backing over incumbent Governor Tim Walz — and former Navy SEAL Adam Schwarze for U.S. Senate. The convention also left an unresolved dispute over a disruption in the convention balloting, following which the Minnesota Republican Party said that Governor candidate Lisa Demuth may continue her campaign even though Qualls secured the party's formal endorsement. The Star Tribune noted that the Chauvin moment is now giving Democrats a ready-made attack line as the 2026 campaign season begins in earnest — one that Republicans will need to answer at every contested forum between now and November."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 409, "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp", "date": "May 14, 2026", "author": "Darnell Hutchins", "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death", "excerpt": "Ending a long legal battle, Louisiana State Police agree to a massive settlement with the family of Ronald Greene following a viral police brutality case." },
+        { "id": 404, "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp", "date": "June 5, 2026", "author": "Darnell Hutchins", "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate", "excerpt": "UK Prime Minister Keir Starmer has called on Elon Musk to refrain from influencing UK politics, amid growing concerns over police misconduct and public accountability." }
+      ]
+    },
+    {
+      "id": 411,
+      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
+      "category": "pa",
+      "categoryLabel": "Police Accountability",
+      "categoryColor": "bg-[#e91e63]",
+      "metaTitle": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "metaDescription": "UK police are under investigation after officers handcuffed 18-year-old Henry Nowak as he lay fatally wounded in Southampton, sparking national debate over police accountability and conduct.",
+      "metaKeywords": [
+        "Henry Nowak handcuffed stabbing Southampton police 2026",
+        "Hampshire Police IOPC investigation Nowak",
+        "Vickrum Digwa murder Southampton conviction",
+        "UK police accountability two-tier policing debate",
+        "Donna Jones Hampshire police impartiality criticism"
+      ],
+      "heading": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "excerpt": "The December 2025 stabbing death of 18-year-old Henry Nowak in Southampton erupted into a national crisis over policing and race this week after the release of police body-camera footage showing officers dismissing Nowak's repeated claims that he had been stabbed — handcuffing him as he lay dying while his killer stood nearby having falsely claimed to be the victim of a racist attack.",
+      "date": "June 3, 2026",
+      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "heroImage": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "alt": "Protesters gather outside Southampton police station on June 2, 2026 following the murder conviction of Vickrum Digwa and release of police body-camera footage showing Henry Nowak handcuffed while dying. (Gareth Fuller/PA via AP)",
+      "author": {
+        "name": "Darnell Hutchins",
+        "slug": "darnell-hutchins",
+        "avatar": "/darnell-hutchins.webp",
+        "bio": "Darnell started his career as a public defender...",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The killing of 18-year-old Henry Nowak on a residential street in Southampton last December drew renewed and explosive attention this week after his murderer was sentenced to life in prison on Monday and police released body-camera footage showing the moments after the stabbing. In the video, Nowak is seen lying on his back on a driveway, telling arriving Hampshire officers he had been stabbed as they grabbed his wrists and attempted to sit him up. He repeatedly said he couldn't breathe. \"You've been stabbed? Whereabouts?\" one officer said on the footage. \"Don't think you have, mate.\" Nowak was handcuffed. He appeared to lose consciousness as an officer informed him he was being arrested for assault and read him his rights. Officers then uncuffed him, discovered his injuries, and began CPR. He died from his wounds."
+          },
+          {
+            "type": "paragraph",
+            "text": "The reason the officers initially treated Nowak as a suspect rather than a victim was that his killer, Vickrum Digwa, 23 — who is Sikh — had told the 999 call handler and the officers who arrived that he was the victim of a racist attack by Nowak, claiming Nowak had knocked off his turban and pulled his hair. Digwa was standing nearby at the scene, pointing to a swollen eyelid as apparent evidence of injury. The court found that every element of that account was a lie. Judge William Mousley, sentencing Digwa at Southampton Crown Court on Monday to life with a minimum 21 years, said he did not believe Nowak had said anything racist. \"You are the only person to make that claim and it is completely at odds with his previous character,\" Mousley told Digwa. Digwa had used an 8-inch sheathed Sikh dagger to stab Nowak, alongside a smaller ceremonial kirpan he was entitled to carry for religious reasons."
+          },
+          {
+            "type": "heading",
+            "text": "Police Apologise; Watchdog Opens Investigation"
+          },
+          {
+            "type": "paragraph",
+            "text": "Hampshire and Isle of Wight Constabulary apologised to the Nowak family following the verdict, acknowledging the officers had been misled. Deputy Chief Constable Robert France said in a video statement that officers arriving at the scene had received misleading information during the 999 call and from those present when they arrived, and that he was sorry Nowak had been handcuffed and arrested shortly before losing consciousness. The force later posted on social media that officers had been \"misled at the scene, including denial of weapon use,\" and that they had \"quickly switched to life-saving aid within minutes\" but that \"the medical evidence shows that the injuries were not survivable.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "Hampshire's Police and Crime Commissioner Donna Jones went further, issuing a statement that stopped short of accepting the force's own framing. \"It is devastating the officers did not believe Henry when he said he'd been stabbed and couldn't breathe,\" Jones said. \"The details of the police response raises serious concerns about police impartiality, fairness and judgment.\" The Independent Office for Police Conduct, the UK's police watchdog, confirmed it had opened an investigation into the officers' conduct at the scene. Home Secretary Shabana Mahmood said she understood people's horror at the footage and confirmed the IOPC investigation was underway, but she warned that online misinformation had already led to death threats against an officer who was not involved in the arrest. \"Misinformation and inflammatory commentary is making a dreadful situation even worse,\" Mahmood said."
+          },
+          {
+            "type": "heading",
+            "text": "Starmer 'Sickened' as Protests Turn Violent"
+          },
+          {
+            "type": "paragraph",
+            "text": "Prime Minister Keir Starmer said he was sickened by the footage, adding there were questions to be answered about how \"accusations of racism informed the decision-making in this case.\" On Tuesday night, hundreds gathered in protest outside Southampton's police station, with some in the crowd shouting \"I can't breathe\" — the final words of George Floyd, and also the words Nowak was heard repeating in the body-camera footage as officers held him. A large group then walked toward the street where Nowak was killed, where they clashed with riot police who were pelted with chairs, rocks, and flares before retreating. Henry Nowak's father, Mark Nowak, had asked in a statement outside the court on Monday that the case not be used to stoke further division. \"This case is not about racism or religion,\" he said, urging that his son's death instead lead to safer streets."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reform UK leader Nigel Farage used the case to amplify what he called evidence of two-tier policing — a claim promoted by parts of the British right that ethnic minorities receive preferential treatment from police. Farage urged people to respond with \"pure cold rage\" and called for an end to \"anti-white prejudice.\" Home Secretary Mahmood rejected the two-tier framing directly, telling MPs that different policing standards for different communities did not exist, and urging Parliament not to \"allow this murder to turn communities against one another.\" The judge had noted in sentencing that Digwa's lies had caused serious harm well beyond the killing itself. \"Your actions have stirred up racial tension in Southampton and across the country which have made many Sikhs worried about their own safety even though they have done absolutely nothing wrong,\" Mousley told Digwa."
+          },
+          {
+            "type": "heading",
+            "text": "Digwa's Mother Convicted; Henry Nowak's Story"
+          },
+          {
+            "type": "paragraph",
+            "text": "Digwa's mother, Kiran Kaur, 53, was separately convicted of assisting an offender after attempting to conceal the murder weapon. She will be sentenced on July 17. Henry Nowak was a first-year student at the University of Southampton from Chafford Hundred in Essex, who had been out with university football teammates on the night of December 3, 2025, when the attack occurred in Belmont Road. He had been just a few months into his first year. Teammates described him to the BBC as someone whose \"character was contagious\" and who made everyone around him feel like they had just scored a goal. A charity football match held in his memory earlier this year raised funds for bereavement support charity 2Wish."
           }
         ]
       },
