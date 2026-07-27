@@ -14,27 +14,27 @@
     },
     {
       "id": 102,
-      "slug": "house-oversight-subpoenas-leon-black-epstein-interview",
+      "slug": "house-republicans-leave-washington-facing-midterm-pressure",
       "category": "govt",
+      "image": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "June 26, 2026",
-      "image": "/house-oversight-subpoenas-leon-black-epstein-interview.webp",
+      "date": "July 26, 2026",
       "author": "Margaret Holloway",
-      "title": "House Oversight Subpoenas Leon Black After Epstein Interview",
-      "description": "U.S. House investigators subpoena billionaire Leon Black following a tense closed-door interview examining his financial ties to Jeffrey Epstein."
+      "title": "House Republicans Leave Washington Facing Midterm Pressure",
+      "description": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections."
     },
     {
       "id": 103,
-      "slug": "andy-burnham-no-10-north-devolution-proposal",
+      "slug": "us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief",
       "category": "govt",
+      "image": "/us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "June 29, 2026",
-      "image": "/andy-burnham-no-10-north-devolution-proposal.webp",
-      "author": "Margaret Holloway",
-      "title": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster",
-      "description": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster."
+      "title": "US Senate Set to Vote on Jay Clayton as Trump's Intelligence Chief",
+      "description": "The US Senate is preparing to vote on President Donald Trump's nominee Jay Clayton for director of national intelligence, with confirmation expected this week.",
+      "date": "July 27, 2026",
+      "author": "Margaret Holloway"
     }
   ],
   "secondaryNews": [
@@ -157,6 +157,30 @@
       "author": "Margaret Holloway",
       "title": "UK Local Elections: US Officials Watch Closely as Starmer Faces Populist Surge",
       "description": "As polls open across Britain, Washington is tracking the potential shift in Westminster's power balance and its ripple effect on the 'Special Relationship.'"
+    },
+    {
+      "id": 211,
+      "slug": "house-oversight-subpoenas-leon-black-epstein-interview",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "June 26, 2026",
+      "image": "/house-oversight-subpoenas-leon-black-epstein-interview.webp",
+      "author": "Margaret Holloway",
+      "title": "House Oversight Subpoenas Leon Black After Epstein Interview",
+      "description": "U.S. House investigators subpoena billionaire Leon Black following a tense closed-door interview examining his financial ties to Jeffrey Epstein."
+    },
+    {
+      "id": 212,
+      "slug": "andy-burnham-no-10-north-devolution-proposal",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "June 29, 2026",
+      "image": "/andy-burnham-no-10-north-devolution-proposal.webp",
+      "author": "Margaret Holloway",
+      "title": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster",
+      "description": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster."
     }
   ],
   "inOtherNews": {
