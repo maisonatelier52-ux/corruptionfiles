@@ -3293,7 +3293,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
+      { "id": 12, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
       { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
     ]
   },
@@ -3398,82 +3398,79 @@
   },
   {
     "id": 3,
-    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
+    "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
-    "metaDescription": "The U.S. government has cut federal funding for Hawaii's Medicaid Fraud Control Unit after officials found no Medicaid fraud convictions or indictments between 2022 and 2025.",
+    "metaTitle": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing | Medical Fraud",
+    "metaDescription": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services, highlighting increased U.S. healthcare fraud enforcement.",
     "metaKeywords": [
-      "Hawaii Medicaid Fraud Control Unit federal funding cut 2026",
-      "HHS Inspector General March Bell Hawaii MFCU decertified",
-      "Hawaii Medicaid fraud zero convictions indictments 2022 2025",
-      "Governor Josh Green Medicaid fraud strike force Hawaii",
-      "Trump administration Medicaid fraud enforcement states"
+      "Labcorp settlement",
+      "Medicare false claims",
+      "urine drug testing fraud",
+      "False Claims Act",
+      "healthcare fraud enforcement",
+      "Department of Justice"
     ],
-    "heading": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
-    "excerpt": "The U.S. Department of Health and Human Services cut approximately $3 million in annual federal funding to Hawaii's Medicaid Fraud Control Unit on June 4 after the agency's Inspector General found the unit had failed to obtain a single indictment or conviction for Medicaid fraud in the four years between 2022 and 2025 — despite receiving roughly $12 million in federal tax dollars over that period.",
-    "date": "June 4, 2026",
-    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
-    "heroImage": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
-    "alt": "Hawaii Attorney General's office in Honolulu as federal officials announce decertification of the state's Medicaid Fraud Control Unit and cut of $3 million in annual federal funding, June 4, 2026",
+    "heading": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
+    "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services, highlighting increased U.S. healthcare fraud enforcement.",
+    "date": "July 15, 2026",
+    "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
+    "heroImage": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
+    "alt": "Labcorp logo and Department of Justice seal representing the $14.5 million False Claims Act settlement.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
       "avatar": "/ruth-anselmi.webp",
-      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year.",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The U.S. Department of Health and Human Services decertified Hawaii's Medicaid Fraud Control Unit and cut approximately $3 million in annual federal funding on Thursday, June 4, after Inspector General T. March Bell concluded in a seven-page letter to state Attorney General Anne Lopez that the unit had not obtained a single criminal indictment or conviction for Medicaid fraud or patient abuse and neglect in the four years between 2022 and 2025. \"Bafflingly, between 2022 and 2025, your unit did not obtain a single conviction for Medicaid fraud,\" Bell wrote. \"Even worse, it did not even obtain an indictment. Not a single Medicaid fraud indictment or conviction, despite receiving approximately $12 million federal tax dollars to fight Medicaid fraud during that period. Enough is enough.\""
+          "text": "Laboratory Corporation of America (Labcorp), a national clinical diagnostics company, has agreed to pay $14.5 million to resolve allegations that it violated the False Claims Act by submitting medically unnecessary claims for urine drug testing (UDT) to Medicare for payment. The settlement, announced on July 15, 2026, by the U.S. Attorney's Office for the District of Massachusetts, addresses conduct that occurred from January 1, 2018, through November 22, 2023."
         },
         {
           "type": "paragraph",
-          "text": "Bell's letter called out Hawaii's unit as the lowest-performing Medicaid fraud control program in the country — a distinction it has apparently held since at least 2014, when federal reviewers first flagged persistent underperformance. Three on-site reviews since that year have resulted in recommendations that Bell said have been \"helpful\" but have not produced the necessary results. \"Indeed,\" he wrote, \"the Hawaii MFCU's performance has gotten significantly worse in recent years.\" Without a federally certified fraud control unit, Hawaii's broader access to Medicaid funding could now be at risk. More than 360,000 Hawaii residents are enrolled in Medicaid, and the state received $2.2 billion in federal Medicaid funds in 2024, according to the agency that advises Congress on healthcare spending."
+          "text": "The government alleged that Labcorp offered clients a testing panel called 'Toxassure Comprehensive,' which having both presumptive and definitive testing methods. Presumptive UDT detects the presence or absence of certain drug classes, while definitive UDT identifies individual substances and their concentrations. Medicare pays a flat rate for laboratory-based presumptive UDT, regardless of the number of drug classes tested, and a flat rate for 22 or more drug classes tested under the definitive method."
         },
         {
           "type": "heading",
-          "text": "Civil Recoveries Dismissed as 'Pennies on the Dollar'"
+          "text": "The Alleged Scheme"
         },
         {
           "type": "paragraph",
-          "text": "Hawaii Attorney General Anne Lopez has pushed back against the federal characterisation, arguing her office has not ignored Medicaid fraud. She pointed to $14 million in civil recoveries since 2021 and noted the state had criminally charged two people with healthcare fraud earlier this year. But Bell's letter dismissed those figures in detail. The $14 million in recovered civil judgments, he found, amounts to less than 0.01 percent of Hawaii's total Medicaid expenditures over the same period. Of the 30 civil cases Hawaii claimed credit for between 2021 and 2025, 23 were \"global settlements\" led by other entities in which Hawaii's unit had simply joined — not cases the unit had independently investigated or prosecuted. The remaining seven cases that Hawaii's own unit drove produced $11.3 million in total recoveries, but that figure is almost entirely attributable to a single case that alone brought in $11 million. In 2021, 2022, 2024, and 2025, the return on investment based on what the unit spent produced, in Bell's characterisation, \"pennies on the dollar, or less.\""
+          "text": "According to the government, Labcorp routinely submitted claims to Medicare for both presumptive and definitive UDT, some of which were submitted pursuant to the ToxAssure Comprehensive panel. The panel consisted of a preselected combination of presumptive UDT for certain substances and direct-to-definitive UDT (with no prior presumptive test) for other substances."
         },
         {
           "type": "paragraph",
-          "text": "Andrew Ferguson, co-chair of the White House Fraud Task Force, spoke at a press conference Thursday alongside HHS officials and framed the decision in stark terms. \"One of the requirements for getting Medicaid money for your state is to have an effective Medicaid fraud control unit, and if you don't have one, it can jeopardize the state's access to Medicaid money generally,\" Ferguson said. He noted that Medicaid enrollment in Hawaii increased by 40 percent between 2021 and 2025, while funding rose 27 percent over the same period — a trajectory that he said should have generated far more fraud enforcement activity, not less. Nationally, fraud control units across all 50 states were responsible for more than 4,800 criminal convictions of people and businesses during the same 2022 to 2025 window in which Hawaii recorded zero."
+          "text": "Labcorp ran many of these tests simultaneously for the same patient, on the same date of service, using the same urine sample, and billed Medicare with CPT code 80307 for the presumptive UDT and HCPCS code G0483 for the definitive UDT. In other words, Labcorp billed Medicare for both the all-inclusive presumptive code and the highest-tier definitive code each time it performed the ToxAssure Comprehensive panel. For several substances tested on a direct-to-definitive basis, a presumptive testing option existed, but Labcorp performed its definitive tests without first performing a presumptive test to determine the necessity of definitive testing for that substance."
         },
         {
           "type": "heading",
-          "text": "Vance Had Flagged Hawaii's Performance in May"
+          "text": "Government Response and Settlement Terms"
         },
         {
           "type": "paragraph",
-          "text": "Thursday's funding cut did not arrive without warning. In May, Vice President JD Vance publicly accused Hawaii of giving Medicaid fraudsters \"free rein\" and warned that states failing to police the program effectively would face consequences. \"If we continue to find problems, we can turn off other resources within their state Medicaid programs as well. Our goal here is not to do that,\" Vance said at the time, in remarks that read at the time as a threat directed at Honolulu. Also in May, the Trump administration issued notice letters to attorneys general in all 50 states demanding greater cooperation in Medicaid fraud prosecutions — a broad escalation that the Hawaii action now represents the first concrete enforcement step of. Ferguson singled out Ohio Attorney General David Yost as a model of cooperation with federal fraud enforcement."
+          "text": "United States Attorney Leah B. Foley said: 'Today's settlement reflects my Office's enduring commitment to combatting healthcare fraud and recovering taxpayer money. Labcorp's conduct resulted in Medicare payouts for unnecessary tests. We will continue to hold accountable providers who engage in fraud, waste, and abuse.'"
         },
         {
           "type": "paragraph",
-          "text": "State Rep. Lisa Marten, who chairs Hawaii's House Human Services Committee, offered a pointed analogy in response to the funding cut. \"It's kind of like paying a police officer and sending him out to catch speeders, and saying 'you didn't give out as many speeding tickets as what we paid you in salary,'\" Marten said to Hawaii News Now. The comparison was intended as a defence of the unit, but it also illustrated exactly the accountability argument federal officials have been making: that the unit's purpose is to produce criminal fraud prosecutions, and that it had produced none for four years while drawing federal reimbursements. Hawaii's Department of the Attorney General said in a statement after the announcement that it would ask HHS to reconsider the decertification decision, and that it \"remains committed to protecting Medicaid beneficiaries, safeguarding public funds, and holding accountable those who commit fraud, abuse, or neglect.\""
-        },
-        {
-          "type": "heading",
-          "text": "Governor Creates Independent Strike Force; Broader Medicaid Funding Now at Stake"
+          "text": "Assistant Attorney General Brett A. Shumate of the Justice Department's Civil Division added: 'The government expects that any testing it pays for is medically necessary and not wasteful or structured in a way that maximizes billing opportunities for providers at the expense of the federal fisc. We will continue to hold providers who do otherwise accountable.'"
         },
         {
           "type": "paragraph",
-          "text": "Governor Josh Green responded to the funding cut by announcing the creation of an independent Medicaid Fraud Strike Force within the state health department — a body separate from the Attorney General's office that will be tasked with investigating and referring fraud cases for prosecution. \"The findings outlined by the Office of Inspector General are serious and deserve a serious response,\" Green said. The governor's move implicitly acknowledged that the existing unit's performance had been inadequate. The strike force will operate alongside, rather than replacing, the Attorney General's office, whose fraud unit will remain in place even without federal certification. Green's response sets up a potentially awkward dual-track structure in which the state health department and the attorney general's office both pursue Medicaid fraud enforcement going forward."
+          "text": "Acting Deputy Inspector General for Investigations Miranda L. Bennett of the HHS Office of Inspector General stated: 'Medicare beneficiaries and taxpayers should be able to trust that testing and billing practices are fair and appropriate. Today's settlement makes clear that when providers put profits before patients and ignore billing rules, we will act decisively to hold them accountable.'"
         },
         {
           "type": "paragraph",
-          "text": "The stakes of the recertification fight are considerably higher than the $3 million annual federal match that has now been cut. Federal law requires every state administering Medicaid to maintain an effective, federally certified fraud control unit as a condition of receiving federal Medicaid funding. If Hawaii cannot demonstrate to HHS that it has restored an effective programme — either through the existing unit or through some new arrangement — it risks losing access to the $2.2 billion in federal Medicaid funds it received in 2024, money that underpins healthcare coverage for more than a third of a million Hawaii residents. The letter gives Hawaii the right to ask for reconsideration, and the attorney general's office said Thursday it would do exactly that."
+          "text": "As part of the settlement, Labcorp represented that it ceased billing the combination of CPT code 80307 and HCPCS code G0483 for UDT using the ToxAssure Comprehensive panel. The company has been credited in this settlement under the Department of Justice's guidelines for taking disclosure, cooperation and remediation into account."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 10, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
+      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." },
       { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
     ]
   },
@@ -3660,7 +3657,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
+      { "id": 3, "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp", "date": "July 15, 2026", "author": "Ruth Anselmi", "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing", "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services." },
       { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
     ]
   },
@@ -4108,7 +4105,7 @@
     },
     "relatedPosts": [
       { "id": 11, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
-      { "id": 3, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
+      { "id": 12, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." }
     ]
   },
   {
@@ -4186,6 +4183,87 @@
     "relatedPosts": [
       { "id": 10, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "metaDescription": "The U.S. government has cut federal funding for Hawaii's Medicaid Fraud Control Unit after officials found no Medicaid fraud convictions or indictments between 2022 and 2025.",
+    "metaKeywords": [
+      "Hawaii Medicaid Fraud Control Unit federal funding cut 2026",
+      "HHS Inspector General March Bell Hawaii MFCU decertified",
+      "Hawaii Medicaid fraud zero convictions indictments 2022 2025",
+      "Governor Josh Green Medicaid fraud strike force Hawaii",
+      "Trump administration Medicaid fraud enforcement states"
+    ],
+    "heading": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "excerpt": "The U.S. Department of Health and Human Services cut approximately $3 million in annual federal funding to Hawaii's Medicaid Fraud Control Unit on June 4 after the agency's Inspector General found the unit had failed to obtain a single indictment or conviction for Medicaid fraud in the four years between 2022 and 2025 — despite receiving roughly $12 million in federal tax dollars over that period.",
+    "date": "June 4, 2026",
+    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+    "heroImage": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+    "alt": "Hawaii Attorney General's office in Honolulu as federal officials announce decertification of the state's Medicaid Fraud Control Unit and cut of $3 million in annual federal funding, June 4, 2026",
+    "author": {
+      "name": "Ruth Anselmi",
+      "slug": "ruth-anselmi",
+      "avatar": "/ruth-anselmi.webp",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "The U.S. Department of Health and Human Services decertified Hawaii's Medicaid Fraud Control Unit and cut approximately $3 million in annual federal funding on Thursday, June 4, after Inspector General T. March Bell concluded in a seven-page letter to state Attorney General Anne Lopez that the unit had not obtained a single criminal indictment or conviction for Medicaid fraud or patient abuse and neglect in the four years between 2022 and 2025. \"Bafflingly, between 2022 and 2025, your unit did not obtain a single conviction for Medicaid fraud,\" Bell wrote. \"Even worse, it did not even obtain an indictment. Not a single Medicaid fraud indictment or conviction, despite receiving approximately $12 million federal tax dollars to fight Medicaid fraud during that period. Enough is enough.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Bell's letter called out Hawaii's unit as the lowest-performing Medicaid fraud control program in the country — a distinction it has apparently held since at least 2014, when federal reviewers first flagged persistent underperformance. Three on-site reviews since that year have resulted in recommendations that Bell said have been \"helpful\" but have not produced the necessary results. \"Indeed,\" he wrote, \"the Hawaii MFCU's performance has gotten significantly worse in recent years.\" Without a federally certified fraud control unit, Hawaii's broader access to Medicaid funding could now be at risk. More than 360,000 Hawaii residents are enrolled in Medicaid, and the state received $2.2 billion in federal Medicaid funds in 2024, according to the agency that advises Congress on healthcare spending."
+        },
+        {
+          "type": "heading",
+          "text": "Civil Recoveries Dismissed as 'Pennies on the Dollar'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hawaii Attorney General Anne Lopez has pushed back against the federal characterisation, arguing her office has not ignored Medicaid fraud. She pointed to $14 million in civil recoveries since 2021 and noted the state had criminally charged two people with healthcare fraud earlier this year. But Bell's letter dismissed those figures in detail. The $14 million in recovered civil judgments, he found, amounts to less than 0.01 percent of Hawaii's total Medicaid expenditures over the same period. Of the 30 civil cases Hawaii claimed credit for between 2021 and 2025, 23 were \"global settlements\" led by other entities in which Hawaii's unit had simply joined — not cases the unit had independently investigated or prosecuted. The remaining seven cases that Hawaii's own unit drove produced $11.3 million in total recoveries, but that figure is almost entirely attributable to a single case that alone brought in $11 million. In 2021, 2022, 2024, and 2025, the return on investment based on what the unit spent produced, in Bell's characterisation, \"pennies on the dollar, or less.\""
+        },
+        {
+          "type": "paragraph",
+          "text": "Andrew Ferguson, co-chair of the White House Fraud Task Force, spoke at a press conference Thursday alongside HHS officials and framed the decision in stark terms. \"One of the requirements for getting Medicaid money for your state is to have an effective Medicaid fraud control unit, and if you don't have one, it can jeopardize the state's access to Medicaid money generally,\" Ferguson said. He noted that Medicaid enrollment in Hawaii increased by 40 percent between 2021 and 2025, while funding rose 27 percent over the same period — a trajectory that he said should have generated far more fraud enforcement activity, not less. Nationally, fraud control units across all 50 states were responsible for more than 4,800 criminal convictions of people and businesses during the same 2022 to 2025 window in which Hawaii recorded zero."
+        },
+        {
+          "type": "heading",
+          "text": "Vance Had Flagged Hawaii's Performance in May"
+        },
+        {
+          "type": "paragraph",
+          "text": "Thursday's funding cut did not arrive without warning. In May, Vice President JD Vance publicly accused Hawaii of giving Medicaid fraudsters \"free rein\" and warned that states failing to police the program effectively would face consequences. \"If we continue to find problems, we can turn off other resources within their state Medicaid programs as well. Our goal here is not to do that,\" Vance said at the time, in remarks that read at the time as a threat directed at Honolulu. Also in May, the Trump administration issued notice letters to attorneys general in all 50 states demanding greater cooperation in Medicaid fraud prosecutions — a broad escalation that the Hawaii action now represents the first concrete enforcement step of. Ferguson singled out Ohio Attorney General David Yost as a model of cooperation with federal fraud enforcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "State Rep. Lisa Marten, who chairs Hawaii's House Human Services Committee, offered a pointed analogy in response to the funding cut. \"It's kind of like paying a police officer and sending him out to catch speeders, and saying 'you didn't give out as many speeding tickets as what we paid you in salary,'\" Marten said to Hawaii News Now. The comparison was intended as a defence of the unit, but it also illustrated exactly the accountability argument federal officials have been making: that the unit's purpose is to produce criminal fraud prosecutions, and that it had produced none for four years while drawing federal reimbursements. Hawaii's Department of the Attorney General said in a statement after the announcement that it would ask HHS to reconsider the decertification decision, and that it \"remains committed to protecting Medicaid beneficiaries, safeguarding public funds, and holding accountable those who commit fraud, abuse, or neglect.\""
+        },
+        {
+          "type": "heading",
+          "text": "Governor Creates Independent Strike Force; Broader Medicaid Funding Now at Stake"
+        },
+        {
+          "type": "paragraph",
+          "text": "Governor Josh Green responded to the funding cut by announcing the creation of an independent Medicaid Fraud Strike Force within the state health department — a body separate from the Attorney General's office that will be tasked with investigating and referring fraud cases for prosecution. \"The findings outlined by the Office of Inspector General are serious and deserve a serious response,\" Green said. The governor's move implicitly acknowledged that the existing unit's performance had been inadequate. The strike force will operate alongside, rather than replacing, the Attorney General's office, whose fraud unit will remain in place even without federal certification. Green's response sets up a potentially awkward dual-track structure in which the state health department and the attorney general's office both pursue Medicaid fraud enforcement going forward."
+        },
+        {
+          "type": "paragraph",
+          "text": "The stakes of the recertification fight are considerably higher than the $3 million annual federal match that has now been cut. Federal law requires every state administering Medicaid to maintain an effective, federally certified fraud control unit as a condition of receiving federal Medicaid funding. If Hawaii cannot demonstrate to HHS that it has restored an effective programme — either through the existing unit or through some new arrangement — it risks losing access to the $2.2 billion in federal Medicaid funds it received in 2024, money that underpins healthcare coverage for more than a third of a million Hawaii residents. The letter gives Hawaii the right to ask for reconsideration, and the attorney general's office said Thursday it would do exactly that."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 10, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
+      { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
     ]
   },
   {

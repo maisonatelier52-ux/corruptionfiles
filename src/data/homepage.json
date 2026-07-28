@@ -482,14 +482,14 @@
   },
   {
     "id": 3,
-    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
+    "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
-    "date": "June 4, 2026",
-    "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "date": "July 15, 2026",
+    "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
     "author": "Ruth Anselmi",
-    "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period.",
-    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+    "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
+    "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   },
   {
@@ -586,6 +586,18 @@
     "author": "Ruth Anselmi",
     "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
     "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
+  },
+  {
+    "id": 12,
+    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "date": "June 4, 2026",
+    "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+    "author": "Ruth Anselmi",
+    "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period.",
+    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
     "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
   }
 ],
