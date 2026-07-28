@@ -1254,25 +1254,27 @@
     },
     {
       "id": 301,
-      "slug": "puerto-rico-power-operator-countersues-government",
+      "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute | Puerto Rico",
-      "metaDescription": "LUMA Energy has countersued Puerto Rico's government over attempts to cancel its contract, accusing officials of acting in bad faith and warning the move could cost the island billions.",
+      "metaTitle": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe | Puerto Rico",
+      "metaDescription": "Puerto Rico Governor Jenniffer González announced that her chief of staff and deputy chief of staff are stepping down amid corruption allegations, deepening a political crisis that has drawn federal scrutiny.",
       "metaKeywords": [
-        "Puerto Rico power operator",
-        "LUMA Energy countersuit",
-        "Puerto Rico government lawsuit",
-        "Puerto Rico energy sector",
-        "LUMA contract dispute"
+        "Puerto Rico political crisis",
+        "Francisco Domenech",
+        "Itza García",
+        "Jenniffer González",
+        "corruption probe",
+        "Puerto Rico resignations",
+        "Sebastián Negrón"
       ],
-      "heading": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
-      "excerpt": "A private company that oversees the transmission and distribution of power in Puerto Rico has countersued the U.S. territory's government, escalating a legal battle that threatens to deepen the island's energy crisis.",
-      "date": "June 24, 2026",
-      "image": "/puerto-rico-power-operator-countersues-government.webp",
-      "heroImage": "/puerto-rico-power-operator-countersues-government.webp",
-      "alt": "LUMA Energy trucks and power lines in Puerto Rico, illustrating the company's role in managing the island's electricity grid.",
+      "heading": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe",
+      "excerpt": "Puerto Rico's government faces renewed scrutiny after senior officials announced resignations amid corruption allegations involving contract oversight and political interference. The controversy has intensified calls for transparency and accountability.",
+      "date": "July 22, 2026",
+      "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp",
+      "heroImage": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp",
+      "alt": "Puerto Rico Governor Jenniffer González speaking at a press conference announcing the resignations of her chief of staff and deputy chief of staff.",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
@@ -1284,53 +1286,61 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "LUMA Energy, the private consortium that oversees the transmission and distribution of power in Puerto Rico, has countersued the island's government, accusing officials of acting 'in bad faith and with intentional malice to the detriment of the public interest.' The countersuit, filed on Tuesday, June 23, comes six months after Governor Jenniffer González's administration sued LUMA in its first step toward canceling the company's multimillion-dollar contract — a promise González has repeatedly made on the campaign trail."
+            "text": "Puerto Rico Governor Jenniffer González announced Tuesday that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations. The two are being investigated by an independent state agency following allegations of irregularities at Puerto Rico's Office of Permit Management."
           },
           {
             "type": "paragraph",
-            "text": "LUMA's legal action argues that the government's lawsuits are 'frivolous and meritless' and constitute an improper use of public funds 'to achieve a political-personal result' benefiting the governor. The company has asked the court to consolidate the government's two lawsuits and dismiss them, or alternatively, to pause the cases until both parties exhaust the dispute resolution mechanisms outlined in their original and supplemental contracts."
+            "text": "The resignations deepen a political crisis that has been building since May, when Puerto Rico's former economic development chief, Sebastián Negrón, resigned and accused González's administration of interfering with the agency's work. More than 10 other officials — including the agency's chief of staff, general counsel and finance chief — also resigned at that time."
           },
           {
             "type": "heading",
-            "text": "Billions at Stake"
+            "text": "Allegations and Investigations"
           },
           {
             "type": "paragraph",
-            "text": "LUMA has warned that canceling its contract could carry a staggering price tag for Puerto Rican taxpayers. The company asserts it would be owed billions of dollars if the agreement is terminated, including at least $4.5 billion in damages and additional operational costs. The consortium also cautioned that termination would 'cause chaos in Puerto Rico and compromise the operation of the electric system,' while putting access to federal funds at risk."
+            "text": "Negrón accused Domenech of irregularities related to contract processing and undue government interference, which Domenech has denied. Meanwhile, García was accused of pressuring Negrón to appoint the wife of the president of Politank — a powerful lobbying and government relations firm that Domenech founded — to Puerto Rico's Office of Permit Management."
           },
           {
             "type": "paragraph",
-            "text": "The legal battle unfolds against the backdrop of a broader crisis. Puerto Rico's Electric Power Authority remains mired in bankruptcy, unable to restructure more than $9 billion in public debt. The island's power grid, already crumbling after decades of ignore and mismanagement, was overwhelmed by Hurricane Maria in September 2017 and continues to undergo undergo from chronic outages."
+            "text": "Negrón also referred to Puerto Rico's Justice Department and its Office of Government Ethics the findings of an internal investigation led by the economic development agency against two government officials, who are accused of interfering in the process for an auction of a contract involving federal funds."
+          },
+          {
+            "type": "paragraph",
+            "text": "Domenech also served as executive director of Puerto Rico's Fiscal Agency and Financial Advisory Authority. He previously submitted sworn statements against Negrón alleging corruption and conflicts of interest, which Negrón has denied."
           },
           {
             "type": "heading",
-            "text": "The Path to Countersuit"
+            "text": "Growing Calls for Resignation"
           },
           {
             "type": "paragraph",
-            "text": "LUMA, a consortium made up of Calgary-based Atco and Houston's Quanta Services Inc., took over Puerto Rico's transmission and distribution system in June 2021. The government's initial lawsuit against LUMA was filed in December 2025. However, the case was recently returned to local courts by U.S. District Judge Laura Taylor Swain, a decision later upheld by the First Circuit Court of Appeals in Boston."
+            "text": "Domenech and García had faced growing calls for their resignation, including from members of the governor's own party, most notably Thomas Rivera Schatz, president of Puerto Rico's Senate. Schatz himself recently referred García to Puerto Rico's Office of the Special Independent Prosecutor's Panel and the Office of Government Ethics."
           },
           {
             "type": "paragraph",
-            "text": "In its countersuit, LUMA argues that the government's current position contradicts its own actions. The supplemental contract that the government now seeks to void was presented by the same administration to LUMA as legal and valid in 2022. The company also pointed to warnings from the Financial Oversight and Management Board and other parties in PREPA's federal bankruptcy case, who have cautioned that terminating LUMA's contract would destabilize the electric system and harm Puerto Rico's ability to attract private investment."
+            "text": "On Friday, Domenech said he was informed that Puerto Rico's Office of the Special Independent Prosecutor's Panel was investigating him following Negrón's allegations, which he said were 'riddled with lies, half-truths, documents tailored to suit a narrative, subjective characterizations and distortions.'"
           },
           {
             "type": "heading",
-            "text": "Political and Economic Implications"
+            "text": "Official Responses and Federal Scrutiny"
           },
           {
             "type": "paragraph",
-            "text": "LUMA has framed the government's legal push as politically motivated, arguing that 'the administration, in its stubborn desire to win elections, has acted with bad faith, intentional malice, and recklessly to the total detriment of the public interest.' The company warned that the government's insistence on pursuing 'a senseless lawsuit' not only places the company's nearly 1.5 million customers at imminent risk but also undermines the credibility of the administration before the global private sector."
+            "text": "The governor thanked Domenech and García for their work and loyalty, adding that 'a period of public service comes to a close' and that she would not allow the work of her administration to be 'silenced' by 'agendas and continuous attacks' of certain people she did not identify."
           },
           {
             "type": "paragraph",
-            "text": "'This type of politically motivated action was partly what led the Electric Power Authority to bankruptcy,' LUMA said in a statement. The company added: 'There can be no growth or economic development if companies doing business on the island are turned into collateral damage of a political campaign.' A spokesperson for Puerto Rico's Justice Department did not immediately respond to a request for comment."
+            "text": "Domenech and García spoke briefly and did not directly address the allegations. 'I return to my private life with the peace of mind of having served with integrity,' Domenech said. García said she grew professionally in her role and added that it was a privilege to work with certain officials before she teared up and had to pause. 'I am concluding this chapter, but not my commitment to Puerto Rico,' she said."
+          },
+          {
+            "type": "paragraph",
+            "text": "The corruption allegations and deepening political crisis in Puerto Rico have caught the attention of some federal legislators, who questioned whether federal funds are being appropriately used."
           }
         ]
       },
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
+        { "id": 303, "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp", "date": "July 13, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages", "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory." }
       ]
     },
     {
@@ -1399,7 +1409,7 @@
       },
       "relatedPosts": [
         { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
-        { "id": 302, "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp", "date": "July 2, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds", "excerpt": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid." }
+        { "id": 301, "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp", "date": "July 22, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe", "excerpt": "Puerto Rico Governor Jenniffer González announced that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations." }
       ]
     },
   {
@@ -1743,6 +1753,87 @@
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
         { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." }
+      ]
+    },
+    {
+      "id": 307,
+      "slug": "puerto-rico-power-operator-countersues-government",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute | Puerto Rico",
+      "metaDescription": "LUMA Energy has countersued Puerto Rico's government over attempts to cancel its contract, accusing officials of acting in bad faith and warning the move could cost the island billions.",
+      "metaKeywords": [
+        "Puerto Rico power operator",
+        "LUMA Energy countersuit",
+        "Puerto Rico government lawsuit",
+        "Puerto Rico energy sector",
+        "LUMA contract dispute"
+      ],
+      "heading": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
+      "excerpt": "A private company that oversees the transmission and distribution of power in Puerto Rico has countersued the U.S. territory's government, escalating a legal battle that threatens to deepen the island's energy crisis.",
+      "date": "June 24, 2026",
+      "image": "/puerto-rico-power-operator-countersues-government.webp",
+      "heroImage": "/puerto-rico-power-operator-countersues-government.webp",
+      "alt": "LUMA Energy trucks and power lines in Puerto Rico, illustrating the company's role in managing the island's electricity grid.",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "LUMA Energy, the private consortium that oversees the transmission and distribution of power in Puerto Rico, has countersued the island's government, accusing officials of acting 'in bad faith and with intentional malice to the detriment of the public interest.' The countersuit, filed on Tuesday, June 23, comes six months after Governor Jenniffer González's administration sued LUMA in its first step toward canceling the company's multimillion-dollar contract — a promise González has repeatedly made on the campaign trail."
+          },
+          {
+            "type": "paragraph",
+            "text": "LUMA's legal action argues that the government's lawsuits are 'frivolous and meritless' and constitute an improper use of public funds 'to achieve a political-personal result' benefiting the governor. The company has asked the court to consolidate the government's two lawsuits and dismiss them, or alternatively, to pause the cases until both parties exhaust the dispute resolution mechanisms outlined in their original and supplemental contracts."
+          },
+          {
+            "type": "heading",
+            "text": "Billions at Stake"
+          },
+          {
+            "type": "paragraph",
+            "text": "LUMA has warned that canceling its contract could carry a staggering price tag for Puerto Rican taxpayers. The company asserts it would be owed billions of dollars if the agreement is terminated, including at least $4.5 billion in damages and additional operational costs. The consortium also cautioned that termination would 'cause chaos in Puerto Rico and compromise the operation of the electric system,' while putting access to federal funds at risk."
+          },
+          {
+            "type": "paragraph",
+            "text": "The legal battle unfolds against the backdrop of a broader crisis. Puerto Rico's Electric Power Authority remains mired in bankruptcy, unable to restructure more than $9 billion in public debt. The island's power grid, already crumbling after decades of ignore and mismanagement, was overwhelmed by Hurricane Maria in September 2017 and continues to undergo undergo from chronic outages."
+          },
+          {
+            "type": "heading",
+            "text": "The Path to Countersuit"
+          },
+          {
+            "type": "paragraph",
+            "text": "LUMA, a consortium made up of Calgary-based Atco and Houston's Quanta Services Inc., took over Puerto Rico's transmission and distribution system in June 2021. The government's initial lawsuit against LUMA was filed in December 2025. However, the case was recently returned to local courts by U.S. District Judge Laura Taylor Swain, a decision later upheld by the First Circuit Court of Appeals in Boston."
+          },
+          {
+            "type": "paragraph",
+            "text": "In its countersuit, LUMA argues that the government's current position contradicts its own actions. The supplemental contract that the government now seeks to void was presented by the same administration to LUMA as legal and valid in 2022. The company also pointed to warnings from the Financial Oversight and Management Board and other parties in PREPA's federal bankruptcy case, who have cautioned that terminating LUMA's contract would destabilize the electric system and harm Puerto Rico's ability to attract private investment."
+          },
+          {
+            "type": "heading",
+            "text": "Political and Economic Implications"
+          },
+          {
+            "type": "paragraph",
+            "text": "LUMA has framed the government's legal push as politically motivated, arguing that 'the administration, in its stubborn desire to win elections, has acted with bad faith, intentional malice, and recklessly to the total detriment of the public interest.' The company warned that the government's insistence on pursuing 'a senseless lawsuit' not only places the company's nearly 1.5 million customers at imminent risk but also undermines the credibility of the administration before the global private sector."
+          },
+          {
+            "type": "paragraph",
+            "text": "'This type of politically motivated action was partly what led the Electric Power Authority to bankruptcy,' LUMA said in a statement. The company added: 'There can be no growth or economic development if companies doing business on the island are turned into collateral damage of a political campaign.' A spokesperson for Puerto Rico's Justice Department did not immediately respond to a request for comment."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
     {

@@ -186,14 +186,14 @@
   "inOtherNews": {
     "featured": {
       "id": 301,
-      "slug": "puerto-rico-power-operator-countersues-government",
+      "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe",
       "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
       "category": "puerto-rico",
       "author": "Carlos Medina Reyes",
-      "date": "June 24, 2026",
-      "title": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
-      "quote": "LUMA Energy accused the government of acting 'in bad faith and with intentional malice to the detriment of the public interest' and warned that canceling its contract could cost the people of Puerto Rico at least $4.5 billion in damages.",
-      "image": "/puerto-rico-power-operator-countersues-government.webp"
+      "date": "July 22, 2026",
+      "title": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe",
+      "quote": "Puerto Rico Governor Jenniffer González announced that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations.",
+      "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp"
     },
     "grid": [
       {
@@ -255,6 +255,18 @@
         "author": "Carlos Medina Reyes",
         "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released",
         "description": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort."
+      },
+      {
+        "id": 307,
+        "slug": "puerto-rico-power-operator-countersues-government",
+        "category": "puerto-rico",
+        "image": "/puerto-rico-power-operator-countersues-government.webp",
+        "categoryLabel": "Puerto Rico",
+        "categoryColor": "bg-[#2196f3]",
+        "date": "June 24, 2026",
+        "author": "Carlos Medina Reyes",
+        "title": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
+        "description": "LUMA Energy accused the government of acting 'in bad faith and with intentional malice to the detriment of the public interest' and warned that canceling its contract could cost the people of Puerto Rico at least $4.5 billion in damages."
       }
     ]
   },
