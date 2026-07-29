@@ -601,7 +601,7 @@ function TrendingCircleCard({ item }) {
           {item.categories.map((cat, idx) => (
             <Link
               key={idx}
-              href={`/${labelToSlug(cat.label)}`}
+              href={`/${item.category}`}
               title={`Browse ${cat.label} articles`}
             >
               <span
