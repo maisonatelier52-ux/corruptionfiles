@@ -6494,19 +6494,26 @@
   },
   {
     "id": 807,
-    "slug": "fincen-southwest-border-targeting-order-cash-smuggling",
+    "slug": "us-treasury-removes-84-names-from-sanctions-list-in-major-review-push",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "FinCEN Expands Southwest Border Targeting Order to Curb Cash Smuggling",
-    "metaDescription": "FinCEN expanded its Geographic Targeting Order along the Southwest border to include all 29 border counties, requiring reporting of cross-border cash movements over $10,000 to combat drug cartel money laundering.",
-    "metaKeywords": ["FinCEN targeting order", "Southwest border cash smuggling", "drug cartel money laundering", "cross-border cash reporting", "anti-money laundering"],
-    "heading": "FinCEN Expands Southwest Border Targeting Order to Curb Cash Smuggling",
-    "excerpt": "FinCEN expanded its Southwest border targeting order to all 29 border counties, requiring title companies and escrow agents to report cross-border cash movements over $10,000.",
-    "date": "April 3, 2026",
-    "image": "/fincen-southwest-border-targeting-order-cash-smuggling.webp",
-    "heroImage": "/fincen-southwest-border-targeting-order-cash-smuggling.webp",
-    "alt": "US-Mexico border fence and checkpoint",
+    "metaTitle": "US Treasury Removes 84 Names From Sanctions List in Major Review Push | Offshore Wealth & Sanctions",
+    "metaDescription": "The US Treasury removed 84 individuals and firms from its sanctions list as it reviews outdated entries and focuses on key national security threats.",
+    "metaKeywords": [
+      "US Treasury sanctions",
+      "OFAC SDN List",
+      "sanctions removal",
+      "Scott Bessent",
+      "sanctions modernization",
+      "Treasury Department"
+    ],
+    "heading": "US Treasury Removes 84 Names From Sanctions List in Major Review Push",
+    "excerpt": "The US Treasury removed 84 individuals and firms from its sanctions list as it reviews outdated entries and focuses on key national security threats.",
+    "date": "July 27, 2026",
+    "image": "/us-treasury-removes-84-names-from-sanctions-list-in-major-review-push.webp",
+    "heroImage": "/us-treasury-removes-84-names-from-sanctions-list-in-major-review-push.webp",
+    "alt": "The US Treasury Department building in Washington, D.C., where officials announced the removal of 84 individuals and entities from the sanctions list.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
@@ -6515,33 +6522,38 @@
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "F",
-        "text": "inCEN on Friday issued an expanded Geographic Targeting Order (GTO) along the entire U.S.-Mexico border, requiring title insurance companies, escrow agents, and real estate attorneys in all 29 border counties to report cross-border cash movements exceeding $10,000 used for real estate purchases."
-      },
-      "paragraphs": [
-        "The original GTO, first issued in 2023, covered only four counties in Texas and two in California. The expansion follows a classified intelligence assessment that drug cartels are increasingly using U.S. real estate near the border to launder bulk cash proceeds from fentanyl and methamphetamine sales.",
-        "Under the GTO, covered entities must file a Currency Transaction Report (CTR) for any cash payment received from a buyer where the funds originated outside the United States, regardless of whether the cash was physically transported across the border or wired through a third country. Violations carry penalties of up to $250,000 per transaction."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "Cartel real estate purchases targeted",
-          "content": [
-            "The Drug Enforcement Administration (DEA) estimates that Mexican cartels laundered $2.3 billion through U.S. real estate in 2025, much of it concentrated in border cities like El Paso, McAllen, and San Diego. 'Cash is still king for cartels, and real estate is their preferred asset,' said DEA Administrator Anne Milgram.",
-            "The Texas Real Estate Commission opposed the expansion, arguing it would impose undue burdens on small title companies. 'We are not law enforcement,' said commission chair John B. Lacy. FinCEN responded by offering free training and a simplified electronic filing portal."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "Cash is still king for cartels, and real estate is their preferred asset. This GTO closes a major loophole that allowed dirty money to buy clean property.",
-          "cite": "DEA Administrator Anne Milgram"
+          "type": "paragraph",
+          "text": "The U.S. Treasury Department on Monday purged another 84 companies and individuals from its 17,000-plus sanctions lists as part of a broader push to streamline sanctions programs and make it easier for banks to target the most serious terrorist financing schemes. The action marks the second major step in a modernization initiative launched by Treasury Secretary Scott Bessent in May 2026."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The GTO takes effect May 15, 2026, and will remain in force for one year, with an option to renew. FinCEN said it will publish aggregated data on cartel-related real estate purchases quarterly."
-          ]
+          "text": "The Office of Foreign Assets Control (OFAC) removed the individuals and entities from the Specially Designated Nationals and Blocked Persons List (SDN List), updating identifying information for 22 additional entries to facilitate compliance. The removals include individuals and entities no longer considered U.S. national security or foreign policy priorities, such as deceased individuals, defunct entities, and targets sanctioned more than 20 years ago."
+        },
+        {
+          "type": "heading",
+          "text": "A Push for Sanctions Modernization"
+        },
+        {
+          "type": "paragraph",
+          "text": "The goal of the review is 'to ensure Treasury sanctions remain efficient, sharp, and focused, and to remove bloat left over from previous administrations,' a Treasury official said, noting that over 3,000 names were designated in 2024, compared to just 880 in 2017. 'Sanctions are not intended to be a forever tool,' the official added. Bessent has also repeatedly highlighted the Trump administration's willingness to impose sanctions on Russia's two biggest oil companies — Rosneft and Lukoil — a step the Biden administration eschewed for fear of a further surge in oil prices after Russia's invasion of Ukraine in 2022."
+        },
+        {
+          "type": "paragraph",
+          "text": "The latest tranche of removals includes 36 people who have died and associated listings; 33 Iraq-related entities first designated in 1991 or 1992; seven defunct or outdated narcotics listings related to Colombia; and eight disrupted narcotics kingpins. Each removal follows a review by other agencies to ensure that it would not harm U.S. foreign policy or national security interests, Treasury said, noting that names could be reinstated, as needed."
+        },
+        {
+          "type": "heading",
+          "text": "Easing Compliance Burdens"
+        },
+        {
+          "type": "paragraph",
+          "text": "The review has focused thus far on older sanctions entries, which sometimes lack identifying information that is now routine for new sanctions actions, including place and date of birth, unique identification numbers, nationality, or gender. Adding more robust data should make compliance screening less burdensome for financial institutions. OFAC has also identified a small number of duplicate entries on its sanctions lists, where the same person or property was inadvertently included more than once under separate list entries. Treasury said 18 such sets were resolved with Monday's action."
+        },
+        {
+          "type": "paragraph",
+          "text": "The modernization effort is designed to ensure U.S. sanctions remain targeted, effective, and aligned with U.S. economic, foreign policy, and national security priorities. As part of this initiative, Treasury launched an online reconsideration portal on June 29, 2026, that streamlines the process for sanctioned persons or their representatives to request removal from OFAC sanctions lists. Brett Erickson, managing principal with Obsidian Risk Advisors, said the push to streamline the sanctions list made sense and would allow banks to focus on the biggest, legitimate threats. 'At a time where so much movement is happening on the sanctions front, it needs to be as efficient as possible, or risk failures,' he said."
         }
       ]
     },
