@@ -303,12 +303,12 @@
 },
 {
   "id": 404,
-  "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
+  "slug": "seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response",
+  "image": "/seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response.webp",
   "category": "pa",
-  "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
-  "date": "June 5, 2026",
+  "title": "Seattle Police Chief Resigns After Criticism Over Delayed Shooting Response",
+  "date": "July 31, 2026",
   "author": "Darnell Hutchins"
 },
 { 
@@ -385,6 +385,16 @@
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
   "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
   "date": "June 3, 2026",
+  "author": "Darnell Hutchins"
+},
+{
+  "id": 412,
+  "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
+  "category": "pa",
+  "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
+  "date": "June 5, 2026",
   "author": "Darnell Hutchins"
 }
   ],
