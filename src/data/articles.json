@@ -5966,6 +5966,80 @@
     ]
   },
   {
+    "id": 708,
+    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings | Intelligence",
+    "metaDescription": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "metaKeywords": [
+      "Alien Terrorist Removal Court",
+      "classified evidence",
+      "terror removal proceedings",
+      "Nazira Haji Zada",
+      "due process",
+      "national security",
+      "immigration court"
+    ],
+    "heading": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
+    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "date": "July 31, 2026",
+    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "heroImage": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "alt": "The U.S. Supreme Court building in Washington, D.C., where the Alien Terrorist Removal Court convened for its first hearing.",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A secretive U.S. court created 30 years ago to deport suspected terrorists convened for the first time on Thursday, opening a new front in the Trump administration's effort to remove non-citizens accused of national security threats and expand the president's immigration agenda. The hearing, before the Alien Terrorist Removal Court, was open to the public and centered on Nazira Haji Zada, a 47-year-old lawful permanent resident accused of supporting Islamic State and helping conceal a failed Election Day 2024 mass shooting plot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prosecutors say much of the evidence against the Texas woman cannot be publicly disclosed. Established by Congress in 1996, the court allows the government to rely on classified evidence in deportation cases, a process Haji Zada's lawyer argued violates due process protections. Haji Zada, who was in the Washington federal courtroom, has not been charged with any crimes, court documents show, but her son and son-in-law pleaded guilty to related charges last year."
+        },
+        {
+          "type": "heading",
+          "text": "Constitutional Challenge and Due Process Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matthew Farley, the defendant's attorney, quickly asked the court's chief judge, Joan Ericksen, to dismiss the case and immediately release his client. 'This entire scheme is in violation of due process and unconstitutional,' Farley said during the hearing. 'This is a runaround to bringing a criminal case.' Ericksen, a federal district judge appointed to oversee the court, denied the request."
+        },
+        {
+          "type": "paragraph",
+          "text": "The court's lack of prior cases was evident as the judge, prosecutors and defense lawyers spent part of the proceeding resolving basic procedural questions, including how documents would be handled and who could access classified evidence. It was unclear when the next hearing would take place."
+        },
+        {
+          "type": "heading",
+          "text": "The Government's Case and Classified Evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Created to handle deportation cases involving classified national security information, the court went unused until Justice Department officials sought Haji Zada's removal this month. The FBI arrested her at her Fort Worth home on Tuesday."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acting Attorney General Todd Blanche said in a statement before the hearing: 'The allegations in this case show the matriarch of an ISIS-sympathizing family aiding in a plot to launch a mass casualty attack on American voters on Election Day.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a short unclassified summary of the case, the Justice Department alleged that Haji Zada had indoctrinated her children 'with ISIS ideology' and had concealed the radicalization of her family and a planned move to ISIS territory from her husband. The FBI wrote in a July 15 memo: 'The underlying information is classified because disclosure would enable terrorists and terrorist organizations to avoid preventative or detection measures or would reveal FBI or other U.S. Intelligence Community sources.'"
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 701, "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp", "date": "July 8, 2026", "author": "Naomi Vosburgh", "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee", "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence." }
+    ]
+  },
+  {
     "id": 801,
     "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding",
     "category": "offshore",

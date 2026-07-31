@@ -756,14 +756,14 @@
   ], 
 "technologyNews": [
   {
-    "id": 704,
-    "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
+    "id": 708,
+    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
     "category": "intelligence",
-    "title": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
-    "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
+    "title": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
+    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
     "author": "Naomi Vosburgh",
-    "date": "July 3, 2026",
-    "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
+    "date": "July 31, 2026",
+    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -775,6 +775,17 @@
     "author": "Naomi Vosburgh",
     "date": "July 8, 2026",
     "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 704,
+    "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
+    "category": "intelligence",
+    "title": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
+    "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
+    "author": "Naomi Vosburgh",
+    "date": "July 3, 2026",
+    "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
