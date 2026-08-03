@@ -1412,89 +1412,82 @@
         { "id": 301, "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp", "date": "July 22, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe", "excerpt": "Puerto Rico Governor Jenniffer González announced that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations." }
       ]
     },
-  {
-    "id": 302,
-    "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds",
-    "category": "puerto-rico",
-    "categoryLabel": "Puerto Rico",
-    "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds | Puerto Rico",
-    "metaDescription": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
-    "metaKeywords": [
-      "Puerto Rico recovery funds",
-      "Hurricane Maria aid",
-      "federal audit Puerto Rico",
-      "GAO report",
-      "FEMA Puerto Rico",
-      "power grid reconstruction"
-    ],
-    "heading": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds",
-    "excerpt": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
-    "date": "July 2, 2026",
-    "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
-    "heroImage": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
-    "alt": "A damaged power line in Puerto Rico, illustrating the ongoing challenges in rebuilding the island's grid nearly a decade after Hurricane Maria.",
-    "author": {
-      "name": "Carlos Medina Reyes",
-      "slug": "carlos-medina-reyes",
-      "avatar": "/carlos-medina-reyes.webp",
-      "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "Nearly a decade after Hurricane Maria destroyed Puerto Rico, a new federal audit found the island has gotten only a quarter of the disaster recovery funding approved for rebuilding its electricity grid, raising fresh concerns over bureaucratic delays and the slow pace of rehabilitation."
-        },
-        {
-          "type": "paragraph",
-          "text": "The audit, conducted by the U.S. Government Accountability Office (GAO), found that only 25% of some $14 billion in federal funds obligated for Puerto Rico's power grid after Hurricane Maria has reached the U.S. territory. Of the $11 billion obligated by the Federal Emergency Management Agency (FEMA) alone, some $2.7 billion has been disbursed, mostly for equipment, materials, and architecture and engineering design costs, according to the GAO report."
-        },
-        {
-          "type": "heading",
-          "text": "An Inefficient and Slow Process of Recovery"
-        },
-        {
-          "type": "paragraph",
-          "text": "The report by the GAO exposes continuing problems that have hindered Puerto Rico’s recovery from the deadly 2017 hurricane. The sluggish pace of finance disbursement has left key infrastructure projects hanging in the balance, with the island’s electricity supply remaining frail and prone to blackouts. Bureaucratic impediments and a lack of collaboration between federal and local agencies have compounded the delays, the report said, noting that a 'significant amount' of permanent recovery work remained to be done."
-        },
-        {
-          "type": "paragraph",
-          "text": "As of May 2025, of more than $10 billion FEMA had obligated for Puerto Rico's permanent recovery work, only about $2 billion had been disbursed. The GAO also said that FEMA had given Puerto Rico $23.4 billion in Public Assistance funds for permanent recovery work as of June 2023, with Puerto Rico having spent $1.8 billion of that money at the time."
-        },
-        {
-          "type": "heading",
-          "text": "Political and Community Reactions"
-        },
-        {
-          "type": "paragraph",
-          "text": "The audit has drawn sharp criticism from Puerto Rican officials and community leaders, who have long complained about the slow pace of federal aid distribution. Resident Commissioner Pablo José Hernández has repeatedly raised concerns over the delays, noting that more than $24 billion in federal funds remain undisbursed nearly nine years after the hurricane."
-        },
-        {
-          "type": "paragraph",
-          "text": "'Nearly nine years after Hurricane María, families are still waiting on the reconstruction they were promised,' Hernández said. 'The money has been allocated, but the bureaucracy has failed the people of Puerto Rico.'"
-        },
-        {
-          "type": "paragraph",
-          "text": "The findings come as Puerto Rico continues to grapple with the legacy of Hurricane Maria, which caused an estimated $90 billion in damage and killed nearly 3,000 people.The delayed recovery has spurred persistent dissatisfaction and protests, with many people wondering if the federal government has made rebuilding the island a priority."
-        },
-        {
-          "type": "heading",
-          "text": "Demands for Reform and Oversight"
-        },
-        {
-          "type": "paragraph",
-          "text": "Lawmakers have responded to the report by demanding stronger supervision and reform of the disaster recovery process. GAO report recommended FEMA enhance its interaction with Puerto Rico authorities and shorten the clearance process for recovery projects. The agency has admitted the difficulties and vowed to cooperate with the island’s government to speed up the disbursement of funding."
-        },
-        {
-          "type": "paragraph",
-          "text": "The assessment also comes as Puerto Rico’s electricity grid remains a critical worry for people and companies alike. In recent years, the island has suffered recurrent blackouts, highlighting the need for a new and resilient energy infrastructure. But a small percentage of the money really makes it to the island, and full recovery is still a question mark."
-        }
-      ]
-    },
+    {
+      "id": 302,
+      "slug": "puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Approves $2 Billion Cabo Rojo Luxury Project Despite Environmental Opposition | Puerto Rico",
+      "metaDescription": "Puerto Rico's government has authorized construction of the $2 billion Esencia luxury development in Cabo Rojo, drawing fierce opposition from environmental groups who warn it will strain water resources and threaten coastal ecosystems.",
+      "metaKeywords": [
+        "Puerto Rico Cabo Rojo",
+        "Esencia project",
+        "$2 billion luxury development",
+        "Cabo Rojo development",
+        "Puerto Rico environmental opposition",
+        "Reuben Brothers",
+        "Three Rules Capital"
+      ],
+      "heading": "Puerto Rico Approves $2 Billion Cabo Rojo Luxury Project Despite Environmental Opposition",
+      "excerpt": "Puerto Rico has approved a $2 billion luxury development in Cabo Rojo despite opposition from environmental groups, who warn the project could strain water resources and damage sensitive coastal ecosystems.",
+      "date": "August 1, 2026",
+      "image": "/puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition.webp",
+      "heroImage": "/puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition.webp",
+      "alt": "A rendering of the proposed Esencia luxury development on the coast of Cabo Rojo, Puerto Rico.",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico's government has authorized construction of a $2 billion luxury development in the island's southwest region that environmentalists have decried, warning it would strain the U.S. territory's resources and threaten wildlife. The project known as Esencia would be built on 2,000 acres in the coastal town of Cabo Rojo."
+          },
+          {
+            "type": "paragraph",
+            "text": "The development would include 500 luxury hotel rooms, 1,200 private residences, two golf courses, an equestrian center, a school from kindergarten to 12th grade and a 24/7 medical center, among other things. Global investment firm Reuben Brothers and real estate development company Three Rules Capital said in a statement that more than 75% of the project would be dedicated to conservation and green space, including restoring roughly 33 acres of wetlands and rehabilitating coastal dunes and mangrove ecosystems."
+          },
+          {
+            "type": "heading",
+            "text": "Environmental Opposition and Community Concerns"
+          },
+          {
+            "type": "paragraph",
+            "text": "Environmentalists decried the approval, which Puerto Rico's Adjunct Board of the Permit Management Office issued late Thursday. The Defend Cabo Rojo Coalition, which opposes the project, said the people of Cabo Rojo and experts should have had the opportunity to be heard. 'Citizen participation is not a favor granted by an agency; it is a fundamental principle of due process and an indispensable guarantee when our natural resources, water, communities, and the future of the municipality are at stake,' it said in a statement."
+          },
+          {
+            "type": "paragraph",
+            "text": "Among those opposing the project is Braulio Quintero, executive director of the Puerto Rico-based Institute for Socio-Ecological Research. 'We are going to fight this in every forum possible,' he said. 'These are serious threats to our sustainability as a people.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "The approval comes as Puerto Rico faces a deepening drought. On Friday night, Governor Jenniffer González announced a state of emergency regarding water use and activated the National Guard. Chronic water shortages have persisted across the island, with thousands of residents facing ongoing disruptions."
+          },
+          {
+            "type": "heading",
+            "text": "Developer Commitments and Project Details"
+          },
+          {
+            "type": "paragraph",
+            "text": "Roberto Ruiz Vargas, chief operating officer and partner of Three Rules Capital, said one of the first priorities will be to provide public beach access and build the development's own water system and power generation and distribution. He said three-fourths of the water will come from reused sources including rainwater and wastewater, and that groundwater will provide one-fourth for potable water. 'The first thing we have to be clear about is that we are not tapping into the public infrastructure,' he said. 'We will not hook up to those fragile water systems.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ruiz said that the development would not put a strain on a nearby agricultural valley nor tap into its water sources: 'Far from taking from those systems, we will be contributing to those systems.' He noted that given the development's exemption from municipal taxes, it has pledged $40 million overall to public improvement projects to be decided by the local government."
+          },
+          {
+            "type": "paragraph",
+            "text": "The developers have stressed that they will protect the environment and uphold public access to the beach. They noted that the project is expected to generate more than 17,000 jobs and asserted it would set a benchmark for 'environmentally conscious luxury development.' Hotel brands joining the project so far are Mandarin Oriental and Rosewood Hotels & Resorts. Formal sales begin later this year, with the first residents and guests expected by late 2028."
+          }
+        ]
+      },
       "relatedPosts": [
-        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 303, "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp", "date": "July 13, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages", "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory." },
         { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
@@ -1828,6 +1821,92 @@
           {
             "type": "paragraph",
             "text": "'This type of politically motivated action was partly what led the Electric Power Authority to bankruptcy,' LUMA said in a statement. The company added: 'There can be no growth or economic development if companies doing business on the island are turned into collateral damage of a political campaign.' A spokesperson for Puerto Rico's Justice Department did not immediately respond to a request for comment."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
+      ]
+    },
+    {
+      "id": 308,
+      "slug": "puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds | Puerto Rico",
+      "metaDescription": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
+      "metaKeywords": [
+        "Puerto Rico recovery funds",
+        "Hurricane Maria aid",
+        "federal audit Puerto Rico",
+        "GAO report",
+        "FEMA Puerto Rico",
+        "power grid reconstruction"
+      ],
+      "heading": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds",
+      "excerpt": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid.",
+      "date": "July 2, 2026",
+      "image": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
+      "heroImage": "/puerto-rico-still-waiting-for-billions-in-hurricane-recovery-funds-federal-audit-finds.webp",
+      "alt": "A damaged power line in Puerto Rico, illustrating the ongoing challenges in rebuilding the island's grid nearly a decade after Hurricane Maria.",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Nearly a decade after Hurricane Maria destroyed Puerto Rico, a new federal audit found the island has gotten only a quarter of the disaster recovery funding approved for rebuilding its electricity grid, raising fresh concerns over bureaucratic delays and the slow pace of rehabilitation."
+          },
+          {
+            "type": "paragraph",
+            "text": "The audit, conducted by the U.S. Government Accountability Office (GAO), found that only 25% of some $14 billion in federal funds obligated for Puerto Rico's power grid after Hurricane Maria has reached the U.S. territory. Of the $11 billion obligated by the Federal Emergency Management Agency (FEMA) alone, some $2.7 billion has been disbursed, mostly for equipment, materials, and architecture and engineering design costs, according to the GAO report."
+          },
+          {
+            "type": "heading",
+            "text": "An Inefficient and Slow Process of Recovery"
+          },
+          {
+            "type": "paragraph",
+            "text": "The report by the GAO exposes continuing problems that have hindered Puerto Rico’s recovery from the deadly 2017 hurricane. The sluggish pace of finance disbursement has left key infrastructure projects hanging in the balance, with the island’s electricity supply remaining frail and prone to blackouts. Bureaucratic impediments and a lack of collaboration between federal and local agencies have compounded the delays, the report said, noting that a 'significant amount' of permanent recovery work remained to be done."
+          },
+          {
+            "type": "paragraph",
+            "text": "As of May 2025, of more than $10 billion FEMA had obligated for Puerto Rico's permanent recovery work, only about $2 billion had been disbursed. The GAO also said that FEMA had given Puerto Rico $23.4 billion in Public Assistance funds for permanent recovery work as of June 2023, with Puerto Rico having spent $1.8 billion of that money at the time."
+          },
+          {
+            "type": "heading",
+            "text": "Political and Community Reactions"
+          },
+          {
+            "type": "paragraph",
+            "text": "The audit has drawn sharp criticism from Puerto Rican officials and community leaders, who have long complained about the slow pace of federal aid distribution. Resident Commissioner Pablo José Hernández has repeatedly raised concerns over the delays, noting that more than $24 billion in federal funds remain undisbursed nearly nine years after the hurricane."
+          },
+          {
+            "type": "paragraph",
+            "text": "'Nearly nine years after Hurricane María, families are still waiting on the reconstruction they were promised,' Hernández said. 'The money has been allocated, but the bureaucracy has failed the people of Puerto Rico.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "The findings come as Puerto Rico continues to grapple with the legacy of Hurricane Maria, which caused an estimated $90 billion in damage and killed nearly 3,000 people.The delayed recovery has spurred persistent dissatisfaction and protests, with many people wondering if the federal government has made rebuilding the island a priority."
+          },
+          {
+            "type": "heading",
+            "text": "Demands for Reform and Oversight"
+          },
+          {
+            "type": "paragraph",
+            "text": "Lawmakers have responded to the report by demanding stronger supervision and reform of the disaster recovery process. GAO report recommended FEMA enhance its interaction with Puerto Rico authorities and shorten the clearance process for recovery projects. The agency has admitted the difficulties and vowed to cooperate with the island’s government to speed up the disbursement of funding."
+          },
+          {
+            "type": "paragraph",
+            "text": "The assessment also comes as Puerto Rico’s electricity grid remains a critical worry for people and companies alike. In recent years, the island has suffered recurrent blackouts, highlighting the need for a new and resilient energy infrastructure. But a small percentage of the money really makes it to the island, and full recovery is still a question mark."
           }
         ]
       },
