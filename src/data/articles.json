@@ -6806,7 +6806,7 @@
     },
     "relatedPosts": [
       { "id": 801, "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-targets-gold-finance-networks-linked-to-sudan-war-funding.webp", "date": "July 16, 2026", "author": "Felix Draper", "title": "UK Targets Gold and Finance Networks Linked to Sudan War Funding", "excerpt": "UK sanctions target gold and financial networks accused of supporting Sudan’s war efforts." },
-      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
+      { "id": 808, "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp", "date": "July 29, 2026", "author": "Felix Draper", "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks", "excerpt": "The US expands sanctions on Iran’s shadow fleet and offshore networks, targeting entities accused of helping evade financial restrictions." }
     ]
   },
   {
@@ -6876,65 +6876,86 @@
     },
     "relatedPosts": [
       { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
-      { "id": 808, "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion", "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion." }
+      { "id": 808, "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp", "date": "July 29, 2026", "author": "Felix Draper", "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks", "excerpt": "The US expands sanctions on Iran’s shadow fleet and offshore networks, targeting entities accused of helping evade financial restrictions." }
     ]
   },
   {
     "id": 808,
-    "slug": "fatf-offshore-crypto-platforms-sanctions-evasion-report",
+    "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion",
-    "metaDescription": "The Financial Action Task Force issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion and money laundering.",
-    "metaKeywords": ["FATF report", "offshore crypto exchanges", "sanctions evasion", "cryptocurrency money laundering", "travel rule"],
-    "heading": "New FATF Report Warns of Offshore Crypto Platforms Facilitating Sanctions Evasion",
-    "excerpt": "FATF issued a report warning that offshore cryptocurrency exchanges with weak KYC controls are increasingly used for sanctions evasion.",
-    "date": "April 3, 2026",
-    "image": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp",
-    "heroImage": "/fatf-offshore-crypto-platforms-sanctions-evasion-report.webp",
-    "alt": "Cryptocurrency exchange interface with world map",
+    "metaTitle": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks | Offshore Wealth & Sanctions",
+    "metaDescription": "The United States has announced new sanctions targeting vessels, companies, and financial networks accused of helping Iran bypass restrictions and move oil revenues through global channels.",
+    "metaKeywords": [
+      "Iran sanctions",
+      "shadow fleet",
+      "offshore money networks",
+      "OFAC",
+      "Strait of Hormuz",
+      "Iran oil trade",
+      "Treasury Department"
+    ],
+    "heading": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks",
+    "excerpt": "The United States has announced new sanctions targeting vessels, companies, and financial networks accused of helping Iran bypass restrictions and move oil revenues through global channels.",
+    "date": "July 29, 2026",
+    "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp",
+    "heroImage": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp",
+    "alt": "The U.S. Treasury Department building in Washington, D.C., where officials announced new sanctions targeting Iran's shadow fleet and offshore money networks.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
       "avatar": "/felix-draper.webp",
-      "bio": "Felix came to this beat through financial journalism...",
+      "bio": "Felix came to this beat through financial journalism and a growing frustration with how much of the real story lived in the footnotes. He has spent years building sources inside the offshore compliance world and learning to read the corporate structures that exist for no purpose other than distance.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he Financial Action Task Force (FATF), the global anti-money laundering watchdog, issued a report on Friday identifying offshore cryptocurrency exchanges with weak know-your-customer (KYC) controls as a 'critical vulnerability' in sanctions enforcement, particularly regarding Russian and North Korean evasion."
-      },
-      "paragraphs": [
-        "The report, 'Virtual Assets and Sanctions Evasion: 2026 Update,' found that 78% of sanctions-related crypto transactions in 2025 involved at least one exchange registered in jurisdictions with no or minimal AML enforcement, including the Marshall Islands, Seychelles, and the Autonomous Republic of Crimea (occupied Ukraine).",
-        "FATF President T. Raja Kumar said: 'We are seeing a professionalization of sanctions evasion. Criminal networks are now building purpose-built offshore exchanges that operate entirely outside the regulated financial system.'"
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "'Travel Rule' compliance gaps",
-          "content": [
-            "The report also found that only 12% of virtual asset service providers (VASPs) globally have fully implemented FATF's 'Travel Rule,' which requires sharing originator and beneficiary information for transactions over $1,000. The lack of compliance allows funds to move between exchanges without traceability.",
-            "FATF recommended that member countries blacklist exchanges operating from non-compliant jurisdictions and restrict domestic financial institutions from processing payments to those platforms. The European Union has already proposed such measures; the U.S. Treasury is considering similar action."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "We are seeing a professionalization of sanctions evasion. Criminal networks are now building purpose-built offshore exchanges that operate entirely outside the regulated financial system.",
-          "cite": "FATF President T. Raja Kumar"
+          "type": "paragraph",
+          "text": "The Trump administration is stepping up pressure on Iran’s ability to earn revenue from oil exports, announcing a new round of sanctions targeting the country’s shadow fleet and offshore financial networks. The measures, issued July 29, 2026, by the Office of Foreign Assets Control (OFAC) of the Treasury Department, target boats, corporations and financial facilitators accused of helping Iran circumvent international sanctions and move billions of dollars through the world financial system."
         },
         {
           "type": "paragraph",
-          "content": [
-            "The report named five exchanges as 'high-risk' — none of which responded to requests for comment. FATF also published updated guidance for national regulators on identifying and sanctioning non-compliant platforms."
-          ]
+          "text": "The sanctions include designations of two Iranian maritime insurance firms — HormuzSafe Marine Services Authority and Persian Gulf Marine Insurance Company — which the Treasury alleged support an Islamic Revolutionary Guard Corps-backed scheme that forces commercial vessels to buy purported insurance for passage through the Strait of Hormuz. The two firms have been accused of accepting Bitcoin and other digital assets to bypass Western sanctions."
+        },
+        {
+          "type": "heading",
+          "text": "Shadow Fleet Designations"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a separate component of the same action, OFAC designated eight companies for operating in Iran's petroleum sector and identified eight vessels as blocked property linked to them. The targeted vessels are part of Iran's so-called 'shadow fleet' — a network of tankers that use deceptive practices to transport Iranian oil and petroleum products to foreign markets, primarily in Asia."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Treasury Department said the sanctions are part of ongoing efforts to disrupt Iran's control over the Strait of Hormuz, a key waterway through which about a fifth of the global oil supply passes. The designations include entities based in multiple jurisdictions, including China, Hong Kong, the United Kingdom, and the Marshall Islands."
+        },
+        {
+          "type": "paragraph",
+          "text": "The move follows a series of U.S. sanctions and other measures adopted earlier this month. Earlier in July, OFAC sanctioned 29 shadow fleet vessels and their respective management firms that transported hundreds of millions of dollars' worth of Iranian petroleum products. The U.S. has now sanctioned more than 200 individuals, entities, and vessels operating under the patronage of Iranian businessman Mohammad Hossein Shamkhani's illicit shipping network."
+        },
+        {
+          "type": "heading",
+          "text": "More Generally, Treasury’s Statement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Treasury Secretary Scott Bessent wrote on social media: “As previously stated, the Treasury Department will continue to track the tens of millions of dollars that the regime has stolen and is attempting to transfer to banks outside of Iran. The sanctions are aimed at the sources of revenue that sustain the Islamic Revolutionary Guard Corps and its proxy operations."
+        },
+        {
+          "type": "paragraph",
+          "text": "The action comes amid heightened tensions in the Strait of Hormuz, where Iran has imposed tight controls since the early days of the U.S.-Israeli aggression in March 2026. Iran briefly eased its restrictions on transit in the strait last month after signing an initial agreement with the U.S., but controls were reintroduced after Washington and its allies attempted to ignore Iran's rights under the agreement to manage the strait."
+        },
+        {
+          "type": "paragraph",
+          "text": "The sanctions are expected to effectively freeze the assets of designated entities in the United States and prohibit U.S. persons from engaging in transactions with them. The designation also subjects the targeted firms to secondary sanctions, meaning foreign entities that do business with them could also face U.S. penalties."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." },
-      { "id": 809, "slug": "bny-named-financial-agent-trump-accounts-asset-program", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp", "date": "April 3, 2026", "author": "Felix Draper", "title": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program", "excerpt": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act." }
+      { "id": 807, "slug": "us-treasury-removes-84-names-from-sanctions-list-in-major-review-push", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-treasury-removes-84-names-from-sanctions-list-in-major-review-push.webp", "date": "July 27, 2026", "author": "Felix Draper", "title": "US Treasury Removes 84 Names From Sanctions List in Major Review Push", "excerpt": "The U.S. Treasury has removed 84 individuals and entities from its sanctions list following a major review of enforcement measures and compliance decisions." },
+      { "id": 801, "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-targets-gold-finance-networks-linked-to-sudan-war-funding.webp", "date": "July 16, 2026", "author": "Felix Draper", "title": "UK Targets Gold and Finance Networks Linked to Sudan War Funding", "excerpt": "The UK has imposed sanctions on gold and financial networks accused of helping fund Sudan’s ongoing conflict and supporting armed groups." }
     ]
   },
   {
