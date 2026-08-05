@@ -3480,27 +3480,26 @@
   },
   {
     "id": 1,
-    "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
+    "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
     "category": "medical-fraud",
     "categoryLabel": "Medical Fraud",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas | Medical Fraud",
-    "metaDescription": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+    "metaTitle": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information | Medical Fraud",
+    "metaDescription": "Biotechnology company Amgen has disclosed a cybersecurity breach involving stolen patient health information and proprietary company data from third-party cloud systems, raising new concerns over healthcare data security.",
     "metaKeywords": [
-      "AstraZeneca settlement",
-      "Texas Medicaid kickback",
-      "AstraZeneca $34 million",
-      "Ken Paxton",
-      "healthcare fraud",
-      "pharmaceutical kickbacks",
-      "Texas Health Care Program Fraud Prevention Act"
+      "Amgen data breach",
+      "patient data breach",
+      "healthcare cybersecurity",
+      "Amgen SEC filing",
+      "protected health information",
+      "third-party cloud breach"
     ],
-    "heading": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
-    "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
-    "date": "June 30, 2026",
-    "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
-    "heroImage": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
-    "alt": "AstraZeneca logo and Texas Attorney General Ken Paxton announcing a $34 million settlement over alleged Medicaid kickbacks.",
+    "heading": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
+    "excerpt": "Biotechnology company Amgen has disclosed a cybersecurity breach involving stolen patient health information and proprietary company data from third-party cloud systems, raising new concerns over healthcare data security.",
+    "date": "August 1, 2026",
+    "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+    "heroImage": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+    "alt": "Amgen headquarters in Thousand Oaks, California, where the biotech company disclosed a cybersecurity breach affecting patient data.",
     "author": {
       "name": "Ruth Anselmi",
       "slug": "ruth-anselmi",
@@ -3512,49 +3511,45 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "AstraZeneca has agreed to pay nearly $34 million to settle a lawsuit filed by the Texas Attorney General's office alleging that the pharmaceutical giant used illegal kickbacks to influence prescriptions paid for by Texas Medicaid. The settlement, announced on June 29, 2026, resolves claims that AstraZeneca provided free nursing services and other inducements to healthcare providers in exchange for prescribing its drugs, resulting in millions of dollars in tainted Medicaid claims."
+          "text": "Biotech giant Amgen said Tuesday it was the target of a cyberattack that resulted in the theft of patient health information and proprietary company data from systems run by third-party providers of cloud storage—the latest big healthcare data breach to rock the industry. The California corporation, which posted revenue of roughly $37 billion in fiscal year 2025, disclosed the unauthorized activity in its cloud environments in July and filed a notice with the U.S. Securities and Exchange Commission on July 31, 2026."
         },
         {
           "type": "paragraph",
-          "text": "Texas Attorney General Ken Paxton secured the settlement under the Texas Health Care Program Fraud Prevention Act. The state alleged that AstraZeneca provided free nursing services and reimbursements to healthcare providers 'under the guise of non-branded counseling' to influence them to prescribe the company's drugs. Many of these prescriptions were covered by Medicaid, leading to 'millions of dollars in claims to Texas Medicaid that were tainted by AstraZeneca's illegal inducements.'"
+          "text": "Amgen said it initiated its cybersecurity response plan, taking containment steps and engaging outside forensic specialists to investigate the compromise. The investigation confirmed that attackers had exfiltrated company information, including proprietary data, patients' protected health information, and other sensitive records."
         },
         {
           "type": "heading",
-          "text": "The Alleged Kickback Scheme"
+          "text": "Material Incident and Ongoing Investigation"
         },
         {
           "type": "paragraph",
-          "text": "According to the complaint, AstraZeneca's kickback scheme took the form of a free network of nurses and insurance support services designed to boost prescriptions of its medicines. By providing these services, the company allegedly helped manage key aspects of patient care that a physician would otherwise have to handle or pay staff to perform. The state argued that these inducements prompted pharmacies, pharmacy benefit managers, and others to submit claims to Texas Medicaid for AstraZeneca's medicines, causing the program to disburse millions of dollars in unauthorized reimbursements."
+          "text": "On July 29, Amgen determined the incident was \"material,\" based on its evaluation of how many files appeared to be affected and the possibility that the information in those files could be sensitive. However, the company said it has not identified any disruption to its products, manufacturing operations, financial reporting systems, or its ability to supply medicines to patients. \"The incident is not reasonably likely to have a material impact on the company's financial condition or results of operations,\" Amgen added."
         },
         {
           "type": "paragraph",
-          "text": "Texas has filed similar lawsuits against other major pharmaceutical companies over the last year, including Eli Lilly and Sanofi, for providing free nurses and paid third parties alleged to have steered patients to those companies' products. In supplying these healthcare professionals, the companies can manage the care of patients in place of independent physicians. A decade ago, Lilly and Novo Nordisk faced similar allegations of using nursing services and 'white coat' sales schemes to influence the marketing of their insulin products."
+          "text": "The investigation remains ongoing, and Amgen said it is still assessing whether confidential business information, intellectual property, research and development data, or additional patient information was accessed or stolen. The company has not disclosed how the attackers gained access to the cloud environments or identified the affected cloud providers. Nor did Amgen connect the penetration to any particular threat actor, and no cyber crime group has publicly claimed responsibility for the hack."
         },
         {
           "type": "heading",
-          "text": "Settlement Terms and State Response"
+          "text": "Healthcare’s Rising Cybersecurity Threats"
         },
         {
           "type": "paragraph",
-          "text": "Under the settlement, AstraZeneca will pay $33,998,000 to resolve the state's claims. The agreement is the 'result of a mutual desire to settle their disputes amicably and to avoid the delay, expense, litigation costs, inconvenience, and uncertainty of protracted litigation,' according to the settlement document. AstraZeneca did not admit to any wrongdoing as part of the settlement."
+          "text": "There have been more cyberattacks on the healthcare industry by nation-state actors and cybercriminals. Amgen’s compromise is among an increasing number of cybersecurity problems in the biopharma industry, which often includes high-value intellectual property and sensitive patient details. Just weeks prior to Amgen’s disclosure, Novo Nordisk was also hit with a breach of its internal IT systems, with two cyberextortion groups demanding multi-million dollar ransoms."
         },
         {
           "type": "paragraph",
-          "text": "Texas Attorney General Ken Paxton said in a statement: 'I will not allow Big Pharma to misuse taxpayer dollars to put profit ahead of Texans' health. My office will continue aggressively pursuing healthcare fraud to protect taxpayer dollars and the integrity of our healthcare system.' Paxton, who is currently running for Senate, announced the settlement in a press release on June 29."
-        },
-        {
-          "type": "heading",
-          "text": "Wider Context and Implications"
+          "text": "Pennsylvania-based West Pharmaceutical Services said in May 2026 that it suffered a ransomware attack that affected systems required to make, package and receive medicines after hackers seized data and locked parts of its network. In August 2025, Indiana-based medicinal development firm Inotiv stated it was forced to lock down crucial systems after a ransomware attack. The Qilin ransomware group later claimed credit."
         },
         {
           "type": "paragraph",
-          "text": "The settlement follows a similar Texas lawsuit against Eli Lilly, which the state accused of using free nurse and reimbursement-support programs to steer providers toward prescribing its drugs, including the GLP-1s Mounjaro and Zepbound, tainting Texas Medicaid claims. The AstraZeneca case is part of a broader crackdown by Texas authorities on pharmaceutical companies' marketing practices, particularly those involving free services provided to healthcare providers. The state has signaled that it will continue to aggressively pursue healthcare fraud cases against drug manufacturers."
+          "text": "Amgen said it plans to notify affected patients and takes its obligation to safeguard the privacy and security of its patients' data very seriously. The company is one of the world's largest biotechnology companies, with a market capitalization of approximately $207.8 billion. Its most well-known products are Prolia and Xgeva for osteoporosis and bone-related illnesses and Kyprolis and Lumakras for cancer treatment."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 12, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
-      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
+      { "id": 3, "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp", "date": "July 15, 2026", "author": "Ruth Anselmi", "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing", "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services." },
+      { "id": 9, "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp", "date": "July 19, 2026", "author": "Ruth Anselmi", "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims", "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations." }
     ]
   },
   {
@@ -3653,7 +3648,7 @@
     },
     "relatedPosts": [
       { "id": 11, "slug": "takeda-885-million-verdict-amitiza-pay-for-delay", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp", "date": "May 18, 2026", "author": "Ruth Anselmi", "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme", "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history." },
-      { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
+      { "id": 1, "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp", "date": "August 1, 2026", "author": "Ruth Anselmi", "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information", "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security." }
     ]
   },
   {
@@ -3828,7 +3823,7 @@
     },
     "relatedPosts": [
       { "id": 9, "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp", "date": "July 19, 2026", "author": "Ruth Anselmi", "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims", "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations." },
-      { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
+      { "id": 13, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
   {
@@ -4095,7 +4090,7 @@
     },
     "relatedPosts": [
       { "id": 4, "slug": "doj-sues-new-york-medicaid-home-care-fraud", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program", "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program." },
-      { "id": 1, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
+      { "id": 13, "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp", "date": "June 30, 2026", "author": "Ruth Anselmi", "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas", "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing." }
     ]
   },
   {
@@ -4524,6 +4519,85 @@
     "relatedPosts": [
       { "id": 10, "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp", "date": "May 21, 2026", "author": "Ruth Anselmi", "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme", "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed or carried out without proper licensing." },
       { "id": 5, "slug": "fda-warning-letters-telehealth-weight-loss-drugs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp", "date": "June 17, 2026", "author": "Ruth Anselmi", "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims", "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications." }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
+    "category": "medical-fraud",
+    "categoryLabel": "Medical Fraud",
+    "categoryColor": "bg-[#e91e63]",
+    "metaTitle": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas | Medical Fraud",
+    "metaDescription": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+    "metaKeywords": [
+      "AstraZeneca settlement",
+      "Texas Medicaid kickback",
+      "AstraZeneca $34 million",
+      "Ken Paxton",
+      "healthcare fraud",
+      "pharmaceutical kickbacks",
+      "Texas Health Care Program Fraud Prevention Act"
+    ],
+    "heading": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
+    "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+    "date": "June 30, 2026",
+    "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+    "heroImage": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+    "alt": "AstraZeneca logo and Texas Attorney General Ken Paxton announcing a $34 million settlement over alleged Medicaid kickbacks.",
+    "author": {
+      "name": "Ruth Anselmi",
+      "slug": "ruth-anselmi",
+      "avatar": "/ruth-anselmi.webp",
+      "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "AstraZeneca has agreed to pay nearly $34 million to settle a lawsuit filed by the Texas Attorney General's office alleging that the pharmaceutical giant used illegal kickbacks to influence prescriptions paid for by Texas Medicaid. The settlement, announced on June 29, 2026, resolves claims that AstraZeneca provided free nursing services and other inducements to healthcare providers in exchange for prescribing its drugs, resulting in millions of dollars in tainted Medicaid claims."
+        },
+        {
+          "type": "paragraph",
+          "text": "Texas Attorney General Ken Paxton secured the settlement under the Texas Health Care Program Fraud Prevention Act. The state alleged that AstraZeneca provided free nursing services and reimbursements to healthcare providers 'under the guise of non-branded counseling' to influence them to prescribe the company's drugs. Many of these prescriptions were covered by Medicaid, leading to 'millions of dollars in claims to Texas Medicaid that were tainted by AstraZeneca's illegal inducements.'"
+        },
+        {
+          "type": "heading",
+          "text": "The Alleged Kickback Scheme"
+        },
+        {
+          "type": "paragraph",
+          "text": "According to the complaint, AstraZeneca's kickback scheme took the form of a free network of nurses and insurance support services designed to boost prescriptions of its medicines. By providing these services, the company allegedly helped manage key aspects of patient care that a physician would otherwise have to handle or pay staff to perform. The state argued that these inducements prompted pharmacies, pharmacy benefit managers, and others to submit claims to Texas Medicaid for AstraZeneca's medicines, causing the program to disburse millions of dollars in unauthorized reimbursements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Texas has filed similar lawsuits against other major pharmaceutical companies over the last year, including Eli Lilly and Sanofi, for providing free nurses and paid third parties alleged to have steered patients to those companies' products. In supplying these healthcare professionals, the companies can manage the care of patients in place of independent physicians. A decade ago, Lilly and Novo Nordisk faced similar allegations of using nursing services and 'white coat' sales schemes to influence the marketing of their insulin products."
+        },
+        {
+          "type": "heading",
+          "text": "Settlement Terms and State Response"
+        },
+        {
+          "type": "paragraph",
+          "text": "Under the settlement, AstraZeneca will pay $33,998,000 to resolve the state's claims. The agreement is the 'result of a mutual desire to settle their disputes amicably and to avoid the delay, expense, litigation costs, inconvenience, and uncertainty of protracted litigation,' according to the settlement document. AstraZeneca did not admit to any wrongdoing as part of the settlement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Texas Attorney General Ken Paxton said in a statement: 'I will not allow Big Pharma to misuse taxpayer dollars to put profit ahead of Texans' health. My office will continue aggressively pursuing healthcare fraud to protect taxpayer dollars and the integrity of our healthcare system.' Paxton, who is currently running for Senate, announced the settlement in a press release on June 29."
+        },
+        {
+          "type": "heading",
+          "text": "Wider Context and Implications"
+        },
+        {
+          "type": "paragraph",
+          "text": "The settlement follows a similar Texas lawsuit against Eli Lilly, which the state accused of using free nurse and reimbursement-support programs to steer providers toward prescribing its drugs, including the GLP-1s Mounjaro and Zepbound, tainting Texas Medicaid claims. The AstraZeneca case is part of a broader crackdown by Texas authorities on pharmaceutical companies' marketing practices, particularly those involving free services provided to healthcare providers. The state has signaled that it will continue to aggressively pursue healthcare fraud cases against drug manufacturers."
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 12, "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp", "date": "June 4, 2026", "author": "Ruth Anselmi", "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases", "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period." },
+      { "id": 6, "slug": "us-section-301-trade-investigation-germany-drug-pricing", "category": "medical-fraud", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp", "date": "June 19, 2026", "author": "Ruth Anselmi", "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute", "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs." }
     ]
   },
   {
