@@ -1340,7 +1340,7 @@
       },
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 303, "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp", "date": "July 13, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages", "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory." }
+        { "id": 303, "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp", "date": "August 7, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens", "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low." }
       ]
     },
     {
@@ -1487,33 +1487,32 @@
         ]
       },
       "relatedPosts": [
-        { "id": 303, "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp", "date": "July 13, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages", "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory." },
+        { "id": 303, "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp", "date": "August 7, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens", "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low." },
         { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
     {
       "id": 303,
-      "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages",
+      "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages | Puerto Rico",
-      "metaDescription": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory.",
+      "metaTitle": "Puerto Rico Begins Water Rationing as Severe Drought Worsens | Puerto Rico",
+      "metaDescription": "Puerto Rico has begun rotating water rationing across San Juan and surrounding areas as a severe drought leaves reservoirs critically low, affecting tens of thousands of residents.",
       "metaKeywords": [
-        "Puerto Rico water crisis",
-        "water shortages Puerto Rico",
+        "Puerto Rico water rationing",
         "Puerto Rico drought 2026",
-        "Superaqueduct pipeline rupture",
-        "Puerto Rico water utility",
-        "Prasa",
-        "Jenniffer González-Colón"
+        "San Juan water shortage",
+        "Carraizo reservoir",
+        "Jenniffer Gonzalez",
+        "Puerto Rico water crisis"
       ],
-      "heading": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages",
-      "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory.",
-      "date": "July 13, 2026",
-      "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp",
-      "heroImage": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp",
-      "alt": "Residents collecting water from a distribution station in San Juan, Puerto Rico, amid ongoing water shortages.",
+      "heading": "Puerto Rico Begins Water Rationing as Severe Drought Worsens",
+      "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low.",
+      "date": "August 7, 2026",
+      "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp",
+      "heroImage": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp",
+      "alt": "A dry reservoir bed in Puerto Rico, illustrating the severe drought conditions that have forced water rationing across the island.",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
@@ -1525,59 +1524,47 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Thousands of Puerto Ricans are at a breaking point after weeks without reliable running water, as a pipeline rupture and ongoing drought conditions have created a crisis that residents say feels 'as if a hurricane had passed.' The water shortages have severely disrupted daily life across the U.S. territory, prompting Governor Jenniffer González-Colón to activate the National Guard to distribute drinking water."
+            "text": "Tens of thousands of Puerto Ricans woke up without running water on August 7 as authorities imposed a mandatory rotating water rationing program across the U.S. territory in response to a severe drought and long-standing infrastructure problems. The rationing, announced by Governor Jenniffer González, forces many residents in the capital of San Juan and surrounding neighborhoods to go without water for 48-hour intervals. The rationing will last at least through the end of August, according to details posted on the Puerto Rico Aqueduct and Sewer Authority website."
           },
           {
             "type": "paragraph",
-            "text": "The crisis has been particularly acute in San Juan's Calle Loíza, a popular street known for its restaurants and bars, where businesses have gone without water for more than 50 days. Jonathan Collazo, who owns two restaurants in the area, said the water problems began in May and have continued with only brief periods of reliable service. 'If it were one week or two weeks, fine. But this is as if a hurricane had passed,' he said."
+            "text": "More than 180,000 customers will be without water for 48 hours at a time as part of an alternating schedule while the territory scrambles to find a solution to the deepening crisis as extreme heat warnings persist. Affected areas have been split into two zones that will alternate with and without service on 48-hour cycles."
           },
           {
             "type": "heading",
-            "text": "Businesses and Residents Struggle to Cope"
+            "text": "Drought Conditions Reach Critical Levels"
           },
           {
             "type": "paragraph",
-            "text": "To keep his restaurants open, Collazo relies on two cisterns, including a 1,000-gallon tank that he needs to refill every two days at a cost of about $300 per fill. On one Thursday alone, he spent $600 just to keep running water available for his customers. At times, when logistics become too complicated, he has had to close some of the restaurant's bathrooms."
+            "text": "The rationing comes as Puerto Rico grapples with a stretch of unusually dry and hot weather. July was the driest month on record for San Juan in more than a century, according to the National Weather Service. Almost 25% of Puerto Rico is experiencing a severe drought and another 36% is under a moderate drought, according to the U.S. Drought Monitor. Nearly 68% of the island is experiencing drought conditions."
           },
           {
             "type": "paragraph",
-            "text": "Kali Solack, co-owner of Café Regina and Hilda Deli, said she was 'battling two businesses with no water,' estimating the businesses were spending about $300 a day on water, in addition to increased costs for disposable items. The coffee shop had kept a running tally on its front window, marking the days customers had gone without reliable water service."
-          },
-          {
-            "type": "paragraph",
-            "text": "For residents without cisterns, the burden is especially heavy. More than 40% of Puerto Rico's 3.2 million people live below the poverty line, making the costly investment in cisterns out of reach for many. Residents are paying a premium for bottled water or rearranging their entire day around collecting water from distribution stations."
+            "text": "The first phase of service cuts will impact seven municipalities served by the Carraizo reservoir, which officials warn is at critically low levels. The rationing will extend to certain neighborhoods in the cities of Carolina, Juncos, Gurabo, Trujillo Alto, Canovanas and Loiza, in addition to parts of San Juan. Fourteen reservoirs across the territory have recently reported declining water levels, according to local reports."
           },
           {
             "type": "heading",
-            "text": "Infrastructure Failures and Drought"
+            "text": "Little Relief in Sight"
           },
           {
             "type": "paragraph",
-            "text": "While residents have experienced bouts of intermittent service due to ageing infrastructure and years of inadequate maintenance, the situation worsened dramatically in June when a massive rupture occurred in the 72-inch Superaqueduct pipeline in Bayamón. Since then, disruptions at water treatment plants and reservoirs have compounded the problem, and the government has not publicly pointed to the cause of the outage's severity."
-          },
-          {
-            "type": "paragraph",
-            "text": "The shortages extend beyond San Juan, with sectors in municipalities including Loíza, Guaynabo, Bayamón and others experiencing interrupted service. Water distribution stations have been set up in some of the archipelago's most densely populated areas, but after weeks of scrambling to secure water for bathing, flushing toilets and drinking, many Puerto Ricans say they have reached breaking point."
-          },
-          {
-            "type": "paragraph",
-            "text": "The water shortages are unfolding as parts of the archipelago face drought conditions linked to prolonged rainfall deficits, adding another layer of strain as Puerto Rico enters hurricane season, which runs from June to November."
+            "text": "Meteorologists expect little relief in the coming months. The National Oceanic and Atmospheric Administration outlook puts the odds of below-normal rainfall and above-normal heat at greater than 70% for Puerto Rico from August through October, as a strengthening El Niño pattern suppresses the tropical waves that typically bring the island's late-summer rain. Emanuel Rodríguez, a hydrologist with the National Weather Service, said heavy rains usually arrive by the end of August as storms form during the Atlantic hurricane season, but warned that this year may be different. Experts have predicted a milder 2026 hurricane season."
           },
           {
             "type": "heading",
-            "text": "Government Response and Calls for Action"
+            "text": "Official Response and Community Impact"
           },
           {
             "type": "paragraph",
-            "text": "San Juan's mayor, Miguel Romero, sued Puerto Rico's water and sewer authority in late May over the outages. Marta Acevedo, 75, who has lived in the same San Juan building for 44 years, said this had been the 'longest amount of time' she had gone without reliable running water, even surpassing the disruption caused by Hurricane María, which devastated the island in 2017."
+            "text": "Governor Jenniffer González said at a press conference that she does not know how long the rationing will be required. 'This situation is out of our hands,' González said. 'It is the result of the climatic conditions that we have been facing and that experts had warned for weeks.' She added: 'Nothing prevents this from worsening.'"
           },
           {
             "type": "paragraph",
-            "text": "The crisis has also drawn attention to the broader challenges facing Puerto Rico's water infrastructure. Lawmakers have proposed measures to strengthen the island's water infrastructure as studies warn that Puerto Rico continues to face recurring droughts, while reservoirs are losing usable capacity due to sediment accumulation, erosion, and invasive vegetation."
+            "text": "The Puerto Rico Aqueduct and Sewer Authority said it would deploy water trucks to affected communities, with priority given to hospitals and long-term care facilities. It also urged residents to boil water for at least three minutes once service resumes as a precaution against possible contamination and asked customers to conserve water during service periods, avoiding non-essential uses such as washing cars or watering lawns."
           },
           {
             "type": "paragraph",
-            "text": "The government has been monitoring drought conditions closely, with officials evaluating whether to implement scheduled water interruptions in the coming weeks as reservoirs continue to show declining levels amid a prolonged period of low rainfall."
+            "text": "The drought is worsening, but thousands of Puerto Ricans were already experiencing water shortages up to a year before for unknown reasons. Marcia Soler París, a 61-year-old community leader, said Wednesday that the rationing measures don't really mean much because her neighborhood already was experiencing severe water shortages for months. 'It's chaos,' she said. 'It's truly pitiful.' The lack of water unrelated to the drought prompted San Juan Mayor Miguel Romero to sue the island's Water and Sewer Authority in late May, with the governor acknowledging the agency's infrastructure has lacked investment and maintenance for decades."
           }
         ]
       },
@@ -1664,7 +1651,7 @@
       },
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 303, "slug": "puerto-rico-water-crisis-worsens-thousands-face-shortages", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-crisis-worsens-thousands-face-shortages.webp", "date": "July 13, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Crisis Worsens as Thousands Face Ongoing Shortages", "excerpt": "Puerto Rico continues battling severe water shortages, with thousands of residents affected as infrastructure failures and drought strain supplies across the U.S. territory." }
+        { "id": 303, "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp", "date": "August 7, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens", "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low." }
       ]
     },
     {
