@@ -6960,59 +6960,72 @@
   },
   {
     "id": 809,
-    "slug": "bny-named-financial-agent-trump-accounts-asset-program",
+    "slug": "ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program",
-    "metaDescription": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act, with proceeds going to Ukraine.",
-    "metaKeywords": ["BNY Mellon", "Russian asset forfeiture", "REPO Act", "oligarch assets", "Ukraine funding"],
-    "heading": "BNY Named Financial Agent for New Federal Trump Accounts Asset Program",
-    "excerpt": "The Treasury Department named Bank of New York Mellon as the financial agent for a new program to manage frozen Russian oligarch assets under the REPO Act.",
-    "date": "April 3, 2026",
-    "image": "/bny-named-financial-agent-trump-accounts-asset-program.webp",
-    "heroImage": "/bny-named-financial-agent-trump-accounts-asset-program.webp",
-    "alt": "Bank of New York Mellon building",
+    "metaTitle": "UBS Faces Record $125 Million Fine Over Wealth Management Money Laundering Controls | Offshore Wealth & Sanctions",
+    "metaDescription": "UBS has been fined $125 million by U.S. regulators over failures in anti-money laundering controls involving high-risk clients and large international transactions.",
+    "metaKeywords": [
+      "UBS fine",
+      "anti-money laundering",
+      "Bank Secrecy Act",
+      "FinCEN",
+      "wealth management",
+      "money laundering controls",
+      "record fine"
+    ],
+    "heading": "UBS Faces Record $125 Million Fine Over Wealth Management Money Laundering Controls",
+    "excerpt": "UBS has been fined $125 million by U.S. regulators over failures in anti-money laundering controls involving high-risk clients and large international transactions.",
+    "date": "August 3, 2026",
+    "image": "/ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls.webp",
+    "heroImage": "/ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls.webp",
+    "alt": "The U.S. Treasury Department building in Washington, D.C., where FinCEN announced the record penalty against UBS.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
       "avatar": "/felix-draper.webp",
-      "bio": "Felix came to this beat through financial journalism...",
+      "bio": "Felix came to this beat through financial journalism and a growing frustration with how much of the real story lived in the footnotes. He has spent years building sources inside the offshore compliance world and learning to read the corporate structures that exist for no purpose other than distance.",
       "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
     },
     "body": {
-      "dropcap": {
-        "letter": "T",
-        "text": "he Treasury Department on Friday named Bank of New York Mellon (BNY) as the financial agent for the newly created REPO (Rehabilitation of Ukraine through Elite Proceeds) Asset Program, which will manage the forfeiture, liquidation, and transfer of frozen Russian oligarch assets to support Ukrainian reconstruction."
-      },
-      "paragraphs": [
-        "The REPO Act, passed by Congress in February 2026, authorizes the administration to seize and liquidate Russian sovereign assets and oligarch-held property valued at approximately $8.5 billion currently frozen in U.S. financial institutions. BNY will be responsible for custody, valuation, and disposition of assets ranging from bank accounts and securities to yachts and real estate.",
-        "Treasury Deputy Secretary Wally Adeyemo said BNY was selected after a competitive bidding process. 'BNY has unmatched experience in complex asset management and a demonstrated commitment to sanctions compliance,' Adeyemo said."
-      ],
-      "sections": [
+      "blocks": [
         {
-          "type": "heading",
-          "title": "First asset transfers expected in August",
-          "content": [
-            "The program will begin with a pilot phase covering $500 million in liquid assets (cash and marketable securities). The first transfers to Ukraine are expected by August 2026. Proceeds are designated for humanitarian aid, infrastructure repair, and demining efforts.",
-            "Russian officials have condemned the program as 'theft' and vowed to challenge it in U.S. and international courts. Legal experts note that the REPO Act includes a provision limiting judicial review, but constitutional challenges are expected."
-          ]
-        },
-        {
-          "type": "blockquote",
-          "text": "This program turns Putin's war chest into Ukraine's reconstruction fund. BNY Mellon is proud to support this historic effort.",
-          "cite": "BNY Mellon CEO Robin Vince"
+          "type": "paragraph",
+          "text": "The U.S. Treasury Department’s Financial Crimes Enforcement Network (FinCEN) has levied a record $125 million civil penalty against UBS Financial Services Inc. for willful violations of the Bank Secrecy Act (BSA), the largest fine ever imposed against a broker-dealer for anti-money laundering failures. The penalty, issued on Aug. 3, 2026, followed the firm's repeated failure to correct long-standing shortcomings in its anti-money laundering (AML) program."
         },
         {
           "type": "paragraph",
-          "content": [
-            "BNY will receive a management fee of 0.75% of assets under administration, capped at $60 million over five years. The bank has also committed to waiving fees for the first $100 million transferred."
-          ]
+          "text": "The action is the second enforcement against UBS's brokerage arm. In 2018, the firm paid $14.5 million in civil penalties and agreed to remediate weaknesses in its monitoring of foreign currency transfers. Regulators found that UBS failed to make the essential modifications and continued to use an inferior legacy monitoring system into 2021. Therefore, the firm did not supervise more than 50,000 foreign currency wires worth more than $10 billion from January 2019 till June 2023."
+        },
+        {
+          "type": "heading",
+          "text": "Repeat Offenses and Regulatory Scrutiny"
+        },
+        {
+          "type": "paragraph",
+          "text": "FinCEN said UBS was a repeat offender because it failed to remedy concerns discovered in a 2018 enforcement action. The regulator determined that inaccuracies, inadequate data and mislabeling in UBS’s automated monitoring system had created ongoing supervisory problems. In addition, the firm did not do sufficient customer due diligence on high risk clients with links to Russia and Latin America and did not detect and disclose suspicious transactions for those clients."
+        },
+        {
+          "type": "paragraph",
+          "text": "In the FinCEN settlement, UBS confessed to knowingly violating the Bank Secrecy Act, including by failing to develop and maintain an adequate AML program and by not filing the required suspicious activity reports. The firm also agreed to separate penalties with the Financial Industry Regulatory Authority (FINRA), the Securities and Exchange Commission and the Commodity Futures Trading Commission, bringing the total fines across authorities to $153 million."
+        },
+        {
+          "type": "heading",
+          "text": "Remediation and Next Steps"
+        },
+        {
+          "type": "paragraph",
+          "text": "The resolution requires UBS to engage a third party consultant to perform a “lookback” to identify and report questionable transactions which were not identified during the relevant period. The firm must also undergo an independent review of its AML program and implement recommended improvements. If UBS demonstrates full compliance with the remediation requirements, FinCEN has agreed to waive up to $15 million of the penalty."
+        },
+        {
+          "type": "paragraph",
+          "text": "A spokesperson for UBS stated that the settlements bring 'closure to this legacy matter,' adding that the bank has 'cooperated fully with its regulators and has made significant investments to remediate and strengthen its AML program in line with leading industry practices.' The Americas remain a key strategic market for UBS, which recently received approval to convert its U.S. banking unit to a nationally chartered bank as part of its expansion plans in the region."
         }
       ]
     },
     "relatedPosts": [
-      { "id": 801, "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-targets-gold-finance-networks-linked-to-sudan-war-funding.webp", "date": "July 16, 2026", "author": "Felix Draper", "title": "UK Targets Gold and Finance Networks Linked to Sudan War Funding", "excerpt": "UK sanctions target gold and financial networks accused of supporting Sudan’s war efforts." },
+      { "id": 808, "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp", "date": "July 29, 2026", "author": "Felix Draper", "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks", "excerpt": "The US expands sanctions on Iran’s shadow fleet and offshore financial networks, targeting entities accused of helping bypass global restrictions." },
       { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." }
     ]
   }
