@@ -3121,27 +3121,26 @@
   },
   {
     "id": 91,
-    "slug": "supreme-court-geofence-warrants-privacy-ruling",
+    "slug": "meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling | Big Tech & Surveillance",
-    "metaDescription": "The Supreme Court ruled 6-3 that geofence warrants are Fourth Amendment searches, requiring stricter constitutional standards for police to obtain cellphone location data and limiting broad digital surveillance.",
+    "metaTitle": "Meta AI Smart Glasses Spark New Privacy Concerns Over Hidden Cameras | Big Tech & Surveillance",
+    "metaDescription": "Meta’s AI-powered smart glasses are facing growing privacy concerns in the U.K. and U.S. as critics question camera use, data collection, and public surveillance risks.",
     "metaKeywords": [
-      "Supreme Court geofence warrants",
-      "Fourth Amendment location data",
-      "cellphone privacy ruling 2026",
-      "Okello Chatrie",
-      "Elena Kagan",
-      "geofence warrant decision",
-      "digital privacy"
+      "Meta smart glasses privacy",
+      "AI glasses controversy",
+      "Ray-Ban Meta privacy",
+      "smart glasses surveillance",
+      "Meta privacy concerns",
+      "pervert glasses"
     ],
-    "heading": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling",
-    "excerpt": "The U.S. Supreme Court ruled that police must meet stronger constitutional standards before using geofence warrants to obtain smartphone location data, marking a major victory for digital privacy and limiting broad surveillance practices.",
-    "date": "June 29, 2026",
-    "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
-    "heroImage": "/supreme-court-geofence-warrants-privacy-ruling.webp",
-    "alt": "The U.S. Supreme Court building in Washington, D.C., where justices ruled 6-3 that geofence warrants constitute Fourth Amendment searches.",
+    "heading": "Meta AI Smart Glasses Spark New Privacy Concerns Over Hidden Cameras",
+    "excerpt": "Meta’s AI-powered smart glasses are facing growing privacy concerns in the U.K. and U.S. as critics question camera use, data collection, and public surveillance risks.",
+    "date": "August 10, 2026",
+    "image": "/meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras.webp",
+    "heroImage": "/meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras.webp",
+    "alt": "A person wearing Meta's Ray-Ban smart glasses with a visible LED light indicator, highlighting privacy concerns over hidden cameras.",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
@@ -3153,63 +3152,64 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "On June 29, 2026, the Supreme Court ruled that constitutional privacy rights apply to mobile location data and that police need a warrant to get geofence warrants to collect location data on a group of people. In an opinion by Justice Elena Kagan, the court held 6-3 that geofence warrants are Fourth Amendment searches, requiring lower courts to give them heightened scrutiny and imposing tighter constitutional standards on law enforcement."
+          "text": "Meta’s AI-powered smart glasses face a growing privacy maelstrom in the U.K. and U.S. as authorities, venues and customers sound the alarm over secret cameras, shooting without consent and sensitive data collection. With over 7 million pairs sold in 2025 alone, the Ray-Ban Meta smart glasses are some of the most popular products on the planet. But detractors say that they also represent a giant step backward for privacy in public places."
         },
         {
           "type": "paragraph",
-          "text": "The case, Chatrie v. United States, arose from an armed robbery of a bank union in Midlothian, Va., in 2019. Police were pursuing other leads when they got a geofence warrant from Google to identify cellphones in the area of the bank within 150 meters around the time of the crime. The warrant ultimately led to Okello Chatrie, who pleaded guilty and was sentenced to nearly 12 years in prison. His lawyers argued on appeal that the warrant violated his privacy because it allowed authorities to gather location history from people near the bank without any evidence they were involved in the robbery."
+          "text": "The concerns have prompted investigations on both sides of the Atlantic. In the U.K., the Information Commissioner's Office (ICO) has contacted Meta over reports that human contractors reviewing recordings from the devices were exposed to extremely private moments captured by unsuspecting users. In the U.S., a federal class-action lawsuit has been filed accusing Meta of violating privacy policies and making false advertising claims that the glasses are 'built for your privacy' and 'controlled by you.'"
         },
         {
           "type": "heading",
-          "text": "A Landmark Decision for Digital Privacy"
+          "text": "'Pervert Glasses' and the Backlash"
         },
         {
           "type": "paragraph",
-          "text": "Justice Elena Kagan wrote for the majority that people do not forfeit expectations of privacy even when they opt into Google's location history. 'A cellphone user is not to be viewed as sharing private information with third parties — which then can be freely passed on to the government — just by doing the ordinary things cellphone users do,' Kagan wrote. She added that location data resembles other kinds of private materials such as emails, photographs or documents and should be 'shielded from the inquisitive eyes of the government.'"
+          "text": "The backlash has been swift and visceral. The glasses have been dubbed 'pervert glasses' by critics, with reports of women being filmed without their consent and their interactions posted on social media. Activist group Everyone Hates Elon released an ad featuring the late sex trafficker Jeffrey Epstein wearing the glasses with the slogan 'glasses for people who don't do consent.' Meta's own attempts to address the problem — including an update that disables the camera if the LED recording light is tampered with — have done little to quiet the criticism."
         },
         {
           "type": "paragraph",
-          "text": "The court did not decide whether the specific search in Chatrie's case violated the Fourth Amendment, instead sending the case back to the lower courts for further analysis. However, the ruling established that a warrant is required and that geofence searches must be narrowly tailored and specific enough to avoid being effectively a fishing expedition."
+          "text": "Meta has acknowledged that some users have been using tape to cover the LED light, and that others have engaged in 'sophisticated efforts to modify or destroy the capture LED.' In other words, the company is confirming that some users have hidden agendas — namely a desire to record people, often women, without their consent."
         },
         {
           "type": "heading",
-          "text": "Dissent Warns of 'Irresponsible Escapade'"
+          "text": "UK Venues Ban 'Spy Glasses'"
         },
         {
           "type": "paragraph",
-          "text": "Justice Samuel Alito wrote in dissent, joined by Justices Clarence Thomas and Amy Coney Barrett, describing the court's opinion as an 'irresponsible escapade' that would destabilize longstanding Fourth Amendment jurisprudence. Alito argued that Chatrie had no expectation of privacy in information he voluntarily turned over to Google. In his dissenting opinion, Alito wrote: 'Although today's decision will send seismic waves through our Fourth Amendment doctrine, not one iota of the majority opinion will affect the outcome of this case.'"
+          "text": "In the U.K., the privacy backlash has already translated into real-world consequences. Restaurants, pubs, and theatres have begun banning the glasses, citing concerns over customer and staff privacy. Celebrated restaurateur Jeremy King, owner of London venues including Simpsons in the Strand, said guests should not wear the recording glasses. 'I would never knowingly allow any invasion of guest privacy other than with the eyes we were born with,' he told the Guardian. Pub chain Wetherspoons has also prohibited recording using the glasses inside its venues, with chief executive Tim Martin stating that 'Meta glasses seem to breach this code, and common sense, by enabling surreptitious surveillance.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "ATG Theatres, which owns venues including the Bristol Hippodrome and Edinburgh Playhouse, has said that filming is not allowed and that those wearing the glasses during shows will be asked to remove them. The glasses resemble normal eyewear, with a fashionable cat-eye design featuring tiny cameras embedded, making them difficult to detect."
         },
         {
           "type": "heading",
-          "text": "Implications for Law Enforcement and Privacy"
+          "text": "Human Reviewers and Data Handling"
         },
         {
           "type": "paragraph",
-          "text": "The ruling marks a significant victory for digital privacy advocates, who have long warned that geofence warrants allow police to conduct 'search first, develop suspicions later' investigations that sweep up data from innocent bystanders. Chatrie's attorneys had argued that the warrant was not particularized because it required Google to parse through location data for millions of people to identify a small subset near the crime scene. 'The potential for abuse is breathtaking,' they argued."
+          "text": "One of the most alarming revelations has been that footage recorded by the glasses can be sent to human reviewers. Reports from Kenya revealed that clickworkers were seeing intimate recordings, including people getting undressed, sitting on the toilet, and even having sex. Meta's terms of service and privacy policy state that videos recorded with the glasses can be sent to subcontractors and human reviewers, but critics argue this is not made clear enough to consumers."
         },
         {
           "type": "paragraph",
-          "text": "George Washington University School of Law Professor Andrew Ferguson called the decision 'a major win for Fourth Amendment privacy.' 'While police have been getting warrants in many cases, including Chatrie, it was not clear they had to under the Fourth Amendment,' Ferguson said. 'Chatrie clarifies the importance of the warrant.'"
+          "text": "The ICO has criticized Meta for advertising that the smart glasses give 'users control over their data,' arguing that this is apparently not the case and that there is a lack of adequate transparency. Providers must communicate very clearly which data is collected and how it is analyzed and used."
+        },
+        {
+          "type": "heading",
+          "text": "Accessibility Benefits and the Privacy Trade-Off"
         },
         {
           "type": "paragraph",
-          "text": "The ruling is the Supreme Court's latest effort to apply the Fourth Amendment, ratified in 1791, to technologies the nation's founders could not have envisioned. It follows the court's 2018 decision in Carpenter v. United States, which imposed limits on police obtaining cellphone data pinpointing the past locations of criminal suspects."
+          "text": "Despite the backlash, supporters of the glasses point to their life-changing benefits, particularly for people with disabilities. Nikki, a 59-year-old from Devon in the UK who has been blind since birth, describes the glasses as 'a real gamechanger,' using them to navigate her rural surroundings. Others rely on live-caption features for hearing assistance. But advocates worry that public criticism could make the technology less accessible for those who genuinely benefit from it."
+        },
+        {
+          "type": "paragraph",
+          "text": "As the debate intensifies, regulators on both sides of the Atlantic are under pressure to act. The question remains whether voluntary measures by Meta — including the LED tamper-disabling update and content moderation on Instagram — will be enough to address the fundamental privacy concerns raised by a device that can record anything, anywhere, without the knowledge of those around it."
         }
       ]
     },
     "relatedPosts": [
-      {
-        "id": 94,
-        "slug": "london-police-expand-facial-recognition-public-streets",
-        "category": "tech",
-        "categoryColor": "bg-[#00008b]",
-        "secondaryColor": "bg-[#00008b]",
-        "image": "/london-police-expand-facial-recognition-public-streets.webp",
-        "date": "May 27, 2026",
-        "author": "Simone Varlette",
-        "title": "London Police Expand Facial Recognition Across Public Streets",
-        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
-      },
+      { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
@@ -3292,7 +3292,7 @@
     "relatedPosts": [
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
       {
-        "id": 91,
+        "id": 96,
         "slug": "supreme-court-geofence-warrants-privacy-ruling",
         "category": "tech",
         "categoryColor": "bg-[#00008b]",
@@ -3550,6 +3550,100 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       }
+    ]
+  },
+  {
+    "id": 96,
+    "slug": "supreme-court-geofence-warrants-privacy-ruling",
+    "category": "tech",
+    "categoryLabel": "Big Tech & Surveillance",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling | Big Tech & Surveillance",
+    "metaDescription": "The Supreme Court ruled 6-3 that geofence warrants are Fourth Amendment searches, requiring stricter constitutional standards for police to obtain cellphone location data and limiting broad digital surveillance.",
+    "metaKeywords": [
+      "Supreme Court geofence warrants",
+      "Fourth Amendment location data",
+      "cellphone privacy ruling 2026",
+      "Okello Chatrie",
+      "Elena Kagan",
+      "geofence warrant decision",
+      "digital privacy"
+    ],
+    "heading": "US Supreme Court Tightens Rules on Police Use of Smartphone Location Data in Major Privacy Ruling",
+    "excerpt": "The U.S. Supreme Court ruled that police must meet stronger constitutional standards before using geofence warrants to obtain smartphone location data, marking a major victory for digital privacy and limiting broad surveillance practices.",
+    "date": "June 29, 2026",
+    "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
+    "heroImage": "/supreme-court-geofence-warrants-privacy-ruling.webp",
+    "alt": "The U.S. Supreme Court building in Washington, D.C., where justices ruled 6-3 that geofence warrants constitute Fourth Amendment searches.",
+    "author": {
+      "name": "Simone Varlette",
+      "slug": "simone-varlette",
+      "avatar": "/simone-varlette2.webp",
+      "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "On June 29, 2026, the Supreme Court ruled that constitutional privacy rights apply to mobile location data and that police need a warrant to get geofence warrants to collect location data on a group of people. In an opinion by Justice Elena Kagan, the court held 6-3 that geofence warrants are Fourth Amendment searches, requiring lower courts to give them heightened scrutiny and imposing tighter constitutional standards on law enforcement."
+        },
+        {
+          "type": "paragraph",
+          "text": "The case, Chatrie v. United States, arose from an armed robbery of a bank union in Midlothian, Va., in 2019. Police were pursuing other leads when they got a geofence warrant from Google to identify cellphones in the area of the bank within 150 meters around the time of the crime. The warrant ultimately led to Okello Chatrie, who pleaded guilty and was sentenced to nearly 12 years in prison. His lawyers argued on appeal that the warrant violated his privacy because it allowed authorities to gather location history from people near the bank without any evidence they were involved in the robbery."
+        },
+        {
+          "type": "heading",
+          "text": "A Landmark Decision for Digital Privacy"
+        },
+        {
+          "type": "paragraph",
+          "text": "Justice Elena Kagan wrote for the majority that people do not forfeit expectations of privacy even when they opt into Google's location history. 'A cellphone user is not to be viewed as sharing private information with third parties — which then can be freely passed on to the government — just by doing the ordinary things cellphone users do,' Kagan wrote. She added that location data resembles other kinds of private materials such as emails, photographs or documents and should be 'shielded from the inquisitive eyes of the government.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The court did not decide whether the specific search in Chatrie's case violated the Fourth Amendment, instead sending the case back to the lower courts for further analysis. However, the ruling established that a warrant is required and that geofence searches must be narrowly tailored and specific enough to avoid being effectively a fishing expedition."
+        },
+        {
+          "type": "heading",
+          "text": "Dissent Warns of 'Irresponsible Escapade'"
+        },
+        {
+          "type": "paragraph",
+          "text": "Justice Samuel Alito wrote in dissent, joined by Justices Clarence Thomas and Amy Coney Barrett, describing the court's opinion as an 'irresponsible escapade' that would destabilize longstanding Fourth Amendment jurisprudence. Alito argued that Chatrie had no expectation of privacy in information he voluntarily turned over to Google. In his dissenting opinion, Alito wrote: 'Although today's decision will send seismic waves through our Fourth Amendment doctrine, not one iota of the majority opinion will affect the outcome of this case.'"
+        },
+        {
+          "type": "heading",
+          "text": "Implications for Law Enforcement and Privacy"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ruling marks a significant victory for digital privacy advocates, who have long warned that geofence warrants allow police to conduct 'search first, develop suspicions later' investigations that sweep up data from innocent bystanders. Chatrie's attorneys had argued that the warrant was not particularized because it required Google to parse through location data for millions of people to identify a small subset near the crime scene. 'The potential for abuse is breathtaking,' they argued."
+        },
+        {
+          "type": "paragraph",
+          "text": "George Washington University School of Law Professor Andrew Ferguson called the decision 'a major win for Fourth Amendment privacy.' 'While police have been getting warrants in many cases, including Chatrie, it was not clear they had to under the Fourth Amendment,' Ferguson said. 'Chatrie clarifies the importance of the warrant.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "The ruling is the Supreme Court's latest effort to apply the Fourth Amendment, ratified in 1791, to technologies the nation's founders could not have envisioned. It follows the court's 2018 decision in Carpenter v. United States, which imposed limits on police obtaining cellphone data pinpointing the past locations of criminal suspects."
+        }
+      ]
+    },
+    "relatedPosts": [
+      {
+        "id": 94,
+        "slug": "london-police-expand-facial-recognition-public-streets",
+        "category": "tech",
+        "categoryColor": "bg-[#00008b]",
+        "secondaryColor": "bg-[#00008b]",
+        "image": "/london-police-expand-facial-recognition-public-streets.webp",
+        "date": "May 27, 2026",
+        "author": "Simone Varlette",
+        "title": "London Police Expand Facial Recognition Across Public Streets",
+        "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
+      },
+      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
     ]
   },
   {
