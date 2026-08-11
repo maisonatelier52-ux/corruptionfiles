@@ -285,12 +285,12 @@
   "healthcareNews": [
 {
   "id": 401,
-  "slug": "mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting",
-  "image": "/mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting.webp",
+  "slug": "ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow",
+  "image": "/ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow.webp",
   "category": "pa",
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Mississippi Protesters Demand Police Bodycam Footage After Child's Fatal Shooting",
-  "date": "June 27, 2026",
+  "title": "ICE Officers to Get Body Cameras as Calls for Police Accountability Grow",
+  "date": "August 9, 2026",
   "author": "Darnell Hutchins"
 },
 {
@@ -407,6 +407,16 @@
   "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
   "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
   "date": "June 5, 2026",
+  "author": "Darnell Hutchins"
+},
+{
+  "id": 413,
+  "slug": "mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting",
+  "image": "/mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting.webp",
+  "category": "pa",
+  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
+  "title": "Mississippi Protesters Demand Police Bodycam Footage After Child's Fatal Shooting",
+  "date": "June 27, 2026",
   "author": "Darnell Hutchins"
 }
   ],
