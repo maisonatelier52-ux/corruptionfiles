@@ -823,13 +823,13 @@
   },
   {
     "id": 701,
-    "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
+    "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump",
     "category": "intelligence",
-    "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
-    "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
+    "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump",
+    "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions.",
     "author": "Naomi Vosburgh",
-    "date": "July 8, 2026",
-    "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+    "date": "August 13, 2026",
+    "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -896,6 +896,17 @@
     "author": "Naomi Vosburgh",
     "date": "June 23, 2026",
     "image": "/five-eyes-ai-cyber-espionage-warning.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 709,
+    "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
+    "category": "intelligence",
+    "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
+    "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
+    "author": "Naomi Vosburgh",
+    "date": "July 8, 2026",
+    "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 
