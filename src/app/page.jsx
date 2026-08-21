@@ -213,6 +213,122 @@ function NewsCard({
   );
 }
 
+// ─── GovernmentFeaturedCard (large hero card, image + dark overlay) ─────────
+
+function GovernmentFeaturedCard({ news, priority = false }) {
+  const href = `/${news.category}/${news.slug}`;
+
+  return (
+    <article className="group relative h-full min-h-[420px] md:min-h-[560px] overflow-hidden">
+      <Link
+        href={href}
+        title={news.title}
+        className="absolute inset-0 block"
+        aria-hidden="true"
+        tabIndex={-1}
+      >
+        <Image
+          src={news.image}
+          alt={news.title}
+          fill
+          priority={priority}
+          sizes="(max-width:768px) 100vw, 25vw"
+          className="object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </Link>
+
+      <div
+        className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black via-black/75 to-transparent"
+        aria-hidden="true"
+      />
+
+      <div className="relative z-10 flex h-full flex-col justify-end p-5 md:p-6">
+        <span
+          className={`${news.categoryColor} mb-3 inline-block w-fit px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-white`}
+        >
+          {news.categoryLabel}
+        </span>
+
+        <div className="mb-2 flex items-center gap-1 text-[11px] text-gray-300">
+          <Calendar size={11} aria-hidden="true" />
+          <time dateTime={toISODate(news.date)}>{news.date}</time>
+        </div>
+
+        <h3 className="mb-2 text-xl md:text-[22px] font-bold leading-snug text-white">
+          <Link href={href} title={news.title}>
+            {news.title}
+          </Link>
+        </h3>
+
+        <p className="mb-3 text-sm text-gray-300">
+          By{" "}
+          <Link
+            href={authorHref(news.author)}
+            title={`More articles by ${news.author}`}
+            rel="author"
+            className="font-semibold text-gray-200 hover:text-white transition-colors"
+          >
+            {news.author}
+          </Link>
+        </p>
+
+        <p className="mb-5 text-sm leading-relaxed text-gray-300 line-clamp-3">
+          {news.description}
+        </p>
+
+        <Link
+          href={href}
+          title={`Read more: ${news.title}`}
+          className="inline-flex w-fit items-center gap-2 border-b-2 border-[#f69a4d] pb-1 text-sm font-bold text-white transition-colors hover:text-[#f69a4d]"
+        >
+          Read More
+          <span aria-hidden="true">→</span>
+          <span className="sr-only"> — {news.title}</span>
+        </Link>
+      </div>
+    </article>
+  );
+}
+
+// ─── GovernmentGridCard (compact card used in the government grid) ─────────
+
+function GovernmentGridCard({ news, priority = false }) {
+  const href = `/${news.category}/${news.slug}`;
+
+  return (
+    <article className="group flex flex-col">
+      <div className="relative mb-3 aspect-[16/10] w-full overflow-hidden">
+        <Link href={href} title={news.title} className="relative block h-full w-full">
+          <Image
+            src={news.image}
+            alt={news.title}
+            fill
+            priority={priority}
+            sizes="(max-width:768px) 100vw, 25vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+          <span
+            className={`absolute bottom-3 left-3 ${news.categoryColor} z-10 px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white`}
+          >
+            {news.categoryLabel}
+          </span>
+        </Link>
+      </div>
+
+      <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-400">
+        <Calendar size={11} aria-hidden="true" />
+        <time dateTime={toISODate(news.date)}>{news.date}</time>
+      </div>
+
+      <h3 className="text-[16px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-blue-600">
+        <Link href={href} title={news.title}>
+          {news.title}
+        </Link>
+      </h3>
+    </article>
+  );
+}
+
 // ─── NewsListCard ─────────────────────────────────────────────────────────────
 
 function NewsListCard({ card }) {
@@ -721,29 +837,33 @@ export default function Home() {
         </h1>
 
         {/* ── GOVERNMENT SECTION ─────────────────────────────────────────── */}
-        <div>
-          <h2 className="text-[28px] font-bold text-black mb-0 leading-tight">
-            <Link
-              href="/govt"
-              title="Browse Government news"
-              className="hover:text-blue-600 transition-colors" style={{ fontFamily: 'var(--font-corruptionfiles)' }}
-            >
-              Government
-            </Link>
-          </h2>
-          <p className="text-yellow-400 text-[14px] font-medium mb-4 uppercase tracking-tight">
-            Capitol &amp; Westminster
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
-          {politicsNewsSafe.map((news, index) => (
-            <NewsCard key={news.id} {...news} priority={index < 3} />
-          ))}
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10 mt-8 mb-7">
-          {secondaryNewsSafe.map((news) => (
-            <NewsCard key={news.id} {...news} />
-          ))}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-10 md:gap-8 mb-7">
+          {politicsNewsSafe[0] && (
+            <div className="md:col-span-4">
+              <GovernmentFeaturedCard news={politicsNewsSafe[0]} priority />
+            </div>
+          )}
+          <div className="flex flex-col gap-y-6 md:col-span-6">
+            {(() => {
+              const gridNews = [...politicsNewsSafe.slice(1), ...secondaryNewsSafe];
+              const topRow = gridNews.slice(0, 2);
+              const bottomRow = gridNews.slice(2, 5);
+              return (
+                <>
+                  <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 lg:gap-x-8">
+                    {topRow.map((news, index) => (
+                      <GovernmentGridCard key={news.id} news={news} priority={index < 2} />
+                    ))}
+                  </div>
+                  <div className="grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 lg:gap-x-8">
+                    {bottomRow.map((news) => (
+                      <GovernmentGridCard key={news.id} news={news} />
+                    ))}
+                  </div>
+                </>
+              );
+            })()}
+          </div>
         </div>
 
         {/* ── PUERTO RICO SECTION ────────────────────────────────────────── */}
