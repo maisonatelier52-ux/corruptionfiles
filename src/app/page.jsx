@@ -855,7 +855,7 @@ export default function Home() {
                       <GovernmentGridCard key={news.id} news={news} priority={index < 2} />
                     ))}
                   </div>
-                  <div className="grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 lg:gap-x-8">
+                  <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-3 lg:gap-x-8">
                     {bottomRow.map((news) => (
                       <GovernmentGridCard key={news.id} news={news} />
                     ))}
