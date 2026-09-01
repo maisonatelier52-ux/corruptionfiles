@@ -6384,27 +6384,25 @@
   },
   {
     "id": 708,
-    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+    "slug": "us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate",
     "category": "intelligence",
     "categoryLabel": "Intelligence",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings | Intelligence",
-    "metaDescription": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "metaTitle": "US Disrupts China-Linked Cyber Espionage Network Targeting Government Agencies",
+    "metaDescription": "The Justice Department has disrupted a China-linked hacking operation accused of breaching NASA, the Federal Reserve, the Senate and other U.S. government networks.",
     "metaKeywords": [
-      "Alien Terrorist Removal Court",
-      "classified evidence",
-      "terror removal proceedings",
-      "Nazira Haji Zada",
-      "due process",
-      "national security",
-      "immigration court"
+      "China-linked hacking network 2026",
+      "DOJ QScan QTRouter seizure",
+      "Chinese state-sponsored hackers NASA",
+      "Federal Reserve Senate cyberattack",
+      "PRC critical infrastructure hacking"
     ],
-    "heading": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
-    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
-    "date": "July 31, 2026",
-    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
-    "heroImage": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
-    "alt": "The U.S. Supreme Court building in Washington, D.C., where the Alien Terrorist Removal Court convened for its first hearing.",
+    "heading": "US Disrupts China-Linked Hacking Network Targeting Federal Agencies",
+    "excerpt": "The Justice Department has disrupted a China-linked hacking operation accused of breaching NASA, the Federal Reserve, the Senate and other U.S. government networks.",
+    "date": "August 26, 2026",
+    "image": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
+    "heroImage": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
+    "alt": "FBI and Justice Department insignia mark the announcement of the QScan domain seizure",
     "author": {
       "name": "Naomi Vosburgh",
       "slug": "naomi-vosburgh",
@@ -6416,39 +6414,47 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "A secretive U.S. court created 30 years ago to deport suspected terrorists convened for the first time on Thursday, opening a new front in the Trump administration's effort to remove non-citizens accused of national security threats and expand the president's immigration agenda. The hearing, before the Alien Terrorist Removal Court, was open to the public and centered on Nazira Haji Zada, a 47-year-old lawful permanent resident accused of supporting Islamic State and helping conceal a failed Election Day 2024 mass shooting plot."
+          "text": "The Justice Department and FBI announced Wednesday that they had carried out court-authorized seizures of internet domains tied to two hacking platforms, QScan and QTRouter, disrupting a campaign that federal officials say breached some of the country's most sensitive networks. Court documents unsealed in the Southern District of California name the National Aeronautics and Space Administration, the Federal Reserve, the Department of Justice itself, the Department of Energy, the Department of Health and Human Services, the National Institutes of Health and the U.S. Senate among the targets."
         },
         {
           "type": "paragraph",
-          "text": "Prosecutors say much of the evidence against the Texas woman cannot be publicly disclosed. Established by Congress in 1996, the court allows the government to rely on classified evidence in deportation cases, a process Haji Zada's lawyer argued violates due process protections. Haji Zada, who was in the Washington federal courtroom, has not been charged with any crimes, court documents show, but her son and son-in-law pleaded guilty to related charges last year."
+          "text": "The filings attribute the platforms to a group identified only as \"QTFY,\" which investigators say is a People's Republic of China state-sponsored operation employed by the Nanjing-based Xinjiuwei Network Technology Company. According to the affidavit, QTFY did not act alone in the sense of pursuing its own targets exclusively — prosecutors allege the group also sold its hacking capabilities to paying clients, including China's Ministry of State Security and the People's Liberation Army, a hackers-for-hire arrangement that investigators say has become increasingly common in Chinese state-linked cyber operations."
         },
         {
           "type": "heading",
-          "text": "Constitutional Challenge and Due Process Concerns"
+          "text": "How QScan and QTRouter Worked Together"
         },
         {
           "type": "paragraph",
-          "text": "Matthew Farley, the defendant's attorney, quickly asked the court's chief judge, Joan Ericksen, to dismiss the case and immediately release his client. 'This entire scheme is in violation of due process and unconstitutional,' Farley said during the hearing. 'This is a runaround to bringing a criminal case.' Ericksen, a federal district judge appointed to oversee the court, denied the request."
-        },
-        {
-          "type": "paragraph",
-          "text": "The court's lack of prior cases was evident as the judge, prosecutors and defense lawyers spent part of the proceeding resolving basic procedural questions, including how documents would be handled and who could access classified evidence. It was unclear when the next hearing would take place."
+          "text": "The two platforms were designed to complement one another. QScan functioned as a reconnaissance and exploitation tool, continuously scanning the internet for vulnerable connected devices — everything from routers to other so-called smart hardware — and automatically infecting them; the affidavit states that on a single day in 2024, QScan carried out more than two million scanning and exploitation attempts. Devices compromised by QScan then fed into QTRouter, which blended them with commercial proxy services and leased virtual private servers to build what the department calls an obfuscation network. That layer let QTFY's traffic appear to originate almost anywhere except China, including, in some cases, from a device sitting near the very network being attacked."
         },
         {
           "type": "heading",
-          "text": "The Government's Case and Classified Evidence"
+          "text": "The Domains Behind the Network"
         },
         {
           "type": "paragraph",
-          "text": "Created to handle deportation cases involving classified national security information, the court went unused until Justice Department officials sought Haji Zada's removal this month. The FBI arrested her at her Fort Worth home on Tuesday."
+          "text": "Investigators seized three domains — qtproxy.xyz, qt-proxy.org and qt-team.com — that were hard-coded into the QScan and QTRouter malware for essential functions such as authentication and communication between infected devices and their operators. Because both platforms depended on those addresses to function, officials said the court-authorized takeover left QScan and QTRouter inoperable, at least in their current form."
+        },
+        {
+          "type": "heading",
+          "text": "A Campaign Dating Back to at Least 2018"
         },
         {
           "type": "paragraph",
-          "text": "Acting Attorney General Todd Blanche said in a statement before the hearing: 'The allegations in this case show the matriarch of an ISIS-sympathizing family aiding in a plot to launch a mass casualty attack on American voters on Election Day.'"
+          "text": "The affidavit traces QTFY's intrusion activity back to 2018, describing a campaign with mixed results over the years. An attempt to breach NASA's network in August 2019 by exploiting a VPN vulnerability reportedly failed. The group had more success in 2024: intrusions in May affected defense contractors, financial institutions and universities, according to a joint cybersecurity advisory cited in coverage of the case, while a September wave of breaches hit three Department of Energy national laboratories, an HHS-affiliated health agency and a U.S. security-device manufacturer. As recently as March 2026, the group reportedly scanned for vulnerabilities and attempted, without success, to penetrate the U.S. Senate and a U.S. hospital system. Four additional companies in the United States and South Korea were also reportedly affected."
+        },
+        {
+          "type": "heading",
+          "text": "Officials Cast the Takedown as Part of a Wider Campaign"
         },
         {
           "type": "paragraph",
-          "text": "In a short unclassified summary of the case, the Justice Department alleged that Haji Zada had indoctrinated her children 'with ISIS ideology' and had concealed the radicalization of her family and a planned move to ISIS territory from her husband. The FBI wrote in a July 15 memo: 'The underlying information is classified because disclosure would enable terrorists and terrorist organizations to avoid preventative or detection measures or would reveal FBI or other U.S. Intelligence Community sources.'"
+          "text": "Attorney General Todd Blanche framed the action as a warning to other state-linked hacking operations, saying \"state-sponsored malicious hackers preying on America's critical infrastructure will be stopped and prosecuted.\" FBI Director Kash Patel described the takedown as the disruption of \"a global botnet and hacking platform used by Chinese state-sponsored hackers,\" adding that the tools existed specifically to mask the origin of the group's intrusions. The department credited the FBI's San Diego Field Office and Cyber Division, the U.S. Attorney's Office for the Southern District of California, and the National Security Cyber Section of the Justice Department's National Security Division with leading the investigation and the disruption effort."
+        },
+        {
+          "type": "paragraph",
+          "text": "Officials described Wednesday's seizures as the latest in a series of technical operations aimed at dismantling hacking infrastructure linked to Beijing, following a 2025 effort in which the FBI removed PlugX malware from more than 4,000 infected U.S. computers tied to a separate group known as Mustang Panda. Chinese authorities have consistently denied past U.S. allegations of state-sponsored hacking, and did not immediately respond to requests for comment on the QTFY case."
         }
       ]
     },
@@ -6524,6 +6530,80 @@
     },
     "relatedPosts": [
       { "id": 706, "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp", "date": "June 9, 2026", "author": "Naomi Vosburgh", "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment", "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence." }
+    ]
+  },
+  {
+    "id": 710,
+    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+    "category": "intelligence",
+    "categoryLabel": "Intelligence",
+    "categoryColor": "bg-[#00008b]",
+    "metaTitle": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings | Intelligence",
+    "metaDescription": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "metaKeywords": [
+      "Alien Terrorist Removal Court",
+      "classified evidence",
+      "terror removal proceedings",
+      "Nazira Haji Zada",
+      "due process",
+      "national security",
+      "immigration court"
+    ],
+    "heading": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
+    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "date": "July 31, 2026",
+    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "heroImage": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "alt": "The U.S. Supreme Court building in Washington, D.C., where the Alien Terrorist Removal Court convened for its first hearing.",
+    "author": {
+      "name": "Naomi Vosburgh",
+      "slug": "naomi-vosburgh",
+      "avatar": "/naomi-vosburgh.webp",
+      "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "A secretive U.S. court created 30 years ago to deport suspected terrorists convened for the first time on Thursday, opening a new front in the Trump administration's effort to remove non-citizens accused of national security threats and expand the president's immigration agenda. The hearing, before the Alien Terrorist Removal Court, was open to the public and centered on Nazira Haji Zada, a 47-year-old lawful permanent resident accused of supporting Islamic State and helping conceal a failed Election Day 2024 mass shooting plot."
+        },
+        {
+          "type": "paragraph",
+          "text": "Prosecutors say much of the evidence against the Texas woman cannot be publicly disclosed. Established by Congress in 1996, the court allows the government to rely on classified evidence in deportation cases, a process Haji Zada's lawyer argued violates due process protections. Haji Zada, who was in the Washington federal courtroom, has not been charged with any crimes, court documents show, but her son and son-in-law pleaded guilty to related charges last year."
+        },
+        {
+          "type": "heading",
+          "text": "Constitutional Challenge and Due Process Concerns"
+        },
+        {
+          "type": "paragraph",
+          "text": "Matthew Farley, the defendant's attorney, quickly asked the court's chief judge, Joan Ericksen, to dismiss the case and immediately release his client. 'This entire scheme is in violation of due process and unconstitutional,' Farley said during the hearing. 'This is a runaround to bringing a criminal case.' Ericksen, a federal district judge appointed to oversee the court, denied the request."
+        },
+        {
+          "type": "paragraph",
+          "text": "The court's lack of prior cases was evident as the judge, prosecutors and defense lawyers spent part of the proceeding resolving basic procedural questions, including how documents would be handled and who could access classified evidence. It was unclear when the next hearing would take place."
+        },
+        {
+          "type": "heading",
+          "text": "The Government's Case and Classified Evidence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Created to handle deportation cases involving classified national security information, the court went unused until Justice Department officials sought Haji Zada's removal this month. The FBI arrested her at her Fort Worth home on Tuesday."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acting Attorney General Todd Blanche said in a statement before the hearing: 'The allegations in this case show the matriarch of an ISIS-sympathizing family aiding in a plot to launch a mass casualty attack on American voters on Election Day.'"
+        },
+        {
+          "type": "paragraph",
+          "text": "In a short unclassified summary of the case, the Justice Department alleged that Haji Zada had indoctrinated her children 'with ISIS ideology' and had concealed the radicalization of her family and a planned move to ISIS territory from her husband. The FBI wrote in a July 15 memo: 'The underlying information is classified because disclosure would enable terrorists and terrorist organizations to avoid preventative or detection measures or would reveal FBI or other U.S. Intelligence Community sources.'"
+        }
+      ]
+    },
+    "relatedPosts": [
+      { "id": 701, "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump", "category": "intelligence", "categoryColor": "bg-[#00008b]",  "secondaryColor": "bg-[#00008b]", "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp", "date": "August 13, 2026", "author": "Naomi Vosburgh", "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump", "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions." }
     ]
   },
   {

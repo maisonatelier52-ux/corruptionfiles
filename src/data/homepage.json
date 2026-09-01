@@ -812,13 +812,13 @@
 "technologyNews": [
   {
     "id": 708,
-    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+    "slug": "us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate",
     "category": "intelligence",
-    "title": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
-    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "title": "US Justice Department Disrupts China-Linked Hacking Network Targeting NASA, Fed and Senate",
+    "excerpt": "The Justice Department and FBI seized domains powering two Chinese state-sponsored hacking platforms accused of breaching NASA, the Federal Reserve, the Senate and other federal networks.",
     "author": "Naomi Vosburgh",
-    "date": "July 31, 2026",
-    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "date": "August 26, 2026",
+    "image": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -907,6 +907,17 @@
     "author": "Naomi Vosburgh",
     "date": "July 8, 2026",
     "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 710,
+    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+    "category": "intelligence",
+    "title": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
+    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+    "author": "Naomi Vosburgh",
+    "date": "July 31, 2026",
+    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 
