@@ -6689,7 +6689,7 @@
     },
     "relatedPosts": [
       { "id": 802, "slug": "eu-21st-sanctions-package-russia-banks-crypto-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/eu-21st-sanctions-package-russia-banks-crypto-networks.webp", "date": "June 10, 2026", "author": "Felix Draper", "title": "EU Targets Russian Banks and Crypto Networks in Major New Sanctions Push", "excerpt": "The EU’s 21st sanctions package expands restrictions on Russian banks and crypto networks, aiming to curb financial channels linked to Moscow." },
-      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." }
+      { "id": 806, "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp", "date": "September 1, 2026", "author": "Felix Draper", "title": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network", "excerpt": "The UK has doubled penalties for sanctions breaches while targeting a Russian-linked offshore network accused of helping evade restrictions." }
     ]
   },
   {
@@ -7048,27 +7048,27 @@
   },
   {
     "id": 806,
-    "slug": "us-targets-iran-offshore-financial-networks-sanctions",
+    "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network",
     "category": "offshore",
     "categoryLabel": "Offshore Wealth & Sanctions",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "US Targets Iran’s Offshore Wealth Channels With New Sanctions on Shadow Exchange Houses | Offshore Wealth & Sanctions",
-    "metaDescription": "The U.S. Treasury imposed sanctions on individuals, exchange houses, and offshore entities accused of moving billions through hidden financial networks for Iran’s Supreme Leader and regime elites.",
+    "metaTitle": "UK Tightens Sanctions Rules to Crack Down on Russian Wealth Networks and Offshore Evasion | Offshore Wealth & Sanctions",
+    "metaDescription": "The UK Treasury has doubled penalties for sanctions breaches and issued a nationwide alert targeting the Kremlin-backed A7 network accused of moving Russian money through offshore channels.",
     "metaKeywords": [
-      "Iran sanctions",
+      "Russia sanctions",
       "offshore financial networks",
-      "Treasury OFAC",
-      "Ali Ansari",
-      "Iran exchange houses",
-      "Mojtaba Khamenei",
-      "shipping sanctions"
+      "UK Treasury OFSI",
+      "A7 network",
+      "Russian sanctions evasion",
+      "John Healey",
+      "Kremlin shadow finance"
     ],
-    "heading": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions",
-    "excerpt": "The U.S. Treasury has imposed new sanctions on individuals, exchange houses, and offshore entities accused of helping move billions through hidden financial networks linked to Iran’s leadership and overseas wealth structures.",
-    "date": "July 11, 2026",
-    "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp",
-    "heroImage": "/us-targets-iran-offshore-financial-networks-sanctions.webp",
-    "alt": "The U.S. Treasury Department building in Washington, D.C., where officials announced new sanctions targeting Iran's offshore financial networks.",
+    "heading": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network",
+    "excerpt": "The UK Treasury has doubled the maximum fine for sanctions breaches and issued its first nationwide alert against the Kremlin-backed A7 network, accused of routing billions through offshore accounts to help Russia evade restrictions.",
+    "date": "September 1, 2026",
+    "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp",
+    "heroImage": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp",
+    "alt": "HM Treasury in London, where officials announced tougher penalties and a nationwide alert targeting Russia's offshore sanctions evasion network.",
     "author": {
       "name": "Felix Draper",
       "slug": "felix-draper",
@@ -7080,51 +7080,51 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC) designated a senior Iranian financial facilitator, Ali Ansari, and a network of Iranian exchange houses and front firms across various jurisdictions. The July 10, 2026, measure is aimed against the offshore financial infrastructure that moves billions of dollars a year for sanctioned Iranian banks and regime insiders, including Supreme Leader Mojtaba Khamenei."
+          "text": "Britain moved on Monday to tighten its sanctions regime against Russia, doubling the maximum financial penalty for sanctions breaches and issuing its first-ever nationwide industry alert targeting a Kremlin-backed network accused of helping Moscow move money through offshore channels. The announcement was made by Chancellor John Healey while he attended his first G20 meeting as finance minister, held this year in North Carolina."
         },
         {
           "type": "paragraph",
-          "text": "The sanctions come as part of Washington's broader effort to increase economic pressure on Tehran following Iran's resumption of attacks on international shipping in the Strait of Hormuz. Treasury Secretary Scott Bessent said in a statement: 'The so-called Supreme Leader is hiding in seclusion while his regime crumbles. Treasury will continue using every tool at its disposal to isolate him and other regime elites from the global financial system.'"
+          "text": "Healey framed the measures as part of a wider push to squeeze the financial infrastructure sustaining Russia's war economy, saying the UK is ramping up economic pressure on Moscow and \"leaving those aiding his illegal war with nowhere to hide.\" He called on allies to deepen international cooperation to expose sanctions evasion and disrupt the networks funding Russia's aggression, adding that Britain's commitment to Ukraine remains unshakeable."
         },
         {
           "type": "heading",
-          "text": "Ali Ansari and the Supreme Leader's Overseas Empire"
+          "text": "The A7 Network and Its $86 Billion Footprint"
         },
         {
           "type": "paragraph",
-          "text": "Ali Ansari, a Dubai-based Iranian national, has been described by Treasury as a financier who oversees a 'sprawling global network of assets' benefiting Mojtaba Khamenei and other regime elites. According to the Treasury, Ansari 'institutionalized large-scale embezzlement within the Iranian regime,' diverting publicly funded wealth into an extensive overseas portfolio of real estate and commercial holdings."
+          "text": "At the centre of Monday's alert is a financial structure known as A7, which UK authorities describe as Kremlin-backed and, according to some reporting, connected to Iranian state-associated actors as well. Officials say the network relies on financial institutions in third countries, digital-asset platforms and multilayered corporate structures to route cross-border payments, finance procurement and gain backdoor access to the international banking system despite sanctions. According to the UK government, A7 claims to have settled more than $86 billion in transactions within its first year of operation alone."
         },
         {
           "type": "paragraph",
-          "text": "Ansari was the former owner and director of the now defunct Ayandeh Bank, which was sanctioned by the U.S. and ordered by the Iranian government to dissolve in October 2025, having run up billions in debt. Ansari’s millions of dollars of holdings, through a holding company called Smart Global Limited, based in Saint Kitts and Nevis, were invested in properties in Germany, Luxembourg, Spain, the UK, Cyprus and the UAE, utilising shell companies and bank accounts in multiple jurisdictions."
+          "text": "The alert, issued jointly by HM Treasury, the National Crime Agency and the National Economic Crime Centre, is aimed at banks, payment providers, crypto firms and other private-sector businesses, directing them to scrutinise counterparties, intermediary wallets and cross-border infrastructure that could expose them indirectly to sanctioned activity, even where no direct counterparty is on a sanctions list."
         },
         {
           "type": "heading",
-          "text": "Shadow Exchange Houses and Front Companies"
+          "text": "Tougher Penalties for Sanctions Breaches"
         },
         {
           "type": "paragraph",
-          "text": "OFAC also designated a number of Iranian exchange companies that handle billions of dollars in foreign currency transactions annually, allowing the regime to skirt sanctions and access the international banking system. Among those targeted was Amin Exchange, also known as Ebrahimi and Associates Partnership Company, which the Treasury said operates a widespread network of front companies in the United Arab Emirates, Turkey, and Hong Kong."
-        },
-        {
-          "type": "paragraph",
-          "text": "The exchange houses have facilitated transactions moving hundreds of millions of dollars on behalf of sanctioned Iranian banks. One designated entity, Exchange General Partnership Company, held tens of millions of dollars' worth of foreign currency on behalf of its sanctioned Iranian bank customers. Front companies in Hong Kong and the UAE, including Ningbo Jiarui Trading Co., Starshine Petrochemical Corporation Limited, Alieen Goods Wholesalers LLC, and Bold Trading FZE, were also designated for their role in assisting these exchange houses."
+          "text": "Alongside the alert, Healey confirmed the UK will double the maximum fine available to the Office of Financial Sanctions Implementation, the body responsible for civil enforcement of financial sanctions, from 50% to 100% of the value of a breach. In practice, the change raises OFSI's maximum penalty from the greater of £1 million or 50% of a breach's value to the greater of £2 million or the full value of the breach. Officials said the increase is intended to strengthen the deterrent effect of the UK's sanctions regime and push firms toward stronger compliance."
         },
         {
           "type": "heading",
-          "text": "Shipping Network Disruption"
+          "text": "Part of a Broader Crackdown"
         },
         {
           "type": "paragraph",
-          "text": "The Treasury also intensified pressure on the illicit shipping network of Mohammad Hossein Shamkhani, which remains a major force behind Iran's oil exports and has expanded into global containerized shipping and commodities trading. Treasury has now sanctioned more than 200 individuals, entities, and vessels operating under Shamkhani's patronage."
+          "text": "Monday's action builds on a series of earlier UK moves against Russian sanctions evasion. In May, Britain targeted Russia-linked cryptocurrency platforms, banks and financial networks, freezing their assets and barring UK firms from processing payments for them or maintaining correspondent banking relationships. Earlier this month, the UK also announced new sanctions against Russian ships, banks and industrial companies. A separate, earlier initiative known as Operation Destabilise has led to 128 arrests and the seizure of $32.6 million in cash and cryptocurrency, and has reportedly surfaced possible links between Russian money-laundering networks, a stablecoin called A7A5 and a bank acquisition in Kyrgyzstan."
         },
         {
           "type": "paragraph",
-          "text": "The Shamkhani network relies on a combination of Iranian and foreign nationals, offshore shell companies, and international shipping firms to move sanctioned goods, process payments, and conceal proceeds from restricted trade. Among those designated are Iranian nationals Hossein Ghorbani Zahed and Mohammad Reza Rahbar Madani, who provided exchange house services and shell companies based outside of Iran. Also targeted was Ali Rakhbarmadani, one of Shamkhani's closest business associates and the deputy chief executive officer of the sanctioned Oriel Group."
+          "text": "Rachael Herbert, director of the National Economic Crime Centre at the National Crime Agency, said the agency remains \"committed to targeting the nexus between organised crime and sanctions evasion,\" underscoring officials' view that sanctions-busting networks increasingly overlap with organised financial crime."
+        },
+        {
+          "type": "heading",
+          "text": "Moscow's Response"
         },
         {
           "type": "paragraph",
-          "text": "Bessent described the Shamkhani network as 'one of its most profitable engines' for the regime. 'Treasury is shutting down the financial infrastructure that allows the regime to continue its threats to U.S. national security and global shipping,' he said. The sanctions were imposed under Executive Order 13902, which targets persons operating in Iran's financial and petroleum sectors, as well as E.O. 13876 and the counterterrorism authority E.O. 13224."
+          "text": "The Russian Embassy in London dismissed the measures as a continuation of what it called Britain's policy of illegal unilateral sanctions, arguing they would not change Moscow's course and instead destabilise international trade and financial stability, harming the economies of the countries that impose them. The embassy said Russia would continue to defend its interests and economic actors through lawful means."
         }
       ]
     },
@@ -7350,7 +7350,7 @@
     },
     "relatedPosts": [
       { "id": 808, "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp", "date": "July 29, 2026", "author": "Felix Draper", "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks", "excerpt": "The US expands sanctions on Iran’s shadow fleet and offshore financial networks, targeting entities accused of helping bypass global restrictions." },
-      { "id": 806, "slug": "us-targets-iran-offshore-financial-networks-sanctions", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-targets-iran-offshore-financial-networks-sanctions.webp", "date": "July 11, 2026", "author": "Felix Draper", "title": "US Targets Offshore Financial Networks Linked to Iran’s Elite Wealth Channels With New Sanctions", "excerpt": "The US imposes new sanctions on offshore financial networks accused of supporting Iran’s elite wealth channels and hidden assets." }
+      { "id": 806, "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp", "date": "September 1, 2026", "author": "Felix Draper", "title": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network", "excerpt": "The UK has doubled penalties for sanctions breaches while targeting a Russian-linked offshore network accused of helping evade restrictions." }
     ]
   }
   ]
