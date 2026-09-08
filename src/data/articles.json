@@ -1985,33 +1985,33 @@
         ]
       },
       "relatedPosts": [
-        { "id": 410, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
+        { "id": 402, "slug": "uk-police-face-questions-portsmouth-protest-clashes", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp", "date": "September 7, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Questions After Portsmouth Protest Clashes", "excerpt": "Police face scrutiny after clashes during a Portsmouth protest raise concerns over crowd control and public safety." },
         { "id": 411, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
       ]
     },
   {
     "id": 402,
-    "slug": "uk-police-gross-misconduct-investigation-henry-nowak",
+    "slug": "uk-police-face-questions-portsmouth-protest-clashes",
     "category": "pa",
     "categoryLabel": "Police Accountability",
     "categoryColor": "bg-[#e91e63]",
-    "metaTitle": "UK Police Under Gross Misconduct Investigation After Arresting Stab Victim in Fatal Misidentification Case | Police Accountability",
-    "metaDescription": "Two Hampshire police officers are under investigation by the IOPC for gross misconduct after handcuffing 18-year-old Henry Nowak as he lay dying from stab wounds, following his killer's false claims of a racist attack.",
+    "metaTitle": "UK Police Face Questions After Portsmouth Protest Clashes | Police Accountability",
+    "metaDescription": "Hampshire police used batons and pepper spray on masked far-right protesters in Portsmouth as MPs question how officers were caught off guard by a second night of clashes over a Channel migrant boat, days after a similar blockade at Dover.",
     "metaKeywords": [
-      "Henry Nowak",
-      "IOPC investigation",
-      "gross misconduct",
+      "Portsmouth protests",
       "Hampshire police",
-      "police accountability",
-      "UK police",
-      "Vickrum Digwa"
+      "far-right protesters",
+      "asylum seekers",
+      "small boats",
+      "Dover blockade",
+      "police accountability"
     ],
-    "heading": "UK Police Under Gross Misconduct Investigation After Arresting Stab Victim in Fatal Misidentification Case",
-    "excerpt": "Two Hampshire police officers are under investigation by the Independent Office for Police Conduct (IOPC) after reportedly handcuffing 18-year-old Henry Nowak as he lay dying from stab wounds.",
-    "date": "July 1, 2026",
-    "image": "/uk-police-gross-misconduct-investigation-henry-nowak.webp",
-    "heroImage": "/uk-police-gross-misconduct-investigation-henry-nowak.webp",
-    "alt": "Protesters holding signs demanding justice for Henry Nowak outside a police station in Southampton, UK.",
+    "heading": "UK Police Face Questions After Portsmouth Protest Clashes",
+    "excerpt": "UK authorities are reviewing police response after clashes between officers and far-right protesters in Portsmouth.",
+    "date": "September 7, 2026",
+    "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp",
+    "heroImage": "/uk-police-face-questions-portsmouth-protest-clashes.webp",
+    "alt": "Riot police holding a line against masked far-right protesters near Eastney Beach in Portsmouth, England.",
     "author": {
       "name": "Darnell Hutchins",
       "slug": "darnell-hutchins",
@@ -2023,35 +2023,43 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Two police officers in the case of Henry Nowak have been placed under investigation for gross misconduct by Britain's police watchdog, the Independent Office for Police Conduct (IOPC). Nowak, an 18-year-old finance and accounting university student, died in December 2025 after being stabbed by Vickrum Digwa in Southampton."
+          "text": "Hundreds of masked far-right protesters clashed with police on the Portsmouth waterfront on Sunday evening, prompting officers to deploy batons and pepper spray to hold back a crowd trying to stop a boatload of asylum seekers from being brought ashore. It was the second major anti-migration flashpoint in southern England in as many days, and it has left police facing pointed questions about how the disorder was allowed to unfold."
         },
         {
           "type": "paragraph",
-          "text": "Digwa, a British Sikh, falsely told police he was the victim of a racist attack, claiming Nowak had racially insulted him. This led officers to handcuff Nowak and treat him as a suspect, despite him saying he had been stabbed and that he could not breathe. Digwa was convicted of murder and sentenced to life in prison with a minimum term of 21 years."
+          "text": "The unrest broke out after a large dinghy carrying an estimated 120 to 140 people was intercepted in the Channel following an unusually long, roughly ten-hour crossing that had departed from Normandy, farther west along the French coast than most small-boat launches. Lifeboats, a coastguard helicopter and a plane were used to bring the group ashore in Hampshire, an operation officials say may point to smuggling networks shifting to new departure points to avoid patrols."
         },
         {
           "type": "heading",
-          "text": "IOPC Investigation and Potential Misconduct"
+          "text": "Batons and Pepper Spray Used to Hold the Line"
         },
         {
           "type": "paragraph",
-          "text": "The IOPC said evidence suggested the two officers who arrived first may have breached professional standards. The investigation relates to potential failures by the officers to recognise Nowak needed urgent medical help and the decision to arrest and handcuff him rather than provide first aid. There is also an indication one of the officers may have breached standards of authority, respect and courtesy by appearing to dismiss Nowak when he said he had been stabbed."
+          "text": "Footage from the scene near Eastney Beach showed demonstrators dressed mostly in black, many with their faces covered, chanting against the boat's arrival as officers with shields tried to stop the crowd from reaching the lifeboats and, later, from blocking buses meant to carry the new arrivals to a processing site. Hampshire and Isle of Wight Constabulary said officers were pushed off motorbikes and struck with bricks during the standoff, and confirmed that batons and synthetic pepper spray were used to repel the crowd. Spencer Wragg, chair of the Hampshire police federation, said one of the injured officers had completed training only three days earlier, and described the confrontation as going well beyond anything resembling lawful protest."
         },
         {
           "type": "paragraph",
-          "text": "Derrick Campbell, director of engagement at the IOPC, said: 'Our investigators met with Henry's family earlier this month where we were able to discuss our investigation with them in depth, now that criminal proceedings have concluded.' Campbell added: 'Two officers will now face gross misconduct investigations. There is clear evidence that public confidence in the force may have been seriously harmed by this incident, and that is a factor we must consider when assessing the evidence.'"
+          "text": "No arrests had been made in Portsmouth by the time the standoff eased in the early hours of Monday, though the force said an investigation had been opened to identify those responsible for assaults on officers, damage to police vehicles and other offences committed during the unrest."
         },
         {
           "type": "heading",
-          "text": "Race and Community Tensions Under Scrutiny"
+          "text": "Second Blockade in as Many Days Raises Questions"
         },
         {
           "type": "paragraph",
-          "text": "The watchdog is also investigating whether the race or religion of either Henry or the Digwa family impacted on the actions and decision-making of the officers. It will also look at whether officers' decisions were influenced by assumptions or prejudice relating to community tensions at the time. The case has sparked anger and protests, with far-right figures claiming the officers' response proved police forces treat white people and ethnic minorities differently."
+          "text": "The clashes in Portsmouth came less than 24 hours after a separate but apparently related group of masked demonstrators blockaded Dover, Britain's busiest ferry port, snarling traffic for travellers and freight lorries bound for France. Kent Police likewise made no arrests. The back-to-back disruptions have prompted Labour and Liberal Democrat MPs to press ministers on why officers appeared to have no advance warning of either demonstration. Dover's Labour MP, Mike Tapp, questioned why police were unaware of plans to blockade the port, while the Liberal Democrats' home affairs spokesperson, Max Wilkinson, asked how a masked group could shut down the port and then a second site could be blockaded the very next evening without any apparent intelligence beforehand."
+        },
+        {
+          "type": "heading",
+          "text": "Government Vows to Learn Lessons"
         },
         {
           "type": "paragraph",
-          "text": "The IOPC will also examine why Nowak was handcuffed, while Digwa was not when he was arrested for attempted murder after police realised Nowak had been stabbed. The police force involved has since apologised for handcuffing Nowak. The IOPC said it will share its provisional findings with Nowak's family and Hampshire police before any final decisions are made."
+          "text": "Policing minister Sarah Jones told Parliament that work was under way to establish what had gone wrong and to ensure intelligence is shared more quickly across police forces. She condemned the organisers for stoking what she called 'racism and thuggery' and said anyone who crossed the line from peaceful protest into criminality would not be shielded from prosecution."
+        },
+        {
+          "type": "paragraph",
+          "text": "Daniel Thomas, known as 'Danny Tommo,' a far-right activist with ties to Tommy Robinson, the anti-Islam campaigner whose real name is Stephen Yaxley-Lennon, has been named as having claimed a role in arranging the Portsmouth demonstration through a group called Patriot Platform. No formal misconduct referral has been announced over the officers' conduct, but the questions from MPs over Hampshire police's preparedness and use of force are likely to keep the force under scrutiny in the days ahead."
         }
       ]
     },
@@ -2237,7 +2245,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 410, "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp", "date": "June 2, 2026", "author": "Darnell Hutchins", "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute", "excerpt": "Minnesota Republicans are facing sharp criticism after delegates observed a moment of silence for former police officer Derek Chauvin during the state GOP convention, drawing condemnation from lawmakers and civil rights advocates." },
+        { "id": 402, "slug": "uk-police-face-questions-portsmouth-protest-clashes", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp", "date": "September 7, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Questions After Portsmouth Protest Clashes", "excerpt": "Police face scrutiny after clashes during a Portsmouth protest raise concerns over crowd control and public safety." },
         { "id": 411, "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp", "date": "June 3, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing", "excerpt": "An independent investigation has been launched after a 15-year-old boy who suffered fatal stab wounds in Southampton was reportedly handcuffed by police officers while receiving emergency treatment. The incident has raised questions over police conduct, prompting scrutiny from watchdog officials and renewed calls for accountability." }
       ]
     },
@@ -2523,7 +2531,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 405, "slug": "westchester-county-license-plate-readers-lawsuit", "category": "pa", "categoryColor": "bg-[#e91e63]","secondaryColor": "bg-[#e91e63]", "image": "/westchester-county-license-plate-readers-lawsuit.webp", "date": "June 10, 2026", "author": "Darnell Hutchins", "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", "excerpt": "Civil rights advocates have sued Westchester County, alleging its network of license plate readers collected 1.6 billion scans without adequate oversight, raising major concerns about privacy and police surveillance practices." },
+      { "id": 402, "slug": "uk-police-face-questions-portsmouth-protest-clashes", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp", "date": "September 7, 2026", "author": "Darnell Hutchins", "title": "UK Police Face Questions After Portsmouth Protest Clashes", "excerpt": "Police face scrutiny after clashes during a Portsmouth protest raise concerns over crowd control and public safety." },
       { "id": 406, "slug": "australia-police-less-lethal-weapons-transparency", "category": "pa", "categoryColor": "bg-[#e91e63]", "secondaryColor": "bg-[#e91e63]", "image": "/australia-police-less-lethal-weapons-transparency.webp", "date": "June 11, 2026", "author": "Darnell Hutchins", "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions", "excerpt": "Advocates are calling for greater transparency and oversight over the use of less-lethal weapons by Australian police forces." }
     ]
   },
