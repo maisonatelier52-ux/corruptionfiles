@@ -680,15 +680,15 @@
   ],
       "discoveryMain": {
       "id": 501,
-      "slug": "climate-activists-sue-totalenergies-nigeria-oil-sale",
+      "slug": "us-data-centers-water-pollution-scrutiny",
       "category": "eco",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "July 1, 2026",
-      "title": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns",
+      "date": "September 8, 2026",
+      "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact",
       "author": "Thomas Aldgate",
-      "excerpt": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake.",
-      "image": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
+      "excerpt": "Environmental groups are raising concerns over pollution risks and heavy water usage tied to America's rapidly expanding AI data center industry.",
+      "image": "/us-data-centers-water-pollution-scrutiny.webp",
       "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
     },
   "discoveryMiddle": [

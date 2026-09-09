@@ -4778,27 +4778,27 @@
   },
   {
     "id": 601,
-    "slug": "climate-activists-sue-totalenergies-nigeria-oil-sale",
+    "slug": "us-data-centers-water-pollution-scrutiny",
     "category": "eco",
     "categoryLabel": "Environmental Exploitation",
     "categoryColor": "bg-[#2196f3]",
-    "metaTitle": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns | Environmental Exploitation",
-    "metaDescription": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake, citing concerns about spill risks, pollution history, and inadequate environmental safeguards.",
+    "metaTitle": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact | Environmental Exploitation",
+    "metaDescription": "Environmental groups are raising concerns over pollution risks from expanding U.S. data centers, with reports of wastewater issues, toxic pollutants, and heavy water usage linked to AI-driven infrastructure growth.",
     "metaKeywords": [
-      "TotalEnergies lawsuit",
-      "Nigeria oil asset sale",
-      "climate activists",
-      "environmental risk",
-      "Niger Delta pollution",
-      "France duty of vigilance law",
-      "SPDC"
+      "data center water pollution",
+      "AI data center wastewater",
+      "PFAS forever chemicals data centers",
+      "Meta data center Wyoming bacteria",
+      "Clean Water Act data centers",
+      "data center water usage",
+      "Georgia data center lawsuit"
     ],
-    "heading": "Climate Activists Sue TotalEnergies Over Nigerian Oil Asset Sale Amid Environmental Risk Concerns",
-    "excerpt": "Environmental NGOs have launched legal action against TotalEnergies, demanding transparency over the sale of its Nigerian oil stake, citing concerns about spill risks, pollution history, and inadequate environmental safeguards.",
-    "date": "July 1, 2026",
-    "image": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
-    "heroImage": "/climate-activists-sue-totalenergies-nigeria-oil-sale.webp",
-    "alt": "Protesters hold signs outside a TotalEnergies facility, demanding transparency over the company's Nigerian oil asset sale.",
+    "heading": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact",
+    "excerpt": "Environmental groups are raising concerns over pollution risks from expanding U.S. data centers, with reports of wastewater issues, toxic pollutants, and heavy water usage linked to AI-driven infrastructure growth.",
+    "date": "September 8, 2026",
+    "image": "/us-data-centers-water-pollution-scrutiny.webp",
+    "heroImage": "/us-data-centers-water-pollution-scrutiny.webp",
+    "alt": "A wastewater discharge pipe near a large U.S. data center construction site, illustrating growing concerns over water pollution linked to AI infrastructure.",
     "author": {
       "name": "Thomas Aldgate",
       "slug": "thomas-aldgate",
@@ -4810,67 +4810,55 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "Friends of the Earth France, and a handful of other non-profits, have filed a civil suit against TotalEnergies in France requesting access to environmental data connected to the company’s planned sale of its onshore oil interests in Nigeria’s Niger Delta. Filed July 1, 2026, the lawsuit seeks to force the oil giant to disclose the conditions of its intended divestment from the Renaissance joint venture in which it owns a 10% share."
-        },
-        {
-          "type": "paragraph",
-          "text": "The case is made under Article 145 of the French Code of Civil Procedure, which allows parties to ask a court to impose measures to preserve or gather evidence before a substantive action is filed. NGOs say the deal has been done with little public notice, raising issues about who will be responsible for cleaning up polluted sites and paying communities damaged by decades of oil exploration in the Niger Delta."
+          "text": "A wave of reporting since early September 2026 has renewed scrutiny of wastewater practices at data centers being built across the United States, documenting a pattern of pollution violations and undisclosed contamination episodes tied to the rapid expansion of AI computing infrastructure. Recent accounts catalogue several separate incidents — from a rare bacterium detected in wastewater discharged by a Meta data center project in Wyoming to allegations of tainted well water surrounding Meta facilities in Georgia — that have alarmed regulators, residents and environmental groups."
         },
         {
           "type": "heading",
-          "text": "France's Duty of Vigilance Law"
+          "text": "A Rare Bacterium in Wyoming"
         },
         {
           "type": "paragraph",
-          "text": "The lawsuit cites France's corporate duty of vigilance law, which requires large companies to identify and prevent serious human rights and environmental risks linked to their operations and business relationships. The NGOs want to analyse environmental management plans included in the sale agreement. If they deem them insufficient under Total's duty of vigilance, they can file a second lawsuit asking the court to force Total to take remedial steps."
-        },
-        {
-          "type": "paragraph",
-          "text": "The organisations involved in the legal action include Friends of the Earth France, Hawkmoth, HEDA Resource Centre and Social Action International, supported by The Corner House and ReCommon. They are demanding documents that would clarify the terms of the proposed sale of TotalEnergies' stake in the Renaissance joint venture."
+          "text": "In Cheyenne, Wyoming, officials conducting a routine test on wastewater discharged from a massive under-construction Meta data center found it contained Cupriavidus gilardii, a rare and potentially hazardous bacterium, in roughly 801,000 gallons of water ejected by contractor Goat Systems earlier this year. Although the water was never destined for the public drinking supply, concern that residents could inhale evaporating droplets from irrigation use led city officials to stop accepting wastewater from the contractor in July — a decision that is now being appealed."
         },
         {
           "type": "heading",
-          "text": "Nigeria's Niger Delta: A Legacy of Pollution"
+          "text": "Muddied Wells and Falling Water Pressure in Georgia"
         },
         {
           "type": "paragraph",
-          "text": "The organisations cited findings by the Bayelsa State Oil and Environmental Commission, which described the Niger Delta as one of the world's 'most polluted places on Earth.' Decades of oil production have left drinking water contaminated, destroyed fisheries and rendered large areas of farmland unsuitable for cultivation. According to the commission's 2023 report, between nine million and 13 million barrels of crude oil were spilled across the Niger Delta between 1958 and 2010 — an amount estimated to be 35 to 50 times the volume released during the Exxon Valdez oil spill in Alaska."
-        },
-        {
-          "type": "paragraph",
-          "text": "'This case is about people, not just oil assets. It is about children growing up with poisoned water, families breathing polluted air, and communities losing their health and livelihoods while international oil companies walk away with decades of profits,' said Isaac Osuoka, Coordinator of Social Action International."
+          "text": "In Morgan County, Georgia, families living near a Meta data center allege that extensive tree clearing, blasting and excavation during construction disturbed the area's underground aquifer, turning their well water turbid with silt and sediment that clogged plumbing and damaged appliances. Several families have since filed suit in Gwinnett County. The issue became a national flashpoint in May 2026 when Rep. Alexandria Ocasio-Cortez presented jars of discolored tap water from the neighborhood to EPA officials during a congressional hearing, prompting the agency to promise an investigation. Separately, a large data center campus in Fayette County was found to have drawn water through two previously unaccounted-for connections, contributing to a drop in local water pressure that forced nearby residents to stop watering their lawns."
         },
         {
           "type": "heading",
-          "text": "The Sale Agreement and Regulatory Hurdles"
+          "text": "Leaks and Untracked Withdrawals in Oklahoma"
         },
         {
           "type": "paragraph",
-          "text": "TotalEnergies announced in January 2026 that it had signed a sale and purchase agreement to divest its 10% non-operating interest in the Renaissance joint venture to Nigerian consortium Vaaris. The proposed sale covers its interest in 18 onshore oil mining licences in the Niger Delta but excludes its stakes in three gas-producing licences that supply about half of the feed gas to the Nigeria LNG project."
-        },
-        {
-          "type": "paragraph",
-          "text": "Completion of the transaction remains subject to approval by the Nigerian Upstream Petroleum Regulatory Commission (NUPRC). Nigerian regulators have not yet approved the sale. Before it approves the sale, Nigeria's oil regulator must first verify Vaaris has the technical and financial expertise to operate the asset, including maintaining environmental standards."
-        },
-        {
-          "type": "paragraph",
-          "text": "NGOs, however, question whether Renaissance's new owners have that financial capacity. Vaaris has yet to close its transaction with Total despite repeated deadline extensions. And Shell had to loan funds to buyer Renaissance Africa Energy Company in order to complete the sale of its stake."
+          "text": "In El Reno, Oklahoma, a data center tied to AI and cryptocurrency operations lost more than 3 million gallons of water after a private line failed, straining the municipal system, temporarily closing schools and government offices, and adding pressure amid one of the state's worst droughts in years. City officials say they intend to seek reimbursement from the property owner. Elsewhere in the state, a data center campus in Pryor reportedly withdrew more than 1.1 billion gallons of water in a single year, while the absence of statewide reporting requirements has left water use at many newer Oklahoma facilities effectively untracked."
         },
         {
           "type": "heading",
-          "text": "Industry Perspective and Concerns"
+          "text": "The 'Forever Chemicals' Problem"
         },
         {
           "type": "paragraph",
-          "text": "TotalEnergies CEO Patrick Pouyanne said at the company's May 29 shareholder meeting that it was selling the asset because it was unable to stop oil theft. 'There is a national sport of sorts involving making holes in these pipes to take the oil and load it onto tankers. It's like the Wild West,' he said. Acts of sabotage have largely subsided since Shell sold its 30% stake in the asset, which was recently renamed Renaissance, to a Nigerian company and production has increased, he added."
+          "text": "Beyond spills and leaks, researchers and advocacy groups warn that data centers may also be contributing to pollution from PFAS, a class of synthetic compounds nicknamed 'forever chemicals' because they resist breaking down in the environment. PFAS are used both in cooling systems at large AI facilities and in the semiconductors that power them. Jonathan Kalmuss-Katz, senior attorney with Earthjustice, said there's been very little analysis and disclosure of PFAS used in data centers, calling it a significant information gap given how quickly the industry is expanding. Groups including the Sierra Club and Food & Water Watch argue that oversight has not kept pace with construction, and that a 2025 executive order easing environmental permitting for data centers, along with EPA proposals to speed up chemical reviews, could weaken safeguards further."
+        },
+        {
+          "type": "heading",
+          "text": "Regulatory Push and Industry Pushback"
         },
         {
           "type": "paragraph",
-          "text": "Total was responsible for confirmed cases of pollution under its ownership, Pouyanne told the meeting, but Vaaris would be responsible for future leaks. 'Given the increased production that has occurred with the departure of international companies, I think they'll have the money to finance cleanup. And above all, there will be less sabotage, so pollution will go down,' he said."
+          "text": "Some lawmakers have pushed back on looser federal oversight. In a letter to the Army Corps of Engineers and the EPA, Senate Democrats led by Adam Schiff warned that granting data centers a blanket Clean Water Act permit could let large projects bypass individual environmental review, cautioning that the country should not repeat the mistakes of the Industrial Revolution that led to the EPA's creation in the first place. Industry representatives, including the Data Center Coalition, maintain that operators remain subject to existing federal and state water regulations, and note that many newer facilities are adopting closed-loop or air-cooling systems designed to sharply cut water demand."
+        },
+        {
+          "type": "heading",
+          "text": "A Wider Pattern of Local Opposition"
         },
         {
           "type": "paragraph",
-          "text": "However, activists remain sceptical. 'None of the divestments so far has involved a blueprint for environmental remediation,' said Ken Henshaw, executive director of We the People, an NGO based in the Niger Delta involved in the suit. 'The Nigerian government is more interested in how the successor companies will expand the assets and generate more oil for revenues rather than managing environmental issues,' he said."
+          "text": "The pollution concerns are compounding a broader backlash against data center construction nationwide. Community meetings in cities such as Colorado Springs have drawn hundreds of residents citing worries over noise, water and energy use tied to new facilities. Researchers tracking the industry's growth note that roughly two-thirds of U.S. data centers built or in development since 2022 are sited in water-stressed regions, even as planned gas-fired power capacity dedicated to data centers has nearly doubled in the past six months. With thousands of facilities already operating and thousands more proposed to meet AI and cloud-computing demand, environmental groups say the incidents in Wyoming, Georgia and Oklahoma point to a transparency gap regulators have yet to close."
         }
       ]
     },
@@ -5081,7 +5069,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 605, "slug": "unicef-report-children-climate-hazards-2026", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/unicef-report-children-climate-hazards-2026.webp", "date": "June 18, 2026", "author": "Thomas Aldgate", "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", "excerpt": "A new UNICEF report warns that nearly all children worldwide are exposed to climate-related hazards, raising concerns over health, safety, and future well-being." },
+      { "id": 601, "slug": "us-data-centers-water-pollution-scrutiny", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/us-data-centers-water-pollution-scrutiny.webp", "date": "September 8, 2026", "author": "Thomas Aldgate", "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact", "excerpt": "Environmental groups are raising concerns over pollution risks and heavy water usage tied to America's rapidly expanding AI data center industry." },
       { "id": 607, "slug": "thames-water-rescue-plan-backlash-pollution-environment", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp", "date": "June 16, 2026", "author": "Thomas Aldgate", "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK", "excerpt": "Critics say Thames Water’s rescue plan fails to address ongoing pollution issues, raising concerns about environmental protection and accountability across the UK." }
     ]
   },
@@ -5284,7 +5272,7 @@
       ]
     },
     "relatedPosts": [
-      { "id": 606, "slug": "eu-critical-minerals-mining-water-stressed-regions", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/eu-critical-minerals-mining-water-stressed-regions.webp", "date": "June 20, 2026", "author": "Thomas Aldgate", "title": "EU pushes critical raw materials mining expansion in water-stressed regions, raising environmental concerns", "excerpt": "EU expands mining in water-stressed regions, sparking environmental concerns over water use and sustainability." },
+      { "id": 601, "slug": "us-data-centers-water-pollution-scrutiny", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/us-data-centers-water-pollution-scrutiny.webp", "date": "September 8, 2026", "author": "Thomas Aldgate", "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact", "excerpt": "Environmental groups are raising concerns over pollution risks and heavy water usage tied to America's rapidly expanding AI data center industry." },
       { "id": 608, "slug": "texas-fracking-expansion-near-schools-arlington", "category": "eco", "categoryColor": "bg-[#2196f3]",  "secondaryColor": "bg-[#2196f3]", "image": "/texas-fracking-expansion-near-schools-arlington.webp", "date": "June 17, 2026", "author": "Thomas Aldgate", "title": "Texas Fracking Expansion Near Schools Sparks Environmental and Health Concerns", "excerpt": "Residents and environmental groups are raising concerns over expanded fracking operations near schools and neighborhoods in Arlington, citing potential pollution and public health risks." }
     ]
   },
