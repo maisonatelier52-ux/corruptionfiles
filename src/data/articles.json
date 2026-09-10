@@ -3124,7 +3124,7 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
-      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 92, "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp", "date": "September 10, 2026", "author": "Simone Varlette", "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance", "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence." }
     ]
   },
   {
@@ -3218,30 +3218,30 @@
     },
     "relatedPosts": [
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 92, "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp", "date": "September 10, 2026", "author": "Simone Varlette", "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance", "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence." }
     ]
   },
   {
     "id": 92,
-    "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance",
+    "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance",
     "category": "tech",
     "categoryLabel": "Big Tech & Surveillance",
     "categoryColor": "bg-[#00008b]",
-    "metaTitle": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns",
-    "metaDescription": "The U.S. Senate rejected advancing an extension of a major surveillance program tied to FISA, after backlash over leadership picks, raising questions about oversight and civil liberties.",
+    "metaTitle": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance",
+    "metaDescription": "A major U.S. trial against Huawei has revived national security concerns, with prosecutors accusing the Chinese tech giant of technology theft and involvement in surveillance-related activities.",
     "metaKeywords": [
-      "Senate blocks FISA Section 702 extension June 2026",
-      "Bill Pulte acting DNI FISA vote failure",
-      "Section 702 warrantless surveillance civil liberties",
-      "Mark Warner Thune Pulte ODNI intelligence",
-      "FISA expiry June 12 2026 Senate Democrats"
+      "Huawei racketeering trial Brooklyn September 2026",
+      "Huawei trade secrets theft indictment charges",
+      "Skycom Iran sanctions HSBC bank fraud",
+      "Meng Wanzhou Ann Donnelly Huawei case",
+      "Huawei surveillance Iran North Korea trial"
     ],
-    "heading": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns",
-    "excerpt": "The U.S. Senate voted 47-52 early Friday to block a motion to advance a long-stalled extension of FISA Section 702, after nearly every Senate Democrat — joined by six Republicans — refused to move the bill in protest of President Trump's appointment of Bill Pulte as acting Director of National Intelligence, with the surveillance authority set to expire in one week.",
-    "date": "June 5, 2026",
-    "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp",
-    "heroImage": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp",
-    "alt": "The U.S. Capitol building as the Senate votes 47-52 to block advancing a FISA Section 702 surveillance extension, June 5, 2026",
+    "heading": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance",
+    "excerpt": "A federal racketeering trial against Huawei Technologies opened this week in Brooklyn, with prosecutors accusing the Chinese telecom giant of stealing trade secrets from American rivals, defrauding banks over concealed business in Iran, and supplying surveillance equipment used to track protesters — putting Judge Ann Donnelly's courtroom at the center of a case seven years in the making.",
+    "date": "September 10, 2026",
+    "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp",
+    "heroImage": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp",
+    "alt": "The Brooklyn federal courthouse where Huawei Technologies' racketeering and trade secrets trial began before a jury, September 9, 2026",
     "author": {
       "name": "Simone Varlette",
       "slug": "simone-varlette",
@@ -3253,47 +3253,59 @@
       "blocks": [
         {
           "type": "paragraph",
-          "text": "The U.S. Senate voted early Friday to block a motion to proceed to a bill extending the government's warrantless surveillance authority under Section 702 of the Foreign Intelligence Surveillance Act, with the motion failing 47 to 52. Every Senate Democrat except Sen. John Fetterman of Pennsylvania voted against advancing the legislation. Six Republicans joined them: Sens. Josh Hawley of Missouri, Mike Lee of Utah, Rand Paul of Kentucky, Eric Schmitt of Missouri, Rick Scott of Florida, and Tommy Tuberville of Alabama. The failure leaves Section 702 — a surveillance authority that allows the U.S. government to collect the communications of foreign nationals abroad, including communications with Americans, without an individual warrant — on track to expire on June 12, one week away."
+          "text": "A long-delayed criminal trial against Huawei Technologies opened this week in federal court in Brooklyn, with Justice Department prosecutors laying out a racketeering case that accuses the Chinese telecommunications giant of stealing technology from American companies, deceiving banks about its business in Iran, and helping Tehran surveil its own citizens. Jury selection began Tuesday, September 8, before U.S. District Judge Ann Donnelly, and opening statements followed a day later. Huawei has pleaded not guilty to all remaining counts and denies wrongdoing."
         },
         {
           "type": "paragraph",
-          "text": "The collapse of what had been expected to be a bipartisan vote was almost entirely caused by a single decision made by President Trump earlier in the week: the appointment of Bill Pulte, the director of the Federal Housing Finance Agency, as acting Director of National Intelligence. The appointment was announced without prior consultation with congressional leaders and blindsided the intelligence community and Capitol Hill alike. Pulte has no military or intelligence background. Secretary of State Marco Rubio, who previously served as the top Republican on the Senate Intelligence Committee, told House lawmakers Wednesday that he had never heard Pulte's name during his time on the panel."
+          "text": "The indictment describes a pattern of conduct stretching back roughly two decades, including allegations that Huawei and its subsidiaries did business in North Korea in defiance of U.S. sanctions and installed surveillance equipment that helped Iranian authorities identify and detain demonstrators during the 2009 anti-government protests in Tehran. Huawei is the world's largest supplier of wireless network equipment, yet it remains barred from selling gear to U.S. carriers over national security concerns and has also been blacklisted by Canada and the United Kingdom."
         },
         {
           "type": "heading",
-          "text": "Who Is Bill Pulte — and Why Did His Appointment Sink the Vote"
+          "text": "Skycom, HSBC and a Case Seven Years in the Making"
         },
         {
           "type": "paragraph",
-          "text": "William Pulte is the grandson of the founder of PulteGroup, one of the country's largest homebuilders, and serves as the director of the Federal Housing Finance Agency, which regulates Fannie Mae and Freddie Mac. In that role, he has used his access to confidential mortgage data to investigate political opponents of the Trump administration. According to The Hill, targets of that effort have included Federal Reserve governor Lisa Cook, New York Attorney General Letitia James, who filed a $250 million fraud lawsuit against Trump and his organization, and Sen. Adam Schiff of California. Schiff, a member of the Senate Intelligence Committee, said Pulte had demonstrated \"a willingness to weaponize whatever information he can get access to\" and could not be trusted to serve as the nation's top intelligence official. Pulte's appointment came through an acting designation rather than a formal Senate confirmation — a path that the New York Times noted would give him a freer hand to pursue administration priorities without facing questions under oath from Republican senators."
+          "text": "At the heart of the government's financial fraud allegations is Skycom Tech Co., a Hong Kong-registered company prosecutors say functioned as a disguised Huawei subsidiary in Iran. According to the indictment, Skycom's dealings routed more than $100 million through the U.S. banking system, misleading HSBC and other institutions about the true nature of Huawei's presence in a sanctioned country. In a July 2025 ruling, Judge Donnelly rejected Huawei's bid to dismiss most of the case, finding the government had adequately alleged that Skycom operated as Huawei's Iranian subsidiary and ultimately stood to benefit, in a roundabout way, from those transfers."
         },
         {
           "type": "paragraph",
-          "text": "Senate Intelligence Committee Vice Chairman Mark Warner of Virginia, who had been the chief Democratic architect of the bipartisan FISA deal, told Senate Majority Leader John Thune directly that he needed to press the White House to reverse Pulte's appointment or risk losing Democratic support for the bill. Warner said there would be \"more than enough\" Democratic votes to reauthorize FISA if Pulte were not in the position. Senate Minority Leader Chuck Schumer said the appointment \"appears to have been a hastily considered backroom deal based on loyalty to Trump, not the security of our nation\" and called the timing — less than two weeks before FISA's expiration — catastrophic. \"The timing of this announcement could not be worse,\" Schumer said. \"This announcement and its timing clearly make passing an extension of FISA much harder.\""
+          "text": "The Skycom allegations are what first drew global attention to the case in December 2018, when Huawei's chief financial officer, Meng Wanzhou — daughter of company founder Ren Zhengfei — was arrested in Vancouver on a U.S. extradition request, triggering years of diplomatic friction between Washington, Ottawa and Beijing. Meng was released in September 2021 as part of a prisoner exchange that also freed two Canadians detained in China. She acknowledged that statements she had made to HSBC about Huawei's Iran business were untrue, and the U.S. subsequently withdrew its extradition request and the fraud charges against her personally; she is no longer a defendant in the case now before the Brooklyn jury."
         },
         {
           "type": "heading",
-          "text": "What the Bill Would Have Done — and What It Left Out"
+          "text": "Trade Secrets From Six American Companies"
         },
         {
           "type": "paragraph",
-          "text": "The legislation that failed to advance on Friday had been crafted through months of painstaking negotiation between the Intelligence Committee leadership and reflected a series of concessions to skeptical lawmakers. It included a three-year ban on a central bank digital currency — a provision House Republicans had attached to an earlier version of the bill, which the Senate also kept — and language explicitly barring the FBI from using Section 702-collected information to prosecute U.S. citizens. It did not, however, include a full warrant requirement before intelligence agencies can query databases of Americans' communications collected incidentally under the program. That omission has remained the central sticking point for civil liberties advocates and a bloc of lawmakers on both left and right for years. Cato Institute attorneys and the Electronic Frontier Foundation both argued publicly this week that the Senate bill was still fundamentally incompatible with the Fourth Amendment's protections against unreasonable search."
+          "text": "A separate strand of the indictment accuses Huawei of a long-running campaign to misappropriate intellectual property from six U.S. technology firms in order to cut its own research and development costs. Court filings describe stolen source code and manuals for internet routers, cellular antenna technology and robotics, and people familiar with the case have identified the alleged victims as including Cisco Systems, Motorola Solutions, Fujitsu, Quintel Technology, CNEX Labs and T-Mobile. The T-Mobile allegations center on \"Tappy,\" a robotic device T-Mobile used to stress-test smartphones, which the company separately won a $4.8 million civil verdict over in 2017."
         },
         {
           "type": "paragraph",
-          "text": "Senate Democratic Whip Dick Durbin used a floor speech Thursday to lay out the civil liberties case against reauthorization without reforms. \"Under Section 702 of the Foreign Intelligence Surveillance Act, the government collects communications of foreigners overseas without a warrant from any court,\" Durbin said. \"The time to finally protect Americans from warrantless surveilling under Section 702 is now. Not later. Not next time. Now — with this Congress. We've heard these false promises too many times before, and with power in the hands of this President, we just can't afford to wait any longer.\" Durbin concluded: \"I oppose the reauthorization of warrantless surveillance powers under FISA Section 702 without guardrails to better protect the privacy of Americans. I urge all of my colleagues to do the same.\""
+          "text": "The case has narrowed considerably as it approached trial. In a September 4 filing, prosecutors told Judge Donnelly they would no longer pursue two counts under the International Emergency Economic Powers Act, the law underpinning U.S. sanctions enforcement, and dropped a trade-secret theft episode tied to an unnamed \"Company 2\" — widely identified as Motorola — as a basis for the racketeering charge. That leaves 12 of the 14 counts in the indictment for the jury to weigh, in a trial prosecutors and defense lawyers expect to run roughly three months."
         },
         {
           "type": "heading",
-          "text": "A Collapsing Timeline and a Divided GOP"
+          "text": "Dueling Openings Before the Jury"
         },
         {
           "type": "paragraph",
-          "text": "Section 702's current extension, passed by unanimous consent on April 30 after the House attached a CBDC ban to a three-year renewal that complicated Senate passage, runs only until June 12. Senate Majority Leader Thune has repeatedly called the programme so essential to national security that \"we can't afford to go dark,\" and Republican leaders publicly insisted the Pulte fight should be kept separate from the surveillance vote. \"The FISA vote ought to stick to the policy of FISA,\" said Rep. Brian Fitzpatrick of Pennsylvania. Speaker Mike Johnson called it \"absolutely outrageous\" for Democrats to hold FISA hostage over an executive appointment. But the votes were not there. Republicans cannot pass a Section 702 extension on their own — the bill requires Democratic support to clear the 60-vote cloture threshold, and Friday's vote demonstrated that the arithmetic had collapsed entirely."
+          "text": "Taylor Stout, the Justice Department attorney who delivered the government's opening statement, told jurors Huawei had committed crimes spanning two decades. Defense attorney Brian Heberlig pushed back forcefully, arguing prosecutors had built their case on a handful of anecdotes and isolated misconduct by a small number of Huawei's roughly 200,000 employees across 170 countries, telling the jury that the government's claims don't add up."
         },
         {
           "type": "paragraph",
-          "text": "Three Republican senators — Bill Cassidy of Louisiana, Susan Collins of Maine, and Lisa Murkowski of Alaska — went further than opposing Pulte rhetorically on Thursday: they voted for a Warner-sponsored amendment to the budget reconciliation package that would have formally barred Pulte from simultaneously serving as acting DNI while holding his FHFA position. The amendment was defeated but registered bipartisan opposition to Pulte's dual role in stark public terms. Thune, asked directly by reporters whether Pulte has the experience to be acting DNI, deferred the question to Intelligence Committee Chairman Tom Cotton, who also declined to answer directly, noting instead that Tulsi Gabbard's official departure from the administration is not until June 30. As of Friday morning, the White House had made no public statement about whether it would reconsider Pulte's appointment. Section 702 has now been extended twice without resolution of the underlying reform disagreements, and lawmakers face a hard deadline in seven days."
+          "text": "Heberlig pointed to prosecutors' plan to show jurors that a Huawei employee had once photographed a competitor's product at a trade show, arguing that the government left out the fact that the company dismissed the employee immediately afterward and that a single lapse by one worker was no evidence of a broader scheme. He credited Huawei's growth to sound engineering and business decisions rather than misconduct, and suggested some witnesses testifying against the company were motivated by personal history rather than the facts."
+        },
+        {
+          "type": "heading",
+          "text": "A Trial Unfolding Amid Wider U.S.-China Tech Tensions"
+        },
+        {
+          "type": "paragraph",
+          "text": "The Brooklyn trial arrives as Washington continues a broader, separate campaign to push Huawei equipment out of American networks and choke off its access to advanced chipmaking. As of a semiannual status report the Federal Communications Commission sent to Congress in June 2026, the agency's \"rip and replace\" program had funded the removal of Huawei and ZTE equipment from 53 of 126 approved projects — about 42%, up sharply from just 13 projects six months earlier. Congress authorized the FCC in December 2024 defense legislation to borrow from the U.S. Treasury to close a roughly $3.08 billion funding shortfall in the program, and the agency drew that funding down in April 2025, with repayment tied to a 2026 spectrum auction. Separately, the Commerce Department's Bureau of Industry and Security issued guidance in May 2025 restricting the use, sale and servicing of Huawei's Ascend AI chips worldwide under its export-control authority."
+        },
+        {
+          "type": "paragraph",
+          "text": "The timing carries its own diplomatic weight: part of the roughly three-month trial could overlap with a planned September 24 meeting between Chinese President Xi Jinping and President Donald Trump at the White House, confirmed for that date after Trump's own trip to Beijing in May. The prosecution traces back to indictments first unsealed in 2018 and 2019 under the Justice Department's China Initiative, an effort to counter alleged Chinese corporate espionage that the Biden administration formally wound down in February 2022, though this case continued on its own track. Huawei has long maintained that the prosecution is part of a broader U.S. effort to slow China's technological rise, while Beijing has repeatedly criticized similar cases as politically motivated."
         }
       ]
     },
@@ -3390,7 +3402,7 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
-      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 92, "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp", "date": "September 10, 2026", "author": "Simone Varlette", "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance", "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence." }
     ]
   },
   {
@@ -3471,7 +3483,7 @@
     },
     "relatedPosts": [
       { "id": 93, "slug": "privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp", "date": "May 12, 2026", "author": "Simone Varlette", "title": "Privacy Backtrack: Instagram Scraps Encrypted DM Feature Under Fire", "excerpt": "Meta has stripped end-to-end encryption from Instagram direct messages, quietly removing a feature introduced in 2023 and handing itself the technical ability to read every private conversation on the platform." },
-      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 92, "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp", "date": "September 10, 2026", "author": "Simone Varlette", "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance", "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence." }
     ]
   },
     {
@@ -3651,7 +3663,7 @@
         "title": "London Police Expand Facial Recognition Across Public Streets",
         "excerpt": "London authorities are increasing live facial recognition deployments across public areas, sparking renewed debate over privacy, surveillance, and civil liberties."
       },
-      { "id": 92, "slug": "senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/senate-blocks-fisa-702-extension-bill-pulte-dni-surveillance.webp", "date": "June 5, 2026", "author": "Simone Varlette", "title": "U.S. Senate Blocks Extension of Key Surveillance Powers Over Rights Concerns", "excerpt": "The Senate rejected a proposal to extend Section 702 surveillance authority, with lawmakers citing privacy and civil liberties concerns while intelligence officials warned of potential impacts on national security operations." }
+      { "id": 92, "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance", "category": "tech", "categoryColor": "bg-[#00008b]","secondaryColor": "bg-[#00008b]", "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp", "date": "September 10, 2026", "author": "Simone Varlette", "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance", "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence." }
     ]
   },
   {
