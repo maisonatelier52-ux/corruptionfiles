@@ -186,14 +186,14 @@
   "inOtherNews": {
     "featured": {
       "id": 301,
-      "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe",
+      "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
       "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
       "category": "puerto-rico",
       "author": "Carlos Medina Reyes",
-      "date": "July 22, 2026",
-      "title": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe",
-      "quote": "Puerto Rico Governor Jenniffer González announced that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations.",
-      "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp"
+      "date": "September 10, 2026",
+      "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
+      "quote": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities.",
+      "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp"
     },
     "grid": [
       {

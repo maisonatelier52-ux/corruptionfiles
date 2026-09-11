@@ -1254,27 +1254,27 @@
     },
     {
       "id": 301,
-      "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe",
+      "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe | Puerto Rico",
-      "metaDescription": "Puerto Rico Governor Jenniffer González announced that her chief of staff and deputy chief of staff are stepping down amid corruption allegations, deepening a political crisis that has drawn federal scrutiny.",
+      "metaTitle": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny | Puerto Rico",
+      "metaDescription": "Puerto Rico's aging water infrastructure is drawing renewed attention as residents face unreliable service and officials confront growing demands for long-term improvements.",
       "metaKeywords": [
-        "Puerto Rico political crisis",
-        "Francisco Domenech",
-        "Itza García",
-        "Jenniffer González",
-        "corruption probe",
-        "Puerto Rico resignations",
-        "Sebastián Negrón"
+        "Puerto Rico water crisis",
+        "PRASA infrastructure",
+        "Puerto Rico water rationing",
+        "Jenniffer González-Colón",
+        "aging water infrastructure",
+        "Puerto Rico drought 2026",
+        "Puerto Rico Aqueduct and Sewer Authority"
       ],
-      "heading": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe",
-      "excerpt": "Puerto Rico's government faces renewed scrutiny after senior officials announced resignations amid corruption allegations involving contract oversight and political interference. The controversy has intensified calls for transparency and accountability.",
-      "date": "July 22, 2026",
-      "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp",
-      "heroImage": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp",
-      "alt": "Puerto Rico Governor Jenniffer González speaking at a press conference announcing the resignations of her chief of staff and deputy chief of staff.",
+      "heading": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
+      "excerpt": "More than a month into rotating water rationing, Puerto Rico's crumbling aqueduct system is drawing fresh criticism from residents, workers and federal auditors, who say the crisis reflects decades of deferred maintenance rather than drought alone.",
+      "date": "September 10, 2026",
+      "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
+      "heroImage": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
+      "alt": "A Puerto Rico reservoir with visibly lowered water levels during the drought that has driven the island's ongoing water rationing.",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
@@ -1286,55 +1286,59 @@
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Puerto Rico Governor Jenniffer González announced Tuesday that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations. The two are being investigated by an independent state agency following allegations of irregularities at Puerto Rico's Office of Permit Management."
-          },
-          {
-            "type": "paragraph",
-            "text": "The resignations deepen a political crisis that has been building since May, when Puerto Rico's former economic development chief, Sebastián Negrón, resigned and accused González's administration of interfering with the agency's work. More than 10 other officials — including the agency's chief of staff, general counsel and finance chief — also resigned at that time."
+            "text": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities. Reservoirs remain critically low, and residents, union workers and federal lawmakers are increasingly asking why the system was this fragile before the drought ever began."
           },
           {
             "type": "heading",
-            "text": "Allegations and Investigations"
+            "text": "A Utility Losing More Water Than It Delivers"
           },
           {
             "type": "paragraph",
-            "text": "Negrón accused Domenech of irregularities related to contract processing and undue government interference, which Domenech has denied. Meanwhile, García was accused of pressuring Negrón to appoint the wife of the president of Politank — a powerful lobbying and government relations firm that Domenech founded — to Puerto Rico's Office of Permit Management."
-          },
-          {
-            "type": "paragraph",
-            "text": "Negrón also referred to Puerto Rico's Justice Department and its Office of Government Ethics the findings of an internal investigation led by the economic development agency against two government officials, who are accused of interfering in the process for an auction of a contract involving federal funds."
-          },
-          {
-            "type": "paragraph",
-            "text": "Domenech also served as executive director of Puerto Rico's Fiscal Agency and Financial Advisory Authority. He previously submitted sworn statements against Negrón alleging corruption and conflicts of interest, which Negrón has denied."
+            "text": "The Puerto Rico Aqueduct and Sewer Authority, known as PRASA, operates eight dams, more than 100 filtration plants, thousands of storage tanks and roughly 21,000 miles of pipeline serving about 3.2 million people, according to a letter Democratic members of Congress sent the U.S. Government Accountability Office in August. That same letter noted failing pipelines routinely leak away roughly half of the territory's treated water, a figure that roughly matches earlier estimates from civil engineers who have long flagged corroded mains, inaccurate meters and unauthorized connections as chronic drains on the system."
           },
           {
             "type": "heading",
-            "text": "Growing Calls for Resignation"
+            "text": "Rationing Drags Into a Second Month"
           },
           {
             "type": "paragraph",
-            "text": "Domenech and García had faced growing calls for their resignation, including from members of the governor's own party, most notably Thomas Rivera Schatz, president of Puerto Rico's Senate. Schatz himself recently referred García to Puerto Rico's Office of the Special Independent Prosecutor's Panel and the Office of Government Ethics."
-          },
-          {
-            "type": "paragraph",
-            "text": "On Friday, Domenech said he was informed that Puerto Rico's Office of the Special Independent Prosecutor's Panel was investigating him following Negrón's allegations, which he said were 'riddled with lies, half-truths, documents tailored to suit a narrative, subjective characterizations and distortions.'"
+            "text": "PRASA began an alternating 48-hour water schedule on August 8 covering San Juan, Carolina, Trujillo Alto, Canóvanas, Gurabo, Juncos and Loíza, affecting more than 180,000 customers and an estimated half a million residents. The move followed San Juan's driest July in more than 120 years and came as the U.S. Drought Monitor classified roughly two-thirds of the island under moderate to severe drought. Gov. Jenniffer González-Colón, who declared a state of emergency in late July, told reporters at the time that \"this situation is out of our hands,\" blaming persistent dry conditions for the shortages."
           },
           {
             "type": "heading",
-            "text": "Official Responses and Federal Scrutiny"
+            "text": "Emergency Response Strains Public Resources"
           },
           {
             "type": "paragraph",
-            "text": "The governor thanked Domenech and García for their work and loyalty, adding that 'a period of public service comes to a close' and that she would not allow the work of her administration to be 'silenced' by 'agendas and continuous attacks' of certain people she did not identify."
+            "text": "The National Guard has been deployed to circulate water tankers through affected neighborhoods, while the Federal Emergency Management Agency has sent trailers to supplement local distribution. The U.S. Department of Agriculture separately approved a drought disaster declaration covering dozens of municipalities, opening relief for farmers and ranchers who have lost pasture and delayed planting. PRASA has said water trucks are prioritizing hospitals, dialysis centers and households with older or bedridden residents, though officials have repeatedly said they cannot predict when normal service will resume."
+          },
+          {
+            "type": "heading",
+            "text": "Workers and Residents Push Back"
           },
           {
             "type": "paragraph",
-            "text": "Domenech and García spoke briefly and did not directly address the allegations. 'I return to my private life with the peace of mind of having served with integrity,' Domenech said. García said she grew professionally in her role and added that it was a privilege to work with certain officials before she teared up and had to pause. 'I am concluding this chapter, but not my commitment to Puerto Rico,' she said."
+            "text": "Frustration has spilled beyond the reservoirs. Unionized PRASA employees went on strike in recent weeks, arguing they can no longer get by on wages of roughly $10.50 an hour while working extended hours during the crisis. San Juan's mayor filed suit against the utility earlier this year over recurring outages that predated the drought, and residents have staged protests outside government buildings accusing officials of failing to give clear, consistent notice about which neighborhoods will lose water and when."
+          },
+          {
+            "type": "heading",
+            "text": "Federal Auditors Take a Closer Look"
           },
           {
             "type": "paragraph",
-            "text": "The corruption allegations and deepening political crisis in Puerto Rico have caught the attention of some federal legislators, who questioned whether federal funds are being appropriately used."
+            "text": "The scrutiny has reached Washington. In their August letter, congressional Democrats asked the GAO to examine how roughly $9 billion in federal funding sent to Puerto Rico since Hurricane Maria — through FEMA, the EPA, HUD and USDA — has been spent on water infrastructure repairs, and why the system remains this vulnerable to a single dry season. The request echoes broader questions federal lawmakers have raised in recent months about oversight of public funds on the island."
+          },
+          {
+            "type": "heading",
+            "text": "Experts Say the Fix Is Bigger Than Rain"
+          },
+          {
+            "type": "paragraph",
+            "text": "Civil engineer Carlos Pesquera, who is advising the governor on the crisis, has told reporters that while drought triggered the current emergency, it doesn't fully explain the system's underlying fragility, pointing instead to \"aging infrastructure, significant water losses\" and a lack of redundancy across the network. Water policy specialists have floated a mix of longer-term fixes, including replacing corroded mains, dredging sediment-clogged reservoirs to restore lost storage capacity, and studying desalination as a supplemental source for an island surrounded by seawater — though experts caution no single project will resolve the shortfall on its own."
+          },
+          {
+            "type": "paragraph",
+            "text": "With federal forecasters projecting drought conditions to persist into the fall, PRASA has not set a firm date for ending the rationing schedule. For many residents, that uncertainty has turned what began as an emergency measure into a test of whether the island's leaders will finally commit to the sustained investment engineers have called for since long before this summer's dry spell."
           }
         ]
       },
@@ -1409,7 +1413,7 @@
       },
       "relatedPosts": [
         { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
-        { "id": 301, "slug": "puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-political-crisis-grows-as-top-officials-resign-amid-corruption-probe.webp", "date": "July 22, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Political Crisis Grows as Top Officials Resign Amid Corruption Probe", "excerpt": "Puerto Rico Governor Jenniffer González announced that her embattled chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, are stepping down next month as they deny corruption allegations." }
+        { "id": 301, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." }
       ]
     },
     {
@@ -1569,7 +1573,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 301, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." },
         { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
