@@ -823,13 +823,13 @@
   },
   {
     "id": 701,
-    "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump",
+    "slug": "former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation",
     "category": "intelligence",
-    "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump",
-    "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions.",
+    "title": "Former CIA Director John Brennan Subpoenaed in Trump Intelligence Investigation",
+    "excerpt": "Former CIA Director John Brennan has been subpoenaed as part of a Justice Department probe into the 2016 Russia intelligence assessment. Brennan denies wrongdoing, calling the case politically motivated.",
     "author": "Naomi Vosburgh",
-    "date": "August 13, 2026",
-    "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp",
+    "date": "September 15, 2026",
+    "image": "/former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   },
   {
@@ -918,6 +918,17 @@
     "author": "Naomi Vosburgh",
     "date": "July 31, 2026",
     "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
+  },
+  {
+    "id": 711,
+    "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump",
+    "category": "intelligence",
+    "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump",
+    "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions.",
+    "author": "Naomi Vosburgh",
+    "date": "August 13, 2026",
+    "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp",
     "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
   }
 ], 
