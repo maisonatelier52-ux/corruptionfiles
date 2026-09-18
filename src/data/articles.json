@@ -166,7 +166,7 @@
       ]
     },
       "relatedPosts": [
-        { "id": 207, "slug": "speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/speaker-mike-johnson-backs-massive-rededicate-250-prayer-rally-in-dc.webp", "author": "Margaret Holloway", "title": "Speaker Mike Johnson Backs Massive 'Rededicate 250' Prayer Rally in DC", "excerpt": "Thousands filled the National Mall for a daylong Christian jubilee backed by the White House and headlined by Speaker Johnson, VP Vance, and top Cabinet officials." },
+        { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
         { "id": 208, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
       ]
     },
@@ -237,7 +237,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+        { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -531,87 +531,83 @@
       ]
     },
     {
-    "id": 204,
-    "slug": "westminster-delays-political-donations-bill-mps-push-tougher-funding-rules",
-    "category": "govt",
-    "categoryLabel": "Government",
-    "categoryColor": "bg-[#ff9800]",
-    "metaTitle": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules | Government",
-    "metaDescription": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics.",
-    "metaKeywords": [
-      "UK political donations bill",
-      "Westminster legislation delay",
-      "mega-donors UK",
-      "political funding reform",
-      "Representation of the People Bill",
-      "Andy Burnham",
-      "Nigel Farage donations"
-    ],
-    "heading": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules",
-    "excerpt": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics.",
-    "date": "July 15, 2026",
-    "image": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp",
-    "heroImage": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp",
-    "alt": "The Houses of Parliament in London, where the Representation of the People Bill has been delayed amid debate over political donations and mega-donor influence.",
-    "author": {
-      "name": "Margaret Holloway",
-      "slug": "margaret-holloway",
-      "avatar": "/margaret-holloway.webp",
-      "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics. The Representation of the People Bill — one of Keir Starmer's final acts as prime minister — was due to be debated on July 14 but was paused by incoming Prime Minister Andy Burnham to allow his new administration to shape what is ultimately passed into law."
-        },
-        {
-          "type": "paragraph",
-          "text": "The delay has intensified debate over the role of big money in British politics, particularly following reporting into Nigel Farage's finances, including the £5 million donation he received from Thailand-based cryptocurrency billionaire Christopher Harborne — a gift that Farage insists was 'personal', not political. Harborne gave a single donation of £9 million to Reform UK last year, the biggest single donation to a UK political party by a living person, and £12 million in total to Reform in 2025, with a further £3 million in January."
-        },
-        {
-          "type": "heading",
-          "text": "Proposed Reforms and the £100,000 Cap"
-        },
-        {
-          "type": "paragraph",
-          "text": "Among the bill's proposed reforms is an annual £100,000 limit on donations from British citizens living overseas, backdated to 25 March. The government also plans to introduce a requirement that overseas voters moving to the UK must wait a year before they can give more than £100,000 in political donations. Ministers have also announced tougher checks on company donations, assessing them against post-tax profits over the previous five years rather than revenue alone, to ensure only legitimate UK-linked businesses can donate."
-        },
-        {
-          "type": "paragraph",
-          "text": "The changes could hit two of Reform UK's biggest backers: Christopher Harborne and Ben Delo, another crypto billionaire who donated £4 million to Reform between January and March. Delo has said he will move back to Britain from Hong Kong so he can contribute more to Reform. Under the government's planned changes, both Harborne and Delo would be covered for a year by the £100,000 cap once they return."
-        },
-        {
-          "type": "heading",
-          "text": "MPs Push for Stronger Action"
-        },
-        {
-          "type": "paragraph",
-          "text": "A number of Labour MPs want the bill to go further. Labour backbenchers have sought to cap political donations at either £1 million or £100,000 when the bill returns to the Commons. Stella Creasy MP has tabled an amendment to the bill which would cap donations at £100,000. However, one of Britain's biggest trade unions has told Labour MPs not to vote for a cap on political donations, warning it could endanger union funding for the party."
-        },
-        {
-          "type": "paragraph",
-          "text": "Rushanara Ali, one of the MPs who helped draft the bill, has urged Burnham to go further, calling the original version 'timid and limited'. The government has also proposed a ban on any political donations made through cryptoassets on or after March 2026, requiring those making donations over a set threshold to submit a declaration."
-        },
-        {
-          "type": "heading",
-          "text": "Delay and Uncertainty"
-        },
-        {
-          "type": "paragraph",
-          "text": "The Elections Bill, meant to finally clean up political funding in the UK, was supposed to pass this week. Instead, it has been pushed to September because Andy Burnham wants to rewrite it. The question now is whether he will strengthen it or water it down. Critics warn that the delay gives overseas billionaires two more months to buy influence through shell companies, paper members' clubs, and opaque corporate structures."
-        },
-        {
-          "type": "paragraph",
-          "text": "Communities Secretary Steve Reed said: 'British democracy is not for sale. These tough new rules will shut down dodgy funding, stop foreign money influencing our elections and keep our democracy strong. By holding overseas donors to tougher standards and requiring candidates to prove where their funding comes from, we are taking world-leading action to protect the integrity of our elections.'"
-        },
-        {
-          "type": "paragraph",
-          "text": "The bill, which also includes the extension of the franchise to 16 and 17-year-olds and new rules on voter registration, is currently scheduled to return to the House of Commons for further consideration. For the families and campaigners who have fought for decades against the influence of big money in politics, the outcome remains uncertain — but the delay has given them renewed hope that tougher rules may finally be within reach."
-        }
-      ]
-    },
+      "id": 204,
+      "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis",
+      "category": "govt",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "metaTitle": "UK MPs Urge Government Action Over Thames Water Financial Crisis | Government",
+      "metaDescription": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure.",
+      "metaKeywords": [
+        "Thames Water crisis",
+        "UK water industry",
+        "special administration regime",
+        "Efra committee",
+        "Andy Burnham",
+        "London & Valley Water",
+        "Ofwat regulation"
+      ],
+      "heading": "UK MPs Urge Government Action Over Thames Water Financial Crisis",
+      "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure.",
+      "date": "September 18, 2026",
+      "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp",
+      "heroImage": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp",
+      "alt": "Thames Water's Coppermills water treatment works in east London, where MPs are demanding government action over the company's mounting debt crisis.",
+      "author": {
+        "name": "Margaret Holloway",
+        "slug": "margaret-holloway",
+        "avatar": "/margaret-holloway.webp",
+        "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Andy Burnham is facing renewed pressure to bring Thames Water under public control after a cross-party group of MPs called on ministers to walk away from negotiations with the US hedge funds now effectively running the stricken utility. In a new report, the House of Commons Environment, Food and Rural Affairs Committee (Efra) said the government should consider emergency legislation to take charge of the company's finances and stabilise it, rather than continuing talks with the consortium of roughly 100 hedge funds and distressed-debt investors that control Thames Water's £20bn debt pile."
+          },
+          {
+            "type": "heading",
+            "text": "Committee Says Talks With Creditors Should End"
+          },
+          {
+            "type": "paragraph",
+            "text": "Efra chair Alistair Carmichael said it was extraordinary that the special administration regime (SAR) — the legal mechanism used to place a failing water company into temporary public control — could not be triggered for Thames Water on the basis of its performance alone. Environment secretary Angela Eagle has previously suggested that current law makes an SAR difficult to invoke because the hedge funds that bought up Thames Water's debt have kept the business running while negotiating a restructuring of its liabilities, rather than allowing it to fall into insolvency."
+          },
+          {
+            "type": "paragraph",
+            "text": "The committee argued that Ofwat and the government should step back from negotiating with the consortium altogether, saying the investors lack the expertise needed to turn around an essential public service while continuing to collect interest on the company's debt. Carmichael was blunt about the toll the crisis has taken on public confidence, saying Thames Water's \"16 million customers have largely lost faith in it,\" and pointed to years of sewage discharges, rising bills and burst pipes as evidence the company cannot simply be handed back to the same investors."
+          },
+          {
+            "type": "heading",
+            "text": "The Case for Special Administration"
+          },
+          {
+            "type": "paragraph",
+            "text": "MPs said ministers should explore every alternative, including formally placing Thames Water into special administration or introducing fresh legislation to draw a line under the saga and put the company on a stable footing ahead of a future sale. Carmichael suggested that any liabilities the government took on in the short term could ultimately be offset once a new buyer for Thames Water was found."
+          },
+          {
+            "type": "paragraph",
+            "text": "The report also raised concerns about how little scrutiny was applied to the US-led consortium, London & Valley Water, before it took control of Thames Water's debt. The group's leading members include Elliott Investment Management — co-run by Paul Singer, a major Donald Trump donor known in financial circles as one of the most aggressive investors in the world — alongside Silver Point Capital, BlackRock and M&G. MPs said the consortium's approach appeared to rely on extracting value from debt rather than delivering the swift turnaround Thames Water needs."
+          },
+          {
+            "type": "heading",
+            "text": "Creditors Defend Their Rescue Plan"
+          },
+          {
+            "type": "paragraph",
+            "text": "A spokesperson for London & Valley Water rejected the committee's characterisation, insisting the group has never controlled Thames Water or taken a dividend from it, and that its members stepped in only to cover a serious shortfall in revenue so the company's investment programme could continue. The consortium said its proposal would wipe out billions of pounds of debt, bring in £10bn of fresh capital, and install a new board with specialist expertise, while ensuring no dividends are paid and customers are shielded from the cost of the restructuring."
+          },
+          {
+            "type": "paragraph",
+            "text": "The committee's intervention follows a Commons debate triggered by a petition, backed by more than 200,000 signatures and organised by the campaign group Windrush Against Sewage Pollution, calling for a referendum on returning the privatised water industry to public ownership. Sixty-four MPs took part in that debate earlier this year, reflecting the scale of political frustration with Thames Water's long-running problems."
+          },
+          {
+            "type": "paragraph",
+            "text": "With Thames Water's cash reserves expected to come under renewed strain, ministers now face a decision that could shape the future of England's water industry well beyond one company. Burnham has previously indicated he would like to see the sector brought under a longer-term public-interest model, though the government has also cautioned that a full nationalisation of the water industry would be costly and complex to unwind. For now, the Efra committee's report piles further pressure on ministers to choose between backing the hedge funds' rescue plan or taking the more disruptive route of special administration."
+          }
+        ]
+      },
       "relatedPosts": [
         { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
@@ -1248,7 +1244,7 @@
           ]
         },
       "relatedPosts": [
-        { "id": 204, "slug": "westminster-delays-political-donations-bill-mps-push-tougher-funding-rules", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/westminster-delays-political-donations-bill-mps-push-tougher-funding-rules.webp", "author": "Margaret Holloway", "title": "Westminster Delays Political Donations Bill as MPs Push for Tougher Funding Rules", "excerpt": "The UK government has postponed key Westminster legislation on political donations, giving MPs time to consider stricter limits on mega-donors and stronger transparency rules amid growing concerns over money's influence in British politics." },
+        { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
