@@ -20,6 +20,17 @@ function toISODate(dateStr) {
 }
 
 /**
+ * Convert a date string (e.g. "September 10, 2026") to a numeric timestamp
+ * for sorting. Missing / unparseable dates return 0 so they sink to the end
+ * of a newest-first list instead of breaking the sort (NaN).
+ */
+function toTimestamp(dateStr) {
+  if (!dateStr) return 0;
+  const t = new Date(dateStr).getTime();
+  return isNaN(t) ? 0 : t;
+}
+
+/**
  * Convert a relative image path from JSON (e.g. "/image.webp")
  * to a full absolute URL required by OG / Twitter crawlers.
  */
@@ -185,11 +196,18 @@ function getArticlesByCategory(categorySlug) {
     });
   }
   const seen = new Set();
-  return all.filter((a) => {
+  const unique = all.filter((a) => {
     if (seen.has(a.slug)) return false;
     seen.add(a.slug);
     return true;
   });
+
+  // FIX: homepage.json sections are merged in a fixed order (with the
+  // featured / main cards appended last), so the newest article could end up
+  // at the bottom of the category list. Always sort newest → oldest.
+  // Array.prototype.sort is stable, so articles that share the same date
+  // keep their existing relative order.
+  return unique.sort((a, b) => toTimestamp(b.date) - toTimestamp(a.date));
 }
 
 function normalizeArticle(a) {
