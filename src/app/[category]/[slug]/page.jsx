@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { Share2, Bell, Instagram } from "lucide-react";
+import { Share2, Bell, Instagram, ExternalLink } from "lucide-react";
 import articlesData from "@/data/articles.json";
 import homepageData from "@/data/homepage.json";
 import StickyAd from "@/components/StickyAd";
@@ -122,6 +122,89 @@ function collectLatestArticles(count = 4) {
 }
 
 const LATEST_ARTICLES = collectLatestArticles(4);
+
+// ─── SOURCES ─────────────────────────────────────────────────────────────────
+
+/**
+ * Reads the optional "sources" array from the article JSON.
+ * Each entry: { label: "Publisher", title: "Headline", url: "https://..." }
+ * A plain URL string also works. Entries without a valid http(s) URL are
+ * dropped, so a typo in the JSON can never render a broken or unsafe link.
+ */
+function normalizeSources(raw) {
+  if (!Array.isArray(raw)) return [];
+  return raw
+    .map((item) => {
+      const entry = typeof item === "string" ? { url: item } : item;
+      if (!entry || typeof entry.url !== "string") return null;
+      let parsed;
+      try {
+        parsed = new URL(entry.url.trim());
+      } catch {
+        return null;
+      }
+      if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+        return null;
+      }
+      const host = parsed.hostname.replace(/^www\./, "");
+      return {
+        url: parsed.href,
+        label: entry.label || entry.publisher || host,
+        title: entry.title || entry.name || host,
+      };
+    })
+    .filter(Boolean);
+}
+
+function SourcesSection({ sources }) {
+  if (!sources.length) return null;
+  return (
+    <section
+      id="sources"
+      aria-labelledby="article-sources-heading"
+      className="border border-gray-100 p-4 sm:p-6 mb-6 md:mb-10"
+    >
+      <h2
+        id="article-sources-heading"
+        className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-4"
+      >
+        Sources
+      </h2>
+      <ol className="space-y-4">
+        {sources.map((source, idx) => (
+          <li key={source.url} className="flex items-start gap-3">
+            <span
+              className="flex-shrink-0 w-6 h-6 mt-0.5 rounded-full bg-gray-100 text-gray-600 text-xs font-bold flex items-center justify-center"
+              aria-hidden="true"
+            >
+              {idx + 1}
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="text-[11px] font-bold uppercase tracking-wider text-[#2196f3] mb-0.5">
+                {source.label}
+              </p>
+              <a
+                href={source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={`Read the source: ${source.title} (${source.label})`}
+                className="group inline-flex max-w-full items-start gap-1.5 text-sm font-semibold text-gray-900 leading-snug hover:text-[#2196f3] transition-colors"
+              >
+                <span className="min-w-0 break-words">{source.title}</span>
+                <ExternalLink
+                  size={13}
+                  className="flex-shrink-0 mt-[3px] text-gray-400 group-hover:text-[#2196f3] transition-colors"
+                  aria-hidden="true"
+                />
+                <span className="sr-only"> (opens in a new tab)</span>
+              </a>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </section>
+  );
+}
 
 // ─── ARTICLE LOOKUP ──────────────────────────────────────────────────────────
 
@@ -439,6 +522,7 @@ export default async function ArticlePage({ params }) {
     detailedAuthor.slug || nameToSlug(detailedAuthor.name || "");
 
   const { body, relatedPosts } = article;
+  const sources = normalizeSources(article.sources);
 
   const pageUrl = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
@@ -485,6 +569,16 @@ export default async function ArticlePage({ params }) {
       },
     },
   };
+
+  // Lets search engines see which outlets the article cites
+  if (sources.length) {
+    articleJsonLd.citation = sources.map((s) => ({
+      "@type": "CreativeWork",
+      name: s.title,
+      url: s.url,
+      publisher: { "@type": "Organization", name: s.label },
+    }));
+  }
 
   const breadcrumbJsonLd = {
     "@context": "https://schema.org",
@@ -618,6 +712,9 @@ export default async function ArticlePage({ params }) {
                 />
               </div>
             </a>
+
+            {/* Sources (only renders when the article JSON has a "sources" array) */}
+            <SourcesSection sources={sources} />
 
             {/* About Author */}
             <section

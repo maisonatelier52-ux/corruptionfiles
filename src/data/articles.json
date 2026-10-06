@@ -1250,97 +1250,133 @@
     },
     {
       "id": 301,
-      "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
+      "slug": "puerto-rico-voting-machine-probe-draws-new-questions",
       "category": "puerto-rico",
       "categoryLabel": "Puerto Rico",
       "categoryColor": "bg-[#2196f3]",
-      "metaTitle": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny | Puerto Rico",
-      "metaDescription": "Puerto Rico's aging water infrastructure is drawing renewed attention as residents face unreliable service and officials confront growing demands for long-term improvements.",
+      "metaTitle": "Puerto Rico Voting Machine Probe Draws New Questions | Puerto Rico",
+      "metaDescription": "A Reuters investigation details how a Puerto Rico voting machine became part of a wider U.S. government effort to examine claims about election fraud, ahead of the midterms.",
       "metaKeywords": [
-        "Puerto Rico water crisis",
-        "PRASA infrastructure",
-        "Puerto Rico water rationing",
-        "Jenniffer González-Colón",
-        "aging water infrastructure",
-        "Puerto Rico drought 2026",
-        "Puerto Rico Aqueduct and Sewer Authority"
+        "Puerto Rico voting machine",
+        "Reuters voting machine investigation",
+        "ODNI voting machines",
+        "Kurt Olsen",
+        "Dominion voting machines",
+        "2020 election claims",
+        "Puerto Rico State Elections Commission"
       ],
-      "heading": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
-      "excerpt": "More than a month into rotating water rationing, Puerto Rico's crumbling aqueduct system is drawing fresh criticism from residents, workers and federal auditors, who say the crisis reflects decades of deferred maintenance rather than drought alone.",
-      "date": "September 10, 2026",
-      "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
-      "heroImage": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
-      "alt": "A Puerto Rico reservoir with visibly lowered water levels during the drought that has driven the island's ongoing water rationing.",
+      "heading": "Puerto Rico Voting Machine Probe Draws New Questions",
+      "excerpt": "A voting machine from Puerto Rico's 2024 elections became the starting point for a federal search for proof the 2020 election was rigged, Reuters reports, and the findings are raising new questions about evidence and oversight ahead of the midterms.",
+      "date": "October 2, 2026",
+      "image": "/puerto-rico-voting-machine-probe-draws-new-questions.webp",
+      "heroImage": "/puerto-rico-voting-machine-probe-draws-new-questions.webp",
+      "alt": "An electronic ballot scanner at a Puerto Rico polling place, the type of equipment at the center of a wider federal election inquiry.",
       "author": {
         "name": "Carlos Medina Reyes",
         "slug": "carlos-medina-reyes",
         "avatar": "/carlos-medina-reyes.webp",
         "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
-        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
       },
       "body": {
         "blocks": [
           {
             "type": "paragraph",
-            "text": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities. Reservoirs remain critically low, and residents, union workers and federal lawmakers are increasingly asking why the system was this fragile before the drought ever began."
+            "text": "A single voting machine from Puerto Rico's 2024 elections became the starting point for a much larger federal search for proof that the 2020 election was rigged, according to a Reuters investigation published October 2 that traces how the effort grew in Washington. By the end, four federal bodies had been drawn in: the intelligence director's office, the Justice Department, Homeland Security and the FBI. By Reuters' account, none of it turned up evidence that votes were changed."
           },
           {
             "type": "heading",
-            "text": "A Utility Losing More Water Than It Delivers"
+            "text": "How One Machine Drew Federal Attention"
           },
           {
             "type": "paragraph",
-            "text": "The Puerto Rico Aqueduct and Sewer Authority, known as PRASA, operates eight dams, more than 100 filtration plants, thousands of storage tanks and roughly 21,000 miles of pipeline serving about 3.2 million people, according to a letter Democratic members of Congress sent the U.S. Government Accountability Office in August. That same letter noted failing pipelines routinely leak away roughly half of the territory's treated water, a figure that roughly matches earlier estimates from civil engineers who have long flagged corroded mains, inaccurate meters and unauthorized connections as chronic drains on the system."
+            "text": "The public first learned of it in early February, when the Office of the Director of National Intelligence, which Tulsi Gabbard ran at the time, said it had obtained voting machines from Puerto Rico and tested them. A spokesperson said officials on the island gave up the machines willingly, and that the office wanted to gauge the risk because comparable equipment is in use across the country. Experts say Puerto Rico uses Dominion ImageCast Precinct scanners. They read paper ballots, which officials can audit and recount by hand."
           },
           {
             "type": "heading",
-            "text": "Rationing Drags Into a Second Month"
+            "text": "Findings That Left Experts Unconvinced"
           },
           {
             "type": "paragraph",
-            "text": "PRASA began an alternating 48-hour water schedule on August 8 covering San Juan, Carolina, Trujillo Alto, Canóvanas, Gurabo, Juncos and Loíza, affecting more than 180,000 customers and an estimated half a million residents. The move followed San Juan's driest July in more than 120 years and came as the U.S. Drought Monitor classified roughly two-thirds of the island under moderate to severe drought. Gov. Jenniffer González-Colón, who declared a state of emergency in late July, told reporters at the time that \"this situation is out of our hands,\" blaming persistent dry conditions for the shortages."
+            "text": "ODNI said the review turned up troubling security and operational practices, including cellular modems on the machines that could reach networks outside the U.S. It called the risk to elections significant but didn't release the evidence. Kevin Skoglund, who studies voting machine security, told CNN the office hadn't given any meaningful details. Mark Lindeman of the nonprofit Verified Voting was skeptical too. He pointed out that the island is nearer to its Caribbean neighbors than to any U.S. state, which could explain why some devices would connect to cellular networks outside the country."
           },
           {
             "type": "heading",
-            "text": "Emergency Response Strains Public Resources"
+            "text": "From One Island to Several States"
           },
           {
             "type": "paragraph",
-            "text": "The National Guard has been deployed to circulate water tankers through affected neighborhoods, while the Federal Emergency Management Agency has sent trailers to supplement local distribution. The U.S. Department of Agriculture separately approved a drought disaster declaration covering dozens of municipalities, opening relief for farmers and ranchers who have lost pasture and delayed planting. PRASA has said water trucks are prioritizing hospitals, dialysis centers and households with older or bedridden residents, though officials have repeatedly said they cannot predict when normal service will resume."
+            "text": "The White House told Reuters the inquiry grew out of worries island election officials passed to the U.S. attorney's office, and that its aim was to locate security gaps rather than reopen the 2020 result. Reuters, drawing on interviews with more than two dozen people, reports that the push to find foreign tampering came from Kurt Olsen, a lawyer and longtime backer of Trump's claim that the 2020 election was stolen. The search later moved to Georgia, where FBI agents took 2020 ballots from Fulton County in January, and to Arizona."
           },
           {
             "type": "heading",
-            "text": "Workers and Residents Push Back"
+            "text": "Reaction on the Island and in Congress"
           },
           {
             "type": "paragraph",
-            "text": "Frustration has spilled beyond the reservoirs. Unionized PRASA employees went on strike in recent weeks, arguing they can no longer get by on wages of roughly $10.50 an hour while working extended hours during the crisis. San Juan's mayor filed suit against the utility earlier this year over recurring outages that predated the drought, and residents have staged protests outside government buildings accusing officials of failing to give clear, consistent notice about which neighborhoods will lose water and when."
+            "text": "Pablo José Hernández, Puerto Rico's nonvoting member of Congress, said there is no evidence of foreign interference in the island's elections and called the whole thing political theater. He also said the administration never explained why Gabbard's team was on the island in the first place. Sen. Mark Warner, the top Democrat on the Senate Intelligence Committee, said in February he worried the administration was coordinating an effort to interfere in this year's midterms. Puerto Rico is a territory, and its residents, though U.S. citizens, can't vote in the presidential general election."
           },
           {
             "type": "heading",
-            "text": "Federal Auditors Take a Closer Look"
+            "text": "Why a Flaw Is Not Proof of Fraud"
           },
           {
             "type": "paragraph",
-            "text": "The scrutiny has reached Washington. In their August letter, congressional Democrats asked the GAO to examine how roughly $9 billion in federal funding sent to Puerto Rico since Hurricane Maria — through FEMA, the EPA, HUD and USDA — has been spent on water infrastructure repairs, and why the system remains this vulnerable to a single dry season. The request echoes broader questions federal lawmakers have raised in recent months about oversight of public funds on the island."
-          },
-          {
-            "type": "heading",
-            "text": "Experts Say the Fix Is Bigger Than Rain"
+            "text": "Researchers agree that voting systems, like other critical infrastructure, have weaknesses. Finding one is not the same as showing it was used to change results. A 2022 federal review of some Dominion equipment found flaws but no sign anyone had exploited them, and U.S. officials found no evidence that foreign hackers broke into election infrastructure in 2024. Courts and audits have repeatedly rejected claims that Dominion machines flipped votes in 2020. In 2023, Fox News agreed to pay the company $787 million to settle a defamation suit over those claims."
           },
           {
             "type": "paragraph",
-            "text": "Civil engineer Carlos Pesquera, who is advising the governor on the crisis, has told reporters that while drought triggered the current emergency, it doesn't fully explain the system's underlying fragility, pointing instead to \"aging infrastructure, significant water losses\" and a lack of redundancy across the network. Water policy specialists have floated a mix of longer-term fixes, including replacing corroded mains, dredging sediment-clogged reservoirs to restore lost storage capacity, and studying desalination as a supplemental source for an island surrounded by seawater — though experts caution no single project will resolve the shortfall on its own."
-          },
-          {
-            "type": "paragraph",
-            "text": "With federal forecasters projecting drought conditions to persist into the fall, PRASA has not set a firm date for ending the rationing schedule. For many residents, that uncertainty has turned what began as an emergency measure into a test of whether the island's leaders will finally commit to the sustained investment engineers have called for since long before this summer's dry spell."
+            "text": "With the midterms about a month away, Reuters says some state and local officials are getting legal help and practicing how they would respond if agents asked for their voting equipment or records. Colorado acted in June, passing a law that lets the state declare an emergency over elections if federal authorities interfere. The reporting doesn't say what comes next. It does show that a question courts and audits already answered is still being pursued inside the federal government."
           }
         ]
       },
+      "sources": [
+        {
+          "label": "Reuters",
+          "title": "How Trump's obsession with 'rigged' voting machines spread across US government",
+          "url": "https://www.reuters.com/investigations/how-trumps-obsession-with-rigged-voting-machines-spread-across-us-government-2026-10-02/"
+        },
+        {
+          "label": "NBC News",
+          "title": "Tulsi Gabbard's office examined voting machines in Puerto Rico",
+          "url": "https://www.nbcnews.com/politics/elections/tulsi-gabbards-office-says-examined-electronic-voting-systems-puerto-r-rcna257602"
+        },
+        {
+          "label": "CNN",
+          "title": "Intelligence director Tulsi Gabbard's office obtained and tested voting machines in Puerto Rico",
+          "url": "https://www.cnn.com/2026/02/04/politics/gabbard-office-obtained-voting-machines-puerto-rico"
+        }
+      ],
       "relatedPosts": [
-        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
-        { "id": 303, "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp", "date": "August 7, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens", "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low." }
+        {
+          "id": 309,
+          "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
+          "category": "puerto-rico",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
+          "date": "September 10, 2026",
+          "author": "Carlos Medina Reyes",
+          "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
+          "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities."
+        },
+        {
+          "id": 303,
+          "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens",
+          "category": "puerto-rico",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp",
+          "date": "August 7, 2026",
+          "author": "Carlos Medina Reyes",
+          "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens",
+          "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low."
+        }
       ]
     },
     {
@@ -1409,7 +1445,7 @@
       },
       "relatedPosts": [
         { "id": 305, "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp", "date": "May 27, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims", "excerpt": "Secretary Sebastián Negrón Reichard quit as head of DDEC on May 26, accusing the González administration of reversing his disciplinary actions in a federal procurement probe and leaving whistleblowers unprotected — taking more than ten senior agency officials out with him." },
-        { "id": 301, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." }
+        { "id": 309, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." }
       ]
     },
     {
@@ -1569,7 +1605,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 301, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." },
+        { "id": 309, "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp", "date": "September 10, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny", "excerpt": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities." },
         { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
       ]
     },
@@ -1900,6 +1936,101 @@
       "relatedPosts": [
         { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
         { "id": 306, "slug": "detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/detroit-zoo-6855-tadpoles-puerto-rican-crested-toad-rio-encantado.webp", "date": "June 5, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rican Crested Toad Conservation Boost With Thousands of Tadpoles Released", "excerpt": "The Detroit Zoo shipped 6,855 critically endangered Puerto Rican crested toad tadpoles to Río Encantado in Manatí, pushing the program's lifetime total to 143,195 tadpoles as part of the world's longest-running amphibian reintroduction effort." }
+      ]
+    },
+    {
+      "id": 309,
+      "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny | Puerto Rico",
+      "metaDescription": "Puerto Rico's aging water infrastructure is drawing renewed attention as residents face unreliable service and officials confront growing demands for long-term improvements.",
+      "metaKeywords": [
+        "Puerto Rico water crisis",
+        "PRASA infrastructure",
+        "Puerto Rico water rationing",
+        "Jenniffer González-Colón",
+        "aging water infrastructure",
+        "Puerto Rico drought 2026",
+        "Puerto Rico Aqueduct and Sewer Authority"
+      ],
+      "heading": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
+      "excerpt": "More than a month into rotating water rationing, Puerto Rico's crumbling aqueduct system is drawing fresh criticism from residents, workers and federal auditors, who say the crisis reflects decades of deferred maintenance rather than drought alone.",
+      "date": "September 10, 2026",
+      "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
+      "heroImage": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp",
+      "alt": "A Puerto Rico reservoir with visibly lowered water levels during the drought that has driven the island's ongoing water rationing.",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+        "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities. Reservoirs remain critically low, and residents, union workers and federal lawmakers are increasingly asking why the system was this fragile before the drought ever began."
+          },
+          {
+            "type": "heading",
+            "text": "A Utility Losing More Water Than It Delivers"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Puerto Rico Aqueduct and Sewer Authority, known as PRASA, operates eight dams, more than 100 filtration plants, thousands of storage tanks and roughly 21,000 miles of pipeline serving about 3.2 million people, according to a letter Democratic members of Congress sent the U.S. Government Accountability Office in August. That same letter noted failing pipelines routinely leak away roughly half of the territory's treated water, a figure that roughly matches earlier estimates from civil engineers who have long flagged corroded mains, inaccurate meters and unauthorized connections as chronic drains on the system."
+          },
+          {
+            "type": "heading",
+            "text": "Rationing Drags Into a Second Month"
+          },
+          {
+            "type": "paragraph",
+            "text": "PRASA began an alternating 48-hour water schedule on August 8 covering San Juan, Carolina, Trujillo Alto, Canóvanas, Gurabo, Juncos and Loíza, affecting more than 180,000 customers and an estimated half a million residents. The move followed San Juan's driest July in more than 120 years and came as the U.S. Drought Monitor classified roughly two-thirds of the island under moderate to severe drought. Gov. Jenniffer González-Colón, who declared a state of emergency in late July, told reporters at the time that \"this situation is out of our hands,\" blaming persistent dry conditions for the shortages."
+          },
+          {
+            "type": "heading",
+            "text": "Emergency Response Strains Public Resources"
+          },
+          {
+            "type": "paragraph",
+            "text": "The National Guard has been deployed to circulate water tankers through affected neighborhoods, while the Federal Emergency Management Agency has sent trailers to supplement local distribution. The U.S. Department of Agriculture separately approved a drought disaster declaration covering dozens of municipalities, opening relief for farmers and ranchers who have lost pasture and delayed planting. PRASA has said water trucks are prioritizing hospitals, dialysis centers and households with older or bedridden residents, though officials have repeatedly said they cannot predict when normal service will resume."
+          },
+          {
+            "type": "heading",
+            "text": "Workers and Residents Push Back"
+          },
+          {
+            "type": "paragraph",
+            "text": "Frustration has spilled beyond the reservoirs. Unionized PRASA employees went on strike in recent weeks, arguing they can no longer get by on wages of roughly $10.50 an hour while working extended hours during the crisis. San Juan's mayor filed suit against the utility earlier this year over recurring outages that predated the drought, and residents have staged protests outside government buildings accusing officials of failing to give clear, consistent notice about which neighborhoods will lose water and when."
+          },
+          {
+            "type": "heading",
+            "text": "Federal Auditors Take a Closer Look"
+          },
+          {
+            "type": "paragraph",
+            "text": "The scrutiny has reached Washington. In their August letter, congressional Democrats asked the GAO to examine how roughly $9 billion in federal funding sent to Puerto Rico since Hurricane Maria — through FEMA, the EPA, HUD and USDA — has been spent on water infrastructure repairs, and why the system remains this vulnerable to a single dry season. The request echoes broader questions federal lawmakers have raised in recent months about oversight of public funds on the island."
+          },
+          {
+            "type": "heading",
+            "text": "Experts Say the Fix Is Bigger Than Rain"
+          },
+          {
+            "type": "paragraph",
+            "text": "Civil engineer Carlos Pesquera, who is advising the governor on the crisis, has told reporters that while drought triggered the current emergency, it doesn't fully explain the system's underlying fragility, pointing instead to \"aging infrastructure, significant water losses\" and a lack of redundancy across the network. Water policy specialists have floated a mix of longer-term fixes, including replacing corroded mains, dredging sediment-clogged reservoirs to restore lost storage capacity, and studying desalination as a supplemental source for an island surrounded by seawater — though experts caution no single project will resolve the shortfall on its own."
+          },
+          {
+            "type": "paragraph",
+            "text": "With federal forecasters projecting drought conditions to persist into the fall, PRASA has not set a firm date for ending the rationing schedule. For many residents, that uncertainty has turned what began as an emergency measure into a test of whether the island's leaders will finally commit to the sustained investment engineers have called for since long before this summer's dry spell."
+          }
+        ]
+      },
+      "relatedPosts": [
+        { "id": 304, "slug": "mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]","secondaryColor": "bg-[#2196f3]", "image": "/mlb-star-under-fire-dodgers-pitcher-edwin-diaz-linked-to-puerto-rico-cockfighting-ring.webp", "date": "May 15, 2026", "author": "Carlos Medina Reyes", "title": "MLB Star Under Fire: Dodgers Pitcher Edwin Díaz Linked to Puerto Rico Cockfighting Ring", "excerpt": "A USA Today investigation ties Dodgers closer Edwin Díaz to illegal cockfighting events in Puerto Rico, with arena photos and social media ads surfacing despite a federal ban carrying up to five years in prison." },
+        { "id": 303, "slug": "puerto-rico-begins-water-rationing-as-severe-drought-worsens", "category": "puerto-rico", "categoryColor": "bg-[#2196f3]", "secondaryColor": "bg-[#2196f3]", "image": "/puerto-rico-begins-water-rationing-as-severe-drought-worsens.webp", "date": "August 7, 2026", "author": "Carlos Medina Reyes", "title": "Puerto Rico Begins Water Rationing as Severe Drought Worsens", "excerpt": "Puerto Rico has begun rotating water service in San Juan and nearby areas as a severe drought leaves reservoirs critically low." }
       ]
     },
     {

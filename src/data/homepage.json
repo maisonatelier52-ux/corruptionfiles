@@ -185,16 +185,21 @@
   ],
   "inOtherNews": {
     "featured": {
-      "id": 301,
-      "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
-      "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
-      "category": "puerto-rico",
-      "author": "Carlos Medina Reyes",
-      "date": "September 10, 2026",
-      "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
-      "quote": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities.",
-      "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp"
-    },
+          "id": 301,
+          "slug": "puerto-rico-voting-machine-probe-draws-new-questions",
+          "categories": [
+            {
+              "label": "Puerto Rico",
+              "color": "bg-[#2196f3]"
+            }
+          ],
+          "category": "puerto-rico",
+          "author": "Carlos Medina Reyes",
+          "date": "October 2, 2026",
+          "title": "Puerto Rico Voting Machine Probe Draws New Questions",
+          "quote": "A single voting machine from Puerto Rico's 2024 elections became the starting point for a much larger federal search for proof that the 2020 election was rigged, according to a Reuters investigation published October 2 that traces how the effort grew in Washington.",
+          "image": "/puerto-rico-voting-machine-probe-draws-new-questions.webp"
+        },
     "grid": [
       {
         "id": 302,
@@ -279,6 +284,17 @@
         "author": "Carlos Medina Reyes",
         "title": "Puerto Rico Still Waiting for Billions in Hurricane Recovery Funds, Federal Audit Finds",
         "description": "A new federal audit says Puerto Rico has received only a fraction of the disaster recovery money approved after Hurricane Maria, raising fresh concerns over delays in rebuilding the island's power grid."
+      },
+      {
+        "id": 309,
+        "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
+        "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
+        "category": "puerto-rico",
+        "author": "Carlos Medina Reyes",
+        "date": "September 10, 2026",
+        "title": "Puerto Rico Water Infrastructure Faces Renewed Scrutiny",
+        "quote": "Puerto Rico's water utility is losing more than half of the water it treats before it ever reaches a customer, a longstanding problem now drawing fresh scrutiny as rotating rationing drags into its second month across San Juan and six neighboring municipalities.",
+        "image": "/puerto-rico-water-infrastructure-faces-renewed-scrutiny.webp"
       }
     ]
   },
