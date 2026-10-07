@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Bell, Calendar, Facebook, Twitter, Instagram, Youtube, Tag } from "lucide-react";
 import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
-import StickyAd from "@/components/StickyAd";
+import SiteSidebar from "@/components/SiteSidebar";
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -82,45 +82,6 @@ const SocialIcon = ({ platform }) => {
       return null;
   }
 };
-
-// ─── LATEST ARTICLES ─────────────────────────────────────────────────────────
-
-function collectLatestArticles(count = 4) {
-  const all = [];
-  const push = (arr) => {
-    if (!Array.isArray(arr)) return;
-    arr.forEach((a) => {
-      if (a?.slug && a?.title && a?.date && a?.image) all.push(a);
-    });
-  };
-  push(homepageData.politicsNews);
-  push(homepageData.secondaryNews);
-  push(homepageData.inOtherNews?.grid);
-  push(homepageData.healthcareNews);
-  push(homepageData.worldNews?.sidebar);
-  push(homepageData.discoveryMiddle);
-  push(homepageData.discoveryRight);
-  push(homepageData.technologyNews);
-  push(homepageData.trendingSectionData);
-  push(homepageData.newsCards);
-  [
-    homepageData.discoveryMain,
-    homepageData.worldNews?.main,
-    homepageData.inOtherNews?.featured,
-  ].forEach((a) => {
-    if (a?.slug && a?.title && a?.date && a?.image) all.push(a);
-  });
-  const seen = new Set();
-  const unique = all.filter((a) => {
-    if (seen.has(a.slug)) return false;
-    seen.add(a.slug);
-    return true;
-  });
-  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return unique.slice(0, count);
-}
-
-const LATEST_ARTICLES = collectLatestArticles(4);
 
 // ─── CATEGORY CONFIG ──────────────────────────────────────────────────────────
 
@@ -350,70 +311,6 @@ function NewsListCard({ card }) {
   );
 }
 
-// ─── LatestCard ───────────────────────────────────────────────────────────────
-// FIX: title attr, aria-hidden on icons, <time dateTime>
-
-function LatestCard({ item }) {
-  const href = `/${item.category}/${item.slug}`;
-  const iso = toISODate(item.date);
-
-  return (
-    <Link href={href} title={item.title} className="flex flex-col group">
-      <div className="relative w-full h-[110px] overflow-hidden">
-        <Image
-          src={item.image}
-          alt={item.alt || item.title}
-          fill
-          sizes="150px"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        {item.badge && (
-          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
-            {item.badge}
-          </span>
-        )}
-      </div>
-      {item.isSponsored || item.sponsored ? (
-        <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1">
-          <Bell size={10} aria-hidden="true" /> Sponsored content
-        </p>
-      ) : (
-        <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1">
-          <Calendar size={10} aria-hidden="true" />
-          <time dateTime={iso}>{item.date}</time>
-        </p>
-      )}
-      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
-        {item.title}
-      </p>
-    </Link>
-  );
-}
-
-// ─── SidebarCategoryCard ──────────────────────────────────────────────────────
-// FIX: title attr, descriptive alt on Image
-
-function SidebarCategoryCard({ cat }) {
-  return (
-    <Link
-      href={`/${cat.category}`}
-      title={`Browse ${cat.label} articles`}
-      className="relative overflow-hidden h-[56px] cursor-pointer group block"
-    >
-      <Image
-        src={cat.image}
-        alt={`${cat.label} category`}
-        fill
-        sizes="300px"
-        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300"
-      />
-      <div className="absolute inset-0 flex items-center px-4 z-10">
-        <span className="text-white font-bold text-base">{cat.label}</span>
-      </div>
-    </Link>
-  );
-}
-
 // ─── AuthorHeader ─────────────────────────────────────────────────────────────
 // FIX: H1 is author name (correct); added aria-label + title on social links;
 //      author avatar alt text made descriptive; Tag icon aria-hidden;
@@ -607,7 +504,6 @@ export default async function AuthorPage({ params }) {
   };
 
   const articles    = getArticlesByAuthorName(authorData.name);
-  const { categories } = homepageData;
   const catMeta     = authorData.category ? CATEGORY_META[authorData.category] : null;
   const pageUrl     = `${SITE_URL}/authors/${authorSlug}`;
   const avatarUrl   = absoluteImageUrl(authorData.avatar || authorData.coverImage);
@@ -814,36 +710,8 @@ export default async function AuthorPage({ params }) {
             )}
           </div>
 
-          {/* ── Sidebar ─────────────────────────────────────────────────── */}
-          {/* FIX: aria-label on aside */}
-          <aside
-            className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0"
-            aria-label="Sidebar — Latest articles and categories"
-          >
-            <StickyAd />
-
-            <div className="mb-6 mt-14">
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-                Latest Today
-              </h3>
-              <div className="grid grid-cols-2 gap-4">
-                {LATEST_ARTICLES.map((item) => (
-                  <LatestCard key={item.id ?? item.slug} item={item} />
-                ))}
-              </div>
-            </div>
-
-            <div>
-              <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
-                Categories
-              </h3>
-              <div className="flex flex-col gap-1">
-                {categories?.map((cat) => (
-                  <SidebarCategoryCard key={cat.label} cat={cat} />
-                ))}
-              </div>
-            </div>
-          </aside>
+          {/* ── Sidebar (shared component) ─────────────────────────────── */}
+          <SiteSidebar />
         </div>
       </div>
     </main>

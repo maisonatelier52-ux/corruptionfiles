@@ -35,7 +35,7 @@ export default function StickyAd() {
 
   return (
     <div ref={containerRef} style={{ height: trackHeight }} className="relative mb-10">
-      <aside className="sticky top-4 z-20" aria-label="Corruption Files Advertisement">
+      <aside className="sticky top-4 z-20 md:top-[76px]" aria-label="Corruption Files Advertisement">
         <Link 
           href="https://www.corruptionfiles.com/"
           className="block group transition-all duration-300 hover:brightness-110"
@@ -44,9 +44,9 @@ export default function StickyAd() {
         >
           {/* Optimized Container: 
             1. Using aspect-[9/16] to match the vertical mobile-ad standard of the image.
-            2. overflow-hidden and rounded-xl to keep the red background clean.
+            2. overflow-hidden and rounded-lg to keep the red background clean.
           */}
-          <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-xl shadow-lg border border-gray-100">
+          <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-lg shadow-sm ring-1 ring-black/5">
             <Image
               src="/corruptionfiles-quote-ver.webp" 
               alt="Corruption Files - Your Hive for Sharp News & Vision"

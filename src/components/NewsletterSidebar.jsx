@@ -4,47 +4,45 @@ import { Mail } from "lucide-react";
 
 export default function NewsletterSidebar() {
   return (
-    <div className="sticky top-6 lg:top-24 z-10 bg-[#f4f4f4] px-5 pt-10 pb-6 relative overflow-visible">
-      {/* Floating icon */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-[#222] text-white p-3 rounded-full shadow-lg z-10">
-        <Mail size={20} strokeWidth={1.5} />
-      </div>
+    <section
+      aria-labelledby="sidebar-newsletter-heading"
+      className="rounded-lg bg-[#111827] p-6 text-white lg:sticky lg:top-24"
+    >
+      <Mail size={22} strokeWidth={1.75} className="text-[#64b5f6]" aria-hidden="true" />
+      <h2
+        id="sidebar-newsletter-heading"
+        className="mt-4 text-xl font-bold leading-tight"
+      >
+        Become a Trendsetter
+      </h2>
+      <p className="mt-2 text-sm leading-relaxed text-gray-300">
+        Get the best of corruptionfiles, tailored for you.
+      </p>
 
-      <div className="flex flex-col items-center text-center">
-        <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#222] mb-2">
-          Newsletter
-        </p>
-        <h3 className="text-lg font-bold text-black leading-tight mb-2">
-          Become a Trendsetter
-        </h3>
-        <p className="text-xs font-serif italic text-gray-500 leading-relaxed mb-5">
-          Get the best of corruptionfiles, tailored for you.
-        </p>
-
-        <form
-          className="w-full flex flex-col gap-2"
-          action="/api/newsletter"
-          method="POST"
+      <form
+        className="mt-5 flex flex-col gap-2.5"
+        action="/api/newsletter"
+        method="POST"
+      >
+        <label htmlFor="sidebar-newsletter-email" className="sr-only">
+          Email address
+        </label>
+        <input
+          id="sidebar-newsletter-email"
+          type="email"
+          name="email"
+          placeholder="Your e-mail address"
+          required
+          autoComplete="email"
+          className="w-full rounded-md border border-gray-600 bg-white/5 px-4 py-3 text-sm text-white placeholder:text-gray-400 focus:border-[#2196f3] focus:outline-none focus:ring-2 focus:ring-[#2196f3]/40"
+        />
+        <button
+          type="submit"
+          className="w-full rounded-md bg-[#2196f3] px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#1e88e5] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
         >
-          <label htmlFor="sidebar-newsletter-email" className="sr-only">
-            Email Address
-          </label>
-          <input
-            id="sidebar-newsletter-email"
-            type="email"
-            name="email"
-            placeholder="Your e-mail address"
-            required
-            className="w-full px-4 py-3 text-[13px] text-gray-700 bg-white border border-gray-200 focus:outline-none focus:border-[#2196f3] placeholder:text-gray-400 placeholder:italic"
-          />
-          <button
-            type="submit"
-            className="w-full bg-[#2196f3] hover:bg-blue-600 text-white text-[11px] font-bold uppercase tracking-widest py-3 transition-colors"
-          >
-            Subscribe
-          </button>
-        </form>
-      </div>
-    </div>
+          Subscribe
+        </button>
+      </form>
+    </section>
   );
 }

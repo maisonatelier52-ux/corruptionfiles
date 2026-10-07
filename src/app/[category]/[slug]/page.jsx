@@ -1,12 +1,21 @@
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
-import { Share2, Bell, Instagram, ExternalLink } from "lucide-react";
+import { Source_Serif_4 } from "next/font/google";
+import { Bell, ChevronRight, Clock, ExternalLink, Instagram } from "lucide-react";
 import articlesData from "@/data/articles.json";
 import homepageData from "@/data/homepage.json";
-import StickyAd from "@/components/StickyAd";
-import NewsletterSidebar from "@/components/NewsletterSidebar";
 import authorsData from "@/data/authors.json";
+import SiteSidebar from "@/components/SiteSidebar";
+import ShareBar from "@/components/ShareBar";
+
+// Serif face for the article body. Exposed as the CSS variable --font-article,
+// which .article-content in globals.css picks up.
+const articleSerif = Source_Serif_4({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-article",
+});
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -46,6 +55,47 @@ function nameToSlug(name = "") {
   return name.toLowerCase().replace(/\s+/g, "-");
 }
 
+/** Rough reading time (about 230 words a minute), never less than 1 */
+function estimateReadingMinutes(body) {
+  if (!body) return 1;
+  const texts = [];
+  if (Array.isArray(body.blocks)) {
+    body.blocks.forEach((b) => b?.text && texts.push(b.text));
+  }
+  if (body.dropcap) {
+    texts.push(`${body.dropcap.letter || ""}${body.dropcap.text || ""}`);
+  }
+  if (Array.isArray(body.paragraphs)) texts.push(...body.paragraphs);
+  if (Array.isArray(body.sections)) {
+    body.sections.forEach((sec) => {
+      if (sec.title) texts.push(sec.title);
+      if (sec.text) texts.push(sec.text);
+      if (Array.isArray(sec.content)) texts.push(...sec.content);
+    });
+  }
+  const words = texts.join(" ").trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 230));
+}
+
+/** Turns a category slug like "medical-fraud" into its display label */
+const CATEGORY_LABELS = Object.fromEntries(
+  (homepageData.categories || []).map((c) => [c.category, c.label])
+);
+function categoryLabel(slug = "") {
+  return (
+    CATEGORY_LABELS[slug] ||
+    slug.replace(/-/g, " ").replace(/\b\w/g, (ch) => ch.toUpperCase())
+  );
+}
+
+/** Anchor id for a heading, so sections can be linked to */
+function headingId(text = "") {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
 // ─── SOCIAL ICON ─────────────────────────────────────────────────────────────
 
 const SocialIcon = ({ platform }) => {
@@ -82,46 +132,6 @@ const SocialIcon = ({ platform }) => {
       return null;
   }
 };
-
-// ─── LATEST ARTICLES ─────────────────────────────────────────────────────────
-
-function collectLatestArticles(count = 4) {
-  const all = [];
-  const push = (arr) => {
-    if (!Array.isArray(arr)) return;
-    arr.forEach((a) => {
-      if (a?.slug && a?.title && a?.image) all.push(a);
-    });
-  };
-  push(homepageData.politicsNews);
-  push(homepageData.secondaryNews);
-  push(homepageData.inOtherNews?.grid);
-  push(homepageData.healthcareNews);
-  push(homepageData.worldNews?.sidebar);
-  push(homepageData.discoveryMiddle);
-  push(homepageData.discoveryRight);
-  push(homepageData.technologyNews);
-  push(homepageData.trendingSectionData);
-  push(homepageData.newsCards);
-  [
-    homepageData.discoveryMain,
-    homepageData.worldNews?.main,
-    homepageData.inOtherNews?.featured,
-  ].forEach((a) => {
-    if (a?.slug && a?.title && a?.image) all.push(a);
-  });
-
-  const seen = new Set();
-  const unique = all.filter((a) => {
-    if (seen.has(a.slug)) return false;
-    seen.add(a.slug);
-    return true;
-  });
-  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return unique.slice(0, count);
-}
-
-const LATEST_ARTICLES = collectLatestArticles(4);
 
 // ─── SOURCES ─────────────────────────────────────────────────────────────────
 
@@ -162,25 +172,25 @@ function SourcesSection({ sources }) {
     <section
       id="sources"
       aria-labelledby="article-sources-heading"
-      className="border border-gray-100 p-4 sm:p-6 mb-6 md:mb-10"
+      className="mt-10 scroll-mt-24 border-t border-gray-200 pt-6"
     >
       <h2
         id="article-sources-heading"
-        className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-4"
+        className="text-lg font-bold tracking-tight text-gray-900"
       >
         Sources
       </h2>
-      <ol className="space-y-4">
+      <ol className="mt-4 divide-y divide-gray-100">
         {sources.map((source, idx) => (
-          <li key={source.url} className="flex items-start gap-3">
+          <li key={source.url} className="flex items-start gap-4 py-3.5 first:pt-0">
             <span
-              className="flex-shrink-0 w-6 h-6 mt-0.5 rounded-full bg-gray-100 text-gray-600 text-xs font-bold flex items-center justify-center"
+              className="w-5 flex-none pt-0.5 text-right text-sm font-semibold tabular-nums text-gray-400"
               aria-hidden="true"
             >
               {idx + 1}
             </span>
             <div className="min-w-0 flex-1">
-              <p className="text-[11px] font-bold uppercase tracking-wider text-[#2196f3] mb-0.5">
+              <p className="text-[13px] font-semibold text-[#1565c0]">
                 {source.label}
               </p>
               <a
@@ -188,12 +198,12 @@ function SourcesSection({ sources }) {
                 target="_blank"
                 rel="noopener noreferrer"
                 title={`Read the source: ${source.title} (${source.label})`}
-                className="group inline-flex max-w-full items-start gap-1.5 text-sm font-semibold text-gray-900 leading-snug hover:text-[#2196f3] transition-colors"
+                className="group mt-0.5 inline-flex max-w-full items-start gap-1.5 text-[15px] font-semibold leading-snug text-gray-900 transition-colors hover:text-[#1565c0]"
               >
                 <span className="min-w-0 break-words">{source.title}</span>
                 <ExternalLink
                   size={13}
-                  className="flex-shrink-0 mt-[3px] text-gray-400 group-hover:text-[#2196f3] transition-colors"
+                  className="mt-[3px] flex-none text-gray-400 transition-colors group-hover:text-[#1565c0]"
                   aria-hidden="true"
                 />
                 <span className="sr-only"> (opens in a new tab)</span>
@@ -273,37 +283,23 @@ export async function generateMetadata({ params }) {
 }
 
 // ─── BODY RENDERER (supports limitless heading/paragraph sequence) ──────────
+// All text styling lives in .article-content (src/app/globals.css).
 
 function ArticleBody({ body }) {
-  // NEW: simple blocks array with only "heading" and "paragraph"
+  // Current format: a flat "blocks" array of headings and paragraphs
   if (body.blocks && Array.isArray(body.blocks)) {
     return (
       <div className="article-content">
         {body.blocks.map((block, idx) => {
           if (block.type === "heading") {
-            const anchorId = block.text
-              .toLowerCase()
-              .replace(/[^a-z0-9]+/g, "-")
-              .replace(/(^-|-$)/g, "");
             return (
-              <h2
-                key={idx}
-                id={anchorId}
-                className="text-[22px] font-bold text-gray-900 mb-4 border-l-4 border-[#2196f3] pl-4 clear-both"
-              >
+              <h2 key={idx} id={headingId(block.text)}>
                 {block.text}
               </h2>
             );
           }
           if (block.type === "paragraph") {
-            return (
-              <p
-                key={idx}
-                className="text-[16px] leading-relaxed text-gray-700 mb-6 clear-both"
-              >
-                {block.text}
-              </p>
-            );
+            return <p key={idx}>{block.text}</p>;
           }
           return null; // ignore any other types
         })}
@@ -311,12 +307,12 @@ function ArticleBody({ body }) {
     );
   }
 
-  // ─── LEGACY RENDERER (unchanged, for old JSON) ───────────────────────────
+  // ─── LEGACY RENDERER (for old JSON) ──────────────────────────────────────
   return (
     <div className="article-content">
       {body.dropcap && (
-        <p className="text-[16px] leading-relaxed text-gray-700 mb-6">
-          <span className="float-left text-7xl font-serif font-bold leading-[0.75] mr-3 mt-2 text-gray-900">
+        <p>
+          <span className="float-left mr-3 mt-2 text-7xl font-bold leading-[0.75] text-gray-900">
             {body.dropcap.letter}
           </span>
           {body.dropcap.text}
@@ -324,52 +320,27 @@ function ArticleBody({ body }) {
       )}
 
       {body.paragraphs &&
-        body.paragraphs.map((para, idx) => (
-          <p
-            key={idx}
-            className="text-[16px] leading-relaxed text-gray-700 mb-6 clear-both"
-          >
-            {para}
-          </p>
-        ))}
+        body.paragraphs.map((para, idx) => <p key={idx}>{para}</p>)}
 
       {body.sections &&
         body.sections.map((section, idx) => {
           switch (section.type) {
-            case "heading": {
-              const anchorId = section.title
-                .toLowerCase()
-                .replace(/[^a-z0-9]+/g, "-")
-                .replace(/(^-|-$)/g, "");
+            case "heading":
               return (
-                <div key={idx} className="mb-6 clear-both">
-                  <h2
-                    id={anchorId}
-                    className="text-[22px] font-bold text-gray-900 mb-4 border-l-4 border-[#2196f3] pl-4"
-                  >
-                    {section.title}
-                  </h2>
+                <div key={idx} className="clear-both">
+                  <h2 id={headingId(section.title)}>{section.title}</h2>
                   {section.content.map((para, pIdx) => (
-                    <p
-                      key={pIdx}
-                      className="text-[16px] leading-relaxed text-gray-700 mb-4"
-                    >
-                      {para}
-                    </p>
+                    <p key={pIdx}>{para}</p>
                   ))}
                 </div>
               );
-            }
 
             case "blockquote":
               return (
-                <blockquote
-                  key={idx}
-                  className="my-6 mx-4 pl-6 border-l-4 border-gray-300 italic text-gray-600 text-[15px] leading-relaxed clear-both"
-                >
+                <blockquote key={idx}>
                   <p>{section.text}</p>
                   {section.cite && (
-                    <footer className="mt-2 text-sm not-italic text-gray-500">
+                    <footer>
                       — <cite>{section.cite}</cite>
                     </footer>
                   )}
@@ -378,22 +349,17 @@ function ArticleBody({ body }) {
 
             case "paragraph":
               return (
-                <div key={idx} className="mb-6 clear-both">
+                <div key={idx}>
                   {section.content.map((para, pIdx) => (
-                    <p
-                      key={pIdx}
-                      className="text-[16px] leading-relaxed text-gray-700 mb-4"
-                    >
-                      {para}
-                    </p>
+                    <p key={pIdx}>{para}</p>
                   ))}
                 </div>
               );
 
             case "image":
               return (
-                <figure key={idx} className="my-6 clear-both">
-                  <div className="relative w-full aspect-[16/9] overflow-hidden">
+                <figure key={idx}>
+                  <div className="relative aspect-[16/9] w-full overflow-hidden rounded-md">
                     <Image
                       src={section.src}
                       alt={section.alt || "Article illustration"}
@@ -402,11 +368,7 @@ function ArticleBody({ body }) {
                       className="object-cover"
                     />
                   </div>
-                  {section.caption && (
-                    <figcaption className="text-xs text-gray-500 mt-1 text-center">
-                      {section.caption}
-                    </figcaption>
-                  )}
+                  {section.caption && <figcaption>{section.caption}</figcaption>}
                 </figure>
               );
 
@@ -418,95 +380,7 @@ function ArticleBody({ body }) {
   );
 }
 
-// ─── SIDEBAR COMPONENTS (unchanged) ─────────────────────────────────────────
-
-function LatestCard({ item }) {
-  return (
-    <Link
-      href={`/${item.category}/${item.slug}`}
-      className="flex flex-col group"
-      title={item.title}
-    >
-      <div className="relative w-full h-[110px] overflow-hidden">
-        <Image
-          src={item.image}
-          alt={item.alt || item.title}
-          fill
-          sizes="150px"
-          className="object-cover transition-transform duration-500 group-hover:scale-105"
-        />
-        {item.badge && (
-          <span className="absolute top-2 right-2 bg-[#f69a4d] text-white text-xs font-bold px-1.5 py-0.5 z-10">
-            {item.badge}
-          </span>
-        )}
-      </div>
-      {(item.isSponsored || item.sponsored) && (
-        <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1">
-          <Bell size={10} aria-hidden="true" /> Sponsored content
-        </p>
-      )}
-      <p className="text-sm font-semibold text-gray-900 leading-snug mt-1 group-hover:text-blue-600 transition-colors line-clamp-3">
-        {item.title}
-      </p>
-    </Link>
-  );
-}
-
-function SidebarCategoryCard({ cat }) {
-  return (
-    <Link 
-      href={`/${cat.category}`}
-      className="relative overflow-hidden h-[56px] cursor-pointer group block" 
-      title={`Browse ${cat.label} articles`}
-    >
-      <Image
-        src={cat.image}
-        alt={`${cat.label} category`}
-        fill
-        sizes="300px"
-        className="object-cover brightness-50 group-hover:brightness-75 transition-all duration-300"
-      />
-      <div className="absolute inset-0 flex items-center justify-between px-4 z-10">
-        <span className="text-white font-bold text-base">{cat.label}</span>
-      </div>
-    </Link>
-  );
-}
-
-function ArticleSidebar() {
-  return (
-    <aside
-      className="w-full lg:w-[280px] xl:w-[300px] flex-shrink-0"
-      aria-label="Sidebar"
-    >
-      <StickyAd />
-      <div className="mb-6 mt-6 lg:mt-14">
-        <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800" >
-          Latest Today
-        </h3>
-        <div className="grid grid-cols-2 gap-4">
-          {LATEST_ARTICLES.map((item) => (
-            <LatestCard key={item.slug} item={item} />
-          ))}
-        </div>
-      </div>
-      <div>
-        <h3 className="font-bold text-base text-gray-900 text-center pb-2 mb-4 border-b-2 border-gray-800">
-          Categories
-        </h3>
-        <div className="flex flex-col gap-1">
-          {homepageData.categories.map((cat) => (
-            <SidebarCategoryCard key={cat.label} cat={cat} />
-          ))}
-        </div>
-      </div>
-      <NewsletterSidebar />
-    </aside>
-  );
-}
-
-// ─── PAGE (unchanged except using the new ArticleBody) ───────────────────────
+// ─── PAGE ────────────────────────────────────────────────────────────────────
 
 export default async function ArticlePage({ params }) {
   const { category, slug } = await params;
@@ -600,8 +474,11 @@ export default async function ArticlePage({ params }) {
     ],
   };
 
+  const readMinutes = estimateReadingMinutes(body);
+  const socialKeys = Object.keys(detailedAuthor.social || {});
+
   return (
-    <main className="bg-white min-h-screen">
+    <div className={`${articleSerif.variable} min-h-screen bg-white`}>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
@@ -611,266 +488,304 @@ export default async function ArticlePage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 pt-4 md:pt-6 pb-10 md:pb-20">
-        <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
-          <div className="flex-1 min-w-0">
-            {/* Breadcrumb nav */}
-            <nav aria-label="Breadcrumb" className="mb-4 text-xs text-gray-500">
-              <ol className="flex items-center gap-1 flex-wrap">
-                <li>
-                  <Link href="/" title="Home" className="hover:text-blue-600 transition-colors">
+      <div className="mx-auto max-w-7xl px-4 pb-12 pt-5 md:pb-20 md:pt-8">
+        <div className="flex flex-col gap-10 lg:flex-row lg:gap-12">
+          <div className="min-w-0 flex-1">
+            {/* Breadcrumb */}
+            <nav
+              aria-label="Breadcrumb"
+              className="mb-5 text-[13px] text-gray-500"
+            >
+              <ol className="flex items-center gap-1.5">
+                <li className="flex-none">
+                  <Link
+                    href="/"
+                    title="Home"
+                    className="transition-colors hover:text-[#1565c0]"
+                  >
                     Home
                   </Link>
                 </li>
-                <li aria-hidden="true">/</li>
-                <li>
+                <li aria-hidden="true" className="flex-none">
+                  <ChevronRight size={13} />
+                </li>
+                <li className="flex-none">
                   <Link
                     href={`/${category}`}
                     title={`Browse ${article.categoryLabel}`}
-                    className="hover:text-blue-600 transition-colors"
+                    className="transition-colors hover:text-[#1565c0]"
                   >
                     {article.categoryLabel}
                   </Link>
                 </li>
-                <li aria-hidden="true">/</li>
-                <li
-                  aria-current="page"
-                  className="text-gray-700 truncate max-w-[200px]"
-                >
+                <li aria-hidden="true" className="flex-none">
+                  <ChevronRight size={13} />
+                </li>
+                <li aria-current="page" className="min-w-0 truncate text-gray-700">
                   {article.heading}
                 </li>
               </ol>
             </nav>
 
-            {/* Hero Image */}
-            <div className="relative w-full aspect-[16/9] overflow-hidden mb-2">
-              <Image
-                src={article.heroImage}
-                alt={article.alt || article.heading}
-                fill
-                priority
-                sizes="(max-width: 1024px) 100vw, 800px"
-                className="object-cover"
-              />
-              <div className="absolute bottom-6 left-6 z-20">
-                <span
-                  className={`${article.categoryColor} text-white text-[10px] font-bold px-3 py-1 uppercase tracking-wider`}
+            <article>
+              {/* Title, standfirst, byline */}
+              <header>
+                <Link
+                  href={`/${category}`}
+                  title={`Browse ${article.categoryLabel}`}
+                  className={`${article.categoryColor} inline-block rounded-sm px-2.5 py-1 text-xs font-semibold text-white transition hover:brightness-110`}
                 >
                   {article.categoryLabel}
-                </span>
-              </div>
-            </div>
+                </Link>
 
-            {/* Title & Meta */}
-            <div className="mb-4 md:mb-6">
-              <h1 className="text-2xl md:text-[32px] font-bold text-gray-900 leading-tight mb-3">
-                {article.heading}
-              </h1>
-              <div className="flex items-center gap-3 flex-wrap text-sm text-gray-500">
-                {isoDate && <time dateTime={isoDate}>{article.date}</time>}
-                <span>
-                  By{" "}
-                  <Link
-                    href={`/authors/${authorSlug}`}
-                    title={`More articles by ${detailedAuthor.name}`}
-                    className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors"
-                    rel="author"
-                  >
-                    {detailedAuthor.name}
-                  </Link>
-                </span>
-              </div>
-            </div>
+                <h1 className="mt-4 max-w-[54rem] text-balance text-[clamp(1.85rem,1.35rem+2.1vw,2.75rem)] font-extrabold leading-[1.12] tracking-tight text-gray-900">
+                  {article.heading}
+                </h1>
 
-            {/* Share */}
-            <div className="flex items-center justify-between border-t border-b border-gray-200 py-3 mb-5 md:mb-8">
-              <button
-                className="flex items-center gap-1 text-xs text-gray-500 hover:text-blue-600 transition-colors"
-                aria-label="Share this article"
-                title="Share this article"
-              >
-                <Share2 size={13} aria-hidden="true" /> Share
-              </button>
-            </div>
+                {article.excerpt && (
+                  <p className="mt-4 max-w-[46rem] font-[family-name:var(--font-article)] text-[1.15rem] leading-snug text-gray-600 sm:text-[1.3rem]">
+                    {article.excerpt}
+                  </p>
+                )}
 
-            {/* Article Body – supports both new (blocks) and old structure */}
-            <ArticleBody body={body} />
+                <div className="mt-6 flex flex-wrap items-center justify-between gap-x-6 gap-y-4 border-y border-gray-200 py-4">
+                  <div className="flex items-center gap-3">
+                    <div className="relative h-11 w-11 flex-none overflow-hidden rounded-full bg-gray-100">
+                      <Image
+                        src={detailedAuthor.avatar}
+                        alt=""
+                        fill
+                        sizes="44px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <div className="min-w-0 leading-tight">
+                      <p className="text-sm text-gray-500">
+                        By{" "}
+                        <Link
+                          href={`/authors/${authorSlug}`}
+                          title={`More articles by ${detailedAuthor.name}`}
+                          className="font-semibold text-gray-900 transition-colors hover:text-[#1565c0]"
+                          rel="author"
+                        >
+                          {detailedAuthor.name}
+                        </Link>
+                      </p>
+                      <p className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1 text-[13px] text-gray-500">
+                        {isoDate && <time dateTime={isoDate}>{article.date}</time>}
+                        <span
+                          aria-hidden="true"
+                          className="hidden h-3 w-px bg-gray-300 sm:block"
+                        />
+                        <span className="inline-flex items-center gap-1">
+                          <Clock size={12} aria-hidden="true" />
+                          {readMinutes} min read
+                        </span>
+                      </p>
+                    </div>
+                  </div>
 
-            {/* Sponsor Banner */}
-            <a
-              href="https://www.corruptionfiles.com/"
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              title="Visit Corruption Files — Investigative Journalism"
-              className="mt-2 mb-5 md:mb-6 block w-full"
-            >
-              <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-                <img
-                  src="/corruptionfiles-quote-hor.webp"
-                  alt="Corruption Files — Investigative Journalism"
-                  className="w-full h-auto object-contain"
-                />
-              </div>
-            </a>
+                  <ShareBar url={pageUrl} title={article.heading} />
+                </div>
+              </header>
 
-            {/* Sources (only renders when the article JSON has a "sources" array) */}
-            <SourcesSection sources={sources} />
-
-            {/* About Author */}
-            <section
-              aria-label={`About the author ${detailedAuthor.name}`}
-              className="border border-gray-100 p-6 mb-6 md:mb-10 flex flex-col sm:flex-row gap-6"
-            >
-              <div className="relative w-[100px] h-[100px] flex-shrink-0">
+              {/* Hero image — wider than the text column, full width on phones */}
+              <figure className="relative -mx-4 mt-6 aspect-[16/9] overflow-hidden bg-gray-100 sm:mx-0 sm:rounded-lg">
                 <Image
-                  src={detailedAuthor.avatar}
-                  alt={`${detailedAuthor.name} — author photo`}
+                  src={article.heroImage}
+                  alt={article.alt || article.heading}
                   fill
-                  sizes="100px"
-                  className="object-cover rounded"
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 900px"
+                  className="object-cover"
                 />
-              </div>
-              <div className="flex-1">
-                <div className="flex items-center gap-3 mb-2 flex-wrap">
-                  <span className="text-xs font-bold text-gray-500 uppercase tracking-wider" >
-                    About Author
-                  </span>
-                  <Link
-                    href={`/authors/${authorSlug}`}
-                    title={`Author profile: ${detailedAuthor.name}`}
-                    className="text-lg font-bold text-gray-900 hover:text-[#2196f3] transition-colors"
-                    rel="author"
-                  >
-                    {detailedAuthor.name}
-                  </Link>
+              </figure>
+
+              <div className="mt-8 max-w-[46rem] md:mt-10">
+                {/* Article Body – supports both new (blocks) and old structure */}
+                <ArticleBody body={body} />
+
+                {/* Share again at the end of the article */}
+                <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-gray-200 pt-6">
+                  <p className="text-sm font-semibold text-gray-900">
+                    Share this article
+                  </p>
+                  <ShareBar url={pageUrl} title={article.heading} />
                 </div>
-                <p className="text-sm text-gray-600 leading-relaxed mb-4">
-                  {detailedAuthor.bio}
-                </p>
-                <div className="flex gap-4 items-center mt-4">
-                  {Object.keys(detailedAuthor.social).map((platformKey) => {
-                    const hoverColors = {
-                      x: "hover:text-black",
-                      instagram: "hover:text-pink-600",
-                    };
-                    const platformLabel =
-                      platformKey.charAt(0).toUpperCase() + platformKey.slice(1);
-                    return (
-                      <a
-                        key={platformKey}
-                        href={detailedAuthor.social[platformKey]}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={`${detailedAuthor.name} on ${platformLabel}`}
-                        title={`Follow ${detailedAuthor.name} on ${platformLabel}`}
-                        className={`group text-gray-800 transition-colors duration-200 ${
-                          hoverColors[platformKey.toLowerCase()] || ""
-                        }`}
+
+                {/* Sponsor Banner */}
+                <a
+                  href="https://www.corruptionfiles.com/"
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  title="Visit Corruption Files — Investigative Journalism"
+                  className="mt-8 block w-full"
+                >
+                  <div className="flex w-full items-center justify-center overflow-hidden rounded-lg border border-gray-100">
+                    <img
+                      src="/corruptionfiles-quote-hor.webp"
+                      alt="Corruption Files — Investigative Journalism"
+                      className="h-auto w-full object-contain"
+                    />
+                  </div>
+                </a>
+
+                {/* Sources (only renders when the article JSON has a "sources" array) */}
+                <SourcesSection sources={sources} />
+
+                {/* About Author */}
+                <section
+                  aria-label={`About the author ${detailedAuthor.name}`}
+                  className="mt-10 rounded-lg border border-gray-200 bg-gray-50 p-5 sm:p-6"
+                >
+                  <div className="flex flex-col gap-4 sm:flex-row sm:gap-5">
+                    <div className="relative h-16 w-16 flex-none overflow-hidden rounded-full bg-gray-200 sm:h-20 sm:w-20">
+                      <Image
+                        src={detailedAuthor.avatar}
+                        alt={`${detailedAuthor.name} — author photo`}
+                        fill
+                        sizes="80px"
+                        className="object-cover object-top"
+                      />
+                    </div>
+                    <div className="min-w-0 flex-1">
+                      <p className="text-[13px] text-gray-500">About the author</p>
+                      <Link
+                        href={`/authors/${authorSlug}`}
+                        title={`Author profile: ${detailedAuthor.name}`}
+                        className="mt-0.5 inline-block text-lg font-bold text-gray-900 transition-colors hover:text-[#1565c0]"
+                        rel="author"
                       >
-                        <SocialIcon platform={platformKey} />
-                      </a>
-                    );
-                  })}
-                </div>
+                        {detailedAuthor.name}
+                      </Link>
+                      {detailedAuthor.role && (
+                        <p className="text-sm text-gray-500">{detailedAuthor.role}</p>
+                      )}
+                      <p className="mt-3 text-[15px] leading-relaxed text-gray-600">
+                        {detailedAuthor.bio}
+                      </p>
+                      {socialKeys.length > 0 && (
+                        <div className="mt-4 flex items-center gap-2">
+                          {socialKeys.map((platformKey) => {
+                            const platformLabel =
+                              platformKey.charAt(0).toUpperCase() +
+                              platformKey.slice(1);
+                            return (
+                              <a
+                                key={platformKey}
+                                href={detailedAuthor.social[platformKey]}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label={`${detailedAuthor.name} on ${platformLabel}`}
+                                title={`Follow ${detailedAuthor.name} on ${platformLabel}`}
+                                className="group inline-flex h-9 w-9 items-center justify-center rounded-full border border-gray-300 bg-white text-gray-700 transition-colors hover:border-gray-900 hover:text-gray-900 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#2196f3]"
+                              >
+                                <SocialIcon platform={platformKey} />
+                              </a>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </section>
               </div>
-            </section>
+            </article>
 
             {/* Related Posts */}
             {relatedPosts && relatedPosts.length > 0 && (
-              <section aria-label="Related articles" className="mb-6 md:mb-10">
-                <h2 className="font-bold text-lg text-gray-900 mb-4 md:mb-6 pb-2 border-b-2 border-black" style={{ fontFamily: 'var(--font-corruptionfiles)' }}>
+              <section
+                aria-labelledby="related-posts-heading"
+                className="mt-12 max-w-[46rem]"
+              >
+                <h2
+                  id="related-posts-heading"
+                  className="border-t-2 border-gray-900 pt-3 text-lg font-bold tracking-tight text-gray-900"
+                >
                   Related posts
                 </h2>
-                <div className="space-y-5 md:space-y-6">
+                <ul className="mt-2 divide-y divide-gray-200">
                   {relatedPosts.map((post) => {
                     const postAuthorSlug = post.authorSlug
                       ? post.authorSlug
                       : nameToSlug(post.author || "");
                     return (
-                      <article
+                      <li
                         key={post.slug}
-                        className="flex flex-col sm:flex-row gap-4 border-b border-gray-100 pb-5 md:pb-6 last:border-0"
+                        className="group relative flex items-start gap-4 py-5 sm:gap-6"
                       >
-                        <div className="w-full sm:w-[200px] h-[140px] flex-shrink-0 overflow-hidden group">
-                          <Link
-                            href={`/${post.category}/${post.slug}`}
-                            title={post.title}
-                            className="relative block w-full h-full"
-                          >
-                            <Image
-                              src={post.image}
-                              alt={post.title}
-                              fill
-                              sizes="200px"
-                              className="object-cover group-hover:scale-105 transition-transform duration-500"
-                            />
-                            <div className="absolute bottom-2 left-2 flex gap-1 z-10">
+                        <div className="order-1 min-w-0 flex-1 sm:order-2">
+                          <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs font-semibold text-gray-600">
+                            <span className="inline-flex items-center gap-1.5">
                               <span
-                                className={`${post.categoryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}
-                              >
-                                {post.category}
-                              </span>
-                              {post.secondaryCategory && (
+                                className={`${post.categoryColor} h-2 w-2 rounded-full`}
+                                aria-hidden="true"
+                              />
+                              {categoryLabel(post.category)}
+                            </span>
+                            {post.secondaryCategory && (
+                              <span className="inline-flex items-center gap-1.5">
                                 <span
-                                  className={`${post.secondaryColor} text-white text-[9px] font-bold px-2 py-0.5 uppercase`}
-                                >
-                                  {post.secondaryCategory}
-                                </span>
-                              )}
-                            </div>
-                          </Link>
-                        </div>
-                        <div className="flex-1">
-                          {post.isSponsored && (
-                            <p className="text-gray-400 text-xs flex items-center gap-1 mb-2">
-                              <Bell size={10} aria-hidden="true" /> Sponsored
-                              content
-                            </p>
-                          )}
-                          <h3 className="font-bold text-[16px] text-gray-900 leading-snug mb-1">
+                                  className={`${post.secondaryColor} h-2 w-2 rounded-full`}
+                                  aria-hidden="true"
+                                />
+                                {categoryLabel(post.secondaryCategory)}
+                              </span>
+                            )}
+                            {post.isSponsored && (
+                              <span className="inline-flex items-center gap-1 font-normal text-gray-500">
+                                <Bell size={10} aria-hidden="true" /> Sponsored content
+                              </span>
+                            )}
+                          </p>
+                          <h3 className="mt-1.5 text-[17px] font-bold leading-snug text-gray-900 sm:text-lg">
                             <Link
                               href={`/${post.category}/${post.slug}`}
                               title={post.title}
-                              className="hover:text-blue-600 transition-colors"
+                              className="transition-colors after:absolute after:inset-0 group-hover:text-[#1565c0]"
                             >
                               {post.title}
+                              <span className="sr-only"> — read more</span>
                             </Link>
                           </h3>
-                          <p className="text-xs text-gray-500 mb-2">
+                          {post.excerpt && (
+                            <p className="mt-2 hidden text-[15px] leading-relaxed text-gray-600 line-clamp-2 sm:block">
+                              {post.excerpt}
+                            </p>
+                          )}
+                          <p className="mt-2 text-[13px] text-gray-500">
                             By{" "}
                             <Link
                               href={`/authors/${postAuthorSlug}`}
                               title={`More articles by ${post.author}`}
-                              className="font-semibold text-gray-700 hover:text-[#2196f3] transition-colors"
+                              className="relative z-10 font-semibold text-gray-700 transition-colors hover:text-[#1565c0]"
                               rel="author"
                             >
                               {post.author}
                             </Link>
                           </p>
-                          <p className="text-sm text-gray-600 mb-3 line-clamp-2">
-                            {post.excerpt}
-                          </p>
-                          <Link
-                            href={`/${post.category}/${post.slug}`}
-                            title={`Read more: ${post.title}`}
-                            className="inline-block bg-[#2196f3] hover:bg-blue-600 text-white text-xs font-bold px-5 py-2 transition-colors"
-                          >
-                            READ MORE
-                            <span className="sr-only"> — {post.title}</span>
-                          </Link>
                         </div>
-                      </article>
+                        <div className="relative order-2 h-[84px] w-[84px] flex-none overflow-hidden rounded-md bg-gray-100 sm:order-1 sm:h-[132px] sm:w-[200px]">
+                          <Image
+                            src={post.image}
+                            alt={post.title}
+                            fill
+                            sizes="(max-width: 639px) 84px, 200px"
+                            className="object-cover"
+                          />
+                        </div>
+                      </li>
                     );
                   })}
-                </div>
+                </ul>
               </section>
             )}
           </div>
 
-          {/* Sidebar */}
-          <ArticleSidebar />
+          {/* Sidebar (shared with home, category and author pages) */}
+          <SiteSidebar activeCategory={category} showNewsletter excludeSlug={slug} />
         </div>
       </div>
-    </main>
+    </div>
   );
 }

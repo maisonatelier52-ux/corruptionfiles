@@ -48,3 +48,86 @@ main {
 .logo-flicker {
   animation: subtleFlicker 6s infinite;
 }
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Article body typography (article detail page)
+   Serif text for long reading, site sans (Arial) for headings. The serif is loaded in
+   app/[category]/[slug]/page.jsx and exposed as --font-article.
+   ───────────────────────────────────────────────────────────────────────── */
+.article-content {
+  font-family: var(--font-article), Georgia, "Times New Roman", serif;
+  font-size: clamp(1.0625rem, 1rem + 0.28vw, 1.1875rem);
+  line-height: 1.72;
+  color: #1f2937;
+  font-optical-sizing: auto;
+  text-wrap: pretty;
+  overflow-wrap: break-word;
+}
+
+.article-content > * + * {
+  margin-top: 1.35em;
+}
+
+.article-content h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: clamp(1.375rem, 1.2rem + 0.7vw, 1.625rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: #111827;
+  margin-top: 2.1em;
+  scroll-margin-top: 6rem;
+  text-wrap: balance;
+}
+
+.article-content h2 + * {
+  margin-top: 0.7em;
+}
+
+.article-content a {
+  color: #1565c0;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.article-content a:hover {
+  color: #0d47a1;
+}
+
+.article-content blockquote {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid #111827;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #374151;
+}
+
+.article-content blockquote footer {
+  margin-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  font-style: normal;
+  color: #6b7280;
+}
+
+.article-content figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.article-content figcaption {
+  margin-top: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: #6b7280;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
