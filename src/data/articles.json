@@ -87,84 +87,100 @@
       { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
     ]
   },
-  {
-    "id": 102,
-    "slug": "house-republicans-leave-washington-facing-midterm-pressure",
-    "category": "govt",
-    "categoryLabel": "Government",
-    "categoryColor": "bg-[#ff9800]",
-    "metaTitle": "House Republicans Leave Washington Facing Midterm Pressure | Government",
-    "metaDescription": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections.",
-    "metaKeywords": [
-      "House Republicans",
-      "midterm elections 2026",
-      "summer recess",
-      "Mike Johnson",
-      "Iran war",
-      "Democratic momentum",
-      "congressional gridlock"
-    ],
-    "heading": "House Republicans Leave Washington Facing Midterm Pressure",
-    "excerpt": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections.",
-    "date": "July 26, 2026",
-    "image": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
-    "heroImage": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
-    "alt": "The U.S. Capitol building in Washington, D.C., as lawmakers leave for a five-week summer recess.",
-    "author": {
-      "name": "Margaret Holloway",
-      "slug": "margaret-holloway",
-      "avatar": "/margaret-holloway.webp",
-      "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
-      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
-    },
-    "body": {
-      "blocks": [
-        {
-          "type": "paragraph",
-          "text": "House Republicans have left Washington for a five-week summer recess, heading back to their districts to face voters amid a challenging political environment just over 100 days before the November midterm elections. The departure comes after a turbulent legislative session marked by infighting, narrow margins, and a series of legislative setbacks that have left the GOP majority with a thin list of accomplishments to defend on the campaign trail."
-        },
-        {
-          "type": "paragraph",
-          "text": "The final week of work before recess was a mixed bag for Speaker Mike Johnson. While the House managed to pass a $95 billion budget blueprint that includes funding for the Iran war, farm aid, and voting restrictions demanded by President Trump, along with a stopgap government funding measure and the annual defense policy bill, the victories were overshadowed by internal party divisions. Just hours after Johnson touted the legislative wins, four dissident Republicans joined with Democrats to pass a symbolic war powers resolution rebuking Trump's military operation in Iran, underscoring the fragility of the GOP's historically narrow majority."
-        },
-        {
-          "type": "heading",
-          "text": "A Grueling Summer on the Campaign Trail"
-        },
-        {
-          "type": "paragraph",
-          "text": "Lawmakers acknowledged they face a difficult task in easing constituents' concerns about the Iran war, which has grown increasingly unpopular even within the MAGA base, along with persistent worries about inflation and affordability. Majority Leader Steve Scalise acknowledged that 'Iran will absolutely come up' on the campaign trail, along with cost of living, safety, and border security."
-        },
-        {
-          "type": "paragraph",
-          "text": "One House Republican, granted anonymity to speak candidly, said bluntly: 'We have a hell of a lot of work to do, that's clear.' The sentiment reflects broader anxieties within the party as polling suggests a tough midterm environment. Historical trends show the party controlling the White House almost always loses seats in the House during a midterm election, and current indicators suggest that pattern is likely to hold in 2026."
-        },
-        {
-          "type": "heading",
-          "text": "Democratic Momentum and Polling"
-        },
-        {
-          "type": "paragraph",
-          "text": "Democrats are projecting confidence as they head into the recess. House Minority Leader Hakeem Jeffries has argued that Republicans have 'nothing to run on' after Trump failed to deliver on promises to lower costs and avoid overseas wars. The Democratic Congressional Campaign Committee is planning to highlight the GOP's support for the Iran war and its inability to address affordability concerns."
-        },
-        {
-          "type": "paragraph",
-          "text": "Recent polling has given Democrats reason for optimism. A Fox News poll showed Democrats with a 7-point lead on the generic congressional ballot, while an Emerson College poll found an 11-point Democratic advantage. Decision Desk HQ also shows Democrats with a 4.1 percentage point edge on the generic ballot. However, Republicans point to low favorability ratings for the Democratic Party overall and argue that their legislative achievements, including the passage of a stock trading ban and a stopgap funding bill, will resonate with voters."
-        },
-        {
-          "type": "heading",
-          "text": "A Packed Agenda Left Unfinished"
-        },
-        {
-          "type": "paragraph",
-          "text": "Despite the late-session flurry of activity, much of the GOP's ambitious legislative agenda remains unfinished. The House was forced to leave for recess without passing several key appropriations bills, and a series of internal rebellions over the summer, including a revolt that sent lawmakers home early for the July 4 recess, had already squeezed the legislative calendar. The Senate is expected to face its own hurdles in advancing the House-passed measures, further complicating the GOP's ability to claim legislative victories."
-        },
-        {
-          "type": "paragraph",
-          "text": "The path forward for Republicans remains uncertain as they enter the 100-day sprint to Election Day. With control of the House hanging in the balance, the summer recess will test whether GOP lawmakers can effectively sell their record to voters or whether the party's internal divisions and the weight of historical trends will prove insurmountable."
-        }
-      ]
-    },
+{
+  "id": 102,
+  "slug": "labour-defeats-greens-in-holborn-and-st-pancras-by-election",
+  "category": "govt",
+  "categoryLabel": "Government",
+  "categoryColor": "bg-[#ff9800]",
+  "metaTitle": "Holborn and St Pancras By-Election: Labour Defeats Greens | Government",
+  "metaDescription": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost.",
+  "metaKeywords": [
+    "Holborn and St Pancras by-election",
+    "Sagal Abdi-Wali",
+    "Zack Polanski",
+    "Green Party",
+    "Andy Burnham",
+    "Labour Party",
+    "Keir Starmer seat"
+  ],
+  "heading": "Holborn and St Pancras By-Election: Labour Defeats Greens",
+  "excerpt": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost.",
+  "date": "October 9, 2026",
+  "image": "/labour-defeats-greens-in-holborn-and-st-pancras-by-election.webp",
+  "heroImage": "/labour-defeats-greens-in-holborn-and-st-pancras-by-election.webp",
+  "alt": "Labour's Sagal Abdi-Wali, in a white headscarf and red blazer, smiles as photographers gather behind her.",
+  "author": {
+    "name": "Margaret Holloway",
+    "slug": "margaret-holloway",
+    "avatar": "/margaret-holloway.webp",
+    "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+    "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+  },
+  "body": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Labour has held Holborn and St Pancras after Sagal Abdi-Wali won the by-election to succeed Keir Starmer, beating Green Party leader Zack Polanski in a contest that drew national attention. Abdi-Wali, the leader of Camden Council, collected 12,292 votes to Polanski's 8,928, a majority of 3,364. Voters went to the polls on Thursday, October 8, and the result was declared overnight into Friday."
+      },
+      {
+        "type": "paragraph",
+        "text": "Abdi-Wali took about 45 per cent of the vote and Polanski around 33 per cent. The Conservatives' Ewan Cameron finished third on 1,922 votes, followed by Reform UK's Peter Newman on 1,612 and the Liberal Democrats' Patrick Stillman on 924. Camden Council put turnout at 38.76 per cent, well below the roughly 54 per cent recorded in the constituency at the 2024 general election."
+      },
+      {
+        "type": "heading",
+        "text": "A Safe Seat That Was Not Taken for Granted"
+      },
+      {
+        "type": "paragraph",
+        "text": "No party other than Labour has won the constituency since it was created in 1983. Frank Dobson held it until 2015, and Starmer then took over and kept it through the 2024 general election, when he won with a majority of 11,572 even though his vote share fell and independent Andrew Feinstein, campaigning largely on Gaza, took nearly 19 per cent. Feinstein did not stand this time. Abdi-Wali's majority is far smaller than Starmer's last one, though Labour had been widely expected to hold on."
+      },
+      {
+        "type": "paragraph",
+        "text": "The vacancy arose because Starmer quit as an MP in September. He had already been replaced as prime minister by Andy Burnham in July, after a run of U-turns, missteps and heavy Labour losses in the May local elections."
+      },
+      {
+        "type": "heading",
+        "text": "Why the Greens Saw an Opening"
+      },
+      {
+        "type": "paragraph",
+        "text": "Polanski, 43, a former actor who has branded his party an 'eco-populist' movement, had spent the past year drawing voters away from Labour. The Greens won the Gorton and Denton by-election in February, their first parliamentary by-election victory, and in May they surged in London's council elections, going from 18 seats to 279 and electing mayors in Hackney and Lewisham. Polanski confirmed in September that he would stand in Holborn and St Pancras, telling supporters the Greens were the underdogs but could win."
+      },
+      {
+        "type": "heading",
+        "text": "Burnham's Arrival Changed the Picture"
+      },
+      {
+        "type": "paragraph",
+        "text": "That momentum faded once Burnham took over. The Greens have dropped back in national polls since he entered Downing Street, helped by his tougher line on Israel and a bolder stance on Britain's relationship with the European Union, both aimed at voters on Labour's left. Polanski put the result down to the honeymoon period of a new prime minister and said he would remain as party leader."
+      },
+      {
+        "type": "heading",
+        "text": "A Difficult Week for the Green Leader"
+      },
+      {
+        "type": "paragraph",
+        "text": "The defeat caps a rough few days for Polanski. At the Green Party conference in Brighton on Sunday, members voted by 1,022 to 813 for a motion declaring Zionism a form of racism. Polanski, who is Jewish, had backed an amendment to protect Jewish members, which failed, and he did not take part in the vote because he had left the conference to campaign in London. Four of the party's five MPs have said they oppose the motion."
+      },
+      {
+        "type": "paragraph",
+        "text": "The row spilled outside the party. Israel barred Polanski from entering the country, the Board of Deputies of British Jews called the Greens an extremist party, and Chief Rabbi Sir Ephraim Mirvis described the motion as 'poisonous antisemitism'. The episode has raised fresh questions about Polanski's leadership."
+      },
+      {
+        "type": "heading",
+        "text": "What Comes Next"
+      },
+      {
+        "type": "paragraph",
+        "text": "Abdi-Wali, who arrived in Britain as a child refugee from Somalia, called it an 'extraordinary honour' to represent the constituency. For Burnham, the result is an early boost and a sign that Labour may be winning back left-leaning voters in big cities. The challenges remain, though. Reform UK is still Labour's main rival in national polls, and the next general election is not due until mid-2029."
+      },
+      {
+        "type": "paragraph",
+        "text": "The Greens, who had hoped to send their first MP to Parliament from London, stay on five seats in the Commons. Polanski now returns to a party still divided over the Zionism motion, and whether it can rebuild its momentum is the main question facing him."
+      }
+    ]
+  },
       "relatedPosts": [
         { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
         { "id": 208, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
@@ -609,7 +625,7 @@
         ]
       },
       "relatedPosts": [
-        { "id": 206, "slug": "bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/bipartisan-push-congress-moves-to-raise-capitol-police-retirement-age.webp", "author": "Margaret Holloway", "title": "Bipartisan Push: Congress Moves to Raise Capitol Police Retirement Age", "excerpt": "Facing a massive surge in lawmaker threats, the Senate votes to extend the retirement age for Capitol Police to tackle critical staffing shortages." },
+        { "id": 102, "slug": "labour-defeats-greens-in-holborn-and-st-pancras-by-election", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/labour-defeats-greens-in-holborn-and-st-pancras-by-election.webp", "author": "Margaret Holloway", "title": "Holborn and St Pancras By-Election: Labour Defeats Greens", "excerpt": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
       ]
     },
@@ -1246,6 +1262,89 @@
       "relatedPosts": [
         { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
         { "id": 205, "slug": "senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/senate-cloture-vote-kevin-warsh-set-for-14-year-federal-reserve-term.webp", "author": "Margaret Holloway", "title": "Senate Cloture Vote: Kevin Warsh Set for 14-Year Federal Reserve Term", "excerpt": "The U.S. Senate proceeds with a high-stakes vote on Kevin Warsh's nomination to the Board of Governors, signaling a major long-term shift in American monetary policy." }
+      ]
+    },
+  {
+    "id": 213,
+    "slug": "house-republicans-leave-washington-facing-midterm-pressure",
+    "category": "govt",
+    "categoryLabel": "Government",
+    "categoryColor": "bg-[#ff9800]",
+    "metaTitle": "House Republicans Leave Washington Facing Midterm Pressure | Government",
+    "metaDescription": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections.",
+    "metaKeywords": [
+      "House Republicans",
+      "midterm elections 2026",
+      "summer recess",
+      "Mike Johnson",
+      "Iran war",
+      "Democratic momentum",
+      "congressional gridlock"
+    ],
+    "heading": "House Republicans Leave Washington Facing Midterm Pressure",
+    "excerpt": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections.",
+    "date": "July 26, 2026",
+    "image": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
+    "heroImage": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
+    "alt": "The U.S. Capitol building in Washington, D.C., as lawmakers leave for a five-week summer recess.",
+    "author": {
+      "name": "Margaret Holloway",
+      "slug": "margaret-holloway",
+      "avatar": "/margaret-holloway.webp",
+      "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+      "social": { "facebook": "#", "twitter": "#", "instagram": "#", "youtube": "#" }
+    },
+    "body": {
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "House Republicans have left Washington for a five-week summer recess, heading back to their districts to face voters amid a challenging political environment just over 100 days before the November midterm elections. The departure comes after a turbulent legislative session marked by infighting, narrow margins, and a series of legislative setbacks that have left the GOP majority with a thin list of accomplishments to defend on the campaign trail."
+        },
+        {
+          "type": "paragraph",
+          "text": "The final week of work before recess was a mixed bag for Speaker Mike Johnson. While the House managed to pass a $95 billion budget blueprint that includes funding for the Iran war, farm aid, and voting restrictions demanded by President Trump, along with a stopgap government funding measure and the annual defense policy bill, the victories were overshadowed by internal party divisions. Just hours after Johnson touted the legislative wins, four dissident Republicans joined with Democrats to pass a symbolic war powers resolution rebuking Trump's military operation in Iran, underscoring the fragility of the GOP's historically narrow majority."
+        },
+        {
+          "type": "heading",
+          "text": "A Grueling Summer on the Campaign Trail"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lawmakers acknowledged they face a difficult task in easing constituents' concerns about the Iran war, which has grown increasingly unpopular even within the MAGA base, along with persistent worries about inflation and affordability. Majority Leader Steve Scalise acknowledged that 'Iran will absolutely come up' on the campaign trail, along with cost of living, safety, and border security."
+        },
+        {
+          "type": "paragraph",
+          "text": "One House Republican, granted anonymity to speak candidly, said bluntly: 'We have a hell of a lot of work to do, that's clear.' The sentiment reflects broader anxieties within the party as polling suggests a tough midterm environment. Historical trends show the party controlling the White House almost always loses seats in the House during a midterm election, and current indicators suggest that pattern is likely to hold in 2026."
+        },
+        {
+          "type": "heading",
+          "text": "Democratic Momentum and Polling"
+        },
+        {
+          "type": "paragraph",
+          "text": "Democrats are projecting confidence as they head into the recess. House Minority Leader Hakeem Jeffries has argued that Republicans have 'nothing to run on' after Trump failed to deliver on promises to lower costs and avoid overseas wars. The Democratic Congressional Campaign Committee is planning to highlight the GOP's support for the Iran war and its inability to address affordability concerns."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recent polling has given Democrats reason for optimism. A Fox News poll showed Democrats with a 7-point lead on the generic congressional ballot, while an Emerson College poll found an 11-point Democratic advantage. Decision Desk HQ also shows Democrats with a 4.1 percentage point edge on the generic ballot. However, Republicans point to low favorability ratings for the Democratic Party overall and argue that their legislative achievements, including the passage of a stock trading ban and a stopgap funding bill, will resonate with voters."
+        },
+        {
+          "type": "heading",
+          "text": "A Packed Agenda Left Unfinished"
+        },
+        {
+          "type": "paragraph",
+          "text": "Despite the late-session flurry of activity, much of the GOP's ambitious legislative agenda remains unfinished. The House was forced to leave for recess without passing several key appropriations bills, and a series of internal rebellions over the summer, including a revolt that sent lawmakers home early for the July 4 recess, had already squeezed the legislative calendar. The Senate is expected to face its own hurdles in advancing the House-passed measures, further complicating the GOP's ability to claim legislative victories."
+        },
+        {
+          "type": "paragraph",
+          "text": "The path forward for Republicans remains uncertain as they enter the 100-day sprint to Election Day. With control of the House hanging in the balance, the summer recess will test whether GOP lawmakers can effectively sell their record to voters or whether the party's internal divisions and the weight of historical trends will prove insurmountable."
+        }
+      ]
+    },
+      "relatedPosts": [
+        { "id": 204, "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis", "category": "govt", "categoryColor": "bg-[#ff9800]", "secondaryColor": "bg-[#00008b]", "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp", "author": "Margaret Holloway", "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis", "excerpt": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure." },
+        { "id": 208, "slug": "house-committee-advances-sunshine-protection-act-permanent-dst", "category": "govt", "categoryColor": "bg-[#ff9800]","secondaryColor": "bg-[#00008b]", "image": "/house-committee-advances-sunshine-protection-act-permanent-dst.webp", "date": "May 25, 2026", "author": "Margaret Holloway", "title": "House Committee Advances Permanent Daylight Saving Time Bill", "excerpt": "The House Energy and Commerce Committee voted 48-1 to advance the Sunshine Protection Act to the House floor — the strongest momentum the long-stalled bill to make daylight saving time permanent year-round has ever achieved in the lower chamber." }
       ]
     },
     {

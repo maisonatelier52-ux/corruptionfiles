@@ -14,15 +14,15 @@
     },
     {
       "id": 102,
-      "slug": "house-republicans-leave-washington-facing-midterm-pressure",
+      "slug": "labour-defeats-greens-in-holborn-and-st-pancras-by-election",
       "category": "govt",
-      "image": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
+      "image": "/labour-defeats-greens-in-holborn-and-st-pancras-by-election.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "July 26, 2026",
+      "date": "October 9, 2026",
       "author": "Margaret Holloway",
-      "title": "House Republicans Leave Washington Facing Midterm Pressure",
-      "description": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections."
+      "title": "Holborn and St Pancras By-Election: Labour Defeats Greens",
+      "description": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost."
     },
     {
       "id": 103,
@@ -181,6 +181,18 @@
       "author": "Margaret Holloway",
       "title": "Andy Burnham Proposes 'No 10 North' in Major Push to Decentralize UK Power Away from Westminster",
       "description": "UK political debate intensifies after Andy Burnham unveiled plans for a 'No 10 North' office in Manchester, aiming to shift decision-making power away from Westminster."
+    },
+    {
+      "id": 213,
+      "slug": "house-republicans-leave-washington-facing-midterm-pressure",
+      "category": "govt",
+      "image": "/house-republicans-leave-washington-facing-midterm-pressure.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "July 26, 2026",
+      "author": "Margaret Holloway",
+      "title": "House Republicans Leave Washington Facing Midterm Pressure",
+      "description": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections."
     }
   ],
   "inOtherNews": {
