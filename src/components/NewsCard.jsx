@@ -20,16 +20,13 @@ const NewsCard = ({
       {/* 2. SEMANTIC TAG: <article> helps Google understand this is a news entry */}
       <article className="flex flex-col border border-gray-200 p-4 bg-white hover:shadow-md transition-shadow duration-300 h-full">
         
-        {/* Image Container */}
-        <div className="relative aspect-[4/3] overflow-hidden bg-gray-100 mb-4">
-          
-          {/* 3. NEXT/IMAGE: 'sizes' is CRITICAL here to prevent blurriness */}
-          <Image 
-            src={image} 
-            alt={title} 
+        {/* Image Container — 16:10 shows full composite images cleanly */}
+        <div className="relative mb-4 aspect-[16/10] overflow-hidden bg-gray-100">
+          <Image
+            src={image}
+            alt={title}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
-            // This string tells the browser how wide the image is on different screens
+            className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
 

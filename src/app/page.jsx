@@ -772,7 +772,12 @@ export default function Home() {
             </Link>
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
+        {/*
+          Desktop: 2-col × 2-row grid.
+          Featured spans both rows → sets total height.
+          Each side card fills one row (½ of featured height).
+        */}
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:grid-rows-2 md:gap-x-8 md:gap-y-5">
           <Link
             href={`/${
               inOtherNews.featured.categories?.[0]
@@ -780,50 +785,111 @@ export default function Home() {
                 : "world"
             }/${inOtherNews.featured.slug}`}
             title={inOtherNews.featured.title}
-            className="relative group cursor-pointer overflow-hidden border border-gray-200 block min-h-[400px]"
+            className="group flex flex-col overflow-hidden border border-gray-200 bg-white transition-shadow duration-300 hover:shadow-lg md:row-span-2"
           >
-            <Image
-              src={inOtherNews.featured.image}
-              alt={inOtherNews.featured.title}
-              fill
-              sizes="(max-width:768px) 100vw, 50vw"
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition-colors z-10" />
-            <div className="absolute inset-0 flex flex-col justify-end items-center text-center p-6 md:p-12 pb-8 text-white z-20">
-              <div className="flex gap-2 mb-4">
+            {/* Wider aspect so the 3-person composite isn’t side-cropped */}
+            <div className="relative aspect-[21/9] w-full shrink-0 overflow-hidden bg-gray-100">
+              <Image
+                src={inOtherNews.featured.image}
+                alt={inOtherNews.featured.title}
+                fill
+                sizes="(max-width: 768px) 100vw, 50vw"
+                className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
+                priority
+              />
+            </div>
+
+            <div className="flex flex-col items-center px-5 py-5 text-center sm:px-7 sm:py-6">
+              <div className="mb-2.5 flex flex-wrap justify-center gap-2">
                 {inOtherNews.featured.categories.map((cat, idx) => (
                   <span
                     key={idx}
-                    className={`${cat.color} text-[10px] font-bold px-3 py-1 uppercase tracking-wider`}
+                    className={`${cat.color} px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white`}
                   >
                     {cat.label}
                   </span>
                 ))}
               </div>
               {inOtherNews.featured.isSponsored && (
-                <div className="text-[12px] font-medium mb-2">
-                  <Bell size={12} aria-hidden="true" className="inline mr-1" />
+                <div className="mb-2 text-[12px] font-medium text-gray-500">
+                  <Bell size={12} aria-hidden="true" className="mr-1 inline" />
                   Sponsored content
                 </div>
               )}
-              <h3 className="text-2xl font-bold leading-tight mb-4 max-w-md group-hover:text-blue-300 transition-colors">
+              <h3 className="mb-2 max-w-lg text-balance text-xl font-bold leading-snug text-gray-950 transition-colors group-hover:text-[#1565c0] sm:text-[1.35rem]">
                 {inOtherNews.featured.title}
               </h3>
-              <div className="text-[12px] font-bold uppercase tracking-widest mb-4">
+              <p className="mb-3 text-[11px] font-bold uppercase tracking-widest text-gray-500">
                 By {inOtherNews.featured.author}
-              </div>
-              <p className="text-[15px] italic font-serif leading-relaxed max-w-sm border-t border-white/20 pt-4">
-                &ldquo;{inOtherNews.featured.quote}&rdquo;
               </p>
+              {inOtherNews.featured.quote && (
+                <p className="max-w-md border-t border-gray-200 pt-3 text-[14px] italic leading-relaxed text-gray-600 sm:text-[15px]">
+                  &ldquo;{inOtherNews.featured.quote}&rdquo;
+                </p>
+              )}
             </div>
           </Link>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 md:gap-10">
-            {puertoRicoGridSafe.map((news) => (
-              <NewsCard key={news.id} {...news} />
-            ))}
-          </div>
+          {puertoRicoGridSafe.map((news) => {
+            const href = `/${news.category}/${news.slug}`;
+            const iso = toISODate(news.date);
+            return (
+              <article
+                key={news.id}
+                className="group flex min-h-0 flex-col md:h-full"
+              >
+                {/* Image takes remaining space so the two cards share featured height */}
+                <div className="relative mb-2.5 aspect-[16/9] w-full shrink-0 overflow-hidden bg-gray-100 md:aspect-auto md:min-h-0 md:flex-1">
+                  <Link
+                    href={href}
+                    title={news.title}
+                    className="relative block h-full min-h-[120px] w-full md:min-h-0"
+                  >
+                    <Image
+                      src={news.image}
+                      alt={news.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
+                    />
+                    <span
+                      className={`absolute bottom-2 left-2 z-10 ${news.categoryColor} px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider text-white`}
+                    >
+                      {news.categoryLabel}
+                    </span>
+                  </Link>
+                </div>
+
+                <div className="shrink-0">
+                  <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-400">
+                    <Calendar size={11} aria-hidden="true" />
+                    <time dateTime={iso}>{news.date}</time>
+                  </div>
+                  <h3 className="mb-1 text-[15px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-blue-600">
+                    <Link href={href} title={news.title}>
+                      {news.title}
+                    </Link>
+                  </h3>
+                  <p className="mb-1 text-xs text-gray-500">
+                    By{" "}
+                    <Link
+                      href={authorHref(news.author)}
+                      title={`More articles by ${news.author}`}
+                      rel="author"
+                      className="font-semibold text-gray-700 transition-colors hover:text-blue-600"
+                    >
+                      {news.author}
+                    </Link>
+                  </p>
+                  {news.description && (
+                    <p className="line-clamp-2 text-sm leading-snug text-gray-600">
+                      {news.description}
+                    </p>
+                  )}
+                </div>
+              </article>
+            );
+          })}
         </div>
 
         {/* ── POLICE ACCOUNTABILITY SECTION ──────────────────────────────── */}

@@ -14,44 +14,47 @@ const InOtherNewsSection = ({ featured, grid }) => {
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
-        {/* Featured large card */}
+        {/* Featured large card — image fully visible, text below */}
         <Link
           href={`/${featured.category || "business"}/${featured.slug}`}
-          className="relative group cursor-pointer overflow-hidden h-125 md:h-auto border border-gray-200 block"
+          className="group flex flex-col overflow-hidden border border-gray-200 bg-white transition-shadow duration-300 hover:shadow-lg"
         >
-          <Image
-            src={featured.image}
-            alt={featured.title}
-            fill
-            sizes="(max-width: 768px) 100vw, 50vw"
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-black/50 group-hover:bg-black/60 transition-colors z-10" />
-          <div className="absolute inset-0 flex flex-col justify-end items-center text-center p-6 md:p-12 pb-12 md:pb-2 text-white z-20">
-            <div className="flex gap-2 mb-4 md:pb-40">
+          <div className="relative aspect-[16/10] w-full overflow-hidden bg-gray-100">
+            <Image
+              src={featured.image}
+              alt={featured.title}
+              fill
+              sizes="(max-width: 768px) 100vw, 50vw"
+              className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
+            />
+          </div>
+          <div className="flex flex-1 flex-col items-center px-5 py-6 text-center sm:px-8 sm:py-8">
+            <div className="mb-3 flex flex-wrap justify-center gap-2">
               {featured.categories.map((cat, idx) => (
                 <span
                   key={idx}
-                  className={`${cat.color} text-[10px] font-bold px-3 py-1 uppercase tracking-wider`}
+                  className={`${cat.color} px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-white`}
                 >
                   {cat.label}
                 </span>
               ))}
             </div>
             {featured.isSponsored && (
-              <div className="text-[12px] font-medium mb-2 flex items-center gap-1">
+              <div className="mb-2 text-[12px] font-medium text-gray-500">
                 🔔 Sponsored content
               </div>
             )}
-            <h3 className="text-2xl font-bold leading-tight mb-4 max-w-md">
+            <h3 className="mb-3 max-w-lg text-balance text-xl font-bold leading-snug text-gray-950 transition-colors group-hover:text-[#1565c0] sm:text-2xl">
               {featured.title}
             </h3>
-            <div className="text-[12px] font-bold uppercase tracking-widest mb-6">
+            <p className="mb-4 text-[11px] font-bold uppercase tracking-widest text-gray-500">
               By {featured.author}
-            </div>
-            <p className="text-[16px] italic font-serif leading-relaxed max-w-sm border-t border-white/20 pt-4">
-              "{featured.quote}"
             </p>
+            {featured.quote && (
+              <p className="max-w-md border-t border-gray-200 pt-4 text-[15px] italic leading-relaxed text-gray-600 sm:text-base">
+                &ldquo;{featured.quote}&rdquo;
+              </p>
+            )}
           </div>
         </Link>
 

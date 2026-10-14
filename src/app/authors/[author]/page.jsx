@@ -224,24 +224,27 @@ function NewsListCard({ card }) {
   const iso = toISODate(a.date);
 
   return (
-    <article className="flex flex-col sm:flex-row border-b border-gray-200 pb-4 mb-6 last:border-0 last:mb-0">
-      <div className="w-full sm:w-[220px] md:w-[240px] flex-shrink-0 h-[180px] sm:h-[160px] overflow-hidden group">
-        {/* FIX: title attr on image link */}
-        <Link href={href} title={a.title} className="relative block w-full h-full">
+    <article className="mb-6 flex flex-col border-b border-gray-200 pb-4 last:mb-0 last:border-0 sm:flex-row">
+      <div className="group w-full flex-shrink-0 overflow-hidden sm:w-[240px] md:w-[280px]">
+        <Link
+          href={href}
+          title={a.title}
+          className="relative block aspect-[2/1] w-full bg-gray-100"
+        >
           <Image
             src={a.image}
             alt={a.title}
             fill
-            sizes="(max-width:768px) 100vw, 240px"
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, 280px"
+            className="object-cover object-center transition-transform duration-500 group-hover:scale-105"
           />
           {a.hasVideo && <PlayIcon />}
-          <div className="absolute bottom-2 left-2 flex gap-1 flex-wrap z-10">
+          <div className="absolute bottom-2 left-2 z-10 flex flex-wrap gap-1">
             {hasTags
               ? a.tags.map((t) => (
                   <span
                     key={t.label}
-                    className={`${t.color} text-white text-[10px] font-bold px-2 py-0.5 uppercase tracking-wide`}
+                    className={`${t.color} px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-white`}
                   >
                     {t.label}
                   </span>
