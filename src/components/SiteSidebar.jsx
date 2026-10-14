@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Bell } from "lucide-react";
 import homepageData from "@/data/homepage.json";
 import StickyAd from "@/components/StickyAd";
+import StickyColumn from "@/components/StickyColumn";
 import NewsletterSidebar from "@/components/NewsletterSidebar";
 import { getLatestArticles } from "@/lib/latest-articles";
 
@@ -14,6 +15,11 @@ import { getLatestArticles } from "@/lib/latest-articles";
  *  - activeCategory: slug of the category being viewed (highlights its chip)
  *  - showNewsletter: show the sign-up box under the categories
  *  - excludeSlug: slug of the article being read, kept out of "Latest Today"
+ *  - showAd: show the sticky vertical ad (homepage only)
+ *  - sticky: keep Latest Today + Categories pinned while the page scrolls,
+ *    from the top of the news listing down to the footer (category + author
+ *    pages). Off by default so the homepage and article pages behave exactly
+ *    as before.
  */
 
 function toISODate(dateStr) {
@@ -114,46 +120,75 @@ export default function SiteSidebar({
   activeCategory,
   showNewsletter = false,
   excludeSlug,
+  showAd = false,
+  sticky = false,
 }) {
   const latest = getLatestArticles(4, excludeSlug);
   const categories = homepageData.categories || [];
 
+  // Sticky needs a Wrapper that is allowed to travel down the column.
+  const Wrapper = sticky ? StickyColumn : "div";
+  const wrapperProps = sticky ? {} : { className: "lg:sticky lg:top-[76px] lg:z-10" };
+
   return (
     <aside
-      className="w-full flex-shrink-0 lg:w-[280px] xl:w-[300px]"
+      // A sticky child can only move inside its parent, so when `sticky` is on
+      // the <aside> must stretch to the full row height (no `lg:self-start`).
+      className={`w-full flex-shrink-0 lg:w-[280px] xl:w-[300px] ${
+        sticky ? "" : "lg:self-start"
+      }`}
       aria-label="Sidebar — Latest articles and categories"
     >
-      <StickyAd />
+      {/* Homepage only — original sticky vertical ad */}
+      {showAd && <StickyAd />}
 
-      {latest.length > 0 && (
-        <section aria-labelledby="sidebar-latest-heading" className="mb-10">
-          <h2 id="sidebar-latest-heading" className={SECTION_HEADING}>
-            Latest Today
-          </h2>
-          <ul className="mt-5 grid gap-6 md:grid-cols-2 md:gap-x-8 lg:grid-cols-1">
-            {latest.map((item, i) => (
-              <LatestItem key={item.id ?? item.slug} item={item} lead={i === 0} />
-            ))}
-          </ul>
-        </section>
-      )}
+      {/*
+        Latest Today + Categories.
+        sticky=true  → <StickyColumn> pins them while the news listing scrolls,
+                       from the top of the listing down to the footer.
+        sticky=false → unchanged legacy wrapper (homepage / article pages).
+        No ad on category/author pages (showAd=false).
+      */}
+      <Wrapper {...wrapperProps}>
+        {latest.length > 0 && (
+          <section
+            aria-labelledby="sidebar-latest-heading"
+            className="mb-10 rounded-lg bg-white"
+          >
+            <h2 id="sidebar-latest-heading" className={SECTION_HEADING}>
+              Latest Today
+            </h2>
+            <ul className="mt-5 grid gap-6 md:grid-cols-2 md:gap-x-8 lg:grid-cols-1">
+              {latest.map((item, i) => (
+                <LatestItem key={item.id ?? item.slug} item={item} lead={i === 0} />
+              ))}
+            </ul>
+          </section>
+        )}
 
-      {categories.length > 0 && (
-        <nav aria-labelledby="sidebar-categories-heading" className="mb-10">
-          <h2 id="sidebar-categories-heading" className={SECTION_HEADING}>
-            Categories
-          </h2>
-          <ul className="mt-5 flex flex-wrap gap-2">
-            {categories.map((cat) => (
-              <li key={cat.category}>
-                <CategoryChip cat={cat} active={cat.category === activeCategory} />
-              </li>
-            ))}
-          </ul>
-        </nav>
-      )}
+        {categories.length > 0 && (
+          <nav
+            aria-labelledby="sidebar-categories-heading"
+            className="mb-10 rounded-lg bg-white"
+          >
+            <h2 id="sidebar-categories-heading" className={SECTION_HEADING}>
+              Categories
+            </h2>
+            <ul className="mt-5 flex flex-wrap gap-2">
+              {categories.map((cat) => (
+                <li key={cat.category}>
+                  <CategoryChip
+                    cat={cat}
+                    active={cat.category === activeCategory}
+                  />
+                </li>
+              ))}
+            </ul>
+          </nav>
+        )}
 
-      {showNewsletter && <NewsletterSidebar />}
+        {showNewsletter && <NewsletterSidebar />}
+      </Wrapper>
     </aside>
   );
 }

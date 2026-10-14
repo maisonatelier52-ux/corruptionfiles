@@ -4,11 +4,13 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link"; 
 import Image from "next/image";
 
-export default function StickyAd() {
+export default function StickyAd({ enableSticky = true }) {
   const containerRef = useRef(null);
   const [trackHeight, setTrackHeight] = useState('auto');
 
   useEffect(() => {
+    if (!enableSticky) return;
+
     const updateTrackHeight = () => {
       const sentinel = document.getElementById("ad-sentinel");
       const container = containerRef.current;
@@ -31,7 +33,32 @@ export default function StickyAd() {
       window.removeEventListener('resize', updateTrackHeight);
       clearTimeout(timer);
     };
-  }, []);
+  }, [enableSticky]);
+
+  // When nested inside an already-sticky sidebar, render as a normal block
+  // so it does not fight the header sticky offset.
+  if (!enableSticky) {
+    return (
+      <div className="mb-8" aria-label="Corruption Files Advertisement">
+        <Link 
+          href="https://www.corruptionfiles.com/"
+          className="block group transition-all duration-300 hover:brightness-110"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="relative w-full aspect-[9/16] max-w-[400px] mx-auto overflow-hidden rounded-lg shadow-sm ring-1 ring-black/5">
+            <Image
+              src="/corruptionfiles-quote-ver.webp" 
+              alt="Corruption Files - Your Hive for Sharp News & Vision"
+              fill
+              sizes="(max-width: 768px) 100vw, 400px"
+              className="object-cover"
+            />
+          </div>
+        </Link>
+      </div>
+    );
+  }
 
   return (
     <div ref={containerRef} style={{ height: trackHeight }} className="relative mb-10">

@@ -1086,7 +1086,7 @@ export default function Home() {
             ))}
           </div>
 
-          <SiteSidebar />
+          <SiteSidebar showAd />
         </div>
 
         {/* ── ENVIRONMENTAL EXPLOITATION SECTION ─────────────────────────── */}

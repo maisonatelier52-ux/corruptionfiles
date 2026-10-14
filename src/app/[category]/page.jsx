@@ -564,7 +564,10 @@ export default async function CategoryPage({ params }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
 
-      <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">
+      {/* lg:pb-6 — the bottom spacing is split between this wrapper (24px) and
+          the feed column (56px) so the sticky sidebar can travel down to the
+          footer while the feed still ends 80px above it. */}
+      <div className="max-w-7xl mx-auto px-4 pt-4 pb-20 lg:pb-6">
 
         {/* CategoryHero contains the page H1 and breadcrumb nav */}
         <CategoryHero
@@ -576,7 +579,7 @@ export default async function CategoryPage({ params }) {
         <div className="flex flex-col lg:flex-row gap-8">
 
           {/* ── Main article feed ──────────────────────────────────────── */}
-          <div className="flex-1 min-w-0">
+          <div className="flex-1 min-w-0 lg:pb-14">
             {articles.length === 0 ? (
               <EmptyState categoryName={meta.label} />
             ) : (
@@ -614,7 +617,7 @@ export default async function CategoryPage({ params }) {
           </div>
 
           {/* ── Sidebar (shared component) ─────────────────────────────── */}
-          <SiteSidebar activeCategory={category} />
+          <SiteSidebar activeCategory={category} sticky />
         </div>
       </div>
     </main>

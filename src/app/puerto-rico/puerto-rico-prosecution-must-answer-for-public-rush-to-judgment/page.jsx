@@ -154,20 +154,30 @@ const BODY_BLOCKS = [
     text: "WASHINGTON — The federal prosecution of Wanda Vázquez Garced, Julio Herrera Velutini and Mark Rossini deserves scrutiny for more than its controversial ending. The government spoke about the accused in language that treated criminal wrongdoing as settled before the case had been tried. Rossini now alleges that fear of public anger helped keep the prosecution alive. The first concern is documented. The second demands an answer.",
   },
   {
-    type: "paragraph",
-    text: "At the announcement of the case in August 2022, then-U.S. Attorney Stephen Muldrow referred to the defendants’ “criminal actions” and said they “strike a blow to the heart of our democracy.” In the same release, the Justice Department acknowledged that an indictment was only an allegation. That tension is the starting point for an overdue examination of how the prosecution exercised its power.",
+    type: "text-with-aside",
+    paragraphs: [
+      "At the announcement of the case in August 2022, then-U.S. Attorney Stephen Muldrow referred to the defendants’ “criminal actions” and said they “strike a blow to the heart of our democracy.” In the same release, the Justice Department acknowledged that an indictment was only an allegation. That tension is the starting point for an overdue examination of how the prosecution exercised its power.[1]",
+      "In my view, that public language crossed the line between explaining an accusation and pronouncing judgment. A prosecutor’s words carry the authority of the government. Describing accused people as having committed criminal acts invites the public to reach a conclusion the court has not reached. A presumption of innocence at the bottom of a press release cannot be expected to undo that impression.",
+    ],
+    image: {
+      src: "/william-stephen-muldrow-official-portrait.webp",
+      alt: "Official portrait of William Stephen Muldrow, former U.S. Attorney for the District of Puerto Rico",
+      caption: "William Stephen Muldrow",
+      subcaption: "Former U.S. Attorney for the District of Puerto Rico",
+    },
   },
   {
-    type: "paragraph",
-    text: "In my view, that public language crossed the line between explaining an accusation and pronouncing judgment. A prosecutor’s words carry the authority of the government. Describing accused people as having committed criminal acts invites the public to reach a conclusion the court has not reached. A presumption of innocence at the bottom of a press release cannot be expected to undo that impression.",
-  },
-  {
-    type: "paragraph",
-    text: "Rossini’s account, reported by El Nuevo Día on October 9, 2026, adds a more troubling allegation. The former FBI agent, who received a presidential pardon alongside Vázquez Garced and Herrera Velutini, believes federal prosecutors maintained charges until the end to avoid “the wrath of the people of Puerto Rico.”",
-  },
-  {
-    type: "paragraph",
-    text: "His comments appear in Agente Rossini, by Spanish journalist Álvaro Soto. The book recounts Rossini’s life and career, including his assignment to the CIA before the September 11, 2001, terrorist attacks. Its account of the Puerto Rico proceedings places a former federal investigator on the other side of the machinery he once served.",
+    type: "text-with-aside",
+    paragraphs: [
+      "Rossini’s account, reported by El Nuevo Día on October 9, 2026, adds a more troubling allegation. The former FBI agent, who received a presidential pardon alongside Vázquez Garced and Herrera Velutini, believes federal prosecutors maintained charges until the end to avoid “the wrath of the people of Puerto Rico.”[2]",
+      "His comments appear in Agente Rossini, by Spanish journalist Álvaro Soto. The book recounts Rossini’s life and career, including his assignment to the CIA before the September 11, 2001, terrorist attacks. Its account of the Puerto Rico proceedings places a former federal investigator on the other side of the machinery he once served.[3]",
+    ],
+    image: {
+      src: "/agente-rossini.webp",
+      alt: "Cover of Agente Rossini by Álvaro Soto",
+      caption: "Agente Rossini",
+      subcaption: "La historia del hombre que pudo haber evitado el 11-S",
+    },
   },
   {
     type: "paragraph",
@@ -187,7 +197,7 @@ const BODY_BLOCKS = [
   },
   {
     type: "paragraph",
-    text: "The Justice Department’s own prosecution principles exclude a person’s political associations or beliefs, a prosecutor’s personal feelings, and the effect on the prosecutor’s professional or personal circumstances from charging decisions. They also prohibit using charges simply to pressure a guilty plea. These are internal standards, not a finding that misconduct occurred here. They explain why Rossini’s allegations warrant serious scrutiny.",
+    text: "The Justice Department’s own prosecution principles exclude a person’s political associations or beliefs, a prosecutor’s personal feelings, and the effect on the prosecutor’s professional or personal circumstances from charging decisions. They also prohibit using charges simply to pressure a guilty plea. These are internal standards, not a finding that misconduct occurred here. They explain why Rossini’s allegations warrant serious scrutiny.[4]",
   },
   {
     type: "paragraph",
@@ -195,15 +205,15 @@ const BODY_BLOCKS = [
   },
   {
     type: "paragraph",
-    text: "The chronology must also be stated correctly. The prosecution concerned alleged conduct connected to Vázquez Garced’s 2020 gubernatorial campaign, but DOJ publicly announced the original indictment and her arrest on August 4, 2022, during Biden’s presidency. October 2020 was not the date of that announcement. Any argument about political motivation must respect this distinction.",
+    text: "The chronology must also be stated correctly. The prosecution concerned alleged conduct connected to Vázquez Garced’s 2020 gubernatorial campaign, but DOJ publicly announced the original indictment and her arrest on August 4, 2022, during Biden’s presidency. October 2020 was not the date of that announcement. Any argument about political motivation must respect this distinction.[1]",
   },
   {
     type: "paragraph",
-    text: "The original accusations included conspiracy, federal programs bribery and honest services wire fraud. They were serious allegations. Their seriousness made disciplined public language especially important; it did not relieve the government of the obligation to treat them as allegations.",
+    text: "The original accusations included conspiracy, federal programs bribery and honest services wire fraud. They were serious allegations. Their seriousness made disciplined public language especially important; it did not relieve the government of the obligation to treat them as allegations.[1]",
   },
   {
     type: "paragraph",
-    text: "DOJ’s media policy permits officials to describe charges and discuss their public significance. It also directs them to refrain from expressing opinions about an accused person’s guilt before a finding of guilt and prohibits statements likely to materially prejudice proceedings. Whether Muldrow’s remarks amounted to a formal policy violation would require a proper review. The criticism here is that his wording conveyed certainty where restraint was required.",
+    text: "DOJ’s media policy permits officials to describe charges and discuss their public significance. It also directs them to refrain from expressing opinions about an accused person’s guilt before a finding of guilt and prohibits statements likely to materially prejudice proceedings. Whether Muldrow’s remarks amounted to a formal policy violation would require a proper review. The criticism here is that his wording conveyed certainty where restraint was required.[5]",
   },
   {
     type: "paragraph",
@@ -211,7 +221,7 @@ const BODY_BLOCKS = [
   },
   {
     type: "paragraph",
-    text: "On August 27, 2025, Vázquez Garced, Herrera Velutini and Rossini pleaded guilty to narrower misdemeanor campaign-finance charges as part of agreements to resolve the original felony prosecution. Those pleas were real legal admissions. Rossini’s description of his plea as a compromise does not erase it. Equally, the misdemeanor pleas did not establish the original felony accusations.",
+    text: "On August 27, 2025, Vázquez Garced, Herrera Velutini and Rossini pleaded guilty to narrower misdemeanor campaign-finance charges as part of agreements to resolve the original felony prosecution. Those pleas were real legal admissions. Rossini’s description of his plea as a compromise does not erase it. Equally, the misdemeanor pleas did not establish the original felony accusations.[6]",
   },
   {
     type: "paragraph",
@@ -219,15 +229,15 @@ const BODY_BLOCKS = [
   },
   {
     type: "paragraph",
-    text: "DOJ’s principles require prosecutors to keep reviewing the evidence after charges are filed and to dismiss charges they determine are no longer readily provable or appropriate. That duty makes reassessment part of responsible prosecution. It also makes the reasons for the final charging decisions important.",
+    text: "DOJ’s principles require prosecutors to keep reviewing the evidence after charges are filed and to dismiss charges they determine are no longer readily provable or appropriate. That duty makes reassessment part of responsible prosecution. It also makes the reasons for the final charging decisions important.[4]",
   },
   {
     type: "paragraph",
-    text: "Official DOJ records list presidential pardons for all three defendants dated January 15, 2026, followed by amended pardons on January 20 covering the campaign-contribution offenses. The register lists no sentence for those cases.",
+    text: "Official DOJ records list presidential pardons for all three defendants dated January 15, 2026, followed by amended pardons on January 20 covering the campaign-contribution offenses. The register lists no sentence for those cases.[7]",
   },
   {
     type: "paragraph",
-    text: "On January 27, 2026, U.S. District Judge Silvia L. Carreño-Coll dismissed Herrera Velutini’s original felony case as moot following his acceptance of the presidential pardon. That judgment records the reason for dismissal; it makes no finding of factual innocence.",
+    text: "On January 27, 2026, U.S. District Judge Silvia L. Carreño-Coll dismissed Herrera Velutini’s original felony case as moot following his acceptance of the presidential pardon. That judgment records the reason for dismissal; it makes no finding of factual innocence.[9]",
   },
   {
     type: "paragraph",
@@ -235,7 +245,7 @@ const BODY_BLOCKS = [
   },
   {
     type: "paragraph",
-    text: "The pardons must also be described accurately. They do not, by themselves, substantiate Rossini’s allegations about prosecutorial motives or constitute a judicial finding of innocence. DOJ’s published guidance expressly distinguishes a pardon from a determination of innocence.",
+    text: "The pardons must also be described accurately. They do not, by themselves, substantiate Rossini’s allegations about prosecutorial motives or constitute a judicial finding of innocence. DOJ’s published guidance expressly distinguishes a pardon from a determination of innocence.[8]",
   },
   {
     type: "paragraph",
@@ -326,6 +336,31 @@ export async function generateMetadata() {
 }
 
 // ─── PAGE ────────────────────────────────────────────────────────────────────
+
+
+/** Turn "text.[3] more" into text + clickable citation anchors that jump to #source-N */
+function renderTextWithCitations(text) {
+  if (!text) return null;
+  const parts = String(text).split(/(\[\d+\])/g);
+  return parts.map((part, i) => {
+    const m = part.match(/^\[(\d+)\]$/);
+    if (m) {
+      const n = m[1];
+      return (
+        <a
+          key={i}
+          href={`#source-${n}`}
+          className="citation-ref ml-0.5 inline-flex translate-y-[-0.15em] items-center rounded-sm bg-[#e3f2fd] px-1 py-0.5 text-[0.75em] font-bold leading-none text-[#1565c0] no-underline transition-colors hover:bg-[#1565c0] hover:text-white"
+          title={`Go to source ${n}`}
+          aria-label={`Citation ${n}, jump to source`}
+        >
+          [{n}]
+        </a>
+      );
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
 
 export default function PuertoRicoProsecutionOpinionPage() {
   const readMinutes = estimateReadingMinutes(BODY_BLOCKS);
@@ -524,7 +559,7 @@ export default function PuertoRicoProsecutionOpinionPage() {
                 return (
                   <blockquote
                     key={idx}
-                    className="my-8 border-l-4 border-[#2196f3] bg-gray-50 py-4 pl-5 pr-4 text-[1.05rem] italic leading-relaxed text-gray-800 sm:pl-6"
+                    className="my-8 clear-both border-l-4 border-[#2196f3] bg-gray-50 py-4 pl-5 pr-4 text-[1.05rem] italic leading-relaxed text-gray-800 sm:pl-6"
                   >
                     <p className="m-0">“{block.text}”</p>
                   </blockquote>
@@ -534,10 +569,93 @@ export default function PuertoRicoProsecutionOpinionPage() {
                 return (
                   <h2
                     key={idx}
-                    className="mb-4 mt-10 text-[1.35rem] font-bold tracking-tight text-gray-950"
+                    className="mb-4 mt-10 clear-both text-[1.35rem] font-bold tracking-tight text-gray-950"
                   >
                     {block.text}
                   </h2>
+                );
+              }
+              /* Text left + aside image right — tight grid, no empty float gap */
+              if (block.type === "text-with-aside") {
+                const img = block.image || {};
+                const paras = block.paragraphs || (block.text ? [block.text] : []);
+                return (
+                  <div
+                    key={idx}
+                    className="mb-6 grid grid-cols-1 items-start gap-4 sm:grid-cols-[minmax(0,1fr)_auto] sm:gap-5"
+                  >
+                    <div className="min-w-0">
+                      {paras.map((para, pi) => (
+                        <p
+                          key={pi}
+                          className="mb-5 text-[1.05rem] leading-[1.75] text-gray-800 last:mb-0 sm:text-[1.075rem] sm:leading-[1.8]"
+                        >
+                          {renderTextWithCitations(para)}
+                        </p>
+                      ))}
+                    </div>
+                    {/* auto column = only as wide as the cover — no empty gap on the right */}
+                    <figure className="mx-auto w-[150px] justify-self-end sm:mx-0 sm:w-[170px] md:w-[180px]">
+                      <div className="overflow-hidden rounded-md border border-gray-200 bg-white shadow-sm">
+                        <Image
+                          src={img.src}
+                          alt={img.alt || ""}
+                          width={360}
+                          height={540}
+                          sizes="180px"
+                          className="h-auto w-full object-contain"
+                        />
+                      </div>
+                      {(img.caption || img.subcaption) && (
+                        <figcaption className="mt-2 text-left">
+                          {img.caption && (
+                            <p className="text-[13px] font-semibold leading-snug text-gray-900">
+                              {img.caption}
+                            </p>
+                          )}
+                          {img.subcaption && (
+                            <p className="mt-0.5 text-[12px] leading-snug text-gray-500">
+                              {img.subcaption}
+                            </p>
+                          )}
+                        </figcaption>
+                      )}
+                    </figure>
+                  </div>
+                );
+              }
+              /* Float image — magazine style, text wraps beside it */
+              if (block.type === "float-image" || block.type === "image") {
+                return (
+                  <figure
+                    key={idx}
+                    className="float-right mb-4 ml-4 w-[42%] max-w-[200px] sm:ml-6 sm:max-w-[220px]"
+                  >
+                    <div className="overflow-hidden rounded-md border border-gray-200 bg-gray-50 shadow-sm">
+                      <Image
+                        src={block.src}
+                        alt={block.alt || ""}
+                        width={440}
+                        height={660}
+                        sizes="(max-width: 640px) 42vw, 220px"
+                        className="h-auto w-full object-cover object-top"
+                      />
+                    </div>
+                    {(block.caption || block.subcaption) && (
+                      <figcaption className="mt-2 text-left">
+                        {block.caption && (
+                          <p className="text-[13px] font-semibold leading-snug text-gray-900">
+                            {block.caption}
+                          </p>
+                        )}
+                        {block.subcaption && (
+                          <p className="mt-0.5 text-[12px] leading-snug text-gray-500">
+                            {block.subcaption}
+                          </p>
+                        )}
+                      </figcaption>
+                    )}
+                  </figure>
                 );
               }
               return (
@@ -545,17 +663,33 @@ export default function PuertoRicoProsecutionOpinionPage() {
                   key={idx}
                   className="mb-5 text-[1.05rem] leading-[1.75] text-gray-800 sm:text-[1.075rem] sm:leading-[1.8]"
                 >
-                  {block.text}
+                  {renderTextWithCitations(block.text)}
                 </p>
               );
             })}
+            <div className="clear-both" aria-hidden="true" />
           </div>
 
-          {/* Sources */}
+          {/* Disclosure */}
+          <aside
+            aria-label="Disclosure"
+            className="mx-auto mt-12 max-w-3xl rounded-2xl border border-amber-200/80 bg-amber-50/70 px-5 py-4 sm:px-6 sm:py-5"
+          >
+            <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-amber-800/80">
+              Disclosure
+            </p>
+            <p className="mt-1.5 text-[14px] leading-relaxed text-amber-950/85 sm:text-[15px]">
+              This article was provided to Corruption Files by representatives
+              of a person named in it. The opinions expressed are the
+              author&apos;s. The sources used are linked at the end of the page.
+            </p>
+          </aside>
+
+          {/* Sources — modern dotted container */}
           <section
             id="sources"
             aria-labelledby="article-sources-heading"
-            className="mx-auto mt-12 max-w-3xl scroll-mt-24 border-t border-gray-200 pt-8"
+            className="mx-auto mt-8 max-w-3xl scroll-mt-24 rounded-2xl border border-dashed border-gray-300 bg-gradient-to-b from-gray-50/80 to-white p-5 shadow-[inset_0_1px_0_rgba(255,255,255,0.8)] sm:p-7"
           >
             <h2
               id="article-sources-heading"
@@ -563,11 +697,15 @@ export default function PuertoRicoProsecutionOpinionPage() {
             >
               Sources
             </h2>
-            <ol className="mt-6 space-y-0 divide-y divide-gray-100">
+            <p className="mt-1 text-center text-[13px] text-gray-500">
+              Click a citation number in the article to jump here
+            </p>
+            <ol className="mt-5 space-y-0 divide-y divide-gray-100/90">
               {ARTICLE.sources.map((source, idx) => (
                 <li
                   key={`${source.label}-${idx}`}
-                  className="flex items-start gap-4 py-3.5 first:pt-0"
+                  id={`source-${idx + 1}`}
+                  className="source-item flex scroll-mt-28 items-start gap-4 rounded-xl px-2 py-3.5 transition-all duration-300 first:pt-3.5 target:bg-[#e3f2fd] target:ring-2 target:ring-[#2196f3]/40 target:ring-offset-2"
                 >
                   <span
                     className="w-5 flex-none pt-0.5 text-right text-sm font-semibold tabular-nums text-gray-400"

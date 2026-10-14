@@ -248,10 +248,11 @@ const Header = () => {
         </div>
       </div>
 
-      {/* ── 3. PRIMARY NAVIGATION (STICKY) ──────────────────────── */}
+      {/* ── 3. PRIMARY NAVIGATION (scrolls away with the page — not sticky) ── */}
+      {/* `relative z-[100]` (instead of sticky) keeps the nav + its shadow stacked above <main> exactly as before. */}
       <nav
         aria-label="Main navigation"
-        className="sticky top-0 z-[100] w-full bg-white border-t border-black border-b border-gray-200 hidden md:block shadow-md"
+        className="relative z-[100] w-full bg-white border-t border-black border-b border-gray-200 hidden md:block shadow-md"
       >
         <div className="max-w-7xl mx-auto px-4">
           <ul className="flex justify-center items-center gap-12 py-4 font-bold uppercase text-[13px] tracking-[0.15em] list-none m-0 p-0">
