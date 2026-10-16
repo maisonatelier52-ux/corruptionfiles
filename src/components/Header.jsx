@@ -5,7 +5,6 @@ import Link from 'next/link';
 import {
   Instagram, ChevronLeft, ChevronRight, Menu, X, ChevronRight as ArrowRight
 } from 'lucide-react';
-import homepageData from "@/data/homepage.json";
 
 // Shared Icon Helper
 const SocialIcon = ({ platform }) => {
@@ -20,8 +19,10 @@ const SocialIcon = ({ platform }) => {
         <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
       </svg>
     );
-    case "substack": return <img src="/substack.webp" alt="" className={imgClass} aria-hidden="true" />;
-    case "medium":   return <img src="/medium.webp"   alt="" className={imgClass} aria-hidden="true" />;
+    // loading="lazy": these icons are hidden on phones (`hidden sm:flex`), so there is no
+    // reason to download or preload them there while the LCP image is loading.
+    case "substack": return <img src="/substack.webp" alt="" loading="lazy" decoding="async" className={imgClass} aria-hidden="true" />;
+    case "medium":   return <img src="/medium.webp"   alt="" loading="lazy" decoding="async" className={imgClass} aria-hidden="true" />;
     default: return null;
   }
 };
@@ -34,38 +35,9 @@ const SOCIAL_LINKS = [
   { id: 'medium',    href: '#',                                                 label: 'Read us on Medium'        },
 ];
 
-// ─── Article Collection Logic ──────────────────────────────────────────────
-function collectLatestArticles(count = 4) {
-  const all = [];
-  const push = (arr) => {
-    if (!Array.isArray(arr)) return;
-    arr.forEach((a) => { if (a?.slug && a?.title && a?.date) all.push(a); });
-  };
-  push(homepageData.politicsNews);
-  push(homepageData.secondaryNews);
-  push(homepageData.inOtherNews?.grid);
-  push(homepageData.healthcareNews);
-  push(homepageData.worldNews?.sidebar);
-  push(homepageData.discoveryMiddle);
-  push(homepageData.discoveryRight);
-  push(homepageData.technologyNews);
-  push(homepageData.trendingSectionData);
-  push(homepageData.newsCards);
-
-  [homepageData.discoveryMain, homepageData.worldNews?.main, homepageData.inOtherNews?.featured]
-    .forEach((a) => { if (a?.slug && a?.title && a?.date) all.push(a); });
-
-  const seen = new Set();
-  const unique = all.filter((a) => {
-    if (seen.has(a.slug)) return false;
-    seen.add(a.slug);
-    return true;
-  });
-  unique.sort((a, b) => new Date(b.date) - new Date(a.date));
-  return unique.slice(0, count);
-}
-
-const LATEST_ARTICLES   = collectLatestArticles(4);
+// The ticker headlines now arrive as the `latestArticles` prop (see getTickerArticles()
+// in src/lib/latest-articles.js, called from layout.js), so homepage.json is no longer
+// bundled into the browser JavaScript.
 const TICKER_INTERVAL_MS = 3000;
 
 const NAV_LINKS = [
@@ -79,14 +51,14 @@ const NAV_LINKS = [
   { name: 'Offshore',      href: '/offshore'      },
 ];
 
-const Header = () => {
+const Header = ({ latestArticles = [] }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [dateInfo, setDateInfo]     = useState({ display: "", iso: "" });
   const [tickerIndex, setTickerIndex] = useState(0);
   const [visible, setVisible]       = useState(true);
   const intervalRef                 = useRef(null);
 
-  const total = LATEST_ARTICLES.length;
+  const total = latestArticles.length;
 
   useEffect(() => {
     const now = new Date();
@@ -134,7 +106,7 @@ const Header = () => {
 
   const toggleMenu = useCallback(() => setIsMenuOpen((o) => !o), []);
 
-  const current = LATEST_ARTICLES[tickerIndex];
+  const current = latestArticles[tickerIndex];
 
   return (
     <>

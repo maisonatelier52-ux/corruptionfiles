@@ -2,10 +2,16 @@ import { UnifrakturMaguntia, Inter } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { getTickerArticles } from "@/lib/latest-articles";
 
-const inter = Inter({ 
+// Inter is not used by any element today (only the CSS variable is defined), so it
+// must not be preloaded: the preload made every page download ~48 KB of font at
+// high priority, competing with the LCP image. With `preload: false` the font is
+// still available via var(--font-inter) and only downloads if something uses it.
+const inter = Inter({
   subsets: ["latin"],
-  variable: "--font-inter", 
+  variable: "--font-inter",
+  preload: false,
 });
 
 const corruptionfilesFont = UnifrakturMaguntia({
@@ -50,11 +56,15 @@ export const metadata = {
 
 // layout.js check
 export default function RootLayout({ children }) {
+  // Picked on the server so the 57 KB homepage.json is no longer bundled into the
+  // browser JavaScript just to show 4 headlines in the "LATEST" ticker.
+  const tickerArticles = getTickerArticles(4);
+
   return (
     <html lang="en">
       {/* Ensure no overflow-hidden here */}
       <body className={`${inter.variable} ${corruptionfilesFont.variable} font-sans bg-white flex flex-col min-h-screen`}>
-        <Header />
+        <Header latestArticles={tickerArticles} />
         <main className="flex-grow">
           {children}
         </main>

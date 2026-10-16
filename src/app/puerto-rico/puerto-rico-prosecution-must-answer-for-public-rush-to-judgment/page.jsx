@@ -543,6 +543,7 @@ export default function PuertoRicoProsecutionOpinionPage() {
                 alt={ARTICLE.alt}
                 fill
                 priority
+                fetchPriority="high"
                 sizes="(max-width: 1024px) 100vw, 1024px"
                 className="object-cover"
               />
