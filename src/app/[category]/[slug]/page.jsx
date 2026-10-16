@@ -808,7 +808,7 @@ export default async function ArticlePage({ params }) {
           </div>
 
           {/* Sidebar (shared with home, category and author pages) */}
-          <SiteSidebar activeCategory={category} showNewsletter excludeSlug={slug} />
+          <SiteSidebar activeCategory={category} showNewsletter excludeSlug={slug} sticky />
         </div>
       </div>
     </div>
