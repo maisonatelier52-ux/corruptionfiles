@@ -1,27 +1,22 @@
-import React from 'react';
+import React from "react";
+import Image from "next/image";
 
 const AdBanner = () => {
   return (
-    /* 1. We keep the container width constraints */
     <aside className="w-full max-w-6xl mx-auto px-4 mb-8" aria-label="Advertisement">
-      
-      <a 
-        href="https://www.corruptionfiles.com" 
-        target="_blank" 
+      <a
+        href="https://www.corruptionfiles.com"
+        target="_blank"
         rel="noopener noreferrer"
-        /* FIX: Removed 'h-[80px]' and 'md:h-[120px]'. 
-           'h-auto' allows the link to grow as tall as the image actually is.
-        */
         className="block w-full h-auto bg-[#4B2588] overflow-hidden border border-gray-100 rounded-sm shadow-sm transition-opacity hover:opacity-90"
       >
-        <img 
-          src="/corruptionfiles-quote-hor.webp" 
+        <Image
+          src="/corruptionfiles-quote-hor.webp"
           alt="Corruptionfiles: Real stories, real impact. Click to visit corruptionfiles.com"
-          /* FIX: Changed 'object-cover' (which crops) to 'object-contain' (which shows everything).
-             'w-full h-auto' ensures it scales down perfectly on mobile like a photo.
-          */
+          width={1200}
+          height={198}
+          sizes="(max-width: 1152px) 100vw, 1152px"
           className="w-full h-auto block object-contain"
-          loading="lazy" 
         />
       </a>
     </aside>

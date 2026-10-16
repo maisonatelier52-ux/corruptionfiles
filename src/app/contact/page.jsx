@@ -34,7 +34,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -100,6 +100,6 @@ export default function ContactPage() {
           <p className="mt-8 text-sm text-gray-500">Last Updated: June 22, 2026</p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

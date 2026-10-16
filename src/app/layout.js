@@ -20,6 +20,12 @@ const corruptionfilesFont = UnifrakturMaguntia({
   variable: "--font-corruptionfiles", // This creates the CSS variable
 });
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#ffffff",
+};
+
 export const metadata = {
   metadataBase: new URL('https://www.corruptionfiles.com'),
   title: {
@@ -35,11 +41,13 @@ export const metadata = {
     siteName: 'Corruption Files',
     locale: 'en_US',
     type: 'website',
+    images: [{ url: '/og-twitter.webp', width: 1200, height: 675, alt: 'Corruption Files' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: "Corruption Files",
     description: "Breaking news and in-depth analysis.",
+    images: ['/og-twitter.webp'],
   },
   robots: {
     index: true,
@@ -64,8 +72,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       {/* Ensure no overflow-hidden here */}
       <body className={`${inter.variable} ${corruptionfilesFont.variable} font-sans bg-white flex flex-col min-h-screen`}>
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:left-3 focus:top-3 focus:z-[100] focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-gray-900 focus:shadow-lg focus:ring-2 focus:ring-[#1565c0]"
+        >
+          Skip to content
+        </a>
         <Header latestArticles={tickerArticles} />
-        <main className="flex-grow">
+        <main id="main-content" className="flex-grow">
           {children}
         </main>
         <Footer />

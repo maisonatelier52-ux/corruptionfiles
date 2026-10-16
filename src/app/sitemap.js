@@ -1,75 +1,76 @@
 import articlesData from "@/data/articles.json";
 import authorsData from "@/data/authors.json";
+import { SITE_URL, absoluteUrl, newestDate } from "@/lib/seo";
 
-const SITE_URL = "https://www.corruptionfiles.com"; // 🔁 Replace with your actual domain
+// Every real static page in src/app/ that should be indexed.
+const STATIC_PAGES = [
+  "/about",
+  "/contact",
+  "/our-team",
+  "/editorial-policy",
+  "/corrections-policy",
+  "/right-of-reply-policy",
+  "/source-methodology",
+  "/ownership-and-funding",
+  "/advertising-and-sponsored-content-policy",
+  "/legal",
+  "/privacy-policy",
+  "/terms-and-conditions",
+];
 
 export default function sitemap() {
-  const now = new Date();
+  const articles = articlesData.articles || [];
+  const authors = authorsData.corruptionfiles || [];
 
-  const staticPages = [
-    {
-      url: SITE_URL,                        // app/page.jsx
-      lastModified: now,
-      changeFrequency: "daily",
-      priority: 1.0,
-    },
-    {
-      url: `${SITE_URL}/about`,             // app/about/page.js
-      lastModified: now,
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-    {
-      url: `${SITE_URL}/privacy-policy`,    // app/privacy-policy/page.js
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-    {
-      url: `${SITE_URL}/terms`,             // app/terms/page.js
-      lastModified: now,
-      changeFrequency: "yearly",
-      priority: 0.4,
-    },
-  ];
+  const entries = new Map(); // url -> entry (deduplicates automatically)
+  const add = (entry) => {
+    if (!entries.has(entry.url)) entries.set(entry.url, entry);
+  };
 
+  // Home: as fresh as the newest article
+  add({
+    url: SITE_URL,
+    lastModified: newestDate(articles.map((a) => a.date)),
+  });
 
-  const categories = [
-    "govt",           // Government
-    "puerto-rico",    // Puerto Rico
-    "pa",             // Police Accountability
-    "tech",           // Big Tech & Surveillance
-    "medical-fraud",  // Medical Fraud
-    "eco",            // Environmental Exploitation
-    "intelligence",   // Intelligence
-    "offshore",       // Offshore Wealth & Sanctions
-  ];
+  // Categories come from the data, so a new category appears automatically.
+  const categories = [...new Set(articles.map((a) => a.category).filter(Boolean))];
+  categories.forEach((category) => {
+    add({
+      url: `${SITE_URL}/${category}`,
+      lastModified: newestDate(
+        articles.filter((a) => a.category === category).map((a) => a.date)
+      ),
+    });
+  });
 
-  const categoryPages = categories.map((category) => ({
-    url: `${SITE_URL}/${category}`,
-    lastModified: now,
-    changeFrequency: "daily",
-    priority: 0.8,
-  }));
+  // Articles, with their hero image
+  articles.forEach((a) => {
+    if (!a?.slug || !a?.category) return;
+    const image = a.heroImage || a.image;
+    add({
+      url: `${SITE_URL}/${a.category}/${a.slug}`,
+      lastModified: newestDate([a.updated, a.date]),
+      ...(image ? { images: [absoluteUrl(image)] } : {}),
+    });
+  });
 
+  // Authors: as fresh as their newest article
+  authors.forEach((author) => {
+    if (!author?.slug) return;
+    add({
+      url: `${SITE_URL}/authors/${author.slug}`,
+      lastModified: newestDate(
+        articles
+          .filter((a) => (a.author?.slug || a.author?.name) && (a.author.slug === author.slug || a.author.name === author.name))
+          .map((a) => a.date)
+      ),
+    });
+  });
 
-  const articlePages = articlesData.articles.map((article) => ({
-    url: `${SITE_URL}/${article.category}/${article.slug}`,
-    lastModified: new Date(article.date),
-    changeFrequency: "weekly",
-    priority: 0.9,
-  }));
+  // Static pages: no lastModified (we don't know when they last changed,
+  // and a made-up date is worse than none).
+  STATIC_PAGES.forEach((path) => add({ url: `${SITE_URL}${path}` }));
 
-
-  const authorPages = authorsData.corruptionfiles.map((author) => ({
-    url: `${SITE_URL}/authors/${author.slug}`,
-    lastModified: now,
-    changeFrequency: "weekly",
-    priority: 0.6,
-  }));
-
-  /* ─────────────────────────────────────────────────────
-     COMBINED — order: home → categories → articles → authors
-  ───────────────────────────────────────────────────── */
-  return [...staticPages, ...categoryPages, ...articlePages, ...authorPages];
+  return [...entries.values()];
 }

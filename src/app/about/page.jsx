@@ -42,7 +42,7 @@ export default function AboutPage() {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -96,6 +96,6 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

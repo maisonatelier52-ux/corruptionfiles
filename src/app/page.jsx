@@ -702,18 +702,10 @@ export default function Home() {
     "@type": "WebSite",
     name: SITE_NAME,
     url: SITE_URL,
-    potentialAction: {
-      "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
-      },
-      "query-input": "required name=search_term_string",
-    },
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
@@ -745,8 +737,8 @@ export default function Home() {
               return (
                 <>
                   <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2 lg:gap-x-8">
-                    {topRow.map((news, index) => (
-                      <GovernmentGridCard key={news.id} news={news} priority={index < 2} />
+                    {topRow.map((news) => (
+                      <GovernmentGridCard key={news.id} news={news} />
                     ))}
                   </div>
                   <div className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-3 lg:gap-x-8">
@@ -795,7 +787,6 @@ export default function Home() {
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover object-center transition-transform duration-700 group-hover:scale-[1.03]"
-                priority
               />
             </div>
 
@@ -1072,11 +1063,14 @@ export default function Home() {
               className="mt-2 mb-6 block w-full"
             >
               <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-                <img
-                  src="/corruptionfiles-quote-hor.webp"
-                  alt="Corruption Files — Investigative Journalism"
-                  className="w-full h-auto object-contain"
-                />
+                <Image
+                      src="/corruptionfiles-quote-hor.webp"
+                      alt="Corruption Files — Investigative Journalism"
+                      width={1200}
+                      height={198}
+                      sizes="(max-width: 1024px) 100vw, 760px"
+                      className="w-full h-auto object-contain"
+                    />
               </div>
             </a>
 
@@ -1188,6 +1182,6 @@ export default function Home() {
         </section>
 
       </div>
-    </main>
+    </div>
   );
 }

@@ -38,7 +38,7 @@ function toISODate(dateStr) {
  * OG / Twitter require a full URL: "https://www.corruptionfiles.com/..."
  */
 function absoluteImageUrl(imagePath) {
-  if (!imagePath) return `${SITE_URL}/og-default.jpg`;
+  if (!imagePath) return `${SITE_URL}/og-twitter.webp`;
   if (imagePath.startsWith("http://") || imagePath.startsWith("https://")) {
     return imagePath;
   }
@@ -125,9 +125,9 @@ const SocialIcon = ({ platform }) => {
         </svg>
       );
     case "substack":
-      return <img src="/substack.webp" alt="Substack" className={imgClass} />;
+      return <Image src="/substack.webp" alt="Substack" width={18} height={18} className={imgClass} />;
     case "medium":
-      return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+      return <Image src="/medium.webp" alt="Medium" width={18} height={18} className={imgClass} />;
     default:
       return null;
   }
@@ -222,6 +222,28 @@ function findArticle(category, slug) {
   const data = articlesData.articles || articlesData;
   if (!Array.isArray(data)) return null;
   return data.find((a) => a.slug === slug && a.category === category) || null;
+}
+
+// ─── STATIC PARAMS ───────────────────────────────────────────────────────────
+// Prebuild every article at build time (fast first byte, fully crawlable HTML).
+// Unknown URLs return a real 404.
+
+// Articles that have their own dedicated folder under src/app/ are served by that
+// page instead (a fixed route always wins over [category]/[slug]).
+const DEDICATED_ROUTES = new Set([
+  "puerto-rico/puerto-rico-prosecution-must-answer-for-public-rush-to-judgment",
+]);
+
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  const data = articlesData.articles || articlesData;
+  if (!Array.isArray(data)) return [];
+  return data
+    .filter(
+      (a) => a?.slug && a?.category && !DEDICATED_ROUTES.has(`${a.category}/${a.slug}`)
+    )
+    .map((a) => ({ category: a.category, slug: a.slug }));
 }
 
 // ─── METADATA ────────────────────────────────────────────────────────────────
@@ -622,9 +644,12 @@ export default async function ArticlePage({ params }) {
                   className="mt-8 block w-full"
                 >
                   <div className="flex w-full items-center justify-center overflow-hidden rounded-lg border border-gray-100">
-                    <img
+                    <Image
                       src="/corruptionfiles-quote-hor.webp"
                       alt="Corruption Files — Investigative Journalism"
+                      width={1200}
+                      height={198}
+                      sizes="(max-width: 1024px) 100vw, 760px"
                       className="h-auto w-full object-contain"
                     />
                   </div>

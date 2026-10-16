@@ -206,6 +206,9 @@ export async function generateStaticParams() {
   return Object.keys(CATEGORY_META).map((slug) => ({ category: slug }));
 }
 
+// Unknown categories (e.g. /anything) now return a real 404 instead of an empty page.
+export const dynamicParams = false;
+
 // ─── METADATA ─────────────────────────────────────────────────────────────────
 // FIX: Added keywords, canonical, robots, complete OG block with absolute image
 //      URL, Twitter card, corrected site name from "Daily News" → SITE_NAME.
@@ -553,7 +556,7 @@ export default async function CategoryPage({ params }) {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
@@ -599,9 +602,12 @@ export default async function CategoryPage({ params }) {
                   className="mt-2 mb-6 block w-full"
                 >
                   <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-                    <img
+                    <Image
                       src="/corruptionfiles-quote-hor.webp"
                       alt="Corruption Files — Investigative Journalism"
+                      width={1200}
+                      height={198}
+                      sizes="(max-width: 1024px) 100vw, 760px"
                       className="w-full h-auto object-contain"
                     />
                   </div>
@@ -620,6 +626,6 @@ export default async function CategoryPage({ params }) {
           <SiteSidebar activeCategory={category} sticky />
         </div>
       </div>
-    </main>
+    </div>
   );
 }

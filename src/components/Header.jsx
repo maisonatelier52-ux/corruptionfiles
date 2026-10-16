@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import {
   Instagram, ChevronLeft, ChevronRight, Menu, X, ChevronRight as ArrowRight
 } from 'lucide-react';
@@ -21,8 +22,8 @@ const SocialIcon = ({ platform }) => {
     );
     // loading="lazy": these icons are hidden on phones (`hidden sm:flex`), so there is no
     // reason to download or preload them there while the LCP image is loading.
-    case "substack": return <img src="/substack.webp" alt="" loading="lazy" decoding="async" className={imgClass} aria-hidden="true" />;
-    case "medium":   return <img src="/medium.webp"   alt="" loading="lazy" decoding="async" className={imgClass} aria-hidden="true" />;
+    case "substack": return <Image src="/substack.webp" alt="" width={18} height={18} className={imgClass} aria-hidden="true" />;
+    case "medium":   return <Image src="/medium.webp" alt="" width={18} height={18} className={imgClass} aria-hidden="true" />;
     default: return null;
   }
 };

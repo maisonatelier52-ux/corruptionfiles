@@ -107,7 +107,7 @@ export default function PrivacyPolicyPage() {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
@@ -264,6 +264,6 @@ export default function PrivacyPolicyPage() {
 
         </div>
       </div>
-    </main>
+    </div>
   );
 }

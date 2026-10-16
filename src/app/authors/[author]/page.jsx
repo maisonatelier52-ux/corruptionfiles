@@ -36,7 +36,7 @@ function toTimestamp(dateStr) {
  * OG / Twitter card crawlers require fully absolute URLs.
  */
 function absoluteImageUrl(imagePath) {
-  if (!imagePath) return `${SITE_URL}/og-default.jpg`;
+  if (!imagePath) return `${SITE_URL}/og-twitter.webp`;
   if (imagePath.startsWith("http://") || imagePath.startsWith("https://"))
     return imagePath;
   return `${SITE_URL}${imagePath.startsWith("/") ? "" : "/"}${imagePath}`;
@@ -71,9 +71,9 @@ const SocialIcon = ({ platform }) => {
         </svg>
       );
     case "substack":
-      return <img src="/substack.webp" alt="Substack" className={imgClass} />;
+      return <Image src="/substack.webp" alt="Substack" width={18} height={18} className={imgClass} />;
     case "medium":
-      return <img src="/medium.webp" alt="Medium" className={imgClass} />;
+      return <Image src="/medium.webp" alt="Medium" width={18} height={18} className={imgClass} />;
     case "facebook":
       return <Facebook {...iconProps} />;
     case "youtube":
@@ -435,7 +435,7 @@ export async function generateMetadata({ params }) {
   const url      = `${SITE_URL}/authors/${slug}`;
 
   // Absolute URL for author avatar — used in OG + Twitter
-  const avatarUrl = absoluteImageUrl(data?.avatar || "/og-default.jpg");
+  const avatarUrl = absoluteImageUrl(data?.avatar || "/og-twitter.webp");
 
   return {
     title: `${name} — ${catLabel || "Author"} | ${SITE_NAME}`,
@@ -488,6 +488,16 @@ export async function generateMetadata({ params }) {
       images: [avatarUrl],
     },
   };
+}
+
+// ─── STATIC PARAMS ───────────────────────────────────────────────────────────
+// Prebuild every author page; unknown author URLs return a real 404.
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return getAllAuthors()
+    .filter((a) => a?.slug)
+    .map((a) => ({ author: a.slug }));
 }
 
 // ─── PAGE ────────────────────────────────────────────────────────────────────
@@ -597,7 +607,7 @@ export default async function AuthorPage({ params }) {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
@@ -701,9 +711,12 @@ export default async function AuthorPage({ params }) {
                   className="mt-2 mb-6 block w-full"
                 >
                   <div className="w-full overflow-hidden flex items-center justify-center border border-gray-100">
-                    <img
+                    <Image
                       src="/corruptionfiles-quote-hor.webp"
                       alt="Corruption Files — Investigative Journalism"
+                      width={1200}
+                      height={198}
+                      sizes="(max-width: 1024px) 100vw, 760px"
                       className="w-full h-auto object-contain"
                     />
                   </div>
@@ -720,6 +733,6 @@ export default async function AuthorPage({ params }) {
           <SiteSidebar sticky />
         </div>
       </div>
-    </main>
+    </div>
   );
 }

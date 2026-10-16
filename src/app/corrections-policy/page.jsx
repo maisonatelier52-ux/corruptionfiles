@@ -36,7 +36,7 @@ export default function CorrectionsPolicyPage() {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <div className="max-w-4xl mx-auto px-4 py-3 md:py-16">
         <nav aria-label="Breadcrumb" className="mb-8 text-xs text-gray-500">
@@ -85,6 +85,6 @@ export default function CorrectionsPolicyPage() {
           <p className="mt-8 text-sm text-gray-500">Last Updated: <time dateTime={LAST_UPDATED}>{LAST_UPDATED_DISPLAY}</time></p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }

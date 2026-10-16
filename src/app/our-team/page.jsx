@@ -163,7 +163,7 @@ export default function OurTeamPage() {
   };
 
   return (
-    <main className="bg-white min-h-screen">
+    <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
@@ -298,6 +298,6 @@ export default function OurTeamPage() {
           </p>
         </div>
       </div>
-    </main>
+    </div>
   );
 }
