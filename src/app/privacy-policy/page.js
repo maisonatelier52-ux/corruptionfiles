@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ldJson, publisherNode } from "@/lib/seo";
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -74,17 +75,7 @@ export default function PrivacyPolicyPage() {
       "@type": "WebPage",
       "@id": `${SITE_URL}/privacy-policy`,
     },
-    publisher: {
-      "@type": "NewsMediaOrganization",
-      name: SITE_NAME,
-      url: SITE_URL,
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
-        width: 200,
-        height: 60,
-      },
-    },
+    publisher: publisherNode(),
   };
 
   const breadcrumbJsonLd = {
@@ -111,11 +102,11 @@ export default function PrivacyPolicyPage() {
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(privacyJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(privacyJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(breadcrumbJsonLd) }}
       />
 
       <div className="max-w-4xl mx-auto px-4 py-16 md:py-16">

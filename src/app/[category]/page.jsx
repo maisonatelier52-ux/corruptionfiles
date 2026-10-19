@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ldJson, publisherNode } from "@/lib/seo";
 import Image from "next/image";
 import { Bell, Calendar } from "lucide-react";
 import homepageData from "@/data/homepage.json";
@@ -509,16 +510,17 @@ export default async function CategoryPage({ params }) {
     description: meta.description,
     url: pageUrl,
     // FIX: publisher block (required for rich results)
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_URL,
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
-        width: 200,
-        height: 60,
-      },
+    publisher: publisherNode(),
+    // Ordered list of the articles on this page
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: Math.min(articles.length, 10),
+      itemListElement: articles.slice(0, 10).map((a, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${SITE_URL}/${a.category}/${a.slug}`,
+        name: a.title,
+      })),
     },
     // FIX: itemListElement lists each article on this page for Google
     hasPart: articles.slice(0, 10).map((a, idx) => ({
@@ -560,11 +562,11 @@ export default async function CategoryPage({ params }) {
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(collectionJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(breadcrumbJsonLd) }}
       />
 
       {/* lg:pb-6 — the bottom spacing is split between this wrapper (24px) and

@@ -4,7 +4,7 @@ import { Bell, Calendar, Facebook, Twitter, Instagram, Youtube, Tag } from "luci
 import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import SiteSidebar from "@/components/SiteSidebar";
-import { getImageInfo } from "@/lib/seo";
+import { getImageInfo, ldJson, publisherNode } from "@/lib/seo";
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -522,6 +522,7 @@ export default async function AuthorPage({ params }) {
   const catMeta     = authorData.category ? CATEGORY_META[authorData.category] : null;
   const pageUrl     = `${SITE_URL}/authors/${authorSlug}`;
   const avatarUrl   = absoluteImageUrl(authorData.avatar || authorData.coverImage);
+  const avatarDims  = getImageInfo(authorData.avatar || authorData.coverImage);
 
   // ─── JSON-LD ────────────────────────────────────────────────────────────────
   // FIX: Complete ProfilePage + Person schema
@@ -546,8 +547,8 @@ export default async function AuthorPage({ params }) {
       image: {
         "@type": "ImageObject",
         url:    avatarUrl,
-        width:  400,
-        height: 400,
+        width:  avatarDims?.width,
+        height: avatarDims?.height,
       },
 
       // FIX: worksFor links person to the organization
@@ -568,18 +569,27 @@ export default async function AuthorPage({ params }) {
       ),
     },
 
-    // FIX: publisher block required by Google
-    publisher: {
-      "@type": "NewsMediaOrganization",
-      name: SITE_NAME,
-      url:  SITE_URL,
-      logo: {
-        "@type": "ImageObject",
-        url:    `${SITE_URL}/logo.png`,
-        width:  200,
-        height: 60,
-      },
+    // Shared publisher entity
+    publisher: publisherNode(),
+  };
+
+  // Ordered list of this author's articles
+  const articlesJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `Articles by ${authorData.name}`,
+    url: pageUrl,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: Math.min(articles.length, 20),
+      itemListElement: articles.slice(0, 20).map((a, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        url: `${SITE_URL}/${a.category}/${a.slug}`,
+        name: a.title,
+      })),
     },
+    publisher: publisherNode(),
   };
 
   // FIX: BreadcrumbList matching visible breadcrumb nav
@@ -596,8 +606,8 @@ export default async function AuthorPage({ params }) {
       {
         "@type": "ListItem",
         position: 2,
-        name: "Authors",
-        item: `${SITE_URL}/authors`,
+        name: "Our Team",
+        item: `${SITE_URL}/our-team`,
       },
       {
         "@type": "ListItem",
@@ -613,11 +623,15 @@ export default async function AuthorPage({ params }) {
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(profileJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(profileJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(breadcrumbJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: ldJson(articlesJsonLd) }}
       />
 
       {/* lg:pb-6 — the bottom spacing is split between this wrapper (24px) and
@@ -641,11 +655,11 @@ export default async function AuthorPage({ params }) {
             <li aria-hidden="true"><span className="text-gray-300 mx-1">›</span></li>
             <li>
               <Link
-                href="/authors"
-                title="All Authors"
+                href="/our-team"
+                title="Our Team"
                 className="hover:text-blue-600 transition-colors"
               >
-                Authors
+                Our Team
               </Link>
             </li>
             <li aria-hidden="true"><span className="text-gray-300 mx-1">›</span></li>

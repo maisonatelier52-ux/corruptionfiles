@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ORG_ID, WEBSITE_ID, ldJson } from "@/lib/seo";
 import Image from "next/image";
 import { Share2, Bell, Calendar } from "lucide-react";
 import homepageData from "@/data/homepage.json";
@@ -681,6 +682,7 @@ export default function Home() {
   const orgJsonLd = {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
+    "@id": ORG_ID,
     name: SITE_NAME,
     url: SITE_URL,
     description:
@@ -700,19 +702,21 @@ export default function Home() {
   const websiteJsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    "@id": WEBSITE_ID,
     name: SITE_NAME,
     url: SITE_URL,
+    publisher: { "@id": ORG_ID },
   };
 
   return (
     <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(orgJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(websiteJsonLd) }}
       />
 
       <div className="max-w-7xl mx-auto px-4 pt-4 pb-20">

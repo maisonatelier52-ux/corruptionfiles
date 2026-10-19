@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ldJson, publisherNode } from "@/lib/seo";
 import Image from "next/image";
 
 const SITE_URL =
@@ -144,7 +145,7 @@ export default function OurTeamPage() {
     name: `Our Team | ${SITE_NAME}`,
     description: "Meet the Corruption Files editorial team.",
     url: `${SITE_URL}/our-team`,
-    publisher: { "@type": "NewsMediaOrganization", name: SITE_NAME, url: SITE_URL },
+    publisher: publisherNode(),
     mainEntity: {
       "@type": "ItemList",
       itemListElement: team.map((member, index) => ({
@@ -166,7 +167,7 @@ export default function OurTeamPage() {
     <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(jsonLd) }}
       />
       <div className="max-w-4xl mx-auto px-4 py-3 md:py-16">
         {/* ── Breadcrumb ────────────────────────────────────────────────── */}

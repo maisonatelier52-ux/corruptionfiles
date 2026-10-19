@@ -6,6 +6,10 @@ export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
 export const SITE_NAME = "Corruption Files";
 
+// Fixed identifiers so every page refers to the same publisher and site entities.
+export const ORG_ID = `${SITE_URL}/#organization`;
+export const WEBSITE_ID = `${SITE_URL}/#website`;
+
 /** Turns "/path" or "path" into a full https://... URL on this site. */
 export function absoluteUrl(path = "") {
   if (!path) return SITE_URL;
@@ -35,7 +39,7 @@ export function newestDate(values = []) {
  * Plain JSON.stringify can break out of the script tag if any text contains
  * "</script>"; escaping "<" (and the two line-separator characters) prevents that.
  */
-export function jsonLd(data) {
+export function ldJson(data) {
   return JSON.stringify(data)
     .replace(/</g, "\\u003c")
     .replace(/\u2028/g, "\\u2028")
@@ -64,5 +68,20 @@ export function socialImage(article) {
   const info = getImageInfo(hero);
   const ext = hero.split(".").pop().toLowerCase();
   return { url: absoluteUrl(hero), width: info?.width, height: info?.height, type: MIME[ext] };
+}
+
+/**
+ * Publisher entity used on every page's structured data: name, URL and logo only.
+ * The same @id on every page lets search engines treat them as one publisher.
+ */
+export function publisherNode() {
+  const logo = getImageInfo("/logo.png");
+  return {
+    "@type": "NewsMediaOrganization",
+    "@id": ORG_ID,
+    name: SITE_NAME,
+    url: SITE_URL,
+    logo: { "@type": "ImageObject", url: absoluteUrl("/logo.png"), ...(logo || {}) },
+  };
 }
 

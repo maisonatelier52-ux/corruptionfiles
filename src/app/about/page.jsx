@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ldJson, publisherNode } from "@/lib/seo";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL || "https://www.corruptionfiles.com";
@@ -34,18 +35,14 @@ export default function AboutPage() {
     name: `About Us | ${SITE_NAME}`,
     description: "Learn about Corruption Files and our mission.",
     url: `${SITE_URL}/about`,
-    publisher: {
-      "@type": "NewsMediaOrganization",
-      name: SITE_NAME,
-      url: SITE_URL,
-    },
+    publisher: publisherNode(),
   };
 
   return (
     <div className="bg-white min-h-screen">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(jsonLd) }}
       />
       <div className="max-w-4xl mx-auto px-4 py-3 md:py-16">
         <nav aria-label="Breadcrumb" className="mb-8 text-xs text-gray-500">

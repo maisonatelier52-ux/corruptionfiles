@@ -8,7 +8,7 @@ import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import SiteSidebar from "@/components/SiteSidebar";
 import ShareBar from "@/components/ShareBar";
-import { getImageInfo, socialImage } from "@/lib/seo";
+import { getImageInfo, ldJson, publisherNode, socialImage } from "@/lib/seo";
 
 // Serif face for the article body. Exposed as the CSS variable --font-article,
 // which .article-content in globals.css picks up.
@@ -262,12 +262,13 @@ export async function generateMetadata({ params }) {
 
   const url = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
+  const modifiedIso = toISODate(article.updated) || isoDate;
   const og = socialImage(article);
   const ogImageAlt = article.alt || article.heading || article.metaTitle;
   const authorSlug = article.author?.slug || nameToSlug(article.author?.name || "");
 
   return {
-    title: article.metaTitle,
+    title: { absolute: article.metaTitle },
     description: article.metaDescription,
     keywords: Array.isArray(article.metaKeywords)
       ? article.metaKeywords.join(", ")
@@ -281,7 +282,7 @@ export async function generateMetadata({ params }) {
       title: article.metaTitle,
       description: article.metaDescription,
       publishedTime: isoDate,
-      modifiedTime: isoDate,
+      modifiedTime: modifiedIso,
       authors: authorSlug ? [`${SITE_URL}/authors/${authorSlug}`] : undefined,
       section: article.categoryLabel,
       tags: Array.isArray(article.metaKeywords) ? article.metaKeywords : [],
@@ -440,7 +441,7 @@ export default async function ArticlePage({ params }) {
       : article.metaKeywords,
     articleSection: article.categoryLabel,
     datePublished: isoDate,
-    dateModified: isoDate,
+    dateModified: toISODate(article.updated) || isoDate,
     image: [
       {
         "@type": "ImageObject",
@@ -455,17 +456,10 @@ export default async function ArticlePage({ params }) {
       name: detailedAuthor.name,
       url: `${SITE_URL}/authors/${authorSlug}`,
     },
-    publisher: {
-      "@type": "Organization",
-      name: SITE_NAME,
-      url: SITE_URL,
-      logo: {
-        "@type": "ImageObject",
-        url: `${SITE_URL}/logo.png`,
-        width: 200,
-        height: 60,
-      },
-    },
+    publisher: publisherNode(),
+    inLanguage: "en",
+    isAccessibleForFree: true,
+    thumbnailUrl: ogImageUrl,
   };
 
   // Lets search engines see which outlets the article cites
@@ -505,11 +499,11 @@ export default async function ArticlePage({ params }) {
     <div className={`${articleSerif.variable} min-h-screen bg-white`}>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(articleJsonLd) }}
       />
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+        dangerouslySetInnerHTML={{ __html: ldJson(breadcrumbJsonLd) }}
       />
 
       <div className="mx-auto max-w-7xl px-4 pb-12 pt-5 md:pb-20 md:pt-8">
