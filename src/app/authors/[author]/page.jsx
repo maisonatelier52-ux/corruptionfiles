@@ -4,6 +4,7 @@ import { Bell, Calendar, Facebook, Twitter, Instagram, Youtube, Tag } from "luci
 import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import SiteSidebar from "@/components/SiteSidebar";
+import { getImageInfo } from "@/lib/seo";
 
 // ─── CONSTANTS ───────────────────────────────────────────────────────────────
 
@@ -436,6 +437,7 @@ export async function generateMetadata({ params }) {
 
   // Absolute URL for author avatar — used in OG + Twitter
   const avatarUrl = absoluteImageUrl(data?.avatar || "/og-twitter.webp");
+  const avatarInfo = getImageInfo(data?.avatar || "/og-twitter.webp");
 
   return {
     title: `${name} — ${catLabel || "Author"} | ${SITE_NAME}`,
@@ -469,8 +471,8 @@ export async function generateMetadata({ params }) {
         {
           url: avatarUrl,
           secureUrl: avatarUrl,
-          width: 400,
-          height: 400,
+          width: avatarInfo?.width,
+          height: avatarInfo?.height,
           alt: `${name} — Author at ${SITE_NAME}`,
         },
       ],

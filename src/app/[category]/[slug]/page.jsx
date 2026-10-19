@@ -8,6 +8,7 @@ import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import SiteSidebar from "@/components/SiteSidebar";
 import ShareBar from "@/components/ShareBar";
+import { getImageInfo, socialImage } from "@/lib/seo";
 
 // Serif face for the article body. Exposed as the CSS variable --font-article,
 // which .article-content in globals.css picks up.
@@ -261,7 +262,7 @@ export async function generateMetadata({ params }) {
 
   const url = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
-  const ogImageUrl = absoluteImageUrl(article.heroImage);
+  const og = socialImage(article);
   const ogImageAlt = article.alt || article.heading || article.metaTitle;
   const authorSlug = article.author?.slug || nameToSlug(article.author?.name || "");
 
@@ -286,12 +287,12 @@ export async function generateMetadata({ params }) {
       tags: Array.isArray(article.metaKeywords) ? article.metaKeywords : [],
       images: [
         {
-          url: ogImageUrl,
-          secureUrl: ogImageUrl,
-          width: 1200,
-          height: 630,
+          url: og.url,
+          secureUrl: og.url,
+          width: og.width,
+          height: og.height,
           alt: ogImageAlt,
-          type: "image/webp",
+          type: og.type,
         },
       ],
     },
@@ -299,7 +300,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: article.metaTitle,
       description: article.metaDescription,
-      images: [ogImageUrl],
+      images: [og.url],
     },
   };
 }
@@ -423,6 +424,7 @@ export default async function ArticlePage({ params }) {
   const pageUrl = canonicalUrl(category, slug);
   const isoDate = toISODate(article.date);
   const ogImageUrl = absoluteImageUrl(article.heroImage);
+  const heroInfo = getImageInfo(article.heroImage);
 
   // ─── JSON-LD (unchanged) ────────────────────────────────────────────────────
 
@@ -443,8 +445,8 @@ export default async function ArticlePage({ params }) {
       {
         "@type": "ImageObject",
         url: ogImageUrl,
-        width: 1200,
-        height: 630,
+        width: heroInfo?.width,
+        height: heroInfo?.height,
         caption: article.alt || article.heading,
       },
     ],
