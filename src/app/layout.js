@@ -78,6 +78,7 @@ export default function RootLayout({ children }) {
         >
           Skip to content
         </a>
+        <link rel="alternate" type="application/rss+xml" title="Corruption Files" href="/feed.xml" />
         <Header latestArticles={tickerArticles} />
         <main id="main-content" className="flex-grow">
           {children}

@@ -8,6 +8,7 @@ import homepageData from "@/data/homepage.json";
 import authorsData from "@/data/authors.json";
 import SiteSidebar from "@/components/SiteSidebar";
 import ShareBar from "@/components/ShareBar";
+import MoreInCategory from "@/components/MoreInCategory";
 import { getImageInfo, ldJson, publisherNode, socialImage } from "@/lib/seo";
 
 // Serif face for the article body. Exposed as the CSS variable --font-article,
@@ -185,7 +186,7 @@ function SourcesSection({ sources }) {
         {sources.map((source, idx) => (
           <li key={source.url} className="flex items-start gap-4 py-3.5 first:pt-0">
             <span
-              className="w-5 flex-none pt-0.5 text-right text-sm font-semibold tabular-nums text-gray-400"
+              className="w-5 flex-none pt-0.5 text-right text-sm font-semibold tabular-nums text-gray-500"
               aria-hidden="true"
             >
               {idx + 1}
@@ -204,7 +205,7 @@ function SourcesSection({ sources }) {
                 <span className="min-w-0 break-words">{source.title}</span>
                 <ExternalLink
                   size={13}
-                  className="mt-[3px] flex-none text-gray-400 transition-colors group-hover:text-[#1565c0]"
+                  className="mt-[3px] flex-none text-gray-500 transition-colors group-hover:text-[#1565c0]"
                   aria-hidden="true"
                 />
                 <span className="sr-only"> (opens in a new tab)</span>
@@ -801,6 +802,11 @@ export default async function ArticlePage({ params }) {
                 </ul>
               </section>
             )}
+
+            <MoreInCategory
+              category={category}
+              excludeSlugs={[slug, ...((relatedPosts || []).map((r) => r.slug))]}
+            />
           </div>
 
           {/* Sidebar (shared with home, category and author pages) */}

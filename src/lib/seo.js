@@ -20,7 +20,10 @@ export function absoluteUrl(path = "") {
 /** Parses dates like "June 29, 2026" (or ISO strings). Returns a Date or null. */
 export function parseDate(value) {
   if (!value) return null;
-  const d = new Date(value);
+  // Date-only text like "June 29, 2026" is read as UTC midnight, so feeds and
+  // sitemaps give the same result on every machine regardless of timezone.
+  const text = String(value).trim();
+  const d = new Date(/^[A-Za-z]+ \d{1,2}, \d{4}$/.test(text) ? `${text} UTC` : value);
   return Number.isNaN(d.getTime()) ? null : d;
 }
 

@@ -134,7 +134,7 @@ function NewsCard({
         </Link>
       </div>
 
-      <div className="text-[11px] text-gray-400 mb-1 flex items-center gap-1">
+      <div className="text-[11px] text-gray-500 mb-1 flex items-center gap-1">
         {isSponsored ? (
           <>
             <Bell size={11} aria-hidden="true" /> Sponsored content
@@ -212,11 +212,11 @@ function GovernmentFeaturedCard({ news, priority = false }) {
           <time dateTime={toISODate(news.date)}>{news.date}</time>
         </div>
 
-        <h3 className="mb-2 text-xl md:text-[22px] font-bold leading-snug text-white">
+        <h2 className="mb-2 text-xl md:text-[22px] font-bold leading-snug text-white">
           <Link href={href} title={news.title}>
             {news.title}
           </Link>
-        </h3>
+        </h2>
 
         <p className="mb-3 text-sm text-gray-300">
           By{" "}
@@ -273,16 +273,16 @@ function GovernmentGridCard({ news, priority = false }) {
         </Link>
       </div>
 
-      <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-400">
+      <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-500">
         <Calendar size={11} aria-hidden="true" />
         <time dateTime={toISODate(news.date)}>{news.date}</time>
       </div>
 
-      <h3 className="text-[16px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-blue-600">
+      <h2 className="text-[16px] font-bold leading-snug text-gray-900 transition-colors group-hover:text-blue-600">
         <Link href={href} title={news.title}>
           {news.title}
         </Link>
-      </h3>
+      </h2>
     </article>
   );
 }
@@ -320,11 +320,11 @@ function NewsListCard({ card }) {
 
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {card.sponsored ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Bell size={11} aria-hidden="true" /> Sponsored content
           </p>
         ) : card.date ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Calendar size={11} aria-hidden="true" />
             <time dateTime={iso}>{card.date}</time>
           </p>
@@ -395,7 +395,7 @@ function DiscoveryMainCard({ item }) {
         </Link>
       </div>
       <div className="flex-1 flex flex-col">
-        <div className="text-[11px] text-gray-400 mb-2 flex items-center gap-1">
+        <div className="text-[11px] text-gray-500 mb-2 flex items-center gap-1">
           <Calendar size={12} aria-hidden="true" />
           <time dateTime={iso}>{item.date}</time>
         </div>
@@ -404,7 +404,7 @@ function DiscoveryMainCard({ item }) {
             {item.title}
           </Link>
         </h3>
-        <div className="text-[11px] font-bold text-gray-400 uppercase mb-3 tracking-wide">
+        <div className="text-[11px] font-bold text-gray-500 uppercase mb-3 tracking-wide">
           By{" "}
           <Link
             href={authorHref(item.author)}
@@ -469,7 +469,7 @@ function DiscoveryMiddleItem({ item }) {
             </Link>
           </h3>
         </div>
-        <div className="text-[11px] text-gray-400 mt-2 flex items-center gap-1">
+        <div className="text-[11px] text-gray-500 mt-2 flex items-center gap-1">
           {item.isSponsored ? (
             <>
               <Bell size={11} aria-hidden="true" /> Sponsored content
@@ -513,7 +513,7 @@ function DiscoveryRightItem({ item }) {
           {item.title}
         </Link>
       </h3>
-      <div className="text-[11px] text-gray-400 flex items-center gap-1">
+      <div className="text-[11px] text-gray-500 flex items-center gap-1">
         <Calendar size={11} aria-hidden="true" />
         <time dateTime={iso}>{item.date}</time>
       </div>
@@ -856,7 +856,7 @@ export default function Home() {
                 </div>
 
                 <div className="shrink-0">
-                  <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-400">
+                  <div className="mb-1 flex items-center gap-1 text-[11px] text-gray-500">
                     <Calendar size={11} aria-hidden="true" />
                     <time dateTime={iso}>{news.date}</time>
                   </div>
@@ -920,7 +920,7 @@ export default function Home() {
                 <h3 className="text-[17px] font-bold leading-tight text-[#222] group-hover:text-blue-600 transition-colors">
                   {item.title}
                 </h3>
-                <div className="text-[11px] text-gray-400 flex items-center gap-1">
+                <div className="text-[11px] text-gray-500 flex items-center gap-1">
                   {item.isSponsored ? (
                     <span className="flex items-center gap-1">
                       <Bell size={11} aria-hidden="true" /> Sponsored content
@@ -979,7 +979,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="space-y-4">
-                <span className="text-[11px] text-gray-400 flex items-center gap-1">
+                <span className="text-[11px] text-gray-500 flex items-center gap-1">
                   <Calendar size={11} aria-hidden="true" />
                   <time dateTime={toISODate(worldNews.main.date)}>
                     {worldNews.main.date}
@@ -988,7 +988,7 @@ export default function Home() {
                 <h3 className="text-3xl font-bold text-[#222] group-hover:text-blue-600 transition-colors">
                   {worldNews.main.title}
                 </h3>
-                <div className="text-[11px] font-bold text-gray-400 uppercase">
+                <div className="text-[11px] font-bold text-gray-500 uppercase">
                   By <span className="text-gray-600">{worldNews.main.author}</span>
                 </div>
                 <p className="text-gray-500 text-[15px] leading-relaxed line-clamp-4">
@@ -1036,7 +1036,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6 space-y-3">
-                  <span className="text-[11px] text-gray-400 flex items-center gap-1">
+                  <span className="text-[11px] text-gray-500 flex items-center gap-1">
                     <Calendar size={11} aria-hidden="true" />
                     <time dateTime={toISODate(item.date)}>{item.date}</time>
                   </span>

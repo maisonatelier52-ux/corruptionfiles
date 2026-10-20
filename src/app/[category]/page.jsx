@@ -298,7 +298,7 @@ function PlayIcon() {
 }
 
 // ─── NewsListCard ──────────────────────────────────────────────────────────────
-// FIX: <h2> → <h3> (page H1 is the category name; article cards are h3)
+// Article cards are h2 (the page h1 is the category name)
 //      Added title attrs, rel="author", aria-hidden on icons, <time dateTime>
 
 function NewsListCard({ card }) {
@@ -337,20 +337,20 @@ function NewsListCard({ card }) {
 
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {a.sponsored ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             {/* FIX: aria-hidden on decorative icon */}
             <Bell size={11} aria-hidden="true" /> Sponsored content
           </p>
         ) : a.date ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Calendar size={11} aria-hidden="true" />
             {/* FIX: <time> with dateTime attribute */}
             <time dateTime={iso}>{a.date}</time>
           </p>
         ) : null}
 
-        {/* FIX: was <h2> — corrected to <h3> (page H1 is category name) */}
-        <h3 className="font-bold text-gray-900 text-base md:text-[17px] leading-snug mb-2">
+        {/* Page h1 is the category name, so article titles are h2 */}
+        <h2 className="font-bold text-gray-900 text-base md:text-[17px] leading-snug mb-2">
           <Link
             href={href}
             title={a.title}
@@ -358,7 +358,7 @@ function NewsListCard({ card }) {
           >
             {a.title}
           </Link>
-        </h3>
+        </h2>
 
         <p className="text-xs text-gray-500 mb-2">
           By{" "}
@@ -559,6 +559,12 @@ export default async function CategoryPage({ params }) {
 
   return (
     <div className="bg-white min-h-screen">
+      <link
+        rel="alternate"
+        type="application/rss+xml"
+        title={`${meta.label} | Corruption Files`}
+        href={`/${category}/feed.xml`}
+      />
       {/* JSON-LD structured data */}
       <script
         type="application/ld+json"

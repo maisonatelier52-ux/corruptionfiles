@@ -24,7 +24,7 @@ const DiscoveryMainCard = ({ item }) => {
       </div>
 
       <div className="flex-1 flex flex-col">
-        <div className="text-[11px] text-gray-400 mb-2 flex items-center gap-1">
+        <div className="text-[11px] text-gray-500 mb-2 flex items-center gap-1">
           <Calendar size={12} /> <time>{item.date}</time>
         </div>
 
@@ -32,7 +32,7 @@ const DiscoveryMainCard = ({ item }) => {
           <Link href={`/${item.category}/${item.slug}`}>{item.title}</Link>
         </h3>
 
-        <div className="text-[11px] font-bold text-gray-400 uppercase mb-3 tracking-wide">
+        <div className="text-[11px] font-bold text-gray-500 uppercase mb-3 tracking-wide">
           By <span className="text-gray-600 font-bold">{item.author}</span>
         </div>
 

@@ -28,14 +28,14 @@ const Newsletter = () => {
         </div>
 
         {/* 2. FORM: Wrapped in <form> for functionality and SEO */}
-        <form className="mt-10 flex flex-col sm:flex-row w-full max-w-xl bg-white shadow-sm border border-gray-100 overflow-hidden" action="/api/newsletter" method="POST">
+        <form className="mt-10 flex flex-col sm:flex-row w-full max-w-xl bg-white shadow-sm border border-gray-100 overflow-hidden focus-within:ring-2 focus-within:ring-[#1565c0]" action="/api/newsletter" method="POST">
           <label htmlFor="newsletter-email" className="sr-only">Email Address</label>
           <input 
             id="newsletter-email"
             type="email" 
             name="email"
             placeholder="Please enter your e-mail" 
-            className="flex-1 px-6 py-4 text-[14px] text-gray-700 bg-white focus:outline-none placeholder:text-gray-400 placeholder:italic min-w-0"
+            className="flex-1 px-6 py-4 text-[14px] text-gray-700 bg-white focus:outline-none placeholder:text-gray-500 placeholder:italic min-w-0"
             required
           />
           <button type="submit" className="bg-[#2196f3] text-white px-10 py-4 text-[13px] font-bold uppercase tracking-wider hover:bg-blue-600 transition-colors whitespace-nowrap">

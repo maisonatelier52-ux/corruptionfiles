@@ -151,7 +151,7 @@ const Footer = () => {
                     />
                   </Link>
                 </div>
-                <span className="text-[11px] text-gray-400 block mb-2">
+                <span className="text-[11px] text-gray-500 block mb-2">
                   <time dateTime={new Date(LATEST_ARTICLE.date).toISOString().split('T')[0]}>
                     📅 {LATEST_ARTICLE.date}
                   </time>
@@ -164,7 +164,7 @@ const Footer = () => {
                     {LATEST_ARTICLE.title}
                   </Link>
                 </h4>
-                <span className="text-[11px] text-gray-400">
+                <span className="text-[11px] text-gray-500">
                   By{" "}
                   <Link
                     href={`/authors/${LATEST_ARTICLE.author.toLowerCase().replace(/\s+/g, "-")}`}
@@ -191,16 +191,17 @@ const Footer = () => {
 
           <nav aria-label="Social Media Links" className="flex gap-5">
             {[
-              { id: 'x', href: 'https://x.com', hover: 'hover:text-black' },
-              { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/', hover: 'hover:text-pink-600' },
-              { id: 'substack', href: '#', hover: '' },
-              { id: 'medium', href: '#', hover: '' }
+              { id: 'x', href: 'https://x.com', hover: 'hover:text-black', label: 'Follow us on X (Twitter)' },
+              { id: 'instagram', href: 'https://www.instagram.com/_corruptionfiles/', hover: 'hover:text-pink-600', label: 'Follow us on Instagram' },
+              { id: 'substack', href: '#', hover: '', label: 'Corruption Files on Substack' },
+              { id: 'medium', href: '#', hover: '', label: 'Corruption Files on Medium' }
             ].map((site) => (
               <a 
                 key={site.id} 
                 href={site.href} 
                 target="_blank" 
                 rel="noopener noreferrer" 
+                aria-label={site.label}
                 className={`group text-gray-700 transition-colors duration-200 ${site.hover}`}
               >
                 <FooterSocialIcon platform={site.id} />

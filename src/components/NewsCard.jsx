@@ -38,7 +38,7 @@ const NewsCard = ({
 
         {/* Content Area */}
         <div className="flex flex-col gap-2">
-          <div className="flex items-center gap-1 text-[11px] text-gray-400 font-medium">
+          <div className="flex items-center gap-1 text-[11px] text-gray-500 font-medium">
             {isSponsored ? (
               <span className="flex items-center gap-1">🔔 Sponsored content</span>
             ) : (
@@ -51,7 +51,7 @@ const NewsCard = ({
             {title}
           </h3>
 
-          <div className="text-[11px] font-bold text-gray-400 uppercase tracking-tighter">
+          <div className="text-[11px] font-bold text-gray-500 uppercase tracking-tighter">
             By <span className="text-gray-600">{author}</span>
           </div>
 

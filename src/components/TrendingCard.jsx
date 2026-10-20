@@ -22,11 +22,11 @@ const TrendingCard = ({ item }) => {
       </div>
 
       {item.sponsored ? (
-        <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1">
+        <p className="text-gray-500 text-[10px] flex items-center gap-1 mt-1">
           <Bell size={10} /> Sponsored content
         </p>
       ) : (
-        <p className="text-gray-400 text-[10px] flex items-center gap-1 mt-1">
+        <p className="text-gray-500 text-[10px] flex items-center gap-1 mt-1">
           <Calendar size={10} /> {item.date}
         </p>
       )}

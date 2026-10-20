@@ -32,11 +32,11 @@ const NewsListCard = ({ card }) => {
 
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {card.sponsored ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Bell size={11} /> Sponsored content
           </p>
         ) : card.date ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Calendar size={11} /> {card.date}
           </p>
         ) : null}

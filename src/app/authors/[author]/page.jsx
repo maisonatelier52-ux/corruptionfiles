@@ -257,12 +257,12 @@ function NewsListCard({ card }) {
 
       <div className="flex-1 sm:pl-4 pt-3 sm:pt-0">
         {a.sponsored ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             {/* FIX: aria-hidden on decorative icon */}
             <Bell size={11} aria-hidden="true" /> Sponsored content
           </p>
         ) : a.date ? (
-          <p className="text-gray-400 text-xs flex items-center gap-1 mb-1">
+          <p className="text-gray-500 text-xs flex items-center gap-1 mb-1">
             <Calendar size={11} aria-hidden="true" />
             {/* FIX: <time> with dateTime */}
             <time dateTime={iso}>{a.date}</time>
@@ -352,7 +352,7 @@ function AuthorHeader({ author, articleCount }) {
               />
             </div>
             <div>
-              <span className="text-gray-400 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1" >
+              <span className="text-gray-500 text-[11px] font-bold uppercase tracking-[0.2em] block mb-1" >
                 About Author
               </span>
               {/* H1 — this is the primary page heading (author name) */}
@@ -684,7 +684,7 @@ export default async function AuthorPage({ params }) {
             </span>
           </h2>
           <div className="flex items-center gap-3 mt-0.5">
-            <p className="text-gray-400 text-[13px] font-medium uppercase tracking-tight">
+            <p className="text-gray-500 text-[13px] font-medium uppercase tracking-tight">
               {articles.length} published{" "}
               {articles.length === 1 ? "post" : "posts"}
             </p>
