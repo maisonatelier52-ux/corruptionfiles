@@ -21,7 +21,7 @@ export default function MoreInCategory({ category, excludeSlugs = [], limit = 4 
   if (!items.length) return null;
 
   return (
-    <section aria-labelledby="more-in-category-heading" className="mt-12 max-w-[46rem]">
+    <section aria-labelledby="more-in-category-heading" className="mt-12">
       <h2
         id="more-in-category-heading"
         className="border-t-2 border-gray-900 pt-3 text-lg font-bold tracking-tight text-gray-900"

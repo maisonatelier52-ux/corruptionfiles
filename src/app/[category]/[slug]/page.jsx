@@ -389,7 +389,7 @@ function ArticleBody({ body }) {
                       src={section.src}
                       alt={section.alt || "Article illustration"}
                       fill
-                      sizes="(max-width: 768px) 100vw, 700px"
+                      sizes="(max-width: 1024px) 100vw, 900px"
                       className="object-cover"
                     />
                   </div>
@@ -557,12 +557,12 @@ export default async function ArticlePage({ params }) {
                   {article.categoryLabel}
                 </Link>
 
-                <h1 className="mt-4 max-w-[54rem] text-balance text-[clamp(1.85rem,1.35rem+2.1vw,2.75rem)] font-extrabold leading-[1.12] tracking-tight text-gray-900">
+                <h1 className="mt-4 text-balance text-[clamp(1.85rem,1.35rem+2.1vw,2.75rem)] font-extrabold leading-[1.12] tracking-tight text-gray-900">
                   {article.heading}
                 </h1>
 
                 {article.excerpt && (
-                  <p className="mt-4 max-w-[46rem] font-[family-name:var(--font-article)] text-[1.15rem] leading-snug text-gray-600 sm:text-[1.3rem]">
+                  <p className="mt-4 font-[family-name:var(--font-article)] text-[1.15rem] leading-snug text-gray-600 sm:text-[1.3rem]">
                     {article.excerpt}
                   </p>
                 )}
@@ -620,7 +620,7 @@ export default async function ArticlePage({ params }) {
                 />
               </figure>
 
-              <div className="mt-8 max-w-[46rem] md:mt-10">
+              <div className="mt-8 md:mt-10">
                 {/* Article Body – supports both new (blocks) and old structure */}
                 <ArticleBody body={body} />
 
@@ -646,7 +646,7 @@ export default async function ArticlePage({ params }) {
                       alt="Corruption Files — Investigative Journalism"
                       width={1200}
                       height={198}
-                      sizes="(max-width: 1024px) 100vw, 760px"
+                      sizes="(max-width: 1024px) 100vw, 900px"
                       className="h-auto w-full object-contain"
                     />
                   </div>
@@ -718,7 +718,7 @@ export default async function ArticlePage({ params }) {
             {relatedPosts && relatedPosts.length > 0 && (
               <section
                 aria-labelledby="related-posts-heading"
-                className="mt-12 max-w-[46rem]"
+                className="mt-12"
               >
                 <h2
                   id="related-posts-heading"
