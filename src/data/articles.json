@@ -7785,6 +7785,114 @@
       { "id": 808, "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp", "date": "July 29, 2026", "author": "Felix Draper", "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks", "excerpt": "The US expands sanctions on Iran’s shadow fleet and offshore financial networks, targeting entities accused of helping bypass global restrictions." },
       { "id": 806, "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network", "category": "offshore", "categoryColor": "bg-[#e91e63]",  "secondaryColor": "bg-[#e91e63]", "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp", "date": "September 1, 2026", "author": "Felix Draper", "title": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network", "excerpt": "The UK has doubled penalties for sanctions breaches while targeting a Russian-linked offshore network accused of helping evade restrictions." }
     ]
-  }
+  },
+{
+  "id": 214,
+  "slug": "democrats-win-midterms-promise-oversight-of-trump-administration",
+  "category": "govt",
+  "categoryLabel": "Government",
+  "categoryColor": "bg-[#ff9800]",
+  "metaTitle": "Democrats Win Midterms, Vow Trump Administration Probes",
+  "metaDescription": "Democrats flipped the House and were projected to take the Senate, and party leaders are already planning oversight of the Trump administration.",
+  "metaKeywords": [
+    "2026 midterms",
+    "Democrats win House",
+    "Senate control",
+    "Trump administration oversight",
+    "Hakeem Jeffries",
+    "Chuck Schumer",
+    "congressional investigations"
+  ],
+  "heading": "Democrats Win the Midterms and Promise Tough Oversight of Trump's Administration",
+  "excerpt": "Democrats flipped the House and were projected to take the Senate after Tuesday's midterms, and party leaders are already talking about investigations into the Trump administration.",
+  "date": "November 5, 2026",
+  "image": "/democrats-win-midterms-promise-oversight-of-trump-administration.webp",
+  "heroImage": "/democrats-win-midterms-promise-oversight-of-trump-administration.webp",
+  "alt": "The U.S. Capitol dome in Washington, D.C., where Democrats take control of Congress after the 2026 midterm elections.",
+  "author": {
+    "name": "Margaret Holloway",
+    "slug": "margaret-holloway",
+    "avatar": "/margaret-holloway.webp",
+    "bio": "Margaret spent fourteen years covering the Hill before she stopped believing in coincidences. A former congressional staffer turned investigative journalist, she has sat in more closed-door briefings than she cares to count and developed a particular eye for what gets left out of the official record.",
+    "social": {
+      "facebook": "#",
+      "twitter": "#",
+      "instagram": "#",
+      "youtube": "#"
+    }
+  },
+  "body": {
+    "blocks": [
+      {
+        "type": "paragraph",
+        "text": "Democrats came out of Tuesday's midterm elections with control of the House of Representatives, and projections reported by ABC News and the Associated Press show them taking the Senate as well. A few contests were still being counted on Wednesday, including Alaska, Michigan and Mississippi, but the broad outcome was not in doubt: voters handed President Donald Trump's party a heavy defeat two years into his second term."
+      },
+      {
+        "type": "heading",
+        "text": "The Senate Map Shifts"
+      },
+      {
+        "type": "paragraph",
+        "text": "The Senate results were the bigger surprise. In Texas, Democrat James Talarico beat Republican Attorney General Ken Paxton, the candidate Trump had backed over Sen. John Cornyn in the primary. Sherrod Brown won in Ohio, Troy Jackson defeated Sen. Susan Collins in Maine, and Jon Ossoff comfortably held his seat in Georgia. In Kansas, Adam Hamilton unseated Sen. Roger Marshall, which makes him the state's first Democratic senator since 1932. Sen. Chuck Schumer described it as a \"generational remake of the Senate map.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "Democrats also held on to a string of governorships, with Josh Shapiro, JB Pritzker, Wes Moore, Maura Healey and Kathy Hochul all winning re-election, according to AP."
+      },
+      {
+        "type": "heading",
+        "text": "Trump Blames the Candidates"
+      },
+      {
+        "type": "paragraph",
+        "text": "The president did not take the night as a verdict on himself. On social media he wrote, \"I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!\" He told Fox News he was \"a little bit surprised\" and that he had expected the party to do better, and he put some of the blame on Republican candidates and on high gas prices linked to the war in Iran. He also said he would be ready to work with Democrats, then posted an image of a red hat reading \"VETO\" and called himself \"Mr. Veto.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "The tone was a change from the weeks before the vote, when Trump warned about noncitizen voting and his side filed lawsuits in Alaska and California. By Wednesday he was telling Fox that he would accept the results."
+      },
+      {
+        "type": "heading",
+        "text": "Oversight Moves to the Top of the Agenda"
+      },
+      {
+        "type": "paragraph",
+        "text": "For anyone who follows government accountability, the more important question is what Democrats do with the gavels. AP reports that party leaders are preparing investigations into senior administration officials, with Defense Secretary Pete Hegseth and Elon Musk named as possible targets, along with a closer look at how Trump's business dealings have benefited his family. Impeachment of the president or Cabinet members is, in the words of that reporting, \"not off the table.\""
+      },
+      {
+        "type": "paragraph",
+        "text": "House Democratic leader Hakeem Jeffries has sketched out a 100-day agenda built around lowering living costs and overseeing the administration, saying \"the American people are crying out for transformational change.\" Senate Republicans, for their part, have signalled that they will fight what they call the far-left wing of the Democratic Party."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this will move quickly. Subpoenas, hearings and document demands take months, and a president holding a veto pen can block most legislation that reaches his desk. But for the first time since Trump returned to the White House, the people he appoints will have to answer questions under oath from a Congress that is no longer on his side, and that alone changes the political weather in Washington heading into the new year."
+      }
+    ]
+  },
+  "relatedPosts": [
+    {
+      "id": 102,
+      "slug": "labour-defeats-greens-in-holborn-and-st-pancras-by-election",
+      "category": "govt",
+      "categoryColor": "bg-[#ff9800]",
+      "secondaryColor": "bg-[#00008b]",
+      "image": "/labour-defeats-greens-in-holborn-and-st-pancras-by-election.webp",
+      "author": "Margaret Holloway",
+      "title": "Holborn and St Pancras By-Election: Labour Defeats Greens",
+      "excerpt": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost."
+    },
+    {
+      "id": 103,
+      "slug": "us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief",
+      "category": "govt",
+      "categoryColor": "bg-[#ff9800]",
+      "secondaryColor": "bg-[#00008b]",
+      "image": "/us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief.webp",
+      "author": "Margaret Holloway",
+      "title": "US Senate Set to Vote on Jay Clayton as Trump's Intelligence Chief",
+      "excerpt": "The US Senate is preparing to vote on President Donald Trump's nominee Jay Clayton for director of national intelligence, with confirmation expected this week."
+    }
+  ]
+}
   ]
 }

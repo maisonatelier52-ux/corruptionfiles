@@ -1,16 +1,16 @@
 {
   "politicsNews": [
     {
-      "id": 204,
-      "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis",
+      "id": 214,
+      "slug": "democrats-win-midterms-promise-oversight-of-trump-administration",
       "category": "govt",
-      "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp",
+      "image": "/democrats-win-midterms-promise-oversight-of-trump-administration.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "September 18, 2026",
+      "date": "November 5, 2026",
       "author": "Margaret Holloway",
-      "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis",
-      "description": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure."
+      "title": "Democrats Win the Midterms and Promise Tough Oversight of Trump's Administration",
+      "description": "Democrats flipped the House and were projected to take the Senate after Tuesday's midterms, and party leaders are already talking about investigations into the Trump administration."
     },
     {
       "id": 102,
@@ -73,6 +73,18 @@
       "author": "Margaret Holloway",
       "title": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning",
       "description": "The UK Parliament is expected to pass the landmark Hillsborough Law, showing a legal duty of candour for public officials following years of campaigning by victims' families."
+    },
+    {
+      "id": 204,
+      "slug": "uk-mps-urge-government-action-over-thames-water-financial-crisis",
+      "category": "govt",
+      "image": "/uk-mps-urge-government-action-over-thames-water-financial-crisis.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "September 18, 2026",
+      "author": "Margaret Holloway",
+      "title": "UK MPs Urge Government Action Over Thames Water Financial Crisis",
+      "description": "British lawmakers are calling for stronger government intervention as Thames Water faces major debt challenges and questions over its future ownership structure."
     },
     {
       "id": 101,
