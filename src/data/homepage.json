@@ -209,21 +209,21 @@
   ],
   "inOtherNews": {
     "featured": {
-          "id": 301,
-          "slug": "puerto-rico-prosecution-must-answer-for-public-rush-to-judgment",
-          "categories": [
-            {
-              "label": "Puerto Rico",
-              "color": "bg-[#2196f3]"
-            }
-          ],
-          "category": "puerto-rico",
-          "author": "Carlos Medina Reyes",
-          "date": "October 13, 2026",
-          "title": "The Puerto Rico Prosecution Must Answer for Its Public Rush to Judgment",
-          "quote": "The federal prosecution of Wanda Vázquez Garced, Julio Herrera Velutini and Mark Rossini spoke about the accused in language that treated criminal wrongdoing as settled before the case had been tried. Rossini now alleges that fear of public anger helped keep the prosecution alive.",
-          "image": "/puerto-rico-prosecution-must-answer-for-public-rush-to-judgment.webp"
-        },
+      "id": 301,
+      "slug": "puerto-rico-prosecution-must-answer-for-public-rush-to-judgment",
+      "categories": [
+        {
+          "label": "Puerto Rico",
+          "color": "bg-[#2196f3]"
+        }
+      ],
+      "category": "puerto-rico",
+      "author": "Carlos Medina Reyes",
+      "date": "October 13, 2026",
+      "title": "The Puerto Rico Prosecution Must Answer for Its Public Rush to Judgment",
+      "quote": "The federal prosecution of Wanda Vázquez Garced, Julio Herrera Velutini and Mark Rossini spoke about the accused in language that treated criminal wrongdoing as settled before the case had been tried. Rossini now alleges that fear of public anger helped keep the prosecution alive.",
+      "image": "/puerto-rico-prosecution-must-answer-for-public-rush-to-judgment.webp"
+    },
     "grid": [
       {
         "id": 302,
@@ -312,7 +312,12 @@
       {
         "id": 309,
         "slug": "puerto-rico-water-infrastructure-faces-renewed-scrutiny",
-        "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
+        "categories": [
+          {
+            "label": "Puerto Rico",
+            "color": "bg-[#2196f3]"
+          }
+        ],
         "category": "puerto-rico",
         "author": "Carlos Medina Reyes",
         "date": "September 10, 2026",
@@ -323,7 +328,12 @@
       {
         "id": 310,
         "slug": "puerto-rico-voting-machine-probe-draws-new-questions",
-        "categories": [{ "label": "Puerto Rico", "color": "bg-[#2196f3]" }],
+        "categories": [
+          {
+            "label": "Puerto Rico",
+            "color": "bg-[#2196f3]"
+          }
+        ],
         "category": "puerto-rico",
         "author": "Carlos Medina Reyes",
         "date": "October 2, 2026",
@@ -334,162 +344,245 @@
     ]
   },
   "healthcareNews": [
-{
-  "id": 401,
-  "slug": "ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow",
-  "image": "/ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow.webp",
-  "category": "pa",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "ICE Officers to Get Body Cameras as Calls for Police Accountability Grow",
-  "date": "August 9, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 402,
-  "slug": "uk-police-face-questions-portsmouth-protest-clashes",
-  "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp",
-  "category": "pa",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "UK Police Face Questions After Portsmouth Protest Clashes",
-  "date": "September 7, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 403,
-  "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
-  "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
-  "category": "pa",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
-  "date": "July 23, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 404,
-  "slug": "seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response",
-  "image": "/seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response.webp",
-  "category": "pa",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Seattle Police Chief Resigns After Criticism Over Delayed Shooting Response",
-  "date": "July 31, 2026",
-  "author": "Darnell Hutchins"
-},
-{ 
-  "id": 405, 
-  "slug": "westchester-county-license-plate-readers-lawsuit", 
-  "image": "/westchester-county-license-plate-readers-lawsuit.webp", 
-  "category": "pa", 
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], 
-  "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge", 
-  "date": "June 10, 2026", 
-  "author": "Darnell Hutchins" 
-},
-{
-  "id": 406,
-  "slug": "australia-police-less-lethal-weapons-transparency",
-  "image": "/australia-police-less-lethal-weapons-transparency.webp",
-  "category": "pa",
-  "badges": [
     {
-      "text": "Police Accountability",
-      "color": "bg-[#e91e63]"
+      "id": 810,
+      "slug": "arlington-police-propose-30-day-bodycam-release-rule-after-fatal-shooting-2026",
+      "image": "/arlington-police-propose-30-day-bodycam-release-rule-after-fatal-shooting-2026.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Arlington Police Propose 30-Day Bodycam Release Rule After Fatal 7-Eleven Shooting",
+      "date": "November 6, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 402,
+      "slug": "uk-police-face-questions-portsmouth-protest-clashes",
+      "image": "/uk-police-face-questions-portsmouth-protest-clashes.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "UK Police Face Questions After Portsmouth Protest Clashes",
+      "date": "September 7, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 403,
+      "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
+      "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
+      "date": "July 23, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 404,
+      "slug": "seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response",
+      "image": "/seattle-police-chief-resigns-after-criticism-over-delayed-shooting-response.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Seattle Police Chief Resigns After Criticism Over Delayed Shooting Response",
+      "date": "July 31, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 405,
+      "slug": "westchester-county-license-plate-readers-lawsuit",
+      "image": "/westchester-county-license-plate-readers-lawsuit.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge",
+      "date": "June 10, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 406,
+      "slug": "australia-police-less-lethal-weapons-transparency",
+      "image": "/australia-police-less-lethal-weapons-transparency.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
+      "date": "June 11, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 407,
+      "slug": "belfast-psni-inaction-far-right-attacks",
+      "image": "/belfast-psni-inaction-far-right-attacks.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks",
+      "date": "June 12, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 408,
+      "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting",
+      "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface",
+      "date": "June 18, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 409,
+      "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
+      "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
+      "category": "pa",
+      "categoryLabel": "Police Accountability",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
+      "date": "May 14, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 410,
+      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+      "category": "pa",
+      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "date": "June 2, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 411,
+      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
+      "category": "pa",
+      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "date": "June 3, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 412,
+      "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
+      "category": "pa",
+      "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
+      "date": "June 5, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 413,
+      "slug": "mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting",
+      "image": "/mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Mississippi Protesters Demand Police Bodycam Footage After Child's Fatal Shooting",
+      "date": "June 27, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 401,
+      "slug": "ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow",
+      "image": "/ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "ICE Officers to Get Body Cameras as Calls for Police Accountability Grow",
+      "date": "August 9, 2026",
+      "author": "Darnell Hutchins"
     }
-  ],
-  "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
-  "date": "June 11, 2026",
-  "author": "Darnell Hutchins"
-},
-{ 
-  "id": 407, 
-  "slug": "belfast-psni-inaction-far-right-attacks", 
-  "image": "/belfast-psni-inaction-far-right-attacks.webp", 
-  "category": "pa", 
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], 
-  "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks", 
-  "date": "June 12, 2026", 
-  "author": "Darnell Hutchins" 
-},
-{ 
-  "id": 408, 
-  "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting", 
-  "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp", 
-  "category": "pa", 
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }], 
-  "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface", 
-  "date": "June 18, 2026", 
-  "author": "Darnell Hutchins" 
-},
-{
-  "id": 409,
-  "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
-  "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
-  "category": "pa",
-  "categoryLabel": "Police Accountability",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
-  "date": "May 14, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 410,
-  "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
-  "category": "pa",
-  "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
-  "date": "June 2, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 411,
-  "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
-  "category": "pa",
-  "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
-  "date": "June 3, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 412,
-  "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
-  "category": "pa",
-  "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
-  "date": "June 5, 2026",
-  "author": "Darnell Hutchins"
-},
-{
-  "id": 413,
-  "slug": "mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting",
-  "image": "/mississippi-protesters-demand-bodycam-footage-after-childs-fatal-shooting.webp",
-  "category": "pa",
-  "badges": [{ "text": "Police Accountability", "color": "bg-[#e91e63]" }],
-  "title": "Mississippi Protesters Demand Police Bodycam Footage After Child's Fatal Shooting",
-  "date": "June 27, 2026",
-  "author": "Darnell Hutchins"
-}
   ],
   "worldNews": {
     "main": {
-        "id": 90,
-        "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
-        "category": "tech",
-        "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
-        "categories": [
-          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
-        ],
-        "date": "July 17, 2026",
-        "author": "Simone Varlette",
-        "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
-        "description": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
-      },
+      "id": 90,
+      "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+      "category": "tech",
+      "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+      "categories": [
+        {
+          "label": "Big Tech & Surveillance",
+          "color": "bg-[#00008b]"
+        }
+      ],
+      "date": "July 17, 2026",
+      "author": "Simone Varlette",
+      "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
+      "description": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
+    },
     "sidebar": [
       {
         "id": 91,
         "slug": "meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras",
-        "categories": [{ "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }],
+        "categories": [
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
+        ],
         "category": "tech",
         "author": "Simone Varlette",
         "date": "August 10, 2026",
@@ -503,7 +596,10 @@
         "category": "tech",
         "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp",
         "categories": [
-          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
         ],
         "date": "September 10, 2026",
         "author": "Simone Varlette",
@@ -515,7 +611,10 @@
         "category": "tech",
         "image": "/privacy-backtrack-instagram-scraps-encrypted-dm-feature-under-fire.webp",
         "categories": [
-          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
         ],
         "date": "May 12, 2026",
         "author": "Simone Varlette",
@@ -527,24 +626,30 @@
         "category": "tech",
         "image": "/london-police-expand-facial-recognition-public-streets.webp",
         "categories": [
-          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
         ],
         "date": "May 27, 2026",
         "author": "Simone Varlette",
         "title": "London Police Expand Facial Recognition Across Public Streets"
       },
       {
-      "id": 95,
-      "slug": "us-report-record-513-million-ai-surveillance-border-technology",
-      "category": "tech",
-      "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
-      "categories": [
-        { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
-      ],
-      "date": "June 24, 2026",
-      "author": "Simone Varlette",
-      "title": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
-      "description": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns."
+        "id": 95,
+        "slug": "us-report-record-513-million-ai-surveillance-border-technology",
+        "category": "tech",
+        "image": "/us-report-record-513-million-ai-surveillance-border-technology.webp",
+        "categories": [
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
+        ],
+        "date": "June 24, 2026",
+        "author": "Simone Varlette",
+        "title": "U.S. Report Reveals Record $513 Million Spending on AI Surveillance and Border Technology",
+        "description": "A new report says U.S. immigration agencies awarded more than $513 million in surveillance technology contracts in 2026, including AI-powered border systems, facial recognition, drones, and data analytics, raising fresh privacy concerns."
       },
       {
         "id": 96,
@@ -552,7 +657,10 @@
         "category": "tech",
         "image": "/supreme-court-geofence-warrants-privacy-ruling.webp",
         "categories": [
-          { "label": "Big Tech & Surveillance", "color": "bg-[#00008b]" }
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
         ],
         "date": "June 29, 2026",
         "author": "Simone Varlette",
@@ -561,187 +669,289 @@
       }
     ]
   },
-"newsCards": [
-  {
-    "id": 1,
-    "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "August 1, 2026",
-    "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
-    "author": "Ruth Anselmi",
-    "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security.",
-    "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 2,
-    "slug": "wolverine-peptide-bpc-157-rise-limited-safety-evidence",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "September 16, 2026",
-    "title": "Use of Unapproved “Wolverine” Peptide BPC-157 Rises Despite Limited Safety Evidence",
-    "author": "Ruth Anselmi",
-    "excerpt": "A new analysis found the number of patients using BPC-157, an unapproved peptide backed by Health Secretary Robert F. Kennedy Jr., has risen sharply despite scant safety evidence.",
-    "image": "/wolverine-peptide-bpc-157-rise-limited-safety-evidence.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 3,
-    "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "July 15, 2026",
-    "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
-    "author": "Ruth Anselmi",
-    "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
-    "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 4,
-    "slug": "doj-sues-new-york-medicaid-home-care-fraud",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 17, 2026",
-    "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program",
-    "author": "Ruth Anselmi",
-    "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program.",
-    "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 5,
-    "slug": "fda-warning-letters-telehealth-weight-loss-drugs",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 17, 2026",
-    "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims",
-    "author": "Ruth Anselmi",
-    "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications.",
-    "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 6,
-    "slug": "us-section-301-trade-investigation-germany-drug-pricing",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 19, 2026",
-    "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute",
-    "author": "Ruth Anselmi",
-    "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs.",
-    "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 7,
-    "slug": "ahold-delhaize-40-million-pharmacy-pricing-settlement",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 18, 2026",
-    "title": "Ahold Delhaize to Pay $40 Million Over Alleged Pharmacy Pricing Fraud in U.S. Health Programs",
-    "author": "Ruth Anselmi",
-    "excerpt": "Ahold Delhaize, owner of Stop & Shop and Giant pharmacies, agreed to a $40 million settlement after allegations that it inflated prescription prices charged to Medicare, Medicaid and TRICARE.",
-    "image": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 8,
-    "slug": "fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 21, 2026",
-    "title": "FBI Captures Fugitive Linked to $1.2 Billion Medicare Fraud Scheme",
-    "author": "Ruth Anselmi",
-    "excerpt": "Federal authorities arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces.",
-    "image": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 9,
-    "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "July 19, 2026",
-    "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims",
-    "author": "Ruth Anselmi",
-    "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations.",
-    "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 10,
-    "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "May 21, 2026",
-    "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
-    "author": "Ruth Anselmi",
-    "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed without proper licensing.",
-    "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 11,
-    "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "May 18, 2026",
-    "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
-    "author": "Ruth Anselmi",
-    "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
-    "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 12,
-    "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 4, 2026",
-    "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
-    "author": "Ruth Anselmi",
-    "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period.",
-    "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 13,
-    "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
-    "category": "medical-fraud",
-    "categoryLabel": "Medical Fraud",
-    "date": "June 30, 2026",
-    "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
-    "author": "Ruth Anselmi",
-    "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
-    "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
-    "tags": [{ "label": "Medical Fraud", "color": "bg-[#e91e63]" }]
-  }
-],
-  "categories": [
-    { "label": "Government", "category": "govt","image": "/cat-bgcolor.webp" },
-    { "label": "Puerto Rico","category": "puerto-rico","image": "/cat-bgcolor.webp" },
-    { "label": "Police Accountability","category": "pa","image": "/cat-bgcolor.webp" },
-    { "label": "Tech","category": "tech", "image": "/cat-bgcolor.webp" },
-    { "label": "Medical Fraud", "category": "medical-fraud", "image": "/cat-bgcolor.webp" },
-    { "label": "Eco", "category": "eco", "image": "/cat-bgcolor.webp" },
-    { "label": "Intelligence", "category": "intelligence", "image": "/cat-bgcolor.webp" },
-    { "label": "Offshore", "category": "offshore", "image": "/cat-bgcolor.webp" }
-  ],
-      "discoveryMain": {
-      "id": 501,
-      "slug": "us-data-centers-water-pollution-scrutiny",
-      "category": "eco",
-      "categoryLabel": "Environmental Exploitation",
-      "categoryColor": "bg-[#2196f3]",
-      "date": "September 8, 2026",
-      "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact",
-      "author": "Thomas Aldgate",
-      "excerpt": "Environmental groups are raising concerns over pollution risks and heavy water usage tied to America's rapidly expanding AI data center industry.",
-      "image": "/us-data-centers-water-pollution-scrutiny.webp",
-      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
+  "newsCards": [
+    {
+      "id": 1,
+      "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "August 1, 2026",
+      "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
+      "author": "Ruth Anselmi",
+      "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security.",
+      "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
     },
+    {
+      "id": 2,
+      "slug": "wolverine-peptide-bpc-157-rise-limited-safety-evidence",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "September 16, 2026",
+      "title": "Use of Unapproved “Wolverine” Peptide BPC-157 Rises Despite Limited Safety Evidence",
+      "author": "Ruth Anselmi",
+      "excerpt": "A new analysis found the number of patients using BPC-157, an unapproved peptide backed by Health Secretary Robert F. Kennedy Jr., has risen sharply despite scant safety evidence.",
+      "image": "/wolverine-peptide-bpc-157-rise-limited-safety-evidence.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "July 15, 2026",
+      "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
+      "author": "Ruth Anselmi",
+      "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
+      "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "doj-sues-new-york-medicaid-home-care-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 17, 2026",
+      "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program",
+      "author": "Ruth Anselmi",
+      "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program.",
+      "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "fda-warning-letters-telehealth-weight-loss-drugs",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 17, 2026",
+      "title": "FDA Warns Telehealth Firms Over Misleading Weight-Loss Drug Claims",
+      "author": "Ruth Anselmi",
+      "excerpt": "The FDA has issued warning letters to 25 telehealth companies accused of making false and misleading claims about compounded versions of popular weight-loss and diabetes medications.",
+      "image": "/fda-warning-letters-telehealth-weight-loss-drugs.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "us-section-301-trade-investigation-germany-drug-pricing",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 19, 2026",
+      "title": "US Launches Trade Investigation Into Germany Over Drug Pricing in Major Pharma Dispute",
+      "author": "Ruth Anselmi",
+      "excerpt": "The United States has launched a Section 301 trade investigation into Germany's pharmaceutical pricing policies, escalating tensions over healthcare costs.",
+      "image": "/us-section-301-trade-investigation-germany-drug-pricing.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "ahold-delhaize-40-million-pharmacy-pricing-settlement",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 18, 2026",
+      "title": "Ahold Delhaize to Pay $40 Million Over Alleged Pharmacy Pricing Fraud in U.S. Health Programs",
+      "author": "Ruth Anselmi",
+      "excerpt": "Ahold Delhaize, owner of Stop & Shop and Giant pharmacies, agreed to a $40 million settlement after allegations that it inflated prescription prices charged to Medicare, Medicaid and TRICARE.",
+      "image": "/ahold-delhaize-40-million-pharmacy-pricing-settlement.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 21, 2026",
+      "title": "FBI Captures Fugitive Linked to $1.2 Billion Medicare Fraud Scheme",
+      "author": "Ruth Anselmi",
+      "excerpt": "Federal authorities arrested Herbert Leon Kimble in the Philippines for allegedly masterminding a $1.2 billion Medicare fraud operation involving unnecessary orthopedic braces.",
+      "image": "/fbi-captures-herbert-leon-kimble-1-2-billion-medicare-fraud.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "July 19, 2026",
+      "title": "Icon Clinical Trials Faces Fraud Lawsuit Over Alleged Investor Misleading Claims",
+      "author": "Ruth Anselmi",
+      "excerpt": "U.S. investors have filed a lawsuit against clinical trials company Icon, alleging financial misreporting, inflated revenue claims, and misleading disclosures linked to pharmaceutical trial operations.",
+      "image": "/icon-clinical-trials-faces-fraud-lawsuit-over-alleged-investor-misleading-claims.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "connecticut-clinic-659k-medicaid-fraud-aprm-solutions",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "May 21, 2026",
+      "title": "Connecticut Clinic Accused in $659K Medicaid Fraud Scheme",
+      "author": "Ruth Anselmi",
+      "excerpt": "Four people tied to a Shelton pain clinic face charges over an alleged scheme in which APRM Solutions submitted 4,009 false Medicaid claims for allergy treatments that were never performed without proper licensing.",
+      "image": "/connecticut-clinic-659k-medicaid-fraud-aprm-solution.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "takeda-885-million-verdict-amitiza-pay-for-delay",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "May 18, 2026",
+      "title": "Takeda Hit With $885 Million Verdict Over Generic Drug Delay Scheme",
+      "author": "Ruth Anselmi",
+      "excerpt": "A federal jury in Boston found Takeda liable for blocking generic competition to its constipation drug Amitiza — the first pay-for-delay antitrust verdict against a pharma company in U.S. class-action history.",
+      "image": "/takeda-885-million-verdict-amitiza-pay-for-delay.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "hawaii-medicaid-fraud-unit-federal-funding-cut-hhs",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 4, 2026",
+      "title": "Hawaii Loses Federal Medicaid Fraud Funding Amid Lack of Criminal Cases",
+      "author": "Ruth Anselmi",
+      "excerpt": "HHS Inspector General March Bell decertified Hawaii's Medicaid Fraud Control Unit and cut its $3 million annual federal match after finding zero indictments or convictions for Medicaid fraud between 2022 and 2025 — despite $12 million in federal funding over that period.",
+      "image": "/hawaii-medicaid-fraud-unit-federal-funding-cut-hhs.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "astrazeneca-34-million-settlement-texas-medicaid-kickback",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 30, 2026",
+      "title": "AstraZeneca agrees $34M settlement over alleged Medicaid kickback scheme in Texas",
+      "author": "Ruth Anselmi",
+      "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
+      "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "label": "Government",
+      "category": "govt",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Puerto Rico",
+      "category": "puerto-rico",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Police Accountability",
+      "category": "pa",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Tech",
+      "category": "tech",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Medical Fraud",
+      "category": "medical-fraud",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Eco",
+      "category": "eco",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Intelligence",
+      "category": "intelligence",
+      "image": "/cat-bgcolor.webp"
+    },
+    {
+      "label": "Offshore",
+      "category": "offshore",
+      "image": "/cat-bgcolor.webp"
+    }
+  ],
+  "discoveryMain": {
+    "id": 501,
+    "slug": "us-data-centers-water-pollution-scrutiny",
+    "category": "eco",
+    "categoryLabel": "Environmental Exploitation",
+    "categoryColor": "bg-[#2196f3]",
+    "date": "September 8, 2026",
+    "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact",
+    "author": "Thomas Aldgate",
+    "excerpt": "Environmental groups are raising concerns over pollution risks and heavy water usage tied to America's rapidly expanding AI data center industry.",
+    "image": "/us-data-centers-water-pollution-scrutiny.webp",
+    "tags": [
+      {
+        "label": "Environmental Exploitation",
+        "color": "bg-[#2196f3]"
+      }
+    ]
+  },
   "discoveryMiddle": [
     {
       "id": 502,
@@ -754,7 +964,12 @@
       "author": "Thomas Aldgate",
       "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
       "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
-      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
+      "tags": [
+        {
+          "label": "Environmental Exploitation",
+          "color": "bg-[#2196f3]"
+        }
+      ]
     },
     {
       "id": 503,
@@ -780,16 +995,16 @@
     }
   ],
   "discoveryRight": [
-    { 
-      "id": 505, 
-      "slug": "unicef-report-children-climate-hazards-2026", 
-      "image": "/unicef-report-children-climate-hazards-2026.webp", 
-      "category": "eco", 
+    {
+      "id": 505,
+      "slug": "unicef-report-children-climate-hazards-2026",
+      "image": "/unicef-report-children-climate-hazards-2026.webp",
+      "category": "eco",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards", 
-      "date": "June 18, 2026", 
-      "author": "Thomas Aldgate" 
+      "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards",
+      "date": "June 18, 2026",
+      "author": "Thomas Aldgate"
     },
     {
       "id": 506,
@@ -846,7 +1061,12 @@
       "author": "Thomas Aldgate",
       "excerpt": "Data centres now consume 6% of electricity in both the US and UK, pushing up consumer bills and threatening climate targets — while Seattle weighs a moratorium and over 100 UK facilities turn to gas as grid queues stretch for years.",
       "image": "/ai-data-centres-environmental-backlash-us-uk.webp",
-      "tags": [{ "label": "Environmental Exploitation", "color": "bg-[#2196f3]" }]
+      "tags": [
+        {
+          "label": "Environmental Exploitation",
+          "color": "bg-[#2196f3]"
+        }
+      ]
     },
     {
       "id": 511,
@@ -859,229 +1079,329 @@
       "date": "June 9, 2026",
       "author": "Thomas Aldgate"
     }
-  ], 
-"technologyNews": [
-  {
-    "id": 708,
-    "slug": "us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate",
-    "category": "intelligence",
-    "title": "US Justice Department Disrupts China-Linked Hacking Network Targeting NASA, Fed and Senate",
-    "excerpt": "The Justice Department and FBI seized domains powering two Chinese state-sponsored hacking platforms accused of breaching NASA, the Federal Reserve, the Senate and other federal networks.",
-    "author": "Naomi Vosburgh",
-    "date": "August 26, 2026",
-    "image": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 701,
-    "slug": "former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation",
-    "category": "intelligence",
-    "title": "Former CIA Director John Brennan Subpoenaed in Trump Intelligence Investigation",
-    "excerpt": "Former CIA Director John Brennan has been subpoenaed as part of a Justice Department probe into the 2016 Russia intelligence assessment. Brennan denies wrongdoing, calling the case politically motivated.",
-    "author": "Naomi Vosburgh",
-    "date": "September 15, 2026",
-    "image": "/former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 704,
-    "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
-    "category": "intelligence",
-    "title": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
-    "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
-    "author": "Naomi Vosburgh",
-    "date": "July 3, 2026",
-    "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 702,
-    "slug": "asio-foils-aukus-submarine-espionage-plot",
-    "category": "intelligence",
-    "title": "Australian intelligence foils foreign espionage attempt targeting AUKUS submarine secrets, ASIO confirms",
-    "excerpt": "Australia's ASIO intelligence agency says it has disrupted a foreign espionage operation aimed at obtaining classified AUKUS submarine and defense strategy data, highlighting growing intelligence threats across allied nations.",
-    "author": "Naomi Vosburgh",
-    "date": "June 24, 2026",
-    "image": "/asio-foils-aukus-submarine-espionage-plot.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 703,
-    "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
-    "category": "intelligence",
-    "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
-    "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict.",
-    "author": "Naomi Vosburgh",
-    "date": "May 20, 2026",
-    "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 705,
-    "slug": "uk-jails-two-men-china-espionage-case",
-    "category": "intelligence",
-    "title": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
-    "excerpt": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions.",
-    "author": "Naomi Vosburgh",
-    "date": "June 18, 2026",
-    "image": "/uk-jails-two-men-china-espionage-case.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 706,
-    "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
-    "category": "intelligence",
-    "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
-    "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence.",
-    "author": "Naomi Vosburgh",
-    "date": "June 9, 2026",
-    "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 707,
-    "slug": "five-eyes-ai-cyber-espionage-warning",
-    "category": "intelligence",
-    "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
-    "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'.",
-    "author": "Naomi Vosburgh",
-    "date": "June 23, 2026",
-    "image": "/five-eyes-ai-cyber-espionage-warning.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 709,
-    "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
-    "category": "intelligence",
-    "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
-    "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
-    "author": "Naomi Vosburgh",
-    "date": "July 8, 2026",
-    "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 710,
-    "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
-    "category": "intelligence",
-    "title": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
-    "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
-    "author": "Naomi Vosburgh",
-    "date": "July 31, 2026",
-    "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  },
-  {
-    "id": 711,
-    "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump",
-    "category": "intelligence",
-    "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump",
-    "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions.",
-    "author": "Naomi Vosburgh",
-    "date": "August 13, 2026",
-    "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp",
-    "categories": [{ "label": "Intelligence", "color": "bg-[#00008b]" }]
-  }
-], 
-"trendingSectionData": [
-  {
-    "id": 806,
-    "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network",
-    "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp",
-    "author": "Felix Draper",
-    "date": "September 1, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 802,
-    "slug": "abramovich-chelsea-sale-proceeds-uk-sanctions-dispute",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "Abramovich’s Frozen Chelsea Sale Funds Earn £175m as UK Sanctions Dispute Continues",
-    "image": "/abramovich-chelsea-sale-proceeds-uk-sanctions-dispute.webp",
-    "author": "Felix Draper",
-    "date": "September 11, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 803,
-    "slug": "china-offshore-trust-tax-crackdown-bofa-single-stocks-risk",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "China's Offshore Trust Tax Crackdown Raises Concerns for Wealthy Investors and Global Markets",
-    "image": "/china-offshore-trust-tax-crackdown-bofa-single-stocks-risk.webp",
-    "author": "Felix Draper",
-    "date": "September 22, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 804,
-    "slug": "uk-seizure-russian-shadow-fleet-tanker-smyrtos",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "UK Seizure of Russian Shadow Fleet Tanker Escalates Sanctions Enforcement",
-    "image": "/uk-seizure-russian-shadow-fleet-tanker-smyrtos.webp",
-    "author": "Felix Draper",
-    "date": "June 17, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 805,
-    "slug": "iran-frozen-assets-us-ceasefire-deal",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal",
-    "image": "/iran-frozen-assets-us-ceasefire-deal.webp",
-    "author": "Felix Draper",
-    "date": "June 16, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 801,
-    "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "date": "July 16, 2026",
-    "title": "UK Targets Gold and Finance Networks Linked to Sudan War Funding",
-    "image": "/uk-targets-gold-finance-networks-linked-to-sudan-war-funding.webp",
-    "author": "Felix Draper",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 807,
-    "slug": "us-treasury-removes-84-names-from-sanctions-list-in-major-review-push",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "US Treasury Removes 84 Names From Sanctions List in Major Review Push",
-    "image": "/us-treasury-removes-84-names-from-sanctions-list-in-major-review-push.webp",
-    "author": "Felix Draper",
-    "date": "July 27, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 808,
-    "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks",
-    "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp",
-    "author": "Felix Draper",
-    "date": "July 29, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  },
-  {
-    "id": 809,
-    "slug": "ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls",
-    "category": "offshore",
-    "categoryLabel": "Offshore Wealth & Sanctions",
-    "title": "UBS Faces Record $125 Million Fine Over Wealth Management Money Laundering Controls",
-    "image": "/ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls.webp",
-    "author": "Felix Draper",
-    "date": "August 3, 2026",
-    "categories": [{ "label": "Offshore Wealth & Sanctions", "color": "bg-[#e91e63]" }]
-  }
-]
+  ],
+  "technologyNews": [
+    {
+      "id": 708,
+      "slug": "us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate",
+      "category": "intelligence",
+      "title": "US Justice Department Disrupts China-Linked Hacking Network Targeting NASA, Fed and Senate",
+      "excerpt": "The Justice Department and FBI seized domains powering two Chinese state-sponsored hacking platforms accused of breaching NASA, the Federal Reserve, the Senate and other federal networks.",
+      "author": "Naomi Vosburgh",
+      "date": "August 26, 2026",
+      "image": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 701,
+      "slug": "former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation",
+      "category": "intelligence",
+      "title": "Former CIA Director John Brennan Subpoenaed in Trump Intelligence Investigation",
+      "excerpt": "Former CIA Director John Brennan has been subpoenaed as part of a Justice Department probe into the 2016 Russia intelligence assessment. Brennan denies wrongdoing, calling the case politically motivated.",
+      "author": "Naomi Vosburgh",
+      "date": "September 15, 2026",
+      "image": "/former-cia-director-john-brennan-subpoenaed-in-trump-intelligence-investigation.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 704,
+      "slug": "dhs-cyber-breach-hsin-uk-espionage-warning",
+      "category": "intelligence",
+      "title": "US DHS probes cyber breach in intelligence-sharing system as UK warns of rising state espionage threats",
+      "excerpt": "US Department of Homeland Security is investigating a cyber breach affecting a sensitive intelligence-sharing system, while UK agencies warn of increasing state-backed cyber espionage risks across allied networks.",
+      "author": "Naomi Vosburgh",
+      "date": "July 3, 2026",
+      "image": "/dhs-cyber-breach-hsin-uk-espionage-warning.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 702,
+      "slug": "asio-foils-aukus-submarine-espionage-plot",
+      "category": "intelligence",
+      "title": "Australian intelligence foils foreign espionage attempt targeting AUKUS submarine secrets, ASIO confirms",
+      "excerpt": "Australia's ASIO intelligence agency says it has disrupted a foreign espionage operation aimed at obtaining classified AUKUS submarine and defense strategy data, highlighting growing intelligence threats across allied nations.",
+      "author": "Naomi Vosburgh",
+      "date": "June 24, 2026",
+      "image": "/asio-foils-aukus-submarine-espionage-plot.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 703,
+      "slug": "uk-security-leak-probe-james-roscoe-washington-diplomat",
+      "category": "intelligence",
+      "title": "UK Security Leak Probe Deepens After Senior Diplomat Leaves Washington Post",
+      "excerpt": "Britain's deputy ambassador James Roscoe has abruptly left his Washington post after being questioned in a probe into the leak of classified National Security Council discussions about US use of British military bases during the Iran conflict.",
+      "author": "Naomi Vosburgh",
+      "date": "May 20, 2026",
+      "image": "/uk-security-leak-probe-james-roscoe-washington-diplomat.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 705,
+      "slug": "uk-jails-two-men-china-espionage-case",
+      "category": "intelligence",
+      "title": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
+      "excerpt": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions.",
+      "author": "Naomi Vosburgh",
+      "date": "June 18, 2026",
+      "image": "/uk-jails-two-men-china-espionage-case.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 706,
+      "slug": "fisa-702-expiry-pulte-intelligence-deadline-june-2026",
+      "category": "intelligence",
+      "title": "U.S. Surveillance Program Faces Uncertainty After Trump Intelligence Appointment",
+      "excerpt": "With Section 702 set to expire Friday, bipartisan alarm is mounting that Bill Pulte's appointment as acting DNI has made renewal politically impossible — raising real questions about intelligence gaps ahead of the FIFA World Cup and the 250th anniversary of American independence.",
+      "author": "Naomi Vosburgh",
+      "date": "June 9, 2026",
+      "image": "/fisa-702-expiry-pulte-intelligence-deadline-june-2026.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 707,
+      "slug": "five-eyes-ai-cyber-espionage-warning",
+      "category": "intelligence",
+      "title": "Five Eyes Intelligence Alliance Warns New AI Models Could Accelerate State-Backed Cyber Espionage",
+      "excerpt": "The Five Eyes intelligence alliance issued an urgent joint warning that advanced AI models could dramatically enhance cyber espionage capabilities within months, urging governments and businesses to 'act now'.",
+      "author": "Naomi Vosburgh",
+      "date": "June 23, 2026",
+      "image": "/five-eyes-ai-cyber-espionage-warning.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 709,
+      "slug": "senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee",
+      "category": "intelligence",
+      "title": "U.S. Senate Intelligence Committee Prepares Hearing for New Spy Chief Nominee",
+      "excerpt": "The Senate Intelligence Committee has scheduled a July 15 confirmation hearing for Jay Clayton, President Trump's nominee to serve as the next Director of National Intelligence.",
+      "author": "Naomi Vosburgh",
+      "date": "July 8, 2026",
+      "image": "/senate-intelligence-committee-prepares-hearing-for-new-spy-chief-nominee.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 710,
+      "slug": "secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings",
+      "category": "intelligence",
+      "title": "U.S. Secret Court Begins First Case Using Classified Evidence in Terror Removal Proceedings",
+      "excerpt": "A secretive U.S. immigration court has started its first public hearing involving classified intelligence, raising questions over national security, evidence handling, and legal rights.",
+      "author": "Naomi Vosburgh",
+      "date": "July 31, 2026",
+      "image": "/secretive-us-court-begins-first-case-using-classified-evidence-in-terror-removal-proceedings.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    },
+    {
+      "id": 711,
+      "slug": "us-intelligence-could-not-verify-iran-assassination-threats-against-trump",
+      "category": "intelligence",
+      "title": "U.S. Intelligence Could Not Verify Iran Assassination Threats Against Trump",
+      "excerpt": "U.S. intelligence agencies reportedly could not independently confirm several Iranian assassination warnings shared by Israel, raising questions over intelligence assessments and national security decisions.",
+      "author": "Naomi Vosburgh",
+      "date": "August 13, 2026",
+      "image": "/us-intelligence-could-not-verify-iran-assassination-threats-against-trump.webp",
+      "categories": [
+        {
+          "label": "Intelligence",
+          "color": "bg-[#00008b]"
+        }
+      ]
+    }
+  ],
+  "trendingSectionData": [
+    {
+      "id": 806,
+      "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "UK Doubles Penalties for Sanctions Breaches and Targets Russian Offshore Evasion Network",
+      "image": "/uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network.webp",
+      "author": "Felix Draper",
+      "date": "September 1, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 802,
+      "slug": "abramovich-chelsea-sale-proceeds-uk-sanctions-dispute",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "Abramovich’s Frozen Chelsea Sale Funds Earn £175m as UK Sanctions Dispute Continues",
+      "image": "/abramovich-chelsea-sale-proceeds-uk-sanctions-dispute.webp",
+      "author": "Felix Draper",
+      "date": "September 11, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 803,
+      "slug": "china-offshore-trust-tax-crackdown-bofa-single-stocks-risk",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "China's Offshore Trust Tax Crackdown Raises Concerns for Wealthy Investors and Global Markets",
+      "image": "/china-offshore-trust-tax-crackdown-bofa-single-stocks-risk.webp",
+      "author": "Felix Draper",
+      "date": "September 22, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "slug": "uk-seizure-russian-shadow-fleet-tanker-smyrtos",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "UK Seizure of Russian Shadow Fleet Tanker Escalates Sanctions Enforcement",
+      "image": "/uk-seizure-russian-shadow-fleet-tanker-smyrtos.webp",
+      "author": "Felix Draper",
+      "date": "June 17, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 805,
+      "slug": "iran-frozen-assets-us-ceasefire-deal",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "Iran Seeks Access to Frozen Overseas Assets in Proposed U.S. Ceasefire Deal",
+      "image": "/iran-frozen-assets-us-ceasefire-deal.webp",
+      "author": "Felix Draper",
+      "date": "June 16, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 801,
+      "slug": "uk-targets-gold-finance-networks-linked-to-sudan-war-funding",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "date": "July 16, 2026",
+      "title": "UK Targets Gold and Finance Networks Linked to Sudan War Funding",
+      "image": "/uk-targets-gold-finance-networks-linked-to-sudan-war-funding.webp",
+      "author": "Felix Draper",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 807,
+      "slug": "us-treasury-removes-84-names-from-sanctions-list-in-major-review-push",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "US Treasury Removes 84 Names From Sanctions List in Major Review Push",
+      "image": "/us-treasury-removes-84-names-from-sanctions-list-in-major-review-push.webp",
+      "author": "Felix Draper",
+      "date": "July 27, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 808,
+      "slug": "us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "US Expands Iran Sanctions Targeting Shadow Fleet and Offshore Money Networks",
+      "image": "/us-expands-iran-sanctions-targeting-shadow-fleet-and-offshore-money-networks.webp",
+      "author": "Felix Draper",
+      "date": "July 29, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 809,
+      "slug": "ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "UBS Faces Record $125 Million Fine Over Wealth Management Money Laundering Controls",
+      "image": "/ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls.webp",
+      "author": "Felix Draper",
+      "date": "August 3, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    }
+  ]
 }
