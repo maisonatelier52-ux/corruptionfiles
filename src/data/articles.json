@@ -1,6 +1,182 @@
 {
   "articles": [
     {
+      "id": 97,
+      "slug": "apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised",
+      "category": "tech",
+      "categoryLabel": "Big Tech & Surveillance",
+      "categoryColor": "bg-[#00008b]",
+      "metaTitle": "Apple Spyware Alerts Hit 99 Countries, German MPs Warned",
+      "metaDescription": "Apple warned iPhone users in 99 countries of mercenary spyware attacks, and Germany's BSI told Bundestag members to treat their phones as compromised.",
+      "metaKeywords": [
+        "Apple spyware alerts",
+        "mercenary spyware",
+        "Apple threat notifications",
+        "Bundestag iPhone spyware",
+        "BSI Germany",
+        "Pegasus spyware",
+        "Lockdown Mode",
+        "Pall Mall Process"
+      ],
+      "heading": "Apple Spyware Alerts Reach 99 Countries as Germany Warns Lawmakers Their iPhones May Be Compromised",
+      "excerpt": "Apple has warned iPhone users in 99 countries that mercenary spyware may have targeted them, and Germany's cybersecurity agency has told Bundestag members who received the alert to treat their phones as possibly compromised.",
+      "date": "November 10, 2026",
+      "image": "/apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised.webp",
+      "heroImage": "/apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised.webp",
+      "alt": "An Apple threat notification on an iPhone lock screen warning of a mercenary spyware attack, as German lawmakers are told their devices may be compromised.",
+      "author": {
+        "name": "Simone Varlette",
+        "slug": "simone-varlette",
+        "avatar": "/simone-varlette2.webp",
+        "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Apple has sent a new wave of threat notifications to iPhone users in 99 countries, warning that they may have been individually targeted with 'mercenary spyware' — commercial surveillance tools sold mainly to governments. The alerts began reaching devices on October 29 and include members of Germany's Bundestag and federal government, prompting the country's cybersecurity agency to tell recipients to treat their phones as potentially compromised."
+          },
+          {
+            "type": "paragraph",
+            "text": "The episode shows how much of the fight against state-linked surveillance now rests on a single technology company. Apple, rather than a regulator or a court, is the party that detects attacks on individual users and warns them, while declining to say who is behind the attacks."
+          },
+          {
+            "type": "heading",
+            "text": "What Apple's Threat Notifications Say"
+          },
+          {
+            "type": "paragraph",
+            "text": "Threat researcher Costin Raiu published the text of the alert on October 30. In it, Apple said the latest batch was going to targeted users in 99 countries and that it has now notified people in more than 150 countries since the programme began in 2021. Apple describes mercenary spyware as extremely costly and sophisticated, and says it does not attribute the attacks to any specific attacker or region. The previous major round of alerts went out in August."
+          },
+          {
+            "type": "paragraph",
+            "text": "Apple treats the notices as high-confidence warnings that a specific person was picked out on purpose, not caught in a broad campaign. They do not prove a phone was actually breached. Raiu, a former head of Kaspersky's global research team, told The Record that he had checked several recipients' notifications and found no signs of compromise in the logs that could show which actor was responsible."
+          },
+          {
+            "type": "heading",
+            "text": "Germany Tells Lawmakers to Assume the Worst"
+          },
+          {
+            "type": "paragraph",
+            "text": "Germany's Federal Office for Information Security, known as the BSI, said it had learned that several Bundestag members and other public figures received the warnings. It wrote to lawmakers on October 30 and asked anyone affected to contact it directly. The agency said it does not know whether attackers actually broke into the phones or only tried to, but its guidance was blunt: recipients 'should therefore assume that their device may have been compromised.'"
+          },
+          {
+            "type": "paragraph",
+            "text": "Digital Minister Karsten Wildberger confirmed on public broadcaster ARD that members of both the Bundestag and the federal government were among those warned. Government spokesperson Stefan Kornelius told the Financial Times that Berlin was taking the incident and the warning very seriously, but he did not say who in the government had been targeted, including whether Chancellor Friedrich Merz was among them."
+          },
+          {
+            "type": "paragraph",
+            "text": "The BSI advised recipients to update their software immediately and to switch on Apple's Lockdown Mode and keep it on. Anyone who judges the risk to be high should consider replacing the handset, resetting every account used on it and changing their phone number. The agency warned that this kind of spyware can read messages, including those in encrypted apps, and can switch on a device's camera and microphone. Lockdown Mode makes new attacks harder, it said, but does not remove an infection that is already there."
+          },
+          {
+            "type": "heading",
+            "text": "Journalists Among Those Targeted"
+          },
+          {
+            "type": "paragraph",
+            "text": "Outside Germany, journalists were among those who made their alerts public. Ragip Soylu, Turkey bureau chief for Middle East Eye, said it was his third such warning this year. Radwan Mortada, a Lebanese investigative journalist and documentary filmmaker, said he received his alert days after the release of his Al Jazeera film about the September 2024 pager explosions in Lebanon, and that Pegasus spyware had targeted him in 2017 and 2021."
+          },
+          {
+            "type": "paragraph",
+            "text": "Mortada told The Record that he has no concrete evidence linking the latest alert to his work, but said the timing raises serious questions that cannot be dismissed. He also warned that spyware aimed at journalists threatens press freedom and the confidentiality of their sources."
+          },
+          {
+            "type": "heading",
+            "text": "Who Is Behind It Remains Unknown"
+          },
+          {
+            "type": "paragraph",
+            "text": "No spyware vendor or government has been publicly identified. Apple does not attribute attacks, and German officials have not named a suspect or said how many people were warned. Spyware of this kind is usually built by private companies — the best known being Israel's NSO Group, maker of Pegasus — and sold to state customers, which makes attribution slow and contested."
+          },
+          {
+            "type": "paragraph",
+            "text": "Germany is not a bystander in that market. Its federal police agency, the BKA, reportedly bought access to Pegasus in 2019, according to earlier reporting by Deutsche Welle. The delivery methods are also evolving: in October, Citizen Lab reported that governments were abusing online ads to deliver zero-click spyware, which can infect a phone without the owner clicking anything."
+          },
+          {
+            "type": "heading",
+            "text": "Pressure on the Spyware Industry"
+          },
+          {
+            "type": "paragraph",
+            "text": "The alerts arrive shortly before the final rounds of negotiations over voluntary industry standards for commercial hacking tools under the Pall Mall Process. Natalia Krapiva, senior tech-legal counsel at the digital rights group Access Now, said the number of notifications shows the fight against spyware abuse is far from over, and argued that the industry must face real consequences for the uncontrolled sale of its tools."
+          },
+          {
+            "type": "paragraph",
+            "text": "John Scott-Railton, a senior researcher at The Citizen Lab at the University of Toronto, said the latest round promises to be important based on what is already public, and cautioned that not receiving a notification does not rule out an infection. For now, the established facts are narrow but significant: a platform company has told people in 99 countries that they were deliberately targeted, a European government has told its own lawmakers to assume their phones are compromised, and nobody has yet been named as responsible."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 92,
+          "slug": "huawei-trial-reopens-us-security-debate-technology-surveillance",
+          "category": "tech",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/huawei-trial-reopens-us-security-debate-technology-surveillance.webp",
+          "date": "September 10, 2026",
+          "author": "Simone Varlette",
+          "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance",
+          "excerpt": "A new Huawei trial reignites U.S. concerns over technology security, surveillance risks, and global digital influence."
+        },
+        {
+          "id": 91,
+          "slug": "meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras",
+          "category": "tech",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras.webp",
+          "date": "August 10, 2026",
+          "author": "Simone Varlette",
+          "title": "Meta AI Smart Glasses Spark New Privacy Concerns Over Hidden Cameras",
+          "excerpt": "Meta’s AI-powered smart glasses are facing growing privacy concerns in the U.K. and U.S. as critics question camera use, data collection, and public surveillance risks."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Federal Office for Information Security (BSI)",
+          "title": "Apple mercenary spyware: guidance for those affected by Apple threat notifications",
+          "url": "https://www.bsi.bund.de/DE/Themen/Unternehmen-und-Organisationen/Informationen-und-Empfehlungen/Empfehlungen-nach-Angriffszielen/Buero/Apple_Mercenary-Spyware/apple_mercenary-spyware_node.html"
+        },
+        {
+          "label": "TechCrunch (via Yahoo News)",
+          "title": "Germany says lawmakers' iPhones may have been hacked with spyware",
+          "url": "https://www.yahoo.com/news/world/articles/germany-says-lawmakers-iphones-may-194554094.html"
+        },
+        {
+          "label": "CyberScoop",
+          "title": "Apple notifications alert victims in 99 countries about mercenary spyware infections",
+          "url": "https://cyberscoop.com/apple-spyware-notifications-pall-mall-process/"
+        },
+        {
+          "label": "The Next Web",
+          "title": "Apple spyware alerts reach German MPs and journalists in 99 countries",
+          "url": "https://thenextweb.com/news/germany-lawmakers-iphones-apple-spyware-alerts"
+        },
+        {
+          "label": "The Record",
+          "title": "Apple warns users in 99 countries of mercenary spyware",
+          "url": "https://therecord.media/apple-warns-users-99-countries-mercenary-spyware"
+        },
+        {
+          "label": "Security Affairs",
+          "title": "Apple's spyware notifications reach the Bundestag: what the BSI says to do now",
+          "url": "https://securityaffairs.com/202297/intelligence/apples-spyware-notifications-reach-the-bundestag-what-the-bsi-says-to-do-now.html"
+        },
+        {
+          "label": "Euronews",
+          "title": "German MPs and ministers warned iPhones have been targeted by spyware",
+          "url": "https://www.euronews.com/2026/11/02/german-mps-and-ministers-warned-iphones-have-been-targeted-by-spyware"
+        }
+      ]
+    },
+    {
       "id": 101,
       "slug": "supreme-court-landmark-rulings-presidential-power-june-2026",
       "category": "govt",

@@ -558,20 +558,20 @@
   ],
   "worldNews": {
     "main": {
-      "id": 90,
-      "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+      "id": 97,
+      "slug": "apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised",
       "category": "tech",
-      "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+      "image": "/apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised.webp",
       "categories": [
         {
           "label": "Big Tech & Surveillance",
           "color": "bg-[#00008b]"
         }
       ],
-      "date": "July 17, 2026",
+      "date": "November 10, 2026",
       "author": "Simone Varlette",
-      "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
-      "description": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
+      "title": "Apple Spyware Alerts Reach 99 Countries as Germany Warns Lawmakers Their iPhones May Be Compromised",
+      "description": "Apple has warned iPhone users in 99 countries that mercenary spyware may have targeted them, and Germany's cybersecurity agency has told Bundestag members who received the alert to treat their phones as possibly compromised."
     },
     "sidebar": [
       {
@@ -604,6 +604,22 @@
         "date": "September 10, 2026",
         "author": "Simone Varlette",
         "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance"
+      },
+      {
+        "id": 90,
+        "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+        "category": "tech",
+        "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+        "categories": [
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
+        ],
+        "date": "July 17, 2026",
+        "author": "Simone Varlette",
+        "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
+        "description": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
       },
       {
         "id": 93,
