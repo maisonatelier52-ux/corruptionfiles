@@ -1,6 +1,177 @@
 {
   "articles": [
     {
+      "id": 14,
+      "slug": "queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "categoryColor": "bg-[#e91e63]",
+      "metaTitle": "Queens Day Care Director Pleads Guilty in $127M Fraud Case",
+      "metaDescription": "A Flushing adult day care program director pleaded guilty to a $127 million Medicare and Medicaid fraud scheme built on kickbacks and services never provided.",
+      "metaKeywords": [
+        "Medicare fraud",
+        "Medicaid fraud",
+        "social adult day care fraud",
+        "Flushing Queens",
+        "Daniel Lee guilty plea",
+        "health care fraud",
+        "kickback scheme",
+        "Justice Department"
+      ],
+      "heading": "Queens Adult Day Care Director Pleads Guilty in $127 Million Medicare and Medicaid Fraud Scheme",
+      "excerpt": "Daniel Lee, a program director at two Flushing social adult day care centers, has admitted to a decade-long kickback scheme that billed Medicare and New York Medicaid for about $127 million in unnecessary drugs and services never provided.",
+      "date": "November 11, 2026",
+      "image": "/queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud.webp",
+      "heroImage": "/queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud.webp",
+      "alt": "A federal courthouse in Brooklyn, New York, where prosecutors filed charges in a $127 million Medicare and Medicaid fraud case involving Queens adult day care centers.",
+      "author": {
+        "name": "Ruth Anselmi",
+        "slug": "ruth-anselmi",
+        "avatar": "/ruth-anselmi.webp",
+        "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A Queens man who helped run two social adult day care centers has pleaded guilty to a decade-long scheme that prosecutors say drained about $127 million from Medicare and New York's Medicaid program. Daniel Lee, 57, of Flushing, admitted on Monday, November 9, to conspiracy to commit health care fraud and conspiracy to commit money laundering, the Justice Department announced on November 10."
+          },
+          {
+            "type": "paragraph",
+            "text": "According to court documents, Lee was a program director at Happy Life Inc. and at Z&W Empire Enterprise, Inc., which did business as Royal Adult Day Care Center. Prosecutors say the two centers and a related pharmacy paid cash to people covered by Medicare and Medicaid, then billed the government for drugs those patients did not need and day care services they never received."
+          },
+          {
+            "type": "heading",
+            "text": "How the Scheme Worked"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Justice Department says that over roughly ten years, Happy Life and Royal paid illegal cash kickbacks and bribes to Medicaid recipients to persuade them to enroll, and then billed Medicaid for services that were never provided. Some claims were filed for days when the Medicaid recipients could not possibly have attended because they were in the hospital."
+          },
+          {
+            "type": "paragraph",
+            "text": "The same group, prosecutors say, paid kickbacks and bribes to Medicare beneficiaries and Medicaid recipients at a related pharmacy, which submitted claims for medically unnecessary prescription drugs. When agents executed a search warrant at Happy Life, they recovered more than $100,000 in cash, and about $900,000 in suspected fraud proceeds was seized from bank accounts."
+          },
+          {
+            "type": "heading",
+            "text": "What the Plea Means"
+          },
+          {
+            "type": "paragraph",
+            "text": "Lee pleaded guilty to conspiracy to commit health care fraud and conspiracy to commit money laundering. He is scheduled to be sentenced on March 2, 2027, and faces a maximum penalty of 30 years in prison. A federal district court judge will decide the actual sentence after considering the U.S. Sentencing Guidelines and other statutory factors."
+          },
+          {
+            "type": "paragraph",
+            "text": "The case is being prosecuted by Deputy Chief Patrick J. Campbell of the Justice Department's Health Care Fraud Section, with Assistant U.S. Attorney Claire Kedeshian of the Eastern District of New York assisting on forfeiture matters. The investigating agencies include the U.S. Department of Health and Human Services Office of Inspector General, the FBI and IRS Criminal Investigation."
+          },
+          {
+            "type": "paragraph",
+            "text": "Assistant Attorney General Colin M. McDonald of the department's National Fraud Enforcement Division described the conduct as a 'brazen kickback scheme' that ran for more than a decade. U.S. Attorney Joseph Nocella Jr. of the Eastern District of New York said the plea closes out a long-running fraud against the two programs and that his office is working to uncover and prosecute other social adult day care schemes."
+          },
+          {
+            "type": "heading",
+            "text": "From a $120 Million Complaint to a $127 Million Plea"
+          },
+          {
+            "type": "paragraph",
+            "text": "The plea follows a criminal complaint unsealed in Brooklyn federal court in early February, which charged Lee and Inwoo Kim, 42, with conspiracy to commit health care fraud. Prosecutors said Kim owned the pharmacy and both day care centers, and that the pair paid Medicaid recipients and Medicare beneficiaries cash and supermarket gift certificates between 2016 and 2026. At that stage the government put the loss at about $120 million; The Hill reported that roughly $62 million of it was Medicaid payments to the day care centers and about $58 million was Medicare payments to the pharmacy. The figure in the plea announcement is $127 million."
+          },
+          {
+            "type": "paragraph",
+            "text": "Gothamist reported that prosecutors said the two tracked payments in a spreadsheet that labeled bribes as 'coupons,' with payouts of up to $100 per prescription for expensive pain patches. The complaint also alleged that on a single day in August 2022, Royal billed Medicaid for services to about 1,041 people, even though its certificate of occupancy allowed only 81."
+          },
+          {
+            "type": "paragraph",
+            "text": "Lee was arrested in February while trying to board an international flight with about $40,000 in cash, and prosecutors argued he was a serious flight risk because of frequent international travel and access to large sums of money. He was released on a $500,000 bond and placed on home detention, while Kim was released on a $250,000 bond with conditions."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Justice Department's announcement of Lee's plea did not say what has happened in the case against Kim. Kim, like any defendant, is presumed innocent unless convicted."
+          },
+          {
+            "type": "heading",
+            "text": "Part of a Wider Enforcement Push"
+          },
+          {
+            "type": "paragraph",
+            "text": "The plea lands amid a sustained federal push on Medicaid fraud. In June, the Justice Department announced its 2026 National Health Care Fraud Takedown, charging 455 defendants in connection with more than $6.5 billion in alleged false claims. It included the largest number of Medicaid fraud defendants and the largest Medicaid fraud loss ever charged by the department: 295 defendants and over $518 million in false claims submitted to Medicaid."
+          },
+          {
+            "type": "paragraph",
+            "text": "The department's Health Care Fraud Strike Force Program, which now operates nine strike forces in federal districts across the country, says it has charged more than 6,200 defendants who collectively billed federal health care programs and private insurers more than $45 billion since 2007. The Centers for Medicare & Medicaid Services, working with the HHS inspector general, is also taking administrative steps against providers involved in fraud schemes."
+          },
+          {
+            "type": "paragraph",
+            "text": "For Lee, the next marker is the March 2, 2027 sentencing. Two things remain unresolved in public: the status of the case against Kim, and how much of the $127 million the government will be able to recover, since forfeiture matters are still being handled."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 2,
+          "slug": "wolverine-peptide-bpc-157-rise-limited-safety-evidence",
+          "category": "medical-fraud",
+          "categoryColor": "bg-[#e91e63]",
+          "secondaryColor": "bg-[#e91e63]",
+          "image": "/wolverine-peptide-bpc-157-rise-limited-safety-evidence.webp",
+          "date": "September 16, 2026",
+          "author": "Ruth Anselmi",
+          "title": "Use of Unapproved “Wolverine” Peptide BPC-157 Rises Despite Limited Safety Evidence",
+          "excerpt": "A new analysis found the number of patients using BPC-157, an unapproved peptide backed by Health Secretary Robert F. Kennedy Jr., has risen sharply despite scant safety evidence."
+        },
+        {
+          "id": 1,
+          "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
+          "category": "medical-fraud",
+          "categoryColor": "bg-[#e91e63]",
+          "secondaryColor": "bg-[#e91e63]",
+          "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+          "date": "August 1, 2026",
+          "author": "Ruth Anselmi",
+          "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
+          "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security."
+        }
+      ],
+      "sources": [
+        {
+          "label": "U.S. Department of Justice",
+          "title": "Social Adult Day Care Program Director Pleads Guilty to $127M Medicare and Medicaid Fraud Scheme",
+          "url": "https://www.justice.gov/opa/pr/social-adult-day-care-program-director-pleads-guilty-127m-medicare-and-medicaid-fraud-scheme"
+        },
+        {
+          "label": "U.S. Department of Justice",
+          "title": "Two Queens Men Charged with $120M Adult Day Care and Pharmacy Fraud on Medicare and Medicaid",
+          "url": "https://www.justice.gov/opa/pr/two-queens-men-charged-120m-adult-day-care-and-pharmacy-fraud-medicare-and-medicaid"
+        },
+        {
+          "label": "Gothamist",
+          "title": "Feds say Flushing men paid seniors cash to join day cares, then billed $120M",
+          "url": "https://gothamist.com/news/feds-say-flushing-men-paid-seniors-cash-to-join-day-cares-then-billed-120m"
+        },
+        {
+          "label": "The Hill",
+          "title": "Two men charged in $120M adult day care fraud scheme in Queens",
+          "url": "https://thehill.com/regulation/court-battles/5730272-120m-stolen-healthcare-fraud/"
+        },
+        {
+          "label": "CJ Notebook",
+          "title": "Day Care Director Admits Role in $127 Million Medicare, Medicaid Scam",
+          "url": "https://cjnotebook.com/?p=62147"
+        },
+        {
+          "label": "U.S. Department of Justice",
+          "title": "National Health Care Fraud Takedown Results in 455 Defendants Charged in Connection with Over $6.5 Billion in Alleged Fraud",
+          "url": "https://www.justice.gov/opa/pr/national-health-care-fraud-takedown-results-455-defendants-charged-connection-over-65"
+        }
+      ]
+    },
+    {
       "id": 97,
       "slug": "apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised",
       "category": "tech",

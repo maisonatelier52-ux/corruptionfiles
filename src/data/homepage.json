@@ -687,15 +687,15 @@
   },
   "newsCards": [
     {
-      "id": 1,
-      "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
+      "id": 14,
+      "slug": "queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud",
       "category": "medical-fraud",
       "categoryLabel": "Medical Fraud",
-      "date": "August 1, 2026",
-      "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
+      "date": "November 11, 2026",
+      "title": "Queens Adult Day Care Director Pleads Guilty in $127 Million Medicare and Medicaid Fraud Scheme",
       "author": "Ruth Anselmi",
-      "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security.",
-      "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+      "excerpt": "Daniel Lee, a program director at two Flushing social adult day care centers, has admitted to a decade-long kickback scheme that billed Medicare and New York Medicaid for about $127 million in unnecessary drugs and services never provided.",
+      "image": "/queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud.webp",
       "tags": [
         {
           "label": "Medical Fraud",
@@ -900,6 +900,23 @@
       "author": "Ruth Anselmi",
       "excerpt": "AstraZeneca will pay nearly $34 million to settle allegations that it used illegal kickbacks to influence prescriptions under Texas Medicaid, resolving a healthcare fraud lawsuit without admitting wrongdoing.",
       "image": "/astrazeneca-34-million-settlement-texas-medicaid-kickback.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "slug": "amgen-reports-patient-data-breach-after-hackers-access-healthcare-information",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "August 1, 2026",
+      "title": "Amgen Reports Patient Data Breach After Hackers Access Healthcare Information",
+      "author": "Ruth Anselmi",
+      "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security.",
+      "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
       "tags": [
         {
           "label": "Medical Fraud",
