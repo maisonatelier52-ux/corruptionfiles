@@ -987,16 +987,16 @@
   },
   "discoveryMiddle": [
     {
-      "id": 502,
-      "slug": "uk-warns-ecosystem-collapse-threatens-food-security-national-safety",
+      "id": 512,
+      "slug": "wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown",
       "category": "eco",
       "categoryLabel": "Environmental Exploitation",
       "categoryColor": "bg-[#2196f3]",
-      "date": "July 8, 2026",
-      "title": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety",
+      "date": "November 14, 2026",
+      "title": "Cleanup Begins at Wigan Illegal Waste Dump as Government Targets Organised Waste Crime",
       "author": "Thomas Aldgate",
-      "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
-      "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
+      "excerpt": "Government-funded crews have started removing an estimated 18,000 tonnes of illegally dumped waste from Bolton House Road in Wigan, while five arrests and a new crackdown test whether those behind the dumping will be held to account.",
+      "image": "/wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown.webp",
       "tags": [
         {
           "label": "Environmental Exploitation",
@@ -1025,6 +1025,24 @@
       "categoryColor": "bg-[#2196f3]",
       "date": "June 11, 2026",
       "author": "Thomas Aldgate"
+    },
+    {
+      "id": 502,
+      "slug": "uk-warns-ecosystem-collapse-threatens-food-security-national-safety",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "July 8, 2026",
+      "title": "UK Warned Ecosystem Collapse Could Threaten Food Security and National Safety",
+      "author": "Thomas Aldgate",
+      "excerpt": "A new UK report warns that global ecosystem destruction, driven by climate change and environmental exploitation, could increase risks of food shortages, migration and economic instability.",
+      "image": "/uk-warns-ecosystem-collapse-threatens-food-security-national-safety.webp",
+      "tags": [
+        {
+          "label": "Environmental Exploitation",
+          "color": "bg-[#2196f3]"
+        }
+      ]
     }
   ],
   "discoveryRight": [

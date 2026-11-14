@@ -1,6 +1,161 @@
 {
   "articles": [
     {
+      "id": 612,
+      "slug": "wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Wigan Illegal Waste Site Cleanup Begins Amid Crackdown",
+      "metaDescription": "Work has begun to clear 18,000 tonnes of illegally dumped waste from Bolton House Road in Wigan, as the government steps up its crackdown on waste crime.",
+      "metaKeywords": [
+        "Bolton House Road Wigan",
+        "illegal waste site clean-up",
+        "waste crime crackdown",
+        "Environment Agency investigation",
+        "Duchy of Lancaster waste",
+        "organised waste crime UK",
+        "Defra waste crime",
+        "Bickershaw illegal dump"
+      ],
+      "heading": "Cleanup Begins at Wigan's Notorious Illegal Waste Site as Government Targets Organised Waste Crime",
+      "excerpt": "Government-funded crews have started removing an estimated 18,000 tonnes of illegally dumped waste from Bolton House Road in Wigan, while five arrests and a new crackdown test whether those behind the dumping will be held to account.",
+      "date": "November 14, 2026",
+      "image": "/wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown.webp",
+      "heroImage": "/wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown.webp",
+      "alt": "Excavators and lorries working at the Bolton House Road illegal waste site in Bickershaw, Wigan, where an estimated 18,000 tonnes of dumped waste is being removed.",
+      "author": {
+        "name": "Thomas Aldgate",
+        "slug": "thomas-aldgate",
+        "avatar": "/thomas-aldgate.webp",
+        "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Work has begun to clear one of the country's most notorious illegal waste sites, with the government announcing on 10 November that crews have started digging out an estimated 18,000 tonnes of commercial and household waste from Bolton House Road in Bickershaw, Wigan. The Department for Environment, Food and Rural Affairs (Defra) says specialist teams will aim to remove up to 25 lorry loads a day, with the operation expected to finish in spring 2027."
+          },
+          {
+            "type": "paragraph",
+            "text": "The clearance is being paid for by the taxpayer rather than by whoever dumped the waste. The Environment Agency (EA) says its criminal investigation into those responsible is still open, with five arrests made so far. The gap between who created the problem and who is paying to remove it sits at the centre of the story."
+          },
+          {
+            "type": "heading",
+            "text": "A Dump That Grew Over Months"
+          },
+          {
+            "type": "paragraph",
+            "text": "According to the EA, its officers first visited the site on 6 January 2025, accompanied by Greater Manchester Police after intelligence was received, and a criminal investigation began straight away. Cease-and-desist letters went to the registered landowners on 20 January 2025, and the agency logged 51 reports from members of the public about suspected unauthorised activity at the site during 2025. The agency says mixed shredded waste had been stored on the land without an environmental permit, and it estimates the pile at around 23,000 cubic metres."
+          },
+          {
+            "type": "paragraph",
+            "text": "A large fire burned at the site between 1 and 10 July 2025, prompting a major incident declaration and forcing a nearby school to close as a precaution. The EA says the waste was left without protection for the environment, causing odour problems, vermin and a risk that run-off in wet weather could pollute nearby waters. A Sky News investigation, as reported by Circular, also found chemicals at the site that have not been approved for use in the UK for decades because of the danger they pose to human and animal life."
+          },
+          {
+            "type": "heading",
+            "text": "Who Is Responsible, and Who Pays"
+          },
+          {
+            "type": "paragraph",
+            "text": "The dump spreads across land owned by Wigan Council and the Duchy of Lancaster, the King's private estate, according to Circular. Channel 4 News reported in January that around a third of the site had become vested in the Duchy. Under environmental rules, landowners are normally responsible for clearing waste dumped illegally on their land, but the Duchy has said it is exempt from regulatory obligations because the estate did not inherit any liabilities attached to the property. Andy Burnham, then Mayor of Greater Manchester, condemned the Duchy's response in March."
+          },
+          {
+            "type": "paragraph",
+            "text": "The government instead committed to funding the clearance of the Wigan site and two other large dumps in Sheffield and Lancashire at public expense. EA chief executive Phillip Duffy told a House of Lords committee that £65 million had been committed to clearance operations. Defra says the sites were prioritised on their scale, the risk to nearby communities, environmental damage and links to persistent non-compliance and organised waste crime."
+          },
+          {
+            "type": "paragraph",
+            "text": "Wigan Council led the tender, and Acumen Waste Services was appointed main contractor, according to letsrecycle.com. Equipment arrived and vegetation clearance began in late October. The council's tender notice, based on a LiDAR survey that measured 23,086 cubic metres, estimates that about 18,000 tonnes must be removed. A multi-agency group including the EA, the UK Health Security Agency, Defra, United Utilities and Greater Manchester Police and Fire and Rescue Service has managed the site since the fire."
+          },
+          {
+            "type": "heading",
+            "text": "Arrests and a Wider Crackdown"
+          },
+          {
+            "type": "paragraph",
+            "text": "In August, authorities announced the arrest of four men on suspicion of environmental, fraud and money laundering offences, made by officers from Greater Manchester, Lancashire and West Yorkshire police working with the EA. One of them, a 24-year-old from Leeds, was also arrested over waste dumping at Cave's Inn Pits, a protected site in Leicestershire where about 30,000 tonnes of shredded waste was dumped and covered with soil. A 58-year-old man had been arrested in May over multiple illegal dumps across England. Prime Minister Burnham said in August that the dumping was \"not fly-tipping\" but \"organised crime\". None of the announcements reviewed by Corruption Files report any charges."
+          },
+          {
+            "type": "paragraph",
+            "text": "Defra says a new Waste Crime Crackdown Group, chaired by Environment Secretary Dame Angela Eagle, held its first meeting in early November, bringing regulators and law enforcement together. The government is also expanding the use of drones, giving mayors and police a bigger role, and raising the penalty for illegal dumping from a maximum of £300 to up to £5,000. The EA's powers to seize cash, cars, houses and other assets bought with waste-crime proceeds are set to grow, backed by confiscation measures in the Crime and Policing Act 2026."
+          },
+          {
+            "type": "heading",
+            "text": "What Remains Unresolved"
+          },
+          {
+            "type": "paragraph",
+            "text": "Clearing the waste removes the physical hazard, but it does not answer the questions residents have been asking since early 2025: who will face charges, whether landowners will ever contribute to the cost, and what happens to the land once the last lorry leaves. The EA says it believes only 27 percent of waste crime is reported, and it has promised to work with the council on the site's long-term future after clearance. Anyone with information about the dumping can call the agency's 24-hour hotline on 0800 807060 or report anonymously to Crimestoppers on 0800 555111."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 601,
+          "slug": "us-data-centers-water-pollution-scrutiny",
+          "category": "eco",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/us-data-centers-water-pollution-scrutiny.webp",
+          "date": "September 8, 2026",
+          "author": "Thomas Aldgate",
+          "title": "U.S. Data Centers Face Growing Scrutiny Over Water Pollution and Environmental Impact",
+          "excerpt": "Environmental groups are raising concerns over pollution risks from expanding U.S. data centers, with reports of wastewater issues, toxic pollutants, and heavy water usage linked to AI-driven infrastructure growth."
+        },
+        {
+          "id": 607,
+          "slug": "thames-water-rescue-plan-backlash-pollution-environment",
+          "category": "eco",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/thames-water-rescue-plan-backlash-pollution-environment.webp",
+          "date": "June 16, 2026",
+          "author": "Thomas Aldgate",
+          "title": "Thames Water Rescue Plan Faces Backlash Over Pollution and Environmental Concerns in UK",
+          "excerpt": "The UK government has raised concerns over Thames Water's proposed £10 billion rescue plan, citing risks to consumers and delays to environmental improvements as scrutiny grows over sewage pollution and ageing infrastructure."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Department for Environment, Food and Rural Affairs (Defra)",
+          "title": "Major clean-up begins at notorious illegal waste site in Wigan",
+          "url": "https://www.gov.uk/government/news/major-clean-up-begins-at-notorious-illegal-waste-site-in-wigan"
+        },
+        {
+          "label": "ITV News Granada",
+          "title": "Major clean-up begins at notorious illegal waste site in Wigan",
+          "url": "https://www.itv.com/news/granada/2026-11-10/major-clean-up-begins-at-notorious-illegal-waste-site"
+        },
+        {
+          "label": "letsrecycle.com",
+          "title": "Work starts to clear Bickershaw waste dump as contractor appointed",
+          "url": "https://www.letsrecycle.com/news/work-starts-to-clear-bickershaw-waste-dump-as-contractor-appointed/"
+        },
+        {
+          "label": "Circular (CIWM)",
+          "title": "Burnham promises action on waste crime as 4 arrested over Wigan site",
+          "url": "https://www.circularonline.co.uk/news/burnham-promises-action-on-waste-crime-as-4-arrested-over-wigan-site/"
+        },
+        {
+          "label": "Environment Agency",
+          "title": "Bolton House Road: Greater Manchester, Merseyside & Cheshire Illegal Waste Sites",
+          "url": "https://engageenvironmentagency.uk.engagementhq.com/greater-manchester-illegal-waste-sites/faqs"
+        },
+        {
+          "label": "Find a Tender Service (Wigan Council)",
+          "title": "Bolton House Road Site Waste Clearance",
+          "url": "https://www.find-tender.service.gov.uk/Procurement/ocds-h6vhtk-06df89"
+        }
+      ]
+    },
+    {
       "id": 14,
       "slug": "queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud",
       "category": "medical-fraud",
