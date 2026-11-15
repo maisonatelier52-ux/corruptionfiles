@@ -1,6 +1,184 @@
 {
   "articles": [
     {
+      "id": 712,
+      "slug": "nvidia-ceo-jensen-huang-resigns-congress-probes-alleged-chinese-intelligence-ties",
+      "category": "intelligence",
+      "categoryLabel": "Intelligence",
+      "categoryColor": "bg-[#00008b]",
+      "metaTitle": "Nvidia CEO Huang Resigns Amid Chinese Intelligence Probe",
+      "metaDescription": "Jensen Huang quit as Nvidia CEO after reports of ties to an alleged Chinese intelligence asset, as House committees threaten subpoenas over chips.",
+      "metaKeywords": [
+        "Jensen Huang resigns Nvidia",
+        "Alice Huang Megaspeed",
+        "Nvidia Chinese intelligence probe",
+        "Megaspeed chip diversion investigation",
+        "Nvidia export controls China",
+        "China Ministry of State Security",
+        "House Intelligence Committee Nvidia",
+        "Singapore Megaspeed investigation"
+      ],
+      "heading": "Nvidia CEO Jensen Huang Resigns as Congress Opens National Security Probe Into Alleged Chinese Intelligence Ties",
+      "excerpt": "Jensen Huang quit as Nvidia CEO after reports of ties to a Megaspeed executive U.S. intelligence reportedly suspects of working for China, as House committees threaten subpoenas.",
+      "date": "November 15, 2026",
+      "image": "/nvidia-ceo-jensen-huang-resigns-congress-probes-alleged-chinese-intelligence-ties.webp",
+      "heroImage": "/nvidia-ceo-jensen-huang-resigns-congress-probes-alleged-chinese-intelligence-ties.webp",
+      "alt": "Nvidia’s headquarters building in Santa Clara, California.",
+      "author": {
+        "name": "Naomi Vosburgh",
+        "slug": "naomi-vosburgh",
+        "avatar": "/naomi-vosburgh.webp",
+        "bio": "Naomi spent seven years writing about national security before she started noticing how much of the story was being managed rather than reported. She has reviewed thousands of declassified documents, interviewed former intelligence officers, and developed a working knowledge of the specific ways that state secrecy is used not to protect national interests but to protect institutional ones.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Jensen Huang resigned as chief executive of Nvidia on Thursday, November 12, ending a 33-year run at the helm of the chipmaker days after its board opened an independent investigation into reports that he had been the target of a Chinese intelligence effort. The company said the resignation was effective immediately, said Huang also left the board, and gave no reason. Chief financial officer Colette Kress became interim CEO while the board searches for a permanent successor."
+          },
+          {
+            "type": "paragraph",
+            "text": "The scandal centers on Alice Huang, also known as Huang Le, a former top executive of Megaspeed, a Singapore-based data center company that became one of Nvidia's biggest customers in Southeast Asia. She is no relation to Jensen Huang. CBS News reported that U.S. intelligence agencies believe she was an asset of China's Ministry of State Security. China's Foreign Ministry has called the claim baseless and a smear, and none of the reports reviewed by Corruption Files describes espionage charges against either Huang."
+          },
+          {
+            "type": "heading",
+            "text": "How the Allegations Unfolded"
+          },
+          {
+            "type": "paragraph",
+            "text": "The New York Times reported in October that U.S. authorities were investigating Alice Huang and that Jensen Huang had a close relationship with her. On Sunday, November 8, Nvidia's board announced that independent directors, assisted by outside counsel, would investigate the reports, and said it had no reason to believe company secrets or U.S. national security had been compromised. In a message to employees, Huang admitted he had been unfaithful to his wife and apologized, without naming the woman."
+          },
+          {
+            "type": "paragraph",
+            "text": "Two law enforcement sources told CBS News that the Justice Department's National Security Division is investigating Megaspeed over possible violations of U.S. export restrictions on advanced AI chips. President Donald Trump, who has defended Huang, said the FBI is looking into the matter and that Huang told him he had no idea the woman was a spy. On Wednesday, the New York Times reported that employees had alleged a separate relationship between Huang and a senior executive who reported to him, and Reuters reported that the board was meeting to consider removing him. Nvidia has not said why he left."
+          },
+          {
+            "type": "heading",
+            "text": "The Chip Trail Behind the Spy Allegation"
+          },
+          {
+            "type": "paragraph",
+            "text": "The intelligence question is tied to export controls. Since 2022, Washington has restricted sales of Nvidia's most powerful chips to China. According to CBS News, U.S. investigators say Alice Huang gained access to about 240,000 chips barred from export to China, and the New York Times reported that Megaspeed bought more than $4.8 billion worth of Nvidia chips over two years. Megaspeed is under investigation in the United States and Singapore over allegations that it diverted chips to China, which the company denies. Malaysian Prime Minister Anwar Ibrahim said Friday there was no indication that chips linked to the matter had been re-exported."
+          },
+          {
+            "type": "heading",
+            "text": "Singapore's Case and a Gap in Washington"
+          },
+          {
+            "type": "paragraph",
+            "text": "Singapore's Ministry of Home Affairs published a detailed account on November 12. It said police and customs opened an investigation in February 2025 into possible false declarations on server purchases, and that Alice Huang was investigated as Megaspeed's then-CEO, not for espionage. U.S. Commerce Department officials carried out a verification check at Megaspeed on June 24, 2025, with her present, and Singapore police impounded her passport the same day."
+          },
+          {
+            "type": "paragraph",
+            "text": "The ministry said it repeatedly asked the U.S. Justice Department and FBI to help secure cooperation from Supermicro, a U.S. server supplier, and has received limited assistance. It does not accuse Supermicro of wrongdoing. In February 2026, police found insufficient evidence that she had committed an offense over the declarations but concluded she had given inaccurate information to downplay her role. She was warned, barred from re-entering Singapore, and left on February 26. Investigations into Megaspeed and six other individuals continue."
+          },
+          {
+            "type": "heading",
+            "text": "Congress Moves Toward Subpoenas"
+          },
+          {
+            "type": "paragraph",
+            "text": "The chairs of the House Foreign Affairs, China Select and Intelligence committees asked Huang for a closed-door transcribed interview on December 1, with an 8 p.m. Friday deadline and a subpoena threat, and asked Nvidia general counsel Tim Teter to appear on December 2. Chairman Brian Mast said Huang had agreed to appear, though the reports reviewed do not say whether the date was formally confirmed. Senate Banking Committee Chairman Tim Scott asked Huang and Commerce Secretary Howard Lutnick to testify in early December."
+          },
+          {
+            "type": "paragraph",
+            "text": "The inquiry also targets the administration. CBS News, citing the New York Times, reported that a Bureau of Industry and Security probe into Megaspeed was halted last year, and ABC News reported that Lutnick is accused of delaying a move to place Megaspeed on a list of companies posing national security concerns even as U.S. intelligence suggested chips were being diverted. Senators Elizabeth Warren and Chris Coons asked officials to preserve records on Nvidia's chip exports, and Warren said Huang's resignation does not absolve him, other executives or the board of responsibility."
+          },
+          {
+            "type": "heading",
+            "text": "What Remains Unresolved"
+          },
+          {
+            "type": "paragraph",
+            "text": "The assessment that Alice Huang worked for Chinese intelligence has been described through officials and sources cited by news organizations, and none of the reports reviewed publishes the underlying evidence. Al Jazeera noted there is no established evidence that Jensen Huang knowingly helped Beijing or that company secrets were compromised. Bloomberg reported that Alice Huang has returned to China; Beijing says it has no information on that."
+          },
+          {
+            "type": "paragraph",
+            "text": "The case also tests how closely Washington watched the customers of its most sensitive chips. CBS News reports that Trump approved sales of Nvidia's H200 chips to approved customers in China late last year, with the government taking a 25% cut, and that Democrats take control of Congress in January. Lawmakers in both parties have signaled that oversight of Nvidia, its former chief executive and the export-control system will continue."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 708,
+          "slug": "us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate",
+          "category": "intelligence",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/us-justice-department-disrupts-china-linked-hacking-network-targeting-nasa-fed-senate.webp",
+          "date": "August 26, 2026",
+          "author": "Naomi Vosburgh",
+          "title": "US Justice Department Disrupts China-Linked Hacking Network Targeting NASA, Fed and Senate",
+          "excerpt": "The Justice Department and FBI seized domains powering two Chinese state-sponsored hacking platforms accused of breaching NASA, the Federal Reserve, the Senate and other federal networks."
+        },
+        {
+          "id": 705,
+          "slug": "uk-jails-two-men-china-espionage-case",
+          "category": "intelligence",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/uk-jails-two-men-china-espionage-case.webp",
+          "date": "June 18, 2026",
+          "author": "Naomi Vosburgh",
+          "title": "UK Jails Two Men in Landmark China Espionage Case Targeting Dissidents",
+          "excerpt": "Two men have been sentenced in Britain for spying on pro-democracy activists on behalf of Chinese-linked authorities, marking one of the UK's most significant recent counterintelligence prosecutions."
+        }
+      ],
+      "sources": [
+        {
+          "label": "CBS News",
+          "title": "Nvidia CEO Jensen Huang resigns in wake of affair with woman suspected of spying for China",
+          "url": "https://www.cbsnews.com/news/nvidia-ceo-jensen-huang-resigns/"
+        },
+        {
+          "label": "CBS News",
+          "title": "Nvidia investigates CEO Jensen Huang amid allegations he was target of Chinese intelligence effort",
+          "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-investigation-china-intelligence/"
+        },
+        {
+          "label": "CBS News",
+          "title": "Singapore held Alice Huang's passport for months, but got little help from U.S. on Nvidia chip probe, sources say",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-alice-huang-singapore-investigation-china-chips/"
+        },
+        {
+          "label": "CBS News",
+          "title": "GOP lawmakers push Jensen Huang and Howard Lutnick to appear before Congress amid Nvidia controversy",
+          "url": "https://www.cbsnews.com/news/jensen-huang-nvidia-congress-testify/"
+        },
+        {
+          "label": "Ministry of Home Affairs, Singapore",
+          "title": "Singapore's Investigations into Alice Huang (Huang Le) and Megaspeed International Pte Ltd",
+          "url": "https://www.mha.gov.sg/media-room/newsroom/singapore-investigations-into-alice-huang-huang-le-and-megaspeed-international-pte-ltd/"
+        },
+        {
+          "label": "Al Jazeera",
+          "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress"
+        },
+        {
+          "label": "Axios",
+          "title": "Jensen Huang, an architect of the AI boom, resigns as Nvidia CEO",
+          "url": "https://www.axios.com/2026/11/12/nvidia-jensen-huang-out"
+        },
+        {
+          "label": "ABC News",
+          "title": "House and Senate Republicans call on Howard Lutnick, Jensen Huang to testify about Nvidia",
+          "url": "https://abcnews.com/Politics/house-senate-republicans-call-howard-lutnick-jensen-huang/story?id=138111390"
+        },
+        {
+          "label": "The Federal",
+          "title": "Intel inside: Why Silicon Valley firms are hiring ex-spies to protect their secrets",
+          "url": "https://thefederal.com/category/business/silicon-valley-counter-espionage-nvidia-anthropic-openai-us-china-262944"
+        }
+      ]
+    },
+    {
       "id": 612,
       "slug": "wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown",
       "category": "eco",
