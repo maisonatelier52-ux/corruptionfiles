@@ -1327,6 +1327,22 @@
   ],
   "trendingSectionData": [
     {
+      "id": 811,
+      "slug": "eu-boards-russian-shadow-fleet-tanker-mv-midag-false-flag-new-sanctions",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "EU Boards Suspected Russian Shadow Fleet Tanker Under False Flag as UK and Brussels Tighten Sanctions",
+      "image": "/eu-boards-russian-shadow-fleet-tanker-mv-midag-false-flag-new-sanctions.webp",
+      "author": "Felix Draper",
+      "date": "November 16, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
       "id": 806,
       "slug": "uk-doubles-penalties-targets-russian-offshore-sanctions-evasion-network",
       "category": "offshore",
@@ -1367,22 +1383,6 @@
       "image": "/china-offshore-trust-tax-crackdown-bofa-single-stocks-risk.webp",
       "author": "Felix Draper",
       "date": "September 22, 2026",
-      "categories": [
-        {
-          "label": "Offshore Wealth & Sanctions",
-          "color": "bg-[#e91e63]"
-        }
-      ]
-    },
-    {
-      "id": 804,
-      "slug": "uk-seizure-russian-shadow-fleet-tanker-smyrtos",
-      "category": "offshore",
-      "categoryLabel": "Offshore Wealth & Sanctions",
-      "title": "UK Seizure of Russian Shadow Fleet Tanker Escalates Sanctions Enforcement",
-      "image": "/uk-seizure-russian-shadow-fleet-tanker-smyrtos.webp",
-      "author": "Felix Draper",
-      "date": "June 17, 2026",
       "categories": [
         {
           "label": "Offshore Wealth & Sanctions",
@@ -1463,6 +1463,22 @@
       "image": "/ubs-faces-record-125-million-fine-over-wealth-management-money-laundering-controls.webp",
       "author": "Felix Draper",
       "date": "August 3, 2026",
+      "categories": [
+        {
+          "label": "Offshore Wealth & Sanctions",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 804,
+      "slug": "uk-seizure-russian-shadow-fleet-tanker-smyrtos",
+      "category": "offshore",
+      "categoryLabel": "Offshore Wealth & Sanctions",
+      "title": "UK Seizure of Russian Shadow Fleet Tanker Escalates Sanctions Enforcement",
+      "image": "/uk-seizure-russian-shadow-fleet-tanker-smyrtos.webp",
+      "author": "Felix Draper",
+      "date": "June 17, 2026",
       "categories": [
         {
           "label": "Offshore Wealth & Sanctions",
