@@ -226,16 +226,16 @@
     },
     "grid": [
       {
-        "id": 302,
-        "slug": "puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition",
+        "id": 311,
+        "slug": "puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes",
         "category": "puerto-rico",
-        "image": "/puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition.webp",
+        "image": "/puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes.webp",
         "categoryLabel": "Puerto Rico",
         "categoryColor": "bg-[#2196f3]",
-        "date": "August 1, 2026",
+        "date": "November 17, 2026",
         "author": "Carlos Medina Reyes",
-        "title": "Puerto Rico Approves $2 Billion Cabo Rojo Luxury Project Despite Environmental Opposition",
-        "description": "Puerto Rico has approved a $2 billion luxury development in Cabo Rojo despite opposition from environmental groups, who warn the project could strain water resources and damage sensitive coastal ecosystems."
+        "title": "Puerto Rico Family Secretary Suzanne Roig Resigns Amid Contract Corruption Probes",
+        "description": "Puerto Rico’s Family Secretary Suzanne Roig will resign on December 31 after months of Senate, Justice Department and federal inspector general scrutiny over contracts funded with federal money, allegations she denies."
       },
       {
         "id": 303,
@@ -340,6 +340,18 @@
         "title": "Puerto Rico Voting Machine Probe Draws New Questions",
         "quote": "A single voting machine from Puerto Rico's 2024 elections became the starting point for a much larger federal search for proof that the 2020 election was rigged, according to a Reuters investigation published October 2 that traces how the effort grew in Washington.",
         "image": "/puerto-rico-voting-machine-probe-draws-new-questions.webp"
+      },
+      {
+        "id": 302,
+        "slug": "puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition",
+        "category": "puerto-rico",
+        "image": "/puerto-rico-approves-2-billion-cabo-rojo-luxury-project-despite-environmental-opposition.webp",
+        "categoryLabel": "Puerto Rico",
+        "categoryColor": "bg-[#2196f3]",
+        "date": "August 1, 2026",
+        "author": "Carlos Medina Reyes",
+        "title": "Puerto Rico Approves $2 Billion Cabo Rojo Luxury Project Despite Environmental Opposition",
+        "description": "Puerto Rico has approved a $2 billion luxury development in Cabo Rojo despite opposition from environmental groups, who warn the project could strain water resources and damage sensitive coastal ecosystems."
       }
     ]
   },

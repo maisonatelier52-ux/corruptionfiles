@@ -1,6 +1,188 @@
 {
   "articles": [
     {
+      "id": 311,
+      "slug": "puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes",
+      "category": "puerto-rico",
+      "categoryLabel": "Puerto Rico",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "Puerto Rico Family Secretary Roig Resigns Amid Probes",
+      "metaDescription": "Puerto Rico Family Secretary Suzanne Roig will resign December 31 amid Senate, Justice and federal probes into TANF-funded contracts.",
+      "metaKeywords": [
+        "Suzanne Roig resigns",
+        "Puerto Rico Department of the Family",
+        "Blanca Medina Díaz",
+        "NOLA Education Star Academy",
+        "TANF contract Puerto Rico",
+        "Jenniffer González administration",
+        "Puerto Rico Senate investigation",
+        "Puerto Rico corruption"
+      ],
+      "heading": "Puerto Rico Family Secretary Suzanne Roig Resigns Amid Contract Corruption Probes",
+      "excerpt": "Puerto Rico’s Family Secretary Suzanne Roig will resign on December 31 after months of Senate, Justice Department and federal inspector general scrutiny over contracts funded with federal money, allegations she denies.",
+      "date": "November 17, 2026",
+      "image": "/puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes.webp",
+      "heroImage": "/puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes.webp",
+      "alt": "The Puerto Rico Capitol in San Juan, where the Senate is investigating contracts at the Department of the Family led by resigning Secretary Suzanne Roig.",
+      "author": {
+        "name": "Carlos Medina Reyes",
+        "slug": "carlos-medina-reyes",
+        "avatar": "/carlos-medina-reyes.webp",
+        "bio": "Born in Ponce and raised between San Juan and New York, Carlos has spent the better part of a decade documenting what federal neglect and local corruption look like when they share the same zip code.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Puerto Rico’s Secretary of the Family, Suzanne Roig Fuertes, announced on Monday, November 16, that she will leave her post on December 31 after months of Senate, Justice Department and federal inspector general scrutiny over how her department handled contracts funded with federal money. Roig, who has run the Department of the Family since February 2025, denied the allegations and called the decision free, voluntary and personal. Gov. Jenniffer González accepted the resignation on the date Roig proposed, even though lawmakers had pressed for a faster exit."
+          },
+          {
+            "type": "heading",
+            "text": "What the Former Agency Chief Alleged"
+          },
+          {
+            "type": "paragraph",
+            "text": "The case centers on Blanca Medina Díaz, who was dismissed as head of the Administration for the Socioeconomic Development of the Family, known as ADSEF, an agency inside Roig’s department. Medina says Roig pressured her to approve a contract of roughly $38.5 million with NOLA Education LLC, a Louisiana company, to run an educational program called Star Academy in 25 public schools using federal Temporary Assistance for Needy Families (TANF) money. The Associated Press described the figure as nearly $40 million and reported that Medina calls the contract illegal."
+          },
+          {
+            "type": "paragraph",
+            "text": "El Vocero reported that Medina also described pressure over a technology-services proposal from Strategic Technology Advisors, and the AP reported a separate allegation involving an unrelated contract worth more than $300,000. Medina has told the Senate under oath that Roig intervened to favor NOLA, and the AP reports she has met with U.S. federal authorities. Roig and NOLA Education say no contract was signed, and El Vocero reports that neither contract was ever formalized."
+          },
+          {
+            "type": "heading",
+            "text": "The Louisiana Trip and the Bidding Questions"
+          },
+          {
+            "type": "paragraph",
+            "text": "The NOLA controversy escalated after it emerged that Roig and other Family Department officials traveled to Louisiana from December 7 to 10, 2025, with expenses covered by TANF funds, to see Star Academy facilities before the competitive process had begun. Roig has acknowledged that the company issued the invitation and prepared an agenda, but says the purpose was to understand the education model before deciding anything. NOLA was selected on January 20, 2026."
+          },
+          {
+            "type": "paragraph",
+            "text": "That selection raised more questions. Coccoloba AgroEnvironmental LLC says it never submitted a proposal, even though the evaluator hired by the department, LAP Consulting Group, scored one under its name, and on October 23 it sued the department, Roig and LAP Consulting for at least $2.5 million. Documents released the week of October 19 also showed that officials had discussed ways to pay NOLA as early as October 2025, including advancing all of the project money. Roig denies taking part, calling it an internal ADSEF conversation that authorized no payment."
+          },
+          {
+            "type": "heading",
+            "text": "Overlapping Investigations and Referrals"
+          },
+          {
+            "type": "paragraph",
+            "text": "According to the AP, Roig is under investigation by Puerto Rico’s Senate, the island’s Justice Department and its Office of the Inspector General. Justice Secretary Lourdes Gómez Torres confirmed on October 20 that a preliminary investigation had opened after a referral from Senate President Thomas Rivera Schatz, and El Vocero reported that two prosecutors have 90 days to decide whether to recommend an independent special prosecutor. The reports reviewed by Corruption Files describe preliminary inquiries and referrals, not criminal charges."
+          },
+          {
+            "type": "paragraph",
+            "text": "Majority Whip Juan Oscar Morales last Thursday sent a separate set of referrals over a $355,646.50 mentoring contract with SAMU Foundation, citing bidder scoring, a September 2025 official trip to Spain and possible conflicts of interest. Senator Wanda Soto Tolentino, who chairs the Senate Family Committee, told El Vocero that a partial report due Tuesday will send further referrals to several agencies, including Justice."
+          },
+          {
+            "type": "heading",
+            "text": "Earlier Complaints Followed Roig to the Family Department"
+          },
+          {
+            "type": "paragraph",
+            "text": "Scrutiny began to build in April, when a Telemundo investigation revisited a $60,000-a-month contract awarded in 2021 for one patient’s care while Roig led a disability services division at the Health Department. A 2022 referral was shelved in October 2025 for lack of evidence, and in May Justice found no basis to reopen it or to investigate Roig for perjury. A union, AFSCME Council 95, has also demanded her removal, and a former Arecibo regional director, Blanca García Sostre, sued her for $1.35 million alleging harassment and retaliation, claims Roig says the agency previously reviewed administratively."
+          },
+          {
+            "type": "heading",
+            "text": "Reaction and Fallout for the Governor"
+          },
+          {
+            "type": "paragraph",
+            "text": "In her statement, Roig said nobody asked her to resign and thanked the governor for the time to defend her reputation against what she called falsehoods. Legislators from the main parties called the resignation necessary but late. Morales, who belongs to the governor’s New Progressive Party, said it should have been immediate, and Independence Party Senator María de Lourdes Santiago also wanted it to take effect at once. Public Affairs Secretary Jean Peña Payano said the December 31 date allows an orderly transition at an agency that handles highly sensitive matters."
+          },
+          {
+            "type": "paragraph",
+            "text": "The departure comes nearly four months after the governor announced on July 21 that her chief of staff, Francisco Domenech, and deputy chief of staff, Itza García, would step down while denying corruption allegations. The AP notes that González stood by both, as she has by Roig, and that her administration has seen several high-ranking officials resign or be fired. Rivera Schatz says the Senate’s investigations will continue even after Roig leaves."
+          },
+          {
+            "type": "heading",
+            "text": "What to Watch Next"
+          },
+          {
+            "type": "paragraph",
+            "text": "Roig stays in office until the end of the year, and no successor has been named in the reports reviewed. The next markers are the Senate’s partial report and the referrals it triggers, the outcome of the 90-day Justice Department review that began October 20, and whether any body recommends an independent prosecutor. Roig denies any wrongdoing, and no finding of illegality has been announced."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 305,
+          "slug": "sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference",
+          "category": "puerto-rico",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/sebastian-negron-reichard-resign-ddec-puerto-rico-government-interference.webp",
+          "date": "May 27, 2026",
+          "author": "Carlos Medina Reyes",
+          "title": "Puerto Rico Economic Chief Resigns Over Government Interference Claims",
+          "excerpt": "Sebastián Negrón Reichard resigned as Puerto Rico's Secretary of Economic Development and Commerce on Tuesday, saying mutual trust with the González administration no longer existed after the government reversed disciplinary actions he had taken against officials implicated in a federal procurement probe — triggering a simultaneous walkout of more than ten senior agency leaders."
+        },
+        {
+          "id": 307,
+          "slug": "puerto-rico-power-operator-countersues-government",
+          "category": "puerto-rico",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/puerto-rico-power-operator-countersues-government.webp",
+          "date": "June 24, 2026",
+          "author": "Carlos Medina Reyes",
+          "title": "Puerto Rico Power Operator Countersues Government Amid Growing Legal Dispute",
+          "excerpt": "A private company that oversees the transmission and distribution of power in Puerto Rico has countersued the U.S. territory's government, escalating a legal battle that threatens to deepen the island's energy crisis."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Associated Press (via ABC News)",
+          "title": "A top Puerto Rico government official resigns as corruption allegations swirl",
+          "url": "https://abcnews.com/Business/wireStory/top-puerto-rico-government-official-resigns-corruption-allegations-138192646"
+        },
+        {
+          "label": "El Vocero",
+          "title": "Suzanne Roig Fuertes resigns as Secretary of the Department of the Family (in Spanish)",
+          "url": "https://www.elvocero.com/gobierno/agencias/suzanne-roig-fuertes-renuncia-como-secretaria-del-departamento-de-la-familia/article_52244fa1-4269-4fb9-85df-d42a1b1f8a42.html"
+        },
+        {
+          "label": "El Vocero",
+          "title": "Senate to file new referrals against Suzanne Roig Fuertes (in Spanish)",
+          "url": "https://www.elvocero.com/gobierno/legislatura/senado-presentar-ma-ana-nuevos-referidos-contra-suzanne-roig-fuertes/article_5c4ece41-5e00-4326-85b1-7dfe8d73e1e0.html"
+        },
+        {
+          "label": "El Vocero",
+          "title": "Informa Fortaleza: Roig resignation effective at year’s end (in Spanish)",
+          "url": "https://www.elvocero.com/gobierno/informa-fortaleza-renuncia-de-suzanne-roig-a-la-secretar-a-de-familia-ser-efectiva-a/article_0255571c-0a3f-4d20-9b28-0af70dfec065.html"
+        },
+        {
+          "label": "El Nuevo Día",
+          "title": "Family Secretary Suzanne Roig resigns (in Spanish)",
+          "url": "https://www.elnuevodia.com/noticias/gobierno/notas/renuncia-la-secretaria-de-la-familia-suzanne-roig/"
+        },
+        {
+          "label": "Metro Puerto Rico",
+          "title": "Family Department Secretary Suzanne Roig resigns; legislators react (in Spanish)",
+          "url": "https://www.metro.pr/noticias/2026/11/16/renuncia-la-secretaria-del-departamento-de-la-famila-suzanne-roig/"
+        },
+        {
+          "label": "Telemundo Puerto Rico",
+          "title": "Family Secretary Suzanne Roig resigns, statement included (in Spanish)",
+          "url": "https://www.telemundopr.com/noticias/puerto-rico-voto/renuncia-la-secretaria-de-la-familia-suzanne-roig/2853848/"
+        },
+        {
+          "label": "San Juan Daily Star",
+          "title": "PDP senators seek probe into $38 million contract involving family secretary",
+          "url": "https://www.sanjuandailystar.com/post/pdp-senators-seek-probe-into-38-million-contract-involving-family-secretary"
+        },
+        {
+          "label": "Associated Press (via Yahoo News Canada)",
+          "title": "Two of Puerto Rico’s top government officials to step down as corruption allegations persist",
+          "url": "https://ca.news.yahoo.com/two-puerto-ricos-top-government-200607776.html"
+        }
+      ]
+    },
+    {
       "id": 712,
       "slug": "nvidia-ceo-jensen-huang-resigns-congress-probes-alleged-chinese-intelligence-ties",
       "category": "intelligence",
