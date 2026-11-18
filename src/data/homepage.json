@@ -1,6 +1,18 @@
 {
   "politicsNews": [
     {
+      "id": 215,
+      "slug": "senate-confirms-anna-st-john-fifth-circuit-republicans-race-to-fill-courts",
+      "category": "govt",
+      "image": "/senate-confirms-anna-st-john-fifth-circuit-republicans-race-to-fill-courts.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "November 18, 2026",
+      "author": "Margaret Holloway",
+      "title": "Senate Confirms Anna St. John to Fifth Circuit as Republicans Race to Fill Courts",
+      "description": "The Senate confirmed Anna St. John to the Fifth Circuit 52-46 on Tuesday as Republicans race to fill lifetime court seats before Democrats take control in January."
+    },
+    {
       "id": 214,
       "slug": "democrats-win-midterms-promise-oversight-of-trump-administration",
       "category": "govt",
@@ -23,18 +35,6 @@
       "author": "Margaret Holloway",
       "title": "Holborn and St Pancras By-Election: Labour Defeats Greens",
       "description": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost."
-    },
-    {
-      "id": 103,
-      "slug": "us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief",
-      "category": "govt",
-      "image": "/us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief.webp",
-      "categoryLabel": "Government",
-      "categoryColor": "bg-[#ff9800]",
-      "title": "US Senate Set to Vote on Jay Clayton as Trump's Intelligence Chief",
-      "description": "The US Senate is preparing to vote on President Donald Trump's nominee Jay Clayton for director of national intelligence, with confirmation expected this week.",
-      "date": "July 27, 2026",
-      "author": "Margaret Holloway"
     }
   ],
   "secondaryNews": [
@@ -205,6 +205,18 @@
       "author": "Margaret Holloway",
       "title": "House Republicans Leave Washington Facing Midterm Pressure",
       "description": "House Republicans head into the summer recess after legislative setbacks, as Democrats seek momentum ahead of the 2026 midterm elections."
+    },
+    {
+      "id": 103,
+      "slug": "us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief",
+      "category": "govt",
+      "image": "/us-senate-set-to-vote-on-jay-clayton-as-trumps-intelligence-chief.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "title": "US Senate Set to Vote on Jay Clayton as Trump's Intelligence Chief",
+      "description": "The US Senate is preparing to vote on President Donald Trump's nominee Jay Clayton for director of national intelligence, with confirmation expected this week.",
+      "date": "July 27, 2026",
+      "author": "Margaret Holloway"
     }
   ],
   "inOtherNews": {
