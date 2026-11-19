@@ -711,6 +711,23 @@
   },
   "newsCards": [
     {
+      "id": 15,
+      "slug": "mississippi-businessman-sentenced-10-years-19-million-medicare-brace-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "November 19, 2026",
+      "title": "Mississippi Businessman Sentenced to 10 Years in Prison for $19 Million Medicare Brace Fraud",
+      "author": "Ruth Anselmi",
+      "excerpt": "Willie De Gibbs, who owned or controlled seven medical equipment companies, was sentenced to 10 years after paying kickbacks for fraudulent doctors' orders and billing Medicare more than $19 million for orthotic braces patients did not need.",
+      "image": "/mississippi-businessman-sentenced-10-years-19-million-medicare-brace-fraud.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
       "id": 14,
       "slug": "queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud",
       "category": "medical-fraud",
@@ -737,23 +754,6 @@
       "author": "Ruth Anselmi",
       "excerpt": "A new analysis found the number of patients using BPC-157, an unapproved peptide backed by Health Secretary Robert F. Kennedy Jr., has risen sharply despite scant safety evidence.",
       "image": "/wolverine-peptide-bpc-157-rise-limited-safety-evidence.webp",
-      "tags": [
-        {
-          "label": "Medical Fraud",
-          "color": "bg-[#e91e63]"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
-      "category": "medical-fraud",
-      "categoryLabel": "Medical Fraud",
-      "date": "July 15, 2026",
-      "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
-      "author": "Ruth Anselmi",
-      "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
-      "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
       "tags": [
         {
           "label": "Medical Fraud",
@@ -941,6 +941,23 @@
       "author": "Ruth Anselmi",
       "excerpt": "Biotechnology company Amgen reveals a cybersecurity incident involving stolen company data and possible patient health information, raising new concerns over healthcare data security.",
       "image": "/amgen-reports-patient-data-breach-after-hackers-access-healthcare-information.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "labcorp-pays-14-5-million-settlement-medicare-false-claims",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "July 15, 2026",
+      "title": "Labcorp Pays $14.5 Million Settlement Over Alleged Medicare False Claims for Medical Testing",
+      "author": "Ruth Anselmi",
+      "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
+      "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
       "tags": [
         {
           "label": "Medical Fraud",
