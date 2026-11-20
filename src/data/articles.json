@@ -1,6 +1,198 @@
 {
   "articles": [
     {
+      "id": 98,
+      "slug": "uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data",
+      "category": "tech",
+      "categoryLabel": "Big Tech & Surveillance",
+      "categoryColor": "bg-[#00008b]",
+      "metaTitle": "UK Tribunal Forces Home Office to Confirm Secret Apple Order",
+      "metaDescription": "A UK tribunal ruled the Home Office must confirm it served Apple a technical capability notice, rejecting its national security secrecy claim.",
+      "metaKeywords": [
+        "Apple technical capability notice",
+        "Investigatory Powers Tribunal",
+        "Home Office Apple encryption",
+        "Advanced Data Protection UK",
+        "Investigatory Powers Act",
+        "Liberty Privacy International",
+        "iCloud encryption UK",
+        "neither confirm nor deny"
+      ],
+      "heading": "UK Tribunal Forces Government to Confirm Secret Order Targeting Apple's Encrypted Data",
+      "excerpt": "A UK tribunal has rejected the Home Office's claim that confirming its secret order to Apple would harm national security, ending nearly two years of official silence over demands for access to encrypted iCloud data.",
+      "date": "November 20, 2026",
+      "image": "/uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data.webp",
+      "heroImage": "/uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data.webp",
+      "alt": "An iPhone showing a padlock-and-cloud encryption icon in front of Whitehall government buildings in London, as a UK tribunal forces the Home Office to confirm its secret order to Apple.",
+      "author": {
+        "name": "Simone Varlette",
+        "slug": "simone-varlette",
+        "avatar": "/simone-varlette2.webp",
+        "bio": "Simone worked in network security for six years before she realized the bigger threat wasn't coming from outside corporate firewalls. She now writes about the companies that have built entire business models on the quiet collection of personal data.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A British tribunal has ruled that the UK government can no longer keep secret the fact that it ordered Apple to maintain access to its customers' encrypted data. In a judgment handed down on Thursday, November 19, the Investigatory Powers Tribunal rejected the Home Office's argument that even confirming the order existed would damage national security, and confirmed that the Home Secretary has given Apple a technical capability notice under the Investigatory Powers Act."
+          },
+          {
+            "type": "paragraph",
+            "text": "The ruling does not reveal what the notice demands, and it does not decide whether the order is lawful. But it ends nearly two years of official silence about a demand that has been widely reported since early 2025, and it is the first known time the UK government has been compelled to acknowledge a secret technical order of this kind, according to the civil liberties group Liberty."
+          },
+          {
+            "type": "heading",
+            "text": "What the Tribunal Ruled"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Investigatory Powers Tribunal is the independent court that hears challenges to government surveillance. The Home Office had relied on its long-standing 'neither confirm nor deny' policy, with the government's lawyer arguing that dropping it would give material help to hostile actors. The tribunal disagreed, saying the government 'has not established that it would be damaging to national security' to reveal in these proceedings that the Home Office has given Apple a notice."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reuters reported that the tribunal found the amount of information already in the public domain meant that confirmation would do little, if any, damage. City AM reported that the tribunal described the Home Office's national security assessment as 'flawed in the public law sense.' The tribunal also handed down private judgments that cannot be disclosed without damaging the public interest, Reuters said."
+          },
+          {
+            "type": "heading",
+            "text": "A Secret Order That Was an Open Secret"
+          },
+          {
+            "type": "paragraph",
+            "text": "The dispute goes back to February 2025, when The Washington Post and other outlets reported that the Home Office had served Apple with a notice requiring access to iCloud data protected by Advanced Data Protection, a feature that keeps encryption keys on users' own devices rather than on Apple's servers. Because Apple never holds those keys, it cannot hand over the content of such accounts even when served with a lawful request."
+          },
+          {
+            "type": "paragraph",
+            "text": "Apple refused to build a backdoor and instead stopped UK users from switching on Advanced Data Protection. The company has said it has 'never built a backdoor or master key' for any of its products or services, TechCrunch reported. Under the law, Apple was barred from discussing the notice itself, even after its details leaked."
+          },
+          {
+            "type": "paragraph",
+            "text": "Reuters reported that the first notice, which sought access to encrypted cloud backups belonging to both US and British users, was dropped after months of negotiations with the Trump administration. A second notice then applied only to Apple's UK customers, and Apple challenged it before the same tribunal. Liberty and Privacy International, together with two individuals, are separately challenging the Home Secretary's power to issue such notices, and the tribunal is managing the cases together."
+          },
+          {
+            "type": "heading",
+            "text": "Leaks and Public Comments Undercut the Government's Case"
+          },
+          {
+            "type": "paragraph",
+            "text": "A central weakness in the Home Office's position was that the notice was already common knowledge. Lawyers for Privacy International and Liberty told the tribunal at a hearing in September that the refusal to confirm the order had become absurd, after US politicians and officials spoke about it publicly and unnamed UK government sources confirmed it to reporters, Reuters reported."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Record reported that in a preliminary judgment in April 2025 the tribunal had already cited public remarks by senior US politicians, including President Donald Trump, who compared the move to 'something that you hear about with China.' In this week's judgment it also referred to British media reports that cited government officials as sources. Privacy International said the tribunal concluded that the government's own departures from its policy, including confirming the notice to reporters and to the US government, undermined its reliance on that policy now, and that the government did not provide detailed evidence of the harm it feared."
+          },
+          {
+            "type": "paragraph",
+            "text": "According to City AM, the tribunal criticised what it described as authorised leaks to The Times and the Financial Times. Home Office witnesses said internal leak inquiries had found no government source, but the tribunal noted that no investigation reports, details of the steps taken, or ministerial witness statements denying that the briefings were authorised had been provided. City AM also reported that the judgment describes how the government allowed Apple to brief the US Vice President and Attorney General while barring it from briefing Congress."
+          },
+          {
+            "type": "heading",
+            "text": "Government Defends the Notice"
+          },
+          {
+            "type": "paragraph",
+            "text": "A government spokesperson responded by saying the right to privacy is crucial but must not come at the expense of public safety, Reuters reported. The spokesperson said Apple has helped police and intelligence agencies pursue criminals for several years in line with the law, and that the notice simply requires the company to keep that ability. Decisions affecting public safety, the spokesperson added, should be made by elected governments and independent judges rather than by technology companies."
+          },
+          {
+            "type": "paragraph",
+            "text": "Before the ruling, ministers had repeatedly declined to confirm or deny the notice. The Record reported that Security Minister Dan Jarvis told Parliament earlier this year that this was a long-standing position of successive governments, held for reasons of national security. TechCrunch said an Apple spokesperson did not respond to a request for comment on the ruling."
+          },
+          {
+            "type": "heading",
+            "text": "What Rights Groups Say"
+          },
+          {
+            "type": "paragraph",
+            "text": "Liberty said the order could affect millions of people, citing a Which? estimate that around 39 to 40 million people in the UK use iCloud. Liberty director Akiko Hart called the judgment 'a victory for transparency' and argued that, with cyber threats growing, governments should be reinforcing digital security instead of weakening it."
+          },
+          {
+            "type": "paragraph",
+            "text": "Caroline Wilson Palow, legal director at Privacy International, said the government should not be allowed to treat its 'neither confirm nor deny' stance as an 'impenetrable shield,' and that serious questions remain about whether a secret regime of this kind should exist in a democratic society. The group also pointed to polling from the Center for Democracy & Technology suggesting that only 12 percent of the British public think the government should be able to secretly order companies to provide access to users' information and bar them from telling the public. It added that a recent global review of threats to encryption rated the UK's restrictions 'severe,' the highest category."
+          },
+          {
+            "type": "heading",
+            "text": "What Is Still Secret"
+          },
+          {
+            "type": "paragraph",
+            "text": "The ruling answers only one question: whether the existence of the notice can be acknowledged. Its terms remain secret, and the tribunal said later hearings will decide whether any details can be released without damaging national security or the public interest. A substantive hearing on the notice and the wider regime is expected in the first half of 2027, with much of it now likely to be open to the public, City AM reported."
+          },
+          {
+            "type": "paragraph",
+            "text": "For now, the established facts are narrow but significant: a UK court has confirmed that the Home Secretary served Apple with a secret technical capability notice, the government has lost its argument that the fact itself was a national security secret, and the questions of what the order requires and whether it is lawful will be argued next year."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 97,
+          "slug": "apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised",
+          "category": "tech",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/apple-spyware-alerts-99-countries-german-lawmakers-iphones-compromised.webp",
+          "date": "November 10, 2026",
+          "author": "Simone Varlette",
+          "title": "Apple Spyware Alerts Reach 99 Countries as Germany Warns Lawmakers Their iPhones May Be Compromised",
+          "excerpt": "Apple has warned iPhone users in 99 countries that mercenary spyware may have targeted them, and Germany's cybersecurity agency has told Bundestag members who received the alert to treat their phones as possibly compromised."
+        },
+        {
+          "id": 90,
+          "slug": "uk-tightens-oversight-big-tech-cloud-giants-data-security",
+          "category": "tech",
+          "categoryColor": "bg-[#00008b]",
+          "secondaryColor": "bg-[#00008b]",
+          "image": "/uk-tightens-oversight-big-tech-cloud-giants-data-security.webp",
+          "date": "July 17, 2026",
+          "author": "Simone Varlette",
+          "title": "UK Tightens Oversight of Big Tech Cloud Giants Over Data Security Risks",
+          "excerpt": "The UK has introduced stricter oversight rules for major cloud providers including Amazon, Microsoft, Google and Oracle as regulators address growing concerns over digital infrastructure risks and dependency on Big Tech."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Courts and Tribunals Judiciary",
+          "title": "Apple Inc -v- Home Secretary and others (Investigatory Powers Tribunal judgment)",
+          "url": "https://www.judiciary.uk/judgments/apple-inc-v-home-secretary-and-others/"
+        },
+        {
+          "label": "Reuters (via Devdiscourse)",
+          "title": "UK tribunal confirms government order demanding access to Apple data",
+          "url": "https://www.devdiscourse.com/article/international/4009598-uk-tribunal-confirms-government-order-demanding-access-to-apple-data"
+        },
+        {
+          "label": "TechCrunch",
+          "title": "U.K government forced to disclose secret Apple backdoor order",
+          "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order/"
+        },
+        {
+          "label": "City AM",
+          "title": "UK government loses bid to keep Apple surveillance order secret",
+          "url": "https://www.cityam.com/uk-government-loses-bid-to-keep-apple-surveillance-order-secret/"
+        },
+        {
+          "label": "The Record",
+          "title": "UK court confirms British government served Apple with secret encryption notice",
+          "url": "https://therecord.media/apple-uk-encryption-notice"
+        },
+        {
+          "label": "Liberty",
+          "title": "Liberty legal challenge forces government to reveal secret encryption order that could affect millions of Apple users",
+          "url": "https://www.libertyhumanrights.org.uk/issue/liberty-legal-challenge-forces-government-to-reveal-secret-encryption-order-that-could-affect-millions-of-apple-users/"
+        },
+        {
+          "label": "Privacy International",
+          "title": "Win! Tribunal orders UK Government to come clean about secret order to Apple",
+          "url": "https://privacyinternational.org/news-analysis/5896/win-tribunal-orders-uk-government-come-clean-about-secret-order-apple/"
+        }
+      ]
+    },
+    {
       "id": 311,
       "slug": "puerto-rico-family-secretary-suzanne-roig-resigns-amid-contract-corruption-probes",
       "category": "puerto-rico",

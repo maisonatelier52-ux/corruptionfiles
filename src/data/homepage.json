@@ -599,8 +599,8 @@
     },
     "sidebar": [
       {
-        "id": 91,
-        "slug": "meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras",
+        "id": 98,
+        "slug": "uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data",
         "categories": [
           {
             "label": "Big Tech & Surveillance",
@@ -609,10 +609,10 @@
         ],
         "category": "tech",
         "author": "Simone Varlette",
-        "date": "August 10, 2026",
-        "title": "Meta AI Smart Glasses Spark New Privacy Concerns Over Hidden Cameras",
-        "description": "Meta’s AI-powered smart glasses are facing growing privacy concerns in the U.K. and U.S. as critics question camera use, data collection, and public surveillance risks.",
-        "image": "/meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras.webp"
+        "date": "November 20, 2026",
+        "title": "UK Tribunal Forces Government to Confirm Secret Order Targeting Apple's Encrypted Data",
+        "description": "A UK tribunal has rejected the Home Office's claim that confirming its secret order to Apple would harm national security, ending nearly two years of official silence over demands for access to encrypted iCloud data.",
+        "image": "/uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data.webp"
       },
       {
         "id": 92,
@@ -628,6 +628,22 @@
         "date": "September 10, 2026",
         "author": "Simone Varlette",
         "title": "Huawei Trial Reopens U.S. Security Debate Over Technology and Surveillance"
+      },
+      {
+        "id": 91,
+        "slug": "meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras",
+        "categories": [
+          {
+            "label": "Big Tech & Surveillance",
+            "color": "bg-[#00008b]"
+          }
+        ],
+        "category": "tech",
+        "author": "Simone Varlette",
+        "date": "August 10, 2026",
+        "title": "Meta AI Smart Glasses Spark New Privacy Concerns Over Hidden Cameras",
+        "description": "Meta’s AI-powered smart glasses are facing growing privacy concerns in the U.K. and U.S. as critics question camera use, data collection, and public surveillance risks.",
+        "image": "/meta-ai-smart-glasses-spark-new-privacy-concerns-over-hidden-cameras.webp"
       },
       {
         "id": 90,
