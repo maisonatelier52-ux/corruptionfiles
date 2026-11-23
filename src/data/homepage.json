@@ -1,6 +1,18 @@
 {
   "politicsNews": [
     {
+      "id": 216,
+      "slug": "van-hollen-challenges-schumer-senate-democrats-leadership-showdown",
+      "category": "govt",
+      "image": "/van-hollen-challenges-schumer-senate-democrats-leadership-showdown.webp",
+      "categoryLabel": "Government",
+      "categoryColor": "bg-[#ff9800]",
+      "date": "November 23, 2026",
+      "author": "Margaret Holloway",
+      "title": "Senate Democrats Brace for Leadership Showdown as Van Hollen Challenges Schumer",
+      "description": "Democrats won the Senate in November, but Sen. Chris Van Hollen is now challenging Chuck Schumer for leader, setting up a December 1 secret-ballot vote."
+    },
+    {
       "id": 215,
       "slug": "senate-confirms-anna-st-john-fifth-circuit-republicans-race-to-fill-courts",
       "category": "govt",
@@ -23,7 +35,9 @@
       "author": "Margaret Holloway",
       "title": "Democrats Win the Midterms and Promise Tough Oversight of Trump's Administration",
       "description": "Democrats flipped the House and were projected to take the Senate after Tuesday's midterms, and party leaders are already talking about investigations into the Trump administration."
-    },
+    }
+  ],
+  "secondaryNews": [
     {
       "id": 102,
       "slug": "labour-defeats-greens-in-holborn-and-st-pancras-by-election",
@@ -35,20 +49,18 @@
       "author": "Margaret Holloway",
       "title": "Holborn and St Pancras By-Election: Labour Defeats Greens",
       "description": "Labour's Sagal Abdi-Wali beat Green leader Zack Polanski to win the Holborn and St Pancras by-election, giving PM Andy Burnham an early boost."
-    }
-  ],
-  "secondaryNews": [
+    },
     {
-      "id": 201,
-      "slug": "nigel-farage-westminster-scrutiny-undeclared-gifts-donations",
+      "id": 203,
+      "slug": "hillsborough-law-nears-final-approval-uk-parliament",
       "category": "govt",
-      "image": "/nigel-farage-westminster-scrutiny-undeclared-gifts-donations.webp",
+      "image": "/hillsborough-law-nears-final-approval-uk-parliament.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "July 7, 2026",
+      "date": "July 14, 2026",
       "author": "Margaret Holloway",
-      "title": "Nigel Farage Faces Westminster Scrutiny Over Undeclared Gifts and Political Donations",
-      "description": "Reform UK leader Nigel Farage is under pressure in Westminster as lawmakers call for investigations into alleged undeclared gifts and donations."
+      "title": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning",
+      "description": "The UK Parliament is expected to pass the landmark Hillsborough Law, showing a legal duty of candour for public officials following years of campaigning by victims' families."
     },
     {
       "id": 202,
@@ -63,16 +75,16 @@
       "description": "Republican lawmakers return to Capitol Hill facing a packed legislative agenda and fresh leadership challenges following Senator Lindsey Graham's death."
     },
     {
-      "id": 203,
-      "slug": "hillsborough-law-nears-final-approval-uk-parliament",
+      "id": 201,
+      "slug": "nigel-farage-westminster-scrutiny-undeclared-gifts-donations",
       "category": "govt",
-      "image": "/hillsborough-law-nears-final-approval-uk-parliament.webp",
+      "image": "/nigel-farage-westminster-scrutiny-undeclared-gifts-donations.webp",
       "categoryLabel": "Government",
       "categoryColor": "bg-[#ff9800]",
-      "date": "July 14, 2026",
+      "date": "July 7, 2026",
       "author": "Margaret Holloway",
-      "title": "Hillsborough Law Nears Final Approval in Westminster After Decades of Campaigning",
-      "description": "The UK Parliament is expected to pass the landmark Hillsborough Law, showing a legal duty of candour for public officials following years of campaigning by victims' families."
+      "title": "Nigel Farage Faces Westminster Scrutiny Over Undeclared Gifts and Political Donations",
+      "description": "Reform UK leader Nigel Farage is under pressure in Westminster as lawmakers call for investigations into alleged undeclared gifts and donations."
     },
     {
       "id": 204,
