@@ -1,6 +1,193 @@
 {
   "articles": [
     {
+      "id": 16,
+      "slug": "minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "categoryColor": "bg-[#e91e63]",
+      "metaTitle": "Minnesota Couple Convicted in $15M Medicare Fraud Scheme",
+      "metaDescription": "A federal jury convicted a Minnesota couple of billing Medicare, Medicaid and insurers over $15 million for therapy services that mostly never occurred.",
+      "metaKeywords": [
+        "Medicare fraud",
+        "Medicaid fraud",
+        "Golden Victory Medical",
+        "neurofeedback billing fraud",
+        "Gabriel Luthor Elizabeth Brown",
+        "Minnesota health care fraud",
+        "wire fraud conviction",
+        "U.S. Attorney's Office District of Minnesota"
+      ],
+      "heading": "Federal Jury Convicts Minnesota Couple in $15 Million Medicare and Medicaid Fraud Scheme",
+      "excerpt": "A federal jury has found Gabriel Luthor and Elizabeth Brown guilty on all seven counts after prosecutors showed their neurofeedback company billed Medicare, Medicaid and private insurers for services that mostly never happened, including claims for more than 24 hours of care on 586 separate days.",
+      "date": "November 24, 2026",
+      "image": "/minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud.webp",
+      "heroImage": "/minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud.webp",
+      "alt": "A neurofeedback EEG headset lying on a desk beside a Medicare card, a stack of insurance claim forms and a judge's gavel, illustrating the federal conviction of a Minnesota couple in a $15 million Medicare and Medicaid billing fraud case.",
+      "author": {
+        "name": "Ruth Anselmi",
+        "slug": "ruth-anselmi",
+        "avatar": "/ruth-anselmi.webp",
+        "bio": "Ruth trained as a pharmacist and then spent a decade watching the gap between clinical trial data and real-world outcomes grow wider every year. She now covers healthcare fraud and pharmaceutical litigation, tracking billions in taxpayer dollars lost to waste and abuse.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A federal jury in St. Paul has convicted a Minnesota couple of running a health care billing scheme that prosecutors say took more than $15 million from Medicare, Medicaid and private insurers. Gabriel Adam Alexander Luthor, 40, and Elizabeth Christine Brown, 43, were each found guilty on November 19 of six counts of wire fraud and one count of money laundering after an 11-day trial, the U.S. Attorney's Office for the District of Minnesota announced on November 20."
+          },
+          {
+            "type": "paragraph",
+            "text": "Wire fraud carries a maximum sentence of 20 years in prison and money laundering a maximum of 10 years. Sentencing dates have not been announced. Chief U.S. District Judge Eric C. Tostrud ordered presentence investigations for both defendants, and Eden Prairie Local News reported that the jury deliberated for about two hours and ten minutes before returning its verdict."
+          },
+          {
+            "type": "heading",
+            "text": "A Company Built Around a Therapy Insurers Do Not Cover"
+          },
+          {
+            "type": "paragraph",
+            "text": "According to court documents and trial evidence, the scheme began in 2018 in Las Vegas. Brown, who holds a master's degree in nursing and is licensed as a nurse practitioner, formed Golden Victory Medical (GVM) in April 2018. Luthor, who had no medical training, became a co-owner shortly afterward. The company offered neurofeedback therapy, an investigational or alternative service that prosecutors say Medicare and virtually all private insurers do not cover."
+          },
+          {
+            "type": "paragraph",
+            "text": "Because the therapy was not reimbursable, the Justice Department says the couple billed insurers for other services instead, such as neurobehavioral and psychological examinations. Prosecutors say the vast majority of those services never took place, could not have been performed by unlicensed and unsupervised technicians, and overstated the time spent with patients."
+          },
+          {
+            "type": "heading",
+            "text": "Homebound Patients and Impossible Billing"
+          },
+          {
+            "type": "paragraph",
+            "text": "Prosecutors say the couple identified patients who were often elderly, confined to their homes or in hospice care, and scheduled them for home visits by unlicensed neurofeedback 'technicians' three times a week. GVM also did not charge patients copays, which Medicare requires. That meant many of the largely elderly patients did not notice, or did not object to, the large amounts being billed to their insurance, although some noticed and complained."
+          },
+          {
+            "type": "paragraph",
+            "text": "The government's clearest illustration of the billing was a count of impossible days. On 586 days, GVM's bills claimed that its providers had spent more than 24 hours with patients. Prosecutors say providers other than Brown did not know what the company was billing under their names. In an October trial brief, reported by Eden Prairie Local News, prosecutors alleged that GVM billed insurers for more than 222 hours of services under Brown's provider number on a single day, October 16, 2019."
+          },
+          {
+            "type": "heading",
+            "text": "A Mansion, Luxury Travel and Overseas Money"
+          },
+          {
+            "type": "paragraph",
+            "text": "Through the scheme, prosecutors say, Luthor and Brown extracted more than $15 million from health insurers. They moved to Minnesota in 2019 and bought a million-dollar, 9,000-square-foot mansion in Eden Prairie with fraud proceeds, then moved GVM's operational headquarters into the house. The Justice Department says the money also paid for luxury vehicles, trips to Vail and Miami, and regular nightclub outings with bar tabs above $10,000."
+          },
+          {
+            "type": "paragraph",
+            "text": "The money laundering count centered on funds sent overseas. The Justice Department says the couple moved about $350,000 through a series of bank accounts to fund a water-well drilling investment in the Democratic Republic of the Congo. Eden Prairie Local News, describing the indictment, reported that the count involved a $400,000 wire transfer in May 2022 to a third party to finance a drilling-truck investment in Zambia and the Congo."
+          },
+          {
+            "type": "heading",
+            "text": "Warnings That Were Not Heeded"
+          },
+          {
+            "type": "paragraph",
+            "text": "Prosecutors say Luthor and Brown were warned repeatedly, year after year, and kept billing anyway. A doctor who worked with Brown complained about her billing practices to the Nevada and Minnesota boards of nursing. A nurse practitioner quit and complained that GVM was billing under her name for services she never provided. A retired journalist complained that she was being billed for services she had never received."
+          },
+          {
+            "type": "paragraph",
+            "text": "The Centers for Medicare & Medicaid Services suspended Medicare payments to GVM on suspicion of fraud, and an outside auditor found that only 9 percent of the company's billing codes were supported. According to the Justice Department, GVM's chief executive warned the couple that the billing problems could bring serious legal consequences and was fired, and an outside billing contractor who said they were billing too much was also let go. Separately, Eden Prairie Local News reported in 2023 that the company's former CEO, Bryan Stewart, had filed a federal civil lawsuit alleging he was fired after raising concerns about billing irregularities."
+          },
+          {
+            "type": "heading",
+            "text": "The Investigation and the Trial"
+          },
+          {
+            "type": "paragraph",
+            "text": "Law enforcement executed search warrants at the Eden Prairie home and at GVM's Las Vegas clinic in early 2023, and the company stopped doing business. The couple was indicted on March 6, 2025, in United States v. Luthor and Brown, No. 25-cr-88. The case was investigated by the U.S. Postal Inspection Service, the FBI, the Eden Prairie Police Department, the Department of Health and Human Services Office of Inspector General and the U.S. Marshals Service, and was prosecuted by Assistant U.S. Attorneys Matthew D. Forbes and Matthew M. Paulbeck."
+          },
+          {
+            "type": "paragraph",
+            "text": "Both defendants pleaded not guilty. Eden Prairie Local News reported that Luthor's attorney maintained his client did not personally submit insurance claims or know that the company's billing practices were fraudulent. During the trial, Tostrud denied requests from both defendants to be tried separately, rejected Luthor's request for a mistrial and denied motions for judgments of acquittal. Both defendants remain free under court-imposed conditions while awaiting sentencing, and Luthor was ordered to stay at a halfway house if his supervising officer deems it necessary, with his travel restricted to Minnesota."
+          },
+          {
+            "type": "heading",
+            "text": "What Prosecutors Said"
+          },
+          {
+            "type": "paragraph",
+            "text": "U.S. Attorney Daniel N. Rosen said the defendants took advantage of elderly patients and treated them 'like an ATM,' believing that entering the right billing codes would make money come pouring out. He credited the law enforcement partners who built the case and said his office would continue to bring fraudsters to justice."
+          },
+          {
+            "type": "heading",
+            "text": "A Busy Month for Health Care Fraud Enforcement"
+          },
+          {
+            "type": "paragraph",
+            "text": "The Minnesota verdict is one of several federal health care fraud actions announced in recent weeks. On November 17, the Justice Department announced that Colorado-based PACE organization InnovAge had agreed to pay $36 million to resolve False Claims Act allegations that it failed to provide required comprehensive medical services and timely specialist referrals to seniors, a settlement the department described as the first of its kind involving a PACE organization."
+          },
+          {
+            "type": "paragraph",
+            "text": "The same week, a Mississippi businessman was sentenced to 10 years in prison for a $19 million Medicare orthotic brace fraud, and earlier in November a Queens program director pleaded guilty to a roughly $127 million Medicare and Medicaid scheme involving unnecessary drugs and adult day care services that were never provided. In the Minnesota case, a sentencing date for Luthor and Brown has yet to be set."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 15,
+          "slug": "mississippi-businessman-sentenced-10-years-19-million-medicare-brace-fraud",
+          "category": "medical-fraud",
+          "categoryColor": "bg-[#e91e63]",
+          "secondaryColor": "bg-[#e91e63]",
+          "image": "/mississippi-businessman-sentenced-10-years-19-million-medicare-brace-fraud.webp",
+          "date": "November 19, 2026",
+          "author": "Ruth Anselmi",
+          "title": "Mississippi Businessman Sentenced to 10 Years in Prison for $19 Million Medicare Brace Fraud",
+          "excerpt": "Willie De Gibbs, who owned or controlled seven medical equipment companies, was sentenced to 10 years after paying kickbacks for fraudulent doctors' orders and billing Medicare more than $19 million for orthotic braces patients did not need."
+        },
+        {
+          "id": 14,
+          "slug": "queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud",
+          "category": "medical-fraud",
+          "categoryColor": "bg-[#e91e63]",
+          "secondaryColor": "bg-[#e91e63]",
+          "image": "/queens-adult-day-care-director-pleads-guilty-127-million-medicare-medicaid-fraud.webp",
+          "date": "November 11, 2026",
+          "author": "Ruth Anselmi",
+          "title": "Queens Adult Day Care Director Pleads Guilty in $127 Million Medicare and Medicaid Fraud Scheme",
+          "excerpt": "Daniel Lee, a program director at two Flushing social adult day care centers, has admitted to a decade-long kickback scheme that billed Medicare and New York Medicaid for about $127 million in unnecessary drugs and services never provided."
+        }
+      ],
+      "sources": [
+        {
+          "label": "U.S. Attorney's Office, District of Minnesota",
+          "title": "Federal Jury Finds Couple Guilty of Wire Fraud and Money Laundering in Scheme to Defraud Medicare, Medicaid, and Private Insurers Out of Over $15 Million",
+          "url": "https://www.justice.gov/usao-mn/pr/federal-jury-finds-couple-guilty-wire-fraud-and-money-laundering-scheme-defraud-medicare"
+        },
+        {
+          "label": "Eden Prairie Local News",
+          "title": "Two former Eden Prairie residents convicted in $15M fraud case",
+          "url": "https://eplocalnews.org/2026/11/19/two-former-eden-prairie-residents-convicted-in-15m-fraud-case/"
+        },
+        {
+          "label": "Valley News Live (KVLY)",
+          "title": "Federal jury convicts couple in Medicare and Medicaid billing fraud case tied to Eden Prairie home",
+          "url": "https://www.valleynewslive.com/2026/11/23/federal-jury-convicts-couple-medicare-medicaid-billing-fraud-case-tied-eden-prairie-home/"
+        },
+        {
+          "label": "U.S. Department of Justice",
+          "title": "PACE Organization InnovAge Agrees to Pay $36M to Resolve False Claims Act Allegations of Failing to Provide Comprehensive Medical Services and Timely Specialist Referrals to Seniors",
+          "url": "https://www.justice.gov/opa/pr/pace-organization-innovage-agrees-pay-36m-resolve-false-claims-act-allegations-failing"
+        },
+        {
+          "label": "U.S. Department of Justice",
+          "title": "Mississippi Businessman Sentenced to 10 Years in Prison for $19M Medicare Fraud",
+          "url": "https://www.justice.gov/opa/pr/mississippi-businessman-sentenced-10-years-prison-19m-medicare-fraud"
+        },
+        {
+          "label": "U.S. Department of Justice",
+          "title": "Social Adult Day Care Program Director Pleads Guilty to $127M Medicare and Medicaid Fraud Scheme",
+          "url": "https://www.justice.gov/opa/pr/social-adult-day-care-program-director-pleads-guilty-127m-medicare-and-medicaid-fraud-scheme"
+        }
+      ]
+    },
+    {
       "id": 98,
       "slug": "uk-tribunal-forces-government-to-confirm-secret-order-targeting-apple-encrypted-data",
       "category": "tech",

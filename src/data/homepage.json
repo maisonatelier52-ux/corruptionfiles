@@ -739,6 +739,23 @@
   },
   "newsCards": [
     {
+      "id": 16,
+      "slug": "minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "November 24, 2026",
+      "title": "Federal Jury Convicts Minnesota Couple in $15 Million Medicare and Medicaid Fraud Scheme",
+      "author": "Ruth Anselmi",
+      "excerpt": "A federal jury has found Gabriel Luthor and Elizabeth Brown guilty on all seven counts after prosecutors showed their neurofeedback company billed Medicare, Medicaid and private insurers for services that mostly never happened, including claims for more than 24 hours of care on 586 separate days.",
+      "image": "/minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
       "id": 15,
       "slug": "mississippi-businessman-sentenced-10-years-19-million-medicare-brace-fraud",
       "category": "medical-fraud",
@@ -782,23 +799,6 @@
       "author": "Ruth Anselmi",
       "excerpt": "A new analysis found the number of patients using BPC-157, an unapproved peptide backed by Health Secretary Robert F. Kennedy Jr., has risen sharply despite scant safety evidence.",
       "image": "/wolverine-peptide-bpc-157-rise-limited-safety-evidence.webp",
-      "tags": [
-        {
-          "label": "Medical Fraud",
-          "color": "bg-[#e91e63]"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "slug": "doj-sues-new-york-medicaid-home-care-fraud",
-      "category": "medical-fraud",
-      "categoryLabel": "Medical Fraud",
-      "date": "June 17, 2026",
-      "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program",
-      "author": "Ruth Anselmi",
-      "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program.",
-      "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp",
       "tags": [
         {
           "label": "Medical Fraud",
@@ -986,6 +986,23 @@
       "author": "Ruth Anselmi",
       "excerpt": "Clinical laboratory giant Labcorp has agreed to pay $14.5 million to resolve allegations that it submitted false Medicare claims for medically unnecessary urine drug testing services.",
       "image": "/labcorp-pays-14-5-million-settlement-medicare-false-claims.webp",
+      "tags": [
+        {
+          "label": "Medical Fraud",
+          "color": "bg-[#e91e63]"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "doj-sues-new-york-medicaid-home-care-fraud",
+      "category": "medical-fraud",
+      "categoryLabel": "Medical Fraud",
+      "date": "June 17, 2026",
+      "title": "DOJ Sues New York Officials Over Alleged Fraud in $10 Billion Medicaid Home-Care Program",
+      "author": "Ruth Anselmi",
+      "excerpt": "The Justice Department has sued New York state officials and contractor Public Partnerships LLC, alleging a sham bidding process and unauthorized profits in the state's $10 billion Medicaid home-care program.",
+      "image": "/doj-sues-new-york-medicaid-home-care-fraud.webp",
       "tags": [
         {
           "label": "Medical Fraud",
