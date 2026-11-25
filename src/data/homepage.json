@@ -381,6 +381,21 @@
   },
   "healthcareNews": [
     {
+      "id": 414,
+      "slug": "calgary-officers-charged-manslaughter-jon-wells-alberta-ends-mandatory-custody-inquiries",
+      "image": "/calgary-officers-charged-manslaughter-jon-wells-alberta-ends-mandatory-custody-inquiries.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Three Calgary Officers Charged With Manslaughter in Jon Wells Death as Alberta Moves to End Mandatory Inquiries",
+      "date": "November 25, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
       "id": 810,
       "slug": "arlington-police-propose-30-day-bodycam-release-rule-after-fatal-shooting-2026",
       "image": "/arlington-police-propose-30-day-bodycam-release-rule-after-fatal-shooting-2026.webp",
@@ -411,9 +426,9 @@
       "author": "Darnell Hutchins"
     },
     {
-      "id": 403,
-      "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
-      "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
+      "id": 401,
+      "slug": "ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow",
+      "image": "/ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow.webp",
       "category": "pa",
       "badges": [
         {
@@ -421,8 +436,8 @@
           "color": "bg-[#e91e63]"
         }
       ],
-      "title": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
-      "date": "July 23, 2026",
+      "title": "ICE Officers to Get Body Cameras as Calls for Police Accountability Grow",
+      "date": "August 9, 2026",
       "author": "Darnell Hutchins"
     },
     {
@@ -441,9 +456,9 @@
       "author": "Darnell Hutchins"
     },
     {
-      "id": 405,
-      "slug": "westchester-county-license-plate-readers-lawsuit",
-      "image": "/westchester-county-license-plate-readers-lawsuit.webp",
+      "id": 403,
+      "slug": "madison-police-shooting-sparks-calls-for-independent-investigation",
+      "image": "/madison-police-shooting-sparks-calls-for-independent-investigation.webp",
       "category": "pa",
       "badges": [
         {
@@ -451,114 +466,8 @@
           "color": "bg-[#e91e63]"
         }
       ],
-      "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge",
-      "date": "June 10, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 406,
-      "slug": "australia-police-less-lethal-weapons-transparency",
-      "image": "/australia-police-less-lethal-weapons-transparency.webp",
-      "category": "pa",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
-      "date": "June 11, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 407,
-      "slug": "belfast-psni-inaction-far-right-attacks",
-      "image": "/belfast-psni-inaction-far-right-attacks.webp",
-      "category": "pa",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks",
-      "date": "June 12, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 408,
-      "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting",
-      "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp",
-      "category": "pa",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface",
-      "date": "June 18, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 409,
-      "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
-      "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
-      "category": "pa",
-      "categoryLabel": "Police Accountability",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
-      "date": "May 14, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 410,
-      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
-      "category": "pa",
-      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
-      "date": "June 2, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 411,
-      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
-      "category": "pa",
-      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
-      "date": "June 3, 2026",
-      "author": "Darnell Hutchins"
-    },
-    {
-      "id": 412,
-      "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
-      "category": "pa",
-      "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
-      "badges": [
-        {
-          "text": "Police Accountability",
-          "color": "bg-[#e91e63]"
-        }
-      ],
-      "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
-      "date": "June 5, 2026",
+      "title": "Madison Police Shooting Sparks Calls for Independent Investigation After Man Dies During Arrest",
+      "date": "July 23, 2026",
       "author": "Darnell Hutchins"
     },
     {
@@ -577,9 +486,9 @@
       "author": "Darnell Hutchins"
     },
     {
-      "id": 401,
-      "slug": "ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow",
-      "image": "/ice-officers-to-get-body-cameras-as-calls-for-police-accountability-grow.webp",
+      "id": 408,
+      "slug": "former-louisville-officer-indicted-manslaughter-fatal-shooting",
+      "image": "/former-louisville-officer-indicted-manslaughter-fatal-shooting.webp",
       "category": "pa",
       "badges": [
         {
@@ -587,8 +496,114 @@
           "color": "bg-[#e91e63]"
         }
       ],
-      "title": "ICE Officers to Get Body Cameras as Calls for Police Accountability Grow",
-      "date": "August 9, 2026",
+      "title": "Former Louisville Officer Charged in Fatal Shooting of Unarmed Man as Accountability Questions Resurface",
+      "date": "June 18, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 407,
+      "slug": "belfast-psni-inaction-far-right-attacks",
+      "image": "/belfast-psni-inaction-far-right-attacks.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Belfast community fury over PSNI inaction amid targeted far‑right attacks",
+      "date": "June 12, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 406,
+      "slug": "australia-police-less-lethal-weapons-transparency",
+      "image": "/australia-police-less-lethal-weapons-transparency.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Australian Police Use of ‘Less-Lethal’ Weapons Faces Transparency Questions",
+      "date": "June 11, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 405,
+      "slug": "westchester-county-license-plate-readers-lawsuit",
+      "image": "/westchester-county-license-plate-readers-lawsuit.webp",
+      "category": "pa",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Westchester County Faces Lawsuit Over 1.6 Billion License Plate Scans in Major Police Accountability Challenge",
+      "date": "June 10, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 412,
+      "slug": "starmer-musk-interfering-uk-politics-henry-nowak-southampton",
+      "category": "pa",
+      "image": "/starmer-musk-interfering-uk-politics-henry-nowak-southampton.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "UK PM Starmer Urges Elon Musk to Stop Political Interference Amid Police Misconduct Debate",
+      "date": "June 5, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 411,
+      "slug": "henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc",
+      "category": "pa",
+      "image": "/henry-nowak-southampton-handcuffed-dying-teen-uk-police-iopc.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "UK Police Face Scrutiny After Dying Teen Handcuffed Following Fatal Stabbing",
+      "date": "June 3, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 410,
+      "slug": "minnesota-gop-derek-chauvin-moment-of-silence-backlash",
+      "category": "pa",
+      "image": "/minnesota-gop-derek-chauvin-moment-of-silence-backlash.webp",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Minnesota Republicans Face Backlash Over Derek Chauvin Tribute",
+      "date": "June 2, 2026",
+      "author": "Darnell Hutchins"
+    },
+    {
+      "id": 409,
+      "slug": "louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death",
+      "image": "/louisiana-state-police-to-pay-4-8-million-over-ronald-greene-death.webp",
+      "category": "pa",
+      "categoryLabel": "Police Accountability",
+      "badges": [
+        {
+          "text": "Police Accountability",
+          "color": "bg-[#e91e63]"
+        }
+      ],
+      "title": "Louisiana State Police to Pay $4.8 Million Over Ronald Greene Death",
+      "date": "May 14, 2026",
       "author": "Darnell Hutchins"
     }
   ],
