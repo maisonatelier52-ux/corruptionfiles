@@ -1,6 +1,189 @@
 {
   "articles": [
     {
+      "id": 613,
+      "slug": "cop31-climate-talks-collapse-without-deal-fossil-fuels-antalya-pact",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "metaTitle": "COP31 Ends Without a Deal After Fossil Fuels Dropped",
+      "metaDescription": "COP31 closed in Antalya without its headline pact after the EU, UK and island nations rejected a draft that never mentioned fossil fuels.",
+      "metaKeywords": [
+        "COP31",
+        "Antalya Pact",
+        "UN climate talks",
+        "fossil fuels",
+        "Kick Big Polluters Out",
+        "climate finance",
+        "just transition",
+        "Murat Kurum"
+      ],
+      "heading": "COP31 Climate Summit Ends Without a Deal After Fossil Fuels Vanish From the Antalya Pact",
+      "excerpt": "The longest UN climate summit on record closed without its headline pact after the EU, the UK and island nations rejected a text that never named fossil fuels, with more than 100 polluting corporations and trade groups sending delegations to Antalya.",
+      "date": "November 26, 2026",
+      "image": "/cop31-climate-talks-collapse-without-deal-fossil-fuels-antalya-pact.webp",
+      "heroImage": "/cop31-climate-talks-collapse-without-deal-fossil-fuels-antalya-pact.webp",
+      "alt": "An empty plenary podium and rows of delegate chairs in a vast climate conference hall, with a draft agreement page lying on a desk and several lines blacked out, illustrating the collapse of the COP31 Antalya Pact.",
+      "author": {
+        "name": "Thomas Aldgate",
+        "slug": "thomas-aldgate",
+        "avatar": "/thomas-aldgate.webp",
+        "bio": "Thomas has filed dispatches from mining towns, river communities, and coastal villages where the damage tends to arrive before the permits do. With a background in environmental law and fifteen years of field reporting, he specializes in tracing the money behind extraction projects.",
+        "social": {
+          "facebook": "#",
+          "twitter": "#",
+          "instagram": "#",
+          "youtube": "#"
+        }
+      },
+      "body": {
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The COP31 climate summit in Antalya, Turkey, closed on Sunday, 22 November, without adopting its headline political agreement after the European Union, the United Kingdom, Panama, the Marshall Islands, Norway and other countries refused to endorse a text that did not mention fossil fuels. The proposed Antalya Pact was rejected in a fraught closing session almost two days after the talks were due to finish, making COP31 the longest UN climate conference ever held."
+          },
+          {
+            "type": "paragraph",
+            "text": "UN Secretary-General António Guterres said he was deeply disappointed by the outcome, adding: \"There is no ambiguity in the science.\" CBS News reported that delegations from nearly 200 countries took part, and that the United States sent no representatives for the second year in a row after the Trump administration withdrew from the Paris Agreement."
+          },
+          {
+            "type": "heading",
+            "text": "How Fossil Fuels Disappeared From the Text"
+          },
+          {
+            "type": "paragraph",
+            "text": "The first draft of the cover decision, released on 16 November, still carried language on transitioning away from fossil fuels. Carbon Brief reports that a second draft published three days later had removed any mention of them and dropped a $120 billion target for adaptation finance that developing countries wanted. A third draft issued in the early hours of Sunday still did not name fossil fuels, referring only to the UAE Consensus reached at COP28 in Dubai, and the final version made only minor changes."
+          },
+          {
+            "type": "paragraph",
+            "text": "In their place, the draft offered a menu of options that included lifting electricity to 35 percent of final energy use by 2035 and numerical targets for carbon capture, utilisation and storage, a technology critics describe as expensive and unproven at scale. Russia and a group of Saudi-led states said they could not accept any wording on fossil fuels, even if it was drawn from earlier agreements, according to Health Policy Watch."
+          },
+          {
+            "type": "heading",
+            "text": "A Rare Rejection From the EU and Climate-Vulnerable Nations"
+          },
+          {
+            "type": "paragraph",
+            "text": "Ireland's climate minister Darragh O'Brien, speaking for the EU, told delegates: \"We will not accept a COP that greenwashes fossil fuels.\" By Carbon Brief's tally, the pact was explicitly rejected by at least 32 countries, including Panama, the Marshall Islands, Belize, Norway and Vanuatu, while the UK and others said consensus had not been reached. Ghana, speaking for the African Group, said it could support the decision despite its gaps."
+          },
+          {
+            "type": "paragraph",
+            "text": "Panama's environment minister, Juan Carlos Navarro, accused petroleum interests of hijacking the conference, and days earlier Panama had said it would formally object to any outcome without a cap on oil production. COP31 president Murat Kurum, Turkey's environment minister, ruled out a new draft and said the presidency had not pressured anyone to accept the text. Australia's Chris Bowen, who led the negotiations, said the talks failed over red lines that could not be bridged."
+          },
+          {
+            "type": "heading",
+            "text": "Polluter Lobbyists Inside the Venue"
+          },
+          {
+            "type": "paragraph",
+            "text": "The collapse followed warnings from campaigners about the heavy industry presence in Antalya. An analysis by the Kick Big Polluters Out coalition, based on the summit's provisional participant list, found 103 corporations and industry groups with records of obstructing climate policy, 60 of them from the fossil fuel industry. The coalition says those delegations outnumber the delegation of Saint Vincent and the Grenadines by 100 to 1 and that of Nepal by 6 to 1. Banks with a presence at the summit provided more than $2.2 trillion in fossil fuel financing between 2021 and 2025, according to the Banking on Climate Chaos database."
+          },
+          {
+            "type": "paragraph",
+            "text": "The largest delegations came from the International Emissions Trading Association with 29 people, BNP Paribas with 22, HSBC with 19 and ExxonMobil with 13. Italy brought 50 fossil fuel industry representatives on its own delegation, up from 12 at COP30, according to a separate count by the Fossil Free Politics campaign. Guterres told world leaders earlier in the summit: \"The dinosaurs did not have a lobby. But fossil fuels do.\""
+          },
+          {
+            "type": "paragraph",
+            "text": "The industry arrived with strong earnings. ExxonMobil, Chevron, BP, Shell and TotalEnergies reported a combined $56.3 billion in adjusted net income for the third quarter, according to Bloomberg data cited by Health Policy Watch, as the energy shock from the war on Iran pushed international oil prices up almost 60 percent."
+          },
+          {
+            "type": "heading",
+            "text": "What Survived and What Was Lost"
+          },
+          {
+            "type": "paragraph",
+            "text": "The summit did not end in total failure. Countries agreed texts on a just transition work programme, the global goal on adaptation, a climate finance work programme and carbon markets, plus a decision that lets the UN Adaptation Fund receive a share of carbon-trading proceeds. Experts told Carbon Brief that the talks did not strictly collapse because several negotiated items were adopted. Much of what passed was procedural, though: the just transition mechanism was deferred to COP32, and the finance work programme will run until 2028 without a figure for tripling adaptation finance."
+          },
+          {
+            "type": "paragraph",
+            "text": "Other items were lost. The mitigation work programme, the only formal COP agenda item focused on cutting emissions, was blocked at the closing plenary by Saudi Arabia and Russia, and its work now moves to Bonn in 2027. Initiatives on oceans, methane and mountains dropped out of the formal outcome along with the failed pact. In carbon markets, a paragraph noting 543 inconsistencies, 115 of them significant, in technical reviews of national reports under Article 6.2 was removed from the agreed text. The Resource Justice Network also condemned the removal of human rights due diligence across critical mineral supply chains."
+          },
+          {
+            "type": "paragraph",
+            "text": "Climate Action noted that the failure of the pact does not erase earlier commitments. The 2023 Dubai agreement on transitioning away from fossil fuels still stands, as does the Paris Agreement, and presidency-led initiatives such as the 35 percent electricity target remain voluntary pledges."
+          },
+          {
+            "type": "heading",
+            "text": "What Happens Next"
+          },
+          {
+            "type": "paragraph",
+            "text": "Unresolved items now carry over to COP32 in Addis Ababa in November 2027, while talks on reforming the UN climate process continue in Bonn next year, according to Health Policy Watch and Carbon Brief. Health Policy Watch reports that countries wanting faster action on fossil fuels will now work through the Santa Marta process, and that Panama's call for majority voting will be harder to dismiss."
+          },
+          {
+            "type": "paragraph",
+            "text": "The science behind the dispute is stark. Health Policy Watch, citing UNEP, reports that national pledges point to about 2.6C of warming and current policies to about 2.8C. The Global Carbon Project projects record total CO2 emissions of 43.3 billion tonnes in 2026 once land use is included, and fossil fuels produced about 88 percent of CO2 emissions over the past decade."
+          },
+          {
+            "type": "heading",
+            "text": "What Remains Unanswered"
+          },
+          {
+            "type": "paragraph",
+            "text": "Governments were asked to say in one document that the 1.5C limit is being breached and that coal, oil and gas are the reason. They managed only the first half of that sentence. Campaigners and several UN constituencies, including women, youth and trade unions, are still calling for a binding conflict-of-interest policy to keep polluters from shaping the talks, and reform of how COPs are run, including whether consensus rules can change, returns to the agenda in Bonn next year."
+          }
+        ]
+      },
+      "relatedPosts": [
+        {
+          "id": 603,
+          "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions",
+          "category": "eco",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
+          "date": "July 17, 2026",
+          "author": "Thomas Aldgate",
+          "title": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions",
+          "excerpt": "Heavy smoke from hundreds of Canadian wildfires has spread across the U.S. Midwest and East Coast, causing hazardous air quality levels in several states and prompting officials to urge residents to stay indoors."
+        },
+        {
+          "id": 605,
+          "slug": "unicef-report-children-climate-hazards-2026",
+          "category": "eco",
+          "categoryColor": "bg-[#2196f3]",
+          "secondaryColor": "bg-[#2196f3]",
+          "image": "/unicef-report-children-climate-hazards-2026.webp",
+          "date": "June 18, 2026",
+          "author": "Thomas Aldgate",
+          "title": "UNICEF Report Warns Nearly All Children Face Climate-Related Hazards",
+          "excerpt": "A landmark UNICEF report has found that nearly every child on earth is now exposed to at least one climate hazard, with 1.1 billion children — nearly half of the world's child population — facing at least three overlapping threats including droughts, heatwaves and floods."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Carbon Brief",
+          "title": "COP31: Key outcomes agreed at the UN climate talks in Antalya",
+          "url": "https://www.carbonbrief.org/cop31-key-outcomes-agreed-at-the-un-climate-talks-in-antalya"
+        },
+        {
+          "label": "CBS News",
+          "title": "U.N. COP31 climate conference ends with no agreement after fossil fuel debate reaches standstill",
+          "url": "https://www.cbsnews.com/news/un-cop31-climate-conference-ends-no-agreement-fossil-fuel-debate-standstill/"
+        },
+        {
+          "label": "Health Policy Watch",
+          "title": "COP31 Climate Summit That Could Not Say 'Fossil Fuels' Ends With No Deal",
+          "url": "https://healthpolicy-watch.news/cop31-consensus-collapse-at-climate-summit/"
+        },
+        {
+          "label": "Health Policy Watch",
+          "title": "Polluting Industries Swarm COP31, Outnumber Climate-Vulnerable Nations",
+          "url": "https://healthpolicy-watch.news/polluting-industries-swarms-cop31/"
+        },
+        {
+          "label": "Climate Action",
+          "title": "COP31 ends without a political deal, but some decisions survive",
+          "url": "https://www.climateaction.org/news/cop31-ends-without-a-political-deal-but-some-decisions-survive"
+        },
+        {
+          "label": "Down To Earth",
+          "title": "COP31: Over 100 major polluter groups represented at climate summit, outnumber delegates from vulnerable nations",
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-over-100-major-polluter-groups-represented-at-climate-summit-outnumber-delegates-from-vulnerable-nations"
+        }
+      ]
+    },
+    {
       "id": 16,
       "slug": "minnesota-couple-convicted-15-million-medicare-medicaid-neurofeedback-fraud",
       "category": "medical-fraud",

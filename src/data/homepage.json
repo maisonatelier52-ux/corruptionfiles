@@ -1088,6 +1088,24 @@
   },
   "discoveryMiddle": [
     {
+      "id": 513,
+      "slug": "cop31-climate-talks-collapse-without-deal-fossil-fuels-antalya-pact",
+      "category": "eco",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "November 26, 2026",
+      "title": "COP31 Climate Summit Ends Without a Deal After Fossil Fuels Vanish From the Antalya Pact",
+      "author": "Thomas Aldgate",
+      "excerpt": "The longest UN climate summit on record closed without its headline pact after the EU, the UK and island nations rejected a text that never named fossil fuels, with more than 100 polluting corporations and trade groups sending delegations to Antalya.",
+      "image": "/cop31-climate-talks-collapse-without-deal-fossil-fuels-antalya-pact.webp",
+      "tags": [
+        {
+          "label": "Environmental Exploitation",
+          "color": "bg-[#2196f3]"
+        }
+      ]
+    },
+    {
       "id": 512,
       "slug": "wigan-illegal-waste-site-cleanup-begins-waste-crime-crackdown",
       "category": "eco",
@@ -1104,17 +1122,6 @@
           "color": "bg-[#2196f3]"
         }
       ]
-    },
-    {
-      "id": 503,
-      "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions",
-      "category": "eco",
-      "title": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions",
-      "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
-      "categoryLabel": "Environmental Exploitation",
-      "categoryColor": "bg-[#2196f3]",
-      "date": "July 17, 2026",
-      "author": "Thomas Aldgate"
     },
     {
       "id": 504,
@@ -1144,6 +1151,17 @@
           "color": "bg-[#2196f3]"
         }
       ]
+    },
+    {
+      "id": 503,
+      "slug": "canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions",
+      "category": "eco",
+      "title": "Canadian Wildfire Smoke Causes Dangerous Air Pollution Across U.S. Regions",
+      "image": "/canadian-wildfire-smoke-causes-dangerous-air-pollution-across-us-regions.webp",
+      "categoryLabel": "Environmental Exploitation",
+      "categoryColor": "bg-[#2196f3]",
+      "date": "July 17, 2026",
+      "author": "Thomas Aldgate"
     }
   ],
   "discoveryRight": [
